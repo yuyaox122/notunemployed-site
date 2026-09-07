@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>bell — openings</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b0d10">
+<!-- Public by necessity (ADR-008), not meant to be found. robots.txt says the
+     same thing; this covers crawlers that read the tag and not the file. -->
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<style>
+:root{
+  --bg:#fbfaf8; --panel:#fff; --ink:#14171a; --muted:#5d6570; --line:#e4e2dd;
+  --accent:#1b5e4b; --accent-soft:#e6f1ec; --warn:#8a5a10; --warn-soft:#fdf3e0;
+  --weak:#6b6357; --weak-soft:#f3f0ea; --veil:rgba(251,250,248,.86);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --bg:#0b0d10; --panel:#14181d; --ink:#e9edf1; --muted:#9aa5b1; --line:#252b33;
+  --accent:#5fd3ac; --accent-soft:#12241e; --warn:#e8b25e; --warn-soft:#2a2113;
+  --weak:#9a917f; --weak-soft:#1c1a16; --veil:rgba(11,13,16,.86);
+}}
+:root[data-theme=dark]{
+  --bg:#0b0d10; --panel:#14181d; --ink:#e9edf1; --muted:#9aa5b1; --line:#252b33;
+  --accent:#5fd3ac; --accent-soft:#12241e; --warn:#e8b25e; --warn-soft:#2a2113;
+  --weak:#9a917f; --weak-soft:#1c1a16; --veil:rgba(11,13,16,.86);
+}
+/* ---- views ---- */
+.views{display:flex;gap:4px;margin-bottom:9px}
+.views button{padding:5px 12px;border-radius:20px;font-size:13px}
+.views button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);
+  color:var(--bg);font-weight:600}
+/* ---- browse ---- */
+.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(184px,1fr));gap:9px;
+  margin:8px 0 20px}
+.bcard{display:block;text-align:left;background:var(--panel);border:1px solid var(--line);
+  border-radius:11px;padding:11px 13px;cursor:pointer;width:100%}
+.bcard:hover{border-color:var(--accent)}
+.bcard b{display:block;font-size:15px;letter-spacing:-.01em}
+.bcard i{font-style:normal;color:var(--muted);font-size:12px}
+.bcard em{font-style:normal;float:right;font-variant-numeric:tabular-nums;
+  color:var(--accent);font-weight:700}
+.bcard.zero{opacity:.5}
+.bcard.zero em{color:var(--muted)}
+h2.sec{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;
+  margin:22px 0 4px}
+/* ---- calendar ---- */
+.track{background:var(--panel);border:1px solid var(--line);border-radius:11px;
+  padding:11px 13px;margin-bottom:8px;border-left:3px solid var(--line)}
+.track.open{border-left-color:var(--accent)}
+.track.closing{border-left-color:var(--warn)}
+.track.closed{opacity:.55}
+.track .row1{align-items:center}
+.track b{font-size:15px}
+.track .who{color:var(--muted);font-size:12px}
+.track .says{font-size:13px;margin-top:3px}
+.track.closing .says{color:var(--warn);font-weight:600}
+.month{display:flex;gap:10px;padding:8px 0;border-top:1px solid var(--line);
+  font-size:13px}
+.month b{flex:0 0 68px;color:var(--accent);font-variant-numeric:tabular-nums}
+.dl{display:flex;gap:10px;align-items:baseline;padding:7px 0;
+  border-top:1px solid var(--line);font-size:13px;flex-wrap:wrap}
+.dl b{flex:0 0 92px;font-variant-numeric:tabular-nums}
+.dl .left{color:var(--warn);font-weight:600;white-space:nowrap}
+.fact{background:var(--warn-soft);border:1px solid var(--warn);border-radius:11px;
+  padding:11px 13px;margin:12px 0;font-size:13px;color:var(--ink)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;
+  padding-bottom:env(safe-area-inset-bottom)}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px 64px}
+button{font:inherit;padding:8px 13px;border-radius:9px;border:1px solid var(--line);
+  background:var(--panel);color:var(--ink);cursor:pointer}
+button:disabled{cursor:default;opacity:.38}
+button[aria-pressed=true]{background:var(--accent-soft);border-color:var(--accent);
+  color:var(--accent);font-weight:600}
+code{background:var(--weak-soft);padding:1px 5px;border-radius:5px;font-size:12px}
+
+/* ---- sticky chrome: search and filters must survive scrolling 200 rows ---- */
+.sticky{position:sticky;top:0;z-index:20;background:var(--veil);
+  backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.sticky .wrap{padding-top:10px;padding-bottom:10px}
+.brand{display:flex;align-items:center;gap:10px;margin-bottom:9px}
+h1{font-size:19px;margin:0;letter-spacing:-.02em;white-space:nowrap}
+h1 span{color:var(--accent)}
+.brand .sub{color:var(--muted);font-size:12px;flex:1 1 auto;min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar{display:flex;gap:8px;align-items:center}
+input[type=search]{flex:1 1 auto;min-width:0;padding:9px 12px;border-radius:9px;
+  border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:16px}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--bg);
+  font-weight:600;white-space:nowrap}
+#fFilters{white-space:nowrap}
+#fFilters b{font-variant-numeric:tabular-nums}
+
+/* ---- the filter panel ---- */
+#panel{margin-top:10px;border:1px solid var(--line);border-radius:11px;
+  background:var(--panel);padding:10px 12px}
+.fgroup{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;
+  padding:6px 0;border-top:1px solid var(--line)}
+.fgroup:first-child{border-top:0}
+.fgroup>h3{margin:0;font-size:11px;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.06em;flex:0 0 74px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;flex:1 1 240px}
+.chip{padding:4px 11px;font-size:13px;border-radius:20px}
+.chip u{text-decoration:none;color:var(--muted);font-size:11px;margin-left:5px;
+  font-variant-numeric:tabular-nums}
+.chip[aria-pressed=true] u{color:inherit;opacity:.75}
+
+/* ---- result bar ---- */
+.resbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0 2px}
+.resbar .count{font-weight:600;font-variant-numeric:tabular-nums}
+.resbar .spacer{flex:1 1 auto}
+select{font:inherit;font-size:13px;padding:6px 8px;border-radius:8px;
+  border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:12px;
+  background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent);
+  border-radius:20px;padding:2px 6px 2px 10px}
+.pill button{all:unset;cursor:pointer;font-size:14px;line-height:1;padding:0 3px;
+  opacity:.7}
+.pill button:hover{opacity:1}
+.linkish{background:none;border:0;color:var(--muted);text-decoration:underline;
+  cursor:pointer;font-size:12px;padding:4px 2px}
+
+/* ---- stats ---- */
+.stats{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 2px;
+  font-variant-numeric:tabular-nums}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:9px;
+  padding:7px 11px;min-width:78px;text-align:left}
+.stat b{display:block;font-size:18px;letter-spacing:-.02em}
+.stat i{font-style:normal;color:var(--muted);font-size:11px;text-transform:uppercase;
+  letter-spacing:.05em}
+button.stat[aria-pressed=true]{background:var(--accent-soft);border-color:var(--accent)}
+button.stat[aria-pressed=true] b,button.stat[aria-pressed=true] i{color:var(--accent)}
+.stat.blind{background:var(--warn-soft);border-color:var(--warn)}
+.stat.blind b,.stat.blind i{color:var(--warn)}
+
+/* ---- the list ---- */
+ul{list-style:none;padding:0;margin:0}
+.dayhead{font-size:11px;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.07em;font-weight:700;margin:18px 0 7px;display:flex;gap:8px;
+  align-items:center}
+.dayhead:after{content:"";flex:1 1 auto;height:1px;background:var(--line)}
+li.item{background:var(--panel);border:1px solid var(--line);border-radius:11px;
+  padding:11px 13px;margin-bottom:8px;position:relative}
+li.item.weak{background:var(--weak-soft)}
+li.item.isnew{border-left:3px solid var(--accent)}
+.row1{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.firm{font-weight:650;font-size:13px;color:var(--accent);letter-spacing:.01em}
+li.item.weak .firm{color:var(--weak)}
+.when{color:var(--muted);font-size:12px;white-space:nowrap;
+  font-variant-numeric:tabular-nums}
+.title{margin:3px 0 5px;font-size:15px;line-height:1.35}
+.title a{color:inherit;text-decoration:none}
+.title a:hover{text-decoration:underline}
+.meta{display:flex;gap:6px;flex-wrap:wrap;color:var(--muted);font-size:12px;
+  align-items:center}
+.tag{border:1px solid var(--line);border-radius:20px;padding:1px 8px;font-size:11px}
+.tag.uk{border-color:var(--accent);color:var(--accent)}
+.tag.facet{background:var(--weak-soft)}
+.tag.weakt{border-color:var(--weak);color:var(--weak)}
+.tag.dl{border-color:var(--warn);color:var(--warn);background:var(--warn-soft)}
+.tag.newt{border-color:var(--accent);background:var(--accent);color:var(--bg);
+  font-weight:700}
+.acts{display:flex;gap:6px;margin-top:8px}
+.acts button{padding:4px 10px;font-size:12px;border-radius:7px}
+li.item.marked{opacity:.5}
+.tag.done{border-color:var(--muted);color:var(--muted);text-transform:capitalize}
+
+/* ---- coverage ---- */
+.gaps{background:var(--warn-soft);border:1px solid var(--warn);border-radius:11px;
+  padding:11px 13px;margin:14px 0;font-size:13px}
+.gaps h2{margin:0 0 6px;font-size:12px;color:var(--warn);text-transform:uppercase;
+  letter-spacing:.06em}
+.gaps ul{margin:0}.gaps li{padding:2px 0;color:var(--ink)}
+.blind{background:var(--panel);border:1px solid var(--line);border-radius:11px;
+  padding:10px 13px;margin:12px 0;font-size:13px}
+.blind summary{cursor:pointer;font-weight:600;color:var(--warn);
+  text-transform:uppercase;letter-spacing:.05em;font-size:12px}
+.blind h3{margin:12px 0 6px;font-size:12px;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.05em}
+.bs{display:flex;justify-content:space-between;gap:10px;align-items:baseline;
+  padding:6px 0;border-top:1px solid var(--line);flex-wrap:wrap}
+.bs a{color:var(--accent);text-decoration:none;font-weight:600}
+.bs a:hover{text-decoration:underline}
+.bs .why{color:var(--muted);flex:1 1 240px;min-width:0}
+.bs .chk{white-space:nowrap;display:flex;gap:6px;align-items:center}
+.bs button{padding:3px 9px;font-size:11px;border-radius:6px}
+.bs .stale{color:var(--warn);font-weight:600}
+.empty{text-align:center;color:var(--muted);padding:40px 12px}
+.empty button{margin-top:10px}
+footer{margin-top:26px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);
+  padding-top:12px}
+#note{font-size:12px;color:var(--muted);margin-top:8px}
+@media (max-width:520px){
+  .fgroup>h3{flex-basis:100%}
+  .stats{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-left:-16px;
+    margin-right:-16px;padding:0 16px}
+  .stats::-webkit-scrollbar{display:none}
+  .stat{flex:0 0 auto}
+}
+</style>
+</head>
+<body>
+
+<div class="sticky">
+  <div class="wrap">
+    <div class="brand">
+      <h1><span>bell</span> — openings</h1>
+      <span class="sub" id="gen">loading…</span>
+      <button id="fNotify" class="primary">Enable alerts</button>
+    </div>
+    <nav class="views" id="views" aria-label="Views">
+      <button data-view="list"     aria-pressed="true">Openings</button>
+      <button data-view="browse"   aria-pressed="false">Browse</button>
+      <button data-view="calendar" aria-pressed="false">Calendar</button>
+    </nav>
+    <div class="bar" id="searchbar">
+      <input type="search" id="q" placeholder="Search firm, title, location…"
+             autocomplete="off" aria-label="Search openings">
+      <button id="fFilters" aria-expanded="false" aria-controls="panel">Filters</button>
+    </div>
+    <div id="panel" hidden>
+      <div class="fgroup"><h3>Stage</h3><div class="chips" id="fStage"></div></div>
+      <div class="fgroup"><h3>Desk</h3><div class="chips" id="fDesk"></div></div>
+      <div class="fgroup"><h3>Firm</h3><div class="chips" id="fFirm"></div></div>
+      <div class="fgroup"><h3>Show</h3><div class="chips">
+        <button class="chip" id="fUK"     aria-pressed="true">UK only</button>
+        <button class="chip" id="fStrong" aria-pressed="true">Strong only</button>
+        <button class="chip" id="fHide"   aria-pressed="true">Hide marked</button>
+        <button class="chip" id="fNew"    aria-pressed="false">New to me</button>
+      </div></div>
+    </div>
+    <div id="note"></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="stats" id="stats"></div>
+
+  <div class="resbar">
+    <span class="count" id="resCount"></span>
+    <span id="pills"></span>
+    <button class="linkish" id="fClear" hidden>clear filters</button>
+    <span class="spacer"></span>
+    <span class="sub" id="doneCount"></span>
+    <label class="sub" for="sort">Sort</label>
+    <select id="sort">
+      <option value="opened">Newest opening</option>
+      <option value="found">Recently found</option>
+      <option value="firm">Firm A–Z</option>
+    </select>
+  </div>
+
+  <div id="gaps"></div>
+  <details id="blindwrap" class="blind">
+    <summary><span id="blindcount"></span> — firms bell cannot fully track</summary>
+    <div id="blind"></div>
+  </details>
+
+  <div id="list"></div>
+  <div class="empty" id="empty" hidden>Nothing matches those filters.</div>
+  <div id="browse" hidden></div>
+  <div id="calendar" hidden></div>
+
+  <footer>
+    Detection uses each board's own <code>first_published</code> where the platform
+    provides it. Rows marked <span class="tag weakt">weak</span> matched a stage but not
+    an explicit desk — shown, never pushed.
+    <span id="lat"></span>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

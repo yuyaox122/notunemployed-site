@@ -1,0 +1,10 @@
+# The site is public because GitHub Pages will not serve a private repository on the
+# free plan (ADR-008). Public and *findable* are different things, and nothing here
+# needs to be in a search index: it is one person's tracker, and the postings it lists
+# are already indexed on the firms' own careers pages.
+#
+# This is a request, and bell of all projects knows a request is only as good as the
+# crawler reading it — see docs/06-politeness.md, where we obey other people's.
+# Remove this file if the site is ever meant to be found.
+User-agent: *
+Disallow: /
