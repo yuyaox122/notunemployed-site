@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-08T11:11:23.526867+00:00",
+ "generated_at": "2026-09-08T11:17:44.146021+00:00",
  "counts": {
   "items": 268,
   "strong": 253,
   "uk": 96,
-  "seen_24h": 452,
+  "seen_24h": 459,
   "truncated": false,
   "total": 268,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5231
+  "postings_tracked": 5238
  },
  "detection": {
   "mean_latency_s": 1373.2,
@@ -210,9 +210,9 @@
    "key": "oracle:jpmc.fa.oraclecloud.com|CX_1001|https://careers.jpmorgan.com/global/en/job/{id}",
    "firm": "J.P. Morgan",
    "tier": "B",
-   "n_total": 71,
+   "n_total": 75,
    "n_match": 0,
-   "reason": "71 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "75 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:dexterity",
@@ -237,7 +237,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-08T10:19:20.146647+00:00",
+   "last_checked_by_bell": "2026-09-08T11:11:42.608689+00:00",
    "last_change_detected": "2026-09-07T08:31:08.025298+00:00",
    "categories": [
     "prop"
@@ -347,7 +347,7 @@
    "url": "https://careers.db.com/students-graduates/|spring",
    "kind": "manual",
    "why": "No ATS. Runs three explicitly quant Markets streams.",
-   "last_checked_by_bell": "2026-09-08T10:19:18.230066+00:00",
+   "last_checked_by_bell": "2026-09-08T11:11:40.589790+00:00",
    "last_change_detected": "2026-09-07T17:48:46.198895+00:00",
    "categories": [
     "bank"
@@ -358,7 +358,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs|spring",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-08T10:21:32.078781+00:00",
+   "last_checked_by_bell": "2026-09-08T11:14:49.115240+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -369,7 +369,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T11:06:41.062215+00:00",
+   "last_checked_by_bell": "2026-09-08T11:14:51.077852+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
@@ -380,7 +380,7 @@
    "url": "https://www.jefferies.com/careers/|spring",
    "kind": "manual",
    "why": "tal.net, at jefferies.tal.net/vx/.../jobboard/vacancy/{1,2}/adv/. Both vacancy boards return a 4.7 KB JavaScript shell with no anchors, unlike Bank of America's tal.net board which server-renders. Same vendor, different brand configuration. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T10:21:36.766322+00:00",
+   "last_checked_by_bell": "2026-09-08T11:14:53.707533+00:00",
    "last_change_detected": "2026-09-07T17:49:19.577230+00:00",
    "categories": [
     "bank"
