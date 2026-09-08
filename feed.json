@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-08T15:06:32.356162+00:00",
+ "generated_at": "2026-09-08T15:10:01.110185+00:00",
  "counts": {
   "items": 273,
   "strong": 258,
   "uk": 101,
-  "seen_24h": 527,
+  "seen_24h": 528,
   "truncated": false,
   "total": 273,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5348
+  "postings_tracked": 5350
  },
  "detection": {
   "mean_latency_s": 1717.1,
@@ -210,9 +210,9 @@
    "key": "oracle:jpmc.fa.oraclecloud.com|CX_1001|https://careers.jpmorgan.com/global/en/job/{id}",
    "firm": "J.P. Morgan",
    "tier": "B",
-   "n_total": 88,
+   "n_total": 90,
    "n_match": 0,
-   "reason": "88 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "90 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:dexterity",
@@ -366,7 +366,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs|spring",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-08T14:49:42.652389+00:00",
+   "last_checked_by_bell": "2026-09-08T15:09:48.297835+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T15:02:04.997730+00:00",
+   "last_checked_by_bell": "2026-09-08T15:06:45.588457+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
@@ -388,7 +388,7 @@
    "url": "https://www.jefferies.com/careers/|spring",
    "kind": "manual",
    "why": "tal.net, at jefferies.tal.net/vx/.../jobboard/vacancy/{1,2}/adv/. Both vacancy boards return a 4.7 KB JavaScript shell with no anchors, unlike Bank of America's tal.net board which server-renders. Same vendor, different brand configuration. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T14:49:47.658145+00:00",
+   "last_checked_by_bell": "2026-09-08T15:09:52.918655+00:00",
    "last_change_detected": "2026-09-07T17:49:19.577230+00:00",
    "categories": [
     "bank"
