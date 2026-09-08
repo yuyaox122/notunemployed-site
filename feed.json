@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-08T12:37:24.394386+00:00",
+ "generated_at": "2026-09-08T12:41:50.047726+00:00",
  "counts": {
   "items": 270,
   "strong": 255,
   "uk": 97,
-  "seen_24h": 481,
+  "seen_24h": 483,
   "truncated": false,
   "total": 270,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5297
+  "postings_tracked": 5299
  },
  "detection": {
   "mean_latency_s": 1323.7,
@@ -54,9 +54,9 @@
      "seconds": 938
     }
    ],
-   "n_gaps": 46,
+   "n_gaps": 45,
    "longest_gap_s": 1653,
-   "blind_s": 38239
+   "blind_s": 37902
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -248,7 +248,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-08T12:22:16.356460+00:00",
+   "last_checked_by_bell": "2026-09-08T12:37:37.594426+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -369,7 +369,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T12:37:08.677701+00:00",
+   "last_checked_by_bell": "2026-09-08T12:37:37.399399+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
@@ -424,7 +424,7 @@
    "url": "https://careers.smbcgroup.com/|spring",
    "kind": "manual",
    "why": "SuccessFactors \u2014 career8.successfactors.com, company smbcP2, linked from careers.smbcgroup.com. **robots.txt disallows it.** That is a refusal and it is final; this is no longer 'no readable board' but 'they said no'.",
-   "last_checked_by_bell": "2026-09-08T12:22:04.618161+00:00",
+   "last_checked_by_bell": "2026-09-08T12:37:25.174959+00:00",
    "last_change_detected": "2026-09-07T17:28:53.931978+00:00",
    "categories": [
     "bank"
@@ -435,7 +435,7 @@
    "url": "https://careers.societegenerale.com/|spring",
    "kind": "manual",
    "why": "Taleo \u2014 socgen.taleo.net/careersection/sgcareers/. The career section is a JavaScript application: 697 KB and not one job link in the HTML. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T12:22:04.618944+00:00",
+   "last_checked_by_bell": "2026-09-08T12:37:25.175770+00:00",
    "last_change_detected": "2026-09-07T17:49:42.250947+00:00",
    "categories": [
     "bank"
@@ -446,7 +446,7 @@
    "url": "https://www.starlizard.com/|any",
    "kind": "manual",
    "why": "No ATS. ~242 staff, London. Sports betting modelling.",
-   "last_checked_by_bell": "2026-09-08T12:22:05.217431+00:00",
+   "last_checked_by_bell": "2026-09-08T12:37:25.830891+00:00",
    "last_change_detected": "2026-09-07T17:49:42.746190+00:00",
    "categories": [
     "betting"
