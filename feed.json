@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-08T17:25:00.724124+00:00",
+ "generated_at": "2026-09-08T18:19:52.189712+00:00",
  "counts": {
   "items": 271,
   "strong": 256,
   "uk": 99,
-  "seen_24h": 375,
+  "seen_24h": 373,
   "truncated": false,
   "total": 271,
   "firms": 145,
@@ -54,9 +54,9 @@
      "seconds": 937
     }
    ],
-   "n_gaps": 48,
+   "n_gaps": 52,
    "longest_gap_s": 1653,
-   "blind_s": 40245
+   "blind_s": 43303
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T17:23:48.161811+00:00",
+   "last_checked_by_bell": "2026-09-08T18:19:44.159003+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
@@ -465,7 +465,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html|spring",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T17:02:46.222112+00:00",
+   "last_checked_by_bell": "2026-09-08T17:25:05.998527+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -476,7 +476,7 @@
    "url": "https://www.wellsfargojobs.com/|spring",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T17:02:47.960730+00:00",
+   "last_checked_by_bell": "2026-09-08T17:25:07.895624+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
