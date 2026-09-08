@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-09-08T15:31:59.464226+00:00",
+ "generated_at": "2026-09-08T15:35:38.555972+00:00",
  "counts": {
   "items": 273,
   "strong": 258,
   "uk": 101,
-  "seen_24h": 528,
+  "seen_24h": 530,
   "truncated": false,
   "total": 273,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5352
+  "postings_tracked": 5354
  },
  "detection": {
-  "mean_latency_s": 1717.1,
-  "sampled": 59,
+  "mean_latency_s": 1681.1,
+  "sampled": 61,
   "by_tier": {
    "A": {
     "mean_latency_s": 636.7,
     "sampled": 21
    },
    "B": {
-    "mean_latency_s": 2314.1,
-    "sampled": 38
+    "mean_latency_s": 2229.4,
+    "sampled": 40
    }
   },
   "watch": {
@@ -245,7 +245,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-08T15:19:12.150564+00:00",
+   "last_checked_by_bell": "2026-09-08T15:33:32.079805+00:00",
    "last_change_detected": "2026-09-07T08:31:08.025298+00:00",
    "categories": [
     "prop"
@@ -267,7 +267,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-08T15:16:40.583227+00:00",
+   "last_checked_by_bell": "2026-09-08T15:32:14.584413+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -278,7 +278,7 @@
    "url": "https://www.blackstone.com/careers/|spring",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-08T15:18:43.307378+00:00",
+   "last_checked_by_bell": "2026-09-08T15:32:52.035586+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -289,7 +289,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates|spring",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T15:18:43.307927+00:00",
+   "last_checked_by_bell": "2026-09-08T15:32:52.036346+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -300,7 +300,7 @@
    "url": "https://www.bridgewater.com/working-at-bridgewater/job-openings|pod",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-08T15:18:54.598389+00:00",
+   "last_checked_by_bell": "2026-09-08T15:33:04.990110+00:00",
    "last_change_detected": null,
    "categories": [
     "quant_fund"
@@ -311,7 +311,7 @@
    "url": "https://www.castletoncommodities.com/careers/|any",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-08T15:18:55.050165+00:00",
+   "last_checked_by_bell": "2026-09-08T15:33:05.425010+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -322,7 +322,7 @@
    "url": "https://www.chicagotrading.com/careers/|prop",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-08T15:18:55.050986+00:00",
+   "last_checked_by_bell": "2026-09-08T15:33:05.425852+00:00",
    "last_change_detected": "2026-09-07T17:48:36.251225+00:00",
    "categories": [
     "prop"
@@ -333,7 +333,7 @@
    "url": "https://www.citadel.com/careers/students/|prop",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-08T15:18:58.472297+00:00",
+   "last_checked_by_bell": "2026-09-08T15:33:08.528819+00:00",
    "last_change_detected": "2026-09-07T17:27:52.536866+00:00",
    "categories": [
     "quant_fund"
@@ -344,7 +344,7 @@
    "url": "https://www.citadelsecurities.com/careers/|prop",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-08T15:18:58.472919+00:00",
+   "last_checked_by_bell": "2026-09-08T15:33:08.529527+00:00",
    "last_change_detected": "2026-09-07T17:27:52.537398+00:00",
    "categories": [
     "prop"
@@ -355,7 +355,7 @@
    "url": "https://careers.db.com/students-graduates/|spring",
    "kind": "manual",
    "why": "No ATS. Runs three explicitly quant Markets streams.",
-   "last_checked_by_bell": "2026-09-08T15:19:10.586408+00:00",
+   "last_checked_by_bell": "2026-09-08T15:33:30.224673+00:00",
    "last_change_detected": "2026-09-07T17:48:46.198895+00:00",
    "categories": [
     "bank"
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T15:25:24.016198+00:00",
+   "last_checked_by_bell": "2026-09-08T15:33:16.913266+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
