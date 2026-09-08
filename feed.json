@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-09-08T11:01:02.320926+00:00",
+ "generated_at": "2026-09-08T11:06:15.858823+00:00",
  "counts": {
   "items": 268,
   "strong": 253,
   "uk": 96,
-  "seen_24h": 451,
+  "seen_24h": 453,
   "truncated": false,
   "total": 268,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5229
+  "postings_tracked": 5231
  },
  "detection": {
-  "mean_latency_s": 1381.0,
-  "sampled": 45,
+  "mean_latency_s": 1373.2,
+  "sampled": 47,
   "by_tier": {
    "A": {
     "mean_latency_s": 850.5,
     "sampled": 14
    },
    "B": {
-    "mean_latency_s": 1620.6,
-    "sampled": 31
+    "mean_latency_s": 1595.0,
+    "sampled": 33
    }
   },
   "watch": {
@@ -259,7 +259,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-08T10:18:21.175538+00:00",
+   "last_checked_by_bell": "2026-09-08T11:01:14.796548+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
