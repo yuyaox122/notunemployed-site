@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-08T01:08:58.889941+00:00",
+ "generated_at": "2026-09-08T01:25:00.464386+00:00",
  "counts": {
   "items": 270,
   "strong": 255,
   "uk": 98,
-  "seen_24h": 321,
+  "seen_24h": 323,
   "truncated": false,
   "total": 270,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5046
+  "postings_tracked": 5051
  },
  "detection": {
   "mean_latency_s": 1410.0,
@@ -54,9 +54,9 @@
      "seconds": 1033
     }
    ],
-   "n_gaps": 29,
+   "n_gaps": 30,
    "longest_gap_s": 1653,
-   "blind_s": 24369
+   "blind_s": 25289
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -207,6 +207,14 @@
    "reason": "128 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "oracle:jpmc.fa.oraclecloud.com|CX_1001|https://careers.jpmorgan.com/global/en/job/{id}",
+   "firm": "J.P. Morgan",
+   "tier": "B",
+   "n_total": 33,
+   "n_match": 0,
+   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "lever:dexterity",
    "firm": "Dexterity Capital",
    "tier": "B",
@@ -221,14 +229,6 @@
    "n_total": 30,
    "n_match": 0,
    "reason": "30 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "oracle:jpmc.fa.oraclecloud.com|CX_1001|https://careers.jpmorgan.com/global/en/job/{id}",
-   "firm": "J.P. Morgan",
-   "tier": "B",
-   "n_total": 28,
-   "n_match": 0,
-   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   }
  ],
  "blindspots": [
@@ -237,7 +237,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-07T23:01:05.262400+00:00",
+   "last_checked_by_bell": "2026-09-08T01:09:24.799012+00:00",
    "last_change_detected": "2026-09-07T08:31:08.025298+00:00",
    "categories": [
     "prop"
@@ -347,7 +347,7 @@
    "url": "https://careers.db.com/students-graduates/|spring",
    "kind": "manual",
    "why": "No ATS. Runs three explicitly quant Markets streams.",
-   "last_checked_by_bell": "2026-09-07T23:01:03.590851+00:00",
+   "last_checked_by_bell": "2026-09-08T01:09:22.274898+00:00",
    "last_change_detected": "2026-09-07T17:48:46.198895+00:00",
    "categories": [
     "bank"
@@ -358,7 +358,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs|spring",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-07T23:01:32.032290+00:00",
+   "last_checked_by_bell": "2026-09-08T01:24:56.064485+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -369,7 +369,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T01:04:15.561280+00:00",
+   "last_checked_by_bell": "2026-09-08T01:09:11.730572+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
@@ -380,7 +380,7 @@
    "url": "https://www.jefferies.com/careers/|spring",
    "kind": "manual",
    "why": "tal.net, at jefferies.tal.net/vx/.../jobboard/vacancy/{1,2}/adv/. Both vacancy boards return a 4.7 KB JavaScript shell with no anchors, unlike Bank of America's tal.net board which server-renders. Same vendor, different brand configuration. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-07T23:01:36.522314+00:00",
+   "last_checked_by_bell": "2026-09-08T01:25:00.380615+00:00",
    "last_change_detected": "2026-09-07T17:49:19.577230+00:00",
    "categories": [
     "bank"
@@ -4042,7 +4042,7 @@
   },
   {
    "firm": "Deutsche Bank",
-   "title": "Deutsche Bank \u2014 Spring week / insight programme window is open, and has been for 6 days. No automated access; check by hand.",
+   "title": "Deutsche Bank \u2014 Spring week / insight programme window is open, and has been for 7 days. No automated access; check by hand.",
    "url": "https://careers.db.com/students-graduates/",
    "location": "",
    "opened_at": null,
@@ -4546,7 +4546,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 6 days. No automated access; check by hand.",
+   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 7 days. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "opened_at": null,
