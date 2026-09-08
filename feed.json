@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-08T09:05:00.556260+00:00",
+ "generated_at": "2026-09-08T09:21:13.432024+00:00",
  "counts": {
-  "items": 268,
+  "items": 267,
   "strong": 252,
-  "uk": 96,
-  "seen_24h": 419,
+  "uk": 95,
+  "seen_24h": 422,
   "truncated": false,
-  "total": 268,
+  "total": 267,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5195
+  "postings_tracked": 5198
  },
  "detection": {
   "mean_latency_s": 1409.2,
@@ -54,9 +54,9 @@
      "seconds": 940
     }
    ],
-   "n_gaps": 46,
+   "n_gaps": 47,
    "longest_gap_s": 1653,
-   "blind_s": 38467
+   "blind_s": 39176
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -264,7 +264,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-08T08:51:32.768424+00:00",
+   "last_checked_by_bell": "2026-09-08T09:17:00.779002+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -385,7 +385,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T09:04:42.182248+00:00",
+   "last_checked_by_bell": "2026-09-08T09:19:49.240379+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://careers.smbcgroup.com/|spring",
    "kind": "manual",
    "why": "SuccessFactors \u2014 career8.successfactors.com, company smbcP2, linked from careers.smbcgroup.com. **robots.txt disallows it.** That is a refusal and it is final; this is no longer 'no readable board' but 'they said no'.",
-   "last_checked_by_bell": "2026-09-08T08:51:21.088776+00:00",
+   "last_checked_by_bell": "2026-09-08T09:05:01.139081+00:00",
    "last_change_detected": "2026-09-07T17:28:53.931978+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://careers.societegenerale.com/|spring",
    "kind": "manual",
    "why": "Taleo \u2014 socgen.taleo.net/careersection/sgcareers/. The career section is a JavaScript application: 697 KB and not one job link in the HTML. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T08:51:21.089550+00:00",
+   "last_checked_by_bell": "2026-09-08T09:05:01.139861+00:00",
    "last_change_detected": "2026-09-07T17:49:42.250947+00:00",
    "categories": [
     "bank"
@@ -462,7 +462,7 @@
    "url": "https://www.starlizard.com/|any",
    "kind": "manual",
    "why": "No ATS. ~242 staff, London. Sports betting modelling.",
-   "last_checked_by_bell": "2026-09-08T08:51:21.712504+00:00",
+   "last_checked_by_bell": "2026-09-08T09:05:01.720113+00:00",
    "last_change_detected": "2026-09-07T17:49:42.746190+00:00",
    "categories": [
     "betting"
@@ -473,7 +473,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html|spring",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T08:51:42.827780+00:00",
+   "last_checked_by_bell": "2026-09-08T09:17:11.345251+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -484,7 +484,7 @@
    "url": "https://www.wellsfargojobs.com/|spring",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T08:51:44.864409+00:00",
+   "last_checked_by_bell": "2026-09-08T09:17:14.698427+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
@@ -544,24 +544,6 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "EU Campus | London Networking Event 1 Oct",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4969550101",
-   "location": "London, United Kingdom",
-   "opened_at": "2026-09-07T08:23:14+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-07T08:25:47.308004+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "weak",
-   "stage": "graduate",
-   "desk": null,
-   "desk_inferred": false,
-   "reason": "campus + stage-only at a whole-firm employer",
-   "uk": true,
    "tier": "A"
   },
   {
