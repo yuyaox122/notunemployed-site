@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-09-08T08:16:26.905438+00:00",
+ "generated_at": "2026-09-08T08:20:35.164201+00:00",
  "counts": {
   "items": 271,
   "strong": 255,
   "uk": 99,
-  "seen_24h": 404,
+  "seen_24h": 405,
   "truncated": false,
   "total": 271,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5161
+  "postings_tracked": 5162
  },
  "detection": {
-  "mean_latency_s": 1392.4,
-  "sampled": 42,
+  "mean_latency_s": 1435.3,
+  "sampled": 43,
   "by_tier": {
    "A": {
     "mean_latency_s": 904.8,
     "sampled": 13
    },
    "B": {
-    "mean_latency_s": 1610.9,
-    "sampled": 29
+    "mean_latency_s": 1665.1,
+    "sampled": 30
    }
   },
   "watch": {
@@ -259,7 +259,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-08T07:15:28.862675+00:00",
+   "last_checked_by_bell": "2026-09-08T08:16:39.095618+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -369,7 +369,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T08:12:06.511323+00:00",
+   "last_checked_by_bell": "2026-09-08T08:16:39.725883+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
