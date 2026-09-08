@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T08:51:30.384863+00:00",
+ "generated_at": "2026-09-08T08:56:36.886037+00:00",
  "counts": {
   "items": 272,
   "strong": 256,
@@ -54,9 +54,9 @@
      "seconds": 958
     }
    ],
-   "n_gaps": 48,
+   "n_gaps": 47,
    "longest_gap_s": 1653,
-   "blind_s": 40239
+   "blind_s": 39562
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -248,7 +248,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-08T08:37:47.366256+00:00",
+   "last_checked_by_bell": "2026-09-08T08:51:32.768424+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -369,7 +369,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T08:47:30.508424+00:00",
+   "last_checked_by_bell": "2026-09-08T08:54:15.178956+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
@@ -457,7 +457,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html|spring",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T08:39:51.316650+00:00",
+   "last_checked_by_bell": "2026-09-08T08:51:42.827780+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -468,7 +468,7 @@
    "url": "https://www.wellsfargojobs.com/|spring",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T08:39:53.312992+00:00",
+   "last_checked_by_bell": "2026-09-08T08:51:44.864409+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
