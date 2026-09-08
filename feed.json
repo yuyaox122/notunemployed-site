@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-08T17:16:19.040946+00:00",
+ "generated_at": "2026-09-08T17:20:39.462497+00:00",
  "counts": {
   "items": 271,
   "strong": 256,
   "uk": 99,
-  "seen_24h": 367,
+  "seen_24h": 373,
   "truncated": false,
   "total": 271,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5394
+  "postings_tracked": 5400
  },
  "detection": {
   "mean_latency_s": 1614.6,
@@ -186,9 +186,9 @@
    "key": "sitemap:https://careers.blackrock.com/sitemap.xml|/job/",
    "firm": "BlackRock",
    "tier": "B",
-   "n_total": 207,
+   "n_total": 213,
    "n_match": 0,
-   "reason": "207 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "213 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
@@ -267,7 +267,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-08T17:00:13.975564+00:00",
+   "last_checked_by_bell": "2026-09-08T17:18:14.412257+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -278,7 +278,7 @@
    "url": "https://www.blackstone.com/careers/|spring",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-08T17:00:42.741618+00:00",
+   "last_checked_by_bell": "2026-09-08T17:18:45.594012+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -289,7 +289,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates|spring",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T17:00:42.742332+00:00",
+   "last_checked_by_bell": "2026-09-08T17:18:45.594906+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
