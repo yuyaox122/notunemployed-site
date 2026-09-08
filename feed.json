@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-08T00:49:04.693100+00:00",
+ "generated_at": "2026-09-08T01:08:58.889941+00:00",
  "counts": {
   "items": 270,
   "strong": 255,
   "uk": 98,
-  "seen_24h": 309,
+  "seen_24h": 321,
   "truncated": false,
   "total": 270,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5034
+  "postings_tracked": 5046
  },
  "detection": {
   "mean_latency_s": 1410.0,
@@ -54,9 +54,9 @@
      "seconds": 1033
     }
    ],
-   "n_gaps": 28,
+   "n_gaps": 29,
    "longest_gap_s": 1653,
-   "blind_s": 23470
+   "blind_s": 24369
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -259,7 +259,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-07T23:00:16.938645+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:15.671787+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -270,7 +270,7 @@
    "url": "https://www.blackstone.com/careers/|spring",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-07T23:00:46.092954+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:47.231993+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -281,7 +281,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates|spring",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-07T23:00:46.093638+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:47.232831+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -292,7 +292,7 @@
    "url": "https://www.bridgewater.com/working-at-bridgewater/job-openings|pod",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-07T23:00:47.577147+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:48.842246+00:00",
    "last_change_detected": null,
    "categories": [
     "quant_fund"
@@ -303,7 +303,7 @@
    "url": "https://www.castletoncommodities.com/careers/|any",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-07T23:00:47.873491+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:49.145978+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -314,7 +314,7 @@
    "url": "https://www.chicagotrading.com/careers/|prop",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-07T23:00:47.874504+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:49.146923+00:00",
    "last_change_detected": "2026-09-07T17:48:36.251225+00:00",
    "categories": [
     "prop"
@@ -325,7 +325,7 @@
    "url": "https://www.citadel.com/careers/students/|prop",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-07T23:00:51.005471+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:52.125295+00:00",
    "last_change_detected": "2026-09-07T17:27:52.536866+00:00",
    "categories": [
     "quant_fund"
@@ -336,7 +336,7 @@
    "url": "https://www.citadelsecurities.com/careers/|prop",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-07T23:00:51.006132+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:52.126110+00:00",
    "last_change_detected": "2026-09-07T17:27:52.537398+00:00",
    "categories": [
     "prop"
@@ -369,7 +369,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T00:48:45.394958+00:00",
+   "last_checked_by_bell": "2026-09-08T01:04:15.561280+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
@@ -4060,7 +4060,7 @@
   },
   {
    "firm": "Chicago Trading Company",
-   "title": "Chicago Trading Company \u2014 Summer internship \u2014 prop firms window is open, and has been for 129 days. No automated access; check by hand.",
+   "title": "Chicago Trading Company \u2014 Summer internship \u2014 prop firms window is open, and has been for 130 days. No automated access; check by hand.",
    "url": "https://www.chicagotrading.com/careers/",
    "location": "",
    "opened_at": null,
@@ -4564,7 +4564,7 @@
   },
   {
    "firm": "Citadel Securities",
-   "title": "Citadel Securities \u2014 Summer internship \u2014 prop firms window is open, and has been for 129 days. No automated access; check by hand.",
+   "title": "Citadel Securities \u2014 Summer internship \u2014 prop firms window is open, and has been for 130 days. No automated access; check by hand.",
    "url": "https://www.citadelsecurities.com/careers/",
    "location": "",
    "opened_at": null,
@@ -4582,7 +4582,7 @@
   },
   {
    "firm": "Citadel",
-   "title": "Citadel \u2014 Summer internship \u2014 prop firms window is open, and has been for 129 days. No automated access; check by hand.",
+   "title": "Citadel \u2014 Summer internship \u2014 prop firms window is open, and has been for 130 days. No automated access; check by hand.",
    "url": "https://www.citadel.com/careers/students/",
    "location": "",
    "opened_at": null,
@@ -4600,7 +4600,7 @@
   },
   {
    "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 6 days. No automated access; check by hand.",
+   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 7 days. No automated access; check by hand.",
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "location": "",
    "opened_at": null,
@@ -4618,7 +4618,7 @@
   },
   {
    "firm": "Blackstone",
-   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 6 days. No automated access; check by hand.",
+   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 7 days. No automated access; check by hand.",
    "url": "https://www.blackstone.com/careers/",
    "location": "",
    "opened_at": null,
