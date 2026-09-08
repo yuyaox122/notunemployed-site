@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-08T19:02:53.501607+00:00",
+ "generated_at": "2026-09-08T19:08:04.033479+00:00",
  "counts": {
   "items": 271,
   "strong": 256,
   "uk": 99,
-  "seen_24h": 395,
+  "seen_24h": 400,
   "truncated": false,
   "total": 271,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5425
+  "postings_tracked": 5430
  },
  "detection": {
   "mean_latency_s": 1614.6,
@@ -267,7 +267,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-08T18:20:05.935343+00:00",
+   "last_checked_by_bell": "2026-09-08T19:03:07.230435+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -278,7 +278,7 @@
    "url": "https://www.blackstone.com/careers/|spring",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-08T18:35:37.075286+00:00",
+   "last_checked_by_bell": "2026-09-08T19:08:02.629908+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -289,7 +289,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates|spring",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-08T18:35:37.075734+00:00",
+   "last_checked_by_bell": "2026-09-08T19:08:02.630347+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T18:59:25.836197+00:00",
+   "last_checked_by_bell": "2026-09-08T19:03:10.010183+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
