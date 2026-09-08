@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-09-08T11:57:16.925649+00:00",
+ "generated_at": "2026-09-08T12:15:11.543794+00:00",
  "counts": {
   "items": 271,
   "strong": 256,
   "uk": 97,
-  "seen_24h": 473,
+  "seen_24h": 448,
   "truncated": false,
   "total": 271,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5255
+  "postings_tracked": 5256
  },
  "detection": {
-  "mean_latency_s": 1373.2,
-  "sampled": 47,
+  "mean_latency_s": 1359.2,
+  "sampled": 48,
   "by_tier": {
    "A": {
-    "mean_latency_s": 850.5,
-    "sampled": 14
+    "mean_latency_s": 840.6,
+    "sampled": 15
    },
    "B": {
     "mean_latency_s": 1595.0,
@@ -54,9 +54,9 @@
      "seconds": 938
     }
    ],
-   "n_gaps": 46,
+   "n_gaps": 47,
    "longest_gap_s": 1653,
-   "blind_s": 38242
+   "blind_s": 39141
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -369,7 +369,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T11:54:15.372580+00:00",
+   "last_checked_by_bell": "2026-09-08T12:13:18.674070+00:00",
    "last_change_detected": "2026-09-06T06:59:29.655815+00:00",
    "categories": [
     "prop"
