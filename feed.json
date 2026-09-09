@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-09-09T16:41:00.065573+00:00",
+ "generated_at": "2026-09-09T17:25:00.908097+00:00",
  "counts": {
-  "items": 328,
-  "strong": 300,
+  "items": 329,
+  "strong": 301,
   "uk": 122,
-  "seen_24h": 483,
+  "seen_24h": 444,
   "truncated": false,
-  "total": 328,
+  "total": 329,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5845
+  "postings_tracked": 5846
  },
  "detection": {
-  "mean_latency_s": 3818.7,
-  "sampled": 137,
+  "mean_latency_s": 3794.1,
+  "sampled": 138,
   "by_tier": {
    "A": {
-    "mean_latency_s": 562.6,
-    "sampled": 39
+    "mean_latency_s": 559.3,
+    "sampled": 40
    },
    "B": {
     "mean_latency_s": 5114.4,
@@ -54,9 +54,9 @@
      "seconds": 1342
     }
    ],
-   "n_gaps": 66,
+   "n_gaps": 69,
    "longest_gap_s": 2713,
-   "blind_s": 61215
+   "blind_s": 63521
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T16:39:16.882276+00:00",
+   "last_checked_by_bell": "2026-09-09T17:04:00.760738+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -465,7 +465,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html|spring",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T15:54:16.184436+00:00",
+   "last_checked_by_bell": "2026-09-09T16:41:03.845237+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -476,7 +476,7 @@
    "url": "https://www.wellsfargojobs.com/|spring",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T15:54:30.872170+00:00",
+   "last_checked_by_bell": "2026-09-09T16:41:05.803343+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
@@ -484,6 +484,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "Maven Securities",
+   "title": "Women in Trading- Chicago",
+   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8122906",
+   "location": "Chicago, IL",
+   "opened_at": "2026-09-09T16:51:51+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T16:58:57.826926+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "spring",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "branded:women in trading + trading",
+   "uk": false,
+   "tier": "A"
+  },
   {
    "firm": "Qube Research and Technologies",
    "title": "2027 - Internship, Data Engineering",
