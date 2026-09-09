@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-08T22:50:09.324054+00:00",
+ "generated_at": "2026-09-09T00:47:52.477200+00:00",
  "counts": {
   "items": 312,
   "strong": 292,
   "uk": 117,
-  "seen_24h": 486,
+  "seen_24h": 485,
   "truncated": false,
   "total": 312,
   "firms": 145,
@@ -29,9 +29,9 @@
    "hours": 24,
    "gaps": [
     {
-     "from": "2026-09-07T23:44:28.467444+00:00",
-     "to": "2026-09-08T00:12:00.992513+00:00",
-     "seconds": 1653
+     "from": "2026-09-08T22:50:41.968476+00:00",
+     "to": "2026-09-08T23:25:35.000084+00:00",
+     "seconds": 2093
     },
     {
      "from": "2026-09-08T04:12:03.872229+00:00",
@@ -55,8 +55,8 @@
     }
    ],
    "n_gaps": 60,
-   "longest_gap_s": 1653,
-   "blind_s": 50402
+   "longest_gap_s": 2093,
+   "blind_s": 50621
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -77,8 +77,8 @@
      "spring"
     ],
     "phase": "open",
-    "days": 7,
-    "says": "open, and has been for 7 days",
+    "days": 8,
+    "says": "open, and has been for 8 days",
     "urgent": false
    },
    {
@@ -98,8 +98,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 86,
-    "says": "closed about 86 days ago",
+    "days": 87,
+    "says": "closed about 87 days ago",
     "urgent": false
    },
    {
@@ -120,8 +120,8 @@
      "crypto_mm"
     ],
     "phase": "open",
-    "days": 130,
-    "says": "open, and has been for 130 days",
+    "days": 131,
+    "says": "open, and has been for 131 days",
     "urgent": false
    },
    {
@@ -141,8 +141,8 @@
      "bank"
     ],
     "phase": "open",
-    "days": 38,
-    "says": "open, and has been for 38 days",
+    "days": 39,
+    "says": "open, and has been for 39 days",
     "urgent": false
    }
   ],
@@ -175,7 +175,7 @@
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
     "location": "London, UK",
     "deadline": "2026-10-09",
-    "days_left": 31
+    "days_left": 30
    }
   ],
   "n_deadlines": 1,
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-08T22:47:13.631398+00:00",
+   "last_checked_by_bell": "2026-09-09T00:25:14.796441+00:00",
    "last_change_detected": "2026-09-08T20:25:13.623269+00:00",
    "categories": [
     "prop"
