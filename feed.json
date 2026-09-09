@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-09T10:50:00.547084+00:00",
+ "generated_at": "2026-09-09T10:57:59.322306+00:00",
  "counts": {
   "items": 331,
   "strong": 301,
   "uk": 122,
-  "seen_24h": 480,
+  "seen_24h": 486,
   "truncated": false,
   "total": 331,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5709
+  "postings_tracked": 5715
  },
  "detection": {
   "mean_latency_s": 1913.5,
@@ -54,9 +54,9 @@
      "seconds": 1241
     }
    ],
-   "n_gaps": 60,
+   "n_gaps": 61,
    "longest_gap_s": 2713,
-   "blind_s": 54883
+   "blind_s": 55330
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -191,16 +191,16 @@
    "reason": "221 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "lever:octoenergy",
-   "firm": "Octopus Energy",
-   "tier": "B",
-   "n_total": 156,
-   "n_match": 0,
-   "reason": "156 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "oracle:jpmc.fa.oraclecloud.com|CX_1001|https://careers.jpmorgan.com/global/en/job/{id}",
    "firm": "J.P. Morgan",
+   "tier": "B",
+   "n_total": 161,
+   "n_match": 0,
+   "reason": "161 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "lever:octoenergy",
+   "firm": "Octopus Energy",
    "tier": "B",
    "n_total": 156,
    "n_match": 0,
@@ -245,8 +245,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-09T09:47:04.447750+00:00",
-   "last_change_detected": "2026-09-08T21:31:07.622479+00:00",
+   "last_checked_by_bell": "2026-09-09T10:50:11.618355+00:00",
+   "last_change_detected": "2026-09-09T10:50:11.618355+00:00",
    "categories": [
     "prop"
    ]
@@ -355,7 +355,7 @@
    "url": "https://careers.db.com/students-graduates/|spring",
    "kind": "manual",
    "why": "No ATS. Runs three explicitly quant Markets streams.",
-   "last_checked_by_bell": "2026-09-09T09:47:02.077942+00:00",
+   "last_checked_by_bell": "2026-09-09T10:50:09.042795+00:00",
    "last_change_detected": "2026-09-07T17:48:46.198895+00:00",
    "categories": [
     "bank"
@@ -366,7 +366,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs|spring",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-09T10:04:28.623660+00:00",
+   "last_checked_by_bell": "2026-09-09T10:57:45.363468+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -388,7 +388,7 @@
    "url": "https://www.jefferies.com/careers/|spring",
    "kind": "manual",
    "why": "tal.net, at jefferies.tal.net/vx/.../jobboard/vacancy/{1,2}/adv/. Both vacancy boards return a 4.7 KB JavaScript shell with no anchors, unlike Bank of America's tal.net board which server-renders. Same vendor, different brand configuration. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T10:04:33.354028+00:00",
+   "last_checked_by_bell": "2026-09-09T10:57:49.895186+00:00",
    "last_change_detected": "2026-09-07T17:49:19.577230+00:00",
    "categories": [
     "bank"
@@ -4829,7 +4829,7 @@
    "location": "",
    "opened_at": null,
    "opened_exact": false,
-   "first_seen_at": "2026-09-08T21:31:07.622479+00:00",
+   "first_seen_at": "2026-09-09T10:50:11.618355+00:00",
    "date_basis": "first seen",
    "deadline": null,
    "strength": "strong",
