@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-09-09T19:05:01.224012+00:00",
+ "generated_at": "2026-09-09T19:10:00.485138+00:00",
  "counts": {
-  "items": 336,
-  "strong": 310,
-  "uk": 120,
-  "seen_24h": 622,
+  "items": 342,
+  "strong": 316,
+  "uk": 122,
+  "seen_24h": 620,
   "truncated": false,
-  "total": 336,
+  "total": 342,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 6052
+  "postings_tracked": 6053
  },
  "detection": {
-  "mean_latency_s": 3793.3,
-  "sampled": 139,
+  "mean_latency_s": 3766.6,
+  "sampled": 140,
   "by_tier": {
    "A": {
-    "mean_latency_s": 559.3,
-    "sampled": 40
+    "mean_latency_s": 546.8,
+    "sampled": 41
    },
    "B": {
     "mean_latency_s": 5100.0,
@@ -54,9 +54,9 @@
      "seconds": 1342
     }
    ],
-   "n_gaps": 66,
+   "n_gaps": 65,
    "longest_gap_s": 2713,
-   "blind_s": 60725
+   "blind_s": 60414
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -239,6 +239,14 @@
    "reason": "source is error"
   },
   {
+   "key": "sitemap:https://www.gresearch.com/sitemap.xml|vacanc",
+   "firm": "G-Research (vacancies)",
+   "tier": "B",
+   "n_total": 62,
+   "n_match": 4,
+   "reason": "source is error"
+  },
+  {
    "key": "eightfold:portal.careers.hsbc.com|hsbc.com",
    "firm": "HSBC",
    "tier": "B",
@@ -280,7 +288,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-09T19:02:06.903972+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:54.056230+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -390,7 +398,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs|spring",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-09T19:01:28.355647+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:13.718562+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -401,7 +409,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T19:04:54.444663+00:00",
+   "last_checked_by_bell": "2026-09-09T19:09:13.980157+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -412,7 +420,7 @@
    "url": "https://www.jefferies.com/careers/|spring",
    "kind": "manual",
    "why": "tal.net, at jefferies.tal.net/vx/.../jobboard/vacancy/{1,2}/adv/. Both vacancy boards return a 4.7 KB JavaScript shell with no anchors, unlike Bank of America's tal.net board which server-renders. Same vendor, different brand configuration. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T19:01:32.533481+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:17.970794+00:00",
    "last_change_detected": "2026-09-07T17:49:19.577230+00:00",
    "categories": [
     "bank"
@@ -423,7 +431,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates|spring",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T19:01:47.796002+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:34.605486+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -434,7 +442,7 @@
    "url": "https://www.nomura.com/careers/|spring",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T19:01:47.909535+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:34.725852+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -445,7 +453,7 @@
    "url": "https://www.peak6.com/careers/|prop",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-09T19:01:49.634785+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:36.293674+00:00",
    "last_change_detected": "2026-09-07T17:49:37.484861+00:00",
    "categories": [
     "prop"
@@ -456,7 +464,7 @@
    "url": "https://careers.smbcgroup.com/|spring",
    "kind": "manual",
    "why": "SuccessFactors \u2014 career8.successfactors.com, company smbcP2, linked from careers.smbcgroup.com. **robots.txt disallows it.** That is a refusal and it is final; this is no longer 'no readable board' but 'they said no'.",
-   "last_checked_by_bell": "2026-09-09T19:01:55.715772+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:42.896661+00:00",
    "last_change_detected": "2026-09-07T17:28:53.931978+00:00",
    "categories": [
     "bank"
@@ -467,7 +475,7 @@
    "url": "https://careers.societegenerale.com/|spring",
    "kind": "manual",
    "why": "Taleo \u2014 socgen.taleo.net/careersection/sgcareers/. The career section is a JavaScript application: 697 KB and not one job link in the HTML. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T19:01:55.717657+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:42.897483+00:00",
    "last_change_detected": "2026-09-07T17:49:42.250947+00:00",
    "categories": [
     "bank"
@@ -478,7 +486,7 @@
    "url": "https://www.starlizard.com/|any",
    "kind": "manual",
    "why": "No ATS. ~242 staff, London. Sports betting modelling.",
-   "last_checked_by_bell": "2026-09-09T19:01:56.123428+00:00",
+   "last_checked_by_bell": "2026-09-09T19:05:43.335077+00:00",
    "last_change_detected": "2026-09-07T17:49:42.746190+00:00",
    "categories": [
     "betting"
@@ -489,7 +497,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html|spring",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T19:02:17.364052+00:00",
+   "last_checked_by_bell": "2026-09-09T19:06:04.704078+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -500,7 +508,7 @@
    "url": "https://www.wellsfargojobs.com/|spring",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T19:02:21.005587+00:00",
+   "last_checked_by_bell": "2026-09-09T19:06:06.443761+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
@@ -508,6 +516,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "DV Trading",
+   "title": "DevOps Engineer Intern - Summer 2027",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4730886005",
+   "location": "Chicago",
+   "opened_at": "2026-09-09T19:08:19+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T19:09:06.920840+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "intern + engineer",
+   "uk": false,
+   "tier": "A"
+  },
   {
    "firm": "Maven Securities",
    "title": "Women in Trading- Chicago",
@@ -4989,6 +5015,96 @@
    "reason": "graduate + trading",
    "uk": false,
    "tier": "C"
+  },
+  {
+   "firm": "Schroders",
+   "title": "Internship: Infrastructure Debt - 6 months (January - June 2027)",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1973",
+   "location": "Paris, Ile-de-France, France",
+   "opened_at": "2026-09-02T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-07T16:40:44.064800+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "intern + infra",
+   "uk": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Schroders",
+   "title": "Internship: Infrastructure Debt - 6 months (March - August 2027)",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1974",
+   "location": "Paris, Ile-de-France, France",
+   "opened_at": "2026-09-02T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-07T16:40:44.064800+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "intern + infra",
+   "uk": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Schroders",
+   "title": "2027 Schroders Capital Infrastructure - Product Strategy Internship Programme",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1953",
+   "location": "London, United Kingdom",
+   "opened_at": "2026-09-01T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-07T16:40:44.064800+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "intern + infra",
+   "uk": true,
+   "tier": "B"
+  },
+  {
+   "firm": "Schroders",
+   "title": "Internship: Infrastructure Equity - 6 months (January - June 2027)",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1969",
+   "location": "Paris, Ile-de-France, France",
+   "opened_at": "2026-09-01T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-07T16:40:44.064800+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "intern + infra",
+   "uk": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Schroders",
+   "title": "2027 Public Markets Equities Internship Programme",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1940",
+   "location": "London, United Kingdom",
+   "opened_at": "2026-08-28T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-08T08:37:31.364650+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "intern + markets",
+   "uk": true,
+   "tier": "B"
   },
   {
    "firm": "Millennium",
