@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-09T07:55:00.478372+00:00",
+ "generated_at": "2026-09-09T08:01:05.938961+00:00",
  "counts": {
-  "items": 334,
-  "strong": 304,
+  "items": 333,
+  "strong": 303,
   "uk": 123,
-  "seen_24h": 480,
+  "seen_24h": 492,
   "truncated": false,
-  "total": 334,
+  "total": 333,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5641
+  "postings_tracked": 5653
  },
  "detection": {
   "mean_latency_s": 1883.8,
@@ -256,7 +256,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-09T06:58:00.600241+00:00",
+   "last_checked_by_bell": "2026-09-09T07:56:55.214536+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T07:54:53.517666+00:00",
+   "last_checked_by_bell": "2026-09-09T07:57:02.396158+00:00",
    "last_change_detected": "2026-09-08T20:25:13.623269+00:00",
    "categories": [
     "prop"
@@ -421,7 +421,7 @@
    "url": "https://www.peak6.com/careers/|prop",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-09T06:54:17.431157+00:00",
+   "last_checked_by_bell": "2026-09-09T07:55:03.626544+00:00",
    "last_change_detected": "2026-09-07T17:49:37.484861+00:00",
    "categories": [
     "prop"
@@ -432,7 +432,7 @@
    "url": "https://careers.smbcgroup.com/|spring",
    "kind": "manual",
    "why": "SuccessFactors \u2014 career8.successfactors.com, company smbcP2, linked from careers.smbcgroup.com. **robots.txt disallows it.** That is a refusal and it is final; this is no longer 'no readable board' but 'they said no'.",
-   "last_checked_by_bell": "2026-09-09T06:57:49.429703+00:00",
+   "last_checked_by_bell": "2026-09-09T07:55:09.230767+00:00",
    "last_change_detected": "2026-09-07T17:28:53.931978+00:00",
    "categories": [
     "bank"
@@ -443,7 +443,7 @@
    "url": "https://careers.societegenerale.com/|spring",
    "kind": "manual",
    "why": "Taleo \u2014 socgen.taleo.net/careersection/sgcareers/. The career section is a JavaScript application: 697 KB and not one job link in the HTML. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T06:57:49.430615+00:00",
+   "last_checked_by_bell": "2026-09-09T07:55:09.234096+00:00",
    "last_change_detected": "2026-09-07T17:49:42.250947+00:00",
    "categories": [
     "bank"
@@ -454,7 +454,7 @@
    "url": "https://www.starlizard.com/|any",
    "kind": "manual",
    "why": "No ATS. ~242 staff, London. Sports betting modelling.",
-   "last_checked_by_bell": "2026-09-09T06:57:49.817238+00:00",
+   "last_checked_by_bell": "2026-09-09T07:55:09.762078+00:00",
    "last_change_detected": "2026-09-07T17:49:42.746190+00:00",
    "categories": [
     "betting"
@@ -465,7 +465,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html|spring",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T06:58:10.664908+00:00",
+   "last_checked_by_bell": "2026-09-09T07:57:04.533378+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -476,7 +476,7 @@
    "url": "https://www.wellsfargojobs.com/|spring",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T06:58:12.680829+00:00",
+   "last_checked_by_bell": "2026-09-09T07:57:06.518021+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
@@ -4826,24 +4826,6 @@
    "firm": "Schroders",
    "title": "Internship: Infrastructure Debt - 6 months (January - June 2027)",
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1973",
-   "location": "Paris, Ile-de-France, France",
-   "opened_at": "2026-09-02T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T16:40:44.064800+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "intern + infra",
-   "uk": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Schroders",
-   "title": "Internship: Infrastructure Debt - 6 months (March - August 2027)",
-   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1974",
    "location": "Paris, Ile-de-France, France",
    "opened_at": "2026-09-02T00:00:00+00:00",
    "opened_exact": false,
