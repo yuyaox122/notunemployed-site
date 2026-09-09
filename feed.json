@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-09T17:25:00.908097+00:00",
+ "generated_at": "2026-09-09T17:48:47.462278+00:00",
  "counts": {
-  "items": 329,
-  "strong": 301,
-  "uk": 122,
-  "seen_24h": 444,
+  "items": 334,
+  "strong": 306,
+  "uk": 124,
+  "seen_24h": 469,
   "truncated": false,
-  "total": 329,
+  "total": 334,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5846
+  "postings_tracked": 5871
  },
  "detection": {
   "mean_latency_s": 3794.1,
@@ -54,9 +54,9 @@
      "seconds": 1342
     }
    ],
-   "n_gaps": 69,
+   "n_gaps": 68,
    "longest_gap_s": 2713,
-   "blind_s": 63521
+   "blind_s": 62641
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -176,9 +176,25 @@
     "location": "London, UK",
     "deadline": "2026-10-09",
     "days_left": 30
+   },
+   {
+    "firm": "Susquehanna (SIG)",
+    "title": "Quantitative Trading Internship: Summer 2027",
+    "url": "https://careers.sig.com/jobs/10839?lang=en-us",
+    "location": "Dublin, UNAVAILABLE, Ireland",
+    "deadline": "2027-03-01",
+    "days_left": 173
+   },
+   {
+    "firm": "Susquehanna (SIG)",
+    "title": "Quantitative Trader - Graduate: 2027",
+    "url": "https://careers.sig.com/jobs/10840?lang=en-us",
+    "location": "Dublin, UNAVAILABLE, Ireland",
+    "deadline": "2027-03-01",
+    "days_left": 173
    }
   ],
-  "n_deadlines": 1,
+  "n_deadlines": 3,
   "note": "stated deadlines only; most boards publish none, and these roles close when full rather than on the advertised date"
  },
  "gaps": [
@@ -377,7 +393,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T17:04:00.760738+00:00",
+   "last_checked_by_bell": "2026-09-09T17:41:18.068995+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -1745,6 +1761,24 @@
    "tier": "A"
   },
   {
+   "firm": "Susquehanna (SIG)",
+   "title": "AI Co-op with Drexel University",
+   "url": "https://careers.sig.com/jobs/11368?lang=en-us",
+   "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
+   "opened_at": "2026-08-25T15:10:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T17:40:45.882250+00:00",
+   "date_basis": "published",
+   "deadline": "2027-08-25T15:10:46+00:00",
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "co-op + ml/ds",
+   "uk": false,
+   "tier": "A"
+  },
+  {
    "firm": "Jump Trading",
    "title": "Campus Quantitative Researcher (Off-Cycle - Winter/Spring 2027 Intern)",
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027898",
@@ -1759,6 +1793,24 @@
    "desk": "quant",
    "desk_inferred": false,
    "reason": "intern + quant",
+   "uk": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
+   "title": "Macro Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/11362?lang=en-us",
+   "location": "Hong Kong, UNAVAILABLE, Hong Kong",
+   "opened_at": "2026-08-25T10:09:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T17:40:45.882250+00:00",
+   "date_basis": "published",
+   "deadline": "2027-08-25T10:09:45+00:00",
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "intern + macro",
    "uk": false,
    "tier": "A"
   },
@@ -3330,24 +3382,6 @@
   },
   {
    "firm": "Virtu Financial",
-   "title": "2027 Internship - Frontend Engineer (UI)",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
-   "location": "New York",
-   "opened_at": "2026-07-29T21:31:34+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:33.379174+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "intern + engineer",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Virtu Financial",
    "title": "2027 Internship- Hardware Engineer (FPGA)",
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8657286002",
    "location": "Austin, TX",
@@ -3744,6 +3778,42 @@
   },
   {
    "firm": "Susquehanna (SIG)",
+   "title": "Quantitative Trading Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/11005?lang=en-us",
+   "location": "London, UNAVAILABLE, United Kingdom",
+   "opened_at": "2026-07-15T10:40:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T17:40:45.882250+00:00",
+   "date_basis": "published",
+   "deadline": "2027-07-15T10:40:45+00:00",
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
+   "uk": true,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
+   "title": "Quantitative Trader - Graduate: 2027",
+   "url": "https://careers.sig.com/jobs/11031?lang=en-us",
+   "location": "London, UNAVAILABLE, United Kingdom",
+   "opened_at": "2026-07-15T10:40:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T17:40:45.882250+00:00",
+   "date_basis": "published",
+   "deadline": "2027-07-15T10:40:45+00:00",
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "graduate + quant",
+   "uk": true,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
    "title": "Quantitative Research Internship: Summer 2027",
    "url": "https://careers.sig.com/jobs/11007?lang=en-us",
    "location": "London, UNAVAILABLE, United Kingdom",
@@ -3788,6 +3858,42 @@
    "first_seen_at": "2026-09-08T05:45:27.714300+00:00",
    "date_basis": "published",
    "deadline": "2027-04-30T23:00:00+00:00",
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
+   "uk": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
+   "title": "Quantitative Trader - Graduate: 2027",
+   "url": "https://careers.sig.com/jobs/10840?lang=en-us",
+   "location": "Dublin, UNAVAILABLE, Ireland",
+   "opened_at": "2026-07-15T10:28:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T17:40:45.882250+00:00",
+   "date_basis": "published",
+   "deadline": "2027-03-01T00:00:00+00:00",
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "graduate + quant",
+   "uk": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
+   "title": "Quantitative Trading Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/10839?lang=en-us",
+   "location": "Dublin, UNAVAILABLE, Ireland",
+   "opened_at": "2026-07-15T10:27:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T17:40:45.882250+00:00",
+   "date_basis": "published",
+   "deadline": "2027-03-01T00:00:00+00:00",
    "strength": "strong",
    "stage": "intern",
    "desk": "quant",
