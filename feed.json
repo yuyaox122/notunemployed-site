@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-09-09T01:48:35.113432+00:00",
+ "generated_at": "2026-09-09T01:53:01.678401+00:00",
  "counts": {
-  "items": 321,
+  "items": 322,
   "strong": 293,
   "uk": 117,
-  "seen_24h": 485,
+  "seen_24h": 492,
   "truncated": false,
-  "total": 321,
+  "total": 322,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5537
+  "postings_tracked": 5544
  },
  "detection": {
-  "mean_latency_s": 1881.3,
-  "sampled": 114,
+  "mean_latency_s": 1895.1,
+  "sampled": 115,
   "by_tier": {
    "A": {
     "mean_latency_s": 578.7,
     "sampled": 29
    },
    "B": {
-    "mean_latency_s": 2325.7,
-    "sampled": 85
+    "mean_latency_s": 2339.0,
+    "sampled": 86
    }
   },
   "watch": {
@@ -54,9 +54,9 @@
      "seconds": 938
     }
    ],
-   "n_gaps": 60,
+   "n_gaps": 61,
    "longest_gap_s": 2093,
-   "blind_s": 51104
+   "blind_s": 51731
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -267,7 +267,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-09T00:48:07.313999+00:00",
+   "last_checked_by_bell": "2026-09-09T01:48:49.422306+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -278,7 +278,7 @@
    "url": "https://www.blackstone.com/careers/|spring",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-09T00:50:58.331872+00:00",
+   "last_checked_by_bell": "2026-09-09T01:49:21.687911+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -289,7 +289,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates|spring",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T00:50:58.332647+00:00",
+   "last_checked_by_bell": "2026-09-09T01:49:21.688721+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -300,7 +300,7 @@
    "url": "https://www.bridgewater.com/working-at-bridgewater/job-openings|pod",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-09T00:50:58.782837+00:00",
+   "last_checked_by_bell": "2026-09-09T01:49:22.360822+00:00",
    "last_change_detected": null,
    "categories": [
     "quant_fund"
@@ -311,7 +311,7 @@
    "url": "https://www.castletoncommodities.com/careers/|any",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-09T00:50:59.370158+00:00",
+   "last_checked_by_bell": "2026-09-09T01:49:22.810587+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -322,7 +322,7 @@
    "url": "https://www.chicagotrading.com/careers/|prop",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-09T00:50:59.370786+00:00",
+   "last_checked_by_bell": "2026-09-09T01:49:22.811349+00:00",
    "last_change_detected": "2026-09-07T17:48:36.251225+00:00",
    "categories": [
     "prop"
@@ -333,7 +333,7 @@
    "url": "https://www.citadel.com/careers/students/|prop",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-09T00:51:02.808517+00:00",
+   "last_checked_by_bell": "2026-09-09T01:49:25.880614+00:00",
    "last_change_detected": "2026-09-07T17:27:52.536866+00:00",
    "categories": [
     "quant_fund"
@@ -344,7 +344,7 @@
    "url": "https://www.citadelsecurities.com/careers/|prop",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-09T00:51:02.809299+00:00",
+   "last_checked_by_bell": "2026-09-09T01:49:25.881520+00:00",
    "last_change_detected": "2026-09-07T17:27:52.537398+00:00",
    "categories": [
     "prop"
@@ -355,7 +355,7 @@
    "url": "https://careers.db.com/students-graduates/|spring",
    "kind": "manual",
    "why": "No ATS. Runs three explicitly quant Markets streams.",
-   "last_checked_by_bell": "2026-09-09T00:51:16.059696+00:00",
+   "last_checked_by_bell": "2026-09-09T01:52:59.893324+00:00",
    "last_change_detected": "2026-09-07T17:48:46.198895+00:00",
    "categories": [
     "bank"
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T00:50:54.828061+00:00",
+   "last_checked_by_bell": "2026-09-09T01:48:47.890196+00:00",
    "last_change_detected": "2026-09-08T20:25:13.623269+00:00",
    "categories": [
     "prop"
@@ -484,6 +484,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "Coinbase",
+   "title": "Sales Intern",
+   "url": "https://www.coinbase.com/careers/positions/8187551?gh_jid=8187551",
+   "location": "Hybrid - New York, NY",
+   "opened_at": "2026-09-09T00:55:07+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T01:52:56.856952+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "weak",
+   "stage": "intern",
+   "desk": null,
+   "desk_inferred": false,
+   "reason": "intern + stage-only at a whole-firm employer",
+   "uk": false,
+   "tier": "B"
+  },
   {
    "firm": "Coinbase",
    "title": "Real Estate & Builds Intern (EWX)",
