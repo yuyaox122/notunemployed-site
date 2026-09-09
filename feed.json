@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-09-09T10:57:59.322306+00:00",
+ "generated_at": "2026-09-09T11:00:41.925610+00:00",
  "counts": {
   "items": 331,
   "strong": 301,
   "uk": 122,
-  "seen_24h": 486,
+  "seen_24h": 487,
   "truncated": false,
   "total": 331,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5715
+  "postings_tracked": 5716
  },
  "detection": {
   "mean_latency_s": 1913.5,
-  "sampled": 125,
+  "sampled": 126,
   "by_tier": {
    "A": {
     "mean_latency_s": 565.4,
     "sampled": 36
    },
    "B": {
-    "mean_latency_s": 2458.8,
-    "sampled": 89
+    "mean_latency_s": 2452.7,
+    "sampled": 90
    }
   },
   "watch": {
@@ -202,9 +202,9 @@
    "key": "lever:octoenergy",
    "firm": "Octopus Energy",
    "tier": "B",
-   "n_total": 156,
+   "n_total": 157,
    "n_match": 0,
-   "reason": "156 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "157 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:robinhood",
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T10:49:55.222478+00:00",
+   "last_checked_by_bell": "2026-09-09T11:00:27.314661+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -399,7 +399,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates|spring",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T10:04:50.469603+00:00",
+   "last_checked_by_bell": "2026-09-09T10:58:06.111839+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -410,7 +410,7 @@
    "url": "https://www.nomura.com/careers/|spring",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T10:04:50.581705+00:00",
+   "last_checked_by_bell": "2026-09-09T10:58:06.219652+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -421,7 +421,7 @@
    "url": "https://www.peak6.com/careers/|prop",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-09T10:04:54.084763+00:00",
+   "last_checked_by_bell": "2026-09-09T10:58:09.535125+00:00",
    "last_change_detected": "2026-09-07T17:49:37.484861+00:00",
    "categories": [
     "prop"
