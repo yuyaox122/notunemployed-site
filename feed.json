@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-09T14:36:19.608409+00:00",
+ "generated_at": "2026-09-09T15:01:06.266539+00:00",
  "counts": {
-  "items": 331,
-  "strong": 301,
+  "items": 330,
+  "strong": 300,
   "uk": 122,
-  "seen_24h": 477,
+  "seen_24h": 467,
   "truncated": false,
-  "total": 331,
+  "total": 330,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5810
+  "postings_tracked": 5815
  },
  "detection": {
   "mean_latency_s": 3898.0,
@@ -54,9 +54,9 @@
      "seconds": 1342
     }
    ],
-   "n_gaps": 62,
+   "n_gaps": 64,
    "longest_gap_s": 2713,
-   "blind_s": 57980
+   "blind_s": 59273
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -202,9 +202,9 @@
    "key": "lever:octoenergy",
    "firm": "Octopus Energy",
    "tier": "B",
-   "n_total": 161,
+   "n_total": 163,
    "n_match": 0,
-   "reason": "161 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "163 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:robinhood",
@@ -256,7 +256,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-09T13:25:07.221445+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:43.089385+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T14:31:24.683090+00:00",
+   "last_checked_by_bell": "2026-09-09T15:00:49.227734+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -399,7 +399,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates|spring",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T13:24:41.877027+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:22.230498+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -410,7 +410,7 @@
    "url": "https://www.nomura.com/careers/|spring",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T13:24:42.010392+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:22.339192+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -421,7 +421,7 @@
    "url": "https://www.peak6.com/careers/|prop",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-09T13:24:46.487072+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:25.813652+00:00",
    "last_change_detected": "2026-09-07T17:49:37.484861+00:00",
    "categories": [
     "prop"
@@ -432,7 +432,7 @@
    "url": "https://careers.smbcgroup.com/|spring",
    "kind": "manual",
    "why": "SuccessFactors \u2014 career8.successfactors.com, company smbcP2, linked from careers.smbcgroup.com. **robots.txt disallows it.** That is a refusal and it is final; this is no longer 'no readable board' but 'they said no'.",
-   "last_checked_by_bell": "2026-09-09T13:24:52.200789+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:31.791657+00:00",
    "last_change_detected": "2026-09-07T17:28:53.931978+00:00",
    "categories": [
     "bank"
@@ -443,7 +443,7 @@
    "url": "https://careers.societegenerale.com/|spring",
    "kind": "manual",
    "why": "Taleo \u2014 socgen.taleo.net/careersection/sgcareers/. The career section is a JavaScript application: 697 KB and not one job link in the HTML. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T13:24:52.201673+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:31.792514+00:00",
    "last_change_detected": "2026-09-07T17:49:42.250947+00:00",
    "categories": [
     "bank"
@@ -454,7 +454,7 @@
    "url": "https://www.starlizard.com/|any",
    "kind": "manual",
    "why": "No ATS. ~242 staff, London. Sports betting modelling.",
-   "last_checked_by_bell": "2026-09-09T13:24:52.699126+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:32.224408+00:00",
    "last_change_detected": "2026-09-07T17:49:42.746190+00:00",
    "categories": [
     "betting"
@@ -465,7 +465,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html|spring",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T13:25:17.823741+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:53.223864+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -476,7 +476,7 @@
    "url": "https://www.wellsfargojobs.com/|spring",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T13:25:19.694979+00:00",
+   "last_checked_by_bell": "2026-09-09T14:36:55.422188+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
@@ -1813,24 +1813,6 @@
    "desk": "quant",
    "desk_inferred": false,
    "reason": "intern + research",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Campus Quantitative Researcher, PhD (Full-Time)",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8125888",
-   "location": "Chicago; New York",
-   "opened_at": "2026-08-24T15:39:43+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:30.671928+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "campus + quant",
    "uk": false,
    "tier": "A"
   },
