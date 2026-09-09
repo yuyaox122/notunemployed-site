@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-09T00:47:52.477200+00:00",
+ "generated_at": "2026-09-09T00:50:41.687019+00:00",
  "counts": {
   "items": 312,
   "strong": 292,
   "uk": 117,
-  "seen_24h": 485,
+  "seen_24h": 487,
   "truncated": false,
   "total": 312,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 5519
+  "postings_tracked": 5521
  },
  "detection": {
   "mean_latency_s": 1506.1,
@@ -34,6 +34,11 @@
      "seconds": 2093
     },
     {
+     "from": "2026-09-09T00:25:31.091821+00:00",
+     "to": "2026-09-09T00:47:53.191350+00:00",
+     "seconds": 1342
+    },
+    {
      "from": "2026-09-08T04:12:03.872229+00:00",
      "to": "2026-09-08T04:28:02.043419+00:00",
      "seconds": 958
@@ -47,16 +52,11 @@
      "from": "2026-09-08T03:11:23.356254+00:00",
      "to": "2026-09-08T03:27:01.407385+00:00",
      "seconds": 938
-    },
-    {
-     "from": "2026-09-08T05:29:24.704261+00:00",
-     "to": "2026-09-08T05:45:01.550088+00:00",
-     "seconds": 937
     }
    ],
    "n_gaps": 60,
    "longest_gap_s": 2093,
-   "blind_s": 50621
+   "blind_s": 51064
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -267,7 +267,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-08T22:45:15.016443+00:00",
+   "last_checked_by_bell": "2026-09-09T00:48:07.313999+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -377,7 +377,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T00:25:14.796441+00:00",
+   "last_checked_by_bell": "2026-09-09T00:48:08.422060+00:00",
    "last_change_detected": "2026-09-08T20:25:13.623269+00:00",
    "categories": [
     "prop"
@@ -5509,7 +5509,7 @@
   {
    "firm": "Bank of America",
    "title": "EMEA | Quantitative Strategies & Data Group | Virtual Insight Event",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-4b5496a64a21/candidate/so/pm/1/pl/2/opp/14544-EMEA-Quantitative-Strategies-Data-Group-Virtual-Insight-Event/en-GB",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-7cc0a7986b51/candidate/so/pm/1/pl/2/opp/14544-EMEA-Quantitative-Strategies-Data-Group-Virtual-Insight-Event/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5527,7 +5527,7 @@
   {
    "firm": "Bank of America",
    "title": "EMEA | Global Quants Virtual Insight Session",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-4b5496a64a21/candidate/so/pm/1/pl/2/opp/14480-EMEA-Global-Quants-Virtual-Insight-Session/en-GB",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-7cc0a7986b51/candidate/so/pm/1/pl/2/opp/14480-EMEA-Global-Quants-Virtual-Insight-Session/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
