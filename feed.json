@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-09T20:15:01.054915+00:00",
+ "generated_at": "2026-09-09T20:20:00.389880+00:00",
  "counts": {
   "items": 350,
   "strong": 323,
   "uk": 124,
-  "seen_24h": 697,
+  "seen_24h": 722,
   "truncated": false,
   "total": 350,
   "truncated_uk": 0,
   "firms": 144,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 6156
+  "postings_tracked": 6181
  },
  "detection": {
   "mean_latency_s": 3662.6,
@@ -284,7 +284,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-09T20:00:14.377387+00:00",
+   "last_checked_by_bell": "2026-09-09T20:19:51.206858+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -295,7 +295,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-09T20:00:29.989303+00:00",
+   "last_checked_by_bell": "2026-09-09T20:15:30.413291+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -306,7 +306,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T20:00:29.990056+00:00",
+   "last_checked_by_bell": "2026-09-09T20:15:30.413879+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -317,7 +317,7 @@
    "url": "https://www.bridgewater.com/working-at-bridgewater/job-openings",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-09T20:00:30.420835+00:00",
+   "last_checked_by_bell": "2026-09-09T20:15:30.772266+00:00",
    "last_change_detected": null,
    "categories": [
     "quant_fund"
@@ -328,7 +328,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-09T20:00:30.999001+00:00",
+   "last_checked_by_bell": "2026-09-09T20:15:31.627466+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -339,7 +339,7 @@
    "url": "https://www.chicagotrading.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-09T20:00:30.999827+00:00",
+   "last_checked_by_bell": "2026-09-09T20:15:31.628700+00:00",
    "last_change_detected": "2026-09-07T17:48:36.251225+00:00",
    "categories": [
     "prop"
@@ -350,7 +350,7 @@
    "url": "https://www.citadel.com/careers/students/",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-09T20:00:34.237898+00:00",
+   "last_checked_by_bell": "2026-09-09T20:15:35.260888+00:00",
    "last_change_detected": "2026-09-07T17:27:52.536866+00:00",
    "categories": [
     "quant_fund"
@@ -361,7 +361,7 @@
    "url": "https://www.citadelsecurities.com/careers/",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-09T20:00:34.238890+00:00",
+   "last_checked_by_bell": "2026-09-09T20:15:35.261355+00:00",
    "last_change_detected": "2026-09-07T17:27:52.537398+00:00",
    "categories": [
     "prop"
@@ -394,7 +394,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T20:14:30.465884+00:00",
+   "last_checked_by_bell": "2026-09-09T20:19:37.631659+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -1024,7 +1024,7 @@
    "tier": "A"
   },
   {
-   "firm": "G-Research (vacancies)",
+   "firm": "G-Research",
    "title": "Quant Research Internship",
    "url": "https://www.gresearch.com/vacancies/quant-research-internship/",
    "location": "London, London, GB",
@@ -1042,7 +1042,7 @@
    "tier": "B"
   },
   {
-   "firm": "G-Research (vacancies)",
+   "firm": "G-Research",
    "title": "Machine Learning Research Internship",
    "url": "https://www.gresearch.com/vacancies/machine-learning-research-internship/",
    "location": "London, London, GB",
@@ -1060,7 +1060,7 @@
    "tier": "B"
   },
   {
-   "firm": "G-Research (vacancies)",
+   "firm": "G-Research",
    "title": "Data Science Internship",
    "url": "https://www.gresearch.com/vacancies/data-science-internship/",
    "location": "London, London, GB",
@@ -1078,7 +1078,7 @@
    "tier": "B"
   },
   {
-   "firm": "G-Research (vacancies)",
+   "firm": "G-Research",
    "title": "Natural Language Processing Internship",
    "url": "https://www.gresearch.com/vacancies/natural-language-processing-internship/",
    "location": "London, London, GB",
