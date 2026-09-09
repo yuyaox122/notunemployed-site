@@ -1,24 +1,25 @@
 {
- "generated_at": "2026-09-09T19:10:00.485138+00:00",
+ "generated_at": "2026-09-09T19:16:37.618572+00:00",
  "counts": {
-  "items": 342,
-  "strong": 316,
+  "items": 343,
+  "strong": 317,
   "uk": 122,
-  "seen_24h": 620,
+  "seen_24h": 621,
   "truncated": false,
-  "total": 342,
+  "total": 343,
+  "truncated_uk": 0,
   "firms": 145,
   "firms_blind": 0,
   "sources": 146,
-  "postings_tracked": 6053
+  "postings_tracked": 6055
  },
  "detection": {
-  "mean_latency_s": 3766.6,
-  "sampled": 140,
+  "mean_latency_s": 3714.0,
+  "sampled": 142,
   "by_tier": {
    "A": {
-    "mean_latency_s": 546.8,
-    "sampled": 41
+    "mean_latency_s": 522.9,
+    "sampled": 43
    },
    "B": {
     "mean_latency_s": 5100.0,
@@ -409,7 +410,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T19:09:13.980157+00:00",
+   "last_checked_by_bell": "2026-09-09T19:14:22.207156+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -516,6 +517,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "DV Trading",
+   "title": "AI Engineer Intern - Summer 2027",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4732429005",
+   "location": "Chicago",
+   "opened_at": "2026-09-09T19:13:24+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T19:14:12.686028+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "intern + engineer",
+   "uk": false,
+   "tier": "A"
+  },
   {
    "firm": "DV Trading",
    "title": "DevOps Engineer Intern - Summer 2027",

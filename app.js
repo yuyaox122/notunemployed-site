@@ -540,7 +540,13 @@ function renderStats(d) {
   // says nothing about the rest. `counts.truncated` has always been in the feed and
   // only the tests read it. Round 62.
   if (c.truncated) {
-    tiles.splice(1, 0, ["not shown", `+${Math.max(0, (c.total || 0) - c.items)}`,
+    // Round 71: the cap now SELECTS — UK before elsewhere, strong before weak — so
+    // "+58 not shown" usually means 58 rows nobody in London was going to open. The
+    // one case worth alarming about is when it has started eating UK matches, and
+    // that is a different label rather than the same one in a different colour.
+    const ukHidden = c.truncated_uk || 0;
+    tiles.splice(1, 0, [ukHidden ? "UK not shown" : "not shown",
+                        `+${ukHidden || Math.max(0, (c.total || 0) - c.items)}`,
                         " blind", null]);
   }
   $("stats").innerHTML = tiles.filter(([, v]) => v != null).map(([k, v, cls, act]) =>
