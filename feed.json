@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-10T00:50:06.083546+00:00",
+ "generated_at": "2026-09-10T00:55:01.173341+00:00",
  "counts": {
   "items": 366,
   "strong": 337,
   "uk": 134,
-  "seen_24h": 1157,
+  "seen_24h": 1143,
   "truncated": false,
   "total": 366,
   "truncated_uk": 0,
@@ -55,9 +55,9 @@
      "seconds": 1241
     }
    ],
-   "n_gaps": 59,
+   "n_gaps": 58,
    "longest_gap_s": 2713,
-   "blind_s": 53183
+   "blind_s": 52260
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -281,7 +281,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-09T23:25:11.467512+00:00",
+   "last_checked_by_bell": "2026-09-10T00:50:22.204864+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -402,7 +402,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T00:49:48.861952+00:00",
+   "last_checked_by_bell": "2026-09-10T00:54:41.806542+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -490,7 +490,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T23:25:21.033289+00:00",
+   "last_checked_by_bell": "2026-09-10T00:50:34.593678+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -501,7 +501,7 @@
    "url": "https://www.wellsfargojobs.com/",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T23:25:27.589657+00:00",
+   "last_checked_by_bell": "2026-09-10T00:50:41.601931+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
@@ -6217,7 +6217,7 @@
   },
   {
    "firm": "Wells Fargo",
-   "title": "Wells Fargo \u2014 Spring week / insight programme window is open, and has been for 8 days. No automated access; check by hand.",
+   "title": "Wells Fargo \u2014 Spring week / insight programme window is open, and has been for 9 days. No automated access; check by hand.",
    "url": "https://www.wellsfargojobs.com/",
    "location": "",
    "opened_at": null,
@@ -6235,7 +6235,7 @@
   },
   {
    "firm": "UBS",
-   "title": "UBS \u2014 Spring week / insight programme window is open, and has been for 8 days. No automated access; check by hand.",
+   "title": "UBS \u2014 Spring week / insight programme window is open, and has been for 9 days. No automated access; check by hand.",
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
    "location": "",
    "opened_at": null,
