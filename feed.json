@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T03:35:17.017619+00:00",
+ "generated_at": "2026-09-10T03:40:05.338412+00:00",
  "counts": {
   "items": 369,
   "strong": 340,
@@ -55,9 +55,9 @@
      "seconds": 1241
     }
    ],
-   "n_gaps": 49,
+   "n_gaps": 48,
    "longest_gap_s": 2713,
-   "blind_s": 44820
+   "blind_s": 43956
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -281,7 +281,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T03:20:33.668082+00:00",
+   "last_checked_by_bell": "2026-09-10T03:35:57.299909+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -402,7 +402,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T03:34:47.976223+00:00",
+   "last_checked_by_bell": "2026-09-10T03:39:18.058489+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -490,7 +490,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T03:20:46.985443+00:00",
+   "last_checked_by_bell": "2026-09-10T03:36:07.844370+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -501,7 +501,7 @@
    "url": "https://www.wellsfargojobs.com/",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T03:20:53.586671+00:00",
+   "last_checked_by_bell": "2026-09-10T03:36:17.726175+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
