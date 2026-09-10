@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-10T22:15:00.660708+00:00",
+ "generated_at": "2026-09-10T22:20:01.162171+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 272,
-  "seen_24h": 1013,
+  "uk": 273,
+  "seen_24h": 992,
   "truncated": true,
-  "total": 550,
+  "total": 551,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 10592
+  "postings_tracked": 10595
  },
  "detection": {
   "mean_latency_s": 15220.9,
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T22:00:44.575875+00:00",
+   "last_checked_by_bell": "2026-09-10T22:15:36.729685+00:00",
    "last_change_detected": "2026-09-10T16:01:05.026712+00:00",
    "categories": [
     "prop"
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T22:01:49.749381+00:00",
+   "last_checked_by_bell": "2026-09-10T22:16:45.258086+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-10T22:00:20.854570+00:00",
+   "last_checked_by_bell": "2026-09-10T22:15:12.862521+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-10T22:00:21.691885+00:00",
+   "last_checked_by_bell": "2026-09-10T22:15:13.700905+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T22:00:21.692434+00:00",
+   "last_checked_by_bell": "2026-09-10T22:15:13.702108+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-10T22:00:22.528318+00:00",
+   "last_checked_by_bell": "2026-09-10T22:15:15.322486+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-10T22:00:57.282429+00:00",
+   "last_checked_by_bell": "2026-09-10T22:15:48.862274+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T22:14:14.326022+00:00",
+   "last_checked_by_bell": "2026-09-10T22:19:21.113229+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T22:01:22.470198+00:00",
+   "last_checked_by_bell": "2026-09-10T22:16:14.072485+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T22:01:22.581428+00:00",
+   "last_checked_by_bell": "2026-09-10T22:16:14.178262+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-10T22:02:00.727727+00:00",
+   "last_checked_by_bell": "2026-09-10T22:16:58.058305+00:00",
    "last_change_detected": "2026-09-10T14:32:21.281070+00:00",
    "categories": [
     "bank"
@@ -3478,24 +3478,6 @@
    "tier": "A"
   },
   {
-   "firm": "AQR Capital",
-   "title": "2027 Trading Summer Analyst",
-   "url": "https://careers.aqr.com/jobs?gh_jid=8077110&gh_jid=8077110",
-   "location": "Greenwich, CT",
-   "opened_at": "2026-07-21T15:43:37+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:02:47.737707+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "summer analyst + trading",
-   "uk": false,
-   "tier": "A"
-  },
-  {
    "firm": "Susquehanna (SIG)",
    "title": "Equity Research Internship: Summer 2027",
    "url": "https://careers.sig.com/jobs/11085?lang=en-us",
@@ -6372,6 +6354,24 @@
    "desk": null,
    "desk_inferred": false,
    "reason": "fixed-term placement + stage-only at a whole-firm employer",
+   "uk": true,
+   "tier": "B"
+  },
+  {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "Trainee Quantitative Research Analyst",
+   "url": "https://careers.societegenerale.com/en/job-offers/trainee-quantitative-research-analyst-26000HO4-en",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-10T22:16:32.571296+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "trainee + quant",
    "uk": true,
    "tier": "B"
   },
