@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-10T13:10:01.307396+00:00",
+ "generated_at": "2026-09-10T13:15:01.164191+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 266,
+  "uk": 265,
   "seen_24h": 1256,
   "truncated": true,
-  "total": 518,
+  "total": 525,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 10093
+  "postings_tracked": 10143
  },
  "detection": {
   "mean_latency_s": 4024.6,
@@ -514,7 +514,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T13:08:16.983997+00:00",
+   "last_checked_by_bell": "2026-09-10T13:14:19.864445+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -599,11 +599,11 @@
   },
   {
    "firm": "UBS",
-   "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
+   "url": "",
    "kind": "manual",
-   "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T13:03:05.977512+00:00",
-   "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
+   "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
+   "last_checked_by_bell": "2026-09-10T13:14:45.645604+00:00",
+   "last_change_detected": "2026-09-10T13:14:45.645604+00:00",
    "categories": [
     "bank"
    ]
@@ -3143,7 +3143,7 @@
   },
   {
    "firm": "IMC Trading",
-   "title": "Graduate Software Engineer",
+   "title": "Graduate Software Engineer (Start Date in 2027)",
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917773101",
    "location": "Aarhus, Central Denmark Region, Denmark",
    "opened_at": "2026-07-31T14:51:03+00:00",
@@ -3787,6 +3787,24 @@
    "desk_inferred": false,
    "reason": "campus + swe",
    "uk": true,
+   "tier": "A"
+  },
+  {
+   "firm": "Five Rings",
+   "title": "Campus Full Time 2027 - Quantitative Trader - Amsterdam",
+   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5344213008",
+   "location": "Amsterdam",
+   "opened_at": "2026-07-14T17:52:36+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-06T12:06:06.739179+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "campus + quant",
+   "uk": false,
    "tier": "A"
   },
   {
@@ -7496,24 +7514,6 @@
    "reason": "intern + trading",
    "uk": true,
    "tier": "B"
-  },
-  {
-   "firm": "UBS",
-   "title": "UBS \u2014 Spring week / insight programme window is open, and has been for 9 days. No automated access; check by hand.",
-   "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T17:29:03.689902+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": null,
-   "desk_inferred": false,
-   "reason": "tier D: cycle window open, firm refuses automated access",
-   "uk": true,
-   "tier": "D"
   },
   {
    "firm": "Nomura",
