@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-10T06:05:00.608528+00:00",
+ "generated_at": "2026-09-10T07:40:01.111589+00:00",
  "counts": {
   "items": 369,
   "strong": 340,
   "uk": 137,
-  "seen_24h": 1239,
+  "seen_24h": 1230,
   "truncated": false,
   "total": 369,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 158,
-  "postings_tracked": 7040
+  "postings_tracked": 7067
  },
  "detection": {
   "mean_latency_s": 3502.8,
@@ -30,6 +30,11 @@
    "hours": 24,
    "gaps": [
     {
+     "from": "2026-09-10T07:05:47.439853+00:00",
+     "to": "2026-09-10T07:38:25.608978+00:00",
+     "seconds": 1958
+    },
+    {
      "from": "2026-09-09T13:29:21.678681+00:00",
      "to": "2026-09-09T14:00:01.761892+00:00",
      "seconds": 1840
@@ -45,19 +50,14 @@
      "seconds": 1268
     },
     {
-     "from": "2026-09-09T06:24:45.736465+00:00",
-     "to": "2026-09-09T06:45:27.174878+00:00",
-     "seconds": 1241
-    },
-    {
      "from": "2026-09-09T09:11:10.678681+00:00",
      "to": "2026-09-09T09:29:25.870930+00:00",
      "seconds": 1095
     }
    ],
-   "n_gaps": 46,
-   "longest_gap_s": 1840,
-   "blind_s": 40099
+   "n_gaps": 47,
+   "longest_gap_s": 1958,
+   "blind_s": 41820
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -402,7 +402,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T04:33:49.100014+00:00",
+   "last_checked_by_bell": "2026-09-10T07:39:18.458410+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
