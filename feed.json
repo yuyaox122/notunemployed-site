@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T23:25:00.226216+00:00",
+ "generated_at": "2026-09-10T00:21:59.798722+00:00",
  "counts": {
   "items": 359,
   "strong": 330,
@@ -11,7 +11,7 @@
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 6820
+  "postings_tracked": 6851
  },
  "detection": {
   "mean_latency_s": 3557.2,
@@ -40,6 +40,11 @@
      "seconds": 1840
     },
     {
+     "from": "2026-09-09T23:28:33.236209+00:00",
+     "to": "2026-09-09T23:57:09.498177+00:00",
+     "seconds": 1716
+    },
+    {
      "from": "2026-09-09T04:24:53.791876+00:00",
      "to": "2026-09-09T04:52:01.642676+00:00",
      "seconds": 1628
@@ -48,16 +53,11 @@
      "from": "2026-09-09T00:25:31.091821+00:00",
      "to": "2026-09-09T00:47:53.191350+00:00",
      "seconds": 1342
-    },
-    {
-     "from": "2026-09-09T06:24:45.736465+00:00",
-     "to": "2026-09-09T06:45:27.174878+00:00",
-     "seconds": 1241
     }
    ],
-   "n_gaps": 60,
+   "n_gaps": 58,
    "longest_gap_s": 2713,
-   "blind_s": 53930
+   "blind_s": 53167
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -78,8 +78,8 @@
      "spring"
     ],
     "phase": "open",
-    "days": 8,
-    "says": "open, and has been for 8 days",
+    "days": 9,
+    "says": "open, and has been for 9 days",
     "urgent": false
    },
    {
@@ -99,8 +99,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 87,
-    "says": "closed about 87 days ago",
+    "days": 88,
+    "says": "closed about 88 days ago",
     "urgent": false
    },
    {
@@ -121,8 +121,8 @@
      "crypto_mm"
     ],
     "phase": "open",
-    "days": 131,
-    "says": "open, and has been for 131 days",
+    "days": 132,
+    "says": "open, and has been for 132 days",
     "urgent": false
    },
    {
@@ -142,8 +142,8 @@
      "bank"
     ],
     "phase": "open",
-    "days": 39,
-    "says": "open, and has been for 39 days",
+    "days": 40,
+    "says": "open, and has been for 40 days",
     "urgent": false
    }
   ],
@@ -176,7 +176,7 @@
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
     "location": "London, UK",
     "deadline": "2026-10-09",
-    "days_left": 30
+    "days_left": 29
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -184,7 +184,7 @@
     "url": "https://careers.sig.com/jobs/10839?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 173
+    "days_left": 172
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -192,7 +192,7 @@
     "url": "https://careers.sig.com/jobs/10840?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 173
+    "days_left": 172
    }
   ],
   "n_deadlines": 3,
@@ -240,6 +240,14 @@
    "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "jsonboard:workable/trexquant",
+   "firm": "Trexquant",
+   "tier": "B",
+   "n_total": 33,
+   "n_match": 0,
+   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "workday:lseg/wd3/Careers",
    "firm": "LSEG",
    "tier": "C",
@@ -254,14 +262,6 @@
    "n_total": 31,
    "n_match": 0,
    "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "jsonboard:workable/trexquant",
-   "firm": "Trexquant",
-   "tier": "B",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "never fetched successfully"
   }
  ],
  "blindspots": [
@@ -281,7 +281,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-09T23:20:52.423089+00:00",
+   "last_checked_by_bell": "2026-09-09T23:25:11.467512+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -402,7 +402,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-09T23:24:13.016646+00:00",
+   "last_checked_by_bell": "2026-09-10T00:13:53.896294+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -490,7 +490,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T23:02:52.633023+00:00",
+   "last_checked_by_bell": "2026-09-09T23:25:21.033289+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -501,7 +501,7 @@
    "url": "https://www.wellsfargojobs.com/",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-09T23:02:59.110503+00:00",
+   "last_checked_by_bell": "2026-09-09T23:25:27.589657+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
