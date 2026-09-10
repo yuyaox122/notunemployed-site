@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-10T07:46:05.709295+00:00",
+ "generated_at": "2026-09-10T08:30:00.760176+00:00",
  "counts": {
   "items": 369,
   "strong": 340,
   "uk": 137,
-  "seen_24h": 1228,
+  "seen_24h": 1209,
   "truncated": false,
   "total": 369,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 158,
-  "postings_tracked": 7067
+  "postings_tracked": 7069
  },
  "detection": {
   "mean_latency_s": 3502.8,
@@ -55,9 +55,9 @@
      "seconds": 1095
     }
    ],
-   "n_gaps": 47,
+   "n_gaps": 48,
    "longest_gap_s": 1958,
-   "blind_s": 41820
+   "blind_s": 42775
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -200,6 +200,14 @@
  },
  "gaps": [
   {
+   "key": "sitemap:https://jobs.standardchartered.com/sitemap.xml",
+   "firm": "Standard Chartered",
+   "tier": "B",
+   "n_total": 1205,
+   "n_match": 9,
+   "reason": "source is error"
+  },
+  {
    "key": "sitemap:https://careers.blackrock.com/sitemap.xml",
    "firm": "BlackRock",
    "tier": "B",
@@ -208,12 +216,36 @@
    "reason": "317 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:point72",
+   "firm": "Point72",
+   "tier": "A",
+   "n_total": 235,
+   "n_match": 20,
+   "reason": "source is blocked"
+  },
+  {
    "key": "oracle:jpmc.fa.oraclecloud.com",
    "firm": "J.P. Morgan",
    "tier": "B",
    "n_total": 219,
    "n_match": 0,
-   "reason": "219 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:quberesearchandtechnologies",
+   "firm": "Qube Research and Technologies",
+   "tier": "A",
+   "n_total": 208,
+   "n_match": 14,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:imc",
+   "firm": "IMC Trading",
+   "tier": "A",
+   "n_total": 179,
+   "n_match": 34,
+   "reason": "source is blocked"
   },
   {
    "key": "lever:octoenergy",
@@ -221,7 +253,7 @@
    "tier": "B",
    "n_total": 168,
    "n_match": 0,
-   "reason": "168 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is error"
   },
   {
    "key": "greenhouse:robinhood",
@@ -229,7 +261,143 @@
    "tier": "B",
    "n_total": 132,
    "n_match": 0,
-   "reason": "132 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:jumptrading",
+   "firm": "Jump Trading",
+   "tier": "A",
+   "n_total": 111,
+   "n_match": 43,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:worldquant",
+   "firm": "WorldQuant",
+   "tier": "A",
+   "n_total": 106,
+   "n_match": 7,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:squarepointcapital",
+   "firm": "Squarepoint Capital",
+   "tier": "A",
+   "n_total": 95,
+   "n_match": 8,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:towerresearchcapital",
+   "firm": "Tower Research Capital",
+   "tier": "A",
+   "n_total": 86,
+   "n_match": 11,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs",
+   "firm": "Macquarie",
+   "tier": "B",
+   "n_total": 76,
+   "n_match": 2,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:schonfeld",
+   "firm": "Schonfeld",
+   "tier": "A",
+   "n_total": 73,
+   "n_match": 12,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:dvtrading",
+   "firm": "DV Trading",
+   "tier": "A",
+   "n_total": 60,
+   "n_match": 11,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "ashby:voleon",
+   "firm": "Voleon",
+   "tier": "A",
+   "n_total": 57,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:mangroup",
+   "firm": "Man Group",
+   "tier": "A",
+   "n_total": 56,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:aqr",
+   "firm": "AQR Capital",
+   "tier": "A",
+   "n_total": 54,
+   "n_match": 7,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "linklist:https://careers.twosigma.com/careers/OpenRoles",
+   "firm": "Two Sigma",
+   "tier": "B",
+   "n_total": 52,
+   "n_match": 9,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:virtu",
+   "firm": "Virtu Financial",
+   "tier": "A",
+   "n_total": 51,
+   "n_match": 15,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:mavensecuritiesholdingltd",
+   "firm": "Maven Securities",
+   "tier": "A",
+   "n_total": 47,
+   "n_match": 11,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:flowtraders",
+   "firm": "Flow Traders",
+   "tier": "A",
+   "n_total": 43,
+   "n_match": 5,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "oracle:ekbq.fa.em2.oraclecloud.com",
+   "firm": "Schroders",
+   "tier": "B",
+   "n_total": 39,
+   "n_match": 5,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:oldmissioncapital",
+   "firm": "Old Mission Capital",
+   "tier": "A",
+   "n_total": 38,
+   "n_match": 7,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:akunacapital",
+   "firm": "Akuna Capital",
+   "tier": "A",
+   "n_total": 37,
+   "n_match": 11,
+   "reason": "source is blocked"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -237,7 +405,15 @@
    "tier": "B",
    "n_total": 33,
    "n_match": 0,
-   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:veritiongroupllc",
+   "firm": "Verition",
+   "tier": "A",
+   "n_total": 33,
+   "n_match": 3,
+   "reason": "source is blocked"
   },
   {
    "key": "jsonboard:workable/trexquant",
@@ -245,7 +421,7 @@
    "tier": "B",
    "n_total": 33,
    "n_match": 0,
-   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is error"
   },
   {
    "key": "workday:lseg/wd3/Careers",
@@ -262,6 +438,470 @@
    "n_total": 31,
    "n_match": 0,
    "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "greenhouse:axq",
+   "firm": "AXQ Capital",
+   "tier": "A",
+   "n_total": 29,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "ashby:amber",
+   "firm": "Amber Group",
+   "tier": "B",
+   "n_total": 23,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "eightfold:mlp.eightfold.ai",
+   "firm": "Millennium",
+   "tier": "B",
+   "n_total": 23,
+   "n_match": 1,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:isam",
+   "firm": "ISAM",
+   "tier": "A",
+   "n_total": 20,
+   "n_match": 3,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:eclipsetrading",
+   "firm": "Eclipse Trading",
+   "tier": "A",
+   "n_total": 19,
+   "n_match": 4,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:gravitonresearchcapital",
+   "firm": "Graviton Research",
+   "tier": "A",
+   "n_total": 19,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:stxgroup",
+   "firm": "STX Group",
+   "tier": "B",
+   "n_total": 19,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:transmarketgroup",
+   "firm": "Transmarket",
+   "tier": "A",
+   "n_total": 19,
+   "n_match": 4,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "linklist:https://optiver.com/working-at-optiver/career-opportunities/",
+   "firm": "Optiver",
+   "tier": "B",
+   "n_total": 19,
+   "n_match": 6,
+   "reason": "source is error"
+  },
+  {
+   "key": "linklist:https://www.smartrecruiters.com/Vitol",
+   "firm": "Vitol",
+   "tier": "B",
+   "n_total": 17,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:wincent",
+   "firm": "Wincent",
+   "tier": "A",
+   "n_total": 16,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:alphagrepsecurities",
+   "firm": "AlphaGrep Securities",
+   "tier": "B",
+   "n_total": 16,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:fiveringsllc",
+   "firm": "Five Rings",
+   "tier": "A",
+   "n_total": 16,
+   "n_match": 10,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:adaptivefinancialconsulting",
+   "firm": "Adaptive Financial Consulting",
+   "tier": "B",
+   "n_total": 15,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:nksecuritiesresearch",
+   "firm": "NK Securities Research",
+   "tier": "B",
+   "n_total": 15,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "ashby:smarkets",
+   "firm": "Smarkets",
+   "tier": "B",
+   "n_total": 11,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:pharomanagement",
+   "firm": "Pharo Management",
+   "tier": "B",
+   "n_total": 10,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:trillium",
+   "firm": "Trillium Trading",
+   "tier": "A",
+   "n_total": 10,
+   "n_match": 4,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:winton",
+   "firm": "Winton",
+   "tier": "B",
+   "n_total": 10,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:xtxmarketstechnologies",
+   "firm": "XTX Markets",
+   "tier": "A",
+   "n_total": 10,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "ashby:keyrock",
+   "firm": "Keyrock",
+   "tier": "B",
+   "n_total": 9,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:teza-technologies",
+   "firm": "Teza Technologies",
+   "tier": "B",
+   "n_total": 9,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:genevatrading",
+   "firm": "Geneva Trading",
+   "tier": "B",
+   "n_total": 9,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:gsacapital",
+   "firm": "GSA Capital",
+   "tier": "A",
+   "n_total": 9,
+   "n_match": 3,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:mako",
+   "firm": "Mako",
+   "tier": "A",
+   "n_total": 9,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:pdtpartners",
+   "firm": "PDT Partners",
+   "tier": "A",
+   "n_total": 9,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:vaticlabs",
+   "firm": "Vatic Labs",
+   "tier": "A",
+   "n_total": 9,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:3redpartners",
+   "firm": "3Red Partners",
+   "tier": "A",
+   "n_total": 8,
+   "n_match": 3,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:aquaticcapitalmanagement",
+   "firm": "Aquatic Capital Management",
+   "tier": "A",
+   "n_total": 8,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:gelbergroup",
+   "firm": "Gelber Group",
+   "tier": "B",
+   "n_total": 8,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:xantium",
+   "firm": "Xantium",
+   "tier": "A",
+   "n_total": 8,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "sitemap:https://mercuria.com/job-sitemap.xml",
+   "firm": "Mercuria",
+   "tier": "B",
+   "n_total": 8,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:caladan",
+   "firm": "Caladan",
+   "tier": "A",
+   "n_total": 7,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:engineersgate",
+   "firm": "Engineers Gate",
+   "tier": "A",
+   "n_total": 7,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:headlandstechnologiesllc",
+   "firm": "Headlands Technologies",
+   "tier": "A",
+   "n_total": 7,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:quantbot-technologies",
+   "firm": "Quantbot Technologies",
+   "tier": "A",
+   "n_total": 7,
+   "n_match": 7,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:quantboxresearchpte",
+   "firm": "Quantbox Research",
+   "tier": "B",
+   "n_total": 7,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "ashby:vector",
+   "firm": "Vector Trading",
+   "tier": "B",
+   "n_total": 6,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:blackedgecapital",
+   "firm": "BlackEdge Capital",
+   "tier": "A",
+   "n_total": 6,
+   "n_match": 4,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "lever:valkyrietrading",
+   "firm": "Valkyrie Trading",
+   "tier": "B",
+   "n_total": 6,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:jumpcrypto",
+   "firm": "Jump Crypto",
+   "tier": "A",
+   "n_total": 5,
+   "n_match": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:simplextrading",
+   "firm": "Simplex Trading",
+   "tier": "B",
+   "n_total": 5,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "sitemap:https://www.mwam.com/internships-sitemap.xml",
+   "firm": "Marshall Wace",
+   "tier": "B",
+   "n_total": 5,
+   "n_match": 5,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:act",
+   "firm": "ACT Group",
+   "tier": "B",
+   "n_total": 4,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "ashby:onyx",
+   "firm": "Onyx Capital",
+   "tier": "A",
+   "n_total": 4,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:quadraturecapital",
+   "firm": "Quadrature Capital",
+   "tier": "A",
+   "n_total": 4,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:hrttalentcommunity",
+   "firm": "Hudson River Trading",
+   "tier": "A",
+   "n_total": 3,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:kronosresearch",
+   "firm": "Kronos Research",
+   "tier": "A",
+   "n_total": 3,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:vivcourt",
+   "firm": "VivCourt Trading",
+   "tier": "B",
+   "n_total": 3,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "ashby:liquid",
+   "firm": "Liquid Capital Group",
+   "tier": "B",
+   "n_total": 2,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:polar",
+   "firm": "Polar Capital",
+   "tier": "B",
+   "n_total": 2,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:stronghold",
+   "firm": "Stronghold Capital Management",
+   "tier": "B",
+   "n_total": 2,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:glencoreuk",
+   "firm": "Glencore UK",
+   "tier": "A",
+   "n_total": 2,
+   "n_match": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:magnetar",
+   "firm": "Magnetar",
+   "tier": "B",
+   "n_total": 2,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "greenhouse:maverickderivatives",
+   "firm": "Maverick Derivatives",
+   "tier": "B",
+   "n_total": 2,
+   "n_match": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "ashby:ocean",
+   "firm": "Ocean Partners",
+   "tier": "B",
+   "n_total": 1,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:hbkcapitalmanagement",
+   "firm": "HBK Capital",
+   "tier": "B",
+   "n_total": 1,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:palomapartners",
+   "firm": "Paloma Partners",
+   "tier": "B",
+   "n_total": 1,
+   "n_match": 0,
+   "reason": "source is blocked"
   }
  ],
  "blindspots": [
@@ -270,8 +910,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T04:32:29.964932+00:00",
-   "last_change_detected": "2026-09-10T03:46:27.512884+00:00",
+   "last_checked_by_bell": "2026-09-10T07:51:38.022061+00:00",
+   "last_change_detected": "2026-09-10T07:51:38.022061+00:00",
    "categories": [
     "prop"
    ]
@@ -292,7 +932,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-10T04:30:25.147259+00:00",
+   "last_checked_by_bell": "2026-09-10T07:46:20.713721+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -303,7 +943,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-10T04:30:27.285256+00:00",
+   "last_checked_by_bell": "2026-09-10T07:46:22.905269+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -314,7 +954,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T04:30:27.286042+00:00",
+   "last_checked_by_bell": "2026-09-10T07:46:22.906052+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -325,7 +965,7 @@
    "url": "https://www.bridgewater.com/working-at-bridgewater/job-openings",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-10T04:30:27.663238+00:00",
+   "last_checked_by_bell": "2026-09-10T07:48:41.420424+00:00",
    "last_change_detected": null,
    "categories": [
     "quant_fund"
@@ -336,7 +976,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-10T04:30:28.402732+00:00",
+   "last_checked_by_bell": "2026-09-10T07:48:41.777952+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -347,7 +987,7 @@
    "url": "https://www.chicagotrading.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-10T04:31:03.004236+00:00",
+   "last_checked_by_bell": "2026-09-10T07:48:44.703826+00:00",
    "last_change_detected": "2026-09-07T17:48:36.251225+00:00",
    "categories": [
     "prop"
@@ -358,7 +998,7 @@
    "url": "https://www.citadel.com/careers/students/",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-10T04:31:06.296792+00:00",
+   "last_checked_by_bell": "2026-09-10T07:48:47.916223+00:00",
    "last_change_detected": "2026-09-07T17:27:52.536866+00:00",
    "categories": [
     "quant_fund"
@@ -369,7 +1009,7 @@
    "url": "https://www.citadelsecurities.com/careers/",
    "kind": "manual",
    "why": "Sitemap is public and lists 86 career URLs, but the job pages themselves return 403 to an honest user agent. A public index does not override a refusal on the resource. Verified 2026-09-06.",
-   "last_checked_by_bell": "2026-09-10T04:31:06.297603+00:00",
+   "last_checked_by_bell": "2026-09-10T07:48:47.916940+00:00",
    "last_change_detected": "2026-09-07T17:27:52.537398+00:00",
    "categories": [
     "prop"
@@ -380,7 +1020,7 @@
    "url": "https://careers.db.com/students-graduates/",
    "kind": "manual",
    "why": "No ATS. Runs three explicitly quant Markets streams.",
-   "last_checked_by_bell": "2026-09-10T04:31:33.837003+00:00",
+   "last_checked_by_bell": "2026-09-10T07:51:35.708598+00:00",
    "last_change_detected": "2026-09-07T17:48:46.198895+00:00",
    "categories": [
     "bank"
@@ -391,7 +1031,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-10T04:34:00.379482+00:00",
+   "last_checked_by_bell": "2026-09-10T08:26:09.310256+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -402,7 +1042,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T07:40:13.809122+00:00",
+   "last_checked_by_bell": "2026-09-10T07:54:43.274166+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -413,7 +1053,7 @@
    "url": "https://www.jefferies.com/careers/",
    "kind": "manual",
    "why": "tal.net, at jefferies.tal.net/vx/.../jobboard/vacancy/{1,2}/adv/. Both vacancy boards return a 4.7 KB JavaScript shell with no anchors, unlike Bank of America's tal.net board which server-renders. Same vendor, different brand configuration. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T04:34:06.628501+00:00",
+   "last_checked_by_bell": "2026-09-10T08:26:11.036049+00:00",
    "last_change_detected": "2026-09-07T17:49:19.577230+00:00",
    "categories": [
     "bank"
@@ -424,7 +1064,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T04:49:28.754206+00:00",
+   "last_checked_by_bell": "2026-09-10T08:26:31.692277+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -435,7 +1075,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T04:49:28.866148+00:00",
+   "last_checked_by_bell": "2026-09-10T08:26:31.692761+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -446,7 +1086,7 @@
    "url": "https://www.peak6.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No Greenhouse/Lever/Ashby board \u2014 a 168-request sweep of the whole confirmed segment returned one hit. Runs an enterprise ATS. The careers page loads but exposes no ATS signature and is too dynamic to fingerprint usefully, so: check by hand.",
-   "last_checked_by_bell": "2026-09-10T04:49:31.158716+00:00",
+   "last_checked_by_bell": "2026-09-10T08:26:52.279655+00:00",
    "last_change_detected": "2026-09-07T17:49:37.484861+00:00",
    "categories": [
     "prop"
@@ -457,7 +1097,7 @@
    "url": "https://careers.smbcgroup.com/",
    "kind": "manual",
    "why": "SuccessFactors \u2014 career8.successfactors.com, company smbcP2, linked from careers.smbcgroup.com. **robots.txt disallows it.** That is a refusal and it is final; this is no longer 'no readable board' but 'they said no'.",
-   "last_checked_by_bell": "2026-09-10T05:10:04.955700+00:00",
+   "last_checked_by_bell": "2026-09-10T08:26:52.310869+00:00",
    "last_change_detected": "2026-09-07T17:28:53.931978+00:00",
    "categories": [
     "bank"
@@ -468,7 +1108,7 @@
    "url": "https://careers.societegenerale.com/",
    "kind": "manual",
    "why": "Taleo \u2014 socgen.taleo.net/careersection/sgcareers/. The career section is a JavaScript application: 697 KB and not one job link in the HTML. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T05:10:04.956288+00:00",
+   "last_checked_by_bell": "2026-09-10T08:26:52.311156+00:00",
    "last_change_detected": "2026-09-07T17:49:42.250947+00:00",
    "categories": [
     "bank"
@@ -479,7 +1119,7 @@
    "url": "https://www.starlizard.com/",
    "kind": "manual",
    "why": "No ATS. ~242 staff, London. Sports betting modelling.",
-   "last_checked_by_bell": "2026-09-10T05:10:05.620593+00:00",
+   "last_checked_by_bell": "2026-09-10T08:26:52.333856+00:00",
    "last_change_detected": "2026-09-07T17:49:42.746190+00:00",
    "categories": [
     "betting"
@@ -490,7 +1130,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T05:26:33.102653+00:00",
+   "last_checked_by_bell": "2026-09-10T08:27:12.381679+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -501,7 +1141,7 @@
    "url": "https://www.wellsfargojobs.com/",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T05:47:46.779928+00:00",
+   "last_checked_by_bell": "2026-09-10T08:27:12.409672+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
@@ -5520,7 +6160,7 @@
    "location": "",
    "opened_at": null,
    "opened_exact": false,
-   "first_seen_at": "2026-09-10T03:46:27.512884+00:00",
+   "first_seen_at": "2026-09-10T07:51:38.022061+00:00",
    "date_basis": "first seen",
    "deadline": null,
    "strength": "strong",
