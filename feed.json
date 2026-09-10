@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-10T21:30:00.604946+00:00",
+ "generated_at": "2026-09-10T21:35:01.254474+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 272,
-  "seen_24h": 1126,
+  "seen_24h": 1125,
   "truncated": true,
-  "total": 545,
+  "total": 549,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 10534
+  "postings_tracked": 10559
  },
  "detection": {
-  "mean_latency_s": 14212.1,
-  "sampled": 185,
+  "mean_latency_s": 15220.9,
+  "sampled": 188,
   "by_tier": {
    "A": {
     "mean_latency_s": 31262.0,
     "sampled": 63
    },
    "B": {
-    "mean_latency_s": 5407.6,
-    "sampled": 122
+    "mean_latency_s": 7136.1,
+    "sampled": 125
    }
   },
   "watch": {
@@ -275,9 +275,9 @@
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
    "firm": "AllianceBernstein",
    "tier": "C",
-   "n_total": 27,
+   "n_total": 28,
    "n_match": 0,
-   "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   }
  ],
  "blindspots": [
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T21:00:59.940611+00:00",
+   "last_checked_by_bell": "2026-09-10T21:30:58.499973+00:00",
    "last_change_detected": "2026-09-10T16:01:05.026712+00:00",
    "categories": [
     "prop"
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T21:02:10.967083+00:00",
+   "last_checked_by_bell": "2026-09-10T21:32:04.067745+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-10T21:00:16.117600+00:00",
+   "last_checked_by_bell": "2026-09-10T21:30:20.066171+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-10T21:00:37.412620+00:00",
+   "last_checked_by_bell": "2026-09-10T21:30:26.608999+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T21:00:37.413232+00:00",
+   "last_checked_by_bell": "2026-09-10T21:30:26.609909+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-10T21:00:38.426390+00:00",
+   "last_checked_by_bell": "2026-09-10T21:30:31.019112+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-10T21:01:13.253372+00:00",
+   "last_checked_by_bell": "2026-09-10T21:31:10.983463+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T21:29:26.414134+00:00",
+   "last_checked_by_bell": "2026-09-10T21:34:13.843055+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T21:01:40.487582+00:00",
+   "last_checked_by_bell": "2026-09-10T21:31:36.070166+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T21:01:40.600988+00:00",
+   "last_checked_by_bell": "2026-09-10T21:31:36.183884+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-10T21:02:22.460310+00:00",
+   "last_checked_by_bell": "2026-09-10T21:32:15.562534+00:00",
    "last_change_detected": "2026-09-10T14:32:21.281070+00:00",
    "categories": [
     "bank"
@@ -614,6 +614,60 @@
    "reason": "intern + engineer",
    "uk": false,
    "tier": "A"
+  },
+  {
+   "firm": "Brevan Howard",
+   "title": "2027 Summer Internship Program \u2013 Systematic Trading Technology Software Engineer, New York",
+   "url": "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101597EXTERNALENGB/2027-Summer-Internship-Program-Systematic-Trading-Technology-Software-Engineer-New-York",
+   "location": "New York, New York, United States of America",
+   "opened_at": "2026-09-10T00:00:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-10T21:30:30.676842+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + trading",
+   "uk": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Brevan Howard",
+   "title": "2027 Summer Internship Program \u2013 Systematic Data Strategy, New York",
+   "url": "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101596EXTERNALENGB/2027-Summer-Internship-Program-Systematic-Data-Strategy-New-York",
+   "location": "New York, New York, United States of America",
+   "opened_at": "2026-09-10T00:00:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-10T21:30:30.676842+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + systematic",
+   "uk": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Brevan Howard",
+   "title": "2027 Summer Internship Program \u2013 Systematic Execution Research, New York",
+   "url": "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101595EXTERNALENGB/2027-Summer-Internship-Program-Systematic-Execution-Research-New-York",
+   "location": "New York, New York, United States of America",
+   "opened_at": "2026-09-10T00:00:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-10T21:30:30.676842+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + systematic",
+   "uk": false,
+   "tier": "B"
   },
   {
    "firm": "DV Trading",
@@ -3438,60 +3492,6 @@
    "desk": "quant",
    "desk_inferred": false,
    "reason": "summer analyst + trading",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Virtu Financial",
-   "title": "2027 Internship - Software Engineer",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
-   "location": "Austin, TX; New York",
-   "opened_at": "2026-07-21T15:34:18+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:33.379174+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "intern + swe",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "BlackEdge Capital",
-   "title": "Graduate Quantitative Trader",
-   "url": "https://job-boards.greenhouse.io/blackedgecapital/jobs/4703824005",
-   "location": "Chicago",
-   "opened_at": "2026-07-21T12:08:38+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T18:00:22.304003+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "graduate + quant",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "BlackEdge Capital",
-   "title": "Quantitative Trader Intern",
-   "url": "https://job-boards.greenhouse.io/blackedgecapital/jobs/4703820005",
-   "location": "Chicago",
-   "opened_at": "2026-07-21T12:07:58+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T18:00:22.304003+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + quant",
    "uk": false,
    "tier": "A"
   },
