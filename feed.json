@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-10T12:45:01.156236+00:00",
+ "generated_at": "2026-09-10T12:50:00.453338+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 266,
-  "seen_24h": 1244,
+  "seen_24h": 1250,
   "truncated": true,
   "total": 518,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 10081
+  "postings_tracked": 10087
  },
  "detection": {
   "mean_latency_s": 4024.6,
@@ -211,9 +211,9 @@
    "key": "oracle:jpmc.fa.oraclecloud.com",
    "firm": "J.P. Morgan",
    "tier": "B",
-   "n_total": 239,
+   "n_total": 241,
    "n_match": 0,
-   "reason": "source is blocked"
+   "reason": "241 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
@@ -232,22 +232,6 @@
    "reason": "136 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/",
-   "firm": "Jefferies",
-   "tier": "B",
-   "n_total": 50,
-   "n_match": 10,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "oracle:ekbq.fa.em2.oraclecloud.com",
-   "firm": "Schroders",
-   "tier": "B",
-   "n_total": 39,
-   "n_match": 5,
-   "reason": "source is blocked"
-  },
-  {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
@@ -261,7 +245,7 @@
    "tier": "B",
    "n_total": 33,
    "n_match": 0,
-   "reason": "source is blocked"
+   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:lseg/wd3/Careers",
@@ -310,7 +294,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T12:30:40.955682+00:00",
+   "last_checked_by_bell": "2026-09-10T12:45:41.776047+00:00",
    "last_change_detected": "2026-09-10T07:51:38.022061+00:00",
    "categories": [
     "prop"
@@ -321,7 +305,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T12:32:05.898596+00:00",
+   "last_checked_by_bell": "2026-09-10T12:47:19.327617+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -332,7 +316,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-10T12:30:13.092213+00:00",
+   "last_checked_by_bell": "2026-09-10T12:45:14.016448+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -343,7 +327,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-10T12:30:15.633480+00:00",
+   "last_checked_by_bell": "2026-09-10T12:45:16.292846+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -354,7 +338,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T12:30:15.633905+00:00",
+   "last_checked_by_bell": "2026-09-10T12:45:16.293647+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -376,7 +360,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-10T12:30:18.107038+00:00",
+   "last_checked_by_bell": "2026-09-10T12:45:17.124799+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -431,7 +415,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-10T12:31:13.011397+00:00",
+   "last_checked_by_bell": "2026-09-10T12:46:17.266289+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -442,7 +426,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T12:44:14.719278+00:00",
+   "last_checked_by_bell": "2026-09-10T12:49:26.930432+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -464,7 +448,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T12:31:36.442745+00:00",
+   "last_checked_by_bell": "2026-09-10T12:46:47.618639+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -475,7 +459,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T12:31:36.588708+00:00",
+   "last_checked_by_bell": "2026-09-10T12:46:47.777750+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -530,7 +514,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T12:32:17.271341+00:00",
+   "last_checked_by_bell": "2026-09-10T12:47:31.295593+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
