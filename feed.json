@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-10T01:05:17.981010+00:00",
+ "generated_at": "2026-09-10T01:10:10.068880+00:00",
  "counts": {
   "items": 369,
   "strong": 340,
   "uk": 137,
-  "seen_24h": 1170,
+  "seen_24h": 1167,
   "truncated": false,
   "total": 369,
   "truncated_uk": 0,
@@ -55,9 +55,9 @@
      "seconds": 1241
     }
    ],
-   "n_gaps": 58,
+   "n_gaps": 57,
    "longest_gap_s": 2713,
-   "blind_s": 52260
+   "blind_s": 51338
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -281,7 +281,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T00:50:22.204864+00:00",
+   "last_checked_by_bell": "2026-09-10T01:05:42.755111+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -402,7 +402,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T01:03:25.943217+00:00",
+   "last_checked_by_bell": "2026-09-10T01:09:23.209133+00:00",
    "last_change_detected": "2026-09-09T10:45:37.828175+00:00",
    "categories": [
     "prop"
@@ -457,7 +457,7 @@
    "url": "https://careers.smbcgroup.com/",
    "kind": "manual",
    "why": "SuccessFactors \u2014 career8.successfactors.com, company smbcP2, linked from careers.smbcgroup.com. **robots.txt disallows it.** That is a refusal and it is final; this is no longer 'no readable board' but 'they said no'.",
-   "last_checked_by_bell": "2026-09-10T00:50:04.660175+00:00",
+   "last_checked_by_bell": "2026-09-10T01:05:29.182802+00:00",
    "last_change_detected": "2026-09-07T17:28:53.931978+00:00",
    "categories": [
     "bank"
@@ -468,7 +468,7 @@
    "url": "https://careers.societegenerale.com/",
    "kind": "manual",
    "why": "Taleo \u2014 socgen.taleo.net/careersection/sgcareers/. The career section is a JavaScript application: 697 KB and not one job link in the HTML. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T00:50:04.661172+00:00",
+   "last_checked_by_bell": "2026-09-10T01:05:29.183682+00:00",
    "last_change_detected": "2026-09-07T17:49:42.250947+00:00",
    "categories": [
     "bank"
@@ -479,7 +479,7 @@
    "url": "https://www.starlizard.com/",
    "kind": "manual",
    "why": "No ATS. ~242 staff, London. Sports betting modelling.",
-   "last_checked_by_bell": "2026-09-10T00:50:05.185927+00:00",
+   "last_checked_by_bell": "2026-09-10T01:05:29.681047+00:00",
    "last_change_detected": "2026-09-07T17:49:42.746190+00:00",
    "categories": [
     "betting"
@@ -490,7 +490,7 @@
    "url": "https://www.ubs.com/global/en/careers/students-graduates.html",
    "kind": "manual",
    "why": "jobs.ubs.com returns 403 to an honest user agent and ubs.com/global/en/careers/students-graduates.html is a 404. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T00:50:34.593678+00:00",
+   "last_checked_by_bell": "2026-09-10T01:05:54.073317+00:00",
    "last_change_detected": "2026-09-07T17:29:03.689902+00:00",
    "categories": [
     "bank"
@@ -501,7 +501,7 @@
    "url": "https://www.wellsfargojobs.com/",
    "kind": "manual",
    "why": "Refused twice. www.wellsfargojobs.com returns 403 to an honest user agent, and their Eightfold portal answers 403 {\"message\": \"Not authorized for PCSX\"} for every domain tried. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T00:50:41.601931+00:00",
+   "last_checked_by_bell": "2026-09-10T01:06:02.011451+00:00",
    "last_change_detected": "2026-09-07T17:29:04.065717+00:00",
    "categories": [
     "bank"
