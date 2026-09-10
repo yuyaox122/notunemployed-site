@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-10T21:00:00.784417+00:00",
+ "generated_at": "2026-09-10T21:05:01.052713+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 268,
-  "seen_24h": 981,
+  "uk": 272,
+  "seen_24h": 1150,
   "truncated": true,
-  "total": 541,
+  "total": 545,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 10339
+  "postings_tracked": 10534
  },
  "detection": {
-  "mean_latency_s": 14384.2,
-  "sampled": 180,
+  "mean_latency_s": 14212.1,
+  "sampled": 185,
   "by_tier": {
    "A": {
     "mean_latency_s": 31262.0,
     "sampled": 63
    },
    "B": {
-    "mean_latency_s": 5296.2,
-    "sampled": 117
+    "mean_latency_s": 5407.6,
+    "sampled": 122
    }
   },
   "watch": {
@@ -55,9 +55,9 @@
      "seconds": 1958
     }
    ],
-   "n_gaps": 25,
+   "n_gaps": 24,
    "longest_gap_s": 5628,
-   "blind_s": 39828
+   "blind_s": 39321
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -200,92 +200,36 @@
  },
  "gaps": [
   {
-   "key": "sitemap:https://www.wellsfargojobs.com/sitemap.xml",
-   "firm": "Wells Fargo",
-   "tier": "B",
-   "n_total": 1767,
-   "n_match": 9,
-   "reason": "source is error"
-  },
-  {
-   "key": "sitemap:https://jobs.standardchartered.com/sitemap.xml",
-   "firm": "Standard Chartered",
-   "tier": "B",
-   "n_total": 1269,
-   "n_match": 10,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers",
-   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
-   "tier": "B",
-   "n_total": 663,
-   "n_match": 19,
-   "reason": "source is error"
-  },
-  {
    "key": "sitemap:https://careers.blackrock.com/sitemap.xml",
    "firm": "BlackRock",
    "tier": "B",
-   "n_total": 325,
+   "n_total": 334,
    "n_match": 0,
-   "reason": "325 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "334 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "oracle:jpmc.fa.oraclecloud.com",
    "firm": "J.P. Morgan",
    "tier": "B",
-   "n_total": 249,
+   "n_total": 259,
    "n_match": 0,
-   "reason": "249 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "259 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
    "firm": "Octopus Energy",
    "tier": "B",
-   "n_total": 169,
+   "n_total": 170,
    "n_match": 0,
-   "reason": "source is error"
+   "reason": "170 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:robinhood",
    "firm": "Robinhood",
    "tier": "B",
-   "n_total": 137,
+   "n_total": 139,
    "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs",
-   "firm": "Macquarie",
-   "tier": "B",
-   "n_total": 89,
-   "n_match": 3,
-   "reason": "source is error"
-  },
-  {
-   "key": "workday:santander/wd3/SantanderCareers",
-   "firm": "Santander CIB",
-   "tier": "C",
-   "n_total": 74,
-   "n_match": 1,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "linklist:https://careers.twosigma.com/careers/OpenRoles",
-   "firm": "Two Sigma",
-   "tier": "B",
-   "n_total": 55,
-   "n_match": 9,
-   "reason": "source is error"
-  },
-  {
-   "key": "oracle:ekbq.fa.em2.oraclecloud.com",
-   "firm": "Schroders",
-   "tier": "B",
-   "n_total": 40,
-   "n_match": 5,
-   "reason": "source is error"
+   "reason": "139 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -294,6 +238,14 @@
    "n_total": 39,
    "n_match": 0,
    "reason": "39 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "workday:lseg/wd3/Careers",
+   "firm": "LSEG",
+   "tier": "C",
+   "n_total": 36,
+   "n_match": 0,
+   "reason": "36 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
@@ -309,14 +261,6 @@
    "tier": "B",
    "n_total": 33,
    "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "workday:lseg/wd3/Careers",
-   "firm": "LSEG",
-   "tier": "C",
-   "n_total": 33,
-   "n_match": 0,
    "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
@@ -328,236 +272,12 @@
    "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "workday:wellington/wd5/External",
-   "firm": "Wellington",
-   "tier": "C",
-   "n_total": 28,
-   "n_match": 2,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
    "firm": "AllianceBernstein",
    "tier": "C",
-   "n_total": 26,
+   "n_total": 27,
    "n_match": 0,
-   "reason": "26 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "eightfold:mlp.eightfold.ai",
-   "firm": "Millennium",
-   "tier": "B",
-   "n_total": 23,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:stxgroup",
-   "firm": "STX Group",
-   "tier": "B",
-   "n_total": 19,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "linklist:https://optiver.com/working-at-optiver/career-opportunities/",
-   "firm": "Optiver",
-   "tier": "B",
-   "n_total": 19,
-   "n_match": 6,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://www.smartrecruiters.com/Vitol",
-   "firm": "Vitol",
-   "tier": "B",
-   "n_total": 17,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "workday:shell/wd3/ShellCareers",
-   "firm": "Shell",
-   "tier": "C",
-   "n_total": 16,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "greenhouse:nksecuritiesresearch",
-   "firm": "NK Securities Research",
-   "tier": "B",
-   "n_total": 15,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:smarkets",
-   "firm": "Smarkets",
-   "tier": "B",
-   "n_total": 11,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:pharomanagement",
-   "firm": "Pharo Management",
-   "tier": "B",
-   "n_total": 10,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "greenhouse:winton",
-   "firm": "Winton",
-   "tier": "B",
-   "n_total": 10,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "ashby:teza-technologies",
-   "firm": "Teza Technologies",
-   "tier": "B",
-   "n_total": 9,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "sitemap:https://mercuria.com/job-sitemap.xml",
-   "firm": "Mercuria",
-   "tier": "B",
-   "n_total": 8,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "workday:robeco/wd3/robecoexternalcareers",
-   "firm": "Robeco",
-   "tier": "C",
-   "n_total": 8,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:viterra/wd3/External-CAN",
-   "firm": "Viterra",
-   "tier": "C",
-   "n_total": 8,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "greenhouse:quantboxresearchpte",
-   "firm": "Quantbox Research",
-   "tier": "B",
-   "n_total": 7,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "linklist:https://starlizard.com/join-our-team/",
-   "firm": "Starlizard",
-   "tier": "B",
-   "n_total": 7,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:vector",
-   "firm": "Vector Trading",
-   "tier": "B",
-   "n_total": 6,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "lever:valkyrietrading",
-   "firm": "Valkyrie Trading",
-   "tier": "B",
-   "n_total": 6,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:simplextrading",
-   "firm": "Simplex Trading",
-   "tier": "B",
-   "n_total": 5,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "sitemap:https://www.mwam.com/internships-sitemap.xml",
-   "firm": "Marshall Wace",
-   "tier": "B",
-   "n_total": 5,
-   "n_match": 5,
-   "reason": "source is error"
-  },
-  {
-   "key": "workday:trafigura/wd3/TrafiguraCareerSite",
-   "firm": "Trafigura",
-   "tier": "C",
-   "n_total": 4,
-   "n_match": 1,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "greenhouse:vivcourt",
-   "firm": "VivCourt Trading",
-   "tier": "B",
-   "n_total": 3,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:polar",
-   "firm": "Polar Capital",
-   "tier": "B",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:stronghold",
-   "firm": "Stronghold Capital Management",
-   "tier": "B",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "greenhouse:magnetar",
-   "firm": "Magnetar",
-   "tier": "B",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:maverickderivatives",
-   "firm": "Maverick Derivatives",
-   "tier": "B",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:ocean",
-   "firm": "Ocean Partners",
-   "tier": "B",
-   "n_total": 1,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:palomapartners",
-   "firm": "Paloma Partners",
-   "tier": "B",
-   "n_total": 1,
-   "n_match": 0,
-   "reason": "source is error"
+   "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   }
  ],
  "blindspots": [
@@ -566,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T16:01:05.026712+00:00",
+   "last_checked_by_bell": "2026-09-10T21:00:59.940611+00:00",
    "last_change_detected": "2026-09-10T16:01:05.026712+00:00",
    "categories": [
     "prop"
@@ -577,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-10T15:47:29.547822+00:00",
+   "last_checked_by_bell": "2026-09-10T21:02:10.967083+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -588,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-10T16:00:18.804771+00:00",
+   "last_checked_by_bell": "2026-09-10T21:00:16.117600+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -599,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-10T16:00:23.122044+00:00",
+   "last_checked_by_bell": "2026-09-10T21:00:37.412620+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -610,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T16:00:23.122761+00:00",
+   "last_checked_by_bell": "2026-09-10T21:00:37.413232+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -632,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-10T16:00:25.236095+00:00",
+   "last_checked_by_bell": "2026-09-10T21:00:38.426390+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -687,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-10T16:02:40.561113+00:00",
+   "last_checked_by_bell": "2026-09-10T21:01:13.253372+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -698,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-10T20:56:40.295802+00:00",
+   "last_checked_by_bell": "2026-09-10T21:04:24.851138+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -720,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T18:02:12.113096+00:00",
+   "last_checked_by_bell": "2026-09-10T21:01:40.487582+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -731,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-10T18:02:12.638395+00:00",
+   "last_checked_by_bell": "2026-09-10T21:01:40.600988+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -786,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-10T15:47:43.469316+00:00",
+   "last_checked_by_bell": "2026-09-10T21:02:22.460310+00:00",
    "last_change_detected": "2026-09-10T14:32:21.281070+00:00",
    "categories": [
     "bank"
@@ -805,6 +525,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "Geneva Trading",
+   "title": "Quantitative Trading Internship \u2013 Summer 2027",
+   "url": "https://job-boards.greenhouse.io/genevatrading/jobs/5232641007",
+   "location": "Chicago Office",
+   "opened_at": "2026-09-10T18:20:09+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-10T21:01:13.238534+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
+   "uk": false,
+   "tier": "B"
+  },
   {
    "firm": "Schonfeld",
    "title": "2027 Platform Engineering Intern",
@@ -3758,96 +3496,6 @@
    "tier": "A"
   },
   {
-   "firm": "Virtu Financial",
-   "title": "2027 Internship - Software Engineer",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8551566002",
-   "location": "Dublin, Ireland",
-   "opened_at": "2026-07-20T11:39:13+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:33.379174+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "intern + swe",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "Graduate Software Engineer - Digital Assets",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4932192101",
-   "location": "Zug, Switzerland",
-   "opened_at": "2026-07-20T10:11:21+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:30.174595+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "graduate + swe",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Akuna Capital",
-   "title": "Expression of Interest: 2027 Trading Sneak Peek Weeks",
-   "url": "https://www.akunacapital.com/careers/job/7986086/?gh_jid=7986086",
-   "location": "Chicago",
-   "opened_at": "2026-07-19T23:52:34+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:32.846209+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "branded:sneak peek + trading",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "3Red Partners",
-   "title": "Graduate Quantitative Researcher (2027 Incoming Graduate, Full-Time)",
-   "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8624128002",
-   "location": "Chicago",
-   "opened_at": "2026-07-17T16:13:30+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:43:23.037759+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "graduate + quant",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "3Red Partners",
-   "title": "Graduate Trader (2027 Incoming Graduate, Full-Time)",
-   "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8634612002",
-   "location": "Chicago/Summa - Amsterdam",
-   "opened_at": "2026-07-17T16:13:17+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:43:23.037759+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "graduate + trading",
-   "uk": false,
-   "tier": "A"
-  },
-  {
    "firm": "Susquehanna (SIG)",
    "title": "Equity Research Internship: Summer 2027",
    "url": "https://careers.sig.com/jobs/11085?lang=en-us",
@@ -5738,6 +5386,60 @@
    "tier": "B"
   },
   {
+   "firm": "Schroders",
+   "title": "2027 Public Markets Equities Graduate Programme",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2043",
+   "location": "London, United Kingdom",
+   "opened_at": "2026-09-10T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-10T21:01:52.181284+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "graduate + markets",
+   "uk": true,
+   "tier": "B"
+  },
+  {
+   "firm": "Schroders",
+   "title": "2027 Public Markets Multi-Asset Graduate Programme",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2044",
+   "location": "London, United Kingdom",
+   "opened_at": "2026-09-10T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-10T21:01:52.181284+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "graduate + markets",
+   "uk": true,
+   "tier": "B"
+  },
+  {
+   "firm": "Barclays",
+   "title": "2027 Technology Analyst AI and Data Science Graduate Apprenticeship Programme Glasgow",
+   "url": "https://search.jobs.barclays/job/glasgow/2027-technology-analyst-ai-and-data-science-graduate-apprenticeship-programme-glasgow/13015/100442649632",
+   "location": "Glasgow, United Kingdom",
+   "opened_at": "2026-09-10T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-10T21:00:30.657956+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "graduate + ml/ds",
+   "uk": true,
+   "tier": "C"
+  },
+  {
    "firm": "Barclays",
    "title": "Sales, Trading and Structuring Graduate Programme 2027 London",
    "url": "https://search.jobs.barclays/job/london/sales-trading-and-structuring-graduate-programme-2027-london/13015/100425237424",
@@ -6674,6 +6376,24 @@
    "tier": "B"
   },
   {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "Trainee - Prime Services Sales",
+   "url": "https://careers.societegenerale.com/en/job-offers/trainee-prime-services-sales-26000JW2-en",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-10T21:01:57.428478+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "trainee + prime",
+   "uk": true,
+   "tier": "B"
+  },
+  {
    "firm": "DRW",
    "title": "DRW careers page changed \u2014 check by hand",
    "url": "https://drw.com/work-at-drw/listings",
@@ -7198,7 +6918,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Quant Masters Summer Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1953-2027-Quant-Masters-Summer-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1953-2027-Quant-Masters-Summer-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7216,7 +6936,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7234,7 +6954,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equities Sales and Trading Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1930-2027-Equities-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1930-2027-Equities-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7252,7 +6972,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Private Credit Investment Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7270,7 +6990,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Spring Week Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1933-2027-Equity-Research-Spring-Week-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1933-2027-Equity-Research-Spring-Week-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7288,7 +7008,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Houston, Energy Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1907-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1907-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7306,7 +7026,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Houston, Energy Transition Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1908-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Transition-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1908-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Transition-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7324,7 +7044,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Private Credit Investment Analyst Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1949-2027-Private-Credit-Investment-Analyst-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1949-2027-Private-Credit-Investment-Analyst-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7342,7 +7062,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Analyst Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1936-2027-Equity-Research-Analyst-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1936-2027-Equity-Research-Analyst-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7360,7 +7080,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Internship \u2013 Frankfurt, Equity Capital Markets (ALL INTAKES)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a279454475db/candidate/so/pm/1/pl/2/opp/1833-2027-Investment-Banking-Internship-Frankfurt-Equity-Capital-Markets-ALL-INTAKES/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-544f5d0b427c/candidate/so/pm/1/pl/2/opp/1833-2027-Investment-Banking-Internship-Frankfurt-Equity-Capital-Markets-ALL-INTAKES/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
