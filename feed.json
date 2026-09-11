@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-09-11T04:44:44.997286+00:00",
+ "generated_at": "2026-09-11T07:40:12.909658+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 273,
-  "seen_24h": 688,
+  "seen_24h": 679,
   "truncated": true,
-  "total": 551,
+  "total": 554,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 10622
+  "postings_tracked": 10646
  },
  "detection": {
-  "mean_latency_s": 14900.3,
-  "sampled": 193,
+  "mean_latency_s": 18775.1,
+  "sampled": 199,
   "by_tier": {
    "A": {
-    "mean_latency_s": 29596.9,
-    "sampled": 67
+    "mean_latency_s": 38951.9,
+    "sampled": 73
    },
    "B": {
     "mean_latency_s": 7085.4,
@@ -40,6 +40,11 @@
      "seconds": 5628
     },
     {
+     "from": "2026-09-11T05:25:28.699706+00:00",
+     "to": "2026-09-11T06:36:57.337739+00:00",
+     "seconds": 4289
+    },
+    {
      "from": "2026-09-10T08:55:04.200866+00:00",
      "to": "2026-09-10T10:04:01.619612+00:00",
      "seconds": 4137
@@ -48,16 +53,11 @@
      "from": "2026-09-10T19:53:01.304524+00:00",
      "to": "2026-09-10T20:56:27.294887+00:00",
      "seconds": 3806
-    },
-    {
-     "from": "2026-09-10T18:02:12.638395+00:00",
-     "to": "2026-09-10T18:53:35.091017+00:00",
-     "seconds": 3082
     }
    ],
-   "n_gaps": 29,
+   "n_gaps": 24,
    "longest_gap_s": 11686,
-   "blind_s": 53964
+   "blind_s": 51846
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-11T04:35:23.909070+00:00",
+   "last_checked_by_bell": "2026-09-11T06:54:37.266625+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -1949,6 +1949,24 @@
   },
   {
    "firm": "Susquehanna (SIG)",
+   "title": "Trading System Engineer - New Grad",
+   "url": "https://careers.sig.com/jobs/11349?lang=en-us",
+   "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
+   "opened_at": "2026-08-21T16:15:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-11T06:36:57.337739+00:00",
+   "date_basis": "published",
+   "deadline": "2027-08-21T16:17:02+00:00",
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "new grad + trading",
+   "uk": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
    "title": "Trading Systems Engineer Graduate: 2027 (London)",
    "url": "https://careers.sig.com/jobs/11347?lang=en-us",
    "location": "London, UNAVAILABLE, United Kingdom",
@@ -3447,24 +3465,6 @@
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8624424002",
    "location": "New York",
    "opened_at": "2026-07-22T17:26:27+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:33.379174+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + quant",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Virtu Financial",
-   "title": "2027 Internship - Quantitative Trading",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
-   "location": "Austin, TX; Chicago; New York",
-   "opened_at": "2026-07-21T19:54:04+00:00",
    "opened_exact": true,
    "first_seen_at": "2026-09-06T06:59:33.379174+00:00",
    "date_basis": "published",
