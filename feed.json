@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T18:55:00.736315+00:00",
+ "generated_at": "2026-09-12T19:00:00.629428+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-12T18:54:13.644165+00:00",
+   "last_checked_by_bell": "2026-09-12T18:59:18.482325+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-12T18:16:48.371375+00:00",
+   "last_checked_by_bell": "2026-09-12T18:55:05.935721+00:00",
    "last_change_detected": "2026-09-11T16:35:02.975536+00:00",
    "categories": [
     "bank"
