@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-12T05:06:26.260931+00:00",
+ "generated_at": "2026-09-12T06:00:00.458369+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 260,
-  "seen_24h": 657,
+  "uk": 258,
+  "seen_24h": 756,
   "truncated": true,
   "total": 535,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 11279
+  "postings_tracked": 11378
  },
  "detection": {
-  "mean_latency_s": 18321.4,
-  "sampled": 233,
+  "mean_latency_s": 19109.7,
+  "sampled": 239,
   "by_tier": {
    "A": {
-    "mean_latency_s": 35244.3,
-    "sampled": 94
+    "mean_latency_s": 36303.7,
+    "sampled": 99
    },
    "B": {
-    "mean_latency_s": 6877.2,
-    "sampled": 139
+    "mean_latency_s": 6951.0,
+    "sampled": 140
    }
   },
   "watch": {
@@ -40,11 +40,6 @@
      "seconds": 4864
     },
     {
-     "from": "2026-09-11T05:25:28.699706+00:00",
-     "to": "2026-09-11T06:36:57.337739+00:00",
-     "seconds": 4289
-    },
-    {
      "from": "2026-09-11T06:59:01.246691+00:00",
      "to": "2026-09-11T07:40:13.549508+00:00",
      "seconds": 2472
@@ -53,11 +48,16 @@
      "from": "2026-09-11T11:03:17.919914+00:00",
      "to": "2026-09-11T11:41:05.839012+00:00",
      "seconds": 2268
+    },
+    {
+     "from": "2026-09-11T09:12:48.524310+00:00",
+     "to": "2026-09-11T09:30:58.451715+00:00",
+     "seconds": 1090
     }
    ],
-   "n_gaps": 35,
+   "n_gaps": 37,
    "longest_gap_s": 11478,
-   "blind_s": 49130
+   "blind_s": 47588
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -203,17 +203,17 @@
    "key": "sitemap:https://careers.blackrock.com/sitemap.xml",
    "firm": "BlackRock",
    "tier": "B",
-   "n_total": 357,
+   "n_total": 373,
    "n_match": 0,
-   "reason": "357 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "373 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "oracle:jpmc.fa.oraclecloud.com",
    "firm": "J.P. Morgan",
    "tier": "B",
-   "n_total": 322,
+   "n_total": 329,
    "n_match": 0,
-   "reason": "322 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "329 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-11T23:00:35.740329+00:00",
+   "last_checked_by_bell": "2026-09-12T05:23:41.572960+00:00",
    "last_change_detected": "2026-09-11T20:00:40.844475+00:00",
    "categories": [
     "prop"
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-11T23:02:57.843397+00:00",
+   "last_checked_by_bell": "2026-09-12T05:55:13.162631+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-11T23:00:12.393581+00:00",
+   "last_checked_by_bell": "2026-09-12T05:21:56.079384+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-11T23:00:13.358748+00:00",
+   "last_checked_by_bell": "2026-09-12T05:22:22.085030+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-11T23:00:13.359293+00:00",
+   "last_checked_by_bell": "2026-09-12T05:22:22.085765+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-11T23:00:14.283048+00:00",
+   "last_checked_by_bell": "2026-09-12T05:22:22.919812+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-11T23:00:47.701221+00:00",
+   "last_checked_by_bell": "2026-09-12T05:38:56.750845+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-12T04:58:19.356798+00:00",
+   "last_checked_by_bell": "2026-09-12T05:39:15.156394+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-11T23:01:11.532342+00:00",
+   "last_checked_by_bell": "2026-09-12T05:39:20.850280+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-11T23:01:11.640954+00:00",
+   "last_checked_by_bell": "2026-09-12T05:39:20.954008+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-11T23:03:08.545449+00:00",
+   "last_checked_by_bell": "2026-09-12T05:59:44.954085+00:00",
    "last_change_detected": "2026-09-11T16:35:02.975536+00:00",
    "categories": [
     "bank"
@@ -612,6 +612,24 @@
    "desk": "quant",
    "desk_inferred": false,
    "reason": "intern + quant",
+   "uk": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
+   "title": "Trading Production Engineer University Co - Op Placement 2027",
+   "url": "https://careers.sig.com/jobs/11498?lang=en-us",
+   "location": "Dublin, UNAVAILABLE, Ireland",
+   "opened_at": "2026-09-11T07:12:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-12T05:38:49.647395+00:00",
+   "date_basis": "published",
+   "deadline": "2027-09-11T07:12:58+00:00",
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "co-op + trading",
    "uk": false,
    "tier": "A"
   },
@@ -2290,6 +2308,24 @@
    "tier": "A"
   },
   {
+   "firm": "Susquehanna (SIG)",
+   "title": "Quantitative Strategy Developer - New Grad",
+   "url": "https://careers.sig.com/jobs/11321?lang=en-us",
+   "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
+   "opened_at": "2026-08-19T16:33:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-12T05:38:49.647395+00:00",
+   "date_basis": "published",
+   "deadline": "2027-08-19T16:35:02+00:00",
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "new grad + quant",
+   "uk": false,
+   "tier": "A"
+  },
+  {
    "firm": "Verition",
    "title": "2027 Platform Internship, Non-Investment (US)",
    "url": "https://www.verition.com/open-positions?gh_jid=5214802007",
@@ -3942,24 +3978,6 @@
    "desk": "engineering",
    "desk_inferred": false,
    "reason": "intern + swe",
-   "uk": true,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
-   "title": "software engineer university graduate europe",
-   "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/",
-   "location": "",
-   "opened_at": "2026-09-10T12:21:31+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "graduate + swe",
    "uk": true,
    "tier": "B"
   },
@@ -5624,24 +5642,6 @@
    "title": "2027 Technology Developer Graduate Programme Northampton",
    "url": "https://search.jobs.barclays/job/northampton/2027-technology-developer-graduate-programme-northampton/13015/100411086896",
    "location": "Northampton, Northamptonshire, United Kingdom",
-   "opened_at": "2026-09-09T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T00:25:53.539896+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "graduate + engineer",
-   "uk": true,
-   "tier": "C"
-  },
-  {
-   "firm": "Barclays",
-   "title": "2027 Technology Developer Graduate Apprenticeship Programme Glasgow",
-   "url": "https://search.jobs.barclays/job/glasgow/2027-technology-developer-graduate-apprenticeship-programme-glasgow/13015/100411086576",
-   "location": "Glasgow, United Kingdom",
    "opened_at": "2026-09-09T00:00:00+00:00",
    "opened_exact": false,
    "first_seen_at": "2026-09-10T00:25:53.539896+00:00",
@@ -7421,7 +7421,7 @@
   },
   {
    "firm": "Nomura",
-   "title": "Nomura \u2014 Spring week / insight programme window is open, and has been for 10 days. No automated access; check by hand.",
+   "title": "Nomura \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
    "url": "https://www.nomura.com/careers/",
    "location": "",
    "opened_at": null,
@@ -7439,7 +7439,7 @@
   },
   {
    "firm": "Morgan Stanley",
-   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 10 days. No automated access; check by hand.",
+   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "location": "",
    "opened_at": null,
@@ -7457,7 +7457,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 10 days. No automated access; check by hand.",
+   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "opened_at": null,
@@ -7475,7 +7475,7 @@
   },
   {
    "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 10 days. No automated access; check by hand.",
+   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "location": "",
    "opened_at": null,
@@ -7493,7 +7493,7 @@
   },
   {
    "firm": "Blackstone",
-   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 10 days. No automated access; check by hand.",
+   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
    "url": "https://www.blackstone.com/careers/",
    "location": "",
    "opened_at": null,
