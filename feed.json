@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-13T08:50:00.676215+00:00",
+ "generated_at": "2026-09-13T08:55:00.447257+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 257,
-  "seen_24h": 41,
+  "seen_24h": 44,
   "truncated": true,
   "total": 527,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 11424
+  "postings_tracked": 11427
  },
  "detection": {
   "mean_latency_s": 19033.4,
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-13T05:37:48.251640+00:00",
+   "last_checked_by_bell": "2026-09-13T08:50:10.172775+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-13T08:49:13.654719+00:00",
+   "last_checked_by_bell": "2026-09-13T08:54:14.452604+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-13T05:37:58.979102+00:00",
+   "last_checked_by_bell": "2026-09-13T08:50:20.050782+00:00",
    "last_change_detected": "2026-09-12T23:32:25.650507+00:00",
    "categories": [
     "bank"
