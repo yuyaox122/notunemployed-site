@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-13T16:15:00.341416+00:00",
+ "generated_at": "2026-09-13T16:20:00.690300+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 251,
-  "seen_24h": 39,
+  "seen_24h": 43,
   "truncated": true,
-  "total": 515,
+  "total": 517,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 11429
+  "postings_tracked": 11433
  },
  "detection": {
   "mean_latency_s": 19334.4,
@@ -208,14 +208,6 @@
    "reason": "374 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "oracle:jpmc.fa.oraclecloud.com",
-   "firm": "J.P. Morgan",
-   "tier": "B",
-   "n_total": 339,
-   "n_match": 0,
-   "reason": "339 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "lever:octoenergy",
    "firm": "Octopus Energy",
    "tier": "B",
@@ -286,7 +278,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-13T16:00:35.414260+00:00",
+   "last_checked_by_bell": "2026-09-13T16:15:33.129015+00:00",
    "last_change_detected": "2026-09-11T20:00:40.844475+00:00",
    "categories": [
     "prop"
@@ -297,7 +289,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-13T16:01:56.683469+00:00",
+   "last_checked_by_bell": "2026-09-13T16:16:52.126902+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +300,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-13T16:00:13.609203+00:00",
+   "last_checked_by_bell": "2026-09-13T16:15:12.067732+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +311,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-13T16:00:14.612639+00:00",
+   "last_checked_by_bell": "2026-09-13T16:15:12.951872+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +322,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-13T16:00:14.615704+00:00",
+   "last_checked_by_bell": "2026-09-13T16:15:12.952622+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +344,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-13T16:00:15.515592+00:00",
+   "last_checked_by_bell": "2026-09-13T16:15:13.813296+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +399,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-13T16:00:47.866188+00:00",
+   "last_checked_by_bell": "2026-09-13T16:16:04.072689+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +410,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-13T16:14:13.443494+00:00",
+   "last_checked_by_bell": "2026-09-13T16:19:14.572637+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -440,7 +432,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-13T16:01:10.424991+00:00",
+   "last_checked_by_bell": "2026-09-13T16:16:25.680140+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +443,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-13T16:01:10.551849+00:00",
+   "last_checked_by_bell": "2026-09-13T16:16:25.787431+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +498,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-13T16:02:06.793621+00:00",
+   "last_checked_by_bell": "2026-09-13T16:17:02.083999+00:00",
    "last_change_detected": "2026-09-12T23:32:25.650507+00:00",
    "categories": [
     "bank"
@@ -3874,6 +3866,24 @@
    "tier": "A"
   },
   {
+   "firm": "J.P. Morgan",
+   "title": "2027 Markets Quantitative Trading & Research Associate Program \u2013 Off-Cycle Internship - Singapore",
+   "url": "https://careers.jpmorgan.com/global/en/job/210784061",
+   "location": "Singapore",
+   "opened_at": "2026-09-13T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-13T16:16:08.308195+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
+   "uk": false,
+   "tier": "B"
+  },
+  {
    "firm": "UBS",
    "title": "2027 Summer Internship - Global Research Evidence Lab - London",
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351058",
@@ -5708,24 +5718,6 @@
    "reason": "intern + markets",
    "uk": true,
    "tier": "B"
-  },
-  {
-   "firm": "UBS",
-   "title": "2027 Off-Cycle Internship - Global Markets - Paris",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350421",
-   "location": "France",
-   "opened_at": "2026-09-07T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T13:14:45.645604+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "markets",
-   "desk_inferred": false,
-   "reason": "intern + markets",
-   "uk": false,
-   "tier": "C"
   },
   {
    "firm": "Deutsche Bank",
