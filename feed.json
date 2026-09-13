@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-13T00:10:47.442633+00:00",
+ "generated_at": "2026-09-13T08:48:28.726078+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 257,
-  "seen_24h": 134,
+  "seen_24h": 37,
   "truncated": true,
   "total": 527,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 11413
+  "postings_tracked": 11420
  },
  "detection": {
   "mean_latency_s": 19033.4,
@@ -30,34 +30,34 @@
    "hours": 24,
    "gaps": [
     {
-     "from": "2026-09-12T03:37:01.026500+00:00",
-     "to": "2026-09-12T04:58:05.312980+00:00",
-     "seconds": 4864
+     "from": "2026-09-13T07:38:32.485018+00:00",
+     "to": "2026-09-13T08:44:02.008517+00:00",
+     "seconds": 3930
     },
     {
-     "from": "2026-09-12T23:32:34.549204+00:00",
-     "to": "2026-09-13T00:05:17.473188+00:00",
-     "seconds": 1963
+     "from": "2026-09-13T00:30:30.880448+00:00",
+     "to": "2026-09-13T01:18:01.128585+00:00",
+     "seconds": 2850
     },
     {
-     "from": "2026-09-12T08:09:29.216039+00:00",
-     "to": "2026-09-12T08:28:39.945775+00:00",
-     "seconds": 1151
+     "from": "2026-09-13T03:03:18.000546+00:00",
+     "to": "2026-09-13T03:49:08.443492+00:00",
+     "seconds": 2750
     },
     {
-     "from": "2026-09-12T06:54:31.891782+00:00",
-     "to": "2026-09-12T07:12:46.142914+00:00",
-     "seconds": 1094
+     "from": "2026-09-13T06:06:21.603161+00:00",
+     "to": "2026-09-13T06:52:01.695497+00:00",
+     "seconds": 2740
     },
     {
-     "from": "2026-09-12T15:28:30.008147+00:00",
-     "to": "2026-09-12T15:44:01.269116+00:00",
-     "seconds": 931
+     "from": "2026-09-13T01:47:03.211850+00:00",
+     "to": "2026-09-13T02:20:01.298873+00:00",
+     "seconds": 1978
     }
    ],
-   "n_gaps": 33,
-   "longest_gap_s": 4864,
-   "blind_s": 32972
+   "n_gaps": 42,
+   "longest_gap_s": 3930,
+   "blind_s": 46736
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-12T22:45:45.289012+00:00",
+   "last_checked_by_bell": "2026-09-13T04:35:32.071079+00:00",
    "last_change_detected": "2026-09-11T20:00:40.844475+00:00",
    "categories": [
     "prop"
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-12T23:17:12.614264+00:00",
+   "last_checked_by_bell": "2026-09-13T05:37:48.251640+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-12T22:45:14.030698+00:00",
+   "last_checked_by_bell": "2026-09-13T04:04:42.841255+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-12T22:45:14.860284+00:00",
+   "last_checked_by_bell": "2026-09-13T04:20:07.167213+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-12T22:45:14.861213+00:00",
+   "last_checked_by_bell": "2026-09-13T04:20:07.169326+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-12T22:45:15.774235+00:00",
+   "last_checked_by_bell": "2026-09-13T04:20:08.267331+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-12T23:01:16.471216+00:00",
+   "last_checked_by_bell": "2026-09-13T04:35:45.038306+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-13T00:08:52.786844+00:00",
+   "last_checked_by_bell": "2026-09-13T08:44:15.750900+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-12T23:01:40.774523+00:00",
+   "last_checked_by_bell": "2026-09-13T05:05:35.789462+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-12T23:01:40.940934+00:00",
+   "last_checked_by_bell": "2026-09-13T05:05:35.913930+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-12T23:32:25.650507+00:00",
+   "last_checked_by_bell": "2026-09-13T05:37:58.979102+00:00",
    "last_change_detected": "2026-09-12T23:32:25.650507+00:00",
    "categories": [
     "bank"
@@ -7421,7 +7421,7 @@
   },
   {
    "firm": "Nomura",
-   "title": "Nomura \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
+   "title": "Nomura \u2014 Spring week / insight programme window is open, and has been for 12 days. No automated access; check by hand.",
    "url": "https://www.nomura.com/careers/",
    "location": "",
    "opened_at": null,
@@ -7439,7 +7439,7 @@
   },
   {
    "firm": "Morgan Stanley",
-   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
+   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 12 days. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "location": "",
    "opened_at": null,
@@ -7457,7 +7457,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
+   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 12 days. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "opened_at": null,
@@ -7475,7 +7475,7 @@
   },
   {
    "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
+   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 12 days. No automated access; check by hand.",
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "location": "",
    "opened_at": null,
@@ -7493,7 +7493,7 @@
   },
   {
    "firm": "Blackstone",
-   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 11 days. No automated access; check by hand.",
+   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 12 days. No automated access; check by hand.",
    "url": "https://www.blackstone.com/careers/",
    "location": "",
    "opened_at": null,
