@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-14T18:47:35.014695+00:00",
+ "generated_at": "2026-09-14T18:52:43.759048+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
-  "uk": 260,
-  "seen_24h": 397,
+  "uk": 261,
+  "seen_24h": 415,
   "truncated": true,
-  "total": 547,
+  "total": 549,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 11831
+  "postings_tracked": 11849
  },
  "detection": {
-  "mean_latency_s": 22226.0,
-  "sampled": 249,
+  "mean_latency_s": 22322.4,
+  "sampled": 251,
   "by_tier": {
    "A": {
     "mean_latency_s": 36472.0,
     "sampled": 102
    },
    "B": {
-    "mean_latency_s": 12341.1,
-    "sampled": 147
+    "mean_latency_s": 12636.1,
+    "sampled": 149
    }
   },
   "watch": {
@@ -252,7 +252,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-14T18:00:42.021637+00:00",
+   "last_checked_by_bell": "2026-09-14T18:48:12.934126+00:00",
    "last_change_detected": "2026-09-14T16:45:36.516556+00:00",
    "categories": [
     "prop"
@@ -263,7 +263,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-14T18:02:05.077513+00:00",
+   "last_checked_by_bell": "2026-09-14T18:52:38.415856+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -274,7 +274,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-14T18:00:15.488408+00:00",
+   "last_checked_by_bell": "2026-09-14T18:47:47.115342+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -285,7 +285,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-14T18:00:16.500642+00:00",
+   "last_checked_by_bell": "2026-09-14T18:47:48.453308+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -296,7 +296,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-14T18:00:16.502702+00:00",
+   "last_checked_by_bell": "2026-09-14T18:47:48.453845+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -318,7 +318,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-14T18:00:17.442342+00:00",
+   "last_checked_by_bell": "2026-09-14T18:47:49.802009+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -373,7 +373,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-14T18:01:09.057625+00:00",
+   "last_checked_by_bell": "2026-09-14T18:48:34.352081+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -384,7 +384,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-14T18:44:13.690749+00:00",
+   "last_checked_by_bell": "2026-09-14T18:52:29.531936+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -406,7 +406,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-14T18:01:33.252654+00:00",
+   "last_checked_by_bell": "2026-09-14T18:49:01.237246+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -417,7 +417,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-14T18:01:33.367368+00:00",
+   "last_checked_by_bell": "2026-09-14T18:49:01.349157+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -686,6 +686,24 @@
    "desk": "engineering",
    "desk_inferred": false,
    "reason": "intern + engineer",
+   "uk": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Brevan Howard",
+   "title": "2027 Summer Internship Program \u2013 AI & Quantitative Analyst, New York",
+   "url": "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101602EXTERNALENGB/2027-Summer-Internship-Program-AI-Quantitative-Analyst-New-York",
+   "location": "New York, New York, United States of America",
+   "opened_at": "2026-09-14T00:00:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-14T18:47:49.474518+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
    "uk": false,
    "tier": "B"
   },
@@ -3660,42 +3678,6 @@
    "tier": "A"
   },
   {
-   "firm": "Old Mission Capital",
-   "title": "Quantitative Researcher (Ph.D.) - 2027 Graduate Program - (August Start)",
-   "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7814534003",
-   "location": "Chicago, IL, United States",
-   "opened_at": "2026-07-30T15:34:33+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:03:14.998570+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "graduate + quant",
-   "uk": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Virtu Financial",
-   "title": "2027 Internship- Hardware Engineer (FPGA)",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8657286002",
-   "location": "Austin, TX",
-   "opened_at": "2026-07-29T20:23:12+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:33.379174+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "intern + engineer",
-   "uk": false,
-   "tier": "A"
-  },
-  {
    "firm": "ISAM",
    "title": "Quantitative Research - PhD Graduate",
    "url": "https://job-boards.eu.greenhouse.io/isam/jobs/4940752101",
@@ -6212,6 +6194,24 @@
    "desk": null,
    "desk_inferred": false,
    "reason": "fixed-term placement + stage-only at a whole-firm employer",
+   "uk": true,
+   "tier": "B"
+  },
+  {
+   "firm": "Da Vinci Trading",
+   "title": "graduate quant miami",
+   "url": "https://davincitrading.com/job/graduate-quant-miami/",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-14T18:48:09.686431+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "graduate + quant",
    "uk": true,
    "tier": "B"
   },
