@@ -1,25 +1,26 @@
 {
- "generated_at": "2026-09-14T19:40:00.318862+00:00",
+ "generated_at": "2026-09-14T21:35:00.933304+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
-  "uk": 261,
-  "seen_24h": 452,
+  "uk": 84,
+  "uk_unstated": 177,
+  "seen_24h": 534,
   "truncated": true,
-  "total": 551,
+  "total": 549,
   "truncated_uk": 0,
   "firms": 156,
-  "firms_blind": 0,
+  "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 11886
+  "postings_tracked": 11970
  },
  "detection": {
-  "mean_latency_s": 22148.5,
-  "sampled": 253,
+  "mean_latency_s": 21978.8,
+  "sampled": 255,
   "by_tier": {
    "A": {
-    "mean_latency_s": 36474.2,
-    "sampled": 102
+    "mean_latency_s": 35782.5,
+    "sampled": 104
    },
    "B": {
     "mean_latency_s": 12471.6,
@@ -40,19 +41,24 @@
      "seconds": 919
     },
     {
-     "from": "2026-09-14T18:28:12.949851+00:00",
-     "to": "2026-09-14T18:40:26.387199+00:00",
-     "seconds": 733
+     "from": "2026-09-14T20:19:37.349119+00:00",
+     "to": "2026-09-14T20:34:53.671081+00:00",
+     "seconds": 916
     },
     {
-     "from": "2026-09-14T18:12:01.233793+00:00",
-     "to": "2026-09-14T18:24:01.477638+00:00",
-     "seconds": 720
+     "from": "2026-09-14T20:42:45.199540+00:00",
+     "to": "2026-09-14T20:58:01.304887+00:00",
+     "seconds": 916
+    },
+    {
+     "from": "2026-09-14T20:03:49.345815+00:00",
+     "to": "2026-09-14T20:18:50.983390+00:00",
+     "seconds": 902
     }
    ],
-   "n_gaps": 4,
+   "n_gaps": 8,
    "longest_gap_s": 63259,
-   "blind_s": 65631
+   "blind_s": 69264
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -198,9 +204,9 @@
    "key": "sitemap:https://careers.blackrock.com/sitemap.xml",
    "firm": "BlackRock",
    "tier": "B",
-   "n_total": 381,
+   "n_total": 383,
    "n_match": 0,
-   "reason": "381 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "383 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
@@ -257,8 +263,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-14T19:32:23.692894+00:00",
-   "last_change_detected": "2026-09-14T16:45:36.516556+00:00",
+   "last_checked_by_bell": "2026-09-14T21:30:41.744940+00:00",
+   "last_change_detected": "2026-09-14T21:03:10.821277+00:00",
    "categories": [
     "prop"
    ]
@@ -268,7 +274,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-14T19:35:08.828602+00:00",
+   "last_checked_by_bell": "2026-09-14T21:31:49.003579+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -279,7 +285,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-14T19:32:00.736932+00:00",
+   "last_checked_by_bell": "2026-09-14T21:30:12.568387+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -290,7 +296,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-14T19:32:01.881495+00:00",
+   "last_checked_by_bell": "2026-09-14T21:30:13.470427+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -301,7 +307,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-14T19:32:01.882035+00:00",
+   "last_checked_by_bell": "2026-09-14T21:30:13.470898+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -323,7 +329,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-14T19:32:02.896621+00:00",
+   "last_checked_by_bell": "2026-09-14T21:30:14.336053+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -378,7 +384,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-14T19:32:50.542723+00:00",
+   "last_checked_by_bell": "2026-09-14T21:30:53.677029+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -389,8 +395,8 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-14T19:39:15.929642+00:00",
-   "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
+   "last_checked_by_bell": "2026-09-14T21:34:41.880284+00:00",
+   "last_change_detected": "2026-09-14T20:58:14.663891+00:00",
    "categories": [
     "prop"
    ]
@@ -411,7 +417,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-14T19:33:13.242783+00:00",
+   "last_checked_by_bell": "2026-09-14T21:31:15.439895+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -422,7 +428,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-14T19:33:13.351657+00:00",
+   "last_checked_by_bell": "2026-09-14T21:31:15.553889+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -477,7 +483,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-14T19:37:49.917911+00:00",
+   "last_checked_by_bell": "2026-09-14T21:32:00.476620+00:00",
    "last_change_detected": "2026-09-14T18:52:50.298985+00:00",
    "categories": [
     "bank"
@@ -497,6 +503,25 @@
  ],
  "items": [
   {
+   "firm": "BlackEdge Capital",
+   "title": "Graduate Quantitative Researcher 2027",
+   "url": "https://job-boards.greenhouse.io/blackedgecapital/jobs/4732320005",
+   "location": "Chicago",
+   "opened_at": "2026-09-14T20:43:45+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-14T20:58:04.427805+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "graduate + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
    "firm": "Five Rings",
    "title": "Recent Graduate - Trading Assistant (NYC)",
    "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5414190008",
@@ -512,25 +537,8 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
-  },
-  {
-   "firm": "ExodusPoint",
-   "title": "Quant Intern (Credit) - Philadelphia - December 2026",
-   "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8806119002",
-   "location": "Wynnewood, PA",
-   "opened_at": "2026-09-14T16:58:22+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-14T17:00:58.669228+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + quant",
-   "uk": false,
-   "tier": "B"
   },
   {
    "firm": "IMC Trading",
@@ -548,6 +556,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -566,6 +575,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -584,6 +594,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -602,6 +613,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -620,6 +632,7 @@
    "desk_inferred": false,
    "reason": "intern + investment",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -638,6 +651,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -656,6 +670,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -674,6 +689,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -692,6 +708,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -710,6 +727,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -728,6 +746,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -746,6 +765,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -764,6 +784,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -782,6 +803,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -800,6 +822,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -818,6 +841,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -836,6 +860,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -854,6 +879,7 @@
    "desk_inferred": false,
    "reason": "co-op + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -872,6 +898,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -890,6 +917,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -908,6 +936,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -926,6 +955,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -944,6 +974,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -962,6 +993,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -980,6 +1012,7 @@
    "desk_inferred": false,
    "reason": "intern + systematic",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -998,6 +1031,7 @@
    "desk_inferred": false,
    "reason": "intern + systematic",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -1016,6 +1050,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1034,6 +1069,7 @@
    "desk_inferred": false,
    "reason": "insight programme + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1052,6 +1088,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1070,6 +1107,7 @@
    "desk_inferred": false,
    "reason": "branded:women in trading + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1088,6 +1126,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1106,6 +1145,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -1124,6 +1164,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -1142,6 +1183,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -1160,6 +1202,7 @@
    "desk_inferred": false,
    "reason": "intern + ml/ds",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -1178,6 +1221,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -1196,6 +1240,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -1214,6 +1259,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -1232,6 +1278,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1250,6 +1297,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1268,6 +1316,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1286,6 +1335,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1304,6 +1354,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1322,6 +1373,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1340,6 +1392,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1358,6 +1411,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1376,6 +1430,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1394,6 +1449,7 @@
    "desk_inferred": false,
    "reason": "campus + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1412,6 +1468,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -1430,6 +1487,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -1448,6 +1506,7 @@
    "desk_inferred": false,
    "reason": "intern + ml/ds",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -1466,6 +1525,7 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -1484,6 +1544,7 @@
    "desk_inferred": false,
    "reason": "intern + ml/ds",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1502,6 +1563,7 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1520,6 +1582,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1538,6 +1601,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1556,6 +1620,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1574,6 +1639,7 @@
    "desk_inferred": false,
    "reason": "intern + systematic",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1592,6 +1658,7 @@
    "desk_inferred": false,
    "reason": "intern + ml/ds",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1610,6 +1677,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1628,6 +1696,7 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1646,6 +1715,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1664,6 +1734,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1682,6 +1753,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1700,6 +1772,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1718,6 +1791,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1736,6 +1810,7 @@
    "desk_inferred": false,
    "reason": "co-op + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1754,6 +1829,7 @@
    "desk_inferred": false,
    "reason": "graduate + research",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1772,6 +1848,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1790,6 +1867,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1808,6 +1886,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1826,6 +1905,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1844,6 +1924,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1862,6 +1943,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1880,6 +1962,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -1898,6 +1981,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1916,6 +2000,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1934,6 +2019,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1952,6 +2038,7 @@
    "desk_inferred": false,
    "reason": "class of + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1970,6 +2057,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1988,6 +2076,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2006,6 +2095,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2024,6 +2114,7 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2042,6 +2133,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2060,6 +2152,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2078,6 +2171,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2096,6 +2190,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2114,6 +2209,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + research",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2132,6 +2228,7 @@
    "desk_inferred": false,
    "reason": "co-op + ml/ds",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2150,6 +2247,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2168,6 +2266,7 @@
    "desk_inferred": false,
    "reason": "intern + macro",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2186,6 +2285,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2204,6 +2304,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2222,6 +2323,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2240,6 +2342,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2258,6 +2361,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2276,6 +2380,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2294,6 +2399,7 @@
    "desk_inferred": false,
    "reason": "graduate + investment",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2312,6 +2418,7 @@
    "desk_inferred": false,
    "reason": "intern + investment",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2330,6 +2437,7 @@
    "desk_inferred": false,
    "reason": "new grad + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2348,6 +2456,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2366,6 +2475,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2384,6 +2494,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2402,6 +2513,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2420,6 +2532,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2438,6 +2551,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2456,6 +2570,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2474,6 +2589,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2492,6 +2608,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2510,6 +2627,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2528,6 +2646,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2546,6 +2665,7 @@
    "desk_inferred": false,
    "reason": "intern + ml/ds",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2564,6 +2684,7 @@
    "desk_inferred": false,
    "reason": "new grad + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2582,6 +2703,7 @@
    "desk_inferred": false,
    "reason": "intern + infra",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2600,6 +2722,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2618,6 +2741,7 @@
    "desk_inferred": false,
    "reason": "co-op + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2636,6 +2760,7 @@
    "desk_inferred": false,
    "reason": "co-op + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2654,6 +2779,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2672,6 +2798,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2690,6 +2817,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2708,6 +2836,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2726,6 +2855,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2744,6 +2874,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2762,6 +2893,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2780,6 +2912,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2798,6 +2931,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2816,6 +2950,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2834,6 +2969,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2852,6 +2988,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2870,6 +3007,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2888,6 +3026,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2906,6 +3045,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2924,6 +3064,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2942,6 +3083,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2960,6 +3102,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -2978,6 +3121,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2996,6 +3140,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3014,6 +3159,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -3032,6 +3178,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3050,6 +3197,7 @@
    "desk_inferred": false,
    "reason": "graduate + asset class",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3068,6 +3216,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -3086,6 +3235,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3104,6 +3254,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3122,6 +3273,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3140,6 +3292,7 @@
    "desk_inferred": false,
    "reason": "insight programme + markets",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3158,6 +3311,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3176,6 +3330,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3194,6 +3349,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3212,6 +3368,7 @@
    "desk_inferred": false,
    "reason": "entry level + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3230,6 +3387,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3248,6 +3406,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3266,6 +3425,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3284,6 +3444,7 @@
    "desk_inferred": false,
    "reason": "entry level + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3302,6 +3463,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3320,6 +3482,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -3338,6 +3501,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3356,6 +3520,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3374,6 +3539,7 @@
    "desk_inferred": false,
    "reason": "insight programme + research",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3392,6 +3558,7 @@
    "desk_inferred": false,
    "reason": "insight programme + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3410,6 +3577,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3428,6 +3596,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3446,6 +3615,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3464,6 +3634,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3482,6 +3653,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3500,6 +3672,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3518,6 +3691,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3536,6 +3710,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3554,6 +3729,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3572,6 +3748,7 @@
    "desk_inferred": false,
    "reason": "intern + macro",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3590,6 +3767,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3608,6 +3786,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3626,6 +3805,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3644,6 +3824,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3662,6 +3843,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -3680,6 +3862,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -3698,6 +3881,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -3716,6 +3900,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -3734,6 +3919,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3752,6 +3938,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3770,6 +3957,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -3788,6 +3976,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3806,6 +3995,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3824,6 +4014,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3842,6 +4033,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3860,6 +4052,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3878,6 +4071,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3896,6 +4090,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3914,6 +4109,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3932,6 +4128,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3950,6 +4147,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3968,6 +4166,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -3986,6 +4185,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4004,6 +4204,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4022,6 +4223,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4040,6 +4242,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4058,6 +4261,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4076,6 +4280,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4094,6 +4299,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4112,6 +4318,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4130,6 +4337,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4148,6 +4356,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4166,6 +4375,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4184,6 +4394,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4202,6 +4413,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4220,6 +4432,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4238,6 +4451,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4256,6 +4470,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4274,6 +4489,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4292,6 +4508,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4310,6 +4527,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4328,6 +4546,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4346,6 +4565,7 @@
    "desk_inferred": false,
    "reason": "graduate + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4364,6 +4584,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4382,6 +4603,7 @@
    "desk_inferred": false,
    "reason": "graduate + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4400,6 +4622,7 @@
    "desk_inferred": false,
    "reason": "graduate + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4418,6 +4641,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4436,6 +4660,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4454,6 +4679,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4472,6 +4698,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4490,6 +4717,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4508,6 +4736,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4526,6 +4755,7 @@
    "desk_inferred": false,
    "reason": "campus + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4544,6 +4774,7 @@
    "desk_inferred": false,
    "reason": "campus + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4562,6 +4793,7 @@
    "desk_inferred": false,
    "reason": "campus + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4580,6 +4812,7 @@
    "desk_inferred": false,
    "reason": "campus + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4598,6 +4831,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4616,6 +4850,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4634,6 +4869,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4652,6 +4888,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4670,6 +4907,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4688,6 +4926,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4706,6 +4945,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4724,6 +4964,7 @@
    "desk_inferred": false,
    "reason": "intern + ml/ds",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4742,6 +4983,7 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4760,6 +5002,7 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4778,6 +5021,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4796,6 +5040,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4814,6 +5059,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4832,6 +5078,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4850,6 +5097,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4868,6 +5116,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4886,6 +5135,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4904,6 +5154,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4922,6 +5173,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4940,6 +5192,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4958,6 +5211,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4976,6 +5230,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -4994,6 +5249,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5012,6 +5268,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5030,6 +5287,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5048,6 +5306,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5066,6 +5325,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5084,6 +5344,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5102,6 +5363,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5120,6 +5382,7 @@
    "desk_inferred": false,
    "reason": "graduate + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5138,6 +5401,7 @@
    "desk_inferred": false,
    "reason": "graduate + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5156,6 +5420,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5174,6 +5439,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5192,6 +5458,7 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5210,6 +5477,7 @@
    "desk_inferred": false,
    "reason": "campus + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5228,6 +5496,7 @@
    "desk_inferred": false,
    "reason": "campus + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5246,6 +5515,7 @@
    "desk_inferred": false,
    "reason": "campus + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5264,6 +5534,7 @@
    "desk_inferred": false,
    "reason": "campus + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5282,6 +5553,7 @@
    "desk_inferred": false,
    "reason": "graduate + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5300,6 +5572,7 @@
    "desk_inferred": false,
    "reason": "graduate + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5318,6 +5591,7 @@
    "desk_inferred": false,
    "reason": "graduate + ml/ds",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5336,6 +5610,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5354,6 +5629,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5372,6 +5648,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5390,6 +5667,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5408,6 +5686,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5426,6 +5705,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5444,6 +5724,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5462,6 +5743,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5480,6 +5762,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5498,6 +5781,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5516,6 +5800,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5534,6 +5819,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5552,6 +5838,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5570,6 +5857,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5588,6 +5876,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5606,6 +5895,7 @@
    "desk_inferred": false,
    "reason": "graduate + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5624,6 +5914,7 @@
    "desk_inferred": false,
    "reason": "graduate + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5642,6 +5933,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5660,6 +5952,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5678,6 +5971,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5696,6 +5990,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5714,6 +6009,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5732,6 +6028,7 @@
    "desk_inferred": false,
    "reason": "graduate + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5750,6 +6047,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -5768,6 +6066,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5786,6 +6085,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5804,6 +6104,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5822,6 +6123,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5840,6 +6142,7 @@
    "desk_inferred": false,
    "reason": "graduate + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5858,6 +6161,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5876,6 +6180,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5894,6 +6199,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5912,6 +6218,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5930,6 +6237,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -5948,6 +6256,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5966,6 +6275,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -5984,6 +6294,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -6002,6 +6313,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -6020,6 +6332,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -6038,6 +6351,7 @@
    "desk_inferred": false,
    "reason": "intern + infra",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -6056,6 +6370,7 @@
    "desk_inferred": false,
    "reason": "graduate + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -6074,6 +6389,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -6092,6 +6408,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6110,6 +6427,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -6128,6 +6446,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6146,6 +6465,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6164,6 +6484,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6182,6 +6503,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6200,7 +6522,27 @@
    "desk_inferred": false,
    "reason": "fixed-term placement + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
+  },
+  {
+   "firm": "DRW",
+   "title": "DRW careers page changed \u2014 check by hand",
+   "url": "https://drw.com/work-at-drw/listings",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-14T21:03:10.821277+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "desk_inferred": false,
+   "reason": "tier D: careers page changed, contents unknown",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "D"
   },
   {
    "firm": "Da Vinci Trading",
@@ -6218,25 +6560,8 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
-  },
-  {
-   "firm": "DRW",
-   "title": "DRW careers page changed \u2014 check by hand",
-   "url": "https://drw.com/work-at-drw/listings",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-14T16:45:36.516556+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": null,
-   "desk": null,
-   "desk_inferred": false,
-   "reason": "tier D: careers page changed, contents unknown",
-   "uk": true,
-   "tier": "D"
   },
   {
    "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
@@ -6254,6 +6579,7 @@
    "desk_inferred": false,
    "reason": "trainee + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6272,6 +6598,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -6290,6 +6617,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -6308,6 +6636,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -6326,6 +6655,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "C"
   },
   {
@@ -6344,6 +6674,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -6362,6 +6693,7 @@
    "desk_inferred": false,
    "reason": "trainee + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6380,6 +6712,7 @@
    "desk_inferred": false,
    "reason": "trainee + prime",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6398,6 +6731,7 @@
    "desk_inferred": false,
    "reason": "intern + energy",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6416,6 +6750,7 @@
    "desk_inferred": false,
    "reason": "campus + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6434,6 +6769,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6452,6 +6788,7 @@
    "desk_inferred": false,
    "reason": "campus + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6470,6 +6807,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6488,6 +6826,7 @@
    "desk_inferred": false,
    "reason": "campus + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6506,6 +6845,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6524,6 +6864,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "B"
   },
   {
@@ -6542,6 +6883,7 @@
    "desk_inferred": false,
    "reason": "graduate + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6560,6 +6902,7 @@
    "desk_inferred": false,
    "reason": "trainee + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6578,6 +6921,7 @@
    "desk_inferred": false,
    "reason": "trainee + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6596,6 +6940,7 @@
    "desk_inferred": false,
    "reason": "fixed-term placement + infra",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6614,6 +6959,7 @@
    "desk_inferred": false,
    "reason": "trainee + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6632,6 +6978,7 @@
    "desk_inferred": false,
    "reason": "trainee + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6650,6 +6997,7 @@
    "desk_inferred": false,
    "reason": "trainee + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6668,6 +7016,7 @@
    "desk_inferred": false,
    "reason": "trainee + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6686,6 +7035,7 @@
    "desk_inferred": false,
    "reason": "trainee + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6704,6 +7054,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6722,6 +7073,7 @@
    "desk_inferred": false,
    "reason": "trainee + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6740,6 +7092,7 @@
    "desk_inferred": false,
    "reason": "trainee + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6758,6 +7111,7 @@
    "desk_inferred": false,
    "reason": "campus + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6776,6 +7130,7 @@
    "desk_inferred": false,
    "reason": "campus + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6794,6 +7149,7 @@
    "desk_inferred": false,
    "reason": "trainee + strats",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6812,6 +7168,7 @@
    "desk_inferred": false,
    "reason": "trainee + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6830,6 +7187,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6848,6 +7206,7 @@
    "desk_inferred": false,
    "reason": "trainee + structuring",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6866,6 +7225,7 @@
    "desk_inferred": false,
    "reason": "trainee + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6884,6 +7244,7 @@
    "desk_inferred": false,
    "reason": "trainee + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6902,6 +7263,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6920,6 +7282,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6938,6 +7301,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6956,6 +7320,7 @@
    "desk_inferred": false,
    "reason": "intern + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6974,6 +7339,7 @@
    "desk_inferred": false,
    "reason": "spring week + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -6992,6 +7358,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + energy",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7010,6 +7377,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + energy",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7028,6 +7396,7 @@
    "desk_inferred": false,
    "reason": "analyst programme + asset class",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7046,6 +7415,7 @@
    "desk_inferred": false,
    "reason": "analyst programme + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7064,6 +7434,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7082,6 +7453,7 @@
    "desk_inferred": false,
    "reason": "graduate + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": false,
    "tier": "C"
   },
   {
@@ -7100,6 +7472,7 @@
    "desk_inferred": false,
    "reason": "tier D: cycle window open, firm refuses automated access",
    "uk": true,
+   "uk_stated": false,
    "tier": "D"
   },
   {
@@ -7118,6 +7491,7 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7136,6 +7510,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7154,6 +7529,7 @@
    "desk_inferred": false,
    "reason": "graduate + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7172,6 +7548,7 @@
    "desk_inferred": false,
    "reason": "graduate + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7190,6 +7567,7 @@
    "desk_inferred": false,
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7208,6 +7586,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7226,6 +7605,7 @@
    "desk_inferred": false,
    "reason": "graduate + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7244,6 +7624,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7262,6 +7643,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7280,6 +7662,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7298,6 +7681,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7316,6 +7700,7 @@
    "desk_inferred": false,
    "reason": "intern + swe",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7334,6 +7719,7 @@
    "desk_inferred": false,
    "reason": "placement year + infra",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7352,6 +7738,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7370,6 +7757,7 @@
    "desk_inferred": false,
    "reason": "intern + engineer",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7388,6 +7776,7 @@
    "desk_inferred": false,
    "reason": "intern + trading",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7406,6 +7795,7 @@
    "desk_inferred": false,
    "reason": "tier D: cycle window open, firm refuses automated access",
    "uk": true,
+   "uk_stated": false,
    "tier": "D"
   },
   {
@@ -7424,6 +7814,7 @@
    "desk_inferred": false,
    "reason": "tier D: cycle window open, firm refuses automated access",
    "uk": true,
+   "uk_stated": false,
    "tier": "D"
   },
   {
@@ -7442,6 +7833,7 @@
    "desk_inferred": false,
    "reason": "tier D: cycle window open, firm refuses automated access",
    "uk": true,
+   "uk_stated": false,
    "tier": "D"
   },
   {
@@ -7460,6 +7852,7 @@
    "desk_inferred": false,
    "reason": "tier D: cycle window open, firm refuses automated access",
    "uk": true,
+   "uk_stated": false,
    "tier": "D"
   },
   {
@@ -7478,6 +7871,7 @@
    "desk_inferred": false,
    "reason": "tier D: cycle window open, firm refuses automated access",
    "uk": true,
+   "uk_stated": false,
    "tier": "D"
   },
   {
@@ -7496,6 +7890,7 @@
    "desk_inferred": false,
    "reason": "campus + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7514,6 +7909,7 @@
    "desk_inferred": false,
    "reason": "intern + research",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7532,6 +7928,7 @@
    "desk_inferred": false,
    "reason": "campus + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7550,6 +7947,7 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7568,6 +7966,7 @@
    "desk_inferred": false,
    "reason": "graduate + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7586,6 +7985,7 @@
    "desk_inferred": false,
    "reason": "intern + markets",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7604,6 +8004,7 @@
    "desk_inferred": false,
    "reason": "insight programme + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7622,6 +8023,7 @@
    "desk_inferred": false,
    "reason": "branded:insight session + quant",
    "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
@@ -7640,6 +8042,7 @@
    "desk_inferred": false,
    "reason": "tier D: careers page changed, contents unknown",
    "uk": true,
+   "uk_stated": false,
    "tier": "D"
   },
   {
@@ -7658,6 +8061,7 @@
    "desk_inferred": false,
    "reason": "summer analyst + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -7676,6 +8080,7 @@
    "desk_inferred": false,
    "reason": "full-time analyst + trading",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
@@ -7694,6 +8099,7 @@
    "desk_inferred": false,
    "reason": "placement + quant",
    "uk": true,
+   "uk_stated": true,
    "tier": "C"
   }
  ]

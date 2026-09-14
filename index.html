@@ -66,6 +66,15 @@ h2.sec{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing
 .fact{background:var(--warn-soft);border:1px solid var(--warn);border-radius:11px;
   padding:11px 13px;margin:12px 0;font-size:13px;color:var(--ink)}
 *{box-sizing:border-box}
+/* `el.hidden = true` must actually hide. The UA stylesheet's [hidden]{display:none}
+   is an element-level rule, so any class rule here setting `display` beats it at equal
+   specificity — and .stats, .bar and .resbar all set display:flex. So the three panels
+   renderAll() hides on Browse and Calendar stayed on screen: a search box filtering an
+   off-screen list, "248 of 400" with removable pills describing that list, and a Sort
+   control that did nothing. Measured in the browser, hidden=true computed-display=flex.
+   #list, #gaps, #blindwrap and #browse have no display rule and hid correctly, which is
+   why this survived — it broke exactly the elements that looked most deliberate. R78. */
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);
   font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;
   padding-bottom:env(safe-area-inset-bottom)}
@@ -227,7 +236,7 @@ footer{margin-top:26px;color:var(--muted);font-size:12px;border-top:1px solid va
       <div class="fgroup"><h3>Desk</h3><div class="chips" id="fDesk"></div></div>
       <div class="fgroup"><h3>Firm</h3><div class="chips" id="fFirm"></div></div>
       <div class="fgroup"><h3>Show</h3><div class="chips">
-        <button class="chip" id="fUK"     aria-pressed="true">UK only</button>
+        <button class="chip" id="fUK"     aria-pressed="true">UK or unstated</button>
         <button class="chip" id="fStrong" aria-pressed="true">Strong only</button>
         <button class="chip" id="fHide"   aria-pressed="true">Hide marked</button>
         <button class="chip" id="fNew"    aria-pressed="false">New to me</button>
@@ -268,7 +277,9 @@ footer{margin-top:26px;color:var(--muted);font-size:12px;border-top:1px solid va
   <footer>
     Detection uses each board's own <code>first_published</code> where the platform
     provides it. Rows marked <span class="tag weakt">weak</span> matched a stage but not
-    an explicit desk — shown, never pushed.
+    an explicit desk — shown, never pushed. A <span class="tag uk">UK</span> tag means
+    the board stated a UK location; many boards state none at all, and those rows are
+    kept in the UK view rather than hidden, counted under <em>loc. unknown</em>.
     <span id="lat"></span>
   </footer>
 </div>

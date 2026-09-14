@@ -230,7 +230,11 @@ function counts(key) {
 
 function activeFilters() {
   const out = [];
-  if (state.uk) out.push(["uk", "UK only"]);
+  // "UK only" was a promise the filter does not keep: it admits any row with no
+  // stated location, which is right (a tier-D page-change row has none by
+  // construction) and is not "only". Naming it is cheaper than explaining the gap
+  // between the 84 on the UK tile and the 260 rows this leaves on screen.
+  if (state.uk) out.push(["uk", "UK or unstated"]);
   if (state.strong) out.push(["strong", "Strong only"]);
   if (state.hideDone) out.push(["hideDone", "Hiding marked"]);
   if (state.onlyNew) out.push(["onlyNew", "New to me"]);
@@ -389,7 +393,13 @@ function render() {
 function row(i) {
   const dl = i.deadline
     ? `<span class="tag dl">closes ${String(i.deadline).slice(0, 10)}</span>` : "";
-  const uk = i.uk ? `<span class="tag uk">UK</span>` : "";
+  // `uk_stated`, never `uk`. `uk` is the FILTER policy — "do not hide a row whose
+  // location we do not know" — and badging with it printed
+  //   location not stated  (UK)  Internship
+  // on one line, 176 times out of 260, including "trading fundamental analyst intern
+  // us". A badge is a claim about the row, and the only honest claim here is the one
+  // the board actually made. Round 78; `LESSONS.md` row 2.
+  const uk = i.uk_stated ? `<span class="tag uk">UK</span>` : "";
   const nw = isNew(i) ? `<span class="tag newt">new</span>` : "";
   const weak = i.strength === "weak"
     ? `<span class="tag weakt">weak — desk unclear</span>` : "";
@@ -446,7 +456,12 @@ function renderBrowse() {
 
   const desks = tally("desk"), stages = tally("stage");
   const firms = [...tally("firm").entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-  const uk = (key, v) => all.filter(i => String(i[key]) === v && i.uk).length;
+  // The fact, not the filter — counting with `uk` INVERTED this page. Citadel
+  // Securities read "45 · 45 in the UK" because its board states no location at all,
+  // while Jump Trading read "11 · 0 in the UK" because it honestly states "London;
+  // Amsterdam" and the substring did not match. The firms that say nothing ranked as
+  // the most British ones on the screen.
+  const uk = (key, v) => all.filter(i => String(i[key]) === v && i.uk_stated).length;
 
   $("browse").innerHTML =
     `<h2 class="sec">By desk</h2><div class="bgrid">`
@@ -530,7 +545,14 @@ function renderStats(d) {
   const tiles = [
     ["open", c.items, "", null],
     ["strong", c.strong, "", "strong"],
+    // `counts.uk` is now the FACT — rows whose board said the UK. The tile used to
+    // read 260 where 84 boards had said so, because it counted the filter policy.
     ["UK", c.uk, "", "uk"],
+    // Its honest counterpart, and the reason tapping "UK" still shows more than the
+    // tile says: these are the rows the filter keeps and this count will not claim.
+    // Shown rather than folded in, because a reader who sees 84 and then 260 rows has
+    // found a discrepancy, and a reader who sees 84 + 176 has been told something.
+    ["loc. unknown", c.uk_unstated, "", null],
     ["new 24h", c.seen_24h, "", null],
     ["firms watched", c.firms, "", null],
     ["can't see", c.firms_blind, " blind", "blind"],
