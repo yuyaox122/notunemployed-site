@@ -1,63 +1,43 @@
 {
- "generated_at": "2026-09-13T22:30:01.125779+00:00",
+ "generated_at": "2026-09-14T16:10:00.303641+00:00",
  "counts": {
   "items": 400,
-  "strong": 389,
-  "uk": 251,
-  "seen_24h": 35,
+  "strong": 388,
+  "uk": 252,
+  "seen_24h": 22,
   "truncated": true,
-  "total": 516,
+  "total": 519,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 0,
   "sources": 159,
-  "postings_tracked": 11439
+  "postings_tracked": 11451
  },
  "detection": {
-  "mean_latency_s": 19492.0,
-  "sampled": 234,
+  "mean_latency_s": 21946.4,
+  "sampled": 211,
   "by_tier": {
    "A": {
-    "mean_latency_s": 35593.1,
-    "sampled": 101
+    "mean_latency_s": 37206.7,
+    "sampled": 99
    },
    "B": {
-    "mean_latency_s": 7264.9,
-    "sampled": 133
+    "mean_latency_s": 8457.4,
+    "sampled": 112
    }
   },
   "watch": {
    "hours": 24,
    "gaps": [
     {
-     "from": "2026-09-13T07:38:32.485018+00:00",
-     "to": "2026-09-13T08:44:02.008517+00:00",
-     "seconds": 3930
-    },
-    {
-     "from": "2026-09-13T00:30:30.880448+00:00",
-     "to": "2026-09-13T01:18:01.128585+00:00",
-     "seconds": 2850
-    },
-    {
-     "from": "2026-09-13T03:03:18.000546+00:00",
-     "to": "2026-09-13T03:49:08.443492+00:00",
-     "seconds": 2750
-    },
-    {
-     "from": "2026-09-13T06:06:21.603161+00:00",
-     "to": "2026-09-13T06:52:01.695497+00:00",
-     "seconds": 2740
-    },
-    {
-     "from": "2026-09-13T01:47:03.211850+00:00",
-     "to": "2026-09-13T02:20:01.298873+00:00",
-     "seconds": 1978
+     "from": "2026-09-13T22:34:42.766868+00:00",
+     "to": "2026-09-14T16:09:01.565128+00:00",
+     "seconds": 63259
     }
    ],
-   "n_gaps": 30,
-   "longest_gap_s": 3930,
-   "blind_s": 37172
+   "n_gaps": 1,
+   "longest_gap_s": 63259,
+   "blind_s": 63259
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -78,8 +58,8 @@
      "spring"
     ],
     "phase": "open",
-    "days": 12,
-    "says": "open, and has been for 12 days",
+    "days": 13,
+    "says": "open, and has been for 13 days",
     "urgent": false
    },
    {
@@ -99,8 +79,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 91,
-    "says": "closed about 91 days ago",
+    "days": 92,
+    "says": "closed about 92 days ago",
     "urgent": false
    },
    {
@@ -121,8 +101,8 @@
      "crypto_mm"
     ],
     "phase": "open",
-    "days": 135,
-    "says": "open, and has been for 135 days",
+    "days": 136,
+    "says": "open, and has been for 136 days",
     "urgent": false
    },
    {
@@ -142,8 +122,8 @@
      "bank"
     ],
     "phase": "open",
-    "days": 43,
-    "says": "open, and has been for 43 days",
+    "days": 44,
+    "says": "open, and has been for 44 days",
     "urgent": false
    }
   ],
@@ -176,7 +156,7 @@
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
     "location": "London, UK",
     "deadline": "2026-10-09",
-    "days_left": 26
+    "days_left": 25
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -184,7 +164,7 @@
     "url": "https://careers.sig.com/jobs/10839?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 169
+    "days_left": 168
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -192,7 +172,7 @@
     "url": "https://careers.sig.com/jobs/10840?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 169
+    "days_left": 168
    }
   ],
   "n_deadlines": 3,
@@ -278,7 +258,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-13T22:15:35.415258+00:00",
+   "last_checked_by_bell": "2026-09-13T22:30:35.432904+00:00",
    "last_change_detected": "2026-09-11T20:00:40.844475+00:00",
    "categories": [
     "prop"
@@ -289,7 +269,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-13T22:16:39.345729+00:00",
+   "last_checked_by_bell": "2026-09-13T22:33:58.068253+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -300,7 +280,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-13T22:15:14.519824+00:00",
+   "last_checked_by_bell": "2026-09-13T22:30:13.348107+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -311,7 +291,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-13T22:15:15.302718+00:00",
+   "last_checked_by_bell": "2026-09-13T22:30:14.207345+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -322,7 +302,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-13T22:15:15.303289+00:00",
+   "last_checked_by_bell": "2026-09-13T22:30:14.207947+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -344,7 +324,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-13T22:15:16.160113+00:00",
+   "last_checked_by_bell": "2026-09-13T22:30:15.137894+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -399,7 +379,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-13T22:15:47.317722+00:00",
+   "last_checked_by_bell": "2026-09-13T22:30:48.757060+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -410,7 +390,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-13T22:29:13.808776+00:00",
+   "last_checked_by_bell": "2026-09-14T16:09:26.046983+00:00",
    "last_change_detected": "2026-09-10T20:56:40.295802+00:00",
    "categories": [
     "prop"
@@ -432,7 +412,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-13T22:16:11.566417+00:00",
+   "last_checked_by_bell": "2026-09-13T22:31:13.036133+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -443,7 +423,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-13T22:16:11.674950+00:00",
+   "last_checked_by_bell": "2026-09-13T22:31:13.144250+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -498,7 +478,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-13T22:16:50.591084+00:00",
+   "last_checked_by_bell": "2026-09-13T22:34:08.443300+00:00",
    "last_change_detected": "2026-09-12T23:32:25.650507+00:00",
    "categories": [
     "bank"
@@ -517,6 +497,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "IMC Trading",
+   "title": "Graduate Hardware Engineer",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4975740101",
+   "location": "Amsterdam, Netherlands",
+   "opened_at": "2026-09-14T14:42:29+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-14T16:09:24.847738+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "engineering",
+   "desk_inferred": false,
+   "reason": "graduate + engineer",
+   "uk": false,
+   "tier": "A"
+  },
   {
    "firm": "Maven Securities",
    "title": "Graduate Infrastructure Engineer Programme",
@@ -1163,6 +1161,24 @@
    "desk_inferred": false,
    "reason": "graduate + engineer",
    "uk": false,
+   "tier": "A"
+  },
+  {
+   "firm": "IMC Trading",
+   "title": "INVITE ONLY | EU Campus | London Networking Event 1 Oct",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4969550101",
+   "location": "London, United Kingdom",
+   "opened_at": "2026-09-07T08:23:14+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-07T08:25:47.308004+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "weak",
+   "stage": "graduate",
+   "desk": null,
+   "desk_inferred": false,
+   "reason": "campus + stage-only at a whole-firm employer",
+   "uk": true,
    "tier": "A"
   },
   {
@@ -3864,42 +3880,6 @@
    "reason": "intern + research",
    "uk": false,
    "tier": "A"
-  },
-  {
-   "firm": "J.P. Morgan",
-   "title": "2027 Markets Quantitative Trading & Research Associate Program \u2013 Off-Cycle Internship - Singapore",
-   "url": "https://careers.jpmorgan.com/global/en/job/210784061",
-   "location": "Singapore",
-   "opened_at": "2026-09-13T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-13T16:16:08.308195+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + quant",
-   "uk": false,
-   "tier": "B"
-  },
-  {
-   "firm": "J.P. Morgan",
-   "title": "2027 Markets Quantitative Trading & Research Analyst Program \u2013 Off-Cycle Internship - Singapore",
-   "url": "https://careers.jpmorgan.com/global/en/job/210784366",
-   "location": "Singapore",
-   "opened_at": "2026-09-13T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-13T16:16:08.308195+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + quant",
-   "uk": false,
-   "tier": "B"
   },
   {
    "firm": "UBS",
