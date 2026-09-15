@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-15T01:50:01.212364+00:00",
+ "generated_at": "2026-09-15T03:55:01.065918+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
   "uk": 84,
   "uk_unstated": 175,
-  "seen_24h": 610,
+  "seen_24h": 611,
   "truncated": true,
   "total": 548,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 12049
+  "postings_tracked": 12050
  },
  "detection": {
-  "mean_latency_s": 21814.7,
-  "sampled": 256,
+  "mean_latency_s": 21732.6,
+  "sampled": 257,
   "by_tier": {
    "A": {
-    "mean_latency_s": 35442.1,
-    "sampled": 105
+    "mean_latency_s": 35114.7,
+    "sampled": 106
    },
    "B": {
     "mean_latency_s": 12338.6,
@@ -36,29 +36,29 @@
      "seconds": 934
     },
     {
+     "from": "2026-09-15T03:23:27.784687+00:00",
+     "to": "2026-09-15T03:39:01.752791+00:00",
+     "seconds": 934
+    },
+    {
+     "from": "2026-09-15T02:38:29.144801+00:00",
+     "to": "2026-09-15T02:54:01.292928+00:00",
+     "seconds": 932
+    },
+    {
      "from": "2026-09-14T23:54:29.794196+00:00",
      "to": "2026-09-15T00:10:01.260322+00:00",
      "seconds": 931
     },
     {
-     "from": "2026-09-14T19:06:37.850967+00:00",
-     "to": "2026-09-14T19:21:56.799890+00:00",
-     "seconds": 919
-    },
-    {
-     "from": "2026-09-14T20:19:37.349119+00:00",
-     "to": "2026-09-14T20:34:53.671081+00:00",
-     "seconds": 916
-    },
-    {
-     "from": "2026-09-14T20:42:45.199540+00:00",
-     "to": "2026-09-14T20:58:01.304887+00:00",
-     "seconds": 916
+     "from": "2026-09-15T01:51:15.408408+00:00",
+     "to": "2026-09-15T02:06:35.229219+00:00",
+     "seconds": 920
     }
    ],
-   "n_gaps": 16,
+   "n_gaps": 23,
    "longest_gap_s": 934,
-   "blind_s": 13857
+   "blind_s": 20050
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -411,8 +411,8 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-15T01:34:02.080538+00:00",
-   "last_change_detected": "2026-09-14T20:58:14.663891+00:00",
+   "last_checked_by_bell": "2026-09-15T03:39:14.930140+00:00",
+   "last_change_detected": "2026-09-15T03:39:14.930140+00:00",
    "categories": [
     "prop"
    ]
