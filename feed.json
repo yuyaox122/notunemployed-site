@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T04:25:00.795900+00:00",
+ "generated_at": "2026-09-15T05:10:01.238643+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
@@ -56,9 +56,9 @@
      "seconds": 931
     }
    ],
-   "n_gaps": 26,
+   "n_gaps": 28,
    "longest_gap_s": 934,
-   "blind_s": 22658
+   "blind_s": 24477
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -271,15 +271,6 @@
    "n_total": 27,
    "n_match": 0,
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "lever:wintermute-trading",
-   "firm": "Wintermute",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 21,
-   "n_match": 2,
-   "reason": "source is error"
   }
  ],
  "blindspots": [
@@ -420,7 +411,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-15T03:55:15.622512+00:00",
+   "last_checked_by_bell": "2026-09-15T04:58:32.945748+00:00",
    "last_change_detected": "2026-09-15T03:39:14.930140+00:00",
    "categories": [
     "prop"
