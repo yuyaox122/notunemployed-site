@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-09-15T11:05:26.230863+00:00",
+ "generated_at": "2026-09-15T12:20:00.775146+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
-  "uk": 84,
+  "uk": 85,
   "uk_unstated": 175,
-  "seen_24h": 796,
+  "seen_24h": 861,
   "truncated": true,
-  "total": 548,
+  "total": 549,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 12235
+  "postings_tracked": 12300
  },
  "detection": {
-  "mean_latency_s": 21641.7,
-  "sampled": 259,
+  "mean_latency_s": 21740.6,
+  "sampled": 258,
   "by_tier": {
    "A": {
-    "mean_latency_s": 33760.7,
-    "sampled": 111
+    "mean_latency_s": 34061.3,
+    "sampled": 110
    },
    "B": {
-    "mean_latency_s": 12552.4,
+    "mean_latency_s": 12583.3,
     "sampled": 148
    }
   },
@@ -56,9 +56,9 @@
      "seconds": 932
     }
    ],
-   "n_gaps": 48,
+   "n_gaps": 51,
    "longest_gap_s": 1080,
-   "blind_s": 39726
+   "blind_s": 42450
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -214,27 +214,27 @@
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 185,
+   "n_total": 186,
    "n_match": 0,
-   "reason": "185 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "186 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 69,
+   "n_total": 73,
    "n_match": 0,
-   "reason": "69 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "73 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 43,
+   "n_total": 44,
    "n_match": 0,
-   "reason": "43 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "44 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -279,7 +279,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-15T10:47:09.965763+00:00",
+   "last_checked_by_bell": "2026-09-15T12:15:55.805441+00:00",
    "last_change_detected": "2026-09-15T08:05:02.472290+00:00",
    "categories": [
     "prop"
@@ -290,7 +290,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-15T10:48:27.807631+00:00",
+   "last_checked_by_bell": "2026-09-15T12:18:15.700826+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -301,7 +301,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-15T10:46:30.095181+00:00",
+   "last_checked_by_bell": "2026-09-15T12:15:14.011923+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -312,7 +312,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-15T10:46:48.825112+00:00",
+   "last_checked_by_bell": "2026-09-15T12:15:33.350832+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -323,7 +323,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-15T10:46:48.826020+00:00",
+   "last_checked_by_bell": "2026-09-15T12:15:33.351501+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -345,7 +345,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-15T10:46:49.798388+00:00",
+   "last_checked_by_bell": "2026-09-15T12:15:34.315368+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -400,7 +400,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-15T10:47:22.442986+00:00",
+   "last_checked_by_bell": "2026-09-15T12:16:10.233817+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -411,7 +411,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-15T11:05:11.365682+00:00",
+   "last_checked_by_bell": "2026-09-15T12:18:29.901883+00:00",
    "last_change_detected": "2026-09-15T03:39:14.930140+00:00",
    "categories": [
     "prop"
@@ -433,7 +433,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-15T10:47:58.602385+00:00",
+   "last_checked_by_bell": "2026-09-15T12:16:34.759078+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -444,7 +444,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-15T10:47:58.709799+00:00",
+   "last_checked_by_bell": "2026-09-15T12:16:34.906676+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -499,7 +499,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-15T11:03:57.393021+00:00",
+   "last_checked_by_bell": "2026-09-15T12:18:26.761106+00:00",
    "last_change_detected": "2026-09-15T09:49:15.292269+00:00",
    "categories": [
     "bank"
@@ -3901,25 +3901,6 @@
    "tier": "A"
   },
   {
-   "firm": "Old Mission Capital",
-   "title": "Quantitative Researcher (Ph.D.) - 2027 Graduate Program - (August Start)",
-   "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7814534003",
-   "location": "Chicago, IL, United States",
-   "opened_at": "2026-07-30T15:34:33+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:03:14.998570+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "graduate + quant",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
    "firm": "ISAM",
    "title": "Quantitative Research - PhD Graduate",
    "url": "https://job-boards.eu.greenhouse.io/isam/jobs/4940752101",
@@ -3956,6 +3937,25 @@
    "uk": true,
    "uk_stated": true,
    "tier": "A"
+  },
+  {
+   "firm": "Barclays",
+   "title": "Credit Risk Portfolio Analyst - 12  month secondment/FTC",
+   "url": "https://search.jobs.barclays/job/edinburgh/credit-risk-portfolio-analyst-12-month-secondment-ftc/13015/100658342304",
+   "location": "Edinburgh, Midlothian, United Kingdom",
+   "opened_at": "2026-09-15T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-15T12:15:33.080061+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "placement",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "fixed-term placement + asset class",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "C"
   },
   {
    "firm": "Wells Fargo",
