@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-15T03:55:01.065918+00:00",
+ "generated_at": "2026-09-15T04:25:00.795900+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
   "uk": 84,
   "uk_unstated": 175,
-  "seen_24h": 611,
+  "seen_24h": 614,
   "truncated": true,
   "total": 548,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 12050
+  "postings_tracked": 12053
  },
  "detection": {
-  "mean_latency_s": 21732.6,
-  "sampled": 257,
+  "mean_latency_s": 21579.9,
+  "sampled": 260,
   "by_tier": {
    "A": {
-    "mean_latency_s": 35114.7,
-    "sampled": 106
+    "mean_latency_s": 34382.1,
+    "sampled": 109
    },
    "B": {
     "mean_latency_s": 12338.6,
@@ -46,19 +46,19 @@
      "seconds": 932
     },
     {
+     "from": "2026-09-15T03:39:29.733636+00:00",
+     "to": "2026-09-15T03:55:01.838070+00:00",
+     "seconds": 932
+    },
+    {
      "from": "2026-09-14T23:54:29.794196+00:00",
      "to": "2026-09-15T00:10:01.260322+00:00",
      "seconds": 931
-    },
-    {
-     "from": "2026-09-15T01:51:15.408408+00:00",
-     "to": "2026-09-15T02:06:35.229219+00:00",
-     "seconds": 920
     }
    ],
-   "n_gaps": 23,
+   "n_gaps": 26,
    "longest_gap_s": 934,
-   "blind_s": 20050
+   "blind_s": 22658
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -271,6 +271,15 @@
    "n_total": 27,
    "n_match": 0,
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "lever:wintermute-trading",
+   "firm": "Wintermute",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 21,
+   "n_match": 2,
+   "reason": "source is error"
   }
  ],
  "blindspots": [
@@ -411,7 +420,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-15T03:39:14.930140+00:00",
+   "last_checked_by_bell": "2026-09-15T03:55:15.622512+00:00",
    "last_change_detected": "2026-09-15T03:39:14.930140+00:00",
    "categories": [
     "prop"
