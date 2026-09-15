@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-15T05:10:01.238643+00:00",
+ "generated_at": "2026-09-15T06:31:29.959027+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
   "uk": 84,
   "uk_unstated": 175,
-  "seen_24h": 614,
+  "seen_24h": 691,
   "truncated": true,
   "total": 548,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 12053
+  "postings_tracked": 12130
  },
  "detection": {
-  "mean_latency_s": 21579.9,
-  "sampled": 260,
+  "mean_latency_s": 21660.7,
+  "sampled": 259,
   "by_tier": {
    "A": {
-    "mean_latency_s": 34382.1,
-    "sampled": 109
+    "mean_latency_s": 34694.2,
+    "sampled": 108
    },
    "B": {
     "mean_latency_s": 12338.6,
@@ -56,9 +56,9 @@
      "seconds": 931
     }
    ],
-   "n_gaps": 28,
+   "n_gaps": 34,
    "longest_gap_s": 934,
-   "blind_s": 24477
+   "blind_s": 29350
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -279,7 +279,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-15T01:15:39.339676+00:00",
+   "last_checked_by_bell": "2026-09-15T05:45:39.761551+00:00",
    "last_change_detected": "2026-09-14T21:03:10.821277+00:00",
    "categories": [
     "prop"
@@ -290,7 +290,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-15T01:16:43.200583+00:00",
+   "last_checked_by_bell": "2026-09-15T06:26:08.289644+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -301,7 +301,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-15T01:15:14.439302+00:00",
+   "last_checked_by_bell": "2026-09-15T05:45:14.625953+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -312,7 +312,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-15T01:15:17.632119+00:00",
+   "last_checked_by_bell": "2026-09-15T05:45:17.750019+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -323,7 +323,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-15T01:15:17.632903+00:00",
+   "last_checked_by_bell": "2026-09-15T05:45:17.750494+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -345,7 +345,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-15T01:15:18.553224+00:00",
+   "last_checked_by_bell": "2026-09-15T05:45:18.830514+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -400,7 +400,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-15T01:15:51.836083+00:00",
+   "last_checked_by_bell": "2026-09-15T06:01:11.700255+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -411,7 +411,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-15T04:58:32.945748+00:00",
+   "last_checked_by_bell": "2026-09-15T06:10:49.370816+00:00",
    "last_change_detected": "2026-09-15T03:39:14.930140+00:00",
    "categories": [
     "prop"
@@ -433,7 +433,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-15T01:16:16.092721+00:00",
+   "last_checked_by_bell": "2026-09-15T06:10:40.755017+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -444,7 +444,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-15T01:16:16.601481+00:00",
+   "last_checked_by_bell": "2026-09-15T06:10:40.942825+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -499,8 +499,8 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-15T01:16:55.027775+00:00",
-   "last_change_detected": "2026-09-14T18:52:50.298985+00:00",
+   "last_checked_by_bell": "2026-09-15T06:26:19.315620+00:00",
+   "last_change_detected": "2026-09-15T06:26:19.315620+00:00",
    "categories": [
     "bank"
    ]
