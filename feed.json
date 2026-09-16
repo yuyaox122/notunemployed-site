@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-16T16:05:00.692153+00:00",
+ "generated_at": "2026-09-16T16:20:00.695394+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 86,
   "uk_unstated": 117,
-  "seen_24h": 735,
+  "seen_24h": 744,
   "truncated": true,
   "total": 560,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 13210
+  "postings_tracked": 13229
  },
  "detection": {
-  "mean_latency_s": 27632.9,
-  "sampled": 239,
+  "mean_latency_s": 27882.2,
+  "sampled": 241,
   "by_tier": {
    "A": {
-    "mean_latency_s": 33515.6,
-    "sampled": 121
+    "mean_latency_s": 33497.5,
+    "sampled": 122
    },
    "B": {
-    "mean_latency_s": 21600.6,
-    "sampled": 118
+    "mean_latency_s": 22125.4,
+    "sampled": 119
    }
   },
   "watch": {
@@ -239,9 +239,9 @@
    "firm": "HSBC",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 49,
+   "n_total": 50,
    "n_match": 0,
-   "reason": "49 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "50 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -262,18 +262,18 @@
    "reason": "34 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "lever:dexterity",
-   "firm": "Dexterity Capital",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 31,
-   "n_match": 0,
-   "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "workday:centrica/wd3/Centrica",
    "firm": "Centrica Energy Trading",
    "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 32,
+   "n_match": 0,
+   "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "lever:dexterity",
+   "firm": "Dexterity Capital",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 31,
    "n_match": 0,
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-16T16:00:51.591283+00:00",
+   "last_checked_by_bell": "2026-09-16T16:15:43.833362+00:00",
    "last_change_detected": "2026-09-16T10:45:20.910051+00:00",
    "categories": [
     "prop"
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-16T16:02:17.262172+00:00",
+   "last_checked_by_bell": "2026-09-16T16:16:52.188489+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-16T16:00:23.038586+00:00",
+   "last_checked_by_bell": "2026-09-16T16:15:14.897979+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-16T16:00:24.399459+00:00",
+   "last_checked_by_bell": "2026-09-16T16:15:20.041782+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-16T16:00:24.399995+00:00",
+   "last_checked_by_bell": "2026-09-16T16:15:20.042461+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-16T16:00:26.054975+00:00",
+   "last_checked_by_bell": "2026-09-16T16:15:21.216179+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-16T16:01:07.191869+00:00",
+   "last_checked_by_bell": "2026-09-16T16:15:57.223429+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-16T16:04:15.381560+00:00",
+   "last_checked_by_bell": "2026-09-16T16:19:22.014563+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-16T16:01:33.491657+00:00",
+   "last_checked_by_bell": "2026-09-16T16:16:22.313605+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-16T16:01:33.719435+00:00",
+   "last_checked_by_bell": "2026-09-16T16:16:22.541050+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-16T16:02:29.598138+00:00",
+   "last_checked_by_bell": "2026-09-16T16:17:04.786778+00:00",
    "last_change_detected": "2026-09-16T16:02:29.598138+00:00",
    "categories": [
     "bank"
@@ -6551,7 +6551,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Summer Analyst Program - Singapore",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1985-2027-Equity-Research-Summer-Analyst-Program-Singapore/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1985-2027-Equity-Research-Summer-Analyst-Program-Singapore/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7273,7 +7273,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Quant Masters Summer Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1953-2027-Quant-Masters-Summer-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1953-2027-Quant-Masters-Summer-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7292,7 +7292,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7311,7 +7311,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equities Sales and Trading Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1930-2027-Equities-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1930-2027-Equities-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7330,7 +7330,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Private Credit Investment Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7349,7 +7349,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Spring Week Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1933-2027-Equity-Research-Spring-Week-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1933-2027-Equity-Research-Spring-Week-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7368,7 +7368,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Houston, Energy Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1907-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1907-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7387,7 +7387,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Houston, Energy Transition Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1908-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Transition-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1908-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Transition-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7406,7 +7406,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Private Credit Investment Analyst Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1949-2027-Private-Credit-Investment-Analyst-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1949-2027-Private-Credit-Investment-Analyst-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7425,7 +7425,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Analyst Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6329f3856533/candidate/so/pm/1/pl/2/opp/1936-2027-Equity-Research-Analyst-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-27c80290036e/candidate/so/pm/1/pl/2/opp/1936-2027-Equity-Research-Analyst-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
