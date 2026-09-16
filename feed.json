@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-16T15:05:00.430903+00:00",
+ "generated_at": "2026-09-16T15:20:01.185429+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 86,
   "uk_unstated": 117,
-  "seen_24h": 705,
+  "seen_24h": 708,
   "truncated": true,
   "total": 560,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 13141
+  "postings_tracked": 13151
  },
  "detection": {
   "mean_latency_s": 27419.2,
@@ -217,15 +217,6 @@
  },
  "gaps": [
   {
-   "key": "workday:santander/wd3/SantanderCareers",
-   "firm": "Santander CIB",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 405,
-   "n_match": 1,
-   "reason": "source is blocked"
-  },
-  {
    "key": "lever:octoenergy",
    "firm": "Octopus Energy",
    "tier": "B",
@@ -238,28 +229,10 @@
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
-   "kind": "blocked",
-   "n_total": 90,
+   "kind": "no-early-careers",
+   "n_total": 93,
    "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:citi/wd5/2",
-   "firm": "Citi",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 66,
-   "n_match": 25,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:lseg/wd3/Careers",
-   "firm": "LSEG",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 64,
-   "n_match": 9,
-   "reason": "source is blocked"
+   "reason": "93 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -269,24 +242,6 @@
    "n_total": 49,
    "n_match": 0,
    "reason": "49 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "workday:cibc/wd3/campus",
-   "firm": "CIBC Capital Markets",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 49,
-   "n_match": 3,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:wellington/wd5/External",
-   "firm": "Wellington",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 41,
-   "n_match": 2,
-   "reason": "source is blocked"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -319,100 +274,10 @@
    "key": "workday:centrica/wd3/Centrica",
    "firm": "Centrica Energy Trading",
    "tier": "C",
-   "kind": "blocked",
-   "n_total": 30,
+   "kind": "no-early-careers",
+   "n_total": 31,
    "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:shell/wd3/ShellCareers",
-   "firm": "Shell",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 17,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:equinor/wd3/EQNR",
-   "firm": "Equinor",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 15,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:peak6group/wd1/peak6",
-   "firm": "PEAK6",
-   "tier": "B",
-   "kind": "blocked",
-   "n_total": 15,
-   "n_match": 3,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:gunvor/wd3/Gunvor_Careers",
-   "firm": "Gunvor",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 11,
-   "n_match": 7,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:viterra/wd3/External-CAN",
-   "firm": "Viterra",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 11,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:robeco/wd3/robecoexternalcareers",
-   "firm": "Robeco",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 10,
-   "n_match": 1,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:aresmgmt/wd1/External",
-   "firm": "Ares Management",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 9,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:edftrading/wd1/EDFTrading",
-   "firm": "EDF Trading",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 4,
-   "n_match": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:trafigura/wd3/TrafiguraCareerSite",
-   "firm": "Trafigura",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 4,
-   "n_match": 1,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:freepoint/wd12/Freepoint_Commodities",
-   "firm": "Freepoint Commodities",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is blocked"
+   "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:virtus/wd5/VirtusCareers",
@@ -430,7 +295,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-16T15:00:23.287106+00:00",
+   "last_checked_by_bell": "2026-09-16T15:15:49.771641+00:00",
    "last_change_detected": "2026-09-16T10:45:20.910051+00:00",
    "categories": [
     "prop"
@@ -441,7 +306,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-16T15:01:25.742132+00:00",
+   "last_checked_by_bell": "2026-09-16T15:16:57.998888+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -452,7 +317,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-16T14:30:16.612667+00:00",
+   "last_checked_by_bell": "2026-09-16T15:15:14.081863+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -463,7 +328,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-16T15:00:12.409082+00:00",
+   "last_checked_by_bell": "2026-09-16T15:15:15.202465+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -474,7 +339,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-16T15:00:12.409653+00:00",
+   "last_checked_by_bell": "2026-09-16T15:15:15.203105+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -496,7 +361,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-16T15:00:13.599845+00:00",
+   "last_checked_by_bell": "2026-09-16T15:15:16.278049+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -551,7 +416,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-16T15:00:30.418754+00:00",
+   "last_checked_by_bell": "2026-09-16T15:16:03.788566+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -562,7 +427,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-16T15:04:14.180898+00:00",
+   "last_checked_by_bell": "2026-09-16T15:19:14.570897+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -584,7 +449,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-16T15:01:05.572633+00:00",
+   "last_checked_by_bell": "2026-09-16T15:16:28.502232+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -595,7 +460,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-16T15:01:05.721859+00:00",
+   "last_checked_by_bell": "2026-09-16T15:16:28.899285+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -650,7 +515,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-16T15:01:35.082662+00:00",
+   "last_checked_by_bell": "2026-09-16T15:17:10.926663+00:00",
    "last_change_detected": "2026-09-16T14:02:21.602729+00:00",
    "categories": [
     "bank"
