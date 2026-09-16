@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-16T03:36:28.789138+00:00",
+ "generated_at": "2026-09-16T03:45:07.632723+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 85,
   "uk_unstated": 115,
-  "seen_24h": 776,
+  "seen_24h": 778,
   "truncated": true,
-  "total": 555,
+  "total": 556,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 12825
+  "postings_tracked": 12828
  },
  "detection": {
-  "mean_latency_s": 28655.7,
-  "sampled": 232,
+  "mean_latency_s": 28411.6,
+  "sampled": 234,
   "by_tier": {
    "A": {
-    "mean_latency_s": 33432.6,
-    "sampled": 115
+    "mean_latency_s": 32862.6,
+    "sampled": 117
    },
    "B": {
     "mean_latency_s": 23960.5,
@@ -41,11 +41,6 @@
      "seconds": 1080
     },
     {
-     "from": "2026-09-15T03:39:29.733636+00:00",
-     "to": "2026-09-15T03:55:01.838070+00:00",
-     "seconds": 932
-    },
-    {
      "from": "2026-09-15T05:26:31.357673+00:00",
      "to": "2026-09-15T05:42:01.243706+00:00",
      "seconds": 930
@@ -54,11 +49,16 @@
      "from": "2026-09-15T11:40:35.261453+00:00",
      "to": "2026-09-15T11:56:01.153509+00:00",
      "seconds": 926
+    },
+    {
+     "from": "2026-09-15T23:34:06.295593+00:00",
+     "to": "2026-09-15T23:49:29.948301+00:00",
+     "seconds": 924
     }
    ],
-   "n_gaps": 56,
+   "n_gaps": 55,
    "longest_gap_s": 1581,
-   "blind_s": 45798
+   "blind_s": 44866
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-16T03:10:43.964803+00:00",
+   "last_checked_by_bell": "2026-09-16T03:36:45.590358+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-16T03:18:28.607922+00:00",
+   "last_checked_by_bell": "2026-09-16T03:42:17.513923+00:00",
    "last_change_detected": "2026-09-15T03:39:14.930140+00:00",
    "categories": [
     "prop"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-16T03:18:30.275492+00:00",
+   "last_checked_by_bell": "2026-09-16T03:41:44.232773+00:00",
    "last_change_detected": "2026-09-15T21:04:39.980174+00:00",
    "categories": [
     "bank"
@@ -525,6 +525,25 @@
   }
  ],
  "items": [
+  {
+   "firm": "DV Trading",
+   "title": "2027 Software Developer Intern  (DV Equities)",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4733880005",
+   "location": "Hong Kong",
+   "opened_at": "2026-09-16T03:39:37+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-16T03:41:30.583129+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "intern + asset class",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
   {
    "firm": "DV Trading",
    "title": "2027 Quantitative Research Intern (DV Equities)",
@@ -5385,25 +5404,6 @@
    "desk": "quant",
    "desk_inferred": false,
    "reason": "intern + trading",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
-   "title": "campus referrals software engineering us",
-   "url": "https://www.citadelsecurities.com/careers/details/campus-referrals-software-engineering-us/",
-   "location": "Us",
-   "opened_at": "2026-09-10T12:21:16+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "campus + engineer",
    "uk": false,
    "uk_stated": false,
    "tier": "B"
