@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-16T21:20:00.823383+00:00",
+ "generated_at": "2026-09-16T21:27:03.931686+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
-  "uk": 86,
+  "uk": 88,
   "uk_unstated": 117,
-  "seen_24h": 536,
+  "seen_24h": 547,
   "truncated": true,
-  "total": 561,
+  "total": 564,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 13238
+  "postings_tracked": 13249
  },
  "detection": {
-  "mean_latency_s": 30822.8,
-  "sampled": 235,
+  "mean_latency_s": 29899.3,
+  "sampled": 244,
   "by_tier": {
    "A": {
-    "mean_latency_s": 34638.1,
-    "sampled": 118
+    "mean_latency_s": 32593.5,
+    "sampled": 127
    },
    "B": {
     "mean_latency_s": 26974.8,
@@ -56,9 +56,9 @@
      "seconds": 1081
     }
    ],
-   "n_gaps": 39,
+   "n_gaps": 40,
    "longest_gap_s": 16784,
-   "blind_s": 53037
+   "blind_s": 53361
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-16T21:19:58.938237+00:00",
+   "last_checked_by_bell": "2026-09-16T21:21:33.251413+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -526,6 +526,25 @@
  ],
  "items": [
   {
+   "firm": "Voleon",
+   "title": "Research Intern (London)",
+   "url": "https://jobs.ashbyhq.com/voleon/ef2b0892-1772-4240-a535-4043d66d848e",
+   "location": "London",
+   "opened_at": "2026-09-16T21:13:06.138000+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-16T21:20:10.486536+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + research",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "A"
+  },
+  {
    "firm": "Headlands Technologies",
    "title": "C++ Software Developer - New Grad",
    "url": "https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4336806009",
@@ -542,6 +561,25 @@
    "reason": "new grad + swe",
    "uk": false,
    "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Schonfeld",
+   "title": "2027 DMFI Quant Developer Intern",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8207942",
+   "location": "London, England, United Kingdom",
+   "opened_at": "2026-09-16T16:57:16+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-16T21:20:06.280561+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
+   "uk": true,
+   "uk_stated": true,
    "tier": "A"
   },
   {
@@ -3377,6 +3415,25 @@
   },
   {
    "firm": "Quantbot Technologies",
+   "title": "Quantitative Developer Internship - 2027 [New York]",
+   "url": "https://www.quantbot.com/careers/4341038009?gh_jid=4341038009",
+   "location": "New York",
+   "opened_at": "2026-08-07T17:58:23+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-16T21:20:05.169316+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Quantbot Technologies",
    "title": "Data Trading Analyst Summer Internship - 2027 [New York]",
    "url": "https://www.quantbot.com/careers/4299767009?gh_jid=4299767009",
    "location": "New York",
@@ -5291,63 +5348,6 @@
    "desk_inferred": false,
    "reason": "graduate + research",
    "uk": true,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
-   "title": "machine learning researcher phd graduate us",
-   "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-graduate-us/",
-   "location": "Us",
-   "opened_at": "2026-09-10T12:21:21+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "graduate + research",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
-   "title": "machine learning researcher phd intern us",
-   "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/",
-   "location": "Us",
-   "opened_at": "2026-09-10T12:21:21+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + research",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
-   "title": "fpga engineer intern australia",
-   "url": "https://www.citadelsecurities.com/careers/details/fpga-engineer-intern-australia/",
-   "location": "Australia",
-   "opened_at": "2026-09-10T12:21:19+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "intern + engineer",
-   "uk": false,
    "uk_stated": false,
    "tier": "B"
   },
