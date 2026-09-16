@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T12:40:00.312217+00:00",
+ "generated_at": "2026-09-16T12:45:00.840580+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
@@ -56,9 +56,9 @@
      "seconds": 1018
     }
    ],
-   "n_gaps": 47,
+   "n_gaps": 46,
    "longest_gap_s": 4160,
-   "blind_s": 43159
+   "blind_s": 42260
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -886,10 +886,10 @@
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
-   "kind": "error",
+   "kind": "blocked",
    "n_total": 4,
    "n_match": 0,
-   "reason": "source is error"
+   "reason": "source is blocked"
   },
   {
    "key": "ashby:onyx",
@@ -1237,7 +1237,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-16T12:39:13.829876+00:00",
+   "last_checked_by_bell": "2026-09-16T12:44:15.238125+00:00",
    "last_change_detected": "2026-09-15T03:39:14.930140+00:00",
    "categories": [
     "prop"
