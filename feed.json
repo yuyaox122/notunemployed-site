@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-17T08:25:09.399110+00:00",
+ "generated_at": "2026-09-17T10:35:41.648686+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 88,
   "uk_unstated": 117,
-  "seen_24h": 667,
+  "seen_24h": 714,
   "truncated": true,
-  "total": 585,
+  "total": 584,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 13565
+  "postings_tracked": 13612
  },
  "detection": {
-  "mean_latency_s": 30274.1,
-  "sampled": 251,
+  "mean_latency_s": 29572.3,
+  "sampled": 257,
   "by_tier": {
    "A": {
-    "mean_latency_s": 33072.2,
-    "sampled": 129
+    "mean_latency_s": 32083.3,
+    "sampled": 133
    },
    "B": {
-    "mean_latency_s": 27315.5,
-    "sampled": 122
+    "mean_latency_s": 26879.0,
+    "sampled": 124
    }
   },
   "watch": {
@@ -46,19 +46,19 @@
      "seconds": 7285
     },
     {
-     "from": "2026-09-16T09:24:04.641721+00:00",
-     "to": "2026-09-16T10:33:24.494020+00:00",
-     "seconds": 4160
-    },
-    {
      "from": "2026-09-17T07:04:32.762663+00:00",
      "to": "2026-09-17T08:12:03.157945+00:00",
      "seconds": 4050
+    },
+    {
+     "from": "2026-09-17T01:14:04.991468+00:00",
+     "to": "2026-09-17T01:59:01.458201+00:00",
+     "seconds": 2696
     }
    ],
-   "n_gaps": 19,
+   "n_gaps": 15,
    "longest_gap_s": 16784,
-   "blind_s": 58484
+   "blind_s": 50883
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -230,9 +230,9 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 94,
+   "n_total": 98,
    "n_match": 0,
-   "reason": "94 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "98 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -257,9 +257,9 @@
    "firm": "Centrica Energy Trading",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 35,
+   "n_total": 36,
    "n_match": 0,
-   "reason": "35 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "36 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "jsonboard:workable/trexquant",
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-17T08:18:13.781025+00:00",
+   "last_checked_by_bell": "2026-09-17T10:31:12.769436+00:00",
    "last_change_detected": "2026-09-16T22:09:40.183328+00:00",
    "categories": [
     "prop"
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-17T08:21:07.856140+00:00",
+   "last_checked_by_bell": "2026-09-17T10:33:33.733112+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-17T08:17:09.358023+00:00",
+   "last_checked_by_bell": "2026-09-17T10:30:45.844632+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-17T08:17:12.263704+00:00",
+   "last_checked_by_bell": "2026-09-17T10:30:47.199666+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-17T08:17:12.264337+00:00",
+   "last_checked_by_bell": "2026-09-17T10:30:47.200188+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-17T08:17:13.320489+00:00",
+   "last_checked_by_bell": "2026-09-17T10:30:48.420333+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-17T08:18:39.282188+00:00",
+   "last_checked_by_bell": "2026-09-17T10:31:31.303222+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-17T08:24:22.176873+00:00",
+   "last_checked_by_bell": "2026-09-17T10:34:15.892832+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-17T08:19:39.289274+00:00",
+   "last_checked_by_bell": "2026-09-17T10:32:32.294788+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-17T08:19:39.668992+00:00",
+   "last_checked_by_bell": "2026-09-17T10:32:32.464096+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-17T08:21:20.468321+00:00",
+   "last_checked_by_bell": "2026-09-17T10:33:48.696714+00:00",
    "last_change_detected": "2026-09-17T08:21:20.468321+00:00",
    "categories": [
     "bank"
@@ -4764,25 +4764,6 @@
   },
   {
    "firm": "Citadel Securities",
-   "title": "software engineer university graduate us",
-   "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/",
-   "location": "Us",
-   "opened_at": "2026-09-10T12:21:32+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "desk_inferred": false,
-   "reason": "graduate + swe",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
    "title": "software engineer intern us",
    "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
    "location": "Us",
@@ -5329,6 +5310,25 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Citadel Securities",
+   "title": "machine learning researcher phd graduate asia",
+   "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-graduate-asia/",
+   "location": "Asia",
+   "opened_at": "2026-09-10T12:21:21+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "graduate + research",
+   "uk": false,
    "uk_stated": false,
    "tier": "B"
   },
