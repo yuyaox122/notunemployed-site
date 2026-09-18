@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-18T11:51:27.892411+00:00",
+ "generated_at": "2026-09-18T12:16:00.737477+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 88,
   "uk_unstated": 117,
-  "seen_24h": 629,
+  "seen_24h": 625,
   "truncated": true,
   "total": 589,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 14296
+  "postings_tracked": 14299
  },
  "detection": {
-  "mean_latency_s": 22513.2,
-  "sampled": 253,
+  "mean_latency_s": 22342.8,
+  "sampled": 255,
   "by_tier": {
    "A": {
-    "mean_latency_s": 11999.9,
-    "sampled": 126
+    "mean_latency_s": 11824.7,
+    "sampled": 128
    },
    "B": {
     "mean_latency_s": 32943.8,
@@ -56,9 +56,9 @@
      "seconds": 1174
     }
    ],
-   "n_gaps": 49,
+   "n_gaps": 50,
    "longest_gap_s": 4098,
-   "blind_s": 49925
+   "blind_s": 50937
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-18T11:43:48.115681+00:00",
+   "last_checked_by_bell": "2026-09-18T11:53:52.216368+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-18T11:49:25.925539+00:00",
+   "last_checked_by_bell": "2026-09-18T12:15:45.722878+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T11:39:56.101520+00:00",
+   "last_checked_by_bell": "2026-09-18T11:51:29.245955+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T11:39:56.209513+00:00",
+   "last_checked_by_bell": "2026-09-18T11:51:29.352354+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,8 +506,8 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-18T11:44:54.187783+00:00",
-   "last_change_detected": "2026-09-18T11:44:54.187783+00:00",
+   "last_checked_by_bell": "2026-09-18T12:10:56.877662+00:00",
+   "last_change_detected": "2026-09-18T12:10:56.877662+00:00",
    "categories": [
     "bank"
    ]
