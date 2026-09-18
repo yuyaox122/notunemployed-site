@@ -1,44 +1,39 @@
 {
- "generated_at": "2026-09-18T02:55:00.656301+00:00",
+ "generated_at": "2026-09-18T07:36:44.620722+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 88,
+  "uk": 87,
   "uk_unstated": 118,
-  "seen_24h": 632,
+  "seen_24h": 717,
   "truncated": true,
-  "total": 592,
+  "total": 591,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 14082
+  "postings_tracked": 14170
  },
  "detection": {
-  "mean_latency_s": 24828.0,
-  "sampled": 255,
+  "mean_latency_s": 22261.6,
+  "sampled": 248,
   "by_tier": {
    "A": {
-    "mean_latency_s": 17616.1,
-    "sampled": 132
+    "mean_latency_s": 12128.5,
+    "sampled": 124
    },
    "B": {
-    "mean_latency_s": 32567.6,
-    "sampled": 123
+    "mean_latency_s": 32394.7,
+    "sampled": 124
    }
   },
   "watch": {
    "hours": 24,
    "gaps": [
     {
-     "from": "2026-09-17T03:00:17.422447+00:00",
-     "to": "2026-09-17T05:48:01.933472+00:00",
-     "seconds": 10065
-    },
-    {
-     "from": "2026-09-17T07:04:32.762663+00:00",
-     "to": "2026-09-17T08:12:03.157945+00:00",
-     "seconds": 4050
+     "from": "2026-09-18T04:39:53.091028+00:00",
+     "to": "2026-09-18T05:40:36.552044+00:00",
+     "seconds": 3643
     },
     {
      "from": "2026-09-17T23:08:18.638982+00:00",
@@ -46,19 +41,24 @@
      "seconds": 2083
     },
     {
-     "from": "2026-09-17T06:18:47.907664+00:00",
-     "to": "2026-09-17T06:48:46.173356+00:00",
-     "seconds": 1798
+     "from": "2026-09-18T04:16:30.839814+00:00",
+     "to": "2026-09-18T04:39:30.165114+00:00",
+     "seconds": 1379
     },
     {
      "from": "2026-09-18T01:54:30.309549+00:00",
      "to": "2026-09-18T02:13:01.377023+00:00",
      "seconds": 1111
+    },
+    {
+     "from": "2026-09-18T05:40:43.185401+00:00",
+     "to": "2026-09-18T05:59:01.227308+00:00",
+     "seconds": 1098
     }
    ],
-   "n_gaps": 31,
-   "longest_gap_s": 10065,
-   "blind_s": 40101
+   "n_gaps": 39,
+   "longest_gap_s": 3643,
+   "blind_s": 37125
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -230,9 +230,9 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 105,
+   "n_total": 106,
    "n_match": 0,
-   "reason": "105 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "106 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -286,8 +286,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-18T02:37:45.827542+00:00",
-   "last_change_detected": "2026-09-17T21:00:36.512942+00:00",
+   "last_checked_by_bell": "2026-09-18T06:57:15.655699+00:00",
+   "last_change_detected": "2026-09-18T06:57:15.655699+00:00",
    "categories": [
     "prop"
    ]
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-18T00:33:40.839437+00:00",
+   "last_checked_by_bell": "2026-09-18T07:36:29.235368+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-18T02:18:46.822748+00:00",
+   "last_checked_by_bell": "2026-09-18T06:03:46.887343+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-18T02:18:52.373429+00:00",
+   "last_checked_by_bell": "2026-09-18T06:03:49.690455+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T02:18:52.374006+00:00",
+   "last_checked_by_bell": "2026-09-18T06:03:49.690835+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-18T02:18:53.355397+00:00",
+   "last_checked_by_bell": "2026-09-18T06:03:50.663387+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-18T02:54:51.008106+00:00",
+   "last_checked_by_bell": "2026-09-18T06:57:28.824001+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-18T02:37:33.001499+00:00",
+   "last_checked_by_bell": "2026-09-18T06:03:48.615857+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T00:15:13.690973+00:00",
+   "last_checked_by_bell": "2026-09-18T07:31:14.299314+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T00:15:34.056903+00:00",
+   "last_checked_by_bell": "2026-09-18T07:31:14.566239+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-18T00:33:51.588577+00:00",
+   "last_checked_by_bell": "2026-09-18T07:36:40.168604+00:00",
    "last_change_detected": "2026-09-17T08:21:20.468321+00:00",
    "categories": [
     "bank"
@@ -5277,6 +5277,25 @@
   },
   {
    "firm": "Citadel Securities",
+   "title": "quantitative research analyst intern bs ms australia",
+   "url": "https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-australia/",
+   "location": "Australia",
+   "opened_at": "2026-09-10T12:21:23+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Citadel Securities",
    "title": "quantitative research analyst intern bs ms europe",
    "url": "https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe/",
    "location": "",
@@ -5670,25 +5689,6 @@
    "desk": "engineering",
    "desk_inferred": false,
    "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "C"
-  },
-  {
-   "firm": "Barclays",
-   "title": "2027 Quantitative Analytics Associate Graduate Programme Glasgow",
-   "url": "https://search.jobs.barclays/job/glasgow/2027-quantitative-analytics-associate-graduate-programme-glasgow/13015/100411087120",
-   "location": "Glasgow, United Kingdom",
-   "opened_at": "2026-09-09T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T00:25:53.539896+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "graduate + quant",
    "uk": true,
    "uk_stated": true,
    "tier": "C"
@@ -6460,7 +6460,7 @@
    "location": "",
    "opened_at": null,
    "opened_exact": false,
-   "first_seen_at": "2026-09-17T21:00:36.512942+00:00",
+   "first_seen_at": "2026-09-18T06:57:15.655699+00:00",
    "date_basis": "first seen",
    "deadline": null,
    "strength": "strong",
