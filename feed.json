@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-18T00:35:14.058787+00:00",
+ "generated_at": "2026-09-18T02:55:00.656301+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 88,
   "uk_unstated": 118,
-  "seen_24h": 623,
+  "seen_24h": 632,
   "truncated": true,
   "total": 592,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 14073
+  "postings_tracked": 14082
  },
  "detection": {
-  "mean_latency_s": 24917.3,
-  "sampled": 254,
+  "mean_latency_s": 24828.0,
+  "sampled": 255,
   "by_tier": {
    "A": {
-    "mean_latency_s": 17734.2,
-    "sampled": 131
+    "mean_latency_s": 17616.1,
+    "sampled": 132
    },
    "B": {
     "mean_latency_s": 32567.6,
@@ -41,11 +41,6 @@
      "seconds": 4050
     },
     {
-     "from": "2026-09-17T01:14:04.991468+00:00",
-     "to": "2026-09-17T01:59:01.458201+00:00",
-     "seconds": 2696
-    },
-    {
      "from": "2026-09-17T23:08:18.638982+00:00",
      "to": "2026-09-17T23:43:01.321638+00:00",
      "seconds": 2083
@@ -54,11 +49,16 @@
      "from": "2026-09-17T06:18:47.907664+00:00",
      "to": "2026-09-17T06:48:46.173356+00:00",
      "seconds": 1798
+    },
+    {
+     "from": "2026-09-18T01:54:30.309549+00:00",
+     "to": "2026-09-18T02:13:01.377023+00:00",
+     "seconds": 1111
     }
    ],
-   "n_gaps": 28,
+   "n_gaps": 31,
    "longest_gap_s": 10065,
-   "blind_s": 39877
+   "blind_s": 40101
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-17T23:57:06.779360+00:00",
+   "last_checked_by_bell": "2026-09-18T02:37:45.827542+00:00",
    "last_change_detected": "2026-09-17T21:00:36.512942+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-17T23:52:46.644498+00:00",
+   "last_checked_by_bell": "2026-09-18T02:18:46.822748+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-17T23:56:44.940022+00:00",
+   "last_checked_by_bell": "2026-09-18T02:18:52.373429+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-17T23:56:44.940471+00:00",
+   "last_checked_by_bell": "2026-09-18T02:18:52.374006+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-17T23:56:45.748506+00:00",
+   "last_checked_by_bell": "2026-09-18T02:18:53.355397+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-18T00:12:25.865254+00:00",
+   "last_checked_by_bell": "2026-09-18T02:54:51.008106+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-18T00:12:41.446574+00:00",
+   "last_checked_by_bell": "2026-09-18T02:37:33.001499+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -7861,7 +7861,7 @@
   },
   {
    "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 16 days. No automated access; check by hand.",
+   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 17 days. No automated access; check by hand.",
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "location": "",
    "opened_at": null,
@@ -7880,7 +7880,7 @@
   },
   {
    "firm": "Blackstone",
-   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 16 days. No automated access; check by hand.",
+   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 17 days. No automated access; check by hand.",
    "url": "https://www.blackstone.com/careers/",
    "location": "",
    "opened_at": null,
