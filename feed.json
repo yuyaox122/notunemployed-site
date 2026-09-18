@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-09-18T14:30:38.229051+00:00",
+ "generated_at": "2026-09-18T14:39:20.173986+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 89,
+  "uk": 91,
   "uk_unstated": 117,
-  "seen_24h": 625,
+  "seen_24h": 636,
   "truncated": true,
-  "total": 590,
+  "total": 592,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 14376
+  "postings_tracked": 14393
  },
  "detection": {
-  "mean_latency_s": 24309.9,
+  "mean_latency_s": 24310.2,
   "sampled": 258,
   "by_tier": {
    "A": {
@@ -23,7 +23,7 @@
     "sampled": 128
    },
    "B": {
-    "mean_latency_s": 36615.5,
+    "mean_latency_s": 36616.2,
     "sampled": 130
    }
   },
@@ -230,9 +230,9 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 111,
+   "n_total": 112,
    "n_match": 0,
-   "reason": "111 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "112 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-18T13:49:34.923684+00:00",
+   "last_checked_by_bell": "2026-09-18T14:31:20.708624+00:00",
    "last_change_detected": "2026-09-18T11:02:07.662389+00:00",
    "categories": [
     "prop"
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-18T14:08:15.552297+00:00",
+   "last_checked_by_bell": "2026-09-18T14:39:18.984412+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-18T13:47:17.590336+00:00",
+   "last_checked_by_bell": "2026-09-18T14:30:56.064574+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-18T13:47:18.938311+00:00",
+   "last_checked_by_bell": "2026-09-18T14:30:57.583001+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T13:47:18.938839+00:00",
+   "last_checked_by_bell": "2026-09-18T14:30:57.583556+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-18T13:47:19.838097+00:00",
+   "last_checked_by_bell": "2026-09-18T14:30:58.861280+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-18T13:51:07.896014+00:00",
+   "last_checked_by_bell": "2026-09-18T14:33:46.078434+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-18T13:51:34.001326+00:00",
+   "last_checked_by_bell": "2026-09-18T14:39:07.276189+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T13:51:31.181016+00:00",
+   "last_checked_by_bell": "2026-09-18T14:34:09.821440+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T13:51:31.330071+00:00",
+   "last_checked_by_bell": "2026-09-18T14:34:09.925300+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -4383,6 +4383,44 @@
    "tier": "A"
   },
   {
+   "firm": "Schroders",
+   "title": "2027 Public Markets Quants Internship Programme",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1941",
+   "location": "London, United Kingdom",
+   "opened_at": "2026-09-18T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-18T14:34:20.162272+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "intern + quant",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "B"
+  },
+  {
+   "firm": "Schroders",
+   "title": "2027 Public Markets Multi-Asset Internship Programme",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1942",
+   "location": "London, United Kingdom",
+   "opened_at": "2026-09-18T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-18T14:34:20.162272+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "intern + markets",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "B"
+  },
+  {
    "firm": "UBS",
    "title": "2027 Summer Internship - Group Internal Consulting - AI Engineer",
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351374",
@@ -5258,25 +5296,6 @@
   },
   {
    "firm": "Citadel Securities",
-   "title": "quantitative research analyst intern bs ms australia",
-   "url": "https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-australia/",
-   "location": "Australia",
-   "opened_at": "2026-09-10T12:21:23+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + quant",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
    "title": "quantitative research analyst intern bs ms europe",
    "url": "https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe/",
    "location": "",
@@ -5291,25 +5310,6 @@
    "desk_inferred": false,
    "reason": "intern + quant",
    "uk": true,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
-   "title": "quantitative research analyst intern bs ms asia",
-   "url": "https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-asia/",
-   "location": "Asia",
-   "opened_at": "2026-09-10T12:21:23+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + quant",
-   "uk": false,
    "uk_stated": false,
    "tier": "B"
   },
