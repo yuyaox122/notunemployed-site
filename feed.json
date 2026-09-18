@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-18T11:42:47.743828+00:00",
+ "generated_at": "2026-09-18T11:45:00.985829+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 87,
   "uk_unstated": 117,
-  "seen_24h": 581,
+  "seen_24h": 627,
   "truncated": true,
   "total": 588,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 14218
+  "postings_tracked": 14264
  },
  "detection": {
-  "mean_latency_s": 22599.6,
-  "sampled": 252,
+  "mean_latency_s": 22513.2,
+  "sampled": 253,
   "by_tier": {
    "A": {
-    "mean_latency_s": 12089.9,
-    "sampled": 125
+    "mean_latency_s": 11999.9,
+    "sampled": 126
    },
    "B": {
     "mean_latency_s": 32943.8,
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-18T08:03:52.495907+00:00",
+   "last_checked_by_bell": "2026-09-18T11:43:48.115681+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-18T10:46:16.038249+00:00",
+   "last_checked_by_bell": "2026-09-18T11:43:03.563159+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -506,8 +506,8 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-18T08:04:04.094147+00:00",
-   "last_change_detected": "2026-09-17T08:21:20.468321+00:00",
+   "last_checked_by_bell": "2026-09-18T11:44:54.187783+00:00",
+   "last_change_detected": "2026-09-18T11:44:54.187783+00:00",
    "categories": [
     "bank"
    ]
