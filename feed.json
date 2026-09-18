@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-18T11:45:00.985829+00:00",
+ "generated_at": "2026-09-18T11:51:27.892411+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 87,
+  "uk": 88,
   "uk_unstated": 117,
-  "seen_24h": 627,
+  "seen_24h": 629,
   "truncated": true,
-  "total": 588,
+  "total": 589,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 14264
+  "postings_tracked": 14296
  },
  "detection": {
   "mean_latency_s": 22513.2,
@@ -230,9 +230,9 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 108,
+   "n_total": 109,
    "n_match": 0,
-   "reason": "108 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "109 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-18T11:02:07.662389+00:00",
+   "last_checked_by_bell": "2026-09-18T11:47:10.893491+00:00",
    "last_change_detected": "2026-09-18T11:02:07.662389+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-18T10:46:15.144266+00:00",
+   "last_checked_by_bell": "2026-09-18T11:45:15.720591+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-18T10:46:16.407753+00:00",
+   "last_checked_by_bell": "2026-09-18T11:46:46.912578+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-18T10:46:16.408326+00:00",
+   "last_checked_by_bell": "2026-09-18T11:46:46.913198+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-18T10:46:19.380936+00:00",
+   "last_checked_by_bell": "2026-09-18T11:46:48.313062+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-18T11:23:35.977326+00:00",
+   "last_checked_by_bell": "2026-09-18T11:49:18.740006+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-18T11:43:03.563159+00:00",
+   "last_checked_by_bell": "2026-09-18T11:49:25.925539+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -5334,25 +5334,6 @@
   },
   {
    "firm": "Citadel Securities",
-   "title": "machine learning researcher phd intern asia",
-   "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-asia/",
-   "location": "Asia",
-   "opened_at": "2026-09-10T12:21:21+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + research",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
    "title": "machine learning researcher phd graduate europe",
    "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-graduate-europe/",
    "location": "",
@@ -6452,6 +6433,25 @@
    "uk": true,
    "uk_stated": true,
    "tier": "B"
+  },
+  {
+   "firm": "CIBC Capital Markets",
+   "title": "Global Markets Summer Intern - 10 week Summer Programme, June - September 2027",
+   "url": "https://cibc.wd3.myworkdayjobs.com/en-US/campus/job/London-GBR/Global-Markets-Summer-Intern---10-week-Summer-Programme--June---September-2027_2619190",
+   "location": "London, GBR",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-18T11:46:54.979862+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "desk_inferred": false,
+   "reason": "intern + markets",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "C"
   },
   {
    "firm": "DRW",
