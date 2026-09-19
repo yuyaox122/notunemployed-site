@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T08:20:00.692482+00:00",
+ "generated_at": "2026-09-19T08:35:01.105490+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
@@ -7,12 +7,12 @@
   "uk_unstated": 118,
   "seen_24h": 524,
   "truncated": true,
-  "total": 596,
+  "total": 597,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 14716
+  "postings_tracked": 14717
  },
  "detection": {
   "mean_latency_s": 24786.3,
@@ -36,11 +36,6 @@
      "seconds": 16174
     },
     {
-     "from": "2026-09-18T08:25:09.059106+00:00",
-     "to": "2026-09-18T09:33:27.093138+00:00",
-     "seconds": 4098
-    },
-    {
      "from": "2026-09-18T21:57:29.626545+00:00",
      "to": "2026-09-18T22:25:01.288960+00:00",
      "seconds": 1652
@@ -54,11 +49,16 @@
      "from": "2026-09-18T13:11:02.778652+00:00",
      "to": "2026-09-18T13:29:00.219893+00:00",
      "seconds": 1077
+    },
+    {
+     "from": "2026-09-18T14:08:18.859499+00:00",
+     "to": "2026-09-18T14:26:09.685815+00:00",
+     "seconds": 1071
     }
    ],
-   "n_gaps": 20,
+   "n_gaps": 19,
    "longest_gap_s": 16174,
-   "blind_s": 37826
+   "blind_s": 33728
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -286,7 +286,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-19T08:15:37.686701+00:00",
+   "last_checked_by_bell": "2026-09-19T08:30:40.214289+00:00",
    "last_change_detected": "2026-09-18T22:29:09.175058+00:00",
    "categories": [
     "prop"
@@ -297,7 +297,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-19T08:16:44.337415+00:00",
+   "last_checked_by_bell": "2026-09-19T08:31:43.549580+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +308,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-19T08:15:13.154500+00:00",
+   "last_checked_by_bell": "2026-09-19T08:30:15.521253+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +319,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-19T08:15:14.070941+00:00",
+   "last_checked_by_bell": "2026-09-19T08:30:16.404781+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +330,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-19T08:15:14.071496+00:00",
+   "last_checked_by_bell": "2026-09-19T08:30:16.405375+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +352,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-19T08:15:15.063967+00:00",
+   "last_checked_by_bell": "2026-09-19T08:30:17.345861+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +407,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-19T08:15:51.098239+00:00",
+   "last_checked_by_bell": "2026-09-19T08:30:52.491030+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +418,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-19T08:19:15.284658+00:00",
+   "last_checked_by_bell": "2026-09-19T08:34:13.293924+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -440,7 +440,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-19T08:16:14.550357+00:00",
+   "last_checked_by_bell": "2026-09-19T08:31:16.455168+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +451,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-19T08:16:14.659082+00:00",
+   "last_checked_by_bell": "2026-09-19T08:31:16.562113+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +506,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-19T08:16:55.735692+00:00",
+   "last_checked_by_bell": "2026-09-19T08:31:54.632757+00:00",
    "last_change_detected": "2026-09-18T16:47:28.078626+00:00",
    "categories": [
     "bank"
@@ -4383,6 +4383,25 @@
    "tier": "A"
   },
   {
+   "firm": "Citadel Securities",
+   "title": "campus 2026 citadel securities trading invitational us",
+   "url": "https://www.citadelsecurities.com/careers/details/campus-2026-citadel-securities-trading-invitational-us/",
+   "location": "Us",
+   "opened_at": "2026-09-19T08:22:09+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-19T08:30:24.978737+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "desk_inferred": false,
+   "reason": "campus + trading",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
    "firm": "Deutsche Bank",
    "title": "2027 Deutsche Bank Graduate Programme - Investment Bank: Fixed Income & Currencies - Singapore",
    "url": "https://db.recsolu.com/external/requisitions/ORnHEncDP0oD6jYS1mUE4w",
@@ -5233,25 +5252,6 @@
    "desk": "quant",
    "desk_inferred": false,
    "reason": "graduate + quant",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Citadel Securities",
-   "title": "quantitative researcher phd intern us",
-   "url": "https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-intern-us/",
-   "location": "Us",
-   "opened_at": "2026-09-10T12:21:25+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:22.258284+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "desk_inferred": false,
-   "reason": "intern + quant",
    "uk": false,
    "uk_stated": false,
    "tier": "B"
