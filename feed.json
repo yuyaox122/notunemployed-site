@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T21:45:01.208659+00:00",
+ "generated_at": "2026-09-20T21:50:01.137362+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
@@ -324,7 +324,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-20T21:31:34.612445+00:00",
+   "last_checked_by_bell": "2026-09-20T21:45:02.379290+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -522,7 +522,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-20T21:31:44.778336+00:00",
+   "last_checked_by_bell": "2026-09-20T21:45:12.721357+00:00",
    "last_change_detected": "2026-09-18T16:47:28.078626+00:00",
    "categories": [
     "bank"
@@ -4580,7 +4580,7 @@
    "date_basis": "published_date",
    "deadline": null,
    "strength": "strong",
-   "stage": "placement",
+   "stage": null,
    "desk": "markets",
    "desk_inferred": false,
    "reason": "fixed-term placement + asset class",
@@ -6404,7 +6404,7 @@
    "date_basis": "published_date",
    "deadline": null,
    "strength": "weak",
-   "stage": "placement",
+   "stage": null,
    "desk": null,
    "desk_inferred": false,
    "reason": "fixed-term placement + stage-only at a whole-firm employer",
@@ -6898,7 +6898,7 @@
    "date_basis": "unknown",
    "deadline": null,
    "strength": "strong",
-   "stage": "placement",
+   "stage": null,
    "desk": "engineering",
    "desk_inferred": false,
    "reason": "fixed-term placement + infra",
@@ -6974,7 +6974,7 @@
    "date_basis": "unknown",
    "deadline": null,
    "strength": "strong",
-   "stage": "placement",
+   "stage": "graduate",
    "desk": "engineering",
    "desk_inferred": false,
    "reason": "fixed-term placement + infra",
