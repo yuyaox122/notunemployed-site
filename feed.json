@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-20T21:59:27.333464+00:00",
+ "generated_at": "2026-09-20T22:10:01.196587+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 100,
-  "uk_unstated": 123,
+  "uk_unstated": 121,
   "seen_24h": 26,
   "truncated": true,
-  "total": 630,
+  "total": 628,
   "truncated_uk": 0,
   "firms": 161,
   "firms_blind": 21,
-  "sources": 165,
+  "sources": 163,
   "postings_tracked": 14944
  },
  "detection": {
@@ -313,7 +313,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-20T21:43:53.552266+00:00",
+   "last_checked_by_bell": "2026-09-20T22:00:40.900898+00:00",
    "last_change_detected": "2026-09-18T22:29:09.175058+00:00",
    "categories": [
     "prop"
@@ -324,7 +324,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-20T21:45:02.379290+00:00",
+   "last_checked_by_bell": "2026-09-20T22:01:54.720558+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -335,7 +335,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-20T21:43:33.273753+00:00",
+   "last_checked_by_bell": "2026-09-20T22:00:14.840464+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -345,8 +345,8 @@
    "firm": "Blackstone",
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
-   "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-20T21:43:34.082805+00:00",
+   "why": "Half right, and the half that was wrong cost a spring week. www.blackstone.com/careers/ does return 403 to an honest user agent \u2014 that part was verified and still holds. But a refusal from the MARKETING host is not a refusal from the ATS, and blackstone.wd1.myworkdayjobs.com answers 200 with 34 campus roles. Same shape as Round 75's UBS finding: the 403 was the host root rather than the board.",
+   "last_checked_by_bell": "2026-09-20T22:00:15.793977+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -357,7 +357,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T21:43:34.083272+00:00",
+   "last_checked_by_bell": "2026-09-20T22:00:15.794443+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -379,7 +379,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-20T21:43:34.942674+00:00",
+   "last_checked_by_bell": "2026-09-20T22:00:17.360027+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -434,7 +434,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-20T21:44:05.162506+00:00",
+   "last_checked_by_bell": "2026-09-20T22:00:54.131790+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -456,7 +456,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T21:44:30.575479+00:00",
+   "last_checked_by_bell": "2026-09-20T22:01:21.324762+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -466,8 +466,8 @@
    "firm": "Nomura",
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
-   "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T21:44:30.684551+00:00",
+   "why": "WRONG, and left here as the evidence. It read 'nomura.tal.net exists and robots.txt disallows it. Refused. Verified 2026-09-07.' The refusal was never on the job board: that robots.txt disallows /*/agent/, /*/ats/ and /*/channel/ only, and names five AI crawlers bell is not one of. Re-measured 2026-09-20 with bell's own matcher.",
+   "last_checked_by_bell": "2026-09-20T22:01:21.427043+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -522,7 +522,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-20T21:45:12.721357+00:00",
+   "last_checked_by_bell": "2026-09-20T22:02:05.623679+00:00",
    "last_change_detected": "2026-09-18T16:47:28.078626+00:00",
    "categories": [
     "bank"
@@ -4646,6 +4646,42 @@
    "tier": "A"
   },
   {
+   "firm": "Susquehanna (SIG)",
+   "title": "First Year Discovery Event: October 2026",
+   "url": "https://careers.sig.com/jobs/10425?lang=en-us",
+   "location": "Sydney, UNAVAILABLE, Australia",
+   "opened_at": "2026-01-09T04:39:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-08T05:45:27.714300+00:00",
+   "date_basis": "published",
+   "deadline": "2027-05-07T20:50:15+00:00",
+   "strength": "strong",
+   "stage": "spring",
+   "desk": null,
+   "reason": "insight programme + firm-wide programme",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Deutsche Bank",
+   "title": "2027 Deutsche Bank Graduate Programme - Investment Bank: Fixed Income & Currencies - Singapore",
+   "url": "https://db.recsolu.com/external/requisitions/ORnHEncDP0oD6jYS1mUE4w",
+   "location": "Singapore, Singapore",
+   "opened_at": "2026-09-19T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-19T05:00:37.656063+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "markets",
+   "reason": "graduate + asset class",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
    "firm": "Schroders",
    "title": "2027 Public Markets Quants Internship Programme",
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1941",
@@ -7364,24 +7400,6 @@
    "tier": "B"
   },
   {
-   "firm": "Nomura",
-   "title": "Nomura \u2014 Spring week / insight programme window is open, and has been for 19 days. No automated access; check by hand.",
-   "url": "https://www.nomura.com/careers/",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T17:28:47.190717+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": null,
-   "reason": "tier D: cycle window open, firm refuses automated access",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "D"
-  },
-  {
    "firm": "Morgan Stanley",
    "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 19 days. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
@@ -7425,24 +7443,6 @@
    "opened_at": null,
    "opened_exact": false,
    "first_seen_at": "2026-09-07T17:27:51.664080+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": null,
-   "reason": "tier D: cycle window open, firm refuses automated access",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "D"
-  },
-  {
-   "firm": "Blackstone",
-   "title": "Blackstone \u2014 Spring week / insight programme window is open, and has been for 19 days. No automated access; check by hand.",
-   "url": "https://www.blackstone.com/careers/",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T17:27:51.663142+00:00",
    "date_basis": "unknown",
    "deadline": null,
    "strength": "strong",
