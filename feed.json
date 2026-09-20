@@ -1,44 +1,39 @@
 {
- "generated_at": "2026-09-20T00:41:52.812722+00:00",
+ "generated_at": "2026-09-20T17:09:23.567587+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 91,
   "uk_unstated": 117,
-  "seen_24h": 31,
+  "seen_24h": 29,
   "truncated": true,
   "total": 591,
   "truncated_uk": 0,
   "firms": 156,
   "firms_blind": 22,
   "sources": 159,
-  "postings_tracked": 14733
+  "postings_tracked": 14750
  },
  "detection": {
-  "mean_latency_s": 24787.8,
-  "sampled": 249,
+  "mean_latency_s": 24700.5,
+  "sampled": 250,
   "by_tier": {
    "A": {
     "mean_latency_s": 8092.4,
     "sampled": 116
    },
    "B": {
-    "mean_latency_s": 39349.3,
-    "sampled": 133
+    "mean_latency_s": 39077.6,
+    "sampled": 134
    }
   },
   "watch": {
    "hours": 24,
    "gaps": [
     {
-     "from": "2026-09-19T11:41:03.270701+00:00",
-     "to": "2026-09-19T12:12:00.924551+00:00",
-     "seconds": 1858
-    },
-    {
-     "from": "2026-09-19T13:13:20.801568+00:00",
-     "to": "2026-09-19T13:31:22.588688+00:00",
-     "seconds": 1082
+     "from": "2026-09-20T11:13:02.000327+00:00",
+     "to": "2026-09-20T11:29:01.509802+00:00",
+     "seconds": 960
     },
     {
      "from": "2026-09-19T21:42:10.917593+00:00",
@@ -46,19 +41,24 @@
      "seconds": 951
     },
     {
-     "from": "2026-09-19T12:12:29.579179+00:00",
-     "to": "2026-09-19T12:28:01.579815+00:00",
-     "seconds": 932
+     "from": "2026-09-20T09:38:11.069904+00:00",
+     "to": "2026-09-20T09:54:01.008362+00:00",
+     "seconds": 950
     },
     {
-     "from": "2026-09-19T16:36:30.393003+00:00",
-     "to": "2026-09-19T16:52:01.419322+00:00",
-     "seconds": 931
+     "from": "2026-09-20T12:56:16.306582+00:00",
+     "to": "2026-09-20T13:12:01.223818+00:00",
+     "seconds": 945
+    },
+    {
+     "from": "2026-09-20T16:47:26.174120+00:00",
+     "to": "2026-09-20T17:03:01.132788+00:00",
+     "seconds": 935
     }
    ],
-   "n_gaps": 43,
-   "longest_gap_s": 1858,
-   "blind_s": 37568
+   "n_gaps": 84,
+   "longest_gap_s": 960,
+   "blind_s": 70046
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -278,6 +278,15 @@
    "n_total": 31,
    "n_match": 0,
    "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "ashby:act",
+   "firm": "ACT Group",
+   "tier": "B",
+   "kind": "error",
+   "n_total": 4,
+   "n_match": 0,
+   "reason": "source is error"
   }
  ],
  "blindspots": [
@@ -286,7 +295,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-20T00:02:05.848044+00:00",
+   "last_checked_by_bell": "2026-09-20T15:46:45.281645+00:00",
    "last_change_detected": "2026-09-18T22:29:09.175058+00:00",
    "categories": [
     "prop"
@@ -297,7 +306,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-20T00:08:01.032944+00:00",
+   "last_checked_by_bell": "2026-09-20T16:17:48.307669+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -308,7 +317,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-20T00:00:15.360584+00:00",
+   "last_checked_by_bell": "2026-09-20T15:46:21.547860+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -319,7 +328,7 @@
    "url": "https://www.blackstone.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). The careers page returns 403 to an honest user agent. A refusal is a refusal \u2014 see docs/06-politeness.md. Check by hand.",
-   "last_checked_by_bell": "2026-09-20T00:00:16.875129+00:00",
+   "last_checked_by_bell": "2026-09-20T15:46:23.664228+00:00",
    "last_change_detected": "2026-09-07T17:27:51.663142+00:00",
    "categories": [
     "asset_manager"
@@ -330,7 +339,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T00:00:16.875684+00:00",
+   "last_checked_by_bell": "2026-09-20T15:46:23.664716+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -352,7 +361,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-20T00:00:17.810881+00:00",
+   "last_checked_by_bell": "2026-09-20T15:46:24.598533+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -407,7 +416,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-20T00:06:07.827406+00:00",
+   "last_checked_by_bell": "2026-09-20T16:01:56.801881+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -418,7 +427,7 @@
    "url": "",
    "kind": "manual",
    "why": "Greenhouse board is experienced-hire only. Every student programme lives on janestreet.com/join-jane-street.",
-   "last_checked_by_bell": "2026-09-20T00:39:13.954372+00:00",
+   "last_checked_by_bell": "2026-09-20T17:03:14.400574+00:00",
    "last_change_detected": "2026-09-16T13:13:14.746006+00:00",
    "categories": [
     "prop"
@@ -440,7 +449,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T00:07:32.940541+00:00",
+   "last_checked_by_bell": "2026-09-20T16:02:20.634754+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -451,7 +460,7 @@
    "url": "https://www.nomura.com/careers/",
    "kind": "manual",
    "why": "nomura.tal.net exists and **robots.txt disallows it**. nomura.com's careers page is a 6 KB redirect stub and nomuraholdings.com returns 403. Refused. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T00:07:33.049004+00:00",
+   "last_checked_by_bell": "2026-09-20T16:02:20.746860+00:00",
    "last_change_detected": "2026-09-07T17:28:47.190717+00:00",
    "categories": [
     "bank"
@@ -506,7 +515,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-20T00:23:31.321628+00:00",
+   "last_checked_by_bell": "2026-09-20T16:18:00.102157+00:00",
    "last_change_detected": "2026-09-18T16:47:28.078626+00:00",
    "categories": [
     "bank"
