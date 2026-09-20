@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T22:30:00.439820+00:00",
+ "generated_at": "2026-09-20T22:30:56.110789+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
@@ -56,9 +56,9 @@
      "seconds": 931
     }
    ],
-   "n_gaps": 66,
+   "n_gaps": 65,
    "longest_gap_s": 960,
-   "blind_s": 53515
+   "blind_s": 52762
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -322,7 +322,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-20T22:28:26.986136+00:00",
+   "last_checked_by_bell": "2026-09-20T22:30:53.753794+00:00",
    "last_change_detected": "2026-09-18T22:29:09.175058+00:00",
    "categories": [
     "prop"
@@ -344,7 +344,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-20T22:27:47.950715+00:00",
+   "last_checked_by_bell": "2026-09-20T22:30:15.010256+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -366,7 +366,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T22:27:59.403813+00:00",
+   "last_checked_by_bell": "2026-09-20T22:30:25.798015+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -388,7 +388,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-20T22:28:07.290142+00:00",
+   "last_checked_by_bell": "2026-09-20T22:30:33.172117+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
