@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-21T09:35:01.143670+00:00",
+ "generated_at": "2026-09-21T10:20:01.128486+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 105,
   "uk_unstated": 134,
-  "seen_24h": 168,
+  "seen_24h": 186,
   "truncated": true,
   "total": 659,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
   "sources": 169,
-  "postings_tracked": 15247
+  "postings_tracked": 15265
  },
  "detection": {
-  "mean_latency_s": 24232.7,
-  "sampled": 255,
+  "mean_latency_s": 28344.6,
+  "sampled": 257,
   "by_tier": {
    "A": {
     "mean_latency_s": 7792.9,
     "sampled": 121
    },
    "B": {
-    "mean_latency_s": 39077.6,
-    "sampled": 134
+    "mean_latency_s": 46629.6,
+    "sampled": 136
    }
   },
   "watch": {
@@ -58,7 +58,7 @@
    ],
    "n_gaps": 54,
    "longest_gap_s": 5362,
-   "blind_s": 53947
+   "blind_s": 53919
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -230,9 +230,9 @@
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 211,
+   "n_total": 212,
    "n_match": 0,
-   "reason": "211 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "212 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
@@ -248,9 +248,9 @@
    "firm": "HSBC",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 61,
+   "n_total": 62,
    "n_match": 0,
-   "reason": "61 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "62 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -322,8 +322,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-21T09:31:13.859970+00:00",
-   "last_change_detected": "2026-09-18T22:29:09.175058+00:00",
+   "last_checked_by_bell": "2026-09-21T10:16:16.621270+00:00",
+   "last_change_detected": "2026-09-21T10:16:16.621270+00:00",
    "categories": [
     "prop"
    ]
@@ -333,7 +333,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-21T09:32:25.882972+00:00",
+   "last_checked_by_bell": "2026-09-21T10:17:29.432332+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -344,7 +344,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-21T09:30:18.290470+00:00",
+   "last_checked_by_bell": "2026-09-21T10:15:22.575652+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -366,7 +366,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-21T09:30:28.536786+00:00",
+   "last_checked_by_bell": "2026-09-21T10:15:32.418979+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -388,7 +388,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-21T09:30:36.177708+00:00",
+   "last_checked_by_bell": "2026-09-21T10:15:40.699412+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -443,7 +443,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-21T09:31:25.336187+00:00",
+   "last_checked_by_bell": "2026-09-21T10:16:29.546350+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -465,7 +465,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-21T09:31:50.711490+00:00",
+   "last_checked_by_bell": "2026-09-21T10:16:54.852266+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -531,7 +531,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-21T09:32:37.151137+00:00",
+   "last_checked_by_bell": "2026-09-21T10:17:41.334792+00:00",
    "last_change_detected": "2026-09-21T09:19:04.868926+00:00",
    "categories": [
     "bank"
@@ -5681,6 +5681,24 @@
    "tier": "B"
   },
   {
+   "firm": "DRW",
+   "title": "DRW careers page changed \u2014 check by hand",
+   "url": "https://drw.com/work-at-drw/listings",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-21T10:16:16.621270+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: careers page changed, contents unknown",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "D"
+  },
+  {
    "firm": "Optiver",
    "title": "2027 Shanghai Performance Researcher Summer Internship",
    "url": "https://optiver.com/join-us/jobs/trading/shanghai/2027-shanghai-performance-researcher-summer-internship/",
@@ -5769,24 +5787,6 @@
    "uk": true,
    "uk_stated": false,
    "tier": "B"
-  },
-  {
-   "firm": "DRW",
-   "title": "DRW careers page changed \u2014 check by hand",
-   "url": "https://drw.com/work-at-drw/listings",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-18T22:29:09.175058+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": null,
-   "desk": null,
-   "reason": "tier D: careers page changed, contents unknown",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "D"
   },
   {
    "firm": "CIBC Capital Markets",
