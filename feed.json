@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-21T00:50:01.225134+00:00",
+ "generated_at": "2026-09-21T07:28:52.616860+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 105,
   "uk_unstated": 134,
-  "seen_24h": 29,
+  "seen_24h": 82,
   "truncated": true,
   "total": 657,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
   "sources": 169,
-  "postings_tracked": 15102
+  "postings_tracked": 15159
  },
  "detection": {
   "mean_latency_s": 24799.5,
@@ -31,34 +31,34 @@
    "hours": 24,
    "gaps": [
     {
-     "from": "2026-09-21T00:09:28.254784+00:00",
-     "to": "2026-09-21T00:27:02.069453+00:00",
-     "seconds": 1054
+     "from": "2026-09-21T03:40:40.173612+00:00",
+     "to": "2026-09-21T05:10:01.706487+00:00",
+     "seconds": 5362
     },
     {
-     "from": "2026-09-21T00:27:24.929230+00:00",
-     "to": "2026-09-21T00:44:32.680394+00:00",
-     "seconds": 1028
+     "from": "2026-09-21T01:34:39.246277+00:00",
+     "to": "2026-09-21T02:28:10.768436+00:00",
+     "seconds": 3212
     },
     {
-     "from": "2026-09-20T23:51:54.972967+00:00",
-     "to": "2026-09-21T00:08:59.095248+00:00",
-     "seconds": 1024
+     "from": "2026-09-21T05:27:10.542925+00:00",
+     "to": "2026-09-21T06:00:01.891135+00:00",
+     "seconds": 1971
     },
     {
-     "from": "2026-09-20T23:35:05.343253+00:00",
-     "to": "2026-09-20T23:51:37.776053+00:00",
-     "seconds": 992
+     "from": "2026-09-21T03:04:18.628449+00:00",
+     "to": "2026-09-21T03:23:01.229679+00:00",
+     "seconds": 1123
     },
     {
-     "from": "2026-09-20T23:01:57.585004+00:00",
-     "to": "2026-09-20T23:18:25.275765+00:00",
-     "seconds": 988
+     "from": "2026-09-21T01:16:19.773773+00:00",
+     "to": "2026-09-21T01:34:14.264574+00:00",
+     "seconds": 1074
     }
    ],
-   "n_gaps": 65,
-   "longest_gap_s": 1054,
-   "blind_s": 53182
+   "n_gaps": 56,
+   "longest_gap_s": 5362,
+   "blind_s": 54932
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -230,18 +230,18 @@
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 210,
+   "n_total": 211,
    "n_match": 0,
-   "reason": "210 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "211 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 116,
+   "n_total": 117,
    "n_match": 0,
-   "reason": "116 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "117 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -322,7 +322,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-20T23:18:29.057864+00:00",
+   "last_checked_by_bell": "2026-09-21T06:50:53.795233+00:00",
    "last_change_detected": "2026-09-18T22:29:09.175058+00:00",
    "categories": [
     "prop"
@@ -333,7 +333,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-21T00:27:24.929230+00:00",
+   "last_checked_by_bell": "2026-09-21T07:28:38.888953+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -344,7 +344,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-20T22:45:14.754599+00:00",
+   "last_checked_by_bell": "2026-09-21T06:34:35.267334+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -366,7 +366,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T22:45:31.916606+00:00",
+   "last_checked_by_bell": "2026-09-21T06:34:45.841457+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -388,7 +388,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-20T22:45:39.303966+00:00",
+   "last_checked_by_bell": "2026-09-21T06:34:53.519624+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -443,7 +443,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-20T23:18:51.233358+00:00",
+   "last_checked_by_bell": "2026-09-21T06:52:37.944429+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -465,7 +465,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-20T23:51:44.970694+00:00",
+   "last_checked_by_bell": "2026-09-21T07:08:16.709568+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -531,7 +531,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-21T00:44:40.901901+00:00",
+   "last_checked_by_bell": "2026-09-21T07:28:50.103245+00:00",
    "last_change_detected": "2026-09-18T16:47:28.078626+00:00",
    "categories": [
     "bank"
@@ -7410,7 +7410,7 @@
   },
   {
    "firm": "Morgan Stanley",
-   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 19 days. No automated access; check by hand.",
+   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 20 days. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "location": "",
    "opened_at": null,
@@ -7428,7 +7428,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 19 days. No automated access; check by hand.",
+   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 20 days. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "opened_at": null,
@@ -7446,7 +7446,7 @@
   },
   {
    "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 19 days. No automated access; check by hand.",
+   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 20 days. No automated access; check by hand.",
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "location": "",
    "opened_at": null,
