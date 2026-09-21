@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-21T13:50:00.710269+00:00",
+ "generated_at": "2026-09-21T14:05:00.947309+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
-  "uk": 105,
+  "uk": 106,
   "uk_unstated": 134,
-  "seen_24h": 295,
+  "seen_24h": 301,
   "truncated": true,
-  "total": 662,
+  "total": 663,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
   "sources": 169,
-  "postings_tracked": 15381
+  "postings_tracked": 15387
  },
  "detection": {
-  "mean_latency_s": 35203.9,
-  "sampled": 267,
+  "mean_latency_s": 38277.9,
+  "sampled": 269,
   "by_tier": {
    "A": {
     "mean_latency_s": 7557.3,
     "sampled": 125
    },
    "B": {
-    "mean_latency_s": 59540.7,
-    "sampled": 142
+    "mean_latency_s": 64945.1,
+    "sampled": 144
    }
   },
   "watch": {
@@ -56,9 +56,9 @@
      "seconds": 1074
     }
    ],
-   "n_gaps": 44,
+   "n_gaps": 43,
    "longest_gap_s": 5362,
-   "blind_s": 48107
+   "blind_s": 47208
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -248,9 +248,9 @@
    "firm": "HSBC",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 66,
+   "n_total": 67,
    "n_match": 0,
-   "reason": "66 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "67 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -307,6 +307,15 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:abrdn/wd3/abrdn",
+   "firm": "abrdn",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 25,
+   "n_match": 0,
+   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -322,7 +331,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-21T13:46:06.264158+00:00",
+   "last_checked_by_bell": "2026-09-21T14:01:00.853921+00:00",
    "last_change_detected": "2026-09-21T10:16:16.621270+00:00",
    "categories": [
     "prop"
@@ -333,7 +342,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-21T13:47:23.758729+00:00",
+   "last_checked_by_bell": "2026-09-21T14:02:17.406142+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -344,7 +353,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-21T13:45:20.949920+00:00",
+   "last_checked_by_bell": "2026-09-21T14:00:18.626558+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -366,7 +375,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-21T13:45:31.968958+00:00",
+   "last_checked_by_bell": "2026-09-21T14:00:29.277941+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -388,7 +397,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-21T13:45:40.708721+00:00",
+   "last_checked_by_bell": "2026-09-21T14:00:37.486081+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -443,7 +452,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-21T13:46:19.941513+00:00",
+   "last_checked_by_bell": "2026-09-21T14:01:13.905677+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -465,7 +474,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-21T13:46:48.207078+00:00",
+   "last_checked_by_bell": "2026-09-21T14:01:40.908651+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -531,7 +540,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-21T13:47:36.238383+00:00",
+   "last_checked_by_bell": "2026-09-21T14:02:29.652583+00:00",
    "last_change_detected": "2026-09-21T12:33:06.819307+00:00",
    "categories": [
     "bank"
@@ -550,6 +559,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "G-Research",
+   "title": "Software Engineering Intern",
+   "url": "https://www.gresearch.com/vacancies/software-engineering-intern/",
+   "location": "London, London, GB",
+   "opened_at": "2026-09-21T14:00:13+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-21T14:01:13.177348+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "B"
+  },
   {
    "firm": "Flow Traders",
    "title": "PhD Graduate Quantitative Researcher",
@@ -4290,24 +4317,6 @@
    "stage": "graduate",
    "desk": "quant",
    "reason": "graduate + trading",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "Hardware Engineer Intern",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4927149101",
-   "location": "Amsterdam, Netherlands",
-   "opened_at": "2026-07-31T14:51:49+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:30.174595+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
