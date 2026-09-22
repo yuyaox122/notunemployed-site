@@ -17,9 +17,14 @@ const FACETS = {
            name: { spring: "Spring week", intern: "Internship",
                    placement: "Placement", graduate: "Graduate",
                    "null": "stage unclear" } },
-  desk:  { order: ["quant", "markets", "engineering", "commodities", "null"],
+  // Every desk in `classify.DESK_RULES` must be in BOTH lists below. A desk missing
+  // from `order` has no facet button at all, so its rows are reachable only by search
+  // — which is how a new desk gets added to the classifier and stays invisible in the
+  // app. `TestTheDeskVocabulariesAgree` reads this file and fails if they drift.
+  desk:  { order: ["quant", "markets", "engineering", "commodities", "advisory", "null"],
            name: { quant: "Quant", markets: "Markets", engineering: "Engineering",
-                   commodities: "Commodities", "null": "desk unclear" } },
+                   commodities: "Commodities", advisory: "Advisory",
+                   "null": "desk unclear" } },
 };
 
 const state = {
