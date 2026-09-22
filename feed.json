@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-22T14:05:00.757118+00:00",
+ "generated_at": "2026-09-22T14:21:59.931412+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 108,
   "uk_unstated": 134,
-  "seen_24h": 682,
+  "seen_24h": 674,
   "truncated": true,
-  "total": 673,
+  "total": 672,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
@@ -362,7 +362,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-22T14:00:18.935285+00:00",
+   "last_checked_by_bell": "2026-09-22T14:17:25.815574+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -384,7 +384,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-22T14:00:30.256836+00:00",
+   "last_checked_by_bell": "2026-09-22T14:17:38.036913+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -406,7 +406,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-22T14:00:40.952920+00:00",
+   "last_checked_by_bell": "2026-09-22T14:17:45.819941+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -726,24 +726,6 @@
    "stage": "intern",
    "desk": "markets",
    "reason": "intern + markets",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Headlands Technologies",
-   "title": "Deep Learning Research Internship",
-   "url": "https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4412947009",
-   "location": "Chicago; New York",
-   "opened_at": "2026-09-21T16:28:25+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-21T16:33:06.390209+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "reason": "intern + research",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
@@ -4326,6 +4308,24 @@
    "stage": "intern",
    "desk": "quant",
    "reason": "intern + trading",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Maven Securities",
+   "title": "Graduate Quant Researcher 2027 - Chicago",
+   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8048830",
+   "location": "Chicago",
+   "opened_at": "2026-08-03T08:32:53+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-06T06:59:31.744500+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "reason": "graduate + quant",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
