@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-22T01:05:00.433275+00:00",
+ "generated_at": "2026-09-22T01:10:00.997710+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 107,
   "uk_unstated": 133,
-  "seen_24h": 635,
+  "seen_24h": 638,
   "truncated": true,
   "total": 667,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
   "sources": 169,
-  "postings_tracked": 15737
+  "postings_tracked": 15740
  },
  "detection": {
-  "mean_latency_s": 46384.4,
-  "sampled": 239,
+  "mean_latency_s": 46192.7,
+  "sampled": 240,
   "by_tier": {
    "A": {
-    "mean_latency_s": 6886.5,
-    "sampled": 118
+    "mean_latency_s": 6831.9,
+    "sampled": 119
    },
    "B": {
     "mean_latency_s": 84903.0,
@@ -56,9 +56,9 @@
      "seconds": 1074
     }
    ],
-   "n_gaps": 40,
+   "n_gaps": 41,
    "longest_gap_s": 5362,
-   "blind_s": 44389
+   "blind_s": 45292
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -331,7 +331,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-21T23:02:49.786022+00:00",
+   "last_checked_by_bell": "2026-09-22T01:05:35.349083+00:00",
    "last_change_detected": "2026-09-21T20:22:19.601344+00:00",
    "categories": [
     "prop"
@@ -452,7 +452,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-21T23:03:25.314247+00:00",
+   "last_checked_by_bell": "2026-09-22T01:10:00.824608+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -7437,7 +7437,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 20 days. No automated access; check by hand.",
+   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 21 days. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "opened_at": null,
