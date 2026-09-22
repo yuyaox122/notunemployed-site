@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T13:20:01.011418+00:00",
+ "generated_at": "2026-09-22T13:30:00.778860+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
@@ -15,16 +15,16 @@
   "postings_tracked": 16033
  },
  "detection": {
-  "mean_latency_s": 48189.4,
-  "sampled": 249,
+  "mean_latency_s": 48380.3,
+  "sampled": 248,
   "by_tier": {
    "A": {
     "mean_latency_s": 6746.9,
     "sampled": 117
    },
    "B": {
-    "mean_latency_s": 84922.5,
-    "sampled": 132
+    "mean_latency_s": 85564.2,
+    "sampled": 131
    }
   },
   "watch": {
@@ -391,10 +391,10 @@
    "key": "workday:abrdn/wd3/abrdn",
    "firm": "abrdn",
    "tier": "C",
-   "kind": "no-early-careers",
+   "kind": "blocked",
    "n_total": 25,
    "n_match": 0,
-   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is blocked"
   },
   {
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers",
