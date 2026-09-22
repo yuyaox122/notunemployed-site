@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-22T00:40:00.960517+00:00",
+ "generated_at": "2026-09-22T01:05:00.433275+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 107,
   "uk_unstated": 133,
-  "seen_24h": 631,
+  "seen_24h": 635,
   "truncated": true,
   "total": 667,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
   "sources": 169,
-  "postings_tracked": 15731
+  "postings_tracked": 15737
  },
  "detection": {
-  "mean_latency_s": 46203.7,
-  "sampled": 238,
+  "mean_latency_s": 46384.4,
+  "sampled": 239,
   "by_tier": {
    "A": {
     "mean_latency_s": 6886.5,
     "sampled": 118
    },
    "B": {
-    "mean_latency_s": 84865.6,
-    "sampled": 120
+    "mean_latency_s": 84903.0,
+    "sampled": 121
    }
   },
   "watch": {
@@ -56,9 +56,9 @@
      "seconds": 1074
     }
    ],
-   "n_gaps": 41,
+   "n_gaps": 40,
    "longest_gap_s": 5362,
-   "blind_s": 44791
+   "blind_s": 44389
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -262,17 +262,17 @@
    "reason": "52 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "workday:abglobal/wd1/alliancebernsteincareers",
-   "firm": "AllianceBernstein",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 46,
-   "n_match": 0,
-   "reason": "46 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
    "firm": "Capital Group",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 47,
+   "n_match": 0,
+   "reason": "47 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "workday:abglobal/wd1/alliancebernsteincareers",
+   "firm": "AllianceBernstein",
    "tier": "C",
    "kind": "no-early-careers",
    "n_total": 46,
@@ -353,7 +353,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-21T22:46:49.056447+00:00",
+   "last_checked_by_bell": "2026-09-22T00:49:33.508623+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -375,7 +375,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-21T22:47:01.039615+00:00",
+   "last_checked_by_bell": "2026-09-22T00:49:45.390167+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -397,7 +397,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-21T22:47:08.583668+00:00",
+   "last_checked_by_bell": "2026-09-22T00:49:54.500632+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -7455,7 +7455,7 @@
   },
   {
    "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 20 days. No automated access; check by hand.",
+   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 21 days. No automated access; check by hand.",
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "location": "",
    "opened_at": null,
