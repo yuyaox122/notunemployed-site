@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-22T14:30:05.575642+00:00",
+ "generated_at": "2026-09-22T14:35:01.023540+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 108,
   "uk_unstated": 134,
-  "seen_24h": 682,
+  "seen_24h": 675,
   "truncated": true,
   "total": 672,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
   "sources": 169,
-  "postings_tracked": 16077
+  "postings_tracked": 16079
  },
  "detection": {
   "mean_latency_s": 46784.7,
@@ -257,9 +257,9 @@
    "firm": "Centrica Energy Trading",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 53,
+   "n_total": 54,
    "n_match": 0,
-   "reason": "53 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "54 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
@@ -340,8 +340,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-22T14:22:28.174810+00:00",
-   "last_change_detected": "2026-09-22T14:01:05.739181+00:00",
+   "last_checked_by_bell": "2026-09-22T14:34:26.805045+00:00",
+   "last_change_detected": "2026-09-22T14:34:26.805045+00:00",
    "categories": [
     "prop"
    ]
@@ -362,7 +362,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-22T14:17:25.815574+00:00",
+   "last_checked_by_bell": "2026-09-22T14:30:23.707677+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -384,7 +384,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-22T14:17:38.036913+00:00",
+   "last_checked_by_bell": "2026-09-22T14:32:39.416047+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -406,7 +406,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-22T14:17:45.819941+00:00",
+   "last_checked_by_bell": "2026-09-22T14:32:47.673691+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -461,7 +461,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-22T14:24:00.207786+00:00",
+   "last_checked_by_bell": "2026-09-22T14:34:59.562026+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -5687,7 +5687,7 @@
    "location": "",
    "opened_at": null,
    "opened_exact": false,
-   "first_seen_at": "2026-09-22T14:01:05.739181+00:00",
+   "first_seen_at": "2026-09-22T14:34:26.805045+00:00",
    "date_basis": "first seen",
    "deadline": null,
    "strength": "strong",
