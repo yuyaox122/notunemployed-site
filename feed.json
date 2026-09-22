@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-22T01:10:00.997710+00:00",
+ "generated_at": "2026-09-22T01:46:55.194699+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 107,
   "uk_unstated": 133,
-  "seen_24h": 638,
+  "seen_24h": 654,
   "truncated": true,
   "total": 667,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
   "sources": 169,
-  "postings_tracked": 15740
+  "postings_tracked": 15756
  },
  "detection": {
-  "mean_latency_s": 46192.7,
-  "sampled": 240,
+  "mean_latency_s": 46023.2,
+  "sampled": 241,
   "by_tier": {
    "A": {
     "mean_latency_s": 6831.9,
     "sampled": 119
    },
    "B": {
-    "mean_latency_s": 84903.0,
-    "sampled": 121
+    "mean_latency_s": 84250.7,
+    "sampled": 122
    }
   },
   "watch": {
@@ -34,11 +34,6 @@
      "from": "2026-09-21T03:40:40.173612+00:00",
      "to": "2026-09-21T05:10:01.706487+00:00",
      "seconds": 5362
-    },
-    {
-     "from": "2026-09-21T01:34:39.246277+00:00",
-     "to": "2026-09-21T02:28:10.768436+00:00",
-     "seconds": 3212
     },
     {
      "from": "2026-09-21T05:27:10.542925+00:00",
@@ -51,14 +46,19 @@
      "seconds": 1123
     },
     {
-     "from": "2026-09-21T01:16:19.773773+00:00",
-     "to": "2026-09-21T01:34:14.264574+00:00",
-     "seconds": 1074
+     "from": "2026-09-21T02:28:33.628653+00:00",
+     "to": "2026-09-21T02:46:26.651935+00:00",
+     "seconds": 1073
+    },
+    {
+     "from": "2026-09-21T06:00:03.726862+00:00",
+     "to": "2026-09-21T06:17:48.375617+00:00",
+     "seconds": 1065
     }
    ],
    "n_gaps": 41,
    "longest_gap_s": 5362,
-   "blind_s": 45292
+   "blind_s": 42806
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -342,7 +342,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-21T23:19:25.464274+00:00",
+   "last_checked_by_bell": "2026-09-22T01:26:11.760044+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -474,7 +474,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-21T23:03:54.055132+00:00",
+   "last_checked_by_bell": "2026-09-22T01:10:33.244006+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -540,7 +540,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-21T23:19:36.722078+00:00",
+   "last_checked_by_bell": "2026-09-22T01:26:23.080959+00:00",
    "last_change_detected": "2026-09-21T17:18:05.802249+00:00",
    "categories": [
     "bank"
@@ -7419,7 +7419,7 @@
   },
   {
    "firm": "Morgan Stanley",
-   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 20 days. No automated access; check by hand.",
+   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 21 days. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "location": "",
    "opened_at": null,
