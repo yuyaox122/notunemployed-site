@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-22T09:35:00.676097+00:00",
+ "generated_at": "2026-09-22T11:35:00.658875+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 107,
   "uk_unstated": 133,
-  "seen_24h": 671,
+  "seen_24h": 675,
   "truncated": true,
   "total": 668,
   "truncated_uk": 0,
   "firms": 164,
   "firms_blind": 21,
   "sources": 169,
-  "postings_tracked": 15918
+  "postings_tracked": 15964
  },
  "detection": {
-  "mean_latency_s": 46177.4,
-  "sampled": 249,
+  "mean_latency_s": 48403.6,
+  "sampled": 248,
   "by_tier": {
    "A": {
-    "mean_latency_s": 6692.5,
-    "sampled": 118
+    "mean_latency_s": 6804.5,
+    "sampled": 116
    },
    "B": {
-    "mean_latency_s": 81744.0,
-    "sampled": 131
+    "mean_latency_s": 84960.5,
+    "sampled": 132
    }
   },
   "watch": {
@@ -46,19 +46,19 @@
      "seconds": 946
     },
     {
-     "from": "2026-09-21T11:34:58.424276+00:00",
-     "to": "2026-09-21T11:50:32.034329+00:00",
-     "seconds": 934
-    },
-    {
      "from": "2026-09-21T15:22:28.919107+00:00",
      "to": "2026-09-21T15:38:01.331227+00:00",
      "seconds": 932
+    },
+    {
+     "from": "2026-09-21T23:35:29.430701+00:00",
+     "to": "2026-09-21T23:51:01.410397+00:00",
+     "seconds": 932
     }
    ],
-   "n_gaps": 51,
+   "n_gaps": 50,
    "longest_gap_s": 1854,
-   "blind_s": 44224
+   "blind_s": 43045
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -239,18 +239,18 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 131,
+   "n_total": 134,
    "n_match": 0,
-   "reason": "131 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "134 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 73,
+   "n_total": 74,
    "n_match": 0,
-   "reason": "73 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "74 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -302,18 +302,18 @@
    "firm": "T. Rowe Price",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 28,
+   "n_total": 29,
    "n_match": 0,
-   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "29 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:falconx",
    "firm": "FalconX",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 25,
+   "n_total": 26,
    "n_match": 0,
-   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "26 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abrdn/wd3/abrdn",
@@ -340,7 +340,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-22T09:30:59.753604+00:00",
+   "last_checked_by_bell": "2026-09-22T11:30:56.534178+00:00",
    "last_change_detected": "2026-09-22T08:17:17.796122+00:00",
    "categories": [
     "prop"
@@ -351,7 +351,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-22T09:32:15.553166+00:00",
+   "last_checked_by_bell": "2026-09-22T11:32:11.913170+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -362,7 +362,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-22T09:30:21.441927+00:00",
+   "last_checked_by_bell": "2026-09-22T11:30:15.440761+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -384,7 +384,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-22T09:30:32.522221+00:00",
+   "last_checked_by_bell": "2026-09-22T11:30:27.347848+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -406,7 +406,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-22T09:30:39.820925+00:00",
+   "last_checked_by_bell": "2026-09-22T11:30:35.372777+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -461,7 +461,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-22T09:31:12.453302+00:00",
+   "last_checked_by_bell": "2026-09-22T11:31:10.648465+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -483,7 +483,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-22T09:31:38.979036+00:00",
+   "last_checked_by_bell": "2026-09-22T11:31:37.827069+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -549,7 +549,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-22T09:32:27.566202+00:00",
+   "last_checked_by_bell": "2026-09-22T11:32:23.334128+00:00",
    "last_change_detected": "2026-09-22T09:32:27.566202+00:00",
    "categories": [
     "bank"
@@ -6223,7 +6223,7 @@
   {
    "firm": "Fidelity International",
    "title": "Fixed Income Off-Cycle Internship Programme 2027 - Hong Kong",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-627ab912bca3/candidate/so/pm/1/pl/1/opp/1396-Fixed-Income-Off-Cycle-Internship-Programme-2027-Hong-Kong/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-4b24c49df9e2/candidate/so/pm/1/pl/1/opp/1396-Fixed-Income-Off-Cycle-Internship-Programme-2027-Hong-Kong/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6241,7 +6241,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-627ab912bca3/candidate/so/pm/1/pl/1/opp/1405-Equity-Research-Summer-Internship-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-4b24c49df9e2/candidate/so/pm/1/pl/1/opp/1405-Equity-Research-Summer-Internship-Programme-2027-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6259,7 +6259,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Graduate Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-627ab912bca3/candidate/so/pm/1/pl/1/opp/1406-Equity-Research-Graduate-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-4b24c49df9e2/candidate/so/pm/1/pl/1/opp/1406-Equity-Research-Graduate-Programme-2027-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6277,7 +6277,7 @@
   {
    "firm": "Fidelity International",
    "title": "Fixed Income Summer Internship Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-627ab912bca3/candidate/so/pm/1/pl/1/opp/1409-Fixed-Income-Summer-Internship-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-4b24c49df9e2/candidate/so/pm/1/pl/1/opp/1409-Fixed-Income-Summer-Internship-Programme-2027-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6295,7 +6295,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - Hong Kong",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-627ab912bca3/candidate/so/pm/1/pl/1/opp/1394-Equity-Research-Summer-Internship-Programme-2027-Hong-Kong/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-4b24c49df9e2/candidate/so/pm/1/pl/1/opp/1394-Equity-Research-Summer-Internship-Programme-2027-Hong-Kong/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6313,7 +6313,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - Singapore",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-627ab912bca3/candidate/so/pm/1/pl/1/opp/1393-Equity-Research-Summer-Internship-Programme-2027-Singapore/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-4b24c49df9e2/candidate/so/pm/1/pl/1/opp/1393-Equity-Research-Summer-Internship-Programme-2027-Singapore/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6331,7 +6331,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - China, Shanghai",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-627ab912bca3/candidate/so/pm/1/pl/1/opp/1404-Equity-Research-Summer-Internship-Programme-2027-China-Shanghai/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-4b24c49df9e2/candidate/so/pm/1/pl/1/opp/1404-Equity-Research-Summer-Internship-Programme-2027-China-Shanghai/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6349,7 +6349,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - Japan, Tokyo",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-627ab912bca3/candidate/so/pm/1/pl/1/opp/1395-Equity-Research-Summer-Internship-Programme-2027-Japan-Tokyo/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-4b24c49df9e2/candidate/so/pm/1/pl/1/opp/1395-Equity-Research-Summer-Internship-Programme-2027-Japan-Tokyo/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
