@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-23T13:35:00.680484+00:00",
+ "generated_at": "2026-09-23T13:50:00.795430+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 120,
   "uk_unstated": 188,
-  "seen_24h": 699,
+  "seen_24h": 702,
   "truncated": true,
   "total": 775,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 16778
+  "postings_tracked": 16793
  },
  "detection": {
-  "mean_latency_s": 48318.8,
-  "sampled": 235,
+  "mean_latency_s": 50770.7,
+  "sampled": 237,
   "by_tier": {
    "A": {
-    "mean_latency_s": 4584.8,
-    "sampled": 103
+    "mean_latency_s": 4540.8,
+    "sampled": 104
    },
    "B": {
-    "mean_latency_s": 82444.5,
-    "sampled": 132
+    "mean_latency_s": 86920.4,
+    "sampled": 133
    }
   },
   "watch": {
@@ -204,9 +204,9 @@
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 218,
+   "n_total": 219,
    "n_match": 0,
-   "reason": "218 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "219 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
@@ -231,9 +231,9 @@
    "firm": "Capital Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 60,
+   "n_total": 61,
    "n_match": 0,
-   "reason": "60 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "61 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -332,7 +332,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-23T13:31:03.036256+00:00",
+   "last_checked_by_bell": "2026-09-23T13:46:06.389260+00:00",
    "last_change_detected": "2026-09-23T10:16:10.212062+00:00",
    "categories": [
     "prop"
@@ -343,7 +343,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-23T13:32:23.294587+00:00",
+   "last_checked_by_bell": "2026-09-23T13:47:19.129976+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -354,7 +354,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-23T13:30:15.459961+00:00",
+   "last_checked_by_bell": "2026-09-23T13:45:25.482248+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -376,7 +376,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-23T13:30:35.469175+00:00",
+   "last_checked_by_bell": "2026-09-23T13:45:37.191195+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -398,7 +398,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-23T13:30:42.954523+00:00",
+   "last_checked_by_bell": "2026-09-23T13:45:44.348469+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -453,7 +453,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-23T13:31:16.730863+00:00",
+   "last_checked_by_bell": "2026-09-23T13:46:19.557670+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -475,7 +475,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-23T13:31:43.706021+00:00",
+   "last_checked_by_bell": "2026-09-23T13:46:44.531435+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -541,7 +541,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-23T13:32:35.812494+00:00",
+   "last_checked_by_bell": "2026-09-23T13:47:42.194159+00:00",
    "last_change_detected": "2026-09-23T13:32:35.812494+00:00",
    "categories": [
     "bank"
@@ -3208,7 +3208,7 @@
   },
   {
    "firm": "Lazard",
-   "title": "2027 M&A Internship - Copenhagen",
+   "title": "2027 M&A Internship - Denmark",
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/6647",
    "location": "London, United Kingdom",
    "opened_at": "2026-09-22T00:00:00+00:00",
@@ -5927,7 +5927,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-9a606882fcfe/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-1ffcf7b50485/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
