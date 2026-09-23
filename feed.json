@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-23T05:35:00.951873+00:00",
+ "generated_at": "2026-09-23T06:00:00.776614+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 119,
   "uk_unstated": 186,
-  "seen_24h": 737,
+  "seen_24h": 743,
   "truncated": true,
-  "total": 771,
+  "total": 772,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 16600
+  "postings_tracked": 16606
  },
  "detection": {
-  "mean_latency_s": 45939.1,
-  "sampled": 237,
+  "mean_latency_s": 45746.2,
+  "sampled": 238,
   "by_tier": {
    "A": {
-    "mean_latency_s": 6093.7,
-    "sampled": 107
+    "mean_latency_s": 6037.7,
+    "sampled": 108
    },
    "B": {
     "mean_latency_s": 78734.9,
@@ -51,14 +51,14 @@
      "seconds": 926
     },
     {
-     "from": "2026-09-22T05:44:10.132674+00:00",
-     "to": "2026-09-22T05:59:29.616316+00:00",
+     "from": "2026-09-22T09:10:36.286653+00:00",
+     "to": "2026-09-22T09:25:55.654657+00:00",
      "seconds": 919
     }
    ],
-   "n_gaps": 14,
+   "n_gaps": 12,
    "longest_gap_s": 1854,
-   "blind_s": 11940
+   "blind_s": 10110
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -340,7 +340,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-23T05:31:21.873698+00:00",
+   "last_checked_by_bell": "2026-09-23T05:45:54.616209+00:00",
    "last_change_detected": "2026-09-22T23:15:57.325479+00:00",
    "categories": [
     "prop"
@@ -351,7 +351,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-23T05:32:36.413731+00:00",
+   "last_checked_by_bell": "2026-09-23T05:47:12.261306+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -362,7 +362,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-23T05:30:16.232466+00:00",
+   "last_checked_by_bell": "2026-09-23T05:45:15.215545+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -384,7 +384,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-23T05:30:28.734061+00:00",
+   "last_checked_by_bell": "2026-09-23T05:45:26.129252+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -406,7 +406,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-23T05:30:41.308508+00:00",
+   "last_checked_by_bell": "2026-09-23T05:45:33.252867+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -461,7 +461,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-23T05:31:35.897398+00:00",
+   "last_checked_by_bell": "2026-09-23T05:46:09.680520+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -483,7 +483,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-23T05:32:03.354173+00:00",
+   "last_checked_by_bell": "2026-09-23T05:46:37.654429+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -549,7 +549,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-23T05:32:47.297333+00:00",
+   "last_checked_by_bell": "2026-09-23T05:47:22.803729+00:00",
    "last_change_detected": "2026-09-22T22:02:28.112824+00:00",
    "categories": [
     "bank"
@@ -568,6 +568,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "IMC Trading",
+   "title": "Women in Trading and Technology Program - 2026",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4980867101",
+   "location": "Mumbai, India",
+   "opened_at": "2026-09-23T05:58:38+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-23T05:59:18.944183+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "spring",
+   "desk": "quant",
+   "reason": "branded:women in trading + trading",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
   {
    "firm": "AQR Capital",
    "title": "2027 PhD Summer Associate, Machine Learning Research",
@@ -2760,24 +2778,6 @@
    "stage": "intern",
    "desk": "quant",
    "reason": "intern + quant",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Susquehanna (SIG)",
-   "title": "Macro Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/11362?lang=en-us",
-   "location": "Hong Kong, UNAVAILABLE, Hong Kong",
-   "opened_at": "2026-08-25T10:09:00+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-09T17:40:45.882250+00:00",
-   "date_basis": "published",
-   "deadline": "2027-08-25T10:09:45+00:00",
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "markets",
-   "reason": "intern + macro",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
