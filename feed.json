@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-23T11:20:00.537693+00:00",
+ "generated_at": "2026-09-23T11:50:00.667189+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 119,
   "uk_unstated": 188,
-  "seen_24h": 717,
+  "seen_24h": 695,
   "truncated": true,
   "total": 773,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 16718
+  "postings_tracked": 16728
  },
  "detection": {
-  "mean_latency_s": 49571.5,
-  "sampled": 229,
+  "mean_latency_s": 48722.0,
+  "sampled": 233,
   "by_tier": {
    "A": {
-    "mean_latency_s": 4644.1,
-    "sampled": 102
+    "mean_latency_s": 4512.2,
+    "sampled": 105
    },
    "B": {
-    "mean_latency_s": 85654.9,
-    "sampled": 127
+    "mean_latency_s": 84987.8,
+    "sampled": 128
    }
   },
   "watch": {
@@ -213,9 +213,9 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 138,
+   "n_total": 139,
    "n_match": 0,
-   "reason": "138 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "139 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -276,9 +276,9 @@
    "firm": "abrdn",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 30,
+   "n_total": 31,
    "n_match": 0,
-   "reason": "30 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:troweprice/wd5/TRowePriceInternational",
@@ -297,6 +297,15 @@
    "n_total": 27,
    "n_match": 0,
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "ashby:amber",
+   "firm": "Amber Group",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 25,
+   "n_match": 0,
+   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:mlp.eightfold.ai",
@@ -323,7 +332,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-23T11:16:10.009265+00:00",
+   "last_checked_by_bell": "2026-09-23T11:45:58.805844+00:00",
    "last_change_detected": "2026-09-23T10:16:10.212062+00:00",
    "categories": [
     "prop"
@@ -334,7 +343,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-23T11:17:29.765911+00:00",
+   "last_checked_by_bell": "2026-09-23T11:47:11.743208+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -345,7 +354,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-23T11:15:28.858538+00:00",
+   "last_checked_by_bell": "2026-09-23T11:45:17.777476+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -367,7 +376,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-23T11:15:40.173899+00:00",
+   "last_checked_by_bell": "2026-09-23T11:45:27.962235+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -389,7 +398,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-23T11:15:48.075761+00:00",
+   "last_checked_by_bell": "2026-09-23T11:45:36.325230+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -444,7 +453,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-23T11:16:22.595876+00:00",
+   "last_checked_by_bell": "2026-09-23T11:46:11.929479+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -466,7 +475,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-23T11:16:49.917150+00:00",
+   "last_checked_by_bell": "2026-09-23T11:46:37.708145+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -532,7 +541,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-23T11:17:41.320325+00:00",
+   "last_checked_by_bell": "2026-09-23T11:47:22.914860+00:00",
    "last_change_detected": "2026-09-22T22:02:28.112824+00:00",
    "categories": [
     "bank"
