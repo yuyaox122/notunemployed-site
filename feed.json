@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-23T09:35:00.847845+00:00",
+ "generated_at": "2026-09-23T09:50:01.308182+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 119,
   "uk_unstated": 188,
-  "seen_24h": 716,
+  "seen_24h": 711,
   "truncated": true,
   "total": 773,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 16679
+  "postings_tracked": 16682
  },
  "detection": {
   "mean_latency_s": 48747.7,
@@ -305,6 +305,15 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "eightfold:mlp.eightfold.ai",
+   "firm": "Millennium",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 25,
+   "n_match": 0,
+   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -320,7 +329,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-23T09:30:56.554536+00:00",
+   "last_checked_by_bell": "2026-09-23T09:45:57.436852+00:00",
    "last_change_detected": "2026-09-22T23:15:57.325479+00:00",
    "categories": [
     "prop"
@@ -331,7 +340,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-23T09:32:14.259466+00:00",
+   "last_checked_by_bell": "2026-09-23T09:47:09.747569+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -342,7 +351,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-23T09:30:16.467628+00:00",
+   "last_checked_by_bell": "2026-09-23T09:45:17.683372+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -364,7 +373,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-23T09:30:28.202051+00:00",
+   "last_checked_by_bell": "2026-09-23T09:45:27.735484+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -386,7 +395,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-23T09:30:35.499052+00:00",
+   "last_checked_by_bell": "2026-09-23T09:45:35.873295+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -441,7 +450,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-23T09:31:10.012847+00:00",
+   "last_checked_by_bell": "2026-09-23T09:46:09.960201+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -463,7 +472,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-23T09:31:39.113327+00:00",
+   "last_checked_by_bell": "2026-09-23T09:46:36.452200+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -529,7 +538,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-23T09:32:26.023465+00:00",
+   "last_checked_by_bell": "2026-09-23T09:47:21.087796+00:00",
    "last_change_detected": "2026-09-22T22:02:28.112824+00:00",
    "categories": [
     "bank"
