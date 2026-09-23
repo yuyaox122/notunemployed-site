@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-22T23:20:00.891051+00:00",
+ "generated_at": "2026-09-23T00:00:00.640013+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 119,
   "uk_unstated": 186,
-  "seen_24h": 735,
+  "seen_24h": 741,
   "truncated": true,
   "total": 771,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 16510
+  "postings_tracked": 16517
  },
  "detection": {
-  "mean_latency_s": 45169.5,
-  "sampled": 242,
+  "mean_latency_s": 44989.5,
+  "sampled": 243,
   "by_tier": {
    "A": {
     "mean_latency_s": 6168.4,
     "sampled": 112
    },
    "B": {
-    "mean_latency_s": 78770.4,
-    "sampled": 130
+    "mean_latency_s": 78180.0,
+    "sampled": 131
    }
   },
   "watch": {
@@ -41,11 +41,6 @@
      "seconds": 946
     },
     {
-     "from": "2026-09-21T23:35:29.430701+00:00",
-     "to": "2026-09-21T23:51:01.410397+00:00",
-     "seconds": 932
-    },
-    {
      "from": "2026-09-22T07:06:29.818482+00:00",
      "to": "2026-09-22T07:22:01.866849+00:00",
      "seconds": 932
@@ -54,11 +49,16 @@
      "from": "2026-09-22T05:12:30.602401+00:00",
      "to": "2026-09-22T05:28:01.822643+00:00",
      "seconds": 931
+    },
+    {
+     "from": "2026-09-22T08:46:33.859715+00:00",
+     "to": "2026-09-22T09:02:01.901338+00:00",
+     "seconds": 928
     }
    ],
-   "n_gaps": 36,
+   "n_gaps": 33,
    "longest_gap_s": 1854,
-   "blind_s": 31500
+   "blind_s": 28769
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -79,8 +79,8 @@
      "spring"
     ],
     "phase": "open",
-    "days": 21,
-    "says": "open, and has been for 21 days",
+    "days": 22,
+    "says": "open, and has been for 22 days",
     "urgent": false
    },
    {
@@ -100,8 +100,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 100,
-    "says": "closed about 100 days ago",
+    "days": 101,
+    "says": "closed about 101 days ago",
     "urgent": false
    },
    {
@@ -122,8 +122,8 @@
      "crypto_mm"
     ],
     "phase": "open",
-    "days": 144,
-    "says": "open, and has been for 144 days",
+    "days": 145,
+    "says": "open, and has been for 145 days",
     "urgent": false
    },
    {
@@ -143,8 +143,8 @@
      "bank"
     ],
     "phase": "open",
-    "days": 52,
-    "says": "open, and has been for 52 days",
+    "days": 53,
+    "says": "open, and has been for 53 days",
     "urgent": false
    }
   ],
@@ -177,7 +177,7 @@
     "url": "https://careers.sig.com/jobs/11377?lang=en-us",
     "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
     "deadline": "2026-10-05",
-    "days_left": 13
+    "days_left": 12
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -185,7 +185,7 @@
     "url": "https://careers.sig.com/jobs/11378?lang=en-us",
     "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
     "deadline": "2026-10-05",
-    "days_left": 13
+    "days_left": 12
    },
    {
     "firm": "Glencore UK",
@@ -193,7 +193,7 @@
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
     "location": "London, UK",
     "deadline": "2026-10-09",
-    "days_left": 17
+    "days_left": 16
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -201,7 +201,7 @@
     "url": "https://careers.sig.com/jobs/10839?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 160
+    "days_left": 159
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -209,7 +209,7 @@
     "url": "https://careers.sig.com/jobs/10840?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 160
+    "days_left": 159
    }
   ],
   "n_deadlines": 5,
@@ -340,7 +340,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-22T23:15:57.325479+00:00",
+   "last_checked_by_bell": "2026-09-22T23:45:55.470447+00:00",
    "last_change_detected": "2026-09-22T23:15:57.325479+00:00",
    "categories": [
     "prop"
@@ -351,7 +351,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-22T23:17:21.042128+00:00",
+   "last_checked_by_bell": "2026-09-22T23:47:09.995268+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -362,7 +362,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-22T23:15:17.342799+00:00",
+   "last_checked_by_bell": "2026-09-22T23:45:15.218563+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -384,7 +384,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-22T23:15:28.446896+00:00",
+   "last_checked_by_bell": "2026-09-22T23:45:26.912596+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -406,7 +406,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-22T23:15:35.978090+00:00",
+   "last_checked_by_bell": "2026-09-22T23:45:34.695121+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -461,7 +461,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-22T23:16:11.609971+00:00",
+   "last_checked_by_bell": "2026-09-22T23:46:09.521568+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -483,7 +483,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-22T23:16:40.078454+00:00",
+   "last_checked_by_bell": "2026-09-22T23:46:36.302323+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -549,7 +549,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-22T23:17:31.673398+00:00",
+   "last_checked_by_bell": "2026-09-22T23:47:21.129236+00:00",
    "last_change_detected": "2026-09-22T22:02:28.112824+00:00",
    "categories": [
     "bank"
