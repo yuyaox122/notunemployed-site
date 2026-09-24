@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-24T12:05:00.786971+00:00",
+ "generated_at": "2026-09-24T12:20:01.020456+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 120,
-  "uk_unstated": 190,
-  "seen_24h": 522,
+  "uk_unstated": 193,
+  "seen_24h": 529,
   "truncated": true,
-  "total": 782,
+  "total": 785,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 17253
+  "postings_tracked": 17267
  },
  "detection": {
   "mean_latency_s": 62975.9,
@@ -358,7 +358,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-24T12:01:44.497692+00:00",
+   "last_checked_by_bell": "2026-09-24T12:15:50.959124+00:00",
    "last_change_detected": "2026-09-24T11:46:17.190514+00:00",
    "categories": [
     "prop"
@@ -369,7 +369,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-24T12:03:19.225543+00:00",
+   "last_checked_by_bell": "2026-09-24T12:17:06.022795+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -380,7 +380,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-24T12:00:40.696762+00:00",
+   "last_checked_by_bell": "2026-09-24T12:15:18.052138+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -402,7 +402,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-24T12:01:09.177923+00:00",
+   "last_checked_by_bell": "2026-09-24T12:15:22.440593+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -424,7 +424,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-24T12:01:21.453211+00:00",
+   "last_checked_by_bell": "2026-09-24T12:15:30.364451+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -479,7 +479,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-24T12:02:17.864297+00:00",
+   "last_checked_by_bell": "2026-09-24T12:16:04.969281+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -501,7 +501,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-24T12:02:46.185279+00:00",
+   "last_checked_by_bell": "2026-09-24T12:16:30.889931+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -567,7 +567,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-24T12:03:31.012253+00:00",
+   "last_checked_by_bell": "2026-09-24T12:17:18.370053+00:00",
    "last_change_detected": "2026-09-24T11:48:05.379986+00:00",
    "categories": [
     "bank"
@@ -2654,60 +2654,6 @@
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
    "uk_stated": true,
-   "tier": "A"
-  },
-  {
-   "firm": "Qube Research and Technologies",
-   "title": "2027 \u2013 Internship or Graduate, FPGA Engineering",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8742098002",
-   "location": "Hong Kong",
-   "opened_at": "2026-08-26T14:05:35+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:03:16.437236+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Qube Research and Technologies",
-   "title": "2027 \u2013 Internship, Infrastructure Engineering",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749918002",
-   "location": "Hong Kong, Singapore, Shanghai",
-   "opened_at": "2026-08-26T14:04:56+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:03:16.437236+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Qube Research and Technologies",
-   "title": "2027 - Internship, Security Engineer",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749942002",
-   "location": "Hong Kong",
-   "opened_at": "2026-08-26T14:03:24+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:03:16.437236+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": false,
-   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -4814,6 +4760,60 @@
    "reason": "branded:spring insight + firm-wide programme",
    "uk": true,
    "uk_stated": true,
+   "tier": "B"
+  },
+  {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "Data Engineer Internship with French",
+   "url": "https://careers.societegenerale.com/en/job-offers/data-engineer-internship-with-french-26000GNB-en",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-24T12:16:50.281642+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "Trainee \u2013 Credit Portfolio Management, Societe Generale India (Mumbai)",
+   "url": "https://careers.societegenerale.com/en/job-offers/trainee-credit-portfolio-management-societe-generale-india-mumbai-26000KQX-en",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-24T12:16:50.281642+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "markets",
+   "reason": "trainee + asset class",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "Internship Java Software Engineer",
+   "url": "https://careers.societegenerale.com/en/job-offers/internship-java-software-engineer-26000KFZ-en",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-24T12:16:50.281642+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + swe",
+   "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
