@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-24T11:25:00.637749+00:00",
+ "generated_at": "2026-09-24T11:45:00.460651+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 120,
   "uk_unstated": 188,
-  "seen_24h": 97,
+  "seen_24h": 105,
   "truncated": true,
-  "total": 774,
+  "total": 775,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 16815
+  "postings_tracked": 16829
  },
  "detection": {
-  "mean_latency_s": 56695.1,
-  "sampled": 197,
+  "mean_latency_s": 56158.0,
+  "sampled": 208,
   "by_tier": {
    "A": {
-    "mean_latency_s": 4717.9,
-    "sampled": 86
+    "mean_latency_s": 9460.5,
+    "sampled": 97
    },
    "B": {
     "mean_latency_s": 96965.7,
@@ -56,9 +56,9 @@
      "seconds": 3034
     }
    ],
-   "n_gaps": 45,
+   "n_gaps": 46,
    "longest_gap_s": 10459,
-   "blind_s": 63981
+   "blind_s": 64753
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -271,31 +271,13 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:point72",
-   "firm": "Point72",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 249,
-   "n_match": 21,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:janestreet",
    "firm": "Jane Street",
    "tier": "A",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 243,
    "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:quberesearchandtechnologies",
-   "firm": "Qube Research and Technologies",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 223,
-   "n_match": 14,
-   "reason": "source is error"
+   "reason": "243 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
@@ -316,15 +298,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:imc",
-   "firm": "IMC Trading",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 200,
-   "n_match": 35,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:robinhood",
    "firm": "Robinhood",
    "tier": "B",
@@ -341,33 +314,6 @@
    "n_total": 142,
    "n_match": 0,
    "reason": "142 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "greenhouse:jumptrading",
-   "firm": "Jump Trading",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 120,
-   "n_match": 43,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:squarepointcapital",
-   "firm": "Squarepoint Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 101,
-   "n_match": 8,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:towerresearchcapital",
-   "firm": "Tower Research Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 98,
-   "n_match": 14,
-   "reason": "source is error"
   },
   {
    "key": "jsonboard:beesite/deutschebank",
@@ -406,39 +352,12 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:schonfeld",
-   "firm": "Schonfeld",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 87,
-   "n_match": 16,
-   "reason": "source is error"
-  },
-  {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
    "kind": "error",
    "n_total": 78,
    "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:dvtrading",
-   "firm": "DV Trading",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 78,
-   "n_match": 21,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:mangroup",
-   "firm": "Man Group",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 68,
-   "n_match": 5,
    "reason": "source is error"
   },
   {
@@ -487,24 +406,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:aqr",
-   "firm": "AQR Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 59,
-   "n_match": 8,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:flowtraders",
-   "firm": "Flow Traders",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 58,
-   "n_match": 8,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:centrica/wd3/Centrica",
    "firm": "Centrica Energy Trading",
    "tier": "C",
@@ -514,15 +415,6 @@
    "reason": "55 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:mavensecuritiesholdingltd",
-   "firm": "Maven Securities",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 49,
-   "n_match": 12,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
    "firm": "AllianceBernstein",
    "tier": "C",
@@ -530,24 +422,6 @@
    "n_total": 48,
    "n_match": 0,
    "reason": "48 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "greenhouse:akunacapital",
-   "firm": "Akuna Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 41,
-   "n_match": 12,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:oldmissioncapital",
-   "firm": "Old Mission Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 40,
-   "n_match": 8,
-   "reason": "source is error"
   },
   {
    "key": "linklist:https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-6f0048376f93/candidate/jobboard/vacancy/2/adv/",
@@ -593,15 +467,6 @@
    "n_total": 32,
    "n_match": 0,
    "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "greenhouse:axq",
-   "firm": "AXQ Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 31,
-   "n_match": 2,
-   "reason": "source is error"
   },
   {
    "key": "linklist:https://optiver.com/working-at-optiver/career-opportunities/",
@@ -667,33 +532,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:gravitonresearchcapital",
-   "firm": "Graviton Research",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 23,
-   "n_match": 2,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:isam",
-   "firm": "ISAM",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 23,
-   "n_match": 3,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:jshiddenevents",
-   "firm": "Jane Street",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 23,
-   "n_match": 22,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:stxgroup",
    "firm": "STX Group",
    "tier": "B",
@@ -721,39 +559,12 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:bridgewater89",
-   "firm": "Bridgewater",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 19,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:eclipsetrading",
-   "firm": "Eclipse Trading",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 19,
-   "n_match": 4,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:capstoneinvestmentadvisors",
    "firm": "Capstone Investment Advisors",
    "tier": "B",
    "kind": "error",
    "n_total": 18,
    "n_match": 2,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:fiveringsllc",
-   "firm": "Five Rings",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 18,
-   "n_match": 12,
    "reason": "source is error"
   },
   {
@@ -847,15 +658,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:gsacapital",
-   "firm": "GSA Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 11,
-   "n_match": 3,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:pharomanagement",
    "firm": "Pharo Management",
    "tier": "B",
@@ -892,84 +694,12 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:aquaticcapitalmanagement",
-   "firm": "Aquatic Capital Management",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 2,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:headlandstechnologiesllc",
-   "firm": "Headlands Technologies",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 3,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:mako",
-   "firm": "Mako",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 2,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:pdtpartners",
-   "firm": "PDT Partners",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 2,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:3redpartners",
-   "firm": "3Red Partners",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 8,
-   "n_match": 3,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:chicagotradingcampus",
-   "firm": "Chicago Trading Company",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 8,
-   "n_match": 3,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:engineersgate",
-   "firm": "Engineers Gate",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 8,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:gelbergroup",
    "firm": "Gelber Group",
    "tier": "B",
    "kind": "error",
    "n_total": 8,
    "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:quantbot-technologies",
-   "firm": "Quantbot Technologies",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 8,
-   "n_match": 8,
    "reason": "source is error"
   },
   {
@@ -1009,24 +739,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:blackedgecapital",
-   "firm": "BlackEdge Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 7,
-   "n_match": 5,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:caladan",
-   "firm": "Caladan",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 7,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
    "key": "linklist:https://starlizard.com/join-our-team/",
    "firm": "Starlizard",
    "tier": "B",
@@ -1060,15 +772,6 @@
    "kind": "error",
    "n_total": 6,
    "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:jumpcrypto",
-   "firm": "Jump Crypto",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 5,
-   "n_match": 2,
    "reason": "source is error"
   },
   {
@@ -1135,15 +838,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:quadraturecapital",
-   "firm": "Quadrature Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 4,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:vivcourt",
    "firm": "VivCourt Trading",
    "tier": "B",
@@ -1165,24 +859,6 @@
    "key": "greenhouse:exoduspoint",
    "firm": "ExodusPoint",
    "tier": "B",
-   "kind": "error",
-   "n_total": 3,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:hrttalentcommunity",
-   "firm": "Hudson River Trading",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 3,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:kronosresearch",
-   "firm": "Kronos Research",
-   "tier": "A",
    "kind": "error",
    "n_total": 3,
    "n_match": 1,
@@ -1222,15 +898,6 @@
    "kind": "error",
    "n_total": 2,
    "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:glencoreuk",
-   "firm": "Glencore UK",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 2,
-   "n_match": 1,
    "reason": "source is error"
   },
   {
@@ -1541,6 +1208,42 @@
  ],
  "items": [
   {
+   "firm": "DV Trading",
+   "title": "2027 Quantitative Researcher Graduate (DV Equities)",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4736954005",
+   "location": "Hong Kong",
+   "opened_at": "2026-09-24T04:16:05+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-24T11:25:06.763634+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "reason": "graduate + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "IMC Trading",
+   "title": "Hardware Machine Learning PhD Research Internship",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4975945101",
+   "location": "Chicago, United States",
+   "opened_at": "2026-09-23T21:22:54+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-24T11:25:13.286629+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "intern + research",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
    "firm": "AQR Capital",
    "title": "2027 PhD Summer Associate, Machine Learning Research",
    "url": "https://careers.aqr.com/jobs?gh_jid=8224708&gh_jid=8224708",
@@ -1782,24 +1485,6 @@
    "opened_at": "2026-09-17T20:59:48+00:00",
    "opened_exact": true,
    "first_seen_at": "2026-09-17T21:00:38.090681+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + swe",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Software Engineer Intern (Summer 2027)",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8212158",
-   "location": "New York",
-   "opened_at": "2026-09-17T20:55:21+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-17T20:56:22.642954+00:00",
    "date_basis": "published",
    "deadline": null,
    "strength": "strong",
@@ -3451,7 +3136,7 @@
   {
    "firm": "Graviton Research",
    "title": "Quantitative Researcher (2027 Graduate)",
-   "url": "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8768396002?gh_jid=8768396002",
+   "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8768396002",
    "location": "Gurugram, Haryana, India",
    "opened_at": "2026-09-01T06:25:45+00:00",
    "opened_exact": true,
@@ -3469,7 +3154,7 @@
   {
    "firm": "Graviton Research",
    "title": "Software Engineer (2027 Graduate)",
-   "url": "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002?gh_jid=8764240002",
+   "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002",
    "location": "Gurugram, Haryana, India",
    "opened_at": "2026-09-01T06:25:41+00:00",
    "opened_exact": true,
@@ -3678,24 +3363,6 @@
    "stage": "intern",
    "desk": "quant",
    "reason": "summer analyst + research",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Susquehanna (SIG)",
-   "title": "AI Co-op with Drexel University",
-   "url": "https://careers.sig.com/jobs/11368?lang=en-us",
-   "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
-   "opened_at": "2026-08-25T15:10:00+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-09T17:40:45.882250+00:00",
-   "date_basis": "published",
-   "deadline": "2027-08-25T15:10:46+00:00",
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "co-op + ml/ds",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
