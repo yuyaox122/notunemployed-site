@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-24T15:05:01.128024+00:00",
+ "generated_at": "2026-09-24T15:20:00.734882+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 121,
   "uk_unstated": 193,
-  "seen_24h": 555,
+  "seen_24h": 567,
   "truncated": true,
   "total": 786,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 17368
+  "postings_tracked": 17380
  },
  "detection": {
   "mean_latency_s": 62448.9,
@@ -239,9 +239,9 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 148,
+   "n_total": 151,
    "n_match": 0,
-   "reason": "148 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "151 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -334,17 +334,17 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "ashby:amber",
-   "firm": "Amber Group",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 25,
-   "n_match": 0,
-   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "eightfold:mlp.eightfold.ai",
    "firm": "Millennium",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 26,
+   "n_match": 0,
+   "reason": "26 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "ashby:amber",
+   "firm": "Amber Group",
    "tier": "B",
    "kind": "no-early-careers",
    "n_total": 25,
@@ -367,8 +367,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-24T15:01:03.530313+00:00",
-   "last_change_detected": "2026-09-24T11:46:17.190514+00:00",
+   "last_checked_by_bell": "2026-09-24T15:15:56.728342+00:00",
+   "last_change_detected": "2026-09-24T15:15:56.728342+00:00",
    "categories": [
     "prop"
    ]
@@ -378,7 +378,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-24T15:02:20.487132+00:00",
+   "last_checked_by_bell": "2026-09-24T15:17:12.883227+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -389,7 +389,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-24T15:00:25.671901+00:00",
+   "last_checked_by_bell": "2026-09-24T15:15:18.441744+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -411,7 +411,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-24T15:00:30.576594+00:00",
+   "last_checked_by_bell": "2026-09-24T15:15:22.179688+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -433,7 +433,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-24T15:00:40.002127+00:00",
+   "last_checked_by_bell": "2026-09-24T15:15:31.167734+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -488,7 +488,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-24T15:01:17.095292+00:00",
+   "last_checked_by_bell": "2026-09-24T15:16:09.484709+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -510,7 +510,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-24T15:01:44.455561+00:00",
+   "last_checked_by_bell": "2026-09-24T15:16:39.148957+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -576,7 +576,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-24T15:02:33.121887+00:00",
+   "last_checked_by_bell": "2026-09-24T15:17:24.553848+00:00",
    "last_change_detected": "2026-09-24T13:02:51.928683+00:00",
    "categories": [
     "bank"
@@ -4772,6 +4772,24 @@
    "tier": "B"
   },
   {
+   "firm": "DRW",
+   "title": "DRW careers page changed \u2014 check by hand",
+   "url": "https://drw.com/work-at-drw/listings",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-24T15:15:56.728342+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: careers page changed, contents unknown",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "D"
+  },
+  {
    "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
    "title": "Data Engineer Internship with French",
    "url": "https://careers.societegenerale.com/en/job-offers/data-engineer-internship-with-french-26000GNB-en",
@@ -4860,24 +4878,6 @@
    "uk": true,
    "uk_stated": false,
    "tier": "B"
-  },
-  {
-   "firm": "DRW",
-   "title": "DRW careers page changed \u2014 check by hand",
-   "url": "https://drw.com/work-at-drw/listings",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-24T11:46:17.190514+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": null,
-   "desk": null,
-   "reason": "tier D: careers page changed, contents unknown",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "D"
   },
   {
    "firm": "PIMCO",
