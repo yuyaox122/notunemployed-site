@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-25T04:25:34.421203+00:00",
+ "generated_at": "2026-09-25T06:27:03.573669+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 122,
   "uk_unstated": 193,
-  "seen_24h": 888,
+  "seen_24h": 913,
   "truncated": true,
-  "total": 793,
+  "total": 794,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 17701
+  "postings_tracked": 17726
  },
  "detection": {
-  "mean_latency_s": 61994.4,
-  "sampled": 212,
+  "mean_latency_s": 61471.4,
+  "sampled": 213,
   "by_tier": {
    "A": {
-    "mean_latency_s": 10106.2,
-    "sampled": 94
+    "mean_latency_s": 9479.8,
+    "sampled": 95
    },
    "B": {
     "mean_latency_s": 103329.1,
@@ -36,11 +36,6 @@
      "seconds": 10459
     },
     {
-     "from": "2026-09-24T06:13:44.769319+00:00",
-     "to": "2026-09-24T07:06:01.162966+00:00",
-     "seconds": 3136
-    },
-    {
      "from": "2026-09-24T10:43:16.582151+00:00",
      "to": "2026-09-24T11:01:06.613939+00:00",
      "seconds": 1070
@@ -54,11 +49,16 @@
      "from": "2026-09-24T10:27:34.827374+00:00",
      "to": "2026-09-24T10:43:15.263974+00:00",
      "seconds": 940
+    },
+    {
+     "from": "2026-09-25T03:50:22.727422+00:00",
+     "to": "2026-09-25T04:06:01.411626+00:00",
+     "seconds": 939
     }
    ],
-   "n_gaps": 23,
+   "n_gaps": 30,
    "longest_gap_s": 10459,
-   "blind_s": 31776
+   "blind_s": 35584
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -376,7 +376,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-25T02:46:19.921160+00:00",
+   "last_checked_by_bell": "2026-09-25T06:01:27.702118+00:00",
    "last_change_detected": "2026-09-24T15:15:56.728342+00:00",
    "categories": [
     "prop"
@@ -398,7 +398,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-25T02:30:38.923591+00:00",
+   "last_checked_by_bell": "2026-09-25T05:45:47.292453+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -420,7 +420,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-25T02:30:51.017207+00:00",
+   "last_checked_by_bell": "2026-09-25T06:00:47.164719+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -442,7 +442,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-25T02:45:57.515894+00:00",
+   "last_checked_by_bell": "2026-09-25T06:00:55.560320+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -497,7 +497,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-25T02:46:37.184811+00:00",
+   "last_checked_by_bell": "2026-09-25T06:17:01.146190+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -5971,7 +5971,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-01a934a0f57f/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-56f9a1d7b491/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
