@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-25T06:27:03.573669+00:00",
+ "generated_at": "2026-09-25T07:00:01.352081+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 122,
   "uk_unstated": 193,
-  "seen_24h": 913,
+  "seen_24h": 930,
   "truncated": true,
   "total": 794,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 17726
+  "postings_tracked": 17743
  },
  "detection": {
   "mean_latency_s": 61471.4,
@@ -56,9 +56,9 @@
      "seconds": 939
     }
    ],
-   "n_gaps": 30,
+   "n_gaps": 31,
    "longest_gap_s": 10459,
-   "blind_s": 35584
+   "blind_s": 36483
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -387,7 +387,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-25T03:03:06.394432+00:00",
+   "last_checked_by_bell": "2026-09-25T06:28:23.242051+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -519,7 +519,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-25T03:02:25.131286+00:00",
+   "last_checked_by_bell": "2026-09-25T06:27:19.979040+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -585,7 +585,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-25T03:18:36.090945+00:00",
+   "last_checked_by_bell": "2026-09-25T06:28:34.273214+00:00",
    "last_change_detected": "2026-09-24T21:47:19.332979+00:00",
    "categories": [
     "bank"
@@ -5809,7 +5809,7 @@
   {
    "firm": "Nomura",
    "title": "2026 Insight Day: Corporate Infrastructure",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-3403267ccdcc/candidate/so/pm/1/pl/2/opp/1464-2026-Insight-Day-Corporate-Infrastructure/en-GB",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-9b40d677a406/candidate/so/pm/1/pl/2/opp/1464-2026-Insight-Day-Corporate-Infrastructure/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5827,7 +5827,7 @@
   {
    "firm": "Nomura",
    "title": "2026 Women in Banking - Networking Event - Milan",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-3403267ccdcc/candidate/so/pm/1/pl/2/opp/1466-2026-Women-in-Banking-Networking-Event-Milan/en-GB",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-9b40d677a406/candidate/so/pm/1/pl/2/opp/1466-2026-Women-in-Banking-Networking-Event-Milan/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5845,7 +5845,7 @@
   {
    "firm": "Nomura",
    "title": "2026 - Women in Quantitative Finance",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-3403267ccdcc/candidate/so/pm/1/pl/2/opp/1540-2026-Women-in-Quantitative-Finance/en-GB",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-9b40d677a406/candidate/so/pm/1/pl/2/opp/1540-2026-Women-in-Quantitative-Finance/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5863,7 +5863,7 @@
   {
    "firm": "Nomura",
    "title": "2026 Women in Banking - Madrid",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-3403267ccdcc/candidate/so/pm/1/pl/2/opp/1445-2026-Women-in-Banking-Madrid/en-GB",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-9b40d677a406/candidate/so/pm/1/pl/2/opp/1445-2026-Women-in-Banking-Madrid/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
