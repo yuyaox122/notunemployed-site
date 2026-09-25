@@ -1,40 +1,35 @@
 {
- "generated_at": "2026-09-25T10:50:01.148253+00:00",
+ "generated_at": "2026-09-25T11:50:01.161607+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 123,
-  "uk_unstated": 192,
-  "seen_24h": 1017,
+  "uk_unstated": 193,
+  "seen_24h": 625,
   "truncated": true,
-  "total": 794,
+  "total": 795,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 17830
+  "postings_tracked": 17849
  },
  "detection": {
-  "mean_latency_s": 64485.9,
-  "sampled": 208,
+  "mean_latency_s": 63887.8,
+  "sampled": 207,
   "by_tier": {
    "A": {
-    "mean_latency_s": 9778.4,
-    "sampled": 91
+    "mean_latency_s": 9632.3,
+    "sampled": 92
    },
    "B": {
-    "mean_latency_s": 107036.2,
-    "sampled": 117
+    "mean_latency_s": 107292.1,
+    "sampled": 115
    }
   },
   "watch": {
    "hours": 24,
    "gaps": [
-    {
-     "from": "2026-09-24T11:01:18.940910+00:00",
-     "to": "2026-09-24T11:17:11.164393+00:00",
-     "seconds": 952
-    },
     {
      "from": "2026-09-25T03:50:22.727422+00:00",
      "to": "2026-09-25T04:06:01.411626+00:00",
@@ -54,11 +49,16 @@
      "from": "2026-09-25T04:58:31.785170+00:00",
      "to": "2026-09-25T05:14:01.932739+00:00",
      "seconds": 930
+    },
+    {
+     "from": "2026-09-25T04:42:32.650460+00:00",
+     "to": "2026-09-25T04:58:01.928473+00:00",
+     "seconds": 929
     }
    ],
-   "n_gaps": 33,
-   "longest_gap_s": 952,
-   "blind_s": 28499
+   "n_gaps": 31,
+   "longest_gap_s": 939,
+   "blind_s": 27350
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -266,9 +266,9 @@
    "firm": "Centrica Energy Trading",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 63,
+   "n_total": 64,
    "n_match": 0,
-   "reason": "63 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "64 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -376,7 +376,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-25T10:45:59.818487+00:00",
+   "last_checked_by_bell": "2026-09-25T11:46:00.889285+00:00",
    "last_change_detected": "2026-09-25T08:15:55.281775+00:00",
    "categories": [
     "prop"
@@ -387,7 +387,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-25T10:47:16.940068+00:00",
+   "last_checked_by_bell": "2026-09-25T11:47:17.972027+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -398,7 +398,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-25T10:45:17.301625+00:00",
+   "last_checked_by_bell": "2026-09-25T11:45:17.479695+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -420,7 +420,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-25T10:45:27.778949+00:00",
+   "last_checked_by_bell": "2026-09-25T11:45:28.649132+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -442,7 +442,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-25T10:45:37.991763+00:00",
+   "last_checked_by_bell": "2026-09-25T11:45:38.671081+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -497,7 +497,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-25T10:46:13.591288+00:00",
+   "last_checked_by_bell": "2026-09-25T11:46:16.595006+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -519,7 +519,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-25T10:46:41.227715+00:00",
+   "last_checked_by_bell": "2026-09-25T11:46:42.936193+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -585,7 +585,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-25T10:47:28.391681+00:00",
+   "last_checked_by_bell": "2026-09-25T11:47:29.667336+00:00",
    "last_change_detected": "2026-09-25T10:02:32.187882+00:00",
    "categories": [
     "bank"
@@ -2639,24 +2639,6 @@
    "tier": "A"
   },
   {
-   "firm": "GMO",
-   "title": "Quantitative Technology Associate - Class of 2027",
-   "url": "https://jobs.lever.co/gmo/df44f4c5-cb3f-4960-a984-5b26acc72962",
-   "location": "Boston, MA",
-   "opened_at": "2026-08-31T18:13:33.285000+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:43:38.929122+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "reason": "class of + quant",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
    "firm": "Virtu Financial",
    "title": "2027 Summer Internship - Technical",
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8745933002",
@@ -3825,6 +3807,24 @@
    "uk": true,
    "uk_stated": true,
    "tier": "C"
+  },
+  {
+   "firm": "Wells Fargo",
+   "title": "2026 corporate investment banking summer internship early careers",
+   "url": "https://www.wellsfargojobs.com/en/jobs/r-571920/2026-corporate-investment-banking-summer-internship-early-careers/",
+   "location": "",
+   "opened_at": "2026-09-10T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-10T12:43:26.085910+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "advisory",
+   "reason": "intern + investment banking",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "B"
   },
   {
    "firm": "Barclays",
