@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-25T09:50:00.909158+00:00",
+ "generated_at": "2026-09-25T10:05:00.316406+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 122,
+  "uk": 123,
   "uk_unstated": 192,
-  "seen_24h": 995,
+  "seen_24h": 1002,
   "truncated": true,
-  "total": 793,
+  "total": 794,
   "truncated_uk": 0,
   "firms": 167,
   "firms_blind": 21,
   "sources": 172,
-  "postings_tracked": 17808
+  "postings_tracked": 17815
  },
  "detection": {
   "mean_latency_s": 62259.8,
@@ -266,9 +266,9 @@
    "firm": "Centrica Energy Trading",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 61,
+   "n_total": 62,
    "n_match": 0,
-   "reason": "61 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "62 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -376,7 +376,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-25T09:45:57.259554+00:00",
+   "last_checked_by_bell": "2026-09-25T10:01:02.473939+00:00",
    "last_change_detected": "2026-09-25T08:15:55.281775+00:00",
    "categories": [
     "prop"
@@ -387,7 +387,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-25T09:47:08.081497+00:00",
+   "last_checked_by_bell": "2026-09-25T10:02:19.621047+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -398,7 +398,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-25T09:45:16.948745+00:00",
+   "last_checked_by_bell": "2026-09-25T10:00:19.612471+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -420,7 +420,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-25T09:45:29.378632+00:00",
+   "last_checked_by_bell": "2026-09-25T10:00:30.128688+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -442,7 +442,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-25T09:45:36.996154+00:00",
+   "last_checked_by_bell": "2026-09-25T10:00:39.350068+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -497,7 +497,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-25T09:46:09.635659+00:00",
+   "last_checked_by_bell": "2026-09-25T10:01:16.271097+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -519,7 +519,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-25T09:46:34.016795+00:00",
+   "last_checked_by_bell": "2026-09-25T10:01:44.621197+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -585,8 +585,8 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-25T09:47:18.433880+00:00",
-   "last_change_detected": "2026-09-24T21:47:19.332979+00:00",
+   "last_checked_by_bell": "2026-09-25T10:02:32.187882+00:00",
+   "last_change_detected": "2026-09-25T10:02:32.187882+00:00",
    "categories": [
     "bank"
    ]
@@ -2657,24 +2657,6 @@
    "tier": "A"
   },
   {
-   "firm": "Mako",
-   "title": "Graduate Trader",
-   "url": "https://www.mako.com/opportunities/job-listing/8654613002?gh_jid=8654613002",
-   "location": "Sydney",
-   "opened_at": "2026-08-31T05:10:09+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:03:13.548681+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "reason": "graduate + trading",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
    "firm": "Virtu Financial",
    "title": "2027 Summer Internship - Technical",
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8745933002",
@@ -3159,6 +3141,24 @@
    "uk": true,
    "uk_stated": true,
    "tier": "A"
+  },
+  {
+   "firm": "UBS",
+   "title": "2027 Off-Cycle Internship - Investment Bank Quants - London",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349656",
+   "location": "United Kingdom",
+   "opened_at": "2026-09-25T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-09-25T10:02:32.187882+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "intern + quant",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "C"
   },
   {
    "firm": "Lazard",
