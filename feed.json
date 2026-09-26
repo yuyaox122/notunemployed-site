@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T09:25:00.751683+00:00",
+ "generated_at": "2026-09-26T09:35:00.916092+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 123,
   "uk_unstated": 194,
-  "seen_24h": 404,
+  "seen_24h": 402,
   "truncated": true,
   "total": 796,
   "truncated_uk": 0,
@@ -217,33 +217,6 @@
  },
  "gaps": [
   {
-   "key": "sitemap:https://www.wellsfargojobs.com/sitemap.xml",
-   "firm": "Wells Fargo",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 4260,
-   "n_match": 15,
-   "reason": "source is error"
-  },
-  {
-   "key": "sitemap:https://jobs.standardchartered.com/sitemap.xml",
-   "firm": "Standard Chartered",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 1972,
-   "n_match": 23,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers",
-   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 843,
-   "n_match": 41,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:janestreet",
    "firm": "Jane Street",
    "tier": "A",
@@ -256,19 +229,10 @@
    "key": "lever:octoenergy",
    "firm": "Octopus Energy",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 226,
    "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:robinhood",
-   "firm": "Robinhood",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 207,
-   "n_match": 9,
-   "reason": "source is error"
+   "reason": "226 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
@@ -278,15 +242,6 @@
    "n_total": 163,
    "n_match": 0,
    "reason": "163 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "oracle:ekbq.fa.em2.oraclecloud.com",
-   "firm": "Schroders",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 97,
-   "n_match": 12,
-   "reason": "source is error"
   },
   {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
@@ -316,15 +271,6 @@
    "reason": "65 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "linklist:https://careers.twosigma.com/careers/OpenRoles",
-   "firm": "Two Sigma",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 64,
-   "n_match": 10,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
    "firm": "AllianceBernstein",
    "tier": "C",
@@ -337,10 +283,10 @@
    "key": "jsonboard:workable/trexquant",
    "firm": "Trexquant",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 36,
    "n_match": 0,
-   "reason": "source is error"
+   "reason": "36 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abrdn/wd3/abrdn",
@@ -350,15 +296,6 @@
    "n_total": 36,
    "n_match": 0,
    "reason": "36 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "linklist:https://optiver.com/working-at-optiver/career-opportunities/",
-   "firm": "Optiver",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 34,
-   "n_match": 8,
-   "reason": "source is error"
   },
   {
    "key": "lever:dexterity",
@@ -391,10 +328,10 @@
    "key": "greenhouse:stxgroup",
    "firm": "STX Group",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 27,
    "n_match": 0,
-   "reason": "source is error"
+   "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:mlp.eightfold.ai",
@@ -418,109 +355,10 @@
    "key": "linklist:https://www.smartrecruiters.com/Vitol",
    "firm": "Vitol",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 25,
    "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:nksecuritiesresearch",
-   "firm": "NK Securities Research",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 15,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:smarkets",
-   "firm": "Smarkets",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 11,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:pharomanagement",
-   "firm": "Pharo Management",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 11,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:winton",
-   "firm": "Winton",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 11,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:teza-technologies",
-   "firm": "Teza Technologies",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:quantboxresearchpte",
-   "firm": "Quantbox Research",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 8,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://starlizard.com/join-our-team/",
-   "firm": "Starlizard",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 7,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:vector",
-   "firm": "Vector Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 6,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "lever:valkyrietrading",
-   "firm": "Valkyrie Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 6,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:simplextrading",
-   "firm": "Simplex Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 5,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:vivcourt",
-   "firm": "VivCourt Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 5,
-   "n_match": 0,
-   "reason": "source is error"
+   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "ashby:act",
@@ -528,51 +366,6 @@
    "tier": "B",
    "kind": "error",
    "n_total": 4,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/",
-   "firm": "Nomura",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 4,
-   "n_match": 4,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:polar",
-   "firm": "Polar Capital",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:stronghold",
-   "firm": "Stronghold Capital Management",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:ocean",
-   "firm": "Ocean Partners",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 1,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:palomapartners",
-   "firm": "Paloma Partners",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 1,
    "n_match": 0,
    "reason": "source is error"
   }
@@ -583,7 +376,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-26T08:48:34.431220+00:00",
+   "last_checked_by_bell": "2026-09-26T09:30:56.934912+00:00",
    "last_change_detected": "2026-09-25T21:02:28.896535+00:00",
    "categories": [
     "prop"
@@ -594,7 +387,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-26T08:39:33.494040+00:00",
+   "last_checked_by_bell": "2026-09-26T09:32:11.387730+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -605,7 +398,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-26T08:45:31.637187+00:00",
+   "last_checked_by_bell": "2026-09-26T09:30:16.483874+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -627,7 +420,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-26T08:45:42.933596+00:00",
+   "last_checked_by_bell": "2026-09-26T09:30:27.021846+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -649,7 +442,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-26T08:46:45.239518+00:00",
+   "last_checked_by_bell": "2026-09-26T09:30:35.129702+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -704,7 +497,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-26T08:48:47.234712+00:00",
+   "last_checked_by_bell": "2026-09-26T09:31:09.835721+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -726,7 +519,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-26T08:49:34.978963+00:00",
+   "last_checked_by_bell": "2026-09-26T09:31:37.077456+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -792,7 +585,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-26T08:39:44.212830+00:00",
+   "last_checked_by_bell": "2026-09-26T09:32:23.053862+00:00",
    "last_change_detected": "2026-09-25T14:03:20.059260+00:00",
    "categories": [
     "bank"
@@ -6178,7 +5971,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-641547f1db57/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-0842c2c99702/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
