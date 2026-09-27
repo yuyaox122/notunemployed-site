@@ -21,9 +21,11 @@ const FACETS = {
   // from `order` has no facet button at all, so its rows are reachable only by search
   // — which is how a new desk gets added to the classifier and stays invisible in the
   // app. `TestTheDeskVocabulariesAgree` reads this file and fails if they drift.
-  desk:  { order: ["quant", "markets", "engineering", "commodities", "advisory", "null"],
+  desk:  { order: ["quant", "markets", "engineering", "commodities", "advisory",
+                   "private_equity", "null"],
            name: { quant: "Quant", markets: "Markets", engineering: "Engineering",
                    commodities: "Commodities", advisory: "Advisory",
+                   private_equity: "Private Equity",
                    "null": "desk unclear" } },
 };
 
