@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-27T13:05:00.940941+00:00",
+ "generated_at": "2026-09-27T13:20:00.579534+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 122,
   "uk_unstated": 193,
-  "seen_24h": 21,
+  "seen_24h": 25,
   "truncated": true,
   "total": 796,
   "truncated_uk": 0,
   "firms": 177,
   "firms_blind": 21,
   "sources": 182,
-  "postings_tracked": 18523
+  "postings_tracked": 18527
  },
  "detection": {
   "mean_latency_s": 62296.1,
@@ -257,18 +257,18 @@
    "firm": "Capital Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 95,
+   "n_total": 96,
    "n_match": 0,
-   "reason": "95 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "96 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 85,
    "n_match": 0,
-   "reason": "source is error"
+   "reason": "85 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -328,10 +328,10 @@
    "key": "greenhouse:stxgroup",
    "firm": "STX Group",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 28,
    "n_match": 0,
-   "reason": "source is error"
+   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:falconx",
@@ -388,56 +388,11 @@
    "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:genevatrading",
-   "firm": "Geneva Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 17,
-   "n_match": 8,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:teza-technologies",
-   "firm": "Teza Technologies",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://starlizard.com/join-our-team/",
-   "firm": "Starlizard",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 7,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
    "kind": "error",
    "n_total": 4,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:stronghold",
-   "firm": "Stronghold Capital Management",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:hbkcapitalmanagement",
-   "firm": "HBK Capital",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 1,
    "n_match": 0,
    "reason": "source is error"
   }
@@ -448,7 +403,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-27T09:09:30.377883+00:00",
+   "last_checked_by_bell": "2026-09-27T13:15:55.677341+00:00",
    "last_change_detected": "2026-09-25T21:02:28.896535+00:00",
    "categories": [
     "prop"
@@ -459,7 +414,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-27T09:09:34.742376+00:00",
+   "last_checked_by_bell": "2026-09-27T13:17:08.033172+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -470,7 +425,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-27T08:45:24.781370+00:00",
+   "last_checked_by_bell": "2026-09-27T13:15:14.863896+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -492,7 +447,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-27T08:45:37.002704+00:00",
+   "last_checked_by_bell": "2026-09-27T13:15:27.920440+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -514,7 +469,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-27T08:45:45.527992+00:00",
+   "last_checked_by_bell": "2026-09-27T13:15:35.654140+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -569,7 +524,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-27T09:27:37.187495+00:00",
+   "last_checked_by_bell": "2026-09-27T13:16:08.566046+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -591,7 +546,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-27T10:10:22.962462+00:00",
+   "last_checked_by_bell": "2026-09-27T13:16:34.675711+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -657,7 +612,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-27T11:11:14.633305+00:00",
+   "last_checked_by_bell": "2026-09-27T13:17:19.455619+00:00",
    "last_change_detected": "2026-09-25T14:03:20.059260+00:00",
    "categories": [
     "bank"
