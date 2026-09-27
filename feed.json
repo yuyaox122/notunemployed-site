@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-27T10:10:24.468479+00:00",
+ "generated_at": "2026-09-27T13:05:00.940941+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
-  "uk": 123,
+  "uk": 122,
   "uk_unstated": 193,
-  "seen_24h": 20,
+  "seen_24h": 21,
   "truncated": true,
-  "total": 797,
+  "total": 796,
   "truncated_uk": 0,
   "firms": 177,
   "firms_blind": 21,
   "sources": 182,
-  "postings_tracked": 18522
+  "postings_tracked": 18523
  },
  "detection": {
   "mean_latency_s": 62296.1,
@@ -56,9 +56,9 @@
      "seconds": 3652
     }
    ],
-   "n_gaps": 34,
+   "n_gaps": 41,
    "longest_gap_s": 9839,
-   "blind_s": 64505
+   "blind_s": 74815
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -253,15 +253,6 @@
    "reason": "139 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:worldquant",
-   "firm": "WorldQuant",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 113,
-   "n_match": 7,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
    "firm": "Capital Group",
    "tier": "C",
@@ -287,24 +278,6 @@
    "n_total": 65,
    "n_match": 0,
    "reason": "65 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "ashby:voleon",
-   "firm": "Voleon",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 59,
-   "n_match": 2,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:virtu",
-   "firm": "Virtu Financial",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 53,
-   "n_match": 18,
-   "reason": "source is error"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -334,15 +307,6 @@
    "reason": "36 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:veritiongroupllc",
-   "firm": "Verition",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 35,
-   "n_match": 3,
-   "reason": "source is error"
-  },
-  {
    "key": "lever:dexterity",
    "firm": "Dexterity Capital",
    "tier": "B",
@@ -364,10 +328,10 @@
    "key": "greenhouse:stxgroup",
    "firm": "STX Group",
    "tier": "B",
-   "kind": "no-early-careers",
+   "kind": "error",
    "n_total": 28,
    "n_match": 0,
-   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is error"
   },
   {
    "key": "greenhouse:falconx",
@@ -424,15 +388,6 @@
    "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "lever:wintermute-trading",
-   "firm": "Wintermute",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 22,
-   "n_match": 2,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:genevatrading",
    "firm": "Geneva Trading",
    "tier": "B",
@@ -442,57 +397,21 @@
    "reason": "source is error"
   },
   {
-   "key": "ashby:wincent",
-   "firm": "Wincent",
-   "tier": "A",
+   "key": "ashby:teza-technologies",
+   "firm": "Teza Technologies",
+   "tier": "B",
    "kind": "error",
-   "n_total": 16,
+   "n_total": 9,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "linklist:https://starlizard.com/join-our-team/",
+   "firm": "Starlizard",
+   "tier": "B",
+   "kind": "error",
+   "n_total": 7,
    "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:xtxmarketstechnologies",
-   "firm": "XTX Markets",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 12,
-   "n_match": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:xantium",
-   "firm": "Xantium",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 8,
-   "n_match": 2,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:vector",
-   "firm": "Vector Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 6,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "lever:valkyrietrading",
-   "firm": "Valkyrie Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 6,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:vivcourt",
-   "firm": "VivCourt Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 5,
-   "n_match": 0,
    "reason": "source is error"
   },
   {
@@ -501,6 +420,15 @@
    "tier": "B",
    "kind": "error",
    "n_total": 4,
+   "n_match": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:stronghold",
+   "firm": "Stronghold Capital Management",
+   "tier": "B",
+   "kind": "error",
+   "n_total": 2,
    "n_match": 0,
    "reason": "source is error"
   },
@@ -729,7 +657,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-27T09:44:43.737674+00:00",
+   "last_checked_by_bell": "2026-09-27T11:11:14.633305+00:00",
    "last_change_detected": "2026-09-25T14:03:20.059260+00:00",
    "categories": [
     "bank"
@@ -2783,6 +2711,24 @@
    "tier": "A"
   },
   {
+   "firm": "Tower Research Capital",
+   "title": "Quantitative Researcher Intern, Bachelor's or Master's",
+   "url": "https://www.tower-research.com/open-positions/?gh_jid=8168750",
+   "location": "Singapore, Hong Kong, Shanghai, Sydney",
+   "opened_at": "2026-09-01T04:09:32+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-06T07:03:18.012555+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "intern + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
    "firm": "Virtu Financial",
    "title": "2027 Summer Internship - Technical",
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8745933002",
@@ -3228,24 +3174,6 @@
    "stage": "intern",
    "desk": "quant",
    "reason": "intern + quant",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "A"
-  },
-  {
-   "firm": "ISAM",
-   "title": "Quantitative Research - PhD Graduate",
-   "url": "https://job-boards.eu.greenhouse.io/isam/jobs/4940752101",
-   "location": "London",
-   "opened_at": "2026-07-29T12:29:53+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T18:01:05.689759+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "reason": "graduate + quant",
    "uk": true,
    "uk_stated": true,
    "tier": "A"
