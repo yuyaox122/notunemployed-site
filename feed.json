@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T08:08:18.939465+00:00",
+ "generated_at": "2026-09-27T08:45:09.850803+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
@@ -56,9 +56,9 @@
      "seconds": 3766
     }
    ],
-   "n_gaps": 30,
+   "n_gaps": 31,
    "longest_gap_s": 18273,
-   "blind_s": 78414
+   "blind_s": 79609
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -253,6 +253,15 @@
    "reason": "139 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:worldquant",
+   "firm": "WorldQuant",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 113,
+   "n_match": 7,
+   "reason": "source is error"
+  },
+  {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
    "firm": "Capital Group",
    "tier": "C",
@@ -260,15 +269,6 @@
    "n_total": 95,
    "n_match": 0,
    "reason": "95 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "jsonboard:beesite/deutschebank",
-   "firm": "Deutsche Bank",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 93,
-   "n_match": 35,
-   "reason": "source is error"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -319,10 +319,10 @@
    "key": "lever:dexterity",
    "firm": "Dexterity Capital",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 32,
    "n_match": 0,
-   "reason": "source is error"
+   "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:troweprice/wd5/TRowePriceInternational",
@@ -397,30 +397,39 @@
    "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
-   "firm": "Fidelity International",
-   "tier": "B",
+   "key": "lever:wintermute-trading",
+   "firm": "Wintermute",
+   "tier": "A",
    "kind": "error",
-   "n_total": 17,
-   "n_match": 8,
+   "n_total": 22,
+   "n_match": 2,
    "reason": "source is error"
   },
   {
-   "key": "ashby:dimensional",
-   "firm": "Dimensional",
-   "tier": "B",
+   "key": "ashby:wincent",
+   "firm": "Wincent",
+   "tier": "A",
    "kind": "error",
-   "n_total": 13,
-   "n_match": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:gelbergroup",
-   "firm": "Gelber Group",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 9,
+   "n_total": 16,
    "n_match": 1,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:xtxmarketstechnologies",
+   "firm": "XTX Markets",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 12,
+   "n_match": 1,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:xantium",
+   "firm": "Xantium",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 8,
+   "n_match": 2,
    "reason": "source is error"
   },
   {
@@ -431,15 +440,6 @@
    "n_total": 4,
    "n_match": 0,
    "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:fermat",
-   "firm": "Fermat Capital",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 2,
-   "n_match": 0,
-   "reason": "source is error"
   }
  ],
  "blindspots": [
@@ -448,7 +448,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-26T16:03:22.959491+00:00",
+   "last_checked_by_bell": "2026-09-27T08:08:25.767791+00:00",
    "last_change_detected": "2026-09-25T21:02:28.896535+00:00",
    "categories": [
     "prop"
@@ -569,7 +569,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-27T03:30:15.638760+00:00",
+   "last_checked_by_bell": "2026-09-27T08:26:03.747075+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
