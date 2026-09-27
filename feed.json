@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-27T07:45:01.278399+00:00",
+ "generated_at": "2026-09-27T08:08:18.939465+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 123,
-  "uk_unstated": 194,
-  "seen_24h": 45,
+  "uk_unstated": 193,
+  "seen_24h": 18,
   "truncated": true,
-  "total": 798,
+  "total": 797,
   "truncated_uk": 0,
   "firms": 177,
   "firms_blind": 21,
   "sources": 182,
-  "postings_tracked": 18518
+  "postings_tracked": 18520
  },
  "detection": {
   "mean_latency_s": 62296.1,
@@ -56,9 +56,9 @@
      "seconds": 3766
     }
    ],
-   "n_gaps": 29,
+   "n_gaps": 30,
    "longest_gap_s": 18273,
-   "blind_s": 77378
+   "blind_s": 78414
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -470,7 +470,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-27T00:15:16.074171+00:00",
+   "last_checked_by_bell": "2026-09-27T07:45:16.685921+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -492,7 +492,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-27T00:15:29.585788+00:00",
+   "last_checked_by_bell": "2026-09-27T07:45:27.759623+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -514,7 +514,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-27T01:16:13.985534+00:00",
+   "last_checked_by_bell": "2026-09-27T07:45:36.379182+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -657,7 +657,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-26T16:04:48.342400+00:00",
+   "last_checked_by_bell": "2026-09-27T07:45:06.542569+00:00",
    "last_change_detected": "2026-09-25T14:03:20.059260+00:00",
    "categories": [
     "bank"
@@ -2693,6 +2693,24 @@
    "tier": "A"
   },
   {
+   "firm": "Graviton Research",
+   "title": "Software Engineer (2027 Graduate)",
+   "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002",
+   "location": "Gurugram, Haryana, India",
+   "opened_at": "2026-09-01T06:25:41+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-06T07:43:39.142839+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "engineering",
+   "reason": "graduate + swe",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
    "firm": "Virtu Financial",
    "title": "2027 Summer Internship - Technical",
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8745933002",
@@ -3861,24 +3879,6 @@
    "uk": true,
    "uk_stated": true,
    "tier": "C"
-  },
-  {
-   "firm": "Wells Fargo",
-   "title": "2026 corporate investment banking summer internship early careers",
-   "url": "https://www.wellsfargojobs.com/en/jobs/r-571920/2026-corporate-investment-banking-summer-internship-early-careers/",
-   "location": "",
-   "opened_at": "2026-09-10T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T12:43:26.085910+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "advisory",
-   "reason": "intern + investment banking",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "B"
   },
   {
    "firm": "Barclays",
