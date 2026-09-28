@@ -1,35 +1,40 @@
 {
- "generated_at": "2026-09-28T17:35:00.618558+00:00",
+ "generated_at": "2026-09-28T21:40:00.757629+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
   "uk": 129,
   "uk_unstated": 198,
-  "seen_24h": 447,
+  "seen_24h": 484,
   "truncated": true,
-  "total": 814,
+  "total": 811,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 19392
+  "postings_tracked": 19437
  },
  "detection": {
-  "mean_latency_s": 35614.5,
-  "sampled": 190,
+  "mean_latency_s": 36346.2,
+  "sampled": 186,
   "by_tier": {
    "A": {
-    "mean_latency_s": 9113.2,
+    "mean_latency_s": 9114.5,
     "sampled": 82
    },
    "B": {
-    "mean_latency_s": 55735.9,
-    "sampled": 108
+    "mean_latency_s": 57817.4,
+    "sampled": 104
    }
   },
   "watch": {
    "hours": 24,
    "gaps": [
+    {
+     "from": "2026-09-28T17:59:46.975756+00:00",
+     "to": "2026-09-28T21:01:01.583101+00:00",
+     "seconds": 10875
+    },
     {
      "from": "2026-09-28T09:45:15.469789+00:00",
      "to": "2026-09-28T10:54:08.886706+00:00",
@@ -49,16 +54,11 @@
      "from": "2026-09-28T16:25:29.335881+00:00",
      "to": "2026-09-28T16:57:04.326007+00:00",
      "seconds": 1895
-    },
-    {
-     "from": "2026-09-28T14:45:47.778054+00:00",
-     "to": "2026-09-28T15:15:12.353943+00:00",
-     "seconds": 1765
     }
    ],
-   "n_gaps": 67,
-   "longest_gap_s": 4133,
-   "blind_s": 62913
+   "n_gaps": 65,
+   "longest_gap_s": 10875,
+   "blind_s": 72485
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -217,14 +217,34 @@
  },
  "gaps": [
   {
+   "key": "sitemap:https://careers.sig.com/sitemap1.xml",
+   "firm": "Susquehanna (SIG)",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 292,
+   "n_match": 85,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:point72",
+   "firm": "Point72",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 252,
+   "n_match": 21,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "greenhouse:janestreet",
    "firm": "Jane Street",
    "tier": "A",
-   "kind": "no-early-careers",
+   "kind": "error",
    "n_total": 247,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "247 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is error"
   },
   {
    "key": "lever:octoenergy",
@@ -237,6 +257,26 @@
    "reason": "230 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "greenhouse:quberesearchandtechnologies",
+   "firm": "Qube Research and Technologies",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 225,
+   "n_match": 14,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:imc",
+   "firm": "IMC Trading",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 208,
+   "n_match": 36,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
@@ -247,14 +287,64 @@
    "reason": "172 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:jumptrading",
+   "firm": "Jump Trading",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 123,
+   "n_match": 43,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:worldquant",
+   "firm": "WorldQuant",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 113,
+   "n_match": 7,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:squarepointcapital",
+   "firm": "Squarepoint Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 101,
+   "n_match": 8,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:towerresearchcapital",
+   "firm": "Tower Research Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 100,
+   "n_match": 14,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
    "firm": "Capital Group",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 97,
+   "n_total": 98,
    "n_match": 0,
    "n_off_desk": 28,
-   "reason": "97 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "98 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
+   "key": "greenhouse:schonfeld",
+   "firm": "Schonfeld",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 90,
+   "n_match": 17,
+   "n_off_desk": 0,
+   "reason": "source is error"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -267,6 +357,26 @@
    "reason": "86 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:dvtrading",
+   "firm": "DV Trading",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 79,
+   "n_match": 22,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:mangroup",
+   "firm": "Man Group",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 76,
+   "n_match": 7,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "workday:centrica/wd3/Centrica",
    "firm": "Centrica Energy Trading",
    "tier": "C",
@@ -275,6 +385,46 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "66 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "greenhouse:aqr",
+   "firm": "AQR Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 60,
+   "n_match": 8,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:voleon",
+   "firm": "Voleon",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 59,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:flowtraders",
+   "firm": "Flow Traders",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 58,
+   "n_match": 8,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:virtu",
+   "firm": "Virtu Financial",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 54,
+   "n_match": 18,
+   "n_off_desk": 0,
+   "reason": "source is error"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -297,6 +447,26 @@
    "reason": "54 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "greenhouse:mavensecuritiesholdingltd",
+   "firm": "Maven Securities",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 50,
+   "n_match": 12,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:akunacapital",
+   "firm": "Akuna Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 43,
+   "n_match": 12,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "oracle:eofe.fa.us2.oraclecloud.com",
    "firm": "BNY Mellon",
    "tier": "B",
@@ -305,6 +475,16 @@
    "n_match": 0,
    "n_off_desk": 6,
    "reason": "43 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
+   "key": "greenhouse:oldmissioncapital",
+   "firm": "Old Mission Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 40,
+   "n_match": 8,
+   "n_off_desk": 0,
+   "reason": "source is error"
   },
   {
    "key": "workday:abrdn/wd3/abrdn",
@@ -317,6 +497,16 @@
    "reason": "39 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:veritiongroupllc",
+   "firm": "Verition",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 35,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "lever:dexterity",
    "firm": "Dexterity Capital",
    "tier": "B",
@@ -325,6 +515,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "greenhouse:axq",
+   "firm": "AXQ Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 31,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
   },
   {
    "key": "workday:carlyle/wd1/Carlyle",
@@ -407,6 +607,276 @@
    "reason": "26 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "greenhouse:bridgewater89",
+   "firm": "Bridgewater",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 24,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:gravitonresearchcapital",
+   "firm": "Graviton Research",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 23,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:isam",
+   "firm": "ISAM",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 23,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:jshiddenevents",
+   "firm": "Jane Street",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 23,
+   "n_match": 22,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "lever:wintermute-trading",
+   "firm": "Wintermute",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 22,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "lever:belvederetrading",
+   "firm": "Belvedere Trading",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 21,
+   "n_match": 5,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:eclipsetrading",
+   "firm": "Eclipse Trading",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 19,
+   "n_match": 4,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:transmarketgroup",
+   "firm": "Transmarket",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 19,
+   "n_match": 4,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:fiveringsllc",
+   "firm": "Five Rings",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 18,
+   "n_match": 12,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:wincent",
+   "firm": "Wincent",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 16,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "lever:gmo",
+   "firm": "GMO",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 16,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:gsacapital",
+   "firm": "GSA Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 12,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:xtxmarketstechnologies",
+   "firm": "XTX Markets",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 12,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:mako",
+   "firm": "Mako",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 10,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:pdtpartners",
+   "firm": "PDT Partners",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 10,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:trillium",
+   "firm": "Trillium Trading",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 10,
+   "n_match": 4,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:aquaticcapitalmanagement",
+   "firm": "Aquatic Capital Management",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 9,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:engineersgate",
+   "firm": "Engineers Gate",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 9,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:headlandstechnologiesllc",
+   "firm": "Headlands Technologies",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 9,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:vaticlabs",
+   "firm": "Vatic Labs",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 9,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:3redpartners",
+   "firm": "3Red Partners",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 8,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:chicagotradingcampus",
+   "firm": "Chicago Trading Company",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 8,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:quantbot-technologies",
+   "firm": "Quantbot Technologies",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 8,
+   "n_match": 8,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:xantium",
+   "firm": "Xantium",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 8,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:blackedgecapital",
+   "firm": "BlackEdge Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 7,
+   "n_match": 5,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:caladan",
+   "firm": "Caladan",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 7,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:jumpcrypto",
+   "firm": "Jump Crypto",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 5,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -414,6 +884,56 @@
    "n_total": 4,
    "n_match": 0,
    "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "ashby:onyx",
+   "firm": "Onyx Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 4,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:quadraturecapital",
+   "firm": "Quadrature Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 4,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:hrttalentcommunity",
+   "firm": "Hudson River Trading",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 3,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:kronosresearch",
+   "firm": "Kronos Research",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 3,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:glencoreuk",
+   "firm": "Glencore UK",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 2,
+   "n_match": 1,
+   "n_off_desk": 1,
    "reason": "source is error"
   }
  ],
@@ -423,7 +943,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-28T17:31:49.423554+00:00",
+   "last_checked_by_bell": "2026-09-28T17:47:15.844375+00:00",
    "last_change_detected": "2026-09-28T15:38:06.580803+00:00",
    "categories": [
     "prop"
@@ -434,7 +954,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-28T17:33:44.015430+00:00",
+   "last_checked_by_bell": "2026-09-28T17:49:33.302646+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -445,7 +965,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-28T17:30:50.436908+00:00",
+   "last_checked_by_bell": "2026-09-28T17:45:29.611372+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -467,7 +987,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-28T17:31:02.960048+00:00",
+   "last_checked_by_bell": "2026-09-28T17:46:10.822432+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -489,7 +1009,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-28T17:31:15.461445+00:00",
+   "last_checked_by_bell": "2026-09-28T17:46:24.341194+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -544,7 +1064,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-28T17:32:09.279817+00:00",
+   "last_checked_by_bell": "2026-09-28T17:47:43.165075+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -566,7 +1086,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-28T17:32:50.249362+00:00",
+   "last_checked_by_bell": "2026-09-28T17:48:28.755737+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -632,7 +1152,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-28T17:34:00.590130+00:00",
+   "last_checked_by_bell": "2026-09-28T17:49:52.704834+00:00",
    "last_change_detected": "2026-09-28T17:03:43.061077+00:00",
    "categories": [
     "bank"
