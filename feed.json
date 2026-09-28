@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-28T14:20:01.135997+00:00",
+ "generated_at": "2026-09-28T14:45:35.456939+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 127,
   "uk_unstated": 198,
-  "seen_24h": 254,
+  "seen_24h": 325,
   "truncated": true,
-  "total": 812,
+  "total": 813,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 19195
+  "postings_tracked": 19266
  },
  "detection": {
-  "mean_latency_s": 41413.3,
-  "sampled": 190,
+  "mean_latency_s": 39274.2,
+  "sampled": 192,
   "by_tier": {
    "A": {
     "mean_latency_s": 8784.3,
     "sampled": 83
    },
    "B": {
-    "mean_latency_s": 66723.8,
-    "sampled": 107
+    "mean_latency_s": 62491.3,
+    "sampled": 109
    }
   },
   "watch": {
@@ -56,9 +56,9 @@
      "seconds": 996
     }
    ],
-   "n_gaps": 70,
+   "n_gaps": 69,
    "longest_gap_s": 4133,
-   "blind_s": 62823
+   "blind_s": 62038
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -217,46 +217,6 @@
  },
  "gaps": [
   {
-   "key": "sitemap:https://www.wellsfargojobs.com/sitemap.xml",
-   "firm": "Wells Fargo",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 4274,
-   "n_match": 15,
-   "n_off_desk": 30,
-   "reason": "source is error"
-  },
-  {
-   "key": "sitemap:https://jobs.standardchartered.com/sitemap.xml",
-   "firm": "Standard Chartered",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 2023,
-   "n_match": 23,
-   "n_off_desk": 21,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers",
-   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 856,
-   "n_match": 41,
-   "n_off_desk": 34,
-   "reason": "source is error"
-  },
-  {
-   "key": "lever:palantir",
-   "firm": "Palantir",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 321,
-   "n_match": 69,
-   "n_off_desk": 11,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:janestreet",
    "firm": "Jane Street",
    "tier": "A",
@@ -277,16 +237,6 @@
    "reason": "229 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
-   "key": "greenhouse:robinhood",
-   "firm": "Robinhood",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 208,
-   "n_match": 9,
-   "n_off_desk": 13,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
@@ -295,26 +245,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "169 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "greenhouse:stage",
-   "firm": "KKR",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 141,
-   "n_match": 1,
-   "n_off_desk": 2,
-   "reason": "source is error"
-  },
-  {
-   "key": "oracle:ekbq.fa.em2.oraclecloud.com",
-   "firm": "Schroders",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 97,
-   "n_match": 12,
-   "n_off_desk": 18,
-   "reason": "source is error"
   },
   {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
@@ -347,14 +277,14 @@
    "reason": "66 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "linklist:https://careers.twosigma.com/careers/OpenRoles",
-   "firm": "Two Sigma",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 64,
-   "n_match": 10,
-   "n_off_desk": 0,
-   "reason": "source is error"
+   "key": "workday:mgpru/wd3/mandgprudential",
+   "firm": "M&G Investments",
+   "tier": "C",
+   "kind": "off-desk-only",
+   "n_total": 54,
+   "n_match": 0,
+   "n_off_desk": 1,
+   "reason": "54 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -367,26 +297,6 @@
    "reason": "53 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "workday:mgpru/wd3/mandgprudential",
-   "firm": "M&G Investments",
-   "tier": "C",
-   "kind": "off-desk-only",
-   "n_total": 44,
-   "n_match": 0,
-   "n_off_desk": 1,
-   "reason": "44 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "jsonboard:workable/trexquant",
-   "firm": "Trexquant",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 37,
-   "n_match": 1,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:abrdn/wd3/abrdn",
    "firm": "abrdn",
    "tier": "C",
@@ -395,6 +305,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "37 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "oracle:eofe.fa.us2.oraclecloud.com",
+   "firm": "BNY Mellon",
+   "tier": "B",
+   "kind": "off-desk-only",
+   "n_total": 35,
+   "n_match": 0,
+   "n_off_desk": 6,
+   "reason": "35 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:dexterity",
@@ -420,11 +340,11 @@
    "key": "greenhouse:stxgroup",
    "firm": "STX Group",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 28,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is error"
+   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:mlp.eightfold.ai",
@@ -460,21 +380,11 @@
    "key": "greenhouse:eqtpartners",
    "firm": "EQT Partners",
    "tier": "B",
-   "kind": "error",
+   "kind": "no-early-careers",
    "n_total": 26,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "oracle:eofe.fa.us2.oraclecloud.com",
-   "firm": "BNY Mellon",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 26,
-   "n_match": 0,
-   "n_off_desk": 6,
-   "reason": "source is error"
+   "reason": "26 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "ashby:amber",
@@ -490,11 +400,11 @@
    "key": "linklist:https://www.smartrecruiters.com/Vitol",
    "firm": "Vitol",
    "tier": "B",
-   "kind": "error",
+   "kind": "off-desk-only",
    "n_total": 25,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "source is error"
+   "reason": "25 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "greenhouse:adaptivefinancialconsulting",
@@ -517,76 +427,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:tpgcareers",
-   "firm": "TPG",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 16,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:netcraft",
-   "firm": "Netcraft",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 15,
-   "n_match": 1,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:smarkets",
-   "firm": "Smarkets",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 11,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:generalatlantic",
-   "firm": "General Atlantic",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 11,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:permiraexternalprivate",
-   "firm": "Permira",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 11,
-   "n_match": 0,
-   "n_off_desk": 1,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:winton",
-   "firm": "Winton",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 11,
-   "n_match": 1,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:teza-technologies",
-   "firm": "Teza Technologies",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "ashby:bastion",
    "firm": "Bastion Trading",
    "tier": "B",
@@ -594,66 +434,6 @@
    "n_total": 7,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://starlizard.com/join-our-team/",
-   "firm": "Starlizard",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 7,
-   "n_match": 1,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:vector",
-   "firm": "Vector Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 6,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "lever:valkyrietrading",
-   "firm": "Valkyrie Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 6,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:simplextrading",
-   "firm": "Simplex Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 5,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:vivcourt",
-   "firm": "VivCourt Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 5,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:warburgpincusllc",
-   "firm": "Warburg Pincus",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 5,
-   "n_match": 0,
-   "n_off_desk": 2,
    "reason": "source is error"
   },
   {
@@ -672,26 +452,6 @@
    "tier": "B",
    "kind": "error",
    "n_total": 4,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:stronghold",
-   "firm": "Stronghold Capital Management",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 2,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "lever:apax",
-   "firm": "Apax Partners",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 1,
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "source is error"
@@ -714,7 +474,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-28T11:41:11.822465+00:00",
+   "last_checked_by_bell": "2026-09-28T14:20:28.390397+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -912,8 +672,8 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-28T07:23:06.486254+00:00",
-   "last_change_detected": "2026-09-28T07:23:06.486254+00:00",
+   "last_checked_by_bell": "2026-09-28T14:20:40.598437+00:00",
+   "last_change_detected": "2026-09-28T14:20:40.598437+00:00",
    "categories": [
     "bank"
    ]
