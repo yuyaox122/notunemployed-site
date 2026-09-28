@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-09-28T00:11:16.493967+00:00",
+ "generated_at": "2026-09-28T03:20:00.499798+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 126,
   "uk_unstated": 193,
-  "seen_24h": 36,
+  "seen_24h": 44,
   "truncated": true,
-  "total": 804,
+  "total": 802,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 18956
+  "postings_tracked": 18967
  },
  "detection": {
-  "mean_latency_s": 62296.1,
-  "sampled": 196,
+  "mean_latency_s": 61122.0,
+  "sampled": 200,
   "by_tier": {
    "A": {
-    "mean_latency_s": 8638.4,
-    "sampled": 83
+    "mean_latency_s": 8408.0,
+    "sampled": 86
    },
    "B": {
-    "mean_latency_s": 101708.4,
-    "sampled": 113
+    "mean_latency_s": 100888.8,
+    "sampled": 114
    }
   },
   "watch": {
@@ -41,24 +41,24 @@
      "seconds": 3893
     },
     {
-     "from": "2026-09-27T00:15:33.889874+00:00",
-     "to": "2026-09-27T01:15:53.485517+00:00",
-     "seconds": 3620
-    },
-    {
-     "from": "2026-09-27T01:33:28.699319+00:00",
-     "to": "2026-09-27T02:21:07.182757+00:00",
-     "seconds": 2858
-    },
-    {
      "from": "2026-09-27T11:27:14.472699+00:00",
      "to": "2026-09-27T12:11:59.488594+00:00",
      "seconds": 2685
+    },
+    {
+     "from": "2026-09-27T12:29:30.082641+00:00",
+     "to": "2026-09-27T13:04:01.891682+00:00",
+     "seconds": 2072
+    },
+    {
+     "from": "2026-09-27T04:35:08.737351+00:00",
+     "to": "2026-09-27T05:06:00.489136+00:00",
+     "seconds": 1852
     }
    ],
-   "n_gaps": 51,
+   "n_gaps": 57,
    "longest_gap_s": 7219,
-   "blind_s": 63911
+   "blind_s": 63179
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -221,10 +221,10 @@
    "firm": "Jane Street",
    "tier": "A",
    "kind": "no-early-careers",
-   "n_total": 244,
+   "n_total": 246,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "244 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "246 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
@@ -433,7 +433,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-27T23:19:53.599437+00:00",
+   "last_checked_by_bell": "2026-09-28T02:16:16.884292+00:00",
    "last_change_detected": "2026-09-25T21:02:28.896535+00:00",
    "categories": [
     "prop"
@@ -444,7 +444,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-09-27T23:51:29.166023+00:00",
+   "last_checked_by_bell": "2026-09-28T02:48:12.286571+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -455,7 +455,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-27T23:19:13.987016+00:00",
+   "last_checked_by_bell": "2026-09-28T02:00:15.875339+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -477,7 +477,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-27T23:19:25.007920+00:00",
+   "last_checked_by_bell": "2026-09-28T02:00:27.338038+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -499,7 +499,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-27T23:19:32.720035+00:00",
+   "last_checked_by_bell": "2026-09-28T02:00:35.621963+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -554,7 +554,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-09-27T23:20:06.865683+00:00",
+   "last_checked_by_bell": "2026-09-28T02:16:30.157712+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -576,7 +576,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-27T23:35:54.845795+00:00",
+   "last_checked_by_bell": "2026-09-28T02:32:18.659372+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -642,7 +642,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-09-27T23:51:40.586103+00:00",
+   "last_checked_by_bell": "2026-09-28T03:03:24.398277+00:00",
    "last_change_detected": "2026-09-25T14:03:20.059260+00:00",
    "categories": [
     "bank"
@@ -7503,7 +7503,7 @@
   },
   {
    "firm": "Morgan Stanley",
-   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 26 days. No automated access; check by hand.",
+   "title": "Morgan Stanley \u2014 Spring week / insight programme window is open, and has been for 27 days. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "location": "",
    "opened_at": null,
@@ -7521,7 +7521,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 26 days. No automated access; check by hand.",
+   "title": "Goldman Sachs \u2014 Spring week / insight programme window is open, and has been for 27 days. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "opened_at": null,
@@ -7539,7 +7539,7 @@
   },
   {
    "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 26 days. No automated access; check by hand.",
+   "title": "BNP Paribas \u2014 Spring week / insight programme window is open, and has been for 27 days. No automated access; check by hand.",
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "location": "",
    "opened_at": null,
