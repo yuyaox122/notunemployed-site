@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-29T07:15:00.943817+00:00",
+ "generated_at": "2026-09-29T08:15:53.160746+00:00",
  "counts": {
   "items": 400,
   "strong": 388,
   "uk": 129,
   "uk_unstated": 199,
-  "seen_24h": 550,
+  "seen_24h": 528,
   "truncated": true,
   "total": 810,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 19573
+  "postings_tracked": 19579
  },
  "detection": {
-  "mean_latency_s": 37641.6,
-  "sampled": 178,
+  "mean_latency_s": 37443.5,
+  "sampled": 179,
   "by_tier": {
    "A": {
-    "mean_latency_s": 9536.8,
-    "sampled": 79
+    "mean_latency_s": 9444.9,
+    "sampled": 80
    },
    "B": {
     "mean_latency_s": 60068.6,
@@ -56,9 +56,9 @@
      "seconds": 2369
     }
    ],
-   "n_gaps": 56,
+   "n_gaps": 55,
    "longest_gap_s": 10875,
-   "blind_s": 74774
+   "blind_s": 75291
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -257,16 +257,6 @@
    "reason": "source is error"
   },
   {
-   "key": "sitemap:https://careers.blackrock.com/sitemap.xml",
-   "firm": "BlackRock",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 517,
-   "n_match": 13,
-   "n_off_desk": 15,
-   "reason": "source is error"
-  },
-  {
    "key": "lever:palantir",
    "firm": "Palantir",
    "tier": "B",
@@ -274,16 +264,6 @@
    "n_total": 321,
    "n_match": 69,
    "n_off_desk": 11,
-   "reason": "source is error"
-  },
-  {
-   "key": "sitemap:https://careers.sig.com/sitemap1.xml",
-   "firm": "Susquehanna (SIG)",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 292,
-   "n_match": 85,
-   "n_off_desk": 0,
    "reason": "source is error"
   },
   {
@@ -317,16 +297,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:quberesearchandtechnologies",
-   "firm": "Qube Research and Technologies",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 225,
-   "n_match": 14,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:robinhood",
    "firm": "Robinhood",
    "tier": "B",
@@ -357,6 +327,16 @@
    "reason": "source is error"
   },
   {
+   "key": "greenhouse:worldquant",
+   "firm": "WorldQuant",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 113,
+   "n_match": 7,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
    "firm": "Capital Group",
    "tier": "C",
@@ -367,26 +347,6 @@
    "reason": "104 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
-   "key": "greenhouse:squarepointcapital",
-   "firm": "Squarepoint Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 101,
-   "n_match": 8,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:towerresearchcapital",
-   "firm": "Tower Research Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 100,
-   "n_match": 14,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "oracle:ekbq.fa.em2.oraclecloud.com",
    "firm": "Schroders",
    "tier": "B",
@@ -394,16 +354,6 @@
    "n_total": 99,
    "n_match": 12,
    "n_off_desk": 18,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:schonfeld",
-   "firm": "Schonfeld",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 90,
-   "n_match": 17,
-   "n_off_desk": 0,
    "reason": "source is error"
   },
   {
@@ -453,26 +403,6 @@
    "kind": "error",
    "n_total": 65,
    "n_match": 10,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:voleon",
-   "firm": "Voleon",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 59,
-   "n_match": 2,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:virtu",
-   "firm": "Virtu Financial",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 54,
-   "n_match": 18,
    "n_off_desk": 0,
    "reason": "source is error"
   },
@@ -537,16 +467,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:veritiongroupllc",
-   "firm": "Verition",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 35,
-   "n_match": 3,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "linklist:https://optiver.com/working-at-optiver/career-opportunities/",
    "firm": "Optiver",
    "tier": "B",
@@ -607,6 +527,16 @@
    "reason": "source is error"
   },
   {
+   "key": "sitemap:https://careers.brevanhoward.com/gb/en/sitemap.xml",
+   "firm": "Brevan Howard",
+   "tier": "B",
+   "kind": "error",
+   "n_total": 28,
+   "n_match": 14,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "greenhouse:eqtpartners",
    "firm": "EQT Partners",
    "tier": "B",
@@ -647,12 +577,12 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:transmarketgroup",
-   "firm": "Transmarket",
+   "key": "lever:wintermute-trading",
+   "firm": "Wintermute",
    "tier": "A",
    "kind": "error",
-   "n_total": 19,
-   "n_match": 4,
+   "n_total": 22,
+   "n_match": 2,
    "n_off_desk": 0,
    "reason": "source is error"
   },
@@ -663,16 +593,6 @@
    "kind": "error",
    "n_total": 17,
    "n_match": 8,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:wincent",
-   "firm": "Wincent",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 16,
-   "n_match": 1,
    "n_off_desk": 0,
    "reason": "source is error"
   },
@@ -707,16 +627,6 @@
    "reason": "source is error"
   },
   {
-   "key": "linklist:https://blackrock.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
-   "firm": "BlackRock",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 13,
-   "n_match": 1,
-   "n_off_desk": 12,
-   "reason": "source is error"
-  },
-  {
    "key": "ashby:smarkets",
    "firm": "Smarkets",
    "tier": "B",
@@ -733,6 +643,16 @@
    "kind": "error",
    "n_total": 12,
    "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:xtxmarketstechnologies",
+   "firm": "XTX Markets",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 12,
+   "n_match": 1,
    "n_off_desk": 0,
    "reason": "source is error"
   },
@@ -787,16 +707,6 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:trillium",
-   "firm": "Trillium Trading",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 10,
-   "n_match": 4,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "ashby:teza-technologies",
    "firm": "Teza Technologies",
    "tier": "B",
@@ -817,32 +727,22 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:vaticlabs",
-   "firm": "Vatic Labs",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 1,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:quantbot-technologies",
-   "firm": "Quantbot Technologies",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 8,
-   "n_match": 8,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:quantboxresearchpte",
    "firm": "Quantbox Research",
    "tier": "B",
    "kind": "error",
    "n_total": 8,
    "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:xantium",
+   "firm": "Xantium",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 8,
+   "n_match": 2,
    "n_off_desk": 0,
    "reason": "source is error"
   },
@@ -1055,7 +955,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-29T00:19:57.038042+00:00",
+   "last_checked_by_bell": "2026-09-29T07:15:15.335979+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -1077,7 +977,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-29T00:36:51.992121+00:00",
+   "last_checked_by_bell": "2026-09-29T07:15:27.510059+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
