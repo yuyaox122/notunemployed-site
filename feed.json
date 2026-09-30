@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T09:05:01.197525+00:00",
+ "generated_at": "2026-09-30T09:45:20.015081+00:00",
  "counts": {
   "items": 400,
   "strong": 384,
@@ -12,7 +12,7 @@
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 20391
+  "postings_tracked": 20392
  },
  "detection": {
   "mean_latency_s": 43697.3,
@@ -58,7 +58,7 @@
    ],
    "n_gaps": 38,
    "longest_gap_s": 10891,
-   "blind_s": 67365
+   "blind_s": 66928
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -455,6 +455,16 @@
    "reason": "26 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "lever:gmo",
+   "firm": "GMO",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 16,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -493,7 +503,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-09-30T09:00:19.999446+00:00",
+   "last_checked_by_bell": "2026-09-30T09:42:16.829282+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -515,7 +525,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-09-30T09:00:32.039812+00:00",
+   "last_checked_by_bell": "2026-09-30T09:42:30.859488+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -537,7 +547,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-09-30T09:00:39.602314+00:00",
+   "last_checked_by_bell": "2026-09-30T09:42:39.764480+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -6066,7 +6076,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-6dccdafc0e53/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-023f5a44ef6a/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
