@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-30T03:35:00.416828+00:00",
+ "generated_at": "2026-09-30T07:45:41.417380+00:00",
  "counts": {
   "items": 400,
   "strong": 384,
   "uk": 134,
   "uk_unstated": 204,
-  "seen_24h": 628,
+  "seen_24h": 630,
   "truncated": true,
   "total": 815,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 20200
+  "postings_tracked": 20206
  },
  "detection": {
-  "mean_latency_s": 46127.4,
-  "sampled": 171,
+  "mean_latency_s": 46404.5,
+  "sampled": 175,
   "by_tier": {
    "A": {
-    "mean_latency_s": 12598.9,
-    "sampled": 78
+    "mean_latency_s": 14825.7,
+    "sampled": 82
    },
    "B": {
     "mean_latency_s": 74248.0,
@@ -51,14 +51,14 @@
      "seconds": 4108
     },
     {
-     "from": "2026-09-30T01:45:57.402215+00:00",
-     "to": "2026-09-30T02:52:06.433514+00:00",
-     "seconds": 3969
+     "from": "2026-09-30T06:30:10.753402+00:00",
+     "to": "2026-09-30T07:38:01.929386+00:00",
+     "seconds": 4071
     }
    ],
-   "n_gaps": 44,
+   "n_gaps": 43,
    "longest_gap_s": 10891,
-   "blind_s": 70951
+   "blind_s": 72170
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -457,6 +457,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "26 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "lever:wintermute-trading",
+   "firm": "Wintermute",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 22,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
   },
   {
    "key": "greenhouse:netcraft",
