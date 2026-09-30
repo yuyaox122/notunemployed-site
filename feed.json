@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-09-30T19:35:00.751808+00:00",
+ "generated_at": "2026-09-30T19:40:00.826831+00:00",
  "counts": {
   "items": 400,
   "strong": 384,
   "uk": 134,
   "uk_unstated": 207,
-  "seen_24h": 605,
+  "seen_24h": 608,
   "truncated": true,
-  "total": 825,
+  "total": 827,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 20690
+  "postings_tracked": 20693
  },
  "detection": {
-  "mean_latency_s": 43919.2,
-  "sampled": 201,
+  "mean_latency_s": 44346.0,
+  "sampled": 204,
   "by_tier": {
    "A": {
-    "mean_latency_s": 14571.8,
-    "sampled": 91
+    "mean_latency_s": 16434.7,
+    "sampled": 94
    },
    "B": {
     "mean_latency_s": 68197.5,
@@ -30,11 +30,6 @@
   "watch": {
    "hours": 24,
    "gaps": [
-    {
-     "from": "2026-09-29T19:37:37.949496+00:00",
-     "to": "2026-09-29T21:01:01.507945+00:00",
-     "seconds": 5004
-    },
     {
      "from": "2026-09-30T11:42:45.950197+00:00",
      "to": "2026-09-30T13:00:03.677546+00:00",
@@ -54,11 +49,16 @@
      "from": "2026-09-30T06:30:10.753402+00:00",
      "to": "2026-09-30T07:38:01.929386+00:00",
      "seconds": 4071
+    },
+    {
+     "from": "2026-09-30T01:45:57.402215+00:00",
+     "to": "2026-09-30T02:52:06.433514+00:00",
+     "seconds": 3969
     }
    ],
-   "n_gaps": 45,
-   "longest_gap_s": 5004,
-   "blind_s": 74085
+   "n_gaps": 44,
+   "longest_gap_s": 4638,
+   "blind_s": 69081
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -283,16 +283,6 @@
    "reason": "source is error"
   },
   {
-   "key": "sitemap:https://careers.sig.com/sitemap1.xml",
-   "firm": "Susquehanna (SIG)",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 298,
-   "n_match": 85,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:janestreet",
    "firm": "Jane Street",
    "tier": "A",
@@ -323,16 +313,6 @@
    "reason": "188 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:worldquant",
-   "firm": "WorldQuant",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 113,
-   "n_match": 7,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
    "firm": "Capital Group",
    "tier": "C",
@@ -351,16 +331,6 @@
    "n_match": 0,
    "n_off_desk": 6,
    "reason": "109 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "greenhouse:towerresearchcapital",
-   "firm": "Tower Research Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 104,
-   "n_match": 14,
-   "n_off_desk": 0,
-   "reason": "source is error"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -533,26 +503,6 @@
    "reason": "source is error"
   },
   {
-   "key": "lever:wintermute-trading",
-   "firm": "Wintermute",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 22,
-   "n_match": 2,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:transmarketgroup",
-   "firm": "Transmarket",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 19,
-   "n_match": 4,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "greenhouse:alphagrepsecurities",
    "firm": "AlphaGrep Securities",
    "tier": "B",
@@ -573,32 +523,12 @@
    "reason": "source is error"
   },
   {
-   "key": "greenhouse:trillium",
-   "firm": "Trillium Trading",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 10,
-   "n_match": 4,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "ashby:bastion",
    "firm": "Bastion Trading",
    "tier": "B",
    "kind": "error",
    "n_total": 8,
    "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:xantium",
-   "firm": "Xantium",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 8,
-   "n_match": 2,
    "n_off_desk": 0,
    "reason": "source is error"
   },
@@ -896,6 +826,24 @@
    "tier": "B"
   },
   {
+   "firm": "Susquehanna (SIG)",
+   "title": "Discovery Programme : Equity Research (On-Site)",
+   "url": "https://careers.sig.com/jobs/11573?lang=en-us",
+   "location": "Dublin, UNAVAILABLE, Ireland",
+   "opened_at": "2026-09-30T11:13:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-30T19:35:02.562530+00:00",
+   "date_basis": "published",
+   "deadline": "2027-09-30T11:13:42+00:00",
+   "strength": "strong",
+   "stage": "spring",
+   "desk": "quant",
+   "reason": "insight programme + research",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
    "firm": "KKR",
    "title": "2027 Trinity College Dublin Software Engineering Internship",
    "url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6211728004",
@@ -1019,6 +967,24 @@
    "reason": "intern + stage-only at a whole-firm employer",
    "uk": true,
    "uk_stated": true,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
+   "title": "Equity Research Analyst, Private Placements",
+   "url": "https://careers.sig.com/jobs/11536?lang=en-us",
+   "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
+   "opened_at": "2026-09-29T14:07:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-30T19:35:02.562530+00:00",
+   "date_basis": "published",
+   "deadline": "2027-09-29T14:08:42+00:00",
+   "strength": "strong",
+   "stage": "placement",
+   "desk": "quant",
+   "reason": "placement + research",
+   "uk": false,
+   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -2217,42 +2183,6 @@
    "opened_at": "2026-09-09T19:13:24+00:00",
    "opened_exact": true,
    "first_seen_at": "2026-09-09T19:14:12.686028+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Susquehanna (SIG)",
-   "title": "Discovery Program: Trading System Engineer (On-site)",
-   "url": "https://careers.sig.com/jobs/11491?lang=en-us",
-   "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
-   "opened_at": "2026-09-09T19:09:00+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-11T17:14:38.790878+00:00",
-   "date_basis": "published",
-   "deadline": "2027-09-09T19:10:00+00:00",
-   "strength": "strong",
-   "stage": "spring",
-   "desk": "quant",
-   "reason": "insight programme + trading",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "DV Trading",
-   "title": "DevOps Engineer Intern - Summer 2027",
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4730886005",
-   "location": "Chicago",
-   "opened_at": "2026-09-09T19:08:19+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-09T19:09:06.920840+00:00",
    "date_basis": "published",
    "deadline": null,
    "strength": "strong",
