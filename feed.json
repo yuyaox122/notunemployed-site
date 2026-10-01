@@ -1,40 +1,35 @@
 {
- "generated_at": "2026-10-01T10:20:00.547679+00:00",
+ "generated_at": "2026-10-01T12:00:29.156492+00:00",
  "counts": {
   "items": 400,
   "strong": 385,
   "uk": 133,
   "uk_unstated": 208,
-  "seen_24h": 603,
+  "seen_24h": 606,
   "truncated": true,
-  "total": 828,
+  "total": 835,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21041
+  "postings_tracked": 21054
  },
  "detection": {
-  "mean_latency_s": 51112.4,
-  "sampled": 236,
+  "mean_latency_s": 44844.9,
+  "sampled": 208,
   "by_tier": {
    "A": {
-    "mean_latency_s": 31104.9,
-    "sampled": 107
+    "mean_latency_s": 28401.0,
+    "sampled": 94
    },
    "B": {
-    "mean_latency_s": 67707.7,
-    "sampled": 129
+    "mean_latency_s": 58404.0,
+    "sampled": 114
    }
   },
   "watch": {
    "hours": 24,
    "gaps": [
-    {
-     "from": "2026-09-30T11:42:45.950197+00:00",
-     "to": "2026-09-30T13:00:03.677546+00:00",
-     "seconds": 4638
-    },
     {
      "from": "2026-09-30T13:45:04.703309+00:00",
      "to": "2026-09-30T14:53:08.202339+00:00",
@@ -44,6 +39,11 @@
      "from": "2026-09-30T15:02:11.229089+00:00",
      "to": "2026-09-30T16:03:10.715229+00:00",
      "seconds": 3659
+    },
+    {
+     "from": "2026-10-01T10:29:28.658476+00:00",
+     "to": "2026-10-01T11:27:01.677256+00:00",
+     "seconds": 3453
     },
     {
      "from": "2026-09-30T18:38:32.949712+00:00",
@@ -57,8 +57,8 @@
     }
    ],
    "n_gaps": 60,
-   "longest_gap_s": 4638,
-   "blind_s": 67602
+   "longest_gap_s": 4083,
+   "blind_s": 65706
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -305,10 +305,10 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 191,
+   "n_total": 192,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "191 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "192 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
@@ -335,10 +335,10 @@
    "firm": "HSBC",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 97,
+   "n_total": 98,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "97 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "98 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -369,6 +369,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "64 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "greenhouse:virtu",
+   "firm": "Virtu Financial",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 54,
+   "n_match": 18,
+   "n_off_desk": 0,
+   "reason": "source is error"
   },
   {
    "key": "workday:abrdn/wd3/abrdn",
@@ -497,7 +507,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-01T10:15:58.406849+00:00",
+   "last_checked_by_bell": "2026-10-01T11:58:15.609270+00:00",
    "last_change_detected": "2026-10-01T10:15:58.406849+00:00",
    "categories": [
     "prop"
@@ -519,7 +529,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-01T10:15:15.102056+00:00",
+   "last_checked_by_bell": "2026-10-01T11:30:17.987310+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -541,7 +551,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-01T10:15:26.973651+00:00",
+   "last_checked_by_bell": "2026-10-01T11:30:29.748846+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -563,7 +573,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-01T10:15:34.564432+00:00",
+   "last_checked_by_bell": "2026-10-01T11:30:39.195117+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -618,7 +628,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-01T10:16:11.712255+00:00",
+   "last_checked_by_bell": "2026-10-01T11:58:29.143367+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
