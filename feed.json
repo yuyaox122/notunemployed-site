@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-01T07:00:17.113125+00:00",
+ "generated_at": "2026-10-01T07:05:01.227550+00:00",
  "counts": {
   "items": 400,
   "strong": 384,
   "uk": 135,
   "uk_unstated": 207,
-  "seen_24h": 766,
+  "seen_24h": 782,
   "truncated": true,
-  "total": 826,
+  "total": 828,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 20972
+  "postings_tracked": 20988
  },
  "detection": {
   "mean_latency_s": 40722.6,
@@ -305,10 +305,10 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 188,
+   "n_total": 189,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "188 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "189 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
@@ -401,16 +401,6 @@
    "reason": "32 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
-   "key": "greenhouse:axq",
-   "firm": "AXQ Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 31,
-   "n_match": 2,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:carlyle/wd1/Carlyle",
    "firm": "The Carlyle Group",
    "tier": "C",
@@ -491,56 +481,6 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:bridgewater89",
-   "firm": "Bridgewater",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 25,
-   "n_match": 1,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "lever:belvederetrading",
-   "firm": "Belvedere Trading",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 21,
-   "n_match": 5,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:blackedgecapital",
-   "firm": "BlackEdge Capital",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 7,
-   "n_match": 5,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:caladan",
-   "firm": "Caladan",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 7,
-   "n_match": 1,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "lever:valkyrietrading",
-   "firm": "Valkyrie Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 6,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -557,7 +497,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-01T05:48:59.177513+00:00",
+   "last_checked_by_bell": "2026-10-01T07:01:27.535124+00:00",
    "last_change_detected": "2026-09-30T17:21:56.900611+00:00",
    "categories": [
     "prop"
@@ -568,7 +508,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-01T06:20:32.658853+00:00",
+   "last_checked_by_bell": "2026-10-01T07:02:44.604455+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -579,7 +519,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-01T05:32:58.158512+00:00",
+   "last_checked_by_bell": "2026-10-01T07:00:32.253597+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -601,7 +541,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-01T05:33:08.681507+00:00",
+   "last_checked_by_bell": "2026-10-01T07:00:43.894689+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -623,7 +563,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-01T05:48:34.550861+00:00",
+   "last_checked_by_bell": "2026-10-01T07:00:52.092846+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -678,7 +618,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-01T05:49:12.170537+00:00",
+   "last_checked_by_bell": "2026-10-01T07:01:39.483887+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -700,7 +640,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-01T06:04:37.760733+00:00",
+   "last_checked_by_bell": "2026-10-01T07:02:08.014717+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -766,7 +706,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-01T06:20:45.680440+00:00",
+   "last_checked_by_bell": "2026-10-01T07:02:55.939423+00:00",
    "last_change_detected": "2026-10-01T04:19:36.594576+00:00",
    "categories": [
     "bank"
