@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-30T23:05:00.788466+00:00",
+ "generated_at": "2026-10-01T01:10:00.479933+00:00",
  "counts": {
   "items": 400,
   "strong": 384,
   "uk": 135,
   "uk_unstated": 207,
-  "seen_24h": 656,
+  "seen_24h": 643,
   "truncated": true,
   "total": 826,
   "truncated_uk": 0,
@@ -36,11 +36,6 @@
      "seconds": 4638
     },
     {
-     "from": "2026-09-30T00:15:27.906144+00:00",
-     "to": "2026-09-30T01:23:56.185087+00:00",
-     "seconds": 4108
-    },
-    {
      "from": "2026-09-30T13:45:04.703309+00:00",
      "to": "2026-09-30T14:53:08.202339+00:00",
      "seconds": 4083
@@ -54,11 +49,16 @@
      "from": "2026-09-30T01:45:57.402215+00:00",
      "to": "2026-09-30T02:52:06.433514+00:00",
      "seconds": 3969
+    },
+    {
+     "from": "2026-09-30T03:37:39.442161+00:00",
+     "to": "2026-09-30T04:40:51.637898+00:00",
+     "seconds": 3792
     }
    ],
-   "n_gaps": 45,
+   "n_gaps": 50,
    "longest_gap_s": 4638,
-   "blind_s": 68034
+   "blind_s": 68386
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -78,9 +78,9 @@
     "stages": [
      "spring"
     ],
-    "phase": "open",
-    "days": 29,
-    "says": "open, and has been for 29 days",
+    "phase": "closing",
+    "days": 122,
+    "says": "closing \u2014 about 122 days of the window left",
     "urgent": false
    },
    {
@@ -100,8 +100,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 108,
-    "says": "closed about 108 days ago",
+    "days": 109,
+    "says": "closed about 109 days ago",
     "urgent": false
    },
    {
@@ -121,9 +121,9 @@
      "prop",
      "crypto_mm"
     ],
-    "phase": "open",
-    "days": 152,
-    "says": "open, and has been for 152 days",
+    "phase": "closing",
+    "days": 60,
+    "says": "closing \u2014 about 60 days of the window left",
     "urgent": false
    },
    {
@@ -142,21 +142,13 @@
     "categories": [
      "bank"
     ],
-    "phase": "open",
+    "phase": "closing",
     "days": 60,
-    "says": "open, and has been for 60 days",
+    "says": "closing \u2014 about 60 days of the window left",
     "urgent": false
    }
   ],
   "months": [
-   {
-    "month": "2026-09",
-    "do": "Quant summer applications \u2014 submit now, most have been open since July. Man Group opened 5 Sep; Maven opens 7 Sep; Tower opened 1 Sep."
-   },
-   {
-    "month": "2026-09",
-    "do": "Goldman Sachs typically opens its spring week within the first three weeks of September \u2014 check now, not in October. J.P. Morgan and Morgan Stanley follow Sept\u2013Oct."
-   },
    {
     "month": "2026-10",
     "do": "Remaining bank spring weeks open in volume: Citi (Oct\u2013Nov), Barclays (Oct). Morgan Stanley closes around Nov. Apply in the first two weeks of any opening."
@@ -164,6 +156,14 @@
    {
     "month": "2026-11",
     "do": "Assessment centres and superdays run for the earliest quant applications. Second wave of bank spring weeks."
+   },
+   {
+    "month": "2026-12",
+    "do": "Late spring week deadlines. Commodities and energy graduate schemes open."
+   },
+   {
+    "month": "2027-01",
+    "do": "Spring week outcomes. Remaining summer places at tier 2 firms."
    }
   ],
   "facts": [
@@ -177,7 +177,7 @@
     "url": "https://careers.sig.com/jobs/11377?lang=en-us",
     "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
     "deadline": "2026-10-05",
-    "days_left": 5
+    "days_left": 4
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -185,7 +185,7 @@
     "url": "https://careers.sig.com/jobs/11378?lang=en-us",
     "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
     "deadline": "2026-10-05",
-    "days_left": 5
+    "days_left": 4
    },
    {
     "firm": "Glencore UK",
@@ -193,7 +193,7 @@
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
     "location": "London, UK",
     "deadline": "2026-10-09",
-    "days_left": 9
+    "days_left": 8
    },
    {
     "firm": "Robinhood",
@@ -201,7 +201,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738",
     "location": "Menlo Park, CA",
     "deadline": "2026-10-12",
-    "days_left": 12
+    "days_left": 11
    },
    {
     "firm": "Robinhood",
@@ -209,7 +209,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142930?t=gh_src=&gh_jid=8142930",
     "location": "Toronto, Canada",
     "deadline": "2026-10-14",
-    "days_left": 14
+    "days_left": 13
    },
    {
     "firm": "Robinhood",
@@ -217,7 +217,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8199729?t=gh_src=&gh_jid=8199729",
     "location": "Toronto, Canada",
     "deadline": "2026-10-14",
-    "days_left": 14
+    "days_left": 13
    },
    {
     "firm": "Robinhood",
@@ -225,7 +225,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142961?t=gh_src=&gh_jid=8142961",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 14
+    "days_left": 13
    },
    {
     "firm": "Robinhood",
@@ -233,7 +233,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8123225?t=gh_src=&gh_jid=8123225",
     "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 14
+    "days_left": 13
    },
    {
     "firm": "Robinhood",
@@ -241,7 +241,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 14
+    "days_left": 13
    },
    {
     "firm": "Robinhood",
@@ -249,7 +249,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142963?t=gh_src=&gh_jid=8142963",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 14
+    "days_left": 13
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -257,7 +257,7 @@
     "url": "https://careers.sig.com/jobs/10839?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 152
+    "days_left": 151
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -265,7 +265,7 @@
     "url": "https://careers.sig.com/jobs/10840?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 152
+    "days_left": 151
    }
   ],
   "n_deadlines": 12,
