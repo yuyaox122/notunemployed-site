@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-01T14:39:03.268781+00:00",
+ "generated_at": "2026-10-01T14:50:00.873965+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
-  "uk": 131,
+  "uk": 132,
   "uk_unstated": 211,
-  "seen_24h": 716,
+  "seen_24h": 737,
   "truncated": true,
   "total": 839,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21166
+  "postings_tracked": 21187
  },
  "detection": {
-  "mean_latency_s": 46576.7,
-  "sampled": 209,
+  "mean_latency_s": 46358.5,
+  "sampled": 210,
   "by_tier": {
    "A": {
     "mean_latency_s": 28115.5,
     "sampled": 95
    },
    "B": {
-    "mean_latency_s": 61961.0,
-    "sampled": 114
+    "mean_latency_s": 61428.7,
+    "sampled": 115
    }
   },
   "watch": {
@@ -56,9 +56,9 @@
      "seconds": 1841
     }
    ],
-   "n_gaps": 66,
+   "n_gaps": 67,
    "longest_gap_s": 3659,
-   "blind_s": 67107
+   "blind_s": 67429
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -371,16 +371,6 @@
    "reason": "64 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:flowtraders",
-   "firm": "Flow Traders",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 59,
-   "n_match": 8,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "workday:abrdn/wd3/abrdn",
    "firm": "abrdn",
    "tier": "C",
@@ -491,26 +481,6 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:fiveringsllc",
-   "firm": "Five Rings",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 18,
-   "n_match": 12,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:engineersgate",
-   "firm": "Engineers Gate",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 1,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -518,16 +488,6 @@
    "n_total": 4,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:glencoreuk",
-   "firm": "Glencore UK",
-   "tier": "A",
-   "kind": "error",
-   "n_total": 2,
-   "n_match": 1,
-   "n_off_desk": 1,
    "reason": "source is error"
   }
  ],
@@ -537,7 +497,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-01T14:17:10.757497+00:00",
+   "last_checked_by_bell": "2026-10-01T14:46:15.273593+00:00",
    "last_change_detected": "2026-10-01T14:17:10.757497+00:00",
    "categories": [
     "prop"
@@ -548,7 +508,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-01T14:28:25.747270+00:00",
+   "last_checked_by_bell": "2026-10-01T14:47:42.262141+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -559,7 +519,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-01T13:45:23.731606+00:00",
+   "last_checked_by_bell": "2026-10-01T14:45:30.382750+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -581,7 +541,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-01T13:45:41.656922+00:00",
+   "last_checked_by_bell": "2026-10-01T14:45:42.453794+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -603,7 +563,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-01T14:01:09.727343+00:00",
+   "last_checked_by_bell": "2026-10-01T14:45:54.048408+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -658,7 +618,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-01T14:17:24.924813+00:00",
+   "last_checked_by_bell": "2026-10-01T14:46:29.091854+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -680,7 +640,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-01T14:27:47.843275+00:00",
+   "last_checked_by_bell": "2026-10-01T14:46:56.495250+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -746,7 +706,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-01T14:28:37.865886+00:00",
+   "last_checked_by_bell": "2026-10-01T14:47:54.736598+00:00",
    "last_change_detected": "2026-10-01T14:28:37.865886+00:00",
    "categories": [
     "bank"
@@ -2129,24 +2089,6 @@
    "stage": "intern",
    "desk": "quant",
    "reason": "intern + trading",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Brevan Howard",
-   "title": "2027 Summer Internship Program \u2013 Systematic Data Strategy, New York",
-   "url": "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101596EXTERNALENGB/2027-Summer-Internship-Program-Systematic-Data-Strategy-New-York",
-   "location": "New York, New York, United States of America",
-   "opened_at": "2026-09-10T00:00:00+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-10T21:30:30.676842+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "reason": "intern + systematic",
    "uk": false,
    "uk_stated": false,
    "tier": "B"
@@ -4849,6 +4791,24 @@
    "reason": "intern + infra",
    "uk": true,
    "uk_stated": false,
+   "tier": "C"
+  },
+  {
+   "firm": "Wellington",
+   "title": "2027 Investment Platform Industrial Placement Internship Programme (London)",
+   "url": "https://wellington.wd5.myworkdayjobs.com/en-US/External/job/London-United-Kingdom/XMLNAME-2027-Investment-Platform-Industrial-Placement-Internship-Programme--London-_R94930",
+   "location": "London, United Kingdom",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-28T12:27:50.019383+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + infra",
+   "uk": true,
+   "uk_stated": true,
    "tier": "C"
   },
   {
