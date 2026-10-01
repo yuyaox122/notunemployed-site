@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T14:30:00.534814+00:00",
+ "generated_at": "2026-10-01T14:39:03.268781+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
@@ -15,12 +15,12 @@
   "postings_tracked": 21166
  },
  "detection": {
-  "mean_latency_s": 46355.2,
-  "sampled": 210,
+  "mean_latency_s": 46576.7,
+  "sampled": 209,
   "by_tier": {
    "A": {
-    "mean_latency_s": 27823.3,
-    "sampled": 96
+    "mean_latency_s": 28115.5,
+    "sampled": 95
    },
    "B": {
     "mean_latency_s": 61961.0,
@@ -56,9 +56,9 @@
      "seconds": 1841
     }
    ],
-   "n_gaps": 65,
+   "n_gaps": 66,
    "longest_gap_s": 3659,
-   "blind_s": 66652
+   "blind_s": 67107
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -371,6 +371,16 @@
    "reason": "64 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:flowtraders",
+   "firm": "Flow Traders",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 59,
+   "n_match": 8,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "workday:abrdn/wd3/abrdn",
    "firm": "abrdn",
    "tier": "C",
@@ -481,6 +491,26 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:fiveringsllc",
+   "firm": "Five Rings",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 18,
+   "n_match": 12,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:engineersgate",
+   "firm": "Engineers Gate",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 9,
+   "n_match": 1,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -488,6 +518,16 @@
    "n_total": 4,
    "n_match": 0,
    "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:glencoreuk",
+   "firm": "Glencore UK",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 2,
+   "n_match": 1,
+   "n_off_desk": 1,
    "reason": "source is error"
   }
  ],
