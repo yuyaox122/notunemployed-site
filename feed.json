@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-10-01T07:20:00.428759+00:00",
+ "generated_at": "2026-10-01T07:50:56.235272+00:00",
  "counts": {
   "items": 400,
-  "strong": 384,
-  "uk": 135,
+  "strong": 385,
+  "uk": 133,
   "uk_unstated": 207,
-  "seen_24h": 783,
+  "seen_24h": 782,
   "truncated": true,
-  "total": 828,
+  "total": 826,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 20989
+  "postings_tracked": 20991
  },
  "detection": {
-  "mean_latency_s": 40722.6,
-  "sampled": 226,
+  "mean_latency_s": 48029.0,
+  "sampled": 227,
   "by_tier": {
    "A": {
-    "mean_latency_s": 15645.8,
-    "sampled": 104
+    "mean_latency_s": 31680.5,
+    "sampled": 105
    },
    "B": {
     "mean_latency_s": 62099.4,
@@ -56,9 +56,9 @@
      "seconds": 2736
     }
    ],
-   "n_gaps": 60,
+   "n_gaps": 59,
    "longest_gap_s": 4638,
-   "blind_s": 65907
+   "blind_s": 66004
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -365,10 +365,10 @@
    "firm": "AllianceBernstein",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 62,
+   "n_total": 63,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "62 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "63 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abrdn/wd3/abrdn",
@@ -519,7 +519,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-01T07:15:15.974363+00:00",
+   "last_checked_by_bell": "2026-10-01T07:45:33.477989+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -541,7 +541,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-01T07:15:26.632917+00:00",
+   "last_checked_by_bell": "2026-10-01T07:45:45.243718+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -2112,6 +2112,42 @@
    "tier": "B"
   },
   {
+   "firm": "Brevan Howard",
+   "title": "2027 Summer Internship Program \u2013 Systematic Execution Research, New York",
+   "url": "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101595EXTERNALENGB/2027-Summer-Internship-Program-Systematic-Execution-Research-New-York",
+   "location": "New York, New York, United States of America",
+   "opened_at": "2026-09-10T00:00:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-10T21:30:30.676842+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "intern + systematic",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
+   "firm": "DV Trading",
+   "title": "AI Engineer Intern - Summer 2027",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4732429005",
+   "location": "Chicago",
+   "opened_at": "2026-09-09T19:13:24+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-09T19:14:12.686028+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
    "firm": "Qube Research and Technologies",
    "title": "2027 - Internship, Data Engineering",
    "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8623972002",
@@ -2359,42 +2395,6 @@
    "stage": "intern",
    "desk": null,
    "reason": "intern + stage-only at a whole-firm employer",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "A"
-  },
-  {
-   "firm": "Man Group",
-   "title": "IDI Summer 2027 Internship",
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4969143101",
-   "location": "London",
-   "opened_at": "2026-09-04T16:29:35+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:55.563863+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "weak",
-   "stage": "intern",
-   "desk": null,
-   "reason": "intern + stage-only at a whole-firm employer",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "A"
-  },
-  {
-   "firm": "Man Group",
-   "title": "Quant Researcher Internship",
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4969142101",
-   "location": "London",
-   "opened_at": "2026-09-04T16:06:19+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T07:24:08.349643+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "reason": "intern + quant",
    "uk": true,
    "uk_stated": true,
    "tier": "A"
