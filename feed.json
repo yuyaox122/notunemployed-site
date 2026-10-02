@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-02T15:20:00.902493+00:00",
+ "generated_at": "2026-10-02T15:35:00.679013+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
   "uk": 133,
   "uk_unstated": 218,
-  "seen_24h": 474,
+  "seen_24h": 494,
   "truncated": true,
-  "total": 837,
+  "total": 838,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21662
+  "postings_tracked": 21682
  },
  "detection": {
-  "mean_latency_s": 53032.1,
-  "sampled": 225,
+  "mean_latency_s": 51666.8,
+  "sampled": 231,
   "by_tier": {
    "A": {
-    "mean_latency_s": 29028.1,
-    "sampled": 94
+    "mean_latency_s": 28723.0,
+    "sampled": 95
    },
    "B": {
-    "mean_latency_s": 70256.4,
-    "sampled": 131
+    "mean_latency_s": 67693.7,
+    "sampled": 136
    }
   },
   "watch": {
@@ -56,9 +56,9 @@
      "seconds": 3419
     }
    ],
-   "n_gaps": 54,
+   "n_gaps": 53,
    "longest_gap_s": 7007,
-   "blind_s": 77943
+   "blind_s": 76539
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -295,20 +295,20 @@
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 243,
+   "n_total": 244,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "243 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "244 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 208,
+   "n_total": 209,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "208 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "209 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "oracle:eofe.fa.us2.oraclecloud.com",
@@ -461,6 +461,16 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:adaptivefinancialconsulting",
+   "firm": "Adaptive Financial Consulting",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 27,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "greenhouse:eqtpartners",
    "firm": "EQT Partners",
    "tier": "B",
@@ -497,7 +507,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T15:15:58.311480+00:00",
+   "last_checked_by_bell": "2026-10-02T15:31:00.236574+00:00",
    "last_change_detected": "2026-10-01T21:46:05.399111+00:00",
    "categories": [
     "prop"
@@ -508,7 +518,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T15:17:14.212948+00:00",
+   "last_checked_by_bell": "2026-10-02T15:32:18.728275+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -519,7 +529,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-02T15:15:22.162603+00:00",
+   "last_checked_by_bell": "2026-10-02T15:30:18.316516+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -541,7 +551,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-02T15:15:28.503493+00:00",
+   "last_checked_by_bell": "2026-10-02T15:30:29.039630+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -563,7 +573,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-02T15:15:37.453063+00:00",
+   "last_checked_by_bell": "2026-10-02T15:30:37.563152+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -618,7 +628,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-02T15:16:11.948399+00:00",
+   "last_checked_by_bell": "2026-10-02T15:31:13.301896+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -640,7 +650,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-02T15:16:39.579462+00:00",
+   "last_checked_by_bell": "2026-10-02T15:31:42.115128+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -706,7 +716,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-02T15:17:26.756925+00:00",
+   "last_checked_by_bell": "2026-10-02T15:32:31.409359+00:00",
    "last_change_detected": "2026-10-02T14:03:01.868311+00:00",
    "categories": [
     "bank"
