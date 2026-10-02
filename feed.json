@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-10-02T16:20:01.205620+00:00",
+ "generated_at": "2026-10-02T17:50:00.806987+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
-  "uk": 133,
+  "uk": 129,
   "uk_unstated": 218,
-  "seen_24h": 521,
+  "seen_24h": 558,
   "truncated": true,
-  "total": 838,
+  "total": 833,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21727
+  "postings_tracked": 21779
  },
  "detection": {
-  "mean_latency_s": 56627.3,
-  "sampled": 233,
+  "mean_latency_s": 56870.8,
+  "sampled": 232,
   "by_tier": {
    "A": {
-    "mean_latency_s": 28430.6,
-    "sampled": 96
+    "mean_latency_s": 28728.4,
+    "sampled": 95
    },
    "B": {
     "mean_latency_s": 76385.5,
@@ -56,9 +56,9 @@
      "seconds": 3419
     }
    ],
-   "n_gaps": 54,
+   "n_gaps": 51,
    "longest_gap_s": 7007,
-   "blind_s": 75789
+   "blind_s": 73930
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -315,20 +315,20 @@
    "firm": "BNY Mellon",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 151,
+   "n_total": 152,
    "n_match": 0,
    "n_off_desk": 7,
-   "reason": "151 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "152 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:capgroup/wd1/capitalgroupcareers",
    "firm": "Capital Group",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 126,
+   "n_total": 127,
    "n_match": 0,
    "n_off_desk": 35,
-   "reason": "126 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "127 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -369,6 +369,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "64 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "greenhouse:akunacapital",
+   "firm": "Akuna Capital",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 43,
+   "n_match": 12,
+   "n_off_desk": 0,
+   "reason": "source is error"
   },
   {
    "key": "workday:abrdn/wd3/abrdn",
@@ -491,6 +501,16 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:3redpartners",
+   "firm": "3Red Partners",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 9,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -507,7 +527,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T16:16:42.510340+00:00",
+   "last_checked_by_bell": "2026-10-02T16:45:57.196333+00:00",
    "last_change_detected": "2026-10-01T21:46:05.399111+00:00",
    "categories": [
     "prop"
@@ -518,7 +538,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T16:17:56.852845+00:00",
+   "last_checked_by_bell": "2026-10-02T16:47:20.631291+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -529,7 +549,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-02T16:15:59.597975+00:00",
+   "last_checked_by_bell": "2026-10-02T17:45:17.979560+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -551,7 +571,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-02T16:16:11.582697+00:00",
+   "last_checked_by_bell": "2026-10-02T17:45:41.060488+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -573,7 +593,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-02T16:16:20.480353+00:00",
+   "last_checked_by_bell": "2026-10-02T17:46:59.209064+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -628,7 +648,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-02T16:16:56.631430+00:00",
+   "last_checked_by_bell": "2026-10-02T16:46:10.891398+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -650,7 +670,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-02T16:17:23.177382+00:00",
+   "last_checked_by_bell": "2026-10-02T16:46:45.162659+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -716,7 +736,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-02T16:18:08.229443+00:00",
+   "last_checked_by_bell": "2026-10-02T16:47:32.130189+00:00",
    "last_change_detected": "2026-10-02T16:13:22.465787+00:00",
    "categories": [
     "bank"
@@ -1656,7 +1676,7 @@
   {
    "firm": "Brevan Howard",
    "title": "2027 Summer Internship Program \u2013 Trading, Geneva",
-   "url": "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101607EXTERNALENGB/2027-Summer-Internship-Program-Trading-Geneva",
+   "url": "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101607EXTERNALENGB/2027-Summer-Internship-Program-Geneva",
    "location": "Geneva, Geneva, Switzerland",
    "opened_at": "2026-09-15T00:00:00+00:00",
    "opened_exact": true,
@@ -1955,6 +1975,78 @@
    "stage": "intern",
    "desk": "markets",
    "reason": "intern + asset class",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "DV Trading",
+   "title": "Quantitative Research Intern - Summer 2027 (DV Equities)",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4733133005",
+   "location": "New York",
+   "opened_at": "2026-09-11T14:45:34+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-11T14:52:28.692499+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "intern + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "DV Trading",
+   "title": "2027 Quantitative Trader Graduate (DV Equities)",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4719106005",
+   "location": "New York",
+   "opened_at": "2026-09-11T14:41:48+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-11T14:52:28.692499+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "reason": "graduate + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "DV Trading",
+   "title": "Quantitative Trading Intern - Summer 2027 (DV Equities)",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4702083005",
+   "location": "New York",
+   "opened_at": "2026-09-11T14:38:34+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-11T14:52:28.692499+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "intern + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
+   "firm": "Susquehanna (SIG)",
+   "title": "Trading Production Engineer University Co - Op Placement 2027",
+   "url": "https://careers.sig.com/jobs/11498?lang=en-us",
+   "location": "Dublin, UNAVAILABLE, Ireland",
+   "opened_at": "2026-09-11T07:12:00+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-12T05:38:49.647395+00:00",
+   "date_basis": "published",
+   "deadline": "2027-09-11T07:12:58+00:00",
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "co-op + trading",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
@@ -3635,24 +3727,6 @@
   },
   {
    "firm": "Barclays",
-   "title": "2027 Technology Developer Graduate Programme Knutsford",
-   "url": "https://search.jobs.barclays/job/knutsford/2027-technology-developer-graduate-programme-knutsford/13015/100411085328",
-   "location": "Knutsford, United Kingdom",
-   "opened_at": "2026-09-09T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T01:01:08.108766+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "C"
-  },
-  {
-   "firm": "Barclays",
    "title": "2027 Technology Developer Summer Internship Programme Glasgow",
    "url": "https://search.jobs.barclays/job/glasgow/2027-technology-developer-summer-internship-programme-glasgow/13015/100411087072",
    "location": "Glasgow, United Kingdom",
@@ -3683,60 +3757,6 @@
    "stage": "intern",
    "desk": "engineering",
    "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "C"
-  },
-  {
-   "firm": "Barclays",
-   "title": "2027 Technology Developer Summer Internship Programme London",
-   "url": "https://search.jobs.barclays/job/london/2027-technology-developer-summer-internship-programme-london/13015/100411086928",
-   "location": "London, United Kingdom",
-   "opened_at": "2026-09-09T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T00:25:53.539896+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "C"
-  },
-  {
-   "firm": "Barclays",
-   "title": "2027 Technology Developer Graduate Programme Northampton",
-   "url": "https://search.jobs.barclays/job/northampton/2027-technology-developer-graduate-programme-northampton/13015/100411086896",
-   "location": "Northampton, Northamptonshire, United Kingdom",
-   "opened_at": "2026-09-09T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T00:25:53.539896+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "C"
-  },
-  {
-   "firm": "Barclays",
-   "title": "2027 Technology Developer Graduate Programme Glasgow",
-   "url": "https://search.jobs.barclays/job/glasgow/2027-technology-developer-graduate-programme-glasgow/13015/100411086432",
-   "location": "Glasgow, United Kingdom",
-   "opened_at": "2026-09-09T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T00:25:53.539896+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
    "uk": true,
    "uk_stated": true,
    "tier": "C"
