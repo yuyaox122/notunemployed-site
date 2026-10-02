@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-02T20:10:06.845509+00:00",
+ "generated_at": "2026-10-02T20:18:12.089874+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
-  "uk": 128,
+  "uk": 127,
   "uk_unstated": 218,
-  "seen_24h": 500,
+  "seen_24h": 511,
   "truncated": true,
-  "total": 832,
+  "total": 831,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21819
+  "postings_tracked": 21830
  },
  "detection": {
   "mean_latency_s": 56436.6,
@@ -58,7 +58,7 @@
    ],
    "n_gaps": 46,
    "longest_gap_s": 7007,
-   "blind_s": 73838
+   "blind_s": 73359
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -568,7 +568,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T17:51:25.422671+00:00",
+   "last_checked_by_bell": "2026-10-02T20:18:06.786766+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -2082,6 +2082,24 @@
    "tier": "B"
   },
   {
+   "firm": "Schonfeld",
+   "title": "2027 Platform Engineering Intern",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171699",
+   "location": "New York, New York, United States",
+   "opened_at": "2026-09-10T16:09:58+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-10T20:57:00.038678+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
    "firm": "DV Trading",
    "title": "Client Platforms Engineer Intern - Summer 2027",
    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4732700005",
@@ -2809,24 +2827,6 @@
    "opened_at": "2026-08-10T15:15:51+00:00",
    "opened_exact": true,
    "first_seen_at": "2026-09-06T18:01:05.689759+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "reason": "intern + quant",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "A"
-  },
-  {
-   "firm": "Chicago Trading Company",
-   "title": "Quant Trading Internship - Summer 2027",
-   "url": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4718710005",
-   "location": "London, England, United Kingdom",
-   "opened_at": "2026-08-03T20:11:21+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-10T11:44:06.304534+00:00",
    "date_basis": "published",
    "deadline": null,
    "strength": "strong",
