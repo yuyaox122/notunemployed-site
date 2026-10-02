@@ -1,64 +1,64 @@
 {
- "generated_at": "2026-10-01T21:40:01.099126+00:00",
+ "generated_at": "2026-10-02T05:45:00.971063+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
-  "uk": 132,
+  "uk": 133,
   "uk_unstated": 211,
-  "seen_24h": 512,
+  "seen_24h": 486,
   "truncated": true,
-  "total": 837,
+  "total": 839,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21328
+  "postings_tracked": 21430
  },
  "detection": {
-  "mean_latency_s": 52701.7,
-  "sampled": 207,
+  "mean_latency_s": 49286.3,
+  "sampled": 224,
   "by_tier": {
    "A": {
-    "mean_latency_s": 28845.1,
-    "sampled": 93
+    "mean_latency_s": 28635.3,
+    "sampled": 95
    },
    "B": {
-    "mean_latency_s": 72163.6,
-    "sampled": 114
+    "mean_latency_s": 64494.3,
+    "sampled": 129
    }
   },
   "watch": {
    "hours": 24,
    "gaps": [
     {
+     "from": "2026-10-01T22:03:01.972953+00:00",
+     "to": "2026-10-01T23:31:41.956198+00:00",
+     "seconds": 5320
+    },
+    {
+     "from": "2026-10-02T00:57:24.778817+00:00",
+     "to": "2026-10-02T02:02:01.643096+00:00",
+     "seconds": 3877
+    },
+    {
      "from": "2026-10-01T10:29:28.658476+00:00",
      "to": "2026-10-01T11:27:01.677256+00:00",
      "seconds": 3453
     },
     {
-     "from": "2026-10-01T15:45:41.877140+00:00",
-     "to": "2026-10-01T16:29:35.077275+00:00",
-     "seconds": 2633
+     "from": "2026-10-02T02:47:03.242308+00:00",
+     "to": "2026-10-02T03:44:01.777986+00:00",
+     "seconds": 3419
     },
     {
-     "from": "2026-10-01T08:21:28.691289+00:00",
-     "to": "2026-10-01T08:52:09.898048+00:00",
-     "seconds": 1841
-    },
-    {
-     "from": "2026-10-01T20:28:53.200419+00:00",
-     "to": "2026-10-01T20:57:33.191348+00:00",
-     "seconds": 1720
-    },
-    {
-     "from": "2026-10-01T15:21:38.472145+00:00",
-     "to": "2026-10-01T15:45:02.604202+00:00",
-     "seconds": 1404
+     "from": "2026-10-02T04:51:20.276599+00:00",
+     "to": "2026-10-02T05:44:53.588569+00:00",
+     "seconds": 3213
     }
    ],
-   "n_gaps": 76,
-   "longest_gap_s": 3453,
-   "blind_s": 71279
+   "n_gaps": 61,
+   "longest_gap_s": 5320,
+   "blind_s": 72987
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -79,8 +79,8 @@
      "spring"
     ],
     "phase": "closing",
-    "days": 122,
-    "says": "closing \u2014 about 122 days of the window left",
+    "days": 121,
+    "says": "closing \u2014 about 121 days of the window left",
     "urgent": false
    },
    {
@@ -100,8 +100,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 109,
-    "says": "closed about 109 days ago",
+    "days": 110,
+    "says": "closed about 110 days ago",
     "urgent": false
    },
    {
@@ -122,8 +122,8 @@
      "crypto_mm"
     ],
     "phase": "closing",
-    "days": 60,
-    "says": "closing \u2014 about 60 days of the window left",
+    "days": 59,
+    "says": "closing \u2014 about 59 days of the window left",
     "urgent": false
    },
    {
@@ -143,8 +143,8 @@
      "bank"
     ],
     "phase": "closing",
-    "days": 60,
-    "says": "closing \u2014 about 60 days of the window left",
+    "days": 59,
+    "says": "closing \u2014 about 59 days of the window left",
     "urgent": false
    }
   ],
@@ -177,7 +177,7 @@
     "url": "https://careers.sig.com/jobs/11377?lang=en-us",
     "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
     "deadline": "2026-10-05",
-    "days_left": 4
+    "days_left": 3
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -185,7 +185,7 @@
     "url": "https://careers.sig.com/jobs/11378?lang=en-us",
     "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
     "deadline": "2026-10-05",
-    "days_left": 4
+    "days_left": 3
    },
    {
     "firm": "Glencore UK",
@@ -193,7 +193,7 @@
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
     "location": "London, UK",
     "deadline": "2026-10-09",
-    "days_left": 8
+    "days_left": 7
    },
    {
     "firm": "Robinhood",
@@ -201,7 +201,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738",
     "location": "Menlo Park, CA",
     "deadline": "2026-10-12",
-    "days_left": 11
+    "days_left": 10
    },
    {
     "firm": "Robinhood",
@@ -209,7 +209,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142930?t=gh_src=&gh_jid=8142930",
     "location": "Toronto, Canada",
     "deadline": "2026-10-14",
-    "days_left": 13
+    "days_left": 12
    },
    {
     "firm": "Robinhood",
@@ -217,7 +217,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8199729?t=gh_src=&gh_jid=8199729",
     "location": "Toronto, Canada",
     "deadline": "2026-10-14",
-    "days_left": 13
+    "days_left": 12
    },
    {
     "firm": "Robinhood",
@@ -225,7 +225,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142961?t=gh_src=&gh_jid=8142961",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 13
+    "days_left": 12
    },
    {
     "firm": "Robinhood",
@@ -233,7 +233,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8123225?t=gh_src=&gh_jid=8123225",
     "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 13
+    "days_left": 12
    },
    {
     "firm": "Robinhood",
@@ -241,7 +241,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 13
+    "days_left": 12
    },
    {
     "firm": "Robinhood",
@@ -249,7 +249,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142963?t=gh_src=&gh_jid=8142963",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 13
+    "days_left": 12
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -257,7 +257,7 @@
     "url": "https://careers.sig.com/jobs/11203?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 151
+    "days_left": 150
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -265,7 +265,7 @@
     "url": "https://careers.sig.com/jobs/10839?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 151
+    "days_left": 150
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -273,43 +273,13 @@
     "url": "https://careers.sig.com/jobs/10840?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 151
+    "days_left": 150
    }
   ],
   "n_deadlines": 13,
   "note": "stated deadlines only; most boards publish none, and these roles close when full rather than on the advertised date"
  },
  "gaps": [
-  {
-   "key": "sitemap:https://search.jobs.barclays/sitemap.xml",
-   "firm": "Barclays",
-   "tier": "C",
-   "kind": "error",
-   "n_total": 1762,
-   "n_match": 55,
-   "n_off_desk": 78,
-   "reason": "source is error"
-  },
-  {
-   "key": "sitemap:https://careers.blackrock.com/sitemap.xml",
-   "firm": "BlackRock",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 553,
-   "n_match": 13,
-   "n_off_desk": 15,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs",
-   "firm": "Macquarie",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 286,
-   "n_match": 6,
-   "n_off_desk": 12,
-   "reason": "source is error"
-  },
   {
    "key": "greenhouse:janestreet",
    "firm": "Jane Street",
@@ -335,10 +305,10 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 198,
+   "n_total": 199,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "198 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "199 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "oracle:eofe.fa.us2.oraclecloud.com",
@@ -355,10 +325,10 @@
    "firm": "Capital Group",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 123,
+   "n_total": 124,
    "n_match": 0,
    "n_off_desk": 35,
-   "reason": "123 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "124 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -401,6 +371,26 @@
    "reason": "64 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "ashby:voleon",
+   "firm": "Voleon",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 62,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
+   "key": "greenhouse:virtu",
+   "firm": "Virtu Financial",
+   "tier": "A",
+   "kind": "error",
+   "n_total": 54,
+   "n_match": 18,
+   "n_off_desk": 0,
+   "reason": "source is error"
+  },
+  {
    "key": "workday:abrdn/wd3/abrdn",
    "firm": "abrdn",
    "tier": "C",
@@ -409,16 +399,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "41 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "linklist:https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-6f0048376f93/candidate/jobboard/vacancy/2/adv/",
-   "firm": "Bank of America",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 36,
-   "n_match": 6,
-   "n_off_desk": 3,
-   "reason": "source is error"
   },
   {
    "key": "lever:dexterity",
@@ -521,121 +501,11 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:adaptivefinancialconsulting",
-   "firm": "Adaptive Financial Consulting",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 23,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:alphagrepsecurities",
-   "firm": "AlphaGrep Securities",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 16,
-   "n_match": 2,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:dimensional",
-   "firm": "Dimensional",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 13,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://blackrock.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
-   "firm": "BlackRock",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 13,
-   "n_match": 1,
-   "n_off_desk": 12,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:bastion",
-   "firm": "Bastion Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 9,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "sitemap:https://www.mwam.com/internships-sitemap.xml",
-   "firm": "Marshall Wace",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 5,
-   "n_match": 5,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
    "kind": "error",
    "n_total": 4,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:b2c2",
-   "firm": "B2C2",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 4,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:boerboeltrading",
-   "firm": "Boerboel Trading",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 4,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "linklist:https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/",
-   "firm": "Nomura",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 4,
-   "n_match": 4,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "greenhouse:magnetar",
-   "firm": "Magnetar",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 3,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is error"
-  },
-  {
-   "key": "ashby:ocean",
-   "firm": "Ocean Partners",
-   "tier": "B",
-   "kind": "error",
-   "n_total": 1,
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "source is error"
@@ -647,8 +517,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-01T14:46:15.273593+00:00",
-   "last_change_detected": "2026-10-01T14:17:10.757497+00:00",
+   "last_checked_by_bell": "2026-10-01T21:46:05.399111+00:00",
+   "last_change_detected": "2026-10-01T21:46:05.399111+00:00",
    "categories": [
     "prop"
    ]
@@ -658,7 +528,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-01T18:56:02.804209+00:00",
+   "last_checked_by_bell": "2026-10-01T21:47:23.963617+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -669,7 +539,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-01T16:30:57.838023+00:00",
+   "last_checked_by_bell": "2026-10-01T21:45:17.408302+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -691,7 +561,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-01T16:31:19.827019+00:00",
+   "last_checked_by_bell": "2026-10-01T21:45:36.599585+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -713,7 +583,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-01T16:53:42.585698+00:00",
+   "last_checked_by_bell": "2026-10-01T21:45:44.260370+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -768,7 +638,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-01T17:54:59.354622+00:00",
+   "last_checked_by_bell": "2026-10-01T21:46:18.472247+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -790,7 +660,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-01T18:11:43.354010+00:00",
+   "last_checked_by_bell": "2026-10-01T21:46:47.605480+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -856,7 +726,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-01T18:56:15.460225+00:00",
+   "last_checked_by_bell": "2026-10-01T21:47:35.332097+00:00",
    "last_change_detected": "2026-10-01T17:54:48.043353+00:00",
    "categories": [
     "bank"
@@ -875,6 +745,42 @@
   }
  ],
  "items": [
+  {
+   "firm": "Squarepoint Capital",
+   "title": "Equities Analyst Summer Internship Program",
+   "url": "https://www.squarepoint-capital.com/open-opportunities?id=8174630&gh_jid=8174630",
+   "location": "New York, London",
+   "opened_at": "2026-10-02T03:56:21+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-10-02T04:51:20.276599+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "reason": "intern + asset class",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "A"
+  },
+  {
+   "firm": "Graviton Research",
+   "title": "Graduate Central Execution Trader",
+   "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8862376002",
+   "location": "Singapore",
+   "opened_at": "2026-10-02T02:07:12+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-10-02T03:44:11.786026+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "reason": "graduate + trading",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
   {
    "firm": "IMC Trading",
    "title": "AAR - 2027 - Graduate Trader",
@@ -2203,42 +2109,6 @@
    "stage": "intern",
    "desk": "engineering",
    "reason": "intern + engineer",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "DV Trading",
-   "title": "Client Platforms Engineer Intern - Summer 2027",
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4732683005",
-   "location": "Chicago",
-   "opened_at": "2026-09-10T14:06:46+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-10T14:08:06.519491+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Susquehanna (SIG)",
-   "title": "Hong Kong PhD Discovery Program: April 2027",
-   "url": "https://careers.sig.com/jobs/11495?lang=en-us",
-   "location": "Hong Kong, UNAVAILABLE, Hong Kong",
-   "opened_at": "2026-09-10T05:42:00+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-11T17:14:38.790878+00:00",
-   "date_basis": "published",
-   "deadline": "2027-09-10T05:42:58+00:00",
-   "strength": "strong",
-   "stage": "spring",
-   "desk": null,
-   "reason": "insight programme + firm-wide programme",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
@@ -4716,7 +4586,7 @@
    "location": "",
    "opened_at": null,
    "opened_exact": false,
-   "first_seen_at": "2026-10-01T14:17:10.757497+00:00",
+   "first_seen_at": "2026-10-01T21:46:05.399111+00:00",
    "date_basis": "first seen",
    "deadline": null,
    "strength": "strong",
@@ -5918,7 +5788,7 @@
   {
    "firm": "Fidelity International",
    "title": "Fixed Income Off-Cycle Internship Programme 2027 - Hong Kong",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-e3880252869c/candidate/so/pm/1/pl/1/opp/1396-Fixed-Income-Off-Cycle-Internship-Programme-2027-Hong-Kong/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-c5188514de3c/candidate/so/pm/1/pl/1/opp/1396-Fixed-Income-Off-Cycle-Internship-Programme-2027-Hong-Kong/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5936,7 +5806,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-e3880252869c/candidate/so/pm/1/pl/1/opp/1405-Equity-Research-Summer-Internship-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-c5188514de3c/candidate/so/pm/1/pl/1/opp/1405-Equity-Research-Summer-Internship-Programme-2027-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5954,7 +5824,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Graduate Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-e3880252869c/candidate/so/pm/1/pl/1/opp/1406-Equity-Research-Graduate-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-c5188514de3c/candidate/so/pm/1/pl/1/opp/1406-Equity-Research-Graduate-Programme-2027-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5972,7 +5842,7 @@
   {
    "firm": "Fidelity International",
    "title": "Fixed Income Summer Internship Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-e3880252869c/candidate/so/pm/1/pl/1/opp/1409-Fixed-Income-Summer-Internship-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-c5188514de3c/candidate/so/pm/1/pl/1/opp/1409-Fixed-Income-Summer-Internship-Programme-2027-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5990,7 +5860,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - Hong Kong",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-e3880252869c/candidate/so/pm/1/pl/1/opp/1394-Equity-Research-Summer-Internship-Programme-2027-Hong-Kong/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-c5188514de3c/candidate/so/pm/1/pl/1/opp/1394-Equity-Research-Summer-Internship-Programme-2027-Hong-Kong/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6008,7 +5878,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - Singapore",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-e3880252869c/candidate/so/pm/1/pl/1/opp/1393-Equity-Research-Summer-Internship-Programme-2027-Singapore/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-c5188514de3c/candidate/so/pm/1/pl/1/opp/1393-Equity-Research-Summer-Internship-Programme-2027-Singapore/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6026,7 +5896,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - China, Shanghai",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-e3880252869c/candidate/so/pm/1/pl/1/opp/1404-Equity-Research-Summer-Internship-Programme-2027-China-Shanghai/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-c5188514de3c/candidate/so/pm/1/pl/1/opp/1404-Equity-Research-Summer-Internship-Programme-2027-China-Shanghai/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6044,7 +5914,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - Japan, Tokyo",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-e3880252869c/candidate/so/pm/1/pl/1/opp/1395-Equity-Research-Summer-Internship-Programme-2027-Japan-Tokyo/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-c5188514de3c/candidate/so/pm/1/pl/1/opp/1395-Equity-Research-Summer-Internship-Programme-2027-Japan-Tokyo/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
