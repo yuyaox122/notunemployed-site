@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-03T00:00:58.584536+00:00",
+ "generated_at": "2026-10-03T00:40:32.889810+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
   "uk": 127,
   "uk_unstated": 218,
-  "seen_24h": 511,
+  "seen_24h": 514,
   "truncated": true,
   "total": 833,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21937
+  "postings_tracked": 21940
  },
  "detection": {
   "mean_latency_s": 56460.7,
@@ -58,7 +58,7 @@
    ],
    "n_gaps": 46,
    "longest_gap_s": 7007,
-   "blind_s": 63971
+   "blind_s": 62515
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -518,7 +518,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T23:31:55.571601+00:00",
+   "last_checked_by_bell": "2026-10-03T00:01:29.220617+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -529,7 +529,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-02T23:48:34.952489+00:00",
+   "last_checked_by_bell": "2026-10-03T00:39:46.481392+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -551,7 +551,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-02T23:48:47.877108+00:00",
+   "last_checked_by_bell": "2026-10-03T00:39:51.396331+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -573,7 +573,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-02T23:54:32.089967+00:00",
+   "last_checked_by_bell": "2026-10-03T00:39:59.745085+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -716,7 +716,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-02T23:32:09.549508+00:00",
+   "last_checked_by_bell": "2026-10-03T00:08:29.090982+00:00",
    "last_change_detected": "2026-10-02T16:13:22.465787+00:00",
    "categories": [
     "bank"
@@ -7613,7 +7613,7 @@
   },
   {
    "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is closing \u2014 about 121 days of the window left. No automated access; check by hand.",
+   "title": "BNP Paribas \u2014 Spring week / insight programme window is closing \u2014 about 120 days of the window left. No automated access; check by hand.",
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "location": "",
    "opened_at": null,
