@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-03T01:06:20.244982+00:00",
+ "generated_at": "2026-10-03T02:10:06.484265+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
   "uk": 127,
   "uk_unstated": 218,
-  "seen_24h": 515,
+  "seen_24h": 516,
   "truncated": true,
   "total": 833,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21941
+  "postings_tracked": 21942
  },
  "detection": {
   "mean_latency_s": 56221.1,
@@ -56,9 +56,9 @@
      "seconds": 3213
     }
    ],
-   "n_gaps": 47,
+   "n_gaps": 49,
    "longest_gap_s": 7007,
-   "blind_s": 59967
+   "blind_s": 62713
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -518,7 +518,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-03T00:01:29.220617+00:00",
+   "last_checked_by_bell": "2026-10-03T01:24:36.374202+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -650,7 +650,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-02T23:59:35.939059+00:00",
+   "last_checked_by_bell": "2026-10-03T01:08:23.197216+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -716,7 +716,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-03T00:08:29.090982+00:00",
+   "last_checked_by_bell": "2026-10-03T01:54:56.742850+00:00",
    "last_change_detected": "2026-10-02T16:13:22.465787+00:00",
    "categories": [
     "bank"
@@ -7577,7 +7577,7 @@
   },
   {
    "firm": "Morgan Stanley",
-   "title": "Morgan Stanley \u2014 Spring week / insight programme window is closing \u2014 about 121 days of the window left. No automated access; check by hand.",
+   "title": "Morgan Stanley \u2014 Spring week / insight programme window is closing \u2014 about 120 days of the window left. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "location": "",
    "opened_at": null,
