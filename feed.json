@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-10-03T00:40:32.889810+00:00",
+ "generated_at": "2026-10-03T01:06:20.244982+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
   "uk": 127,
   "uk_unstated": 218,
-  "seen_24h": 514,
+  "seen_24h": 515,
   "truncated": true,
   "total": 833,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21940
+  "postings_tracked": 21941
  },
  "detection": {
-  "mean_latency_s": 56460.7,
-  "sampled": 234,
+  "mean_latency_s": 56221.1,
+  "sampled": 235,
   "by_tier": {
    "A": {
-    "mean_latency_s": 29321.2,
-    "sampled": 93
+    "mean_latency_s": 29010.9,
+    "sampled": 94
    },
    "B": {
     "mean_latency_s": 74361.2,
@@ -41,11 +41,6 @@
      "seconds": 5559
     },
     {
-     "from": "2026-10-02T00:57:24.778817+00:00",
-     "to": "2026-10-02T02:02:01.643096+00:00",
-     "seconds": 3877
-    },
-    {
      "from": "2026-10-02T11:44:46.460378+00:00",
      "to": "2026-10-02T12:45:04.279575+00:00",
      "seconds": 3618
@@ -54,11 +49,16 @@
      "from": "2026-10-02T02:47:03.242308+00:00",
      "to": "2026-10-02T03:44:01.777986+00:00",
      "seconds": 3419
+    },
+    {
+     "from": "2026-10-02T04:51:20.276599+00:00",
+     "to": "2026-10-02T05:44:53.588569+00:00",
+     "seconds": 3213
     }
    ],
-   "n_gaps": 46,
+   "n_gaps": 47,
    "longest_gap_s": 7007,
-   "blind_s": 62515
+   "blind_s": 59967
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -507,7 +507,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T23:54:55.694060+00:00",
+   "last_checked_by_bell": "2026-10-03T01:06:00.980916+00:00",
    "last_change_detected": "2026-10-02T21:23:14.295993+00:00",
    "categories": [
     "prop"
@@ -628,7 +628,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-02T23:55:08.678670+00:00",
+   "last_checked_by_bell": "2026-10-03T01:06:14.720740+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -7595,7 +7595,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is closing \u2014 about 121 days of the window left. No automated access; check by hand.",
+   "title": "Goldman Sachs \u2014 Spring week / insight programme window is closing \u2014 about 120 days of the window left. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "opened_at": null,
