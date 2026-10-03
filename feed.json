@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-02T21:40:01.071237+00:00",
+ "generated_at": "2026-10-03T00:00:58.584536+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
   "uk": 127,
   "uk_unstated": 218,
-  "seen_24h": 574,
+  "seen_24h": 511,
   "truncated": true,
-  "total": 832,
+  "total": 833,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 21902
+  "postings_tracked": 21937
  },
  "detection": {
-  "mean_latency_s": 56227.0,
-  "sampled": 235,
+  "mean_latency_s": 56460.7,
+  "sampled": 234,
   "by_tier": {
    "A": {
     "mean_latency_s": 29321.2,
     "sampled": 93
    },
    "B": {
-    "mean_latency_s": 73848.5,
-    "sampled": 142
+    "mean_latency_s": 74361.2,
+    "sampled": 141
    }
   },
   "watch": {
@@ -41,11 +41,6 @@
      "seconds": 5559
     },
     {
-     "from": "2026-10-01T22:03:01.972953+00:00",
-     "to": "2026-10-01T23:31:41.956198+00:00",
-     "seconds": 5320
-    },
-    {
      "from": "2026-10-02T00:57:24.778817+00:00",
      "to": "2026-10-02T02:02:01.643096+00:00",
      "seconds": 3877
@@ -54,11 +49,16 @@
      "from": "2026-10-02T11:44:46.460378+00:00",
      "to": "2026-10-02T12:45:04.279575+00:00",
      "seconds": 3618
+    },
+    {
+     "from": "2026-10-02T02:47:03.242308+00:00",
+     "to": "2026-10-02T03:44:01.777986+00:00",
+     "seconds": 3419
     }
    ],
-   "n_gaps": 44,
+   "n_gaps": 46,
    "longest_gap_s": 7007,
-   "blind_s": 69969
+   "blind_s": 63971
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -79,8 +79,8 @@
      "spring"
     ],
     "phase": "closing",
-    "days": 121,
-    "says": "closing \u2014 about 121 days of the window left",
+    "days": 120,
+    "says": "closing \u2014 about 120 days of the window left",
     "urgent": false
    },
    {
@@ -100,8 +100,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 110,
-    "says": "closed about 110 days ago",
+    "days": 111,
+    "says": "closed about 111 days ago",
     "urgent": false
    },
    {
@@ -122,8 +122,8 @@
      "crypto_mm"
     ],
     "phase": "closing",
-    "days": 59,
-    "says": "closing \u2014 about 59 days of the window left",
+    "days": 58,
+    "says": "closing \u2014 about 58 days of the window left",
     "urgent": false
    },
    {
@@ -143,8 +143,8 @@
      "bank"
     ],
     "phase": "closing",
-    "days": 59,
-    "says": "closing \u2014 about 59 days of the window left",
+    "days": 58,
+    "says": "closing \u2014 about 58 days of the window left",
     "urgent": false
    }
   ],
@@ -177,7 +177,7 @@
     "url": "https://careers.sig.com/jobs/11377?lang=en-us",
     "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
     "deadline": "2026-10-05",
-    "days_left": 3
+    "days_left": 2
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -185,7 +185,7 @@
     "url": "https://careers.sig.com/jobs/11378?lang=en-us",
     "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
     "deadline": "2026-10-05",
-    "days_left": 3
+    "days_left": 2
    },
    {
     "firm": "Glencore UK",
@@ -193,7 +193,7 @@
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
     "location": "London, UK",
     "deadline": "2026-10-09",
-    "days_left": 7
+    "days_left": 6
    },
    {
     "firm": "Robinhood",
@@ -201,7 +201,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738",
     "location": "Menlo Park, CA",
     "deadline": "2026-10-12",
-    "days_left": 10
+    "days_left": 9
    },
    {
     "firm": "Robinhood",
@@ -209,7 +209,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142930?t=gh_src=&gh_jid=8142930",
     "location": "Toronto, Canada",
     "deadline": "2026-10-14",
-    "days_left": 12
+    "days_left": 11
    },
    {
     "firm": "Robinhood",
@@ -217,7 +217,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8199729?t=gh_src=&gh_jid=8199729",
     "location": "Toronto, Canada",
     "deadline": "2026-10-14",
-    "days_left": 12
+    "days_left": 11
    },
    {
     "firm": "Robinhood",
@@ -225,7 +225,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142961?t=gh_src=&gh_jid=8142961",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 12
+    "days_left": 11
    },
    {
     "firm": "Robinhood",
@@ -233,7 +233,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8123225?t=gh_src=&gh_jid=8123225",
     "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 12
+    "days_left": 11
    },
    {
     "firm": "Robinhood",
@@ -241,7 +241,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 12
+    "days_left": 11
    },
    {
     "firm": "Robinhood",
@@ -249,7 +249,7 @@
     "url": "https://boards.greenhouse.io/robinhood/jobs/8142963?t=gh_src=&gh_jid=8142963",
     "location": "Menlo Park, CA; New York, NY",
     "deadline": "2026-10-14",
-    "days_left": 12
+    "days_left": 11
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -257,7 +257,7 @@
     "url": "https://careers.sig.com/jobs/11203?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 150
+    "days_left": 149
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -265,7 +265,7 @@
     "url": "https://careers.sig.com/jobs/10839?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 150
+    "days_left": 149
    },
    {
     "firm": "Susquehanna (SIG)",
@@ -273,7 +273,7 @@
     "url": "https://careers.sig.com/jobs/10840?lang=en-us",
     "location": "Dublin, UNAVAILABLE, Ireland",
     "deadline": "2027-03-01",
-    "days_left": 150
+    "days_left": 149
    }
   ],
   "n_deadlines": 13,
@@ -325,10 +325,10 @@
    "firm": "Capital Group",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 128,
+   "n_total": 131,
    "n_match": 0,
    "n_off_desk": 35,
-   "reason": "128 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "131 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -385,10 +385,10 @@
    "firm": "Dexterity Capital",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 33,
+   "n_total": 34,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "34 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:troweprice/wd5/TRowePriceInternational",
@@ -507,7 +507,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T21:34:34.671318+00:00",
+   "last_checked_by_bell": "2026-10-02T23:54:55.694060+00:00",
    "last_change_detected": "2026-10-02T21:23:14.295993+00:00",
    "categories": [
     "prop"
@@ -518,7 +518,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-02T21:39:35.606458+00:00",
+   "last_checked_by_bell": "2026-10-02T23:31:55.571601+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -529,7 +529,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-02T21:32:00.019044+00:00",
+   "last_checked_by_bell": "2026-10-02T23:48:34.952489+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -551,7 +551,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-02T21:32:11.546178+00:00",
+   "last_checked_by_bell": "2026-10-02T23:48:47.877108+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -573,7 +573,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-02T21:34:13.002991+00:00",
+   "last_checked_by_bell": "2026-10-02T23:54:32.089967+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -628,7 +628,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-02T21:37:16.281828+00:00",
+   "last_checked_by_bell": "2026-10-02T23:55:08.678670+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -650,7 +650,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-02T21:38:59.747877+00:00",
+   "last_checked_by_bell": "2026-10-02T23:59:35.939059+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -716,7 +716,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-02T21:39:48.557605+00:00",
+   "last_checked_by_bell": "2026-10-02T23:32:09.549508+00:00",
    "last_change_detected": "2026-10-02T16:13:22.465787+00:00",
    "categories": [
     "bank"
