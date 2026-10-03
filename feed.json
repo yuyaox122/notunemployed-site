@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T07:25:01.169219+00:00",
+ "generated_at": "2026-10-03T07:30:00.824625+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
@@ -401,16 +401,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:pimco/wd1/pimco-careers",
-   "firm": "PIMCO",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 84,
-   "n_match": 6,
-   "n_off_desk": 23,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:centrica/wd3/Centrica",
    "firm": "Centrica Energy Trading",
    "tier": "C",
@@ -461,16 +451,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:hl/wd1/Campus",
-   "firm": "Houlihan Lokey",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 35,
-   "n_match": 21,
-   "n_off_desk": 4,
-   "reason": "source is blocked"
-  },
-  {
    "key": "lever:dexterity",
    "firm": "Dexterity Capital",
    "tier": "B",
@@ -494,11 +474,11 @@
    "key": "workday:carlyle/wd1/Carlyle",
    "firm": "The Carlyle Group",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "off-desk-only",
    "n_total": 32,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "source is blocked"
+   "reason": "32 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:mlp.eightfold.ai",
@@ -534,11 +514,11 @@
    "key": "workday:baincapital/wd1/External_Public",
    "firm": "Bain Capital",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "no-early-careers",
    "n_total": 28,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is blocked"
+   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "ashby:amber",
@@ -591,16 +571,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:peak6group/wd1/peak6",
-   "firm": "PEAK6",
-   "tier": "B",
-   "kind": "blocked",
-   "n_total": 23,
-   "n_match": 3,
-   "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:shell/wd3/ShellCareers",
    "firm": "Shell",
    "tier": "C",
@@ -608,16 +578,6 @@
    "n_total": 23,
    "n_match": 0,
    "n_off_desk": 4,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:pjtpartners/wd1/Students",
-   "firm": "PJT Partners",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 20,
-   "n_match": 4,
-   "n_off_desk": 7,
    "reason": "source is blocked"
   },
   {
@@ -728,7 +688,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-03T06:52:18.355179+00:00",
+   "last_checked_by_bell": "2026-10-03T07:25:24.290960+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -926,7 +886,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-03T06:52:28.861972+00:00",
+   "last_checked_by_bell": "2026-10-03T07:25:32.905561+00:00",
    "last_change_detected": "2026-10-02T16:13:22.465787+00:00",
    "categories": [
     "bank"
