@@ -1,7 +1,7 @@
 // bell — PWA front end. No framework, no build step: this file is served as-is by
 // GitHub Pages, which is the whole reason the project needs no node toolchain.
 //
-// Paste the key printed by `python3 -m bell.notify keys` here.
+// Paste the key printed by `python3 -m bell notify keys` here.
 const VAPID_PUBLIC_KEY = "BKB1-4MLVE0uGXfpcSvxeOdtcKjagW0rREYZxwT3Q3NrDGuB1FmktBkZlJaFNn6Rz1zJriZ1p8dIBSWioyn0N2I";
 
 const $ = (id) => document.getElementById(id);
@@ -785,7 +785,7 @@ $("fNotify").addEventListener("click", async () => {
   const note = $("note");
   if (!VAPID_PUBLIC_KEY) {
     note.textContent = "Set VAPID_PUBLIC_KEY in app.js first "
-      + "(python3 -m bell.notify keys).";
+      + "(python3 -m bell notify keys).";
     return;
   }
   if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
@@ -804,7 +804,7 @@ $("fNotify").addEventListener("click", async () => {
     });
     const json = JSON.stringify(sub.toJSON(), null, 1);
 
-    // Hand it straight to bell if this origin will take it. `python3 -m bell.notify
+    // Hand it straight to bell if this origin will take it. `python3 -m bell notify
     // serve` accepts POST /sub on localhost; GitHub Pages is static and will not,
     // so the manual path below stays as the fallback rather than the default. The
     // copy-and-carry step is why no push had ever reached a device.
@@ -818,7 +818,7 @@ $("fNotify").addEventListener("click", async () => {
 
     if (posted) {
       note.innerHTML = "Subscribed — bell has this device. Prove it end to end with "
-        + "<code>python3 -m bell.notify test</code>.";
+        + "<code>python3 -m bell notify test</code>.";
       return;
     }
     // Static host. Show the JSON as selectable text as well as copying it: the
@@ -832,7 +832,7 @@ $("fNotify").addEventListener("click", async () => {
                   border:1px solid var(--line);border-radius:8px;padding:6px;
                   background:var(--bg);color:var(--ink)">${esc(json)}</textarea>`
       + "Save it as <code>subs/phone.json</code> in the repo, or run "
-      + "<code>python3 -m bell.notify addsub --file phone.json</code>.";
+      + "<code>python3 -m bell notify addsub --file phone.json</code>.";
   } catch (e) {
     note.textContent = "Subscribe failed: " + e.message;
   }
