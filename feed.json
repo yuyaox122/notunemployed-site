@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T07:08:41.868598+00:00",
+ "generated_at": "2026-10-03T07:20:17.851474+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
@@ -56,9 +56,9 @@
      "seconds": 1875
     }
    ],
-   "n_gaps": 54,
+   "n_gaps": 56,
    "longest_gap_s": 7007,
-   "blind_s": 58802
+   "blind_s": 60114
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -344,21 +344,11 @@
    "key": "workday:capgroup/wd1/capitalgroupcareers",
    "firm": "Capital Group",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "off-desk-only",
    "n_total": 131,
    "n_match": 0,
    "n_off_desk": 35,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:invesco/wd1/IVZ",
-   "firm": "Invesco",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 107,
-   "n_match": 3,
-   "n_off_desk": 13,
-   "reason": "source is blocked"
+   "reason": "131 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:wellington/wd5/External",
@@ -434,11 +424,11 @@
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
    "firm": "AllianceBernstein",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "no-early-careers",
    "n_total": 64,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is blocked"
+   "reason": "64 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:cibc/wd3/campus",
@@ -519,16 +509,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "30 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "workday:blackstone/wd1/Blackstone_Campus_Careers",
-   "firm": "Blackstone",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 30,
-   "n_match": 11,
-   "n_off_desk": 11,
-   "reason": "source is blocked"
   },
   {
    "key": "greenhouse:stxgroup",
@@ -681,26 +661,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:aresmgmt/wd1/External",
-   "firm": "Ares Management",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 9,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:edftrading/wd1/EDFTrading",
-   "firm": "EDF Trading",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 5,
-   "n_match": 0,
-   "n_off_desk": 2,
-   "reason": "source is blocked"
-  },
-  {
    "key": "ashby:act",
    "firm": "ACT Group",
    "tier": "B",
@@ -747,7 +707,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-03T06:33:07.798484+00:00",
+   "last_checked_by_bell": "2026-10-03T07:16:57.698362+00:00",
    "last_change_detected": "2026-10-02T21:23:14.295993+00:00",
    "categories": [
     "prop"
@@ -769,7 +729,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-03T05:51:40.894742+00:00",
+   "last_checked_by_bell": "2026-10-03T07:15:14.688377+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -791,7 +751,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-03T06:32:58.054376+00:00",
+   "last_checked_by_bell": "2026-10-03T07:15:25.610413+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -813,7 +773,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-03T06:33:00.008472+00:00",
+   "last_checked_by_bell": "2026-10-03T07:15:31.453423+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -868,7 +828,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-03T06:50:26.202646+00:00",
+   "last_checked_by_bell": "2026-10-03T07:17:09.794446+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -4830,7 +4790,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off-Cycle Internship - Benelux Team, Amsterdam (Q2 - April - June)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1994-2027-Investment-Banking-Off-Cycle-Internship-Benelux-Team-Amsterdam-Q2-April-June/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1994-2027-Investment-Banking-Off-Cycle-Internship-Benelux-Team-Amsterdam-Q2-April-June/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5082,7 +5042,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equities Sales & Trading Summer Analyst Program - Cash Trading - Hong Kong",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1997-2027-Equities-Sales-Trading-Summer-Analyst-Program-Cash-Trading-Hong-Kong/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1997-2027-Equities-Sales-Trading-Summer-Analyst-Program-Cash-Trading-Hong-Kong/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5244,7 +5204,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equities Sales & Trading Summer Analyst Program - Prime Services - Hong Kong",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1992-2027-Equities-Sales-Trading-Summer-Analyst-Program-Prime-Services-Hong-Kong/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1992-2027-Equities-Sales-Trading-Summer-Analyst-Program-Prime-Services-Hong-Kong/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5424,7 +5384,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Summer Analyst Program - Hong Kong",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1984-2027-Equity-Research-Summer-Analyst-Program-Hong-Kong/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1984-2027-Equity-Research-Summer-Analyst-Program-Hong-Kong/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5514,7 +5474,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Summer Analyst Program - Singapore",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1985-2027-Equity-Research-Summer-Analyst-Program-Singapore/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1985-2027-Equity-Research-Summer-Analyst-Program-Singapore/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5694,7 +5654,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Summer Analyst Program - Investment Banking - Hong Kong",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1814-2027-Summer-Analyst-Program-Investment-Banking-Hong-Kong/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1814-2027-Summer-Analyst-Program-Investment-Banking-Hong-Kong/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5712,7 +5672,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Summer Analyst Program - Investment Banking - Singapore",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1815-2027-Summer-Analyst-Program-Investment-Banking-Singapore/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1815-2027-Summer-Analyst-Program-Investment-Banking-Singapore/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6864,7 +6824,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Summer Analyst Program - Investment Banking - Japan",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1816-2027-Summer-Analyst-Program-Investment-Banking-Japan/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1816-2027-Summer-Analyst-Program-Investment-Banking-Japan/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6882,7 +6842,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Quant Masters Summer Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1953-2027-Quant-Masters-Summer-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1953-2027-Quant-Masters-Summer-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6900,7 +6860,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6918,7 +6878,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Sales and Trading Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1930-2027-Equity-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1930-2027-Equity-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6936,7 +6896,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1792-2027-Investment-Banking-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1792-2027-Investment-Banking-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6954,7 +6914,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Private Fund Advisory Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1927-2027-Private-Fund-Advisory-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1927-2027-Private-Fund-Advisory-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6972,7 +6932,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Private Credit Investment Summer Internship Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -6990,7 +6950,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Spring Week Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1933-2027-Equity-Research-Spring-Week-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1933-2027-Equity-Research-Spring-Week-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7008,7 +6968,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Spring Week Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1934-2027-Investment-Banking-Spring-Week-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1934-2027-Investment-Banking-Spring-Week-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7026,7 +6986,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off-Cycle Internship Programme Paris - Generalist Team (January start)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1821-2027-Investment-Banking-Off-Cycle-Internship-Programme-Paris-Generalist-Team-January-start/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1821-2027-Investment-Banking-Off-Cycle-Internship-Programme-Paris-Generalist-Team-January-start/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7044,7 +7004,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off Cycle Internship Programme Paris \u2013 Consumer Team (January start)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1822-2027-Investment-Banking-Off-Cycle-Internship-Programme-Paris-Consumer-Team-January-start/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1822-2027-Investment-Banking-Off-Cycle-Internship-Programme-Paris-Consumer-Team-January-start/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7062,7 +7022,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Capital Structure Solutions Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1909-2027-Investment-Banking-Summer-Associate-Program-Capital-Structure-Solutions-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1909-2027-Investment-Banking-Summer-Associate-Program-Capital-Structure-Solutions-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7080,7 +7040,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 New York, Financial Institutions Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1910-2027-Investment-Banking-Summer-Associate-Program-New-York-Financial-Institutions-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1910-2027-Investment-Banking-Summer-Associate-Program-New-York-Financial-Institutions-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7098,7 +7058,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 San Francisco, Technology, Media & Telecom Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1911-2027-Investment-Banking-Summer-Associate-Program-San-Francisco-Technology-Media-Telecom-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1911-2027-Investment-Banking-Summer-Associate-Program-San-Francisco-Technology-Media-Telecom-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7116,7 +7076,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Charlotte, Aerospace, Defense & Government Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1903-2027-Investment-Banking-Summer-Associate-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1903-2027-Investment-Banking-Summer-Associate-Program-Charlotte-Aerospace-Defense-Government-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7134,7 +7094,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Charlotte or New York, Real Estate, Gaming & Lodging Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1905-2027-Investment-Banking-Summer-Associate-Program-Charlotte-or-New-York-Real-Estate-Gaming-Lodging-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1905-2027-Investment-Banking-Summer-Associate-Program-Charlotte-or-New-York-Real-Estate-Gaming-Lodging-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7152,7 +7112,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Charlotte, Technology, Media & Telecom Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1906-2027-Investment-Banking-Summer-Associate-Program-Charlotte-Technology-Media-Telecom-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1906-2027-Investment-Banking-Summer-Associate-Program-Charlotte-Technology-Media-Telecom-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7170,7 +7130,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Houston, Energy Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1907-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1907-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7188,7 +7148,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Chicago, Industrials Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1914-2027-Investment-Banking-Summer-Associate-Program-Chicago-Industrials-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1914-2027-Investment-Banking-Summer-Associate-Program-Chicago-Industrials-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7206,7 +7166,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Houston, Energy Transition Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1908-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Transition-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1908-2027-Investment-Banking-Summer-Associate-Program-Houston-Energy-Transition-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7224,7 +7184,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 New York, Generalist",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1912-2027-Investment-Banking-Summer-Associate-Program-New-York-Generalist/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1912-2027-Investment-Banking-Summer-Associate-Program-New-York-Generalist/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7242,7 +7202,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Summer Associate Program \u2013 Charlotte, Consumer & Retail Group",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1904-2027-Investment-Banking-Summer-Associate-Program-Charlotte-Consumer-Retail-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1904-2027-Investment-Banking-Summer-Associate-Program-Charlotte-Consumer-Retail-Group/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7260,7 +7220,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off-Cycle Internship - Madrid, Country Coverage Team (February/August start)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1823-2027-Investment-Banking-Off-Cycle-Internship-Madrid-Country-Coverage-Team-February-August-start/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1823-2027-Investment-Banking-Off-Cycle-Internship-Madrid-Country-Coverage-Team-February-August-start/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7278,7 +7238,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Private Credit Investment Analyst Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1949-2027-Private-Credit-Investment-Analyst-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1949-2027-Private-Credit-Investment-Analyst-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7314,7 +7274,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Equity Research Analyst Programme - London",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1936-2027-Equity-Research-Analyst-Programme-London/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1936-2027-Equity-Research-Analyst-Programme-London/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7332,7 +7292,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off Cycle Internship Programme - VARIOUS Groups London (Feb Start Date)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1799-2027-Investment-Banking-Off-Cycle-Internship-Programme-VARIOUS-Groups-London-Feb-Start-Date/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1799-2027-Investment-Banking-Off-Cycle-Internship-Programme-VARIOUS-Groups-London-Feb-Start-Date/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7350,7 +7310,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off-Cycle Internship \u2013 Zurich (Q1)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1952-2027-Investment-Banking-Off-Cycle-Internship-Zurich-Q1/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1952-2027-Investment-Banking-Off-Cycle-Internship-Zurich-Q1/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7368,7 +7328,7 @@
   {
    "firm": "Jefferies",
    "title": "Tel Aviv - 2026 Investment Banking Off Cycle Internship Programme (November start)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1926-Tel-Aviv-2026-Investment-Banking-Off-Cycle-Internship-Programme-November-start/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1926-Tel-Aviv-2026-Investment-Banking-Off-Cycle-Internship-Programme-November-start/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7386,7 +7346,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off Cycle Internship Programme - Dubai, MENA (January - June 2027)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-5eaefa78fc33/candidate/so/pm/1/pl/2/opp/1838-2027-Investment-Banking-Off-Cycle-Internship-Programme-Dubai-MENA-January-June-2027/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1838-2027-Investment-Banking-Off-Cycle-Internship-Programme-Dubai-MENA-January-June-2027/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7404,7 +7364,7 @@
   {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off-Cycle Internship - Global Agriculture Team, Amsterdam (January - April)",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-3d7d61e67e68/candidate/so/pm/1/pl/2/opp/1958-2027-Investment-Banking-Off-Cycle-Internship-Global-Agriculture-Team-Amsterdam-January-April/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-2e365e6c6bba/candidate/so/pm/1/pl/2/opp/1958-2027-Investment-Banking-Off-Cycle-Internship-Global-Agriculture-Team-Amsterdam-January-April/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
