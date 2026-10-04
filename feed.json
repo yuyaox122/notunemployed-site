@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-04T21:20:02.563503+00:00",
+ "generated_at": "2026-10-04T22:05:01.692654+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
-  "uk": 127,
+  "uk": 126,
   "uk_unstated": 219,
   "seen_24h": 68,
   "truncated": true,
-  "total": 825,
+  "total": 824,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 22027
+  "postings_tracked": 22028
  },
  "detection": {
   "mean_latency_s": 83670.9,
@@ -56,9 +56,9 @@
      "seconds": 1386
     }
    ],
-   "n_gaps": 60,
+   "n_gaps": 57,
    "longest_gap_s": 3271,
-   "blind_s": 47199
+   "blind_s": 45586
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -517,7 +517,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-04T21:15:49.911813+00:00",
+   "last_checked_by_bell": "2026-10-04T22:00:53.445266+00:00",
    "last_change_detected": "2026-10-02T21:23:14.295993+00:00",
    "categories": [
     "prop"
@@ -528,7 +528,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-04T21:16:57.082857+00:00",
+   "last_checked_by_bell": "2026-10-04T22:02:04.194348+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -539,7 +539,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-04T21:15:13.151363+00:00",
+   "last_checked_by_bell": "2026-10-04T22:00:15.289261+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -561,7 +561,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-04T21:15:24.617686+00:00",
+   "last_checked_by_bell": "2026-10-04T22:00:26.457743+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -583,7 +583,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-04T21:15:31.410716+00:00",
+   "last_checked_by_bell": "2026-10-04T22:00:33.586090+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -638,7 +638,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-04T21:16:02.106348+00:00",
+   "last_checked_by_bell": "2026-10-04T22:01:05.548714+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -660,7 +660,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-04T21:16:26.918940+00:00",
+   "last_checked_by_bell": "2026-10-04T22:01:29.751421+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -726,7 +726,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-04T21:17:06.944062+00:00",
+   "last_checked_by_bell": "2026-10-04T22:02:14.305296+00:00",
    "last_change_detected": "2026-10-02T16:13:22.465787+00:00",
    "categories": [
     "bank"
@@ -2040,6 +2040,24 @@
    "uk": false,
    "uk_stated": false,
    "tier": "B"
+  },
+  {
+   "firm": "Schonfeld",
+   "title": "2027 Platform Engineering Intern",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171699",
+   "location": "New York, New York, United States",
+   "opened_at": "2026-09-10T16:09:58+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-10T20:57:00.038678+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
   },
   {
    "firm": "DV Trading",
@@ -3927,24 +3945,6 @@
    "stage": "graduate",
    "desk": "markets",
    "reason": "graduate + markets",
-   "uk": true,
-   "uk_stated": true,
-   "tier": "B"
-  },
-  {
-   "firm": "Deutsche Bank",
-   "title": "Deutsche Bank Internship Programme \u2013 Investment Bank: Fixed Income and Currencies - London - 2027",
-   "url": "https://db.recsolu.com/external/requisitions/ToaTYkvg_PZKQ6Jnlh1P4w",
-   "location": "London, United Kingdom",
-   "opened_at": "2026-09-07T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-10T11:45:51.367443+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "markets",
-   "reason": "intern + asset class",
    "uk": true,
    "uk_stated": true,
    "tier": "B"
