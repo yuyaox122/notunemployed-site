@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-05T08:05:01.745113+00:00",
+ "generated_at": "2026-10-05T08:20:02.116012+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
   "uk": 127,
-  "uk_unstated": 219,
-  "seen_24h": 182,
+  "uk_unstated": 220,
+  "seen_24h": 191,
   "truncated": true,
-  "total": 827,
+  "total": 828,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 22152
+  "postings_tracked": 22161
  },
  "detection": {
   "mean_latency_s": 85804.2,
@@ -56,9 +56,9 @@
      "seconds": 717
     }
    ],
-   "n_gaps": 21,
+   "n_gaps": 20,
    "longest_gap_s": 3271,
-   "blind_s": 14561
+   "blind_s": 14055
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -501,7 +501,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T08:01:03.822443+00:00",
+   "last_checked_by_bell": "2026-10-05T08:15:53.389802+00:00",
    "last_change_detected": "2026-10-02T21:23:14.295993+00:00",
    "categories": [
     "prop"
@@ -512,7 +512,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T08:02:16.394636+00:00",
+   "last_checked_by_bell": "2026-10-05T08:17:08.183520+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -523,7 +523,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-05T08:00:21.875392+00:00",
+   "last_checked_by_bell": "2026-10-05T08:15:13.823645+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -545,7 +545,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T08:00:33.137961+00:00",
+   "last_checked_by_bell": "2026-10-05T08:15:25.500507+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -567,7 +567,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-05T08:00:41.767743+00:00",
+   "last_checked_by_bell": "2026-10-05T08:15:33.077866+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -622,7 +622,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-05T08:01:15.018402+00:00",
+   "last_checked_by_bell": "2026-10-05T08:16:04.849356+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -644,7 +644,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T08:01:42.246974+00:00",
+   "last_checked_by_bell": "2026-10-05T08:16:30.117430+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -710,8 +710,8 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-05T08:02:26.858865+00:00",
-   "last_change_detected": "2026-10-05T08:02:26.858865+00:00",
+   "last_checked_by_bell": "2026-10-05T08:17:19.268882+00:00",
+   "last_change_detected": "2026-10-05T08:17:19.268882+00:00",
    "categories": [
     "bank"
    ]
@@ -2006,24 +2006,6 @@
    "uk": false,
    "uk_stated": false,
    "tier": "A"
-  },
-  {
-   "firm": "Geneva Trading",
-   "title": "Quantitative Trading Internship \u2013 Summer 2027",
-   "url": "https://job-boards.greenhouse.io/genevatrading/jobs/5232641007",
-   "location": "Chicago Office",
-   "opened_at": "2026-09-10T18:20:09+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-10T21:01:13.238534+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "reason": "intern + quant",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "B"
   },
   {
    "firm": "DV Trading",
@@ -4471,6 +4453,24 @@
    "reason": "branded:spring insight + firm-wide programme",
    "uk": true,
    "uk_stated": true,
+   "tier": "B"
+  },
+  {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "Equity Research Intern (Bernstein - Hong Kong Summer 2027)",
+   "url": "https://careers.societegenerale.com/en/job-offers/equity-research-intern-bernstein-hong-kong-summer-2027-26000LB7-en",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-05T08:16:51.407099+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "intern + research",
+   "uk": true,
+   "uk_stated": false,
    "tier": "B"
   },
   {
