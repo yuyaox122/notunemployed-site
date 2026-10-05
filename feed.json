@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-05T18:50:01.735313+00:00",
+ "generated_at": "2026-10-05T19:15:02.228510+00:00",
  "counts": {
   "items": 400,
   "strong": 385,
   "uk": 128,
   "uk_unstated": 224,
-  "seen_24h": 517,
+  "seen_24h": 521,
   "truncated": true,
-  "total": 831,
+  "total": 830,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 9,
   "sources": 187,
-  "postings_tracked": 22537
+  "postings_tracked": 22541
  },
  "detection": {
   "mean_latency_s": 86713.3,
@@ -279,6 +279,16 @@
    "reason": "184 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:capgroup/wd1/capitalgroupcareers",
+   "firm": "Capital Group",
+   "tier": "C",
+   "kind": "off-desk-only",
+   "n_total": 136,
+   "n_match": 0,
+   "n_off_desk": 35,
+   "reason": "136 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
@@ -286,16 +296,6 @@
    "n_total": 134,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "134 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "workday:capgroup/wd1/capitalgroupcareers",
-   "firm": "Capital Group",
-   "tier": "C",
-   "kind": "off-desk-only",
-   "n_total": 134,
-   "n_match": 0,
-   "n_off_desk": 35,
    "reason": "134 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
@@ -475,7 +475,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T18:45:56.186871+00:00",
+   "last_checked_by_bell": "2026-10-05T19:01:01.582234+00:00",
    "last_change_detected": "2026-10-05T17:45:55.766523+00:00",
    "categories": [
     "prop"
@@ -486,7 +486,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T18:47:07.966845+00:00",
+   "last_checked_by_bell": "2026-10-05T19:02:18.633698+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -497,7 +497,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-05T18:45:16.622910+00:00",
+   "last_checked_by_bell": "2026-10-05T19:00:20.163894+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -508,7 +508,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T18:45:27.154727+00:00",
+   "last_checked_by_bell": "2026-10-05T19:00:32.008232+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -519,7 +519,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-05T18:45:35.688249+00:00",
+   "last_checked_by_bell": "2026-10-05T19:00:39.811280+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -530,7 +530,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-05T18:46:08.907909+00:00",
+   "last_checked_by_bell": "2026-10-05T19:01:17.967059+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -541,7 +541,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T18:46:33.452355+00:00",
+   "last_checked_by_bell": "2026-10-05T19:01:44.969888+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -552,7 +552,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-05T18:46:51.716741+00:00",
+   "last_checked_by_bell": "2026-10-05T19:02:01.842769+00:00",
    "last_change_detected": "2026-10-05T18:46:51.716741+00:00",
    "categories": [
     "bank"
@@ -563,7 +563,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-05T18:47:20.136455+00:00",
+   "last_checked_by_bell": "2026-10-05T19:02:32.321382+00:00",
    "last_change_detected": "2026-10-05T14:47:23.921135+00:00",
    "categories": [
     "bank"
@@ -911,24 +911,6 @@
    "reason": "intern + trading",
    "uk": true,
    "uk_stated": true,
-   "tier": "A"
-  },
-  {
-   "firm": "Schonfeld",
-   "title": "Entry Level Quantitative Researcher",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8236826",
-   "location": "New York, New York, United States",
-   "opened_at": "2026-09-28T13:56:53+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-28T14:19:01.713868+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "reason": "entry level + quant",
-   "uk": false,
-   "uk_stated": false,
    "tier": "A"
   },
   {
@@ -1776,6 +1758,24 @@
    "uk": true,
    "uk_stated": true,
    "tier": "A"
+  },
+  {
+   "firm": "Geneva Trading",
+   "title": "Graduate Junior Discretionary Trader - Dublin",
+   "url": "https://job-boards.greenhouse.io/genevatrading/jobs/5235738007",
+   "location": "Dublin Ireland Office",
+   "opened_at": "2026-09-11T16:49:20+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-11T17:04:39.349253+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "reason": "graduate + trading",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "B"
   },
   {
    "firm": "DV Trading",
