@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-05T17:05:02.139545+00:00",
+ "generated_at": "2026-10-05T17:50:02.034138+00:00",
  "counts": {
   "items": 400,
   "strong": 385,
   "uk": 128,
   "uk_unstated": 223,
-  "seen_24h": 467,
+  "seen_24h": 485,
   "truncated": true,
   "total": 831,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 9,
   "sources": 187,
-  "postings_tracked": 22482
+  "postings_tracked": 22502
  },
  "detection": {
-  "mean_latency_s": 86708.5,
+  "mean_latency_s": 86709.2,
   "sampled": 244,
   "by_tier": {
    "A": {
-    "mean_latency_s": 30646.2,
+    "mean_latency_s": 30645.7,
     "sampled": 89
    },
    "B": {
-    "mean_latency_s": 118899.1,
+    "mean_latency_s": 118900.5,
     "sampled": 155
    }
   },
@@ -475,8 +475,8 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T17:01:11.511291+00:00",
-   "last_change_detected": "2026-10-05T08:45:52.875766+00:00",
+   "last_checked_by_bell": "2026-10-05T17:45:55.766523+00:00",
+   "last_change_detected": "2026-10-05T17:45:55.766523+00:00",
    "categories": [
     "prop"
    ]
@@ -486,7 +486,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T17:02:39.685240+00:00",
+   "last_checked_by_bell": "2026-10-05T17:47:02.341433+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -497,7 +497,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-05T17:00:23.160951+00:00",
+   "last_checked_by_bell": "2026-10-05T17:45:15.612659+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -508,7 +508,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T17:00:34.733709+00:00",
+   "last_checked_by_bell": "2026-10-05T17:45:27.866611+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -519,7 +519,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-05T17:00:42.825998+00:00",
+   "last_checked_by_bell": "2026-10-05T17:45:35.378962+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -530,7 +530,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-05T17:01:33.078448+00:00",
+   "last_checked_by_bell": "2026-10-05T17:46:08.119709+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -541,7 +541,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T17:02:00.731568+00:00",
+   "last_checked_by_bell": "2026-10-05T17:46:32.191459+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -552,7 +552,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-05T17:02:24.991251+00:00",
+   "last_checked_by_bell": "2026-10-05T17:46:47.351323+00:00",
    "last_change_detected": "2026-10-05T16:32:11.012137+00:00",
    "categories": [
     "bank"
@@ -563,7 +563,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-05T17:02:51.910435+00:00",
+   "last_checked_by_bell": "2026-10-05T17:47:14.085096+00:00",
    "last_change_detected": "2026-10-05T14:47:23.921135+00:00",
    "categories": [
     "bank"
@@ -4244,6 +4244,24 @@
    "tier": "B"
   },
   {
+   "firm": "DRW",
+   "title": "DRW careers page changed \u2014 check by hand",
+   "url": "https://drw.com/work-at-drw/listings",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-05T17:45:55.766523+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: careers page changed, contents unknown",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "D"
+  },
+  {
    "firm": "Jefferies",
    "title": "2027 Investment Banking Off-Cycle Internship \u2013 Milan (Q1) February Start",
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-ba15bdbd9b56/candidate/so/pm/1/pl/2/opp/2010-2027-Investment-Banking-Off-Cycle-Internship-Milan-Q1-February-Start/en-GB",
@@ -4278,24 +4296,6 @@
    "uk": true,
    "uk_stated": false,
    "tier": "B"
-  },
-  {
-   "firm": "DRW",
-   "title": "DRW careers page changed \u2014 check by hand",
-   "url": "https://drw.com/work-at-drw/listings",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-05T08:45:52.875766+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": null,
-   "desk": null,
-   "reason": "tier D: careers page changed, contents unknown",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "D"
   },
   {
    "firm": "Jefferies",
@@ -5938,7 +5938,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-0288d37860f8/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-f9688a7d7f05/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
