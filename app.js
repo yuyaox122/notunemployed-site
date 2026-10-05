@@ -7,20 +7,17 @@ const VAPID_PUBLIC_KEY = "BKB1-4MLVE0uGXfpcSvxeOdtcKjagW0rREYZxwT3Q3NrDGuB1FmktB
 const $ = (id) => document.getElementById(id);
 
 // ---- facets -----------------------------------------------------------------
-// The classifier has always computed `stage` x `desk`; until Round 57 the feed threw
-// both away and the app could only offer three booleans over 193 rows. `null` is a
-// real value in both dimensions and gets a chip of its own: a `weak` row is exactly
-// one whose desk could not be named, and hiding it behind "no filter" would make the
-// most uncertain rows the hardest to look at deliberately.
+// `null` is a real value in both dimensions and gets a chip of its own: a `weak` row is
+// exactly one whose desk could not be named, and hiding it behind "no filter" would
+// make the most uncertain rows the hardest to look at deliberately.
 const FACETS = {
   stage: { order: ["spring", "intern", "placement", "graduate", "null"],
            name: { spring: "Spring week", intern: "Internship",
                    placement: "Placement", graduate: "Graduate",
                    "null": "stage unclear" } },
-  // Every desk in `classify.DESK_RULES` must be in BOTH lists below. A desk missing
-  // from `order` has no facet button at all, so its rows are reachable only by search
-  // — which is how a new desk gets added to the classifier and stays invisible in the
-  // app. `TestTheDeskVocabulariesAgree` reads this file and fails if they drift.
+  // Every desk in `classify.DESK_RULES` must be in BOTH lists below: a desk missing
+  // from `order` has no facet button, so its rows are reachable only by search.
+  // `TestTheDeskVocabulariesAgree` reads this file and fails if they drift.
   desk:  { order: ["quant", "markets", "engineering", "commodities", "advisory",
                    "private_equity", "null"],
            name: { quant: "Quant", markets: "Markets", engineering: "Engineering",
@@ -36,11 +33,9 @@ const state = {
 };
 
 // ---- per-viewer state -------------------------------------------------------
-// localStorage is the right home for this: it is one person's working set, it must
-// survive a redeploy of feed.json, and it must never leave the device. Every access
-// is wrapped because a private window or blocked site data makes the accessor itself
-// throw, and a tracker that white-screens because someone has cookies off is worse
-// than one with no memory.
+// localStorage: one person's working set, which must survive a redeploy of feed.json
+// and never leave the device. Every access is wrapped: a private window or blocked
+// site data makes the accessor itself throw, and a white screen is worse than no memory.
 const KEY = "bell.marks.v1";
 const CHECKED_KEY = "bell.checked.v1";
 const FILTER_KEY = "bell.filters.v1";
@@ -55,9 +50,8 @@ let marks = readJSON(KEY, {});
 function saveMarks() { writeJSON(KEY, marks); }
 function markKey(i) { return i.url || (i.firm + "|" + i.title); }
 
-// When you last looked at a firm bell cannot see for you. Per-viewer, local, and the
-// only state in this app that represents a promise you made to yourself rather than
-// something bell observed.
+// When you last looked at a firm bell cannot see for you: the one piece of state that
+// records a promise you made to yourself rather than something bell observed.
 let checked = readJSON(CHECKED_KEY, {});
 function markChecked(firm) {
   checked[firm] = Date.now();
@@ -129,10 +123,9 @@ function day(iso) {
     { day: "numeric", month: "short", timeZone: "UTC" });
 }
 
-// A date we did not get from the source is labelled as such. Showing "22m ago" for a
-// Workday row means "we first saw it 22 minutes ago", not "it opened 22 minutes ago",
-// and presenting the second as the first is the kind of quiet lie that makes a tracker
-// untrustworthy the first time someone checks.
+// A date we did not get from the source is labelled as such. "22m ago" on a Workday
+// row means "we first saw it", not "it opened", and passing one off as the other is
+// the quiet lie that makes a tracker untrustworthy the first time someone checks.
 function when(i) {
   if (i.date_basis === "unknown") return "date unknown";
   if (i.date_basis === "published_date") return "published " + day(i.opened_at);
@@ -169,10 +162,9 @@ function bucket(iso) {
 }
 
 // ---- routing -------------------------------------------------------------------
-// The hash IS the view. Three reasons it is worth the twenty lines: a filtered view
-// becomes a link you can send someone ("#/desk/quant" is the quant list), the back
-// button works, and reloading keeps you where you were. A single-page app that
-// silently discards the browser's own navigation is worse than a set of static pages.
+// The hash IS the view: a filtered view becomes a link you can send someone
+// ("#/desk/quant" is the quant list), the back button works, and reloading keeps you
+// where you were.
 function readHash() {
   const h = (location.hash || "").replace(/^#\/?/, "");
   const [head, ...rest] = h.split("/").map(decodeURIComponent);
@@ -237,10 +229,8 @@ function counts(key) {
 
 function activeFilters() {
   const out = [];
-  // "UK only" was a promise the filter does not keep: it admits any row with no
-  // stated location, which is right (a tier-D page-change row has none by
-  // construction) and is not "only". Naming it is cheaper than explaining the gap
-  // between the 84 on the UK tile and the 260 rows this leaves on screen.
+  // Not "UK only": the filter also admits any row with no stated location, which is
+  // right (a tier-D page-change row has none by construction), so the label says so.
   if (state.uk) out.push(["uk", "UK or unstated"]);
   if (state.strong) out.push(["strong", "Strong only"]);
   if (state.hideDone) out.push(["hideDone", "Hiding marked"]);
@@ -340,20 +330,16 @@ function render() {
   else if (state.sort === "firm")
     items.sort((a, b) => a.firm.localeCompare(b.firm) || a.title.localeCompare(b.title));
   else
-    // "Newest opening" means by the date the BOARD stated. feed.py's order ranks a
-    // stated timestamp above a stated day above "when we happened to look", which is
-    // right for a flat list (Round 32: a cold-start row has no defensible position in
-    // a recency ranking) and wrong under day headings — grouping a rank order by date
-    // produced "Earlier this week, This month, Older, Today". So the rows the board
-    // dated are sorted by that date, and the rows it did not are held back into one
-    // group at the end rather than being given a position they have not earned.
+    // "Newest opening" means by the date the BOARD stated. feed.py's rank order is right
+    // for a flat list and wrong under day headings ("Earlier this week, This month,
+    // Older, Today"), so dated rows sort by that date and undated rows are held back
+    // into one group at the end rather than given a position they have not earned.
     items.sort((a, b) => (stated(a) === stated(b))
       ? (b.opened_at || "").localeCompare(a.opened_at || "")
       : (stated(a) ? -1 : 1));
 
-  // Every narrowing filter is shown as a removable pill, including the three that are
-  // on by default. "37 of 193" with no visible reason is the single most confusing
-  // thing a filtered list can do.
+  // Every narrowing filter is a removable pill, including the defaults: "37 of 193"
+  // with no visible reason is the most confusing thing a filtered list can do.
   const af = activeFilters();
   $("pills").innerHTML = af.map(([id, label]) =>
     `<span class="pill">${esc(label)}<button data-drop="${esc(id)}"
@@ -370,7 +356,7 @@ function render() {
     $("empty").innerHTML = state.items.length
       ? `Nothing matches those filters.<br><button class="linkish"
            id="emptyClear">clear filters</button>`
-      : "No feed yet. Run: python3 -m bell.feed";
+      : "No feed yet. Run: python3 -m bell feed";
     const ec = $("emptyClear");
     if (ec) ec.addEventListener("click", clearFilters);
   }
@@ -401,11 +387,8 @@ function row(i) {
   const dl = i.deadline
     ? `<span class="tag dl">closes ${String(i.deadline).slice(0, 10)}</span>` : "";
   // `uk_stated`, never `uk`. `uk` is the FILTER policy — "do not hide a row whose
-  // location we do not know" — and badging with it printed
-  //   location not stated  (UK)  Internship
-  // on one line, 176 times out of 260, including "trading fundamental analyst intern
-  // us". A badge is a claim about the row, and the only honest claim here is the one
-  // the board actually made. Round 78; `LESSONS.md` row 2.
+  // location we do not know" — and a badge is a claim about the row: the only honest
+  // one is what the board said. Round 78; LESSONS L34.
   const uk = i.uk_stated ? `<span class="tag uk">UK</span>` : "";
   const nw = isNew(i) ? `<span class="tag newt">new</span>` : "";
   const weak = i.strength === "weak"
@@ -445,10 +428,9 @@ function row(i) {
 }
 
 // ---- browse ---------------------------------------------------------------------
-// Desk and stage as places you can go, not only switches you can flip. The counts are
-// computed with no filters applied, because a browse page is what you look at BEFORE
-// deciding what to narrow to — showing 0 next to "Commodities" because UK-only
-// happens to be on would be answering a question nobody asked.
+// Desk and stage as places you can go, not only switches you can flip. The counts
+// ignore the filters, because a browse page is what you look at BEFORE deciding what
+// to narrow to.
 function renderBrowse() {
   const all = state.items;
   const tally = (key) => {
@@ -463,11 +445,8 @@ function renderBrowse() {
 
   const desks = tally("desk"), stages = tally("stage");
   const firms = [...tally("firm").entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-  // The fact, not the filter — counting with `uk` INVERTED this page. Citadel
-  // Securities read "45 · 45 in the UK" because its board states no location at all,
-  // while Jump Trading read "11 · 0 in the UK" because it honestly states "London;
-  // Amsterdam" and the substring did not match. The firms that say nothing ranked as
-  // the most British ones on the screen.
+  // The fact, not the filter: counted with `uk`, a board that states no location at
+  // all ranks as the most British one on the screen.
   const uk = (key, v) => all.filter(i => String(i[key]) === v && i.uk_stated).length;
 
   $("browse").innerHTML =
@@ -523,18 +502,13 @@ function renderCalendar() {
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g,
   c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-// esc() makes a string safe as TEXT. It does not make it safe as a URL: entity-encoding
-// leaves "javascript:alert(1)" intact, and it is a perfectly valid href. Every title,
-// location and link in this page originates from a third-party API we do not control,
-// so the scheme is checked rather than assumed.
+// esc() makes a string safe as TEXT, not as a URL: entity-encoding leaves
+// "javascript:alert(1)" intact, and it is a valid href. Every link here comes from a
+// third-party API, so the scheme is checked rather than assumed.
 function safeUrl(u) {
   if (!u) return "";
-  // Deliberately a scheme test rather than `new URL()`. Three reasons:
-  //   * URL is unavailable in some JS engines (JavaScriptCore, which the test
-  //     harness uses), and depending on it makes this function untestable here
-  //   * a throw inside URL() fails closed, silently blocking every legitimate
-  //     link in a way indistinguishable from "the feed has no URLs"
-  //   * the rule we actually want is one line and readable at a glance
+  // A scheme test, not `new URL()`: URL is missing from JavaScriptCore, which the test
+  // harness uses, and a throw inside it would silently block every link.
   // Leading control characters and whitespace are stripped first, because browsers
   // ignore them when resolving an href - a newline before "javascript:" is live.
   var t = String(u).replace(/^[\u0000-\u0020]+/, "");
@@ -543,22 +517,17 @@ function safeUrl(u) {
 
 function renderStats(d) {
   const c = d.counts;
-  // "can't see" sits in the same row, at the same size, as the results. A tracker
-  // that shows 197 openings and hides the 13 firms it cannot read is telling you
-  // something true in a way that leaves you with a false impression.
-  //
-  // Three tiles are buttons, because a number you can act on beats a number you have
-  // to go and find the control for.
+  // "can't see" sits in the same row, at the same size, as the results: showing the
+  // openings while hiding the firms bell cannot read leaves a false impression. Three
+  // tiles are buttons, because a number you can act on beats hunting for its control.
   const tiles = [
     ["open", c.items, "", null],
     ["strong", c.strong, "", "strong"],
-    // `counts.uk` is now the FACT — rows whose board said the UK. The tile used to
-    // read 260 where 84 boards had said so, because it counted the filter policy.
+    // `counts.uk` is the FACT — rows whose board said the UK — not the filter policy.
     ["UK", c.uk, "", "uk"],
-    // Its honest counterpart, and the reason tapping "UK" still shows more than the
-    // tile says: these are the rows the filter keeps and this count will not claim.
-    // Shown rather than folded in, because a reader who sees 84 and then 260 rows has
-    // found a discrepancy, and a reader who sees 84 + 176 has been told something.
+    // Its counterpart, and why tapping "UK" shows more rows than that tile: the rows
+    // the filter keeps and the fact will not claim. Shown rather than folded in, so
+    // the gap is explained rather than discovered.
     ["loc. unknown", c.uk_unstated, "", null],
     ["new 24h", c.seen_24h, "", null],
     ["firms watched", c.firms, "", null],
@@ -566,13 +535,11 @@ function renderStats(d) {
     ["tracked", c.postings_tracked, "", null],
   ];
   // A silent cap is the same failure as a silent polling gap: the page shows 400 and
-  // says nothing about the rest. `counts.truncated` has always been in the feed and
-  // only the tests read it. Round 62.
+  // says nothing about the rest. Round 62.
   if (c.truncated) {
-    // Round 71: the cap now SELECTS — UK before elsewhere, strong before weak — so
-    // "+58 not shown" usually means 58 rows nobody in London was going to open. The
-    // one case worth alarming about is when it has started eating UK matches, and
-    // that is a different label rather than the same one in a different colour.
+    // The cap SELECTS — UK before elsewhere, strong before weak — so "not shown" is
+    // usually rows nobody in London was going to open. The case worth alarming about
+    // is when it starts eating UK matches, and that gets its own label.
     const ukHidden = c.truncated_uk || 0;
     tiles.splice(1, 0, [ukHidden ? "UK not shown" : "not shown",
                         `+${ukHidden || Math.max(0, (c.total || 0) - c.items)}`,
@@ -584,10 +551,9 @@ function renderStats(d) {
           }"><b>${v}</b><i>${esc(k)}</i></button>`
         : `<div class="stat${cls}"><b>${v}</b><i>${esc(k)}</i></div>`).join("");
 
-  // "208764s" is a true number that nobody can read, and a mean blended across a
-  // 60-second tier and a 15-minute one describes no configuration that exists. The
-  // headline claim is about tier A, so tier A is reported on its own and the rest
-  // are shown beside it rather than averaged into it.
+  // A mean blended across a 60-second tier and a 15-minute one describes no
+  // configuration that exists. The headline claim is about tier A, so tier A is
+  // reported on its own and the rest are shown beside it, not averaged into it.
   const dt = d.detection || {};
   const byTier = dt.by_tier || {};
   const TIER = { A: "fast tier, polled every minute", B: "long tail, every 15 min",
@@ -602,8 +568,7 @@ function renderStats(d) {
     : " No fast-tier detections measured yet, so the headline latency is unproven."
       + (others.length ? ` Slower tiers so far — ${others.join(", ")}.` : "");
   // A gap is "we were not looking", which is not the same as "nothing opened" — the
-  // same distinction the blind-spot list exists to make. On 6 Sept the poller lost
-  // 41 minutes to a sleeping laptop and the site said nothing.
+  // same distinction the blind-spot list exists to make.
   const w = dt.watch || {};
   if (w.longest_gap_s >= 300) {
     $("lat").textContent += ` Not watching for ${dur(w.blind_s)} of the last `
@@ -658,15 +623,11 @@ function renderBlind(bs) {
 
 async function load() {
   try {
-    // CONDITIONAL GET, for the same reason every adapter does it: a poll that finds
-    // nothing should cost no payload. This asked for the opposite twice over — the
-    // `?t=` buster made every request a distinct URL so no validator could match, and
-    // `no-store` told the browser not to revalidate either. 122 KB, sixty times an
-    // hour, on the phone this exists to notify: 181 MB a day.
-    //
-    // `no-cache` means "revalidate", not "do not cache". GitHub Pages serves ETag and
-    // Last-Modified, and ADR-008 measures the feed changing 2.1 times a day — so
-    // essentially every one of these is now a 304 with an empty body. Round 62.
+    // CONDITIONAL GET, as every adapter does: a poll that finds nothing should cost no
+    // payload, least of all on the phone this exists to notify. `no-cache` means
+    // "revalidate", not "do not cache"; a `?t=` buster or `no-store` defeats the
+    // validator. GitHub Pages serves ETag and Last-Modified, and ADR-008 measures the
+    // feed changing 2.1 times a day, so nearly every fetch is an empty 304. Round 62.
     const r = await fetch("feed.json", { cache: "no-cache" });
     if (r.status === 304) return;          // nothing changed; keep what is rendered
     const d = await r.json();
@@ -679,7 +640,7 @@ async function load() {
   } catch (e) {
     $("gen").textContent = "could not load feed.json";
     $("empty").hidden = false;
-    $("empty").textContent = "No feed yet. Run: python3 -m bell.feed";
+    $("empty").textContent = "No feed yet. Run: python3 -m bell feed";
   }
 }
 
@@ -806,8 +767,7 @@ $("fNotify").addEventListener("click", async () => {
 
     // Hand it straight to bell if this origin will take it. `python3 -m bell notify
     // serve` accepts POST /sub on localhost; GitHub Pages is static and will not,
-    // so the manual path below stays as the fallback rather than the default. The
-    // copy-and-carry step is why no push had ever reached a device.
+    // so the manual path below stays as the fallback rather than the default.
     let posted = false;
     try {
       const r = await fetch("sub", {
@@ -821,9 +781,8 @@ $("fNotify").addEventListener("click", async () => {
         + "<code>python3 -m bell notify test</code>.";
       return;
     }
-    // Static host. Show the JSON as selectable text as well as copying it: the
-    // clipboard API is refused often enough on iOS that a promise nobody awaited is
-    // not a delivery mechanism.
+    // Static host. Show the JSON as selectable text as well as copying it: iOS
+    // refuses the clipboard API often enough that it cannot be the only way out.
     await navigator.clipboard?.writeText(json).catch(() => {});
     note.innerHTML = "Subscribed in the browser, but this origin is static so bell "
       + "does not have it yet. It is on your clipboard, and here:"
@@ -831,7 +790,7 @@ $("fNotify").addEventListener("click", async () => {
            style="width:100%;margin-top:6px;font:11px/1.4 ui-monospace,monospace;
                   border:1px solid var(--line);border-radius:8px;padding:6px;
                   background:var(--bg);color:var(--ink)">${esc(json)}</textarea>`
-      + "Save it as <code>subs/phone.json</code> in the repo, or run "
+      + "Save it as <code>phone.json</code> and run "
       + "<code>python3 -m bell notify addsub --file phone.json</code>.";
   } catch (e) {
     note.textContent = "Subscribe failed: " + e.message;

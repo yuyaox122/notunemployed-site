@@ -1,4 +1,4 @@
-// Service worker. Two rules learned in court/pushlab:
+// Service worker. Two rules:
 //   1. ALWAYS show a notification — Safari revokes permission for a silent push.
 //   2. Log arrivals to Cache Storage, so a push that lands while the app is closed
 //      is still counted when you next open it.
@@ -22,10 +22,10 @@ self.addEventListener("push", (event) => {
     } catch (_) {}
     // Rule 1 — unconditional.
     //
-    // `timestamp` is the moment the posting was DETECTED, not the moment the OS drew
-    // the notification. Without it a push delivered late by Apple's queue is stamped
-    // with the delivery time, which is exactly the number this project claims to
-    // minimise, reported wrongly by the one surface a user actually reads.
+    // `timestamp` is the moment bell SENT the push (`sent_at`), not the moment the OS
+    // drew the notification. Without it a push delayed in Apple's queue is stamped
+    // with its delivery time, which is exactly the number this project claims to
+    // minimise.
     //
     // `requireInteraction` only for a real deadline inside 48h: a notification that
     // refuses to go away is a good way to be turned off, so it is spent on the one
@@ -48,9 +48,9 @@ self.addEventListener("push", (event) => {
   })());
 });
 
-// Same rule as app.js safeUrl(). The payload is built by us, but its `url` field
-// comes from a third-party job board, and a service worker opening an arbitrary
-// scheme is a worse place to be careless than a link in a page.
+// Same rule as app.js safeUrl(): the payload is ours, but its `url` comes from a
+// third-party job board, and a service worker opening an arbitrary scheme is a worse
+// place to be careless than a link in a page.
 function safeUrl(u) {
   if (!u) return "";
   var t = String(u).replace(/^[\u0000-\u0020]+/, "");
@@ -61,9 +61,8 @@ self.addEventListener("notificationclick", (event) => {
   event.notification.close();
   const data = event.notification.data || {};
 
-  // "Not for me" must not open a tab. It records the dismissal for the app to pick
-  // up, so a notification you have already judged does not come back as a row you
-  // have to judge again.
+  // "Not for me" must not open a tab. It records the posting's key in Cache Storage;
+  // app.js does not read that list yet, so the row still appears in the app unmarked.
   if (event.action === "later") {
     event.waitUntil((async () => {
       try {
