@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-05T20:25:01.778911+00:00",
+ "generated_at": "2026-10-05T20:35:01.848704+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 133,
-  "uk_unstated": 239,
-  "seen_24h": 554,
+  "uk_unstated": 240,
+  "seen_24h": 561,
   "truncated": true,
-  "total": 869,
+  "total": 872,
   "truncated_uk": 0,
   "firms": 184,
   "firms_blind": 10,
-  "sources": 188,
-  "postings_tracked": 22603
+  "sources": 191,
+  "postings_tracked": 22654
  },
  "detection": {
-  "mean_latency_s": 85675.1,
-  "sampled": 247,
+  "mean_latency_s": 85341.3,
+  "sampled": 248,
   "by_tier": {
    "A": {
     "mean_latency_s": 30316.6,
     "sampled": 90
    },
    "B": {
-    "mean_latency_s": 117409.2,
-    "sampled": 157
+    "mean_latency_s": 116684.5,
+    "sampled": 158
    }
   },
   "watch": {
@@ -283,10 +283,10 @@
    "firm": "HSBC",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 135,
+   "n_total": 136,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "135 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "136 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -445,7 +445,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T20:01:12.193407+00:00",
+   "last_checked_by_bell": "2026-10-05T20:31:22.517240+00:00",
    "last_change_detected": "2026-10-05T17:45:55.766523+00:00",
    "categories": [
     "prop"
@@ -456,7 +456,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T20:02:53.942705+00:00",
+   "last_checked_by_bell": "2026-10-05T20:32:48.541283+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -467,7 +467,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-05T20:00:17.402448+00:00",
+   "last_checked_by_bell": "2026-10-05T20:30:29.070824+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -478,7 +478,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T20:00:30.778974+00:00",
+   "last_checked_by_bell": "2026-10-05T20:30:40.407415+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -489,7 +489,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-05T20:00:38.940537+00:00",
+   "last_checked_by_bell": "2026-10-05T20:30:51.707931+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -500,7 +500,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-05T20:01:25.935211+00:00",
+   "last_checked_by_bell": "2026-10-05T20:31:36.775564+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -511,7 +511,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T20:02:10.099935+00:00",
+   "last_checked_by_bell": "2026-10-05T20:32:13.836950+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -522,8 +522,8 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page. Check it by hand once a cycle.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-05T20:32:14.041435+00:00",
+   "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
    ]
@@ -533,7 +533,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-05T20:02:39.550150+00:00",
+   "last_checked_by_bell": "2026-10-05T20:32:29.948404+00:00",
    "last_change_detected": "2026-10-05T19:31:50.312732+00:00",
    "categories": [
     "bank"
@@ -544,7 +544,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-05T20:03:06.378656+00:00",
+   "last_checked_by_bell": "2026-10-05T20:33:00.993276+00:00",
    "last_change_detected": "2026-10-05T14:47:23.921135+00:00",
    "categories": [
     "bank"
@@ -677,6 +677,24 @@
    "uk": false,
    "uk_stated": false,
    "tier": "A"
+  },
+  {
+   "firm": "ACT Group",
+   "title": "Technical Engineer CAE \u2013 Intern",
+   "url": "https://careers.actgroup.com/vacancies/technical-engineer-cae-intern-madrid-8855431002",
+   "location": "Madrid,  Spain",
+   "opened_at": "2026-09-30T13:50:08.608172+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-10-05T20:30:17.395580+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "B"
   },
   {
    "firm": "Susquehanna (SIG)",
@@ -1286,42 +1304,6 @@
    "stage": "graduate",
    "desk": "quant",
    "reason": "graduate + quant",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Stagiaire en d\u00e9veloppement de logiciels (\u00e9t\u00e9 2027) / Software Developer Intern (Summer 2027)",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8212179",
-   "location": "Montreal",
-   "opened_at": "2026-09-17T20:59:48+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-17T21:00:38.090681+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + swe",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "Jane Street",
-   "title": "NYC FOCUS 2027",
-   "url": "https://job-boards.greenhouse.io/jshiddenevents/jobs/8810774002",
-   "location": "NYC",
-   "opened_at": "2026-09-17T15:47:24+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-20T21:43:00.608298+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": null,
-   "reason": "programme:FOCUS + firm-wide programme",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
@@ -5393,6 +5375,24 @@
    "uk": true,
    "uk_stated": true,
    "tier": "B"
+  },
+  {
+   "firm": "Ocean Partners",
+   "title": "Ocean Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "url": "https://oceanpartners.com/about/careers-and-culture/",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-05T20:32:14.041435+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "D"
   },
   {
    "firm": "Evercore",
