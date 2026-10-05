@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-05T07:05:01.634312+00:00",
+ "generated_at": "2026-10-05T07:20:02.185374+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
   "uk": 127,
   "uk_unstated": 219,
-  "seen_24h": 157,
+  "seen_24h": 166,
   "truncated": true,
-  "total": 826,
+  "total": 827,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 22120
+  "postings_tracked": 22129
  },
  "detection": {
   "mean_latency_s": 85468.4,
@@ -41,11 +41,6 @@
      "seconds": 1113
     },
     {
-     "from": "2026-10-04T07:09:11.509560+00:00",
-     "to": "2026-10-04T07:23:17.076579+00:00",
-     "seconds": 846
-    },
-    {
      "from": "2026-10-04T09:06:28.012007+00:00",
      "to": "2026-10-04T09:19:01.656666+00:00",
      "seconds": 754
@@ -54,11 +49,16 @@
      "from": "2026-10-04T09:29:09.639063+00:00",
      "to": "2026-10-04T09:41:09.115177+00:00",
      "seconds": 719
+    },
+    {
+     "from": "2026-10-04T12:19:26.668372+00:00",
+     "to": "2026-10-04T12:31:23.556781+00:00",
+     "seconds": 717
     }
    ],
-   "n_gaps": 22,
+   "n_gaps": 21,
    "longest_gap_s": 3271,
-   "blind_s": 15407
+   "blind_s": 14561
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -329,10 +329,10 @@
    "firm": "M&G Investments",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 95,
+   "n_total": 96,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "95 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "96 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -501,7 +501,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T07:01:00.547506+00:00",
+   "last_checked_by_bell": "2026-10-05T07:15:57.788510+00:00",
    "last_change_detected": "2026-10-02T21:23:14.295993+00:00",
    "categories": [
     "prop"
@@ -512,7 +512,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T07:02:08.896465+00:00",
+   "last_checked_by_bell": "2026-10-05T07:17:06.887096+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -523,7 +523,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-05T07:00:18.337246+00:00",
+   "last_checked_by_bell": "2026-10-05T07:15:14.574044+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -545,7 +545,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T07:00:30.825882+00:00",
+   "last_checked_by_bell": "2026-10-05T07:15:31.219829+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -567,7 +567,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-05T07:00:39.722035+00:00",
+   "last_checked_by_bell": "2026-10-05T07:15:38.942987+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -622,7 +622,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-05T07:01:12.029253+00:00",
+   "last_checked_by_bell": "2026-10-05T07:16:10.426923+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -644,7 +644,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T07:01:37.793474+00:00",
+   "last_checked_by_bell": "2026-10-05T07:16:34.905828+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -710,8 +710,8 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-05T07:02:19.733970+00:00",
-   "last_change_detected": "2026-10-05T07:02:19.733970+00:00",
+   "last_checked_by_bell": "2026-10-05T07:17:17.234304+00:00",
+   "last_change_detected": "2026-10-05T07:17:17.234304+00:00",
    "categories": [
     "bank"
    ]
