@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T08:35:02.251995+00:00",
+ "generated_at": "2026-10-05T08:40:01.658912+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
@@ -7,7 +7,7 @@
   "uk_unstated": 221,
   "seen_24h": 203,
   "truncated": true,
-  "total": 829,
+  "total": 830,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
@@ -36,11 +36,6 @@
      "seconds": 3271
     },
     {
-     "from": "2026-10-04T08:35:28.310979+00:00",
-     "to": "2026-10-04T08:54:01.176097+00:00",
-     "seconds": 1113
-    },
-    {
      "from": "2026-10-04T09:06:28.012007+00:00",
      "to": "2026-10-04T09:19:01.656666+00:00",
      "seconds": 754
@@ -54,11 +49,16 @@
      "from": "2026-10-04T12:19:26.668372+00:00",
      "to": "2026-10-04T12:31:23.556781+00:00",
      "seconds": 717
+    },
+    {
+     "from": "2026-10-04T11:36:06.275544+00:00",
+     "to": "2026-10-04T11:47:09.592940+00:00",
+     "seconds": 663
     }
    ],
-   "n_gaps": 19,
+   "n_gaps": 18,
    "longest_gap_s": 3271,
-   "blind_s": 13754
+   "blind_s": 12641
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -1198,6 +1198,24 @@
    "tier": "A"
   },
   {
+   "firm": "IMC Trading",
+   "title": "Women in Trading and Technology Program - 2026",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4980867101",
+   "location": "Mumbai, India",
+   "opened_at": "2026-09-23T05:58:38+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-09-23T05:59:18.944183+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "spring",
+   "desk": "quant",
+   "reason": "branded:women in trading + trading",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
+  {
    "firm": "AQR Capital",
    "title": "2027 PhD Summer Associate, Machine Learning Research",
    "url": "https://careers.aqr.com/jobs?gh_jid=8224708&gh_jid=8224708",
@@ -1967,24 +1985,6 @@
    "stage": "graduate",
    "desk": "quant",
    "reason": "graduate + quant",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
-   "firm": "DV Trading",
-   "title": "Quantitative Trading Intern - Summer 2027 (DV Equities)",
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4702083005",
-   "location": "New York",
-   "opened_at": "2026-09-11T14:38:34+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-11T14:52:28.692499+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "reason": "intern + quant",
    "uk": false,
    "uk_stated": false,
    "tier": "A"
