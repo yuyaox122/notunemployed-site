@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-05T00:05:01.359190+00:00",
+ "generated_at": "2026-10-05T04:00:02.323587+00:00",
  "counts": {
   "items": 400,
   "strong": 386,
   "uk": 127,
   "uk_unstated": 219,
-  "seen_24h": 72,
+  "seen_24h": 92,
   "truncated": true,
   "total": 825,
   "truncated_uk": 0,
   "firms": 182,
   "firms_blind": 21,
   "sources": 187,
-  "postings_tracked": 22034
+  "postings_tracked": 22054
  },
  "detection": {
-  "mean_latency_s": 83670.9,
-  "sampled": 246,
+  "mean_latency_s": 84653.5,
+  "sampled": 243,
   "by_tier": {
    "A": {
-    "mean_latency_s": 29142.8,
-    "sampled": 95
+    "mean_latency_s": 30026.9,
+    "sampled": 92
    },
    "B": {
-    "mean_latency_s": 117976.6,
+    "mean_latency_s": 117935.9,
     "sampled": 151
    }
   },
@@ -36,29 +36,29 @@
      "seconds": 3271
     },
     {
-     "from": "2026-10-04T02:33:24.250237+00:00",
-     "to": "2026-10-04T03:12:35.256685+00:00",
-     "seconds": 2351
-    },
-    {
      "from": "2026-10-04T05:27:43.334901+00:00",
      "to": "2026-10-04T05:54:07.985098+00:00",
      "seconds": 1585
     },
     {
-     "from": "2026-10-04T00:26:48.267490+00:00",
-     "to": "2026-10-04T00:49:54.573269+00:00",
-     "seconds": 1386
-    },
-    {
      "from": "2026-10-04T08:35:28.310979+00:00",
      "to": "2026-10-04T08:54:01.176097+00:00",
      "seconds": 1113
+    },
+    {
+     "from": "2026-10-04T05:54:30.012382+00:00",
+     "to": "2026-10-04T06:12:02.221798+00:00",
+     "seconds": 1052
+    },
+    {
+     "from": "2026-10-04T04:52:27.793507+00:00",
+     "to": "2026-10-04T05:08:52.739351+00:00",
+     "seconds": 985
     }
    ],
-   "n_gaps": 47,
+   "n_gaps": 34,
    "longest_gap_s": 3271,
-   "blind_s": 38171
+   "blind_s": 25063
   },
   "note": "postings whose source stated a time of day, published after we started watching that board, excluding cold starts; a date-only publish date is not a detection time. null means no such detections yet"
  },
@@ -172,22 +172,6 @@
   ],
   "deadlines": [
    {
-    "firm": "Susquehanna (SIG)",
-    "title": "Technology Co-op with Northeastern University",
-    "url": "https://careers.sig.com/jobs/11377?lang=en-us",
-    "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
-    "deadline": "2026-10-05",
-    "days_left": 0
-   },
-   {
-    "firm": "Susquehanna (SIG)",
-    "title": "Technology Co-op with RIT",
-    "url": "https://careers.sig.com/jobs/11378?lang=en-us",
-    "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
-    "deadline": "2026-10-05",
-    "days_left": 0
-   },
-   {
     "firm": "Glencore UK",
     "title": "Commercial Graduate Programme",
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
@@ -276,7 +260,7 @@
     "days_left": 147
    }
   ],
-  "n_deadlines": 13,
+  "n_deadlines": 11,
   "note": "stated deadlines only; most boards publish none, and these roles close when full rather than on the advertised date"
  },
  "gaps": [
@@ -335,10 +319,10 @@
    "firm": "HSBC",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 124,
+   "n_total": 125,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "124 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "125 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -431,6 +415,16 @@
    "reason": "29 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:baincapital/wd1/External_Public",
+   "firm": "Bain Capital",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 29,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "29 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "greenhouse:falconx",
    "firm": "FalconX",
    "tier": "B",
@@ -449,16 +443,6 @@
    "n_match": 0,
    "n_off_desk": 1,
    "reason": "28 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "workday:baincapital/wd1/External_Public",
-   "firm": "Bain Capital",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 28,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "ashby:amber",
@@ -517,7 +501,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T00:00:54.645801+00:00",
+   "last_checked_by_bell": "2026-10-05T03:45:50.632537+00:00",
    "last_change_detected": "2026-10-02T21:23:14.295993+00:00",
    "categories": [
     "prop"
@@ -528,7 +512,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-05T00:02:02.734636+00:00",
+   "last_checked_by_bell": "2026-10-05T03:46:55.506066+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -539,7 +523,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-05T00:00:17.044782+00:00",
+   "last_checked_by_bell": "2026-10-05T03:45:14.453049+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -561,7 +545,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T00:00:27.437024+00:00",
+   "last_checked_by_bell": "2026-10-05T03:45:25.347195+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -583,7 +567,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-05T00:00:35.044471+00:00",
+   "last_checked_by_bell": "2026-10-05T03:45:32.165657+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -638,7 +622,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-05T00:01:06.531252+00:00",
+   "last_checked_by_bell": "2026-10-05T03:46:01.498470+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -660,7 +644,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-05T00:01:30.901521+00:00",
+   "last_checked_by_bell": "2026-10-05T03:46:26.087198+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -726,7 +710,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-05T00:02:13.806066+00:00",
+   "last_checked_by_bell": "2026-10-05T03:47:05.417841+00:00",
    "last_change_detected": "2026-10-02T16:13:22.465787+00:00",
    "categories": [
     "bank"
