@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-06T16:35:02.356550+00:00",
+ "generated_at": "2026-10-06T17:05:01.468133+00:00",
  "counts": {
   "items": 400,
   "strong": 400,
-  "uk": 134,
-  "uk_unstated": 266,
-  "seen_24h": 662,
+  "uk": 135,
+  "uk_unstated": 265,
+  "seen_24h": 665,
   "truncated": true,
-  "total": 946,
-  "truncated_uk": 21,
+  "total": 947,
+  "truncated_uk": 22,
   "firms": 192,
   "firms_blind": 10,
   "sources": 201,
-  "postings_tracked": 23383
+  "postings_tracked": 23405
  },
  "detection": {
-  "mean_latency_s": 75358.7,
-  "sampled": 255,
+  "mean_latency_s": 74347.2,
+  "sampled": 257,
   "by_tier": {
    "A": {
     "mean_latency_s": 27857.8,
     "sampled": 91
    },
    "B": {
-    "mean_latency_s": 101715.9,
-    "sampled": 164
+    "mean_latency_s": 99832.3,
+    "sampled": 166
    }
   },
   "watch": {
@@ -283,10 +283,10 @@
    "firm": "HSBC",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 148,
+   "n_total": 149,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "148 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "149 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -313,10 +313,10 @@
    "firm": "AllianceBernstein",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 69,
+   "n_total": 70,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "69 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "70 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
@@ -455,7 +455,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-06T16:31:13.210054+00:00",
+   "last_checked_by_bell": "2026-10-06T17:01:14.978964+00:00",
    "last_change_detected": "2026-10-06T16:31:13.210054+00:00",
    "categories": [
     "prop"
@@ -466,7 +466,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-06T16:33:06.734055+00:00",
+   "last_checked_by_bell": "2026-10-06T17:03:09.556371+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -477,7 +477,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-06T16:30:17.490050+00:00",
+   "last_checked_by_bell": "2026-10-06T17:00:16.184825+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -488,7 +488,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-06T16:30:28.573653+00:00",
+   "last_checked_by_bell": "2026-10-06T17:00:28.485751+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -499,7 +499,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-06T16:30:37.398387+00:00",
+   "last_checked_by_bell": "2026-10-06T17:00:36.855093+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -510,7 +510,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-06T16:31:27.583533+00:00",
+   "last_checked_by_bell": "2026-10-06T17:01:29.367039+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -521,7 +521,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-06T16:32:03.195901+00:00",
+   "last_checked_by_bell": "2026-10-06T17:02:04.650317+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -532,7 +532,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page. Check it by hand once a cycle.",
-   "last_checked_by_bell": "2026-10-06T16:32:13.262142+00:00",
+   "last_checked_by_bell": "2026-10-06T17:02:15.038220+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -543,7 +543,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-06T16:32:49.472064+00:00",
+   "last_checked_by_bell": "2026-10-06T17:02:52.347977+00:00",
    "last_change_detected": "2026-10-06T15:32:48.375743+00:00",
    "categories": [
     "bank"
@@ -554,7 +554,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-06T16:33:19.507574+00:00",
+   "last_checked_by_bell": "2026-10-06T17:03:20.664365+00:00",
    "last_change_detected": "2026-10-06T10:33:12.307549+00:00",
    "categories": [
     "bank"
@@ -562,6 +562,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "G-Research",
+   "title": "Machine Learning Engineer Intern",
+   "url": "https://www.gresearch.com/vacancies/machine-learning-engineer-intern/",
+   "location": "London, London, GB",
+   "opened_at": "2026-10-06T17:00:11+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-10-06T17:01:28.742901+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": true,
+   "uk_stated": true,
+   "tier": "B"
+  },
   {
    "firm": "Capstone Investment Advisors",
    "title": "Summer 2027 - Quant Internship",
@@ -7740,24 +7758,6 @@
    "stage": "intern",
    "desk": "advisory",
    "reason": "intern + coverage",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Macquarie",
-   "title": "2027 Commodities and Global Markets Graduate Programme",
-   "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23733",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T16:40:35.909517+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "markets",
-   "reason": "graduate + markets",
    "uk": true,
    "uk_stated": false,
    "tier": "B"
