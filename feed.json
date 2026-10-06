@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-06T08:05:02.156075+00:00",
+ "generated_at": "2026-10-06T08:20:02.634286+00:00",
  "counts": {
   "items": 400,
   "strong": 400,
   "uk": 134,
   "uk_unstated": 266,
-  "seen_24h": 676,
+  "seen_24h": 679,
   "truncated": true,
-  "total": 933,
-  "truncated_uk": 15,
+  "total": 935,
+  "truncated_uk": 17,
   "firms": 192,
   "firms_blind": 10,
   "sources": 201,
-  "postings_tracked": 23086
+  "postings_tracked": 23098
  },
  "detection": {
   "mean_latency_s": 83038.1,
@@ -273,10 +273,10 @@
    "firm": "BNY Mellon",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 187,
+   "n_total": 188,
    "n_match": 0,
    "n_off_desk": 7,
-   "reason": "187 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "188 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -455,7 +455,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-06T08:01:10.164311+00:00",
+   "last_checked_by_bell": "2026-10-06T08:16:05.620452+00:00",
    "last_change_detected": "2026-10-05T21:01:13.529460+00:00",
    "categories": [
     "prop"
@@ -466,7 +466,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-06T08:03:04.954634+00:00",
+   "last_checked_by_bell": "2026-10-06T08:18:05.080009+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -477,7 +477,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-06T08:00:19.663549+00:00",
+   "last_checked_by_bell": "2026-10-06T08:15:15.446509+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -488,7 +488,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-06T08:00:31.668607+00:00",
+   "last_checked_by_bell": "2026-10-06T08:15:26.997589+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -499,7 +499,7 @@
    "url": "https://www.castletoncommodities.com/careers/",
    "kind": "manual",
    "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-06T08:00:39.337624+00:00",
+   "last_checked_by_bell": "2026-10-06T08:15:34.801334+00:00",
    "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
    "categories": [
     "commodities"
@@ -510,7 +510,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-06T08:01:23.878947+00:00",
+   "last_checked_by_bell": "2026-10-06T08:16:19.089019+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -521,7 +521,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-06T08:01:59.379847+00:00",
+   "last_checked_by_bell": "2026-10-06T08:16:55.917329+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -532,7 +532,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page. Check it by hand once a cycle.",
-   "last_checked_by_bell": "2026-10-06T08:02:10.421953+00:00",
+   "last_checked_by_bell": "2026-10-06T08:17:06.687291+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -543,7 +543,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-06T08:02:46.410571+00:00",
+   "last_checked_by_bell": "2026-10-06T08:17:43.079021+00:00",
    "last_change_detected": "2026-10-05T19:31:50.312732+00:00",
    "categories": [
     "bank"
@@ -554,7 +554,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-06T08:03:15.905643+00:00",
+   "last_checked_by_bell": "2026-10-06T08:18:15.574470+00:00",
    "last_change_detected": "2026-10-05T14:47:23.921135+00:00",
    "categories": [
     "bank"
@@ -3461,6 +3461,42 @@
    "tier": "B"
   },
   {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "Trainee \u2013 12 months\u2019 Contract \u2013 Global Markets Research & Strategy",
+   "url": "https://careers.societegenerale.com/en/job-offers/trainee-12-months-contract-global-markets-research-strategy-26000LB5-en",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-06T08:17:45.570954+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "reason": "trainee + research",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "New Graduate for 2026 - Corporate Coverage Relationship Banker \uff08\u65b0\u5352\u63a1\u7528/2026\u5e74\u5165\u793e- \u6cd5\u4eba\u55b6\u696d\u62c5\u5f53\u8005\uff09(43812)",
+   "url": "https://careers.societegenerale.com/en/job-offers/new-graduate-for-2026-corporate-coverage-relationship-banker-xinzucaiyong-2026nianrushe-26000GVW-en",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-06T08:17:45.570954+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "advisory",
+   "reason": "graduate + coverage",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
    "firm": "DRW",
    "title": "DRW careers page changed \u2014 check by hand",
    "url": "https://drw.com/work-at-drw/listings",
@@ -5119,7 +5155,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Generalist \u2013 Houston",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/401-2027-Investment-Banking-Summer-Associate-Generalist-Houston/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/401-2027-Investment-Banking-Summer-Associate-Generalist-Houston/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5137,7 +5173,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Summer Analyst, Investment Banking - Private Capital Advisory LP-led Secondaries - New York",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/410-2027-Summer-Analyst-Investment-Banking-Private-Capital-Advisory-LP-led-Secondaries-New-York/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/410-2027-Summer-Analyst-Investment-Banking-Private-Capital-Advisory-LP-led-Secondaries-New-York/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5155,7 +5191,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Summer Analyst, Investment Banking - Capital Structure Advisory - Dallas",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/436-2027-Summer-Analyst-Investment-Banking-Capital-Structure-Advisory-Dallas/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/436-2027-Summer-Analyst-Investment-Banking-Capital-Structure-Advisory-Dallas/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5173,7 +5209,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Generalist \u2013 Los Angeles",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/399-2027-Investment-Banking-Summer-Associate-Generalist-Los-Angeles/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/399-2027-Investment-Banking-Summer-Associate-Generalist-Los-Angeles/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5191,7 +5227,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Generalist \u2013 Chicago",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/400-2027-Investment-Banking-Summer-Associate-Generalist-Chicago/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/400-2027-Investment-Banking-Summer-Associate-Generalist-Chicago/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5209,7 +5245,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Business Services \u2013 San Francisco",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/406-2027-Investment-Banking-Summer-Associate-Business-Services-San-Francisco/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/406-2027-Investment-Banking-Summer-Associate-Business-Services-San-Francisco/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5227,7 +5263,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Technology \u2013 San Francisco",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/404-2027-Investment-Banking-Summer-Associate-Technology-San-Francisco/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/404-2027-Investment-Banking-Summer-Associate-Technology-San-Francisco/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5245,7 +5281,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Technology \u2013 Boston",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/405-2027-Investment-Banking-Summer-Associate-Technology-Boston/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/405-2027-Investment-Banking-Summer-Associate-Technology-Boston/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5263,7 +5299,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Capital Structure Advisory \u2013 New York",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/403-2027-Investment-Banking-Summer-Associate-Capital-Structure-Advisory-New-York/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/403-2027-Investment-Banking-Summer-Associate-Capital-Structure-Advisory-New-York/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5281,7 +5317,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Life Sciences \u2013 New York",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/402-2027-Investment-Banking-Summer-Associate-Life-Sciences-New-York/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/402-2027-Investment-Banking-Summer-Associate-Life-Sciences-New-York/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5299,7 +5335,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2027 Investment Banking Summer Associate \u2013 Generalist \u2013 New York",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/398-2027-Investment-Banking-Summer-Associate-Generalist-New-York/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/398-2027-Investment-Banking-Summer-Associate-Generalist-New-York/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5317,7 +5353,7 @@
   {
    "firm": "Moelis & Company",
    "title": "2028 Summer Analyst, Investment Banking - Houston",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0839349388e3/candidate/so/pm/1/pl/2/opp/451-2028-Summer-Analyst-Investment-Banking-Houston/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-20b26a5cc3b2/candidate/so/pm/1/pl/2/opp/451-2028-Summer-Analyst-Investment-Banking-Houston/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5335,7 +5371,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series | Spotlight on Boston",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/439-Moelis-Virtual-Discovery-Series-Spotlight-on-Boston/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/439-Moelis-Virtual-Discovery-Series-Spotlight-on-Boston/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5353,7 +5389,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series | Veterans in Banking Panel",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/423-Moelis-Virtual-Discovery-Series-Veterans-in-Banking-Panel/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/423-Moelis-Virtual-Discovery-Series-Veterans-in-Banking-Panel/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5371,7 +5407,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series | Women in Banking Panel (East Coast)",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/420-Moelis-Virtual-Discovery-Series-Women-in-Banking-Panel-East-Coast/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/420-Moelis-Virtual-Discovery-Series-Women-in-Banking-Panel-East-Coast/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5389,7 +5425,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series | Women in Banking Panel (West Coast)",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/419-Moelis-Virtual-Discovery-Series-Women-in-Banking-Panel-West-Coast/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/419-Moelis-Virtual-Discovery-Series-Women-in-Banking-Panel-West-Coast/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5407,7 +5443,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series | Black in Banking",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/418-Moelis-Virtual-Discovery-Series-Black-in-Banking/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/418-Moelis-Virtual-Discovery-Series-Black-in-Banking/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5425,7 +5461,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series: Ask the Analysts",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/387-Moelis-Virtual-Discovery-Series-Ask-the-Analysts/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/387-Moelis-Virtual-Discovery-Series-Ask-the-Analysts/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5443,7 +5479,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series: Acing the Interview",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/386-Moelis-Virtual-Discovery-Series-Acing-the-Interview/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/386-Moelis-Virtual-Discovery-Series-Acing-the-Interview/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5461,7 +5497,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series: Life Sciences Overview",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/384-Moelis-Virtual-Discovery-Series-Life-Sciences-Overview/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/384-Moelis-Virtual-Discovery-Series-Life-Sciences-Overview/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5479,7 +5515,7 @@
   {
    "firm": "Moelis & Company",
    "title": "Moelis Virtual Discovery Series: Capital Markets Overview",
-   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-eb3578c0bf59/candidate/so/pm/1/pl/1/opp/383-Moelis-Virtual-Discovery-Series-Capital-Markets-Overview/en-GB",
+   "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-d8f635f53a3a/candidate/so/pm/1/pl/1/opp/383-Moelis-Virtual-Discovery-Series-Capital-Markets-Overview/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -7722,42 +7758,6 @@
    "stage": "spring",
    "desk": null,
    "reason": "branded:insight session + firm-wide programme",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Bank of America",
-   "title": "EMEA | Global Risk Management Virtual Insight Session",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-1a2fdd6cb371/candidate/so/pm/1/pl/2/opp/14479-EMEA-Global-Risk-Management-Virtual-Insight-Session/en-GB",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T16:39:11.829911+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": null,
-   "reason": "branded:insight session + firm-wide programme",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "B"
-  },
-  {
-   "firm": "Bank of America",
-   "title": "EMEA | Global Risk and Quants Virtual Insight Session",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-4edc9bc422f0/candidate/so/pm/1/pl/2/opp/14480-EMEA-Global-Risk-and-Quants-Virtual-Insight-Session/en-GB",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T16:39:11.829911+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": "quant",
-   "reason": "branded:insight session + quant",
    "uk": true,
    "uk_stated": false,
    "tier": "B"
