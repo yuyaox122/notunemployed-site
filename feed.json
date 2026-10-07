@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T02:35:02.388096+00:00",
+ "generated_at": "2026-10-07T02:40:01.991565+00:00",
  "counts": {
   "items": 400,
   "strong": 400,
@@ -239,6 +239,16 @@
  },
  "gaps": [
   {
+   "key": "workday:santander/wd3/SantanderCareers",
+   "firm": "Santander CIB",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 1365,
+   "n_match": 8,
+   "n_off_desk": 11,
+   "reason": "source is blocked"
+  },
+  {
    "key": "greenhouse:janestreet",
    "firm": "Jane Street",
    "tier": "A",
@@ -289,14 +299,24 @@
    "reason": "155 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:wellington/wd5/External",
+   "firm": "Wellington",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 110,
+   "n_match": 30,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:mgpru/wd3/mandgprudential",
    "firm": "M&G Investments",
    "tier": "C",
-   "kind": "off-desk-only",
+   "kind": "blocked",
    "n_total": 106,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "106 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "source is blocked"
   },
   {
    "key": "workday:lseg/wd3/Careers",
@@ -317,6 +337,26 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "89 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "workday:pimco/wd1/pimco-careers",
+   "firm": "PIMCO",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 88,
+   "n_match": 6,
+   "n_off_desk": 23,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:mufgub/wd3/MUFG-EarlyCareers",
+   "firm": "MUFG",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 71,
+   "n_match": 20,
+   "n_off_desk": 43,
+   "reason": "source is blocked"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -349,6 +389,16 @@
    "reason": "52 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:athene/wd5/apollononpubliccareersite",
+   "firm": "Apollo Global Management",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 49,
+   "n_match": 4,
+   "n_off_desk": 6,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:abrdn/wd3/abrdn",
    "firm": "abrdn",
    "tier": "C",
@@ -359,24 +409,44 @@
    "reason": "43 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:pipersandler/wd501/Piper_Sandler_Careers",
+   "firm": "Piper Sandler",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 37,
+   "n_match": 3,
+   "n_off_desk": 3,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:carlyle/wd1/Carlyle",
    "firm": "The Carlyle Group",
    "tier": "C",
-   "kind": "off-desk-only",
+   "kind": "blocked",
    "n_total": 35,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "35 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:hl/wd1/Campus",
+   "firm": "Houlihan Lokey",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 35,
+   "n_match": 20,
+   "n_off_desk": 4,
+   "reason": "source is blocked"
   },
   {
    "key": "workday:troweprice/wd5/TRowePriceInternational",
    "firm": "T. Rowe Price",
    "tier": "C",
-   "kind": "off-desk-only",
+   "kind": "blocked",
    "n_total": 35,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "35 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "source is blocked"
   },
   {
    "key": "lever:dexterity",
@@ -402,11 +472,11 @@
    "key": "workday:baincapital/wd1/External_Public",
    "firm": "Bain Capital",
    "tier": "C",
-   "kind": "no-early-careers",
+   "kind": "blocked",
    "n_total": 30,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "30 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is blocked"
   },
   {
    "key": "greenhouse:falconx",
@@ -457,6 +527,96 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "workday:peak6group/wd1/peak6",
+   "firm": "PEAK6",
+   "tier": "B",
+   "kind": "blocked",
+   "n_total": 23,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:shell/wd3/ShellCareers",
+   "firm": "Shell",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 23,
+   "n_match": 0,
+   "n_off_desk": 4,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:pjtpartners/wd1/Students",
+   "firm": "PJT Partners",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 21,
+   "n_match": 5,
+   "n_off_desk": 7,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:td/wd3/TD_Bank_Careers",
+   "firm": "TD Securities",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 19,
+   "n_match": 9,
+   "n_off_desk": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:robeco/wd3/robecoexternalcareers",
+   "firm": "Robeco",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 16,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:viterra/wd3/External-CAN",
+   "firm": "Viterra",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 15,
+   "n_match": 0,
+   "n_off_desk": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:jupiteram/wd3/jupiter_careers",
+   "firm": "Jupiter Fund Management",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 12,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:trafigura/wd3/TrafiguraCareerSite",
+   "firm": "Trafigura",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 4,
+   "n_match": 1,
+   "n_off_desk": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:bailliegifford/wd3/BaillieGiffordEarlyCareers",
+   "firm": "Baillie Gifford",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 3,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
   }
  ],
  "blindspots": [
@@ -476,7 +636,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T02:17:57.162235+00:00",
+   "last_checked_by_bell": "2026-10-07T02:35:50.308880+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -531,7 +691,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T02:16:54.025786+00:00",
+   "last_checked_by_bell": "2026-10-07T02:35:04.943507+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -542,7 +702,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page. Check it by hand once a cycle.",
-   "last_checked_by_bell": "2026-10-07T02:17:04.715656+00:00",
+   "last_checked_by_bell": "2026-10-07T02:35:14.970613+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -553,7 +713,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-07T02:17:39.870678+00:00",
+   "last_checked_by_bell": "2026-10-07T02:35:38.058192+00:00",
    "last_change_detected": "2026-10-06T15:32:48.375743+00:00",
    "categories": [
     "bank"
@@ -564,7 +724,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-07T02:18:07.370097+00:00",
+   "last_checked_by_bell": "2026-10-07T02:35:58.051595+00:00",
    "last_change_detected": "2026-10-06T10:33:12.307549+00:00",
    "categories": [
     "bank"
