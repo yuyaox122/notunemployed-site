@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T08:05:01.505099+00:00",
+ "generated_at": "2026-10-07T08:10:02.021916+00:00",
  "counts": {
   "items": 400,
   "strong": 400,
@@ -7,11 +7,11 @@
   "uk_unstated": 265,
   "seen_24h": 632,
   "truncated": true,
-  "total": 954,
-  "truncated_uk": 23,
+  "total": 953,
+  "truncated_uk": 22,
   "firms": 195,
-  "firms_blind": 10,
-  "sources": 204,
+  "firms_blind": 9,
+  "sources": 203,
   "postings_tracked": 23811
  },
  "detection": {
@@ -502,17 +502,6 @@
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
-   ]
-  },
-  {
-   "firm": "Castleton Commodities",
-   "url": "https://www.castletoncommodities.com/careers/",
-   "kind": "manual",
-   "why": "Confirmed to run an early-careers programme (vault note 14). No ATS board found, and the careers URL is not verified \u2014 the guess returned 404. Find the real URL to upgrade this to a page-watcher.",
-   "last_checked_by_bell": "2026-10-07T08:00:42.600472+00:00",
-   "last_change_detected": "2026-09-07T17:48:36.250319+00:00",
-   "categories": [
-    "commodities"
    ]
   },
   {
@@ -7341,24 +7330,6 @@
    "tier": "C"
   },
   {
-   "firm": "Castleton Commodities",
-   "title": "Castleton Commodities \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
-   "url": "https://www.castletoncommodities.com/careers/",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T17:48:36.250319+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": null,
-   "desk": "markets",
-   "reason": "tier D: cycle window open, firm refuses automated access",
-   "uk": true,
-   "uk_stated": false,
-   "tier": "D"
-  },
-  {
    "firm": "Optiver",
    "title": "Graduate FPGA Engineer (2027 Start)",
    "url": "https://optiver.com/join-us/jobs/technology/amsterdam/graduate-fpga-engineer-2027-start/",
@@ -7768,6 +7739,24 @@
    "stage": "graduate",
    "desk": "engineering",
    "reason": "graduate + technology",
+   "uk": true,
+   "uk_stated": false,
+   "tier": "B"
+  },
+  {
+   "firm": "Macquarie",
+   "title": "Off-Cycle Internship, Coverage and Solutions, 2027",
+   "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23826",
+   "location": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-07T16:40:35.909517+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "advisory",
+   "reason": "intern + coverage",
    "uk": true,
    "uk_stated": false,
    "tier": "B"
