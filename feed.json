@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-07T19:35:01.650210+00:00",
+ "generated_at": "2026-10-07T20:20:01.898971+00:00",
  "counts": {
   "items": 400,
   "strong": 391,
   "uk": 182,
   "uk_unstated": 75,
-  "seen_24h": 862,
+  "seen_24h": 889,
   "truncated": true,
-  "total": 987,
+  "total": 988,
   "truncated_uk": 0,
   "firms": 203,
   "firms_blind": 9,
   "sources": 212,
-  "postings_tracked": 24654
+  "postings_tracked": 24698
  },
  "detection": {
-  "mean_latency_s": 71717.6,
-  "sampled": 273,
+  "mean_latency_s": 72656.9,
+  "sampled": 266,
   "by_tier": {
    "A": {
-    "mean_latency_s": 25160.1,
-    "sampled": 89
+    "mean_latency_s": 24051.0,
+    "sampled": 84
    },
    "B": {
-    "mean_latency_s": 94237.2,
-    "sampled": 184
+    "mean_latency_s": 95090.3,
+    "sampled": 182
    }
   },
   "watch": {
@@ -283,10 +283,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 118,
+   "n_total": 119,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "118 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "119 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -373,10 +373,10 @@
    "firm": "Dexterity Capital",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 34,
+   "n_total": 35,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "34 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "35 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:stxgroup",
@@ -455,7 +455,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T19:31:15.031852+00:00",
+   "last_checked_by_bell": "2026-10-07T20:16:12.834521+00:00",
    "last_change_detected": "2026-10-07T17:01:18.122202+00:00",
    "categories": [
     "prop"
@@ -466,7 +466,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T19:33:32.754196+00:00",
+   "last_checked_by_bell": "2026-10-07T20:18:33.383958+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -477,7 +477,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-07T19:30:22.652971+00:00",
+   "last_checked_by_bell": "2026-10-07T20:15:19.037837+00:00",
    "last_change_detected": "2026-10-06T18:45:16.401885+00:00",
    "categories": [
     "bank"
@@ -488,7 +488,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T19:30:33.037633+00:00",
+   "last_checked_by_bell": "2026-10-07T20:15:30.708823+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -499,7 +499,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-07T19:31:29.480865+00:00",
+   "last_checked_by_bell": "2026-10-07T20:16:27.324500+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -510,7 +510,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T19:32:10.724151+00:00",
+   "last_checked_by_bell": "2026-10-07T20:17:07.360864+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -521,7 +521,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page. Check it by hand once a cycle.",
-   "last_checked_by_bell": "2026-10-07T19:32:20.971005+00:00",
+   "last_checked_by_bell": "2026-10-07T20:17:17.812917+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -532,7 +532,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-07T19:33:11.318776+00:00",
+   "last_checked_by_bell": "2026-10-07T20:18:10.413045+00:00",
    "last_change_detected": "2026-10-07T19:33:11.318776+00:00",
    "categories": [
     "bank"
@@ -543,7 +543,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-07T19:33:44.609626+00:00",
+   "last_checked_by_bell": "2026-10-07T20:18:44.318066+00:00",
    "last_change_detected": "2026-10-07T10:33:26.629889+00:00",
    "categories": [
     "bank"
@@ -551,6 +551,24 @@
   }
  ],
  "items": [
+  {
+   "firm": "PDT Partners",
+   "title": "Summer 2027 Quantitative Research Intern",
+   "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8263031",
+   "location": "New York, NY",
+   "opened_at": "2026-10-07T20:17:28+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-10-07T20:18:17.140760+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "quant",
+   "reason": "intern + quant",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A"
+  },
   {
    "firm": "Flow Traders",
    "title": "Summer Trading Internship",
@@ -4080,24 +4098,6 @@
    "tier": "A"
   },
   {
-   "firm": "Susquehanna (SIG)",
-   "title": "Discovery Program: Growth Equity (On-site)",
-   "url": "https://careers.sig.com/jobs/11191?lang=en-us",
-   "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania, United States",
-   "opened_at": "2026-08-13T12:57:00+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-08T16:52:42.195502+00:00",
-   "date_basis": "published",
-   "deadline": "2027-08-13T12:58:01+00:00",
-   "strength": "strong",
-   "stage": "spring",
-   "desk": "private_equity",
-   "reason": "insight programme + private capital",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A"
-  },
-  {
    "firm": "DV Trading",
    "title": "Trading Intern - Summer 2027 (DV Commodities)",
    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4719135005",
@@ -7178,7 +7178,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-9a38de583d8e/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-ea53527e9f5b/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
