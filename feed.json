@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-07T15:35:02.259842+00:00",
+ "generated_at": "2026-10-07T15:50:02.568684+00:00",
  "counts": {
   "items": 400,
   "strong": 391,
   "uk": 182,
   "uk_unstated": 75,
-  "seen_24h": 853,
+  "seen_24h": 859,
   "truncated": true,
   "total": 987,
   "truncated_uk": 0,
   "firms": 203,
   "firms_blind": 9,
   "sources": 212,
-  "postings_tracked": 24504
+  "postings_tracked": 24523
  },
  "detection": {
   "mean_latency_s": 69746.5,
@@ -293,10 +293,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 102,
+   "n_total": 103,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "102 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "103 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -393,10 +393,10 @@
    "firm": "Bain Capital",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 30,
+   "n_total": 31,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "30 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:falconx",
@@ -455,7 +455,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T15:31:16.008568+00:00",
+   "last_checked_by_bell": "2026-10-07T15:46:20.930547+00:00",
    "last_change_detected": "2026-10-07T15:31:16.008568+00:00",
    "categories": [
     "prop"
@@ -466,7 +466,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T15:33:56.192760+00:00",
+   "last_checked_by_bell": "2026-10-07T15:48:48.277931+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -477,7 +477,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-07T15:30:21.416670+00:00",
+   "last_checked_by_bell": "2026-10-07T15:45:18.908473+00:00",
    "last_change_detected": "2026-10-06T18:45:16.401885+00:00",
    "categories": [
     "bank"
@@ -488,7 +488,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T15:30:32.914615+00:00",
+   "last_checked_by_bell": "2026-10-07T15:45:30.055274+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -499,7 +499,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-07T15:31:31.518897+00:00",
+   "last_checked_by_bell": "2026-10-07T15:46:35.164608+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -510,7 +510,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T15:32:13.827379+00:00",
+   "last_checked_by_bell": "2026-10-07T15:47:16.788852+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -521,7 +521,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page. Check it by hand once a cycle.",
-   "last_checked_by_bell": "2026-10-07T15:32:23.801187+00:00",
+   "last_checked_by_bell": "2026-10-07T15:47:26.594737+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -532,7 +532,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-07T15:33:34.680152+00:00",
+   "last_checked_by_bell": "2026-10-07T15:48:23.881984+00:00",
    "last_change_detected": "2026-10-06T15:32:48.375743+00:00",
    "categories": [
     "bank"
@@ -543,7 +543,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-07T15:34:08.088564+00:00",
+   "last_checked_by_bell": "2026-10-07T15:48:59.818517+00:00",
    "last_change_detected": "2026-10-07T10:33:26.629889+00:00",
    "categories": [
     "bank"
@@ -5828,7 +5828,7 @@
   {
    "firm": "Fidelity International",
    "title": "Technology Change Analyst Summer Internship Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-fb8467224240/candidate/so/pm/1/pl/1/opp/1424-Technology-Change-Analyst-Summer-Internship-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-7c71afb61fa2/candidate/so/pm/1/pl/1/opp/1424-Technology-Change-Analyst-Summer-Internship-Programme-2027-London/en-GB",
    "location": "London",
    "opened_at": null,
    "opened_exact": false,
@@ -5846,7 +5846,7 @@
   {
    "firm": "Fidelity International",
    "title": "Technology Graduate Programme 2027 - Cyber Security - Kingswood, Surrey",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-fb8467224240/candidate/so/pm/1/pl/1/opp/1420-Technology-Graduate-Programme-2027-Cyber-Security-Kingswood-Surrey/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-7c71afb61fa2/candidate/so/pm/1/pl/1/opp/1420-Technology-Graduate-Programme-2027-Cyber-Security-Kingswood-Surrey/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
@@ -5864,7 +5864,7 @@
   {
    "firm": "Fidelity International",
    "title": "Technology Graduate Programme 2027 - Enterprise Data - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-fb8467224240/candidate/so/pm/1/pl/1/opp/1423-Technology-Graduate-Programme-2027-Enterprise-Data-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-7c71afb61fa2/candidate/so/pm/1/pl/1/opp/1423-Technology-Graduate-Programme-2027-Enterprise-Data-London/en-GB",
    "location": "London",
    "opened_at": null,
    "opened_exact": false,
@@ -6980,7 +6980,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Summer Internship Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-fb8467224240/candidate/so/pm/1/pl/1/opp/1405-Equity-Research-Summer-Internship-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-7c71afb61fa2/candidate/so/pm/1/pl/1/opp/1405-Equity-Research-Summer-Internship-Programme-2027-London/en-GB",
    "location": "London",
    "opened_at": null,
    "opened_exact": false,
@@ -6998,7 +6998,7 @@
   {
    "firm": "Fidelity International",
    "title": "Equity Research Graduate Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-fb8467224240/candidate/so/pm/1/pl/1/opp/1406-Equity-Research-Graduate-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-7c71afb61fa2/candidate/so/pm/1/pl/1/opp/1406-Equity-Research-Graduate-Programme-2027-London/en-GB",
    "location": "London",
    "opened_at": null,
    "opened_exact": false,
@@ -7016,7 +7016,7 @@
   {
    "firm": "Fidelity International",
    "title": "Fixed Income Summer Internship Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-fb8467224240/candidate/so/pm/1/pl/1/opp/1409-Fixed-Income-Summer-Internship-Programme-2027-London/en-GB",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-7c71afb61fa2/candidate/so/pm/1/pl/1/opp/1409-Fixed-Income-Summer-Internship-Programme-2027-London/en-GB",
    "location": "London",
    "opened_at": null,
    "opened_exact": false,
