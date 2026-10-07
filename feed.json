@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-07T10:50:02.087894+00:00",
+ "generated_at": "2026-10-07T11:35:02.351048+00:00",
  "counts": {
   "items": 400,
   "strong": 390,
   "uk": 182,
   "uk_unstated": 99,
-  "seen_24h": 672,
+  "seen_24h": 669,
   "truncated": true,
   "total": 997,
   "truncated_uk": 0,
   "firms": 203,
   "firms_blind": 9,
   "sources": 212,
-  "postings_tracked": 24108
+  "postings_tracked": 24125
  },
  "detection": {
   "mean_latency_s": 70408.0,
@@ -273,10 +273,10 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 222,
+   "n_total": 223,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "222 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "223 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -303,10 +303,10 @@
    "firm": "Centrica Energy Trading",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 89,
+   "n_total": 90,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "89 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "90 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:statestreet/wd1/Global",
@@ -465,7 +465,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T10:46:12.344522+00:00",
+   "last_checked_by_bell": "2026-10-07T11:31:13.481699+00:00",
    "last_change_detected": "2026-10-07T09:46:06.606434+00:00",
    "categories": [
     "prop"
@@ -476,7 +476,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T10:48:30.779715+00:00",
+   "last_checked_by_bell": "2026-10-07T11:33:31.005425+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -487,7 +487,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-07T10:45:17.486010+00:00",
+   "last_checked_by_bell": "2026-10-07T11:30:20.845557+00:00",
    "last_change_detected": "2026-10-06T18:45:16.401885+00:00",
    "categories": [
     "bank"
@@ -498,7 +498,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T10:45:28.872117+00:00",
+   "last_checked_by_bell": "2026-10-07T11:30:32.098251+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -509,7 +509,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-07T10:46:26.610921+00:00",
+   "last_checked_by_bell": "2026-10-07T11:31:27.551065+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -520,7 +520,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T10:47:09.793047+00:00",
+   "last_checked_by_bell": "2026-10-07T11:32:08.772373+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -531,7 +531,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page. Check it by hand once a cycle.",
-   "last_checked_by_bell": "2026-10-07T10:47:20.030543+00:00",
+   "last_checked_by_bell": "2026-10-07T11:32:18.170883+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -542,7 +542,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-07T10:48:09.928332+00:00",
+   "last_checked_by_bell": "2026-10-07T11:33:07.791480+00:00",
    "last_change_detected": "2026-10-06T15:32:48.375743+00:00",
    "categories": [
     "bank"
@@ -553,7 +553,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-07T10:48:41.292938+00:00",
+   "last_checked_by_bell": "2026-10-07T11:33:42.356614+00:00",
    "last_change_detected": "2026-10-07T10:33:26.629889+00:00",
    "categories": [
     "bank"
@@ -6180,7 +6180,7 @@
   {
    "firm": "Perella Weinberg Partners",
    "title": "U.S. Advisory Prep Program",
-   "url": "https://pwpcareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-78225f31d643/candidate/so/pm/1/pl/1/opp/1117-U-S-Advisory-Prep-Program/en-GB",
+   "url": "https://pwpcareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-a4aa73bc2c30/candidate/so/pm/1/pl/1/opp/1117-U-S-Advisory-Prep-Program/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
