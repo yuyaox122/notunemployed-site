@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-07T22:20:02.581597+00:00",
+ "generated_at": "2026-10-07T22:50:02.429119+00:00",
  "counts": {
   "items": 400,
   "strong": 391,
   "uk": 184,
   "uk_unstated": 75,
-  "seen_24h": 880,
+  "seen_24h": 884,
   "truncated": true,
   "total": 990,
   "truncated_uk": 0,
   "firms": 203,
   "firms_blind": 9,
   "sources": 212,
-  "postings_tracked": 24768
+  "postings_tracked": 24780
  },
  "detection": {
-  "mean_latency_s": 71316.6,
-  "sampled": 271,
+  "mean_latency_s": 71575.3,
+  "sampled": 270,
   "by_tier": {
    "A": {
     "mean_latency_s": 24033.7,
     "sampled": 84
    },
    "B": {
-    "mean_latency_s": 92556.0,
-    "sampled": 187
+    "mean_latency_s": 93045.8,
+    "sampled": 186
    }
   },
   "watch": {
@@ -479,7 +479,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T22:16:09.307728+00:00",
+   "last_checked_by_bell": "2026-10-07T22:46:14.908314+00:00",
    "last_change_detected": "2026-10-07T17:01:18.122202+00:00",
    "categories": [
     "prop"
@@ -490,7 +490,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "Board cannot be parsed; only page changes are detectable.",
-   "last_checked_by_bell": "2026-10-07T22:18:33.114508+00:00",
+   "last_checked_by_bell": "2026-10-07T22:48:31.689438+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -501,7 +501,7 @@
    "url": "",
    "kind": "manual",
    "why": "This is BofA's LATERAL Workday site. The campus board is now watched separately at linklist:bankcampuscareers.tal.net \u2014 it is linked from campus.bankofamerica.com, not from the main careers page, which is why it looked undiscoverable.",
-   "last_checked_by_bell": "2026-10-07T22:15:17.156690+00:00",
+   "last_checked_by_bell": "2026-10-07T22:45:19.887518+00:00",
    "last_change_detected": "2026-10-06T18:45:16.401885+00:00",
    "categories": [
     "bank"
@@ -512,7 +512,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and **robots.txt disallows it**; group.bnpparibas returns 403 to an honest user agent. Refused on both routes. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T22:15:28.815726+00:00",
+   "last_checked_by_bell": "2026-10-07T22:45:30.859756+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -523,7 +523,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and **robots.txt disallows it**. That is a definite answer and a better one than the old 'No ATS' \u2014 Goldman is not unreachable, they have said no. Spring week typically opens in the first three weeks of September, so this is a manual checklist item every September.",
-   "last_checked_by_bell": "2026-10-07T22:16:23.776363+00:00",
+   "last_checked_by_bell": "2026-10-07T22:46:28.705080+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -534,7 +534,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage. UK cycle is separate from the US one, which closed in February. Verified 2026-09-07.",
-   "last_checked_by_bell": "2026-10-07T22:17:07.673833+00:00",
+   "last_checked_by_bell": "2026-10-07T22:47:10.044759+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -545,7 +545,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page. Check it by hand once a cycle.",
-   "last_checked_by_bell": "2026-10-07T22:17:18.047406+00:00",
+   "last_checked_by_bell": "2026-10-07T22:47:20.403964+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -556,7 +556,7 @@
    "url": "https://careers.smbcgroup.com/sitemap.xml",
    "kind": "manual",
    "why": "Readable and currently SILENT: 160 jobs, **0 early-careers**, all US lateral (Charlotte and New York, VP/Associate). Their campus pipeline is not on this host and is probably on the Disallowed SuccessFactors one. `expect_early_careers=False` so `coverage.gaps` does not report this as a fault \u2014 it is a correct silence, not a broken board. Slug mode because the job pages carry schema.org MICRODATA (`<meta itemprop=\"datePosted\">`) and `sitemap._jsonld_jobs` reads JSON-LD only; a microdata fallback would give this board exact dates and is the obvious next increment.",
-   "last_checked_by_bell": "2026-10-07T22:18:09.172660+00:00",
+   "last_checked_by_bell": "2026-10-07T22:48:09.976888+00:00",
    "last_change_detected": "2026-10-07T22:03:12.060530+00:00",
    "categories": [
     "bank"
@@ -567,7 +567,7 @@
    "url": "",
    "kind": "manual",
    "why": "**The most expensive source bell has, and it is a cadence question rather than a bug.** No ETag and no Last-Modified \u2014 both checked and absent \u2014 so every poll pays 503 KB on the wire (1.77 MB decoded) for a page whose job list is one hidden input. A whole slow pass costs about 1.46 MB over 180 requests, so this single source adds roughly a third again, 96 times a day, for ever. The adapter fingerprints so an unmoved board costs no ingest, but the bytes are spent regardless and B, C and D all run on the same 15-minute pass, so there is no slower tier to put it in. If that is too much, `enabled: false` here and re-enable the disabled `manual` row above.",
-   "last_checked_by_bell": "2026-10-07T22:18:43.618170+00:00",
+   "last_checked_by_bell": "2026-10-07T22:48:42.718017+00:00",
    "last_change_detected": "2026-10-07T10:33:26.629889+00:00",
    "categories": [
     "bank"
@@ -7076,7 +7076,7 @@
   {
    "firm": "Nomura",
    "title": "2026 - Women in Quantitative Finance",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-834f87c4c6ff/candidate/so/pm/1/pl/2/opp/1540-2026-Women-in-Quantitative-Finance/en-GB",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0458bd35d8cb/candidate/so/pm/1/pl/2/opp/1540-2026-Women-in-Quantitative-Finance/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
