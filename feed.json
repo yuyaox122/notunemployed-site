@@ -1,29 +1,29 @@
 {
- "generated_at": "2026-10-08T12:35:01.826537+00:00",
+ "generated_at": "2026-10-08T14:05:01.760486+00:00",
  "counts": {
   "items": 400,
   "strong": 391,
   "uk": 186,
   "uk_unstated": 76,
-  "seen_24h": 18,
+  "seen_24h": 14,
   "truncated": true,
   "total": 1000,
   "truncated_uk": 0,
   "firms": 203,
   "firms_blind": 6,
   "sources": 212,
-  "postings_tracked": 25074
+  "postings_tracked": 25148
  },
  "detection": {
-  "mean_latency_s": 59777.6,
-  "median_latency_s": 844.6,
-  "sampled": 271,
+  "mean_latency_s": 59555.4,
+  "median_latency_s": 842.1,
+  "sampled": 272,
   "by_tier": {
    "A": {
-    "mean_latency_s": 2894.4,
-    "median_latency_s": 48.9,
-    "under_60s": 52,
-    "sampled": 82
+    "mean_latency_s": 2851.6,
+    "median_latency_s": 48.0,
+    "under_60s": 54,
+    "sampled": 83
    },
    "B": {
     "mean_latency_s": 84457.1,
@@ -184,6 +184,16 @@
    "reason": "229 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:statestreet/wd1/Global",
+   "firm": "State Street",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 177,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "177 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
@@ -194,34 +204,24 @@
    "reason": "173 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
-   "key": "workday:statestreet/wd1/Global",
-   "firm": "State Street",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 167,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "167 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "workday:mgpru/wd3/mandgprudential",
    "firm": "M&G Investments",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 125,
+   "n_total": 127,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "125 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "127 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
    "firm": "Centrica Energy Trading",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 93,
+   "n_total": 94,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "93 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "94 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -370,7 +370,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-08T12:31:17.901139+00:00",
+   "last_checked_by_bell": "2026-10-08T14:01:37.070554+00:00",
    "last_change_detected": "2026-10-08T04:01:11.896497+00:00",
    "categories": [
     "prop"
@@ -381,7 +381,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-08T12:33:39.757586+00:00",
+   "last_checked_by_bell": "2026-10-08T14:03:58.977400+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -392,7 +392,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-08T12:30:32.547727+00:00",
+   "last_checked_by_bell": "2026-10-08T14:00:36.062448+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -403,7 +403,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-08T12:31:32.026064+00:00",
+   "last_checked_by_bell": "2026-10-08T14:01:51.202933+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -414,7 +414,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-08T12:32:13.813712+00:00",
+   "last_checked_by_bell": "2026-10-08T14:02:34.217303+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -425,7 +425,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-08T12:32:24.339072+00:00",
+   "last_checked_by_bell": "2026-10-08T14:02:44.412381+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -495,7 +495,7 @@
   },
   {
    "firm": "PDT Partners",
-   "title": "Summer 2027 Quantitative Research Intern",
+   "title": "Summer 2027 Quantitative Research Intern - PhD/Postdoctoral",
    "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8263031",
    "location": "New York, NY",
    "opened_at": "2026-10-07T20:17:28+00:00",
