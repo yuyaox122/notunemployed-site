@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T20:50:02.255308+00:00",
+ "generated_at": "2026-10-08T22:05:02.106794+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
@@ -13,24 +13,24 @@
   "firms": 203,
   "firms_blind": 5,
   "sources": 212,
-  "postings_tracked": 25578
+  "postings_tracked": 25603
  },
  "detection": {
-  "mean_latency_s": 54354.2,
-  "median_latency_s": 808.8,
-  "sampled": 276,
+  "mean_latency_s": 57616.7,
+  "median_latency_s": 687.9,
+  "sampled": 259,
   "by_tier": {
    "A": {
-    "mean_latency_s": 2739.0,
-    "median_latency_s": 45.0,
-    "under_60s": 58,
-    "sampled": 83
+    "mean_latency_s": 2808.5,
+    "median_latency_s": 43.3,
+    "under_60s": 59,
+    "sampled": 80
    },
    "B": {
-    "mean_latency_s": 76551.4,
-    "median_latency_s": 1605.5,
+    "mean_latency_s": 82112.0,
+    "median_latency_s": 902.6,
     "under_60s": 4,
-    "sampled": 193
+    "sampled": 179
    }
   },
   "watch": {
@@ -169,10 +169,10 @@
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 255,
+   "n_total": 256,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "255 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "256 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "greenhouse:janestreet",
@@ -199,20 +199,20 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 194,
+   "n_total": 195,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "194 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "195 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 176,
+   "n_total": 177,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "176 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "177 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -305,19 +305,19 @@
    "reason": "36 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
-   "key": "greenhouse:stxgroup",
-   "firm": "STX Group",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 32,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "workday:baincapital/wd1/External_Public",
    "firm": "Bain Capital",
    "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 33,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "greenhouse:stxgroup",
+   "firm": "STX Group",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 32,
    "n_match": 0,
@@ -381,7 +381,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-08T20:48:31.318271+00:00",
+   "last_checked_by_bell": "2026-10-08T22:03:34.468039+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -392,7 +392,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-08T20:45:31.258139+00:00",
+   "last_checked_by_bell": "2026-10-08T22:00:31.365476+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -403,7 +403,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-08T20:46:26.697119+00:00",
+   "last_checked_by_bell": "2026-10-08T22:01:28.662278+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -414,7 +414,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-08T20:47:08.090861+00:00",
+   "last_checked_by_bell": "2026-10-08T22:02:10.639463+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -425,7 +425,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-08T20:47:18.503194+00:00",
+   "last_checked_by_bell": "2026-10-08T22:02:21.792992+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -8356,7 +8356,7 @@
   {
    "firm": "Nomura",
    "title": "2026 - Women in Quantitative Finance",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6a9722b5f652/candidate/so/pm/1/pl/2/opp/1540-2026-Women-in-Quantitative-Finance/en-GB",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-e95238e33bb3/candidate/so/pm/1/pl/2/opp/1540-2026-Women-in-Quantitative-Finance/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
