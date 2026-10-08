@@ -196,6 +196,7 @@ li.item.marked{opacity:.5}
 .bs .chk{white-space:nowrap;display:flex;gap:6px;align-items:center}
 .bs button{padding:3px 9px;font-size:11px;border-radius:6px}
 .bs .stale{color:var(--warn);font-weight:600}
+.device summary{color:var(--accent)}
 .empty{text-align:center;color:var(--muted);padding:40px 12px}
 .empty button{margin-top:10px}
 footer{margin-top:26px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);
@@ -269,6 +270,11 @@ footer{margin-top:26px;color:var(--muted);font-size:12px;border-top:1px solid va
   <!-- What bell cannot see, in a view of its own: on the Openings view these filled the
        first screen on a phone and on a laptop, above every opening (Round 88). -->
   <div id="coverage" hidden>
+    <!-- What reached THIS device, from its own service worker's log (plan item 29). -->
+    <details id="device" class="blind device">
+      <summary id="devsum">This device</summary>
+      <div id="devlog"></div>
+    </details>
     <div class="fact" id="covsum"></div>
     <details id="blindwrap" class="blind" open>
       <summary><span id="blindcount"></span> — firms bell cannot fully track</summary>

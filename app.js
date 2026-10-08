@@ -211,17 +211,20 @@ function setView(v) {
 // `skip` names a facet to ignore. Counting a chip against every filter EXCEPT its own
 // group is what stops the panel becoming a maze of dead ends: "Graduate 59" means 59
 // more rows if you tap it, not 0 because the current selection already excludes them.
-function matches(i, skip) {
+function matches(i, skip, route = state.route) {
   // A tier-D row is a page that changed or a calendar window, not an opening: on the
   // laptop it topped "Found in the last 24 hours" as "DRW careers page changed"
   // (Round 88). The Coverage view lists those boards, with when each last changed.
   if (i.tier === "D") return false;
-  const r = state.route;
+  const r = route;
   if (r) {
     if (r.kind === "pushed" && i.pushed_at !== r.at) return false;
     if (r.kind === "found" && ((i.first_seen_at || "") < r.at || i.adopted)) return false;
   } else {
-    if (skip !== "uk" && state.uk && !i.uk) return false;
+    // The reader's places, the ones that push (`wanted`, since Round 89): asked of the
+    // UK alone, the default view showed 1 of the 18 open strong roles in Amsterdam that
+    // the feed's window holds. A feed from before the field has only `uk`.
+    if (skip !== "uk" && state.uk && !(i.wanted ?? i.uk)) return false;
     if (skip !== "strong" && state.strong && i.strength !== "strong") return false;
     if (skip !== "hideDone" && state.hideDone && marks[markKey(i)]) return false;
     if (skip !== "onlyNew" && state.onlyNew && !isNew(i)) return false;
@@ -263,7 +266,7 @@ function activeFilters() {
   } else {
     // Not "UK only": the filter also admits any row with no stated location, which is
     // right (a tier-D page-change row has none by construction), so the label says so.
-    if (state.uk) out.push(["uk", "UK or unstated"]);
+    if (state.uk) out.push(["uk", placesLabel()]);
     if (state.strong) out.push(["strong", "Strong only"]);
     if (state.hideDone) out.push(["hideDone", "Hiding marked"]);
     if (state.onlyNew) out.push(["onlyNew", "New to me"]);
@@ -273,6 +276,12 @@ function activeFilters() {
   for (const v of state.firm) out.push(["firm:" + v, v]);
   if (state.q) out.push(["q", `"${state.q}"`]);
   return out;
+}
+
+// The reader's places as the feed names them ("UK, Amsterdam, remote"), and the rows
+// with no stated place, which the filter keeps.
+function placesLabel() {
+  return (window.__places || "UK") + " or unstated";
 }
 
 function clearFilters() {
@@ -341,6 +350,7 @@ function renderAll() {
     $("empty").hidden = true;
     if (state.view === "browse") renderBrowse();
     else if (state.view === "calendar") renderCalendar();
+    else if (state.view === "coverage") refreshDevice();
     return;
   }
   chipRow($("fStage"), "stage");
@@ -349,6 +359,7 @@ function renderAll() {
   for (const [id, k] of [["fUK","uk"],["fStrong","strong"],["fHide","hideDone"],
                          ["fNew","onlyNew"]])
     $(id).setAttribute("aria-pressed", String(state[k]));
+  $("fUK").textContent = placesLabel();
   $("panel").hidden = !state.panel;
   $("fFilters").setAttribute("aria-expanded", String(state.panel));
   const n = activeFilters().length;
@@ -368,9 +379,19 @@ function fresh(i) {
   return Date.now() - new Date(i.first_seen_at).getTime() < DAY;
 }
 
+// The "new 24h" tile is the found group it sits above: rows found in the last day, not
+// adopted, under the filters in force (the author's call of 2026-10-08, plan item 27). It
+// read 15 above a group of 5, counting rows abroad and a page change. Asked without a
+// push's route, so it means the same on every page.
+function freshCount() {
+  return state.items.filter(i => fresh(i) && matches(i, null, null)).length;
+}
+
 function render() {
   const items = state.items.filter(i => matches(i));
   const sort = state.route ? "found" : state.sort;
+  const tile = document.querySelector('#stats [data-act="fresh"] b');
+  if (tile) tile.textContent = String(freshCount());
 
   if (sort === "found")
     items.sort((a, b) => (b.first_seen_at || "").localeCompare(a.first_seen_at || ""));
@@ -581,8 +602,9 @@ function renderStats(d) {
   const soon = ((d.calendar || {}).deadlines || [])
     .filter(x => x.days_left != null && x.days_left <= 7).length;
   const tiles = [
-    // Strong rows FOUND in the last day, not adopted with a new board; it counted every
-    // posting first seen, 809 of 853 of them not matches. Opens exactly those rows.
+    // Rows FOUND in the last day, not adopted with a new board; it counted every posting
+    // first seen, 809 of 853 of them not matches. `render` counts it from the rows the
+    // list shows (`freshCount`); the feed's number stands until then.
     ["new 24h", c.seen_24h, "", "fresh"],
     ["strong", c.strong, "", "strong"],
     // `counts.uk` is the FACT — rows whose board said the UK — not the filter policy.
@@ -627,7 +649,8 @@ function renderStats(d) {
   $("covsum").textContent = `bell reads the boards of ${c.firms} firms and keeps `
     + `${c.postings_tracked} postings. It shows ${c.items} of the ${c.total || c.items} `
     + `open early-careers matches`
-    + (c.truncated ? ", UK rows first, so the ones left out are elsewhere" : "")
+    + (c.truncated ? `, ${c.places || "UK"} rows first, so the ones left out are `
+                     + `elsewhere` : "")
     + `. Below: the firms it cannot see at all, then the boards it reads that show `
     + `nothing for you.`;
   const g = d.gaps || [];
@@ -682,6 +705,95 @@ function renderBlind(bs) {
        ${STALE_DAYS} days is flagged.</div>`;
 }
 
+// ---- this device's own record ---------------------------------------------------
+// The service worker logs every push that reaches this device (`sent_at`, stamped by
+// bell when it sent, and `received_at`) and every "Not for me" (`dismissed`) in Cache
+// Storage. Gate 1 is closed, and this is what replaced its daily readings (plan item
+// 29): a push bell sent that this device never logged is a loss nothing else can see,
+// because the server's `201` says only that Apple or Google took it. **A page reads its
+// own origin's log and no other**, so a device subscribed through another address (the
+// Mac through the SSH tunnel, until plan item 20) keeps its log where this cannot look.
+const ARRIVALS = "bell-arrivals";
+const APPLIED_KEY = "bell.dismissed.applied.v1";
+// Held in memory and saved, as `marks` is: storage can throw, and the set must still
+// hold for the session.
+const applied = new Set(readJSON(APPLIED_KEY, []));
+
+async function readDevice() {
+  try {
+    if (typeof caches === "undefined") return null;
+    const c = await caches.open(ARRIVALS);
+    const get = async (k) => { const r = await c.match(k); return r ? await r.json() : []; };
+    return { log: await get("log"), dismissed: await get("dismissed") };
+  } catch (_) { return null; }
+}
+
+// What the log says about the last seven days. Pure, so the probe can drive it.
+function arrivalSummary(log, nowS) {
+  const rows = (log || []).filter(a => a && a.received_at)
+    .sort((a, b) => b.received_at - a.received_at);
+  const week = rows.filter(a => nowS - a.received_at <= 7 * 86400);
+  const delays = week.filter(a => a.sent_at).map(a => a.received_at - a.sent_at)
+    .sort((a, b) => a - b);
+  const n = delays.length;
+  const median = !n ? null
+    : n % 2 ? delays[(n - 1) / 2] : (delays[n / 2 - 1] + delays[n / 2]) / 2;
+  return { all: rows.length, week: week.length, median: median,
+           last: rows.length ? rows[0].received_at : null, rows: rows.slice(0, 30) };
+}
+
+// "Not for me" on a notification marks its row as the button on the row would. Once per
+// key, so a row the reader un-marks here is not marked again on the next load.
+function applyDismissed(dismissed) {
+  const keys = new Set(dismissed || []);
+  let n = 0;
+  for (const i of state.items) {
+    if (!i.key || !keys.has(i.key) || applied.has(i.key)) continue;
+    applied.add(i.key);
+    if (!marks[markKey(i)]) { marks[markKey(i)] = "dismissed"; n++; }
+  }
+  writeJSON(APPLIED_KEY, [...applied].slice(-500));
+  if (n) saveMarks();
+  return n;
+}
+
+function renderDevice(dev) {
+  if (!dev) {
+    $("devsum").textContent = "This device keeps no arrival log";
+    $("devlog").innerHTML = `<div class="bs"><div class="why">This browser gives the page
+      no Cache Storage, so what reached it cannot be counted here.</div></div>`;
+    return;
+  }
+  const s = arrivalSummary(dev.log, Date.now() / 1000);
+  const iso = (t) => new Date(t * 1000).toISOString();
+  if (!s.all) {
+    $("devsum").textContent = "This device: no push logged yet";
+    $("devlog").innerHTML = `<div class="bs"><div class="why">Nothing bell pushed has
+      reached this copy of the site. A device subscribed through another address, such as
+      the SSH tunnel, logs its pushes there, where this page cannot read them.</div></div>`;
+    return;
+  }
+  $("devsum").textContent = `This device: ${s.week} push${s.week === 1 ? "" : "es"}`
+    + ` received in 7 days`
+    + (s.median != null ? `, median delay ${dur(Math.max(0, s.median))}` : "")
+    + `, the last ${ago(iso(s.last))}`;
+  const nd = (dev.dismissed || []).length;
+  $("devlog").innerHTML = s.rows.map(a => `<div class="bs">
+      <div class="why">${esc(a.title || "(no title)")}</div>
+      <div class="chk">${esc(whenAt(iso(a.received_at)))}${a.sent_at
+        ? ` · ${esc(dur(Math.max(0, a.received_at - a.sent_at)))} after it was sent`
+        : ""}</div></div>`).join("")
+    + `<div style="margin-top:8px;color:var(--muted)">The newest ${s.rows.length} of
+       ${s.all} logged here${nd ? `; ${nd} dismissed with "Not for me"` : ""}. Compare a
+       week of this with what bell says it sent to this device.</div>`;
+}
+
+async function refreshDevice() {
+  const dev = await readDevice();
+  if (dev && applyDismissed(dev.dismissed) && state.view === "list") render();
+  renderDevice(dev);
+}
+
 async function load() {
   try {
     // CONDITIONAL GET, as every adapter does: a poll that finds nothing should cost no
@@ -693,8 +805,10 @@ async function load() {
     if (r.status === 304) return;          // nothing changed; keep what is rendered
     const d = await r.json();
     state.items = d.items || [];
+    window.__places = (d.counts || {}).places;
     renderStats(d);
     renderBlind(d.blindspots || []);
+    refreshDevice();
     window.__cal = d.calendar || {};
     $("gen").textContent = "updated " + ago(d.generated_at);
     renderAll();
@@ -762,8 +876,12 @@ $("stats").addEventListener("click", (e) => {
   if (act === "blind") { setView("coverage"); return; }
   if (act === "calendar") { setView("calendar"); return; }
   if (act === "fresh") {
-    location.hash = "#/found/" + new Date(Date.now() - DAY).toISOString();
-    return;                                   // hashchange re-renders
+    // The rows it counts lead the list in "Newest opening" order, under these filters.
+    if (state.sort !== "opened") { state.sort = "opened"; saveFilters(); }
+    if (state.view !== "list" || state.route) location.hash = "#/";   // re-renders
+    else renderAll();
+    if (window.scrollTo) window.scrollTo(0, 0);
+    return;
   }
   state[act] = !state[act];
   saveFilters(); renderAll();

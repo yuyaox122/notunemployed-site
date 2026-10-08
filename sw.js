@@ -17,7 +17,10 @@ self.addEventListener("push", (event) => {
       const c = await caches.open(LOG);
       const prev = await c.match("log");
       const arr = prev ? await prev.json() : [];
-      arr.push({ title, sent_at: d.sent_at, received_at: Date.now() / 1000 });
+      // `key` is the push's tag (a posting, `bell-digest`, `bell-rollup`), so a week of
+      // this log can be read against `delivery` push by push (plan item 29).
+      arr.push({ title, key: d.key || d.tag || "", sent_at: d.sent_at,
+                 received_at: Date.now() / 1000 });
       await c.put("log", new Response(JSON.stringify(arr.slice(-200))));
     } catch (_) {}
     // Rule 1 — unconditional.
@@ -61,8 +64,8 @@ self.addEventListener("notificationclick", (event) => {
   event.notification.close();
   const data = event.notification.data || {};
 
-  // "Not for me" must not open a tab. It records the posting's key in Cache Storage;
-  // app.js does not read that list yet, so the row still appears in the app unmarked.
+  // "Not for me" must not open a tab. It records the posting's key in Cache Storage,
+  // and app.js marks that row "not for me" the next time it opens on this origin.
   if (event.action === "later") {
     event.waitUntil((async () => {
       try {
