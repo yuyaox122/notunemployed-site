@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T18:20:02.081832+00:00",
+ "generated_at": "2026-10-08T19:35:01.622177+00:00",
  "counts": {
   "items": 400,
   "strong": 391,
@@ -12,24 +12,24 @@
   "firms": 203,
   "firms_blind": 6,
   "sources": 212,
-  "postings_tracked": 25320
+  "postings_tracked": 25348
  },
  "detection": {
-  "mean_latency_s": 57951.0,
-  "median_latency_s": 836.6,
-  "sampled": 277,
+  "mean_latency_s": 54551.4,
+  "median_latency_s": 812.2,
+  "sampled": 275,
   "by_tier": {
    "A": {
-    "mean_latency_s": 2759.7,
+    "mean_latency_s": 2739.0,
     "median_latency_s": 45.0,
     "under_60s": 58,
     "sampled": 83
    },
    "B": {
-    "mean_latency_s": 81563.8,
-    "median_latency_s": 1692.7,
+    "mean_latency_s": 76949.4,
+    "median_latency_s": 1614.8,
     "under_60s": 4,
-    "sampled": 194
+    "sampled": 192
    }
   },
   "watch": {
@@ -308,20 +308,20 @@
    "firm": "Bain Capital",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 31,
+   "n_total": 32,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:falconx",
    "firm": "FalconX",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 29,
+   "n_total": 30,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "29 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "30 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "linklist:https://www.smartrecruiters.com/Vitol",
@@ -370,7 +370,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-08T18:16:17.184555+00:00",
+   "last_checked_by_bell": "2026-10-08T19:31:14.105436+00:00",
    "last_change_detected": "2026-10-08T16:46:22.903232+00:00",
    "categories": [
     "prop"
@@ -381,7 +381,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-08T18:18:39.705637+00:00",
+   "last_checked_by_bell": "2026-10-08T19:33:33.147592+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -392,7 +392,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-08T18:15:34.658371+00:00",
+   "last_checked_by_bell": "2026-10-08T19:30:30.869906+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -403,7 +403,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-08T18:16:31.858675+00:00",
+   "last_checked_by_bell": "2026-10-08T19:31:28.700854+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -414,7 +414,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-08T18:17:11.826834+00:00",
+   "last_checked_by_bell": "2026-10-08T19:32:08.685496+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -425,7 +425,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-08T18:17:21.997841+00:00",
+   "last_checked_by_bell": "2026-10-08T19:32:19.038266+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -7656,7 +7656,7 @@
   {
    "firm": "Nomura",
    "title": "2026 - Women in Quantitative Finance",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-0458bd35d8cb/candidate/so/pm/1/pl/2/opp/1540-2026-Women-in-Quantitative-Finance/en-GB",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-6a9722b5f652/candidate/so/pm/1/pl/2/opp/1540-2026-Women-in-Quantitative-Finance/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
