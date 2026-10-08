@@ -141,6 +141,7 @@ button.stat[aria-pressed=true]{background:var(--accent-soft);border-color:var(--
 button.stat[aria-pressed=true] b,button.stat[aria-pressed=true] i{color:var(--accent)}
 .stat.blind{background:var(--warn-soft);border-color:var(--warn)}
 .stat.blind b,.stat.blind i{color:var(--warn)}
+.stat.warn b{color:var(--warn)}
 
 /* ---- the list ---- */
 ul{list-style:none;padding:0;margin:0}
@@ -173,6 +174,7 @@ li.item.weak .firm{color:var(--weak)}
 .acts button{padding:4px 10px;font-size:12px;border-radius:7px}
 li.item.marked{opacity:.5}
 .tag.done{border-color:var(--muted);color:var(--muted);text-transform:capitalize}
+.tag.pushed{border-color:var(--accent);color:var(--accent)}
 
 /* ---- coverage ---- */
 .gaps{background:var(--warn-soft);border:1px solid var(--warn);border-radius:11px;
@@ -221,6 +223,7 @@ footer{margin-top:26px;color:var(--muted);font-size:12px;border-top:1px solid va
       <button data-view="list"     aria-pressed="true">Openings</button>
       <button data-view="browse"   aria-pressed="false">Browse</button>
       <button data-view="calendar" aria-pressed="false">Calendar</button>
+      <button data-view="coverage" aria-pressed="false">Coverage</button>
     </nav>
     <div class="bar" id="searchbar">
       <input type="search" id="q" placeholder="Search firm, title, location…"
@@ -259,16 +262,20 @@ footer{margin-top:26px;color:var(--muted);font-size:12px;border-top:1px solid va
     </select>
   </div>
 
-  <div id="gaps"></div>
-  <details id="blindwrap" class="blind">
-    <summary><span id="blindcount"></span> — firms bell cannot fully track</summary>
-    <div id="blind"></div>
-  </details>
-
   <div id="list"></div>
   <div class="empty" id="empty" hidden>Nothing matches those filters.</div>
   <div id="browse" hidden></div>
   <div id="calendar" hidden></div>
+  <!-- What bell cannot see, in a view of its own: on the Openings view these filled the
+       first screen on a phone and on a laptop, above every opening (Round 88). -->
+  <div id="coverage" hidden>
+    <div class="fact" id="covsum"></div>
+    <details id="blindwrap" class="blind" open>
+      <summary><span id="blindcount"></span> — firms bell cannot fully track</summary>
+      <div id="blind"></div>
+    </details>
+    <div id="gaps"></div>
+  </div>
 
   <footer>
     Detection uses each board's own <code>first_published</code> where the platform

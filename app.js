@@ -30,6 +30,10 @@ const state = {
   items: [], q: "", uk: true, strong: true, hideDone: true, onlyNew: false,
   stage: new Set(), desk: new Set(), firm: new Set(),
   sort: "opened", panel: false, allFirms: false, view: "list",
+  // A push's own view (`#/pushed/<at>`, `#/found/<since>`): the rows a batch pushed, or
+  // what was found since a moment. It replaces the narrowing defaults, because a row a
+  // push announced must be on the page the push opens, wherever it is.
+  route: null,
 };
 
 // ---- per-viewer state -------------------------------------------------------
@@ -143,7 +147,7 @@ function stated(i) {
 // The date a given sort actually orders by, so the day headings cannot disagree with
 // the order beneath them.
 function sortDate(i) {
-  if (state.sort === "found") return i.first_seen_at || "";
+  if (state.route || state.sort === "found") return i.first_seen_at || "";
   return (i.date_basis === "unknown" ? "" : (i.opened_at || i.first_seen_at || ""));
 }
 
@@ -170,16 +174,23 @@ function readHash() {
   const [head, ...rest] = h.split("/").map(decodeURIComponent);
   const arg = rest.join("/");
   state.stage.clear(); state.desk.clear(); state.firm.clear();
-  if (head === "calendar" || head === "browse") { state.view = head; return; }
+  state.route = null;
+  if (head === "calendar" || head === "browse" || head === "coverage") {
+    state.view = head; return;
+  }
   state.view = "list";
   if (head === "desk" && arg) state.desk.add(arg);
   else if (head === "stage" && arg) state.stage.add(arg);
   else if (head === "firm" && arg) state.firm.add(arg);
+  else if ((head === "pushed" || head === "found") && arg)
+    state.route = { kind: head, at: arg };
 }
 
 function writeHash() {
   let h = "#/";
   if (state.view !== "list") h = "#/" + state.view;
+  else if (state.route)
+    h = "#/" + state.route.kind + "/" + encodeURIComponent(state.route.at);
   else if (state.desk.size === 1 && !state.stage.size && !state.firm.size)
     h = "#/desk/" + encodeURIComponent([...state.desk][0]);
   else if (state.stage.size === 1 && !state.desk.size && !state.firm.size)
@@ -201,10 +212,20 @@ function setView(v) {
 // group is what stops the panel becoming a maze of dead ends: "Graduate 59" means 59
 // more rows if you tap it, not 0 because the current selection already excludes them.
 function matches(i, skip) {
-  if (skip !== "uk" && state.uk && !i.uk) return false;
-  if (skip !== "strong" && state.strong && i.strength !== "strong") return false;
-  if (skip !== "hideDone" && state.hideDone && marks[markKey(i)]) return false;
-  if (skip !== "onlyNew" && state.onlyNew && !isNew(i)) return false;
+  // A tier-D row is a page that changed or a calendar window, not an opening: on the
+  // laptop it topped "Found in the last 24 hours" as "DRW careers page changed"
+  // (Round 88). The Coverage view lists those boards, with when each last changed.
+  if (i.tier === "D") return false;
+  const r = state.route;
+  if (r) {
+    if (r.kind === "pushed" && i.pushed_at !== r.at) return false;
+    if (r.kind === "found" && ((i.first_seen_at || "") < r.at || i.adopted)) return false;
+  } else {
+    if (skip !== "uk" && state.uk && !i.uk) return false;
+    if (skip !== "strong" && state.strong && i.strength !== "strong") return false;
+    if (skip !== "hideDone" && state.hideDone && marks[markKey(i)]) return false;
+    if (skip !== "onlyNew" && state.onlyNew && !isNew(i)) return false;
+  }
   if (skip !== "stage" && state.stage.size && !state.stage.has(String(i.stage)))
     return false;
   if (skip !== "desk" && state.desk.size && !state.desk.has(String(i.desk)))
@@ -227,14 +248,26 @@ function counts(key) {
   return out;
 }
 
+function whenAt(iso) {
+  const d = new Date(iso);
+  return isNaN(d) ? String(iso)
+    : d.toLocaleString("en-GB", { weekday: "short", hour: "2-digit", minute: "2-digit" });
+}
+
 function activeFilters() {
   const out = [];
-  // Not "UK only": the filter also admits any row with no stated location, which is
-  // right (a tier-D page-change row has none by construction), so the label says so.
-  if (state.uk) out.push(["uk", "UK or unstated"]);
-  if (state.strong) out.push(["strong", "Strong only"]);
-  if (state.hideDone) out.push(["hideDone", "Hiding marked"]);
-  if (state.onlyNew) out.push(["onlyNew", "New to me"]);
+  if (state.route) {
+    out.push(["route", state.route.kind === "pushed"
+      ? "In the push of " + whenAt(state.route.at)
+      : "Found since " + whenAt(state.route.at)]);
+  } else {
+    // Not "UK only": the filter also admits any row with no stated location, which is
+    // right (a tier-D page-change row has none by construction), so the label says so.
+    if (state.uk) out.push(["uk", "UK or unstated"]);
+    if (state.strong) out.push(["strong", "Strong only"]);
+    if (state.hideDone) out.push(["hideDone", "Hiding marked"]);
+    if (state.onlyNew) out.push(["onlyNew", "New to me"]);
+  }
   for (const k of ["stage", "desk"])
     for (const v of state[k]) out.push([k + ":" + v, FACETS[k].name[v] || v]);
   for (const v of state.firm) out.push(["firm:" + v, v]);
@@ -243,6 +276,7 @@ function activeFilters() {
 }
 
 function clearFilters() {
+  state.route = null;
   state.uk = state.strong = state.hideDone = state.onlyNew = false;
   state.stage.clear(); state.desk.clear(); state.firm.clear();
   state.q = ""; $("q").value = "";
@@ -250,6 +284,7 @@ function clearFilters() {
 }
 
 function dropFilter(id) {
+  if (id === "route") { state.route = null; saveFilters(); renderAll(); return; }
   const [k, v] = id.split(/:(.+)/);
   if (v === undefined) { state[k] = k === "q" ? ($("q").value = "") : false; }
   else state[k].delete(v);
@@ -295,16 +330,17 @@ function renderAll() {
   for (const b of $("views").querySelectorAll("button"))
     b.setAttribute("aria-pressed", String(b.dataset.view === state.view));
   const isList = state.view === "list";
-  for (const id of ["stats", "list", "gaps", "blindwrap"]) $(id).hidden = !isList;
+  for (const id of ["stats", "list"]) $(id).hidden = !isList;
   $("searchbar").hidden = !isList;
   $("browse").hidden = state.view !== "browse";
   $("calendar").hidden = state.view !== "calendar";
+  $("coverage").hidden = state.view !== "coverage";
   document.querySelector(".resbar").hidden = !isList;
   if (!isList) {
     $("panel").hidden = true;
     $("empty").hidden = true;
     if (state.view === "browse") renderBrowse();
-    else renderCalendar();
+    else if (state.view === "calendar") renderCalendar();
     return;
   }
   chipRow($("fStage"), "stage");
@@ -322,12 +358,23 @@ function renderAll() {
   writeHash();
 }
 
+// Found in the last day, and found rather than adopted with a new board. These lead the
+// default view whatever the sort: "Newest opening" orders by the board's own date and
+// holds undated boards to the end, so the role pushed at 13:49 on 2026-10-07 sat 30
+// phone screens down (Round 88).
+const FOUND_HEAD = "Found in the last 24 hours";
+function fresh(i) {
+  if (i.adopted || !i.first_seen_at) return false;
+  return Date.now() - new Date(i.first_seen_at).getTime() < DAY;
+}
+
 function render() {
   const items = state.items.filter(i => matches(i));
+  const sort = state.route ? "found" : state.sort;
 
-  if (state.sort === "found")
+  if (sort === "found")
     items.sort((a, b) => (b.first_seen_at || "").localeCompare(a.first_seen_at || ""));
-  else if (state.sort === "firm")
+  else if (sort === "firm")
     items.sort((a, b) => a.firm.localeCompare(b.firm) || a.title.localeCompare(b.title));
   else
     // "Newest opening" means by the date the BOARD stated. feed.py's rank order is right
@@ -353,22 +400,28 @@ function render() {
 
   $("empty").hidden = items.length > 0;
   if (!items.length) {
-    $("empty").innerHTML = state.items.length
+    $("empty").innerHTML = state.route
+      ? `Nothing here yet. The site follows a push by a few minutes, and this page
+           refreshes itself.<br><button class="linkish" id="emptyClear">all openings</button>`
+      : state.items.length
       ? `Nothing matches those filters.<br><button class="linkish"
            id="emptyClear">clear filters</button>`
       : "No feed yet. Run: python3 -m bell feed";
-    const ec = $("emptyClear");
-    if (ec) ec.addEventListener("click", clearFilters);
   }
 
   // Grouped by day for the two date sorts, flat for A–Z. A heading that does not match
   // the sort order is worse than no heading.
   const groups = [];
-  if (state.sort === "firm") {
+  if (sort === "firm") {
     groups.push([null, items]);
   } else {
-    const undated = state.sort === "opened" ? items.filter(i => !stated(i)) : [];
-    const dated = state.sort === "opened" ? items.filter(stated) : items;
+    const lead = sort === "opened" ? new Set(items.filter(fresh)) : new Set();
+    if (lead.size)
+      groups.push([FOUND_HEAD, [...lead].sort((a, b) =>
+        (b.first_seen_at || "").localeCompare(a.first_seen_at || ""))]);
+    const rest = items.filter(i => !lead.has(i));
+    const undated = sort === "opened" ? rest.filter(i => !stated(i)) : [];
+    const dated = sort === "opened" ? rest.filter(stated) : rest;
     let cur = null;
     for (const i of dated) {
       const b = bucket(sortDate(i));
@@ -391,6 +444,8 @@ function row(i) {
   // one is what the board said. Round 78; LESSONS L34.
   const uk = i.uk_stated ? `<span class="tag uk">UK</span>` : "";
   const nw = isNew(i) ? `<span class="tag newt">new</span>` : "";
+  // When bell told you, so a list you scan the morning after shows what it already did.
+  const pu = i.pushed_at ? `<span class="tag pushed">pushed ${ago(i.pushed_at)}</span>` : "";
   const weak = i.strength === "weak"
     ? `<span class="tag weakt">weak — desk unclear</span>` : "";
   // The facets are shown on the row as well as in the panel, so the thing you filtered
@@ -416,7 +471,7 @@ function row(i) {
         rel="noopener noreferrer">${esc(i.title)}</a>` : esc(i.title)}</div>
     <div class="meta">
       <span>${esc(i.location || "location not stated")}</span>
-      ${uk}${nw}${fac}${dl}${weak}${exact}
+      ${uk}${nw}${pu}${fac}${dl}${weak}${exact}
       ${m ? `<span class="tag done">${m}</span>` : ""}
     </div>
     <div class="acts">
@@ -432,7 +487,9 @@ function row(i) {
 // ignore the filters, because a browse page is what you look at BEFORE deciding what
 // to narrow to.
 function renderBrowse() {
-  const all = state.items;
+  // Openings only: a tier-D row is a page change or a calendar window, and Browse
+  // counted Goldman Sachs' and Morgan Stanley's calendar rows as one role each.
+  const all = state.items.filter(i => i.tier !== "D");
   const tally = (key) => {
     const m = new Map();
     for (const i of all) m.set(String(i[key]), (m.get(String(i[key])) || 0) + 1);
@@ -517,54 +574,43 @@ function safeUrl(u) {
 
 function renderStats(d) {
   const c = d.counts;
-  // "can't see" sits in the same row, at the same size, as the results: showing the
-  // openings while hiding the firms bell cannot read leaves a false impression. Three
-  // tiles are buttons, because a number you can act on beats hunting for its control.
+  // What a reader acts on, and nothing about bell itself: "tracked", "firms watched" and
+  // the feed cap's "not shown" moved to the Coverage view (Round 88). "can't see" stays
+  // in the row, at the same size, because hiding the firms bell cannot read while
+  // showing the openings leaves a false impression; it opens the Coverage view.
+  const soon = ((d.calendar || {}).deadlines || [])
+    .filter(x => x.days_left != null && x.days_left <= 7).length;
   const tiles = [
-    ["open", c.items, "", null],
+    // Strong rows FOUND in the last day, not adopted with a new board; it counted every
+    // posting first seen, 809 of 853 of them not matches. Opens exactly those rows.
+    ["new 24h", c.seen_24h, "", "fresh"],
     ["strong", c.strong, "", "strong"],
     // `counts.uk` is the FACT — rows whose board said the UK — not the filter policy.
     ["UK", c.uk, "", "uk"],
-    // Its counterpart, and why tapping "UK" shows more rows than that tile: the rows
-    // the filter keeps and the fact will not claim. Shown rather than folded in, so
-    // the gap is explained rather than discovered.
-    ["loc. unknown", c.uk_unstated, "", null],
-    ["new 24h", c.seen_24h, "", null],
-    ["firms watched", c.firms, "", null],
+    ["closing ≤ 7d", soon, soon ? " warn" : "", "calendar"],
     ["can't see", c.firms_blind, " blind", "blind"],
-    ["tracked", c.postings_tracked, "", null],
   ];
-  // A silent cap is the same failure as a silent polling gap: the page shows 400 and
-  // says nothing about the rest. Round 62.
-  if (c.truncated) {
-    // The cap SELECTS — UK before elsewhere, strong before weak — so "not shown" is
-    // usually rows nobody in London was going to open. The case worth alarming about
-    // is when it starts eating UK matches, and that gets its own label.
-    const ukHidden = c.truncated_uk || 0;
-    tiles.splice(1, 0, [ukHidden ? "UK not shown" : "not shown",
-                        `+${ukHidden || Math.max(0, (c.total || 0) - c.items)}`,
-                        " blind", null]);
-  }
   $("stats").innerHTML = tiles.filter(([, v]) => v != null).map(([k, v, cls, act]) =>
-    act ? `<button class="stat${cls}" data-act="${act}" aria-pressed="${
-            act === "blind" ? "false" : String(state[act])
-          }"><b>${v}</b><i>${esc(k)}</i></button>`
-        : `<div class="stat${cls}"><b>${v}</b><i>${esc(k)}</i></div>`).join("");
+    `<button class="stat${cls}" data-act="${act}" aria-pressed="${
+       act in state && typeof state[act] === "boolean" ? String(state[act]) : "false"
+     }"><b>${v}</b><i>${esc(k)}</i></button>`).join("");
 
   // A mean blended across a 60-second tier and a 15-minute one describes no
-  // configuration that exists. The headline claim is about tier A, so tier A is
-  // reported on its own and the rest are shown beside it, not averaged into it.
+  // configuration that exists, so tier A is reported on its own. And as a MEDIAN: the
+  // mean was 6.8 hours in the week to 2026-10-07 while the median was 106 s, because a
+  // few boards state a time well before their rows appear (Round 88).
   const dt = d.detection || {};
   const byTier = dt.by_tier || {};
   const TIER = { A: "fast tier, polled every minute", B: "long tail, every 15 min",
                  C: "best-effort boards", D: "page watchers" };
+  const mid = (x) => x.median_latency_s != null ? x.median_latency_s : x.mean_latency_s;
   const a = byTier.A;
   const others = Object.keys(byTier).filter(t => t !== "A").sort()
-    .map(t => `${t} ${dur(byTier[t].mean_latency_s)} (${byTier[t].sampled})`);
+    .map(t => `${t} ${dur(mid(byTier[t]))} (${byTier[t].sampled})`);
   $("lat").textContent = a
-    ? ` Detection latency, fast tier: ${dur(a.mean_latency_s)} mean over `
-      + `${a.sampled} posting${a.sampled === 1 ? "" : "s"}.`
-      + (others.length ? ` Other tiers — ${others.join(", ")}.` : "")
+    ? ` Detection, fast tier: median ${dur(mid(a))} over ${a.sampled} posting`
+      + `${a.sampled === 1 ? "" : "s"} in 7 days, ${a.under_60s || 0} under a minute.`
+      + (others.length ? ` Median for the other tiers — ${others.join(", ")}.` : "")
     : " No fast-tier detections measured yet, so the headline latency is unproven."
       + (others.length ? ` Slower tiers so far — ${others.join(", ")}.` : "");
   // A gap is "we were not looking", which is not the same as "nothing opened" — the
@@ -577,14 +623,25 @@ function renderStats(d) {
   $("lat").title = Object.entries(TIER)
     .filter(([t]) => byTier[t]).map(([t, why]) => `${t}: ${why}`).join(" · ");
 
-  // Coverage gaps are shown as prominently as results. A tracker that is quiet
-  // because it is not looking is worse than one that is quiet because nothing opened.
+  // ---- the Coverage view: what bell is reading, and where it is not looking.
+  $("covsum").textContent = `bell reads the boards of ${c.firms} firms and keeps `
+    + `${c.postings_tracked} postings. It shows ${c.items} of the ${c.total || c.items} `
+    + `open early-careers matches`
+    + (c.truncated ? ", UK rows first, so the ones left out are elsewhere" : "")
+    + `. Below: the firms it cannot see at all, then the boards it reads that show `
+    + `nothing for you.`;
   const g = d.gaps || [];
+  const why = (x) => x.kind === "no-early-careers"
+    ? `${x.n_total} roles on the board bell reads, none of them early careers: the firm's `
+      + `campus roles are probably on another board`
+    : x.kind === "off-desk-only"
+    ? `${x.n_total} roles, some of them early careers, none on a desk bell watches`
+    : x.reason;
   $("gaps").innerHTML = !g.length ? "" : `<div class="gaps">
-    <h2>${g.length} coverage gap${g.length > 1 ? "s" : ""} — watched but silent</h2>
-    <ul>${g.map(x => `<li><b>${esc(x.firm)}</b> — ${esc(x.reason)}</li>`).join("")}</ul>
+    <h2>${g.length} board${g.length > 1 ? "s" : ""} read, and silent for you</h2>
+    <ul>${g.map(x => `<li><b>${esc(x.firm)}</b> — ${esc(why(x))}</li>`).join("")}</ul>
     <div style="margin-top:6px;opacity:.8">These firms may still be hiring somewhere
-      this tracker cannot see. Check them by hand.</div></div>`;
+      bell cannot see. Check them by hand.</div></div>`;
 }
 
 function renderBlind(bs) {
@@ -602,17 +659,21 @@ function renderBlind(bs) {
                : d < 1 ? "checked today"
                : `checked ${Math.floor(d)}d ago`;
     const link = safeUrl(b.url);
+    // For a watched page, when bell last saw it change: what a push used to say.
+    const changed = b.kind === "watched" && b.last_change_detected
+      ? ` <span class="stale">Changed ${ago(b.last_change_detected)}.</span>` : "";
     return `<div class="bs">
       <div class="why"><b>${link ? `<a href="${esc(link)}" target="_blank"
         rel="noopener noreferrer">${esc(b.firm)}</a>` : esc(b.firm)}</b>
-        — ${esc(b.why)}</div>
+        — ${esc(b.why)}${changed}</div>
       <div class="chk"><span class="${stale ? "stale" : ""}">${seen}</span>
         <button data-firm="${esc(b.firm)}">mark checked</button></div>
     </div>`;
   };
 
   $("blind").innerHTML =
-    (watched.length ? `<h3>Page-watched — bell tells you the page changed, not what</h3>`
+    (watched.length ? `<h3>Page-watched — bell sees the page change, not what; the
+      morning digest says which changed</h3>`
       + watched.map(brow).join("") : "")
     + (manual.length ? `<h3>Manual — bell cannot see these at all</h3>`
       + manual.map(brow).join("") : "")
@@ -697,13 +758,22 @@ $("pills").addEventListener("click", (e) => {
 $("stats").addEventListener("click", (e) => {
   const b = e.target.closest("button[data-act]");
   if (!b) return;
-  if (b.dataset.act === "blind") {
-    $("blindwrap").open = true;
-    $("blindwrap").scrollIntoView({ behavior: "smooth", block: "start" });
-    return;
+  const act = b.dataset.act;
+  if (act === "blind") { setView("coverage"); return; }
+  if (act === "calendar") { setView("calendar"); return; }
+  if (act === "fresh") {
+    location.hash = "#/found/" + new Date(Date.now() - DAY).toISOString();
+    return;                                   // hashchange re-renders
   }
-  state[b.dataset.act] = !state[b.dataset.act];
+  state[act] = !state[act];
   saveFilters(); renderAll();
+});
+
+// The empty state's button is re-rendered with the list, so it is delegated too.
+$("empty").addEventListener("click", (e) => {
+  if (!e.target.closest("#emptyClear")) return;
+  if (state.route) { location.hash = "#/"; return; }
+  clearFilters();
 });
 
 // Delegated, because the list is re-rendered wholesale on every filter change.
