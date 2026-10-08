@@ -1,35 +1,35 @@
 {
- "generated_at": "2026-10-08T16:20:02.334969+00:00",
+ "generated_at": "2026-10-08T16:45:01.607106+00:00",
  "counts": {
   "items": 400,
   "strong": 391,
   "uk": 186,
   "uk_unstated": 76,
-  "seen_24h": 13,
+  "seen_24h": 14,
   "truncated": true,
-  "total": 999,
+  "total": 1000,
   "truncated_uk": 0,
   "firms": 203,
   "firms_blind": 6,
   "sources": 212,
-  "postings_tracked": 25255
+  "postings_tracked": 25260
  },
  "detection": {
-  "mean_latency_s": 59197.8,
-  "median_latency_s": 839.2,
-  "sampled": 273,
+  "mean_latency_s": 58769.1,
+  "median_latency_s": 838.7,
+  "sampled": 275,
   "by_tier": {
    "A": {
-    "mean_latency_s": 2799.5,
-    "median_latency_s": 45.0,
-    "under_60s": 57,
-    "sampled": 83
+    "mean_latency_s": 2766.8,
+    "median_latency_s": 45.2,
+    "under_60s": 58,
+    "sampled": 84
    },
    "B": {
-    "mean_latency_s": 83835.0,
-    "median_latency_s": 1781.5,
+    "mean_latency_s": 83398.4,
+    "median_latency_s": 1780.9,
     "under_60s": 4,
-    "sampled": 190
+    "sampled": 191
    }
   },
   "watch": {
@@ -370,7 +370,7 @@
    "url": "https://drw.com/work-at-drw/listings",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-08T16:16:11.838833+00:00",
+   "last_checked_by_bell": "2026-10-08T16:31:15.257449+00:00",
    "last_change_detected": "2026-10-08T15:16:14.480204+00:00",
    "categories": [
     "prop"
@@ -381,7 +381,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-08T16:18:38.423853+00:00",
+   "last_checked_by_bell": "2026-10-08T16:33:36.371227+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -392,7 +392,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-08T16:15:29.391354+00:00",
+   "last_checked_by_bell": "2026-10-08T16:30:31.802437+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -403,7 +403,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-08T16:16:25.724763+00:00",
+   "last_checked_by_bell": "2026-10-08T16:31:29.596395+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -414,7 +414,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-08T16:17:09.500309+00:00",
+   "last_checked_by_bell": "2026-10-08T16:32:12.377982+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -425,7 +425,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-08T16:17:20.003815+00:00",
+   "last_checked_by_bell": "2026-10-08T16:32:22.714694+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -433,6 +433,26 @@
   }
  ],
  "items": [
+  {
+   "firm": "IMC Trading",
+   "title": "Machine Learning Engineer Intern - Summer 2027",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4962456101",
+   "location": "New York, United States",
+   "opened_at": "2026-10-08T16:43:20+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-10-08T16:44:11.426227+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": false,
+   "uk_stated": false,
+   "tier": "A",
+   "adopted": false,
+   "pushed_at": null
+  },
   {
    "firm": "GSA Capital",
    "title": "General Trading & Technology Insight Programme - 2027",
@@ -4267,26 +4287,6 @@
    "stage": "graduate",
    "desk": "engineering",
    "reason": "graduate + swe",
-   "uk": false,
-   "uk_stated": false,
-   "tier": "A",
-   "adopted": true,
-   "pushed_at": null
-  },
-  {
-   "firm": "Susquehanna (SIG)",
-   "title": "Hardware Engineer University Co - Op Placement 2027",
-   "url": "https://careers.sig.com/jobs/11270?lang=en-us",
-   "location": "Dublin, UNAVAILABLE, Ireland",
-   "opened_at": "2026-08-19T07:45:00+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-08T16:52:42.195502+00:00",
-   "date_basis": "published",
-   "deadline": "2027-08-19T07:46:01+00:00",
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "co-op + engineer",
    "uk": false,
    "uk_stated": false,
    "tier": "A",
