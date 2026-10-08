@@ -18,11 +18,11 @@ const FACETS = {
   // Every desk in `classify.DESK_RULES` must be in BOTH lists below: a desk missing
   // from `order` has no facet button, so its rows are reachable only by search.
   // `TestTheDeskVocabulariesAgree` reads this file and fails if they drift.
-  desk:  { order: ["quant", "markets", "engineering", "commodities", "advisory",
-                   "private_equity", "null"],
-           name: { quant: "Quant", markets: "Markets", engineering: "Engineering",
-                   commodities: "Commodities", advisory: "Advisory",
-                   private_equity: "Private Equity",
+  desk:  { order: ["quant", "markets", "research", "engineering", "commodities",
+                   "advisory", "private_equity", "null"],
+           name: { quant: "Quant", markets: "Markets", research: "Research",
+                   engineering: "Engineering", commodities: "Commodities",
+                   advisory: "Advisory", private_equity: "Private Equity",
                    "null": "desk unclear" } },
 };
 
