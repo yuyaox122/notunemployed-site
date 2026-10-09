@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-09T14:20:02.688312+00:00",
+ "generated_at": "2026-10-09T15:05:02.507611+00:00",
  "counts": {
-  "items": 448,
-  "strong": 448,
-  "uk": 339,
+  "items": 449,
+  "strong": 449,
+  "uk": 340,
   "uk_unstated": 74,
-  "seen_24h": 17,
+  "seen_24h": 18,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1614,
+  "total": 1615,
   "truncated_uk": 21,
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 26420
+  "postings_tracked": 26453
  },
  "detection": {
-  "mean_latency_s": 49265.4,
-  "median_latency_s": 618.8,
-  "sampled": 277,
+  "mean_latency_s": 48910.6,
+  "median_latency_s": 606.9,
+  "sampled": 279,
   "by_tier": {
    "A": {
-    "mean_latency_s": 1626.9,
-    "median_latency_s": 39.7,
-    "under_60s": 72,
-    "sampled": 86
+    "mean_latency_s": 1608.4,
+    "median_latency_s": 39.5,
+    "under_60s": 73,
+    "sampled": 87
    },
    "B": {
-    "mean_latency_s": 70715.1,
-    "median_latency_s": 1111.9,
+    "mean_latency_s": 70344.4,
+    "median_latency_s": 922.8,
     "under_60s": 4,
-    "sampled": 191
+    "sampled": 192
    }
   },
   "watch": {
@@ -179,20 +179,20 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 247,
+   "n_total": 249,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "247 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "249 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 239,
+   "n_total": 242,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "239 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "242 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -229,10 +229,10 @@
    "firm": "AllianceBernstein",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 72,
+   "n_total": 73,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "72 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "73 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abrdn/wd3/abrdn",
@@ -351,7 +351,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-09T14:15:15.851213+00:00",
+   "last_checked_by_bell": "2026-10-09T15:00:18.648588+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -362,7 +362,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T14:15:29.507794+00:00",
+   "last_checked_by_bell": "2026-10-09T15:00:33.257744+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -373,7 +373,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-09T14:15:49.347780+00:00",
+   "last_checked_by_bell": "2026-10-09T15:00:54.617442+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -384,7 +384,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T14:16:37.950092+00:00",
+   "last_checked_by_bell": "2026-10-09T15:01:46.892213+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -395,7 +395,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T14:17:24.141204+00:00",
+   "last_checked_by_bell": "2026-10-09T15:02:32.759159+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -406,7 +406,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T14:17:34.638617+00:00",
+   "last_checked_by_bell": "2026-10-09T15:02:42.780188+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -417,7 +417,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-09T14:18:18.410609+00:00",
+   "last_checked_by_bell": "2026-10-09T15:03:27.321325+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -7600,6 +7600,29 @@
    "late": true,
    "key": "jsonboard:workable/capula-investment-management-ltd#A15A62A8BE",
    "pushed_at": null
+  },
+  {
+   "firm": "Citi",
+   "title": "Client - Citi Research, Summer Analyst, London - United Kingdom, 2027",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/London--United-Kingdom/Client---Citi-Research--Summer-Analyst--London---United-Kingdom--2027_26994966",
+   "location": "London  United Kingdom",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-09T15:01:28.551372+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "research",
+   "reason": "summer analyst + research",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": false,
+   "late": false,
+   "key": "workday:citi/wd5/2#26994966",
+   "pushed_at": "2026-10-09T15:02:01.774616+00:00"
   },
   {
    "firm": "Two Sigma",
