@@ -219,7 +219,11 @@ function matches(i, skip, route = state.route) {
   const r = route;
   if (r) {
     if (r.kind === "pushed" && i.pushed_at !== r.at) return false;
-    if (r.kind === "found" && ((i.first_seen_at || "") < r.at || i.adopted)) return false;
+    // What was found since an instant, in the reader's places: the digest that links
+    // here counts nothing else, and its first link under the new rules showed a New
+    // York internship beside the two London rows it counted (Round 89).
+    if (r.kind === "found" && ((i.first_seen_at || "") < r.at || i.adopted
+                               || !(i.wanted ?? i.uk))) return false;
   } else {
     // The reader's places, the ones that push (`wanted`, since Round 89): asked of the
     // UK alone, the default view showed 1 of the 18 open strong roles in Amsterdam that
