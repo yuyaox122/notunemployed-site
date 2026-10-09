@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-09T11:40:02.381883+00:00",
+ "generated_at": "2026-10-09T12:05:01.957744+00:00",
  "counts": {
-  "items": 446,
-  "strong": 446,
-  "uk": 336,
+  "items": 445,
+  "strong": 445,
+  "uk": 335,
   "uk_unstated": 76,
   "seen_24h": 13,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1596,
+  "total": 1595,
   "truncated_uk": 21,
   "firms": 207,
   "firms_blind": 8,
   "sources": 220,
-  "postings_tracked": 26277
+  "postings_tracked": 26304
  },
  "detection": {
   "mean_latency_s": 54180.1,
@@ -189,10 +189,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 231,
+   "n_total": 234,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "231 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "234 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -361,7 +361,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-09T11:33:46.283504+00:00",
+   "last_checked_by_bell": "2026-10-09T12:04:01.250597+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -372,7 +372,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-09T11:30:16.113554+00:00",
+   "last_checked_by_bell": "2026-10-09T12:00:19.204376+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -383,7 +383,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T11:30:29.817488+00:00",
+   "last_checked_by_bell": "2026-10-09T12:00:33.210265+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -394,7 +394,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-09T11:30:48.115913+00:00",
+   "last_checked_by_bell": "2026-10-09T12:01:03.037901+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -405,7 +405,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T11:31:34.331480+00:00",
+   "last_checked_by_bell": "2026-10-09T12:01:51.426030+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -416,7 +416,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T11:32:24.277523+00:00",
+   "last_checked_by_bell": "2026-10-09T12:02:37.657134+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -427,7 +427,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T11:32:34.504950+00:00",
+   "last_checked_by_bell": "2026-10-09T12:02:48.180079+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -438,7 +438,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-09T11:33:16.528419+00:00",
+   "last_checked_by_bell": "2026-10-09T12:03:31.201982+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -4229,28 +4229,6 @@
    "adopted": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/equities-citadel-associate-program-summer-internship-2028/",
    "pushed_at": "2026-10-05T18:32:01.650054+00:00"
-  },
-  {
-   "firm": "Deutsche Bank",
-   "title": "Deutsche Bank Graduate Programme - Technology Data & Innovation - London 2027",
-   "url": "https://db.recsolu.com/external/requisitions/CWSzt5Ut3QoAUqn9ca__fA",
-   "location": "London, United Kingdom",
-   "opened_at": "2026-10-05T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-05T14:01:01.410479+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + technology",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": false,
-   "key": "jsonboard:beesite/deutschebank#76027",
-   "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
   {
    "firm": "HSBC",
