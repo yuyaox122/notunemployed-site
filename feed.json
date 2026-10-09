@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-09T12:55:01.988957+00:00",
+ "generated_at": "2026-10-09T13:05:02.283276+00:00",
  "counts": {
-  "items": 444,
-  "strong": 444,
-  "uk": 335,
-  "uk_unstated": 75,
-  "seen_24h": 12,
+  "items": 446,
+  "strong": 446,
+  "uk": 337,
+  "uk_unstated": 74,
+  "seen_24h": 15,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1593,
+  "total": 1610,
   "truncated_uk": 21,
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 26328
+  "postings_tracked": 26358
  },
  "detection": {
-  "mean_latency_s": 53310.2,
-  "median_latency_s": 636.6,
-  "sampled": 275,
+  "mean_latency_s": 53156.4,
+  "median_latency_s": 637.7,
+  "sampled": 276,
   "by_tier": {
    "A": {
     "mean_latency_s": 1738.9,
@@ -27,10 +27,10 @@
     "sampled": 81
    },
    "B": {
-    "mean_latency_s": 74842.5,
-    "median_latency_s": 1144.6,
+    "mean_latency_s": 74514.5,
+    "median_latency_s": 1177.4,
     "under_60s": 4,
-    "sampled": 194
+    "sampled": 195
    }
   },
   "watch": {
@@ -199,10 +199,10 @@
    "firm": "M&G Investments",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 133,
+   "n_total": 134,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "133 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "134 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -219,10 +219,10 @@
    "firm": "Legal & General",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 72,
+   "n_total": 73,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "72 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "73 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -351,7 +351,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-09T12:45:23.591023+00:00",
+   "last_checked_by_bell": "2026-10-09T13:00:21.820879+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -362,7 +362,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T12:45:37.741477+00:00",
+   "last_checked_by_bell": "2026-10-09T13:00:36.277126+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -373,7 +373,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-09T12:45:58.787925+00:00",
+   "last_checked_by_bell": "2026-10-09T13:00:57.400136+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -384,7 +384,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T12:46:46.186658+00:00",
+   "last_checked_by_bell": "2026-10-09T13:01:54.842611+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -395,7 +395,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T12:47:30.285539+00:00",
+   "last_checked_by_bell": "2026-10-09T13:02:42.252721+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -406,7 +406,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T12:47:40.475226+00:00",
+   "last_checked_by_bell": "2026-10-09T13:02:53.082994+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -417,7 +417,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-09T12:48:22.842548+00:00",
+   "last_checked_by_bell": "2026-10-09T13:03:38.085750+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -7556,6 +7556,75 @@
    "pushed_at": null
   },
   {
+   "firm": "Two Sigma",
+   "title": "Software Engineering Full-Time Campus Hire - London",
+   "url": "https://careers.twosigma.com/careers/JobDetail/London-United-Kingdom-of-Great-Britain-and-Northern-Ireland-Software-Engineering-Full-Time-Campus-Hire-London/14020",
+   "location": "United Kingdom - UK London",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-09T13:04:15.182237+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "engineering",
+   "reason": "campus + engineer",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "B",
+   "adopted": false,
+   "late": false,
+   "key": "linklist:https://careers.twosigma.com/careers/OpenRoles#/careers/JobDetail/London-United-Kingdom-of-Great-Britain-and-Northern-Ireland-Software-Engineering-Full-Time-Campus-Hire-London/14020",
+   "pushed_at": null
+  },
+  {
+   "firm": "Citi",
+   "title": "Banking, Investment Banking, Placement Analyst, Amsterdam \u2013 Netherlands 2027",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Amsterdam--Netherlands/Banking--Investment-Banking--Placement-Analyst--Amsterdam---Netherlands-2027_26993945",
+   "location": "Amsterdam  Netherlands",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-09T13:01:30.550028+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "placement",
+   "desk": "advisory",
+   "reason": "placement + investment banking",
+   "uk": false,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "C",
+   "adopted": false,
+   "late": true,
+   "key": "workday:citi/wd5/2#26993945",
+   "pushed_at": null
+  },
+  {
+   "firm": "Citi",
+   "title": "Banking, Financing, Equity Capital Markets, Placement Analyst, London - United Kingdom 2027",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/London--United-Kingdom/Banking--Financing--Equity-Capital-Markets--Placement-Analyst--London---United-Kingdom-2027_26993441",
+   "location": "London  United Kingdom",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-09T13:01:30.550028+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "placement",
+   "desk": "markets",
+   "reason": "placement + markets",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": false,
+   "late": true,
+   "key": "workday:citi/wd5/2#26993441",
+   "pushed_at": null
+  },
+  {
    "firm": "Bank of America",
    "title": "Global Capital Markets 2027 Summer Analyst (DCM, ECM, Leveraged Finance, and SSG) - London",
    "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom",
@@ -8635,29 +8704,6 @@
    "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=24194",
    "pushed_at": "2026-09-10T15:32:00.859161+00:00"
-  },
-  {
-   "firm": "Two Sigma",
-   "title": "Software Engineering Internship (Summer 2027)",
-   "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Software-Engineering-Internship-Summer-2027/14016",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-08T20:40:34.386893+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": false,
-   "late": false,
-   "key": "linklist:https://careers.twosigma.com/careers/OpenRoles#/careers/JobDetail/New-York-New-York-United-States-Software-Engineering-Internship-Summer-2027/14016",
-   "pushed_at": "2026-09-08T20:58:00.885719+00:00"
   },
   {
    "firm": "Brevan Howard",
