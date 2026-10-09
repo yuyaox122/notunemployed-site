@@ -222,7 +222,8 @@ function matches(i, skip, route = state.route) {
     // What was found since an instant, in the reader's places: the digest that links
     // here counts nothing else, and its first link under the new rules showed a New
     // York internship beside the two London rows it counted (Round 89).
-    if (r.kind === "found" && ((i.first_seen_at || "") < r.at || i.adopted
+    // Nor a row found late, which the digest does not count as new (Round 90).
+    if (r.kind === "found" && ((i.first_seen_at || "") < r.at || i.adopted || i.late
                                || !(i.wanted ?? i.uk))) return false;
   } else {
     // The reader's places, the ones that push (`wanted`, since Round 89): asked of the

@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-09T12:05:01.957744+00:00",
+ "generated_at": "2026-10-09T12:35:02.259928+00:00",
  "counts": {
   "items": 445,
   "strong": 445,
   "uk": 335,
   "uk_unstated": 76,
-  "seen_24h": 13,
+  "seen_24h": 12,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1595,
+  "total": 1594,
   "truncated_uk": 21,
   "firms": 207,
   "firms_blind": 8,
   "sources": 220,
-  "postings_tracked": 26304
+  "postings_tracked": 26319
  },
  "detection": {
-  "mean_latency_s": 54180.1,
-  "median_latency_s": 647.3,
-  "sampled": 277,
+  "mean_latency_s": 53985.3,
+  "median_latency_s": 643.1,
+  "sampled": 278,
   "by_tier": {
    "A": {
-    "mean_latency_s": 1760.4,
+    "mean_latency_s": 1738.9,
     "median_latency_s": 41.7,
-    "under_60s": 65,
-    "sampled": 80
+    "under_60s": 66,
+    "sampled": 81
    },
    "B": {
     "mean_latency_s": 75467.3,
@@ -189,10 +189,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 234,
+   "n_total": 235,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "234 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "235 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -361,7 +361,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-09T12:04:01.250597+00:00",
+   "last_checked_by_bell": "2026-10-09T12:33:47.240985+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -372,7 +372,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-09T12:00:19.204376+00:00",
+   "last_checked_by_bell": "2026-10-09T12:30:17.518801+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -383,7 +383,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T12:00:33.210265+00:00",
+   "last_checked_by_bell": "2026-10-09T12:30:31.469999+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -394,7 +394,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-09T12:01:03.037901+00:00",
+   "last_checked_by_bell": "2026-10-09T12:30:50.349911+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -405,7 +405,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T12:01:51.426030+00:00",
+   "last_checked_by_bell": "2026-10-09T12:31:35.912847+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -416,7 +416,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T12:02:37.657134+00:00",
+   "last_checked_by_bell": "2026-10-09T12:32:22.920709+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -427,7 +427,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T12:02:48.180079+00:00",
+   "last_checked_by_bell": "2026-10-09T12:32:33.643867+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -438,7 +438,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-09T12:03:31.201982+00:00",
+   "last_checked_by_bell": "2026-10-09T12:33:16.191418+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -465,6 +465,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:flowtraders#8266897",
    "pushed_at": null
   },
@@ -487,6 +488,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:gsacapital#8870173002",
    "pushed_at": "2026-10-08T10:06:29.732128+00:00"
   },
@@ -509,6 +511,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:veritiongroupllc#5239347007",
    "pushed_at": "2026-10-07T20:35:31.886563+00:00"
   },
@@ -531,6 +534,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://www.gresearch.com/sitemap.xml#R3773 Machine Learning Engineer Intern",
    "pushed_at": "2026-10-06T17:02:01.364647+00:00"
   },
@@ -553,6 +557,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:wehrtyou#8257369",
    "pushed_at": null
   },
@@ -575,6 +580,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:capstoneinvestmentadvisors#8859054002",
    "pushed_at": "2026-09-30T19:48:04.781060+00:00"
   },
@@ -597,6 +603,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:point72#8845395002",
    "pushed_at": "2026-09-29T15:36:05.449363+00:00"
   },
@@ -619,6 +626,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:veritiongroupllc#5239358007",
    "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
@@ -641,6 +649,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:elwoodtechnologies#6209718004",
    "pushed_at": "2026-09-29T15:48:04.749677+00:00"
   },
@@ -663,6 +672,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:mangroup#4988791101",
    "pushed_at": "2026-09-28T17:00:05.090862+00:00"
   },
@@ -685,6 +695,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://www.gresearch.com/sitemap.xml#R3746 Software Engineering Internship",
    "pushed_at": null
   },
@@ -707,6 +718,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:janestreet#8842136002",
    "pushed_at": null
   },
@@ -729,6 +741,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:winton#4986765101",
    "pushed_at": "2026-09-25T08:34:04.469096+00:00"
   },
@@ -751,6 +764,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://careers.brevanhoward.com/gb/en/sitemap.xml#JR101619",
    "pushed_at": "2026-09-24T14:02:05.341665+00:00"
   },
@@ -773,6 +787,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:dvtrading#4736603005",
    "pushed_at": "2026-09-22T13:54:04.712037+00:00"
   },
@@ -795,6 +810,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:netcraft#4975674101",
    "pushed_at": null
   },
@@ -817,6 +833,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:mangroup#4978934101",
    "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
@@ -839,6 +856,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "ashby:voleon#ef2b0892-1772-4240-a535-4043d66d848e",
    "pushed_at": "2026-09-16T21:27:07.092864+00:00"
   },
@@ -861,6 +879,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:headlandstechnologiesllc#4336806009",
    "pushed_at": null
   },
@@ -883,6 +902,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:schonfeld#8207942",
    "pushed_at": "2026-09-16T21:27:07.092864+00:00"
   },
@@ -905,6 +925,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:imc#4975740101",
    "pushed_at": null
   },
@@ -927,6 +948,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:mavensecuritiesholdingltd#8105020",
    "pushed_at": "2026-09-13T17:28:01.266499+00:00"
   },
@@ -949,6 +971,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:dvtrading#4732700005",
    "pushed_at": "2026-09-10T14:14:00.626714+00:00"
   },
@@ -971,6 +994,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:quberesearchandtechnologies#8623972002",
    "pushed_at": "2026-09-09T07:48:02.872835+00:00"
   },
@@ -993,6 +1017,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:schonfeld#8187178",
    "pushed_at": "2026-09-08T21:54:00.377232+00:00"
   },
@@ -1015,6 +1040,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:quberesearchandtechnologies#8785833002",
    "pushed_at": "2026-09-08T14:38:03.414345+00:00"
   },
@@ -1037,6 +1063,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:quberesearchandtechnologies#8777855002",
    "pushed_at": "2026-09-08T14:00:32.284085+00:00"
   },
@@ -1059,6 +1086,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:quberesearchandtechnologies#8773447002",
    "pushed_at": "2026-09-08T14:00:32.284085+00:00"
   },
@@ -1081,6 +1109,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:quberesearchandtechnologies#8777760002",
    "pushed_at": "2026-09-08T14:00:32.284085+00:00"
   },
@@ -1103,6 +1132,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:quberesearchandtechnologies#8773084002",
    "pushed_at": "2026-09-08T14:00:32.284085+00:00"
   },
@@ -1125,6 +1155,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": false,
+   "late": false,
    "key": "greenhouse:mavensecuritiesholdingltd#7806970",
    "pushed_at": "2026-09-07T15:15:41.064038+00:00"
   },
@@ -1147,6 +1178,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://www.gresearch.com/sitemap.xml#R3691 Quant Research Internship",
    "pushed_at": "2026-09-07T08:25:35.301005+00:00"
   },
@@ -1169,6 +1201,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://www.gresearch.com/sitemap.xml#R3682 Machine Learning Research Internship",
    "pushed_at": "2026-09-07T08:25:35.301005+00:00"
   },
@@ -1191,6 +1224,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://www.gresearch.com/sitemap.xml#R3679 Data Science Internship",
    "pushed_at": "2026-09-07T08:25:35.301005+00:00"
   },
@@ -1213,6 +1247,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8782247002",
    "pushed_at": null
   },
@@ -1235,6 +1270,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:towerresearchcapital#8037860",
    "pushed_at": null
   },
@@ -1257,6 +1293,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:towerresearchcapital#8037824",
    "pushed_at": null
   },
@@ -1279,6 +1316,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:mavensecuritiesholdingltd#8098645",
    "pushed_at": null
   },
@@ -1301,6 +1339,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:mavensecuritiesholdingltd#8048591",
    "pushed_at": null
   },
@@ -1323,6 +1362,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:mavensecuritiesholdingltd#7806987",
    "pushed_at": null
   },
@@ -1345,6 +1385,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#cadc0eb2-2703-43e4-8e4f-41edf5b071c6",
    "pushed_at": null
   },
@@ -1367,6 +1408,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8755768002",
    "pushed_at": null
   },
@@ -1389,6 +1431,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11347?lang=en-us",
    "pushed_at": null
   },
@@ -1411,6 +1454,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11344?lang=en-us",
    "pushed_at": null
   },
@@ -1433,6 +1477,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11334?lang=en-us",
    "pushed_at": null
   },
@@ -1455,6 +1500,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11333?lang=en-us",
    "pushed_at": null
   },
@@ -1477,6 +1523,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8685399002",
    "pushed_at": null
   },
@@ -1499,6 +1546,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8685371002",
    "pushed_at": null
   },
@@ -1521,6 +1569,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8685366002",
    "pushed_at": null
   },
@@ -1543,6 +1592,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8685065002",
    "pushed_at": null
   },
@@ -1565,6 +1615,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8684691002",
    "pushed_at": null
   },
@@ -1587,6 +1638,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8684585002",
    "pushed_at": null
   },
@@ -1609,6 +1661,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8684548002",
    "pushed_at": null
   },
@@ -1631,6 +1684,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8684310002",
    "pushed_at": null
   },
@@ -1653,6 +1707,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jshiddenevents#8684238002",
    "pushed_at": null
   },
@@ -1675,6 +1730,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:xantium#4371217009",
    "pushed_at": null
   },
@@ -1697,6 +1753,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:xantium#4360768009",
    "pushed_at": null
   },
@@ -1719,6 +1776,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8700980002",
    "pushed_at": null
   },
@@ -1741,6 +1799,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:dvtrading#4719135005",
    "pushed_at": null
   },
@@ -1763,6 +1822,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:towerresearchcapital#8113986",
    "pushed_at": null
   },
@@ -1785,6 +1845,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:quantbot-technologies#4299863009",
    "pushed_at": null
   },
@@ -1807,6 +1868,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:dvtrading#4719125005",
    "pushed_at": null
   },
@@ -1829,6 +1891,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:isam#4949792101",
    "pushed_at": null
   },
@@ -1851,6 +1914,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8647260002",
    "pushed_at": null
   },
@@ -1873,6 +1937,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4945420101",
    "pushed_at": null
   },
@@ -1895,6 +1960,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:chicagotradingcampus#4718710005",
    "pushed_at": null
   },
@@ -1917,6 +1983,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8626146002",
    "pushed_at": null
   },
@@ -1939,6 +2006,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8651405002",
    "pushed_at": null
   },
@@ -1961,6 +2029,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8651286002",
    "pushed_at": null
   },
@@ -1983,6 +2052,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8651274002",
    "pushed_at": null
   },
@@ -2005,6 +2075,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8600948002",
    "pushed_at": null
   },
@@ -2027,6 +2098,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8576270002",
    "pushed_at": null
   },
@@ -2049,6 +2121,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8474416002",
    "pushed_at": null
   },
@@ -2071,6 +2144,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8474407002",
    "pushed_at": null
   },
@@ -2093,6 +2167,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8651323002",
    "pushed_at": null
   },
@@ -2115,6 +2190,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8648474002",
    "pushed_at": null
   },
@@ -2137,6 +2213,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8589868002",
    "pushed_at": null
   },
@@ -2159,6 +2236,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8537797002",
    "pushed_at": null
   },
@@ -2181,6 +2259,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4939821101",
    "pushed_at": null
   },
@@ -2203,6 +2282,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4941380101",
    "pushed_at": null
   },
@@ -2225,6 +2305,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4936262101",
    "pushed_at": null
   },
@@ -2247,6 +2328,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4667815101",
    "pushed_at": null
   },
@@ -2269,6 +2351,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4927149101",
    "pushed_at": null
   },
@@ -2291,6 +2374,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4667814101",
    "pushed_at": null
   },
@@ -2313,6 +2397,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4939846101",
    "pushed_at": null
   },
@@ -2335,6 +2420,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:mavensecuritiesholdingltd#8043552",
    "pushed_at": null
   },
@@ -2357,6 +2443,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:isam#4940752101",
    "pushed_at": null
   },
@@ -2379,6 +2466,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:3redpartners#8634612002",
    "pushed_at": null
   },
@@ -2401,6 +2489,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11085?lang=en-us",
    "pushed_at": "2026-09-07T17:16:00.297140+00:00"
   },
@@ -2423,6 +2512,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11005?lang=en-us",
    "pushed_at": null
   },
@@ -2445,6 +2535,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11031?lang=en-us",
    "pushed_at": null
   },
@@ -2467,6 +2558,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11032?lang=en-us",
    "pushed_at": null
   },
@@ -2489,6 +2581,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11006?lang=en-us",
    "pushed_at": null
   },
@@ -2511,6 +2604,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11007?lang=en-us",
    "pushed_at": "2026-09-08T06:30:00.449807+00:00"
   },
@@ -2533,6 +2627,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.sig.com/sitemap1.xml#https://careers.sig.com/jobs/11033?lang=en-us",
    "pushed_at": "2026-09-08T06:30:00.449807+00:00"
   },
@@ -2555,6 +2650,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:fiveringsllc#5349905008",
    "pushed_at": null
   },
@@ -2577,6 +2673,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:fiveringsllc#5344213008",
    "pushed_at": null
   },
@@ -2599,6 +2696,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:fiveringsllc#5255367008",
    "pushed_at": null
   },
@@ -2621,6 +2719,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:oldmissioncapital#7796058003",
    "pushed_at": null
   },
@@ -2643,6 +2742,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:wehrtyou#8059837",
    "pushed_at": null
   },
@@ -2665,6 +2765,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:wehrtyou#7964062",
    "pushed_at": null
   },
@@ -2687,6 +2788,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:wehrtyou#8052083",
    "pushed_at": null
   },
@@ -2709,6 +2811,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#8008306",
    "pushed_at": null
   },
@@ -2731,6 +2834,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#8000323",
    "pushed_at": null
   },
@@ -2753,6 +2857,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7977145",
    "pushed_at": null
   },
@@ -2775,6 +2880,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7977132",
    "pushed_at": null
   },
@@ -2797,6 +2903,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7974391",
    "pushed_at": null
   },
@@ -2819,6 +2926,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7975008",
    "pushed_at": null
   },
@@ -2841,6 +2949,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7974943",
    "pushed_at": null
   },
@@ -2863,6 +2972,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7974837",
    "pushed_at": null
   },
@@ -2885,6 +2995,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7975026",
    "pushed_at": null
   },
@@ -2907,6 +3018,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#8059384",
    "pushed_at": null
   },
@@ -2929,6 +3041,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#8050801",
    "pushed_at": null
   },
@@ -2951,6 +3064,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#8050796",
    "pushed_at": null
   },
@@ -2973,6 +3087,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#8050772",
    "pushed_at": null
   },
@@ -2995,6 +3110,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#8010307",
    "pushed_at": null
   },
@@ -3017,6 +3133,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:drweng#8020364",
    "pushed_at": null
   },
@@ -3039,6 +3156,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:drweng#7957756",
    "pushed_at": null
   },
@@ -3061,6 +3179,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:drweng#7957243",
    "pushed_at": null
   },
@@ -3083,6 +3202,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:drweng#7942281",
    "pushed_at": null
   },
@@ -3105,6 +3225,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4912874101",
    "pushed_at": null
   },
@@ -3127,6 +3248,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4914883101",
    "pushed_at": null
   },
@@ -3149,6 +3271,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:glencoreuk#4911945101",
    "pushed_at": null
   },
@@ -3171,6 +3294,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8594416002",
    "pushed_at": null
   },
@@ -3193,6 +3317,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#8576931002",
    "pushed_at": null
   },
@@ -3215,6 +3340,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:headlandstechnologiesllc#4227566009",
    "pushed_at": null
   },
@@ -3237,6 +3363,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:gsacapital#8570668002",
    "pushed_at": null
   },
@@ -3259,6 +3386,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:gsacapital#8570661002",
    "pushed_at": null
   },
@@ -3281,6 +3409,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:gsacapital#8518528002",
    "pushed_at": null
   },
@@ -3303,6 +3432,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#7918610",
    "pushed_at": null
   },
@@ -3325,6 +3455,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4667854101",
    "pushed_at": null
   },
@@ -3347,6 +3478,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#7757021",
    "pushed_at": null
   },
@@ -3369,6 +3501,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:aquaticcapitalmanagement#8489186002",
    "pushed_at": null
   },
@@ -3391,6 +3524,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#7677230",
    "pushed_at": null
   },
@@ -3413,6 +3547,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:flowtraders#7507482",
    "pushed_at": null
   },
@@ -3435,6 +3570,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumpcrypto#7374010",
    "pushed_at": null
   },
@@ -3457,6 +3593,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumpcrypto#7374012",
    "pushed_at": null
   },
@@ -3479,6 +3616,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7217856",
    "pushed_at": null
   },
@@ -3501,6 +3639,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7362318",
    "pushed_at": null
   },
@@ -3523,6 +3662,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#7340149",
    "pushed_at": null
   },
@@ -3545,6 +3685,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#7335465",
    "pushed_at": null
   },
@@ -3567,6 +3708,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:jumptrading#7215943",
    "pushed_at": null
   },
@@ -3589,6 +3731,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#7231006",
    "pushed_at": null
   },
@@ -3611,6 +3754,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:imc#4564480101",
    "pushed_at": null
   },
@@ -3633,6 +3777,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#2aa14e4f-d406-486e-9aa8-6ff3358d70a0",
    "pushed_at": null
   },
@@ -3655,6 +3800,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#599b1907-aba1-4303-837b-66e69a521636",
    "pushed_at": null
   },
@@ -3677,6 +3823,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#fd3603a9-7016-45c6-9c8d-04c9279ab85e",
    "pushed_at": null
   },
@@ -3699,6 +3846,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#9265acce-12cd-4179-8c50-55d15963532b",
    "pushed_at": null
   },
@@ -3721,6 +3869,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6977749",
    "pushed_at": null
   },
@@ -3743,6 +3892,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:point72#7297666002",
    "pushed_at": null
   },
@@ -3765,6 +3915,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:point72#7297657002",
    "pushed_at": null
   },
@@ -3787,6 +3938,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6099903",
    "pushed_at": null
   },
@@ -3809,6 +3961,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6099883",
    "pushed_at": null
   },
@@ -3831,6 +3984,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6100081",
    "pushed_at": null
   },
@@ -3853,6 +4007,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6069464",
    "pushed_at": null
   },
@@ -3875,6 +4030,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6040773",
    "pushed_at": null
   },
@@ -3897,6 +4053,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6034447",
    "pushed_at": null
   },
@@ -3919,6 +4076,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6040731",
    "pushed_at": null
   },
@@ -3941,6 +4099,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6040910",
    "pushed_at": null
   },
@@ -3963,6 +4122,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6034466",
    "pushed_at": null
   },
@@ -3985,6 +4145,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#6033550",
    "pushed_at": null
   },
@@ -4007,6 +4168,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#5929246",
    "pushed_at": null
   },
@@ -4029,6 +4191,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#243853",
    "pushed_at": null
   },
@@ -4051,6 +4214,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#3851879",
    "pushed_at": null
   },
@@ -4073,6 +4237,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:janestreet#5866838002",
    "pushed_at": null
   },
@@ -4095,6 +4260,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#26e23f5d-083b-45aa-b223-1a6e43d960bf",
    "pushed_at": null
   },
@@ -4117,6 +4283,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#76a60923-bb49-40f5-b061-7c7eb1299602",
    "pushed_at": null
   },
@@ -4139,6 +4306,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#d372c805-d0cd-4a10-9522-fbecc78d6f3e",
    "pushed_at": null
   },
@@ -4161,6 +4329,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "lever:palantir#b4aa51a2-bc43-4d67-bf55-12db7feefb3a",
    "pushed_at": null
   },
@@ -4183,6 +4352,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#2546549",
    "pushed_at": null
   },
@@ -4205,6 +4375,7 @@
    "wanted": true,
    "tier": "A",
    "adopted": true,
+   "late": true,
    "key": "greenhouse:squarepointcapital#239376",
    "pushed_at": null
   },
@@ -4227,6 +4398,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/equities-citadel-associate-program-summer-internship-2028/",
    "pushed_at": "2026-10-05T18:32:01.650054+00:00"
   },
@@ -4249,6 +4421,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Markets-Sales-and-Trading-Internship-E14-5HQ/1373586957/",
    "pushed_at": null
   },
@@ -4271,6 +4444,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-Corporate-and-Institutional-Banking-Off-Cycle-Internship-E14-5HQ/1373577757/",
    "pushed_at": null
   },
@@ -4293,6 +4467,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/Sheffield-Engineering-Graduate-S1-4NB/1373794457/",
    "pushed_at": null
   },
@@ -4315,6 +4490,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/Sheffield-Engineering-Internship-S1-4NB/1371596557/",
    "pushed_at": null
   },
@@ -4337,6 +4513,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Markets-Sales-and-Trading-Off-Cycle-Internship-E14-5HQ/1373576757/",
    "pushed_at": null
   },
@@ -4359,6 +4536,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Data-Analyst-Quantitative-Finance-Internship-E14-5HQ/1373585957/",
    "pushed_at": null
   },
@@ -4381,6 +4559,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-Internship-E14-5HQ/1373578457/",
    "pushed_at": null
   },
@@ -4403,6 +4582,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Global-Investment-Research-Work-Placement-E14-5HQ/1373586657/",
    "pushed_at": null
   },
@@ -4425,6 +4605,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-HSBC-Infrastructure-Finance-Internship-E14-5HQ/1373579357/",
    "pushed_at": null
   },
@@ -4447,6 +4628,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-HSBC-Infrastructure-Finance-Off-Cycle-Internship-E14-5HQ/1373577357/",
    "pushed_at": null
   },
@@ -4469,6 +4651,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.citadel.com/page-sitemap.xml#https://www.citadel.com/careers/programs-and-events/discover-citadel/",
    "pushed_at": null
   },
@@ -4491,6 +4674,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.citadelsecurities.com/page-sitemap.xml#https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/",
    "pushed_at": null
   },
@@ -4513,6 +4697,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.citadelsecurities.com/page-sitemap.xml#https://www.citadelsecurities.com/careers/programs-and-events/the-citadel-securities-quant-invitational/",
    "pushed_at": null
   },
@@ -4535,6 +4720,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/trading/amsterdam/career-kickstarter-trading-2027/",
    "pushed_at": null
   },
@@ -4557,6 +4743,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210795361",
    "pushed_at": "2026-10-09T09:32:01.697505+00:00"
   },
@@ -4579,6 +4766,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210795382",
    "pushed_at": "2026-10-09T09:32:01.697505+00:00"
   },
@@ -4601,6 +4789,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210795419",
    "pushed_at": "2026-10-09T09:32:01.697505+00:00"
   },
@@ -4623,6 +4812,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210795468",
    "pushed_at": "2026-10-09T09:32:01.697505+00:00"
   },
@@ -4645,6 +4835,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210795482",
    "pushed_at": "2026-10-09T09:32:01.697505+00:00"
   },
@@ -4667,6 +4858,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210795507",
    "pushed_at": "2026-10-09T09:32:01.697505+00:00"
   },
@@ -4689,6 +4881,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "brassring:jobs.ubs.com/25008/5131/15232#351789",
    "pushed_at": "2026-10-05T10:48:01.201071+00:00"
   },
@@ -4711,6 +4904,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://mercuria.com/job-sitemap.xml#https://mercuria.com/job/vacancy-2026-22-uk-placement-credit/",
    "pushed_at": "2026-09-30T10:02:05.245502+00:00"
   },
@@ -4733,6 +4927,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/technology/amsterdam/career-kickstarter-tech-2/",
    "pushed_at": null
   },
@@ -4755,6 +4950,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/technology/amsterdam/career-kickstarter-women-in-tech-2027/",
    "pushed_at": null
   },
@@ -4777,6 +4973,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:icbpjb.fa.ocs.oraclecloud.com#6674",
    "pushed_at": "2026-09-29T15:32:04.965704+00:00"
   },
@@ -4799,6 +4996,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/trading/amsterdam/futurefocus-quants-2027/",
    "pushed_at": null
   },
@@ -4821,6 +5019,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": true,
    "key": "sitemap:https://jobs.standardchartered.com/sitemap.xml#https://jobs.standardchartered.com/job/London-Mergers-&amp;-Acquisitions-Corporate-&amp;-Investment-Banking-Graduate-Programme-2027/1373606557/",
    "pushed_at": "2026-10-02T13:21:03.459806+00:00"
   },
@@ -4843,6 +5042,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "brassring:jobs.ubs.com/25008/5131/15232#349656",
    "pushed_at": "2026-09-25T10:04:04.305213+00:00"
   },
@@ -4865,6 +5065,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210792010",
    "pushed_at": "2026-10-09T09:32:01.697505+00:00"
   },
@@ -4887,6 +5088,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:icbpjb.fa.ocs.oraclecloud.com#6633",
    "pushed_at": "2026-09-22T18:48:03.993436+00:00"
   },
@@ -4909,6 +5111,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:icbpjb.fa.ocs.oraclecloud.com#6647",
    "pushed_at": "2026-09-22T18:48:03.993436+00:00"
   },
@@ -4931,6 +5134,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:jpmc.fa.oraclecloud.com#210775719",
    "pushed_at": "2026-09-22T18:48:03.993436+00:00"
   },
@@ -4953,6 +5157,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:icbpjb.fa.ocs.oraclecloud.com#6638",
    "pushed_at": "2026-09-22T18:48:03.993436+00:00"
   },
@@ -4975,6 +5180,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:icbpjb.fa.ocs.oraclecloud.com#6629",
    "pushed_at": "2026-09-22T18:48:03.993436+00:00"
   },
@@ -4997,6 +5203,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:ekbq.fa.em2.oraclecloud.com#1941",
    "pushed_at": "2026-09-18T14:39:23.289137+00:00"
   },
@@ -5019,6 +5226,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:ekbq.fa.em2.oraclecloud.com#1942",
    "pushed_at": "2026-09-18T14:39:23.289137+00:00"
   },
@@ -5041,6 +5249,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "brassring:jobs.ubs.com/25008/5131/15232#351374",
    "pushed_at": "2026-09-18T12:46:07.656947+00:00"
   },
@@ -5063,6 +5272,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://careers.blackrock.com/sitemap.xml#https://careers.blackrock.com/job/london/2027-quantitative-masters-internship-programme-investments-quantitative-investing-london/45831/100661849296",
    "pushed_at": "2026-09-15T13:19:11.732668+00:00"
   },
@@ -5085,6 +5295,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://www.wellsfargojobs.com/sitemap.xml#https://www.wellsfargojobs.com/en/jobs/r-574285/2027-technology-summer-internship-early-careers-software-engineering/",
    "pushed_at": null
   },
@@ -5107,6 +5318,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "brassring:jobs.ubs.com/25008/5131/15232#351058",
    "pushed_at": "2026-09-11T16:36:01.266444+00:00"
   },
@@ -5129,6 +5341,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/",
    "pushed_at": null
   },
@@ -5151,6 +5364,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/software-engineer-intern-europe/",
    "pushed_at": null
   },
@@ -5173,6 +5387,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/rates-trading-intern-europe/",
    "pushed_at": null
   },
@@ -5195,6 +5410,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/quantitative-trading-intern-europe/",
    "pushed_at": null
   },
@@ -5217,6 +5433,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/quantitative-trader-university-graduate-europe/",
    "pushed_at": null
   },
@@ -5239,6 +5456,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-graduate-europe/",
    "pushed_at": null
   },
@@ -5261,6 +5479,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/quantitative-researcher-phd-intern-europe/",
    "pushed_at": null
   },
@@ -5283,6 +5502,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-europe/",
    "pushed_at": null
   },
@@ -5305,6 +5525,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe/",
    "pushed_at": null
   },
@@ -5327,6 +5548,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe-2/",
    "pushed_at": null
   },
@@ -5349,6 +5571,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadelsecurities.com/career-sitemap.xml#https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-graduate-europe/",
    "pushed_at": null
   },
@@ -5371,6 +5594,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/trader-power-renewables-trader-flexpower-a-citadel-company-university-graduate-emea/",
    "pushed_at": null
   },
@@ -5393,6 +5617,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/software-engineer-university-graduate-europe/",
    "pushed_at": null
   },
@@ -5415,6 +5640,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/software-engineer-intern-europe/",
    "pushed_at": null
   },
@@ -5437,6 +5663,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/quantitative-researcher-phd-graduate-europe/",
    "pushed_at": null
   },
@@ -5459,6 +5686,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/quantitative-researcher-phd-intern-europe/",
    "pushed_at": null
   },
@@ -5481,6 +5709,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/quantitative-research-engineer-phd-intern-europe/",
    "pushed_at": null
   },
@@ -5503,6 +5732,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe/",
    "pushed_at": null
   },
@@ -5525,6 +5755,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-europe/",
    "pushed_at": null
   },
@@ -5547,6 +5778,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/investment-trading-intern-europe/",
    "pushed_at": null
   },
@@ -5569,6 +5801,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:ekbq.fa.em2.oraclecloud.com#2043",
    "pushed_at": "2026-09-10T21:02:01.245817+00:00"
   },
@@ -5591,6 +5824,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "oracle:ekbq.fa.em2.oraclecloud.com#2044",
    "pushed_at": "2026-09-10T21:02:01.245817+00:00"
   },
@@ -5613,6 +5847,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/glasgow/2027-technology-analyst-ai-and-data-science-graduate-apprenticeship-programme-glasgow/13015/100442649632",
    "pushed_at": "2026-09-10T21:02:01.245817+00:00"
   },
@@ -5635,6 +5870,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/sales-trading-and-structuring-graduate-programme-2027-london/13015/100425237424",
    "pushed_at": "2026-09-10T11:46:00.781535+00:00"
   },
@@ -5657,6 +5893,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.citadel.com/page-sitemap.xml#https://www.citadel.com/careers/programs-and-events/datathons/",
    "pushed_at": null
   },
@@ -5679,6 +5916,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.citadelsecurities.com/page-sitemap.xml#https://www.citadelsecurities.com/careers/programs-and-events/datathons/",
    "pushed_at": null
   },
@@ -5701,6 +5939,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/knutsford/2027-technology-developer-summer-internship-programme-knutsford/13015/100411086320",
    "pushed_at": null
   },
@@ -5723,6 +5962,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/2027-quantitative-analytics-associate-graduate-programme-london/13015/100411086288",
    "pushed_at": null
   },
@@ -5745,6 +5985,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/northampton/2027-technology-analyst-summer-internship-programme-northampton/13015/100411085136",
    "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
@@ -5767,6 +6008,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/glasgow/2027-technology-analyst-business-management-graduate-apprenticeship-programme-glasgow/13015/100411088048",
    "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
@@ -5789,6 +6031,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/glasgow/2027-technology-developer-summer-internship-programme-glasgow/13015/100411087072",
    "pushed_at": null
   },
@@ -5811,6 +6054,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/northampton/2027-technology-developer-summer-internship-programme-northampton/13015/100411087040",
    "pushed_at": null
   },
@@ -5833,6 +6077,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/glasgow/2027-technology-analyst-summer-internship-programme-glasgow/13015/100411086864",
    "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
@@ -5855,6 +6100,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/2027-technology-analyst-summer-internship-programme-london/13015/100411086752",
    "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
@@ -5877,6 +6123,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/knutsford/2027-technology-analyst-summer-internship-programme-knutsford/13015/100411086464",
    "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
@@ -5899,6 +6146,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/sales-trading-and-structuring-summer-internship-programme-2027-london/13015/100397233984",
    "pushed_at": "2026-09-09T20:02:32.596073+00:00"
   },
@@ -5921,6 +6169,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/sales-trading-and-structuring-off-cycle-internship-programme-2027-london/13015/100397233712",
    "pushed_at": "2026-09-09T20:02:32.596073+00:00"
   },
@@ -5943,6 +6192,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:icbpjb.fa.ocs.oraclecloud.com#6561",
    "pushed_at": null
   },
@@ -5965,6 +6215,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75470",
    "pushed_at": null
   },
@@ -5987,6 +6238,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210788236",
    "pushed_at": null
   },
@@ -6009,6 +6261,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210788352",
    "pushed_at": null
   },
@@ -6031,6 +6284,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210788659",
    "pushed_at": null
   },
@@ -6053,6 +6307,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75465",
    "pushed_at": null
   },
@@ -6075,6 +6330,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75467",
    "pushed_at": null
   },
@@ -6097,6 +6353,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75463",
    "pushed_at": null
   },
@@ -6119,6 +6376,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75461",
    "pushed_at": null
   },
@@ -6141,6 +6399,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75471",
    "pushed_at": null
   },
@@ -6163,6 +6422,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75466",
    "pushed_at": null
   },
@@ -6185,6 +6445,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75464",
    "pushed_at": null
   },
@@ -6207,6 +6468,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://jobs.standardchartered.com/sitemap.xml#https://jobs.standardchartered.com/job/London-Markets-Intern-UK-2027/1370621257/",
    "pushed_at": null
   },
@@ -6229,6 +6491,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://jobs.standardchartered.com/sitemap.xml#https://jobs.standardchartered.com/job/London-Strategic-Advisory%C2%A0&amp;-Solutions%C2%A0Intern-UK-2027/1369588357/",
    "pushed_at": null
   },
@@ -6251,6 +6514,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://jobs.standardchartered.com/sitemap.xml#https://jobs.standardchartered.com/job/London-Coverage-Banking%C2%A0Intern-UK-2027/1369587957/",
    "pushed_at": null
   },
@@ -6273,6 +6537,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/quantitative-finance-associate-off-cycle-internship-programme-2027-london/13015/100174976080",
    "pushed_at": null
   },
@@ -6295,6 +6560,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/quantitative-analytics-associate-graduate-programme-2027-london/13015/100174975856",
    "pushed_at": null
   },
@@ -6317,6 +6583,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75327",
    "pushed_at": null
   },
@@ -6339,6 +6606,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75325",
    "pushed_at": null
   },
@@ -6361,6 +6629,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:beesite/deutschebank#75326",
    "pushed_at": null
   },
@@ -6383,6 +6652,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:ekbq.fa.em2.oraclecloud.com#1953",
    "pushed_at": null
   },
@@ -6405,6 +6675,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210774716",
    "pushed_at": null
   },
@@ -6427,6 +6698,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210774738",
    "pushed_at": null
   },
@@ -6449,6 +6721,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210774745",
    "pushed_at": null
   },
@@ -6471,6 +6744,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210774755",
    "pushed_at": null
   },
@@ -6493,6 +6767,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210774762",
    "pushed_at": null
   },
@@ -6515,6 +6790,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210774766",
    "pushed_at": null
   },
@@ -6537,6 +6813,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210774813",
    "pushed_at": null
   },
@@ -6559,6 +6836,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210775710",
    "pushed_at": null
   },
@@ -6581,6 +6859,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210775727",
    "pushed_at": null
   },
@@ -6603,6 +6882,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210775780",
    "pushed_at": null
   },
@@ -6625,6 +6905,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210776860",
    "pushed_at": null
   },
@@ -6647,6 +6928,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210776873",
    "pushed_at": null
   },
@@ -6669,6 +6951,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210780476",
    "pushed_at": null
   },
@@ -6691,6 +6974,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210780517",
    "pushed_at": null
   },
@@ -6713,6 +6997,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:jpmc.fa.oraclecloud.com#210785427",
    "pushed_at": null
   },
@@ -6735,6 +7020,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/capital-markets-graduate-programme-2027-london/13015/99885319584",
    "pushed_at": null
   },
@@ -6757,6 +7043,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "oracle:ekbq.fa.em2.oraclecloud.com#1940",
    "pushed_at": "2026-09-08T08:39:33.642942+00:00"
   },
@@ -6779,6 +7066,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.wellsfargojobs.com/sitemap.xml#https://www.wellsfargojobs.com/en/jobs/r-570663/emea-markets-summer-analyst/",
    "pushed_at": null
   },
@@ -6801,6 +7089,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://search.jobs.barclays/sitemap.xml#https://search.jobs.barclays/job/london/capital-markets-summer-internship-programme-2027-london/13015/99528488016",
    "pushed_at": null
   },
@@ -6823,6 +7112,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/technology/london/software-engineer-internship-2027-start/",
    "pushed_at": null
   },
@@ -6845,6 +7135,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/technology/amsterdam/software-engineer-internship-2027-start/",
    "pushed_at": null
   },
@@ -6867,6 +7158,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/trading/amsterdam/quantitative-trading-internship-2027-start/",
    "pushed_at": null
   },
@@ -6889,6 +7181,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/amsterdam/quantitative-research-internship-2027-start/",
    "pushed_at": null
   },
@@ -6911,6 +7204,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/technology/amsterdam/graduate-fpga-engineer-2027-start/",
    "pushed_at": null
   },
@@ -6933,6 +7227,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/amsterdam/graduate-quantitative-researcher-2027-start/",
    "pushed_at": null
   },
@@ -6955,6 +7250,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/technology/london/graduate-software-engineer/",
    "pushed_at": null
   },
@@ -6977,6 +7273,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.optiver.com/sitemap.xml#https://www.optiver.com/join-us/jobs/technology/amsterdam/graduate-software-engineer/",
    "pushed_at": null
   },
@@ -6999,6 +7296,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.wellsfargojobs.com/sitemap.xml#https://www.wellsfargojobs.com/en/jobs/r-568617/2027-investment-banking-summer-associate-program-early-careers/",
    "pushed_at": null
   },
@@ -7021,6 +7319,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.wellsfargojobs.com/sitemap.xml#https://www.wellsfargojobs.com/en/jobs/r-568620/2027-investment-banking-summer-associate-program-ca-early-careers/",
    "pushed_at": null
   },
@@ -7043,6 +7342,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.citadelsecurities.com/page-sitemap.xml#https://www.citadelsecurities.com/careers/programs-and-events/the-trading-invitational/",
    "pushed_at": null
   },
@@ -7065,6 +7365,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "eightfold:mlp.eightfold.ai#755957853409",
    "pushed_at": null
   },
@@ -7087,6 +7388,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "eightfold:mlp.eightfold.ai#755957819517",
    "pushed_at": null
   },
@@ -7109,6 +7411,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "eightfold:mlp.eightfold.ai#755957819921",
    "pushed_at": null
   },
@@ -7131,6 +7434,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "eightfold:mlp.eightfold.ai#755957778828",
    "pushed_at": null
   },
@@ -7153,6 +7457,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "eightfold:mlp.eightfold.ai#755957778829",
    "pushed_at": null
   },
@@ -7175,6 +7480,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "eightfold:mlp.eightfold.ai#755957778834",
    "pushed_at": null
   },
@@ -7197,6 +7503,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://careers.blackrock.com/sitemap.xml#https://careers.blackrock.com/job/london/2027-spring-insight-event-emea/45831/97150826752",
    "pushed_at": null
   },
@@ -7219,6 +7526,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:workable/capula-investment-management-ltd#88F2A24444",
    "pushed_at": null
   },
@@ -7241,6 +7549,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "sitemap:https://www.citadel.com/page-sitemap.xml#https://www.citadel.com/careers/programs-and-events/the-trading-invitational/",
    "pushed_at": null
   },
@@ -7263,6 +7572,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": true,
    "key": "jsonboard:workable/capula-investment-management-ltd#A15A62A8BE",
    "pushed_at": null
   },
@@ -7285,6 +7595,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14521",
    "pushed_at": "2026-10-09T10:16:02.098019+00:00"
   },
@@ -7307,6 +7618,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14575",
    "pushed_at": "2026-10-09T10:02:02.171256+00:00"
   },
@@ -7329,6 +7641,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14720",
    "pushed_at": "2026-10-09T10:02:02.171256+00:00"
   },
@@ -7351,6 +7664,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14585",
    "pushed_at": null
   },
@@ -7373,6 +7687,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14617",
    "pushed_at": null
   },
@@ -7395,6 +7710,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14582",
    "pushed_at": "2026-10-09T10:02:02.171256+00:00"
   },
@@ -7417,6 +7733,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14661",
    "pushed_at": "2026-10-09T10:02:02.171256+00:00"
   },
@@ -7439,6 +7756,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14658",
    "pushed_at": null
   },
@@ -7461,6 +7779,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14670",
    "pushed_at": "2026-10-09T10:02:02.171256+00:00"
   },
@@ -7483,6 +7802,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14660",
    "pushed_at": "2026-10-09T10:02:02.171256+00:00"
   },
@@ -7505,6 +7825,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14683",
    "pushed_at": "2026-10-09T10:02:02.171256+00:00"
   },
@@ -7527,6 +7848,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:citi/wd5/2#26992197",
    "pushed_at": "2026-10-09T09:48:01.649742+00:00"
   },
@@ -7549,6 +7871,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:citi/wd5/2#26998422",
    "pushed_at": "2026-10-09T09:48:01.649742+00:00"
   },
@@ -7571,6 +7894,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:citi/wd5/2#26998415",
    "pushed_at": "2026-10-09T09:48:01.649742+00:00"
   },
@@ -7593,6 +7917,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14668",
    "pushed_at": "2026-10-09T09:46:02.199799+00:00"
   },
@@ -7615,6 +7940,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14665",
    "pushed_at": "2026-10-09T09:46:02.199799+00:00"
   },
@@ -7637,6 +7963,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14760",
    "pushed_at": "2026-10-09T09:46:02.199799+00:00"
   },
@@ -7659,6 +7986,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14719",
    "pushed_at": "2026-10-09T09:46:02.199799+00:00"
   },
@@ -7681,6 +8009,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14718",
    "pushed_at": "2026-10-09T09:46:02.199799+00:00"
   },
@@ -7703,6 +8032,7 @@
    "wanted": true,
    "tier": "D",
    "adopted": true,
+   "late": false,
    "key": "manual:https://www.bamfunds.com/careers/internships#manual:prop:Summer 2027",
    "pushed_at": null
   },
@@ -7725,6 +8055,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10080069-WD",
    "pushed_at": "2026-10-09T08:48:01.511823+00:00"
   },
@@ -7747,6 +8078,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers#/en/job-offers/trainee-business-management-analyst-market-technology-operations-fixed-term-26000LOG-en",
    "pushed_at": null
   },
@@ -7769,6 +8101,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers#/en/job-offers/trainee-corporate-coverage-26000I0R-en",
    "pushed_at": "2026-10-07T22:19:15.766388+00:00"
   },
@@ -7791,6 +8124,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:hl/wd1/Campus#R3390",
    "pushed_at": "2026-10-07T13:49:33.575814+00:00"
   },
@@ -7813,6 +8147,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1424",
    "pushed_at": "2026-10-06T14:32:01.452709+00:00"
   },
@@ -7835,6 +8170,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10079925-WD",
    "pushed_at": null
   },
@@ -7857,6 +8193,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1420",
    "pushed_at": "2026-10-06T11:02:01.908066+00:00"
   },
@@ -7879,6 +8216,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1423",
    "pushed_at": "2026-10-06T11:02:01.908066+00:00"
   },
@@ -7901,6 +8239,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=24559",
    "pushed_at": "2026-10-06T10:18:01.775546+00:00"
   },
@@ -7923,6 +8262,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:pjtpartners/wd1/Students#/job/London/XMLNAME-2027-Summer-Associate--Strategic-Advisory--London_R0003550",
    "pushed_at": "2026-10-05T06:30:01.921684+00:00"
   },
@@ -7945,6 +8285,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=24477",
    "pushed_at": "2026-10-05T20:12:01.299114+00:00"
   },
@@ -7967,6 +8308,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://davincitrading.com/careers/#/job/graduate-quant/",
    "pushed_at": "2026-09-28T14:20:05.511561+00:00"
   },
@@ -7989,6 +8331,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:wellington/wd5/External#R94932",
    "pushed_at": "2026-09-28T12:28:05.520485+00:00"
   },
@@ -8011,6 +8354,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:wellington/wd5/External#R94931",
    "pushed_at": "2026-09-28T12:28:05.520485+00:00"
   },
@@ -8033,6 +8377,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:wellington/wd5/External#R94930",
    "pushed_at": "2026-09-28T12:28:05.520485+00:00"
   },
@@ -8055,6 +8400,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=24438",
    "pushed_at": "2026-09-26T07:53:03.708386+00:00"
   },
@@ -8077,6 +8423,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:equinor/wd3/EQNR#JR107239",
    "pushed_at": "2026-09-25T07:00:04.881008+00:00"
   },
@@ -8099,6 +8446,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:pimco/wd1/pimco-careers#R106805",
    "pushed_at": "2026-09-23T12:32:05.199635+00:00"
   },
@@ -8121,6 +8469,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#43192",
    "pushed_at": "2026-09-27T20:56:05.294066+00:00"
   },
@@ -8143,6 +8492,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=24234",
    "pushed_at": "2026-09-19T06:30:03.992612+00:00"
   },
@@ -8165,6 +8515,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:lseg/wd3/Careers#R0123402",
    "pushed_at": "2026-09-16T11:18:03.844573+00:00"
   },
@@ -8187,6 +8538,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:lseg/wd3/Careers#R0123405",
    "pushed_at": null
   },
@@ -8209,6 +8561,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:lseg/wd3/Careers#R0123403",
    "pushed_at": null
   },
@@ -8231,6 +8584,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:lseg/wd3/Careers#R0123395",
    "pushed_at": null
   },
@@ -8253,6 +8607,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:lseg/wd3/Careers#R0123391",
    "pushed_at": null
   },
@@ -8275,6 +8630,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": false,
+   "late": false,
    "key": "workday:lseg/wd3/Careers#R0123389",
    "pushed_at": null
   },
@@ -8297,6 +8653,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=24194",
    "pushed_at": "2026-09-10T15:32:00.859161+00:00"
   },
@@ -8319,6 +8676,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": false,
+   "late": false,
    "key": "linklist:https://careers.twosigma.com/careers/OpenRoles#/careers/JobDetail/New-York-New-York-United-States-Software-Engineering-Internship-Summer-2027/14016",
    "pushed_at": "2026-09-08T20:58:00.885719+00:00"
   },
@@ -8341,6 +8699,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.brevanhoward.com/gb/en/sitemap.xml#JR101584",
    "pushed_at": "2026-09-07T18:16:00.419787+00:00"
   },
@@ -8363,6 +8722,7 @@
    "wanted": true,
    "tier": "D",
    "adopted": true,
+   "late": false,
    "key": "manual:https://www.rothschildandco.com/en/careers/#manual:bank:Summer 2027",
    "pushed_at": null
   },
@@ -8385,6 +8745,7 @@
    "wanted": true,
    "tier": "D",
    "adopted": true,
+   "late": false,
    "key": "manual:https://www.centerviewpartners.com/careers#manual:bank:Summer 2027",
    "pushed_at": null
   },
@@ -8407,6 +8768,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14819",
    "pushed_at": null
   },
@@ -8429,6 +8791,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:ardian/wd103/ArdianCareers#/job/London/Buyout-Intern---November-2026---London_JR1002244",
    "pushed_at": null
   },
@@ -8451,6 +8814,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:ardian/wd103/ArdianCareers#/job/London/Infrastructure-Intern---January-2027---London_JR1002078",
    "pushed_at": null
   },
@@ -8473,6 +8837,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:ardian/wd103/ArdianCareers#/job/London/Infrastructure-Intern---November-2026---London_JR1002212",
    "pushed_at": null
   },
@@ -8495,6 +8860,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:osv_cci/wd1/CCICareers#R1345",
    "pushed_at": null
   },
@@ -8517,6 +8883,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://clientsites.sanctuarygraduates.co.uk/sjp2026/#614618",
    "pushed_at": null
   },
@@ -8539,6 +8906,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://zaoui-co.sainoo.com/careers#10669",
    "pushed_at": null
   },
@@ -8561,6 +8929,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:td/wd3/TD_Bank_Careers#R_1513487",
    "pushed_at": null
   },
@@ -8583,6 +8952,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:td/wd3/TD_Bank_Careers#R_1513486",
    "pushed_at": null
   },
@@ -8605,6 +8975,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:td/wd3/TD_Bank_Careers#R_1513489",
    "pushed_at": null
   },
@@ -8627,6 +8998,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:td/wd3/TD_Bank_Careers#R_1514179",
    "pushed_at": null
   },
@@ -8649,6 +9021,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://pwpcareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/#1091",
    "pushed_at": null
   },
@@ -8671,6 +9044,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://pwpcareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/#1098",
    "pushed_at": null
   },
@@ -8693,6 +9067,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://pwpcareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/#1092",
    "pushed_at": null
   },
@@ -8715,6 +9090,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10079264-WD",
    "pushed_at": null
   },
@@ -8737,6 +9113,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10079262-WD",
    "pushed_at": null
   },
@@ -8759,6 +9136,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10078516-WD",
    "pushed_at": null
   },
@@ -8781,6 +9159,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10078593-WD",
    "pushed_at": null
   },
@@ -8803,6 +9182,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10079265-WD",
    "pushed_at": null
   },
@@ -8825,6 +9205,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10079355-WD",
    "pushed_at": null
   },
@@ -8847,6 +9228,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": true,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10079356-WD",
    "pushed_at": null
   },
@@ -8869,6 +9251,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#423",
    "pushed_at": null
   },
@@ -8891,6 +9274,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#419",
    "pushed_at": null
   },
@@ -8913,6 +9297,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#418",
    "pushed_at": null
   },
@@ -8935,6 +9320,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#387",
    "pushed_at": null
   },
@@ -8957,6 +9343,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#386",
    "pushed_at": null
   },
@@ -8979,6 +9366,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#384",
    "pushed_at": null
   },
@@ -9001,6 +9389,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#383",
    "pushed_at": null
   },
@@ -9023,6 +9412,7 @@
    "wanted": true,
    "tier": "D",
    "adopted": true,
+   "late": false,
    "key": "manual:https://oceanpartners.com/about/careers-and-culture/#manual:any:Summer 2027",
    "pushed_at": "2026-10-05T20:33:33.030492+00:00"
   },
@@ -9045,6 +9435,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://www.smartrecruiters.com/Wiser#744000153422919",
    "pushed_at": null
   },
@@ -9067,6 +9458,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://www.smartrecruiters.com/Wiser#744000150964856",
    "pushed_at": null
   },
@@ -9089,6 +9481,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://www.smartrecruiters.com/Wiser#744000146672822",
    "pushed_at": null
   },
@@ -9111,6 +9504,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:hl/wd1/Campus#R3599",
    "pushed_at": null
   },
@@ -9133,6 +9527,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:hl/wd1/Campus#R3577",
    "pushed_at": null
   },
@@ -9155,6 +9550,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:bailliegifford/wd3/BaillieGiffordEarlyCareers#R0004565",
    "pushed_at": null
   },
@@ -9177,6 +9573,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:bailliegifford/wd3/BaillieGiffordEarlyCareers#R0004566",
    "pushed_at": null
   },
@@ -9199,6 +9596,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:pjtpartners/wd1/Students#/job/London/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--London_R0003510",
    "pushed_at": null
   },
@@ -9221,6 +9619,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:pjtpartners/wd1/Students#/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003509",
    "pushed_at": null
   },
@@ -9243,6 +9642,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:pjtpartners/wd1/Students#/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--London_R0003508",
    "pushed_at": null
   },
@@ -9265,6 +9665,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:pjtpartners/wd1/Students#/job/London/XMLNAME-2027-Summer-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003511",
    "pushed_at": null
   },
@@ -9287,6 +9688,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1405",
    "pushed_at": null
   },
@@ -9309,6 +9711,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1406",
    "pushed_at": null
   },
@@ -9331,6 +9734,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1409",
    "pushed_at": null
   },
@@ -9353,6 +9757,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/#1464",
    "pushed_at": null
   },
@@ -9375,6 +9780,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/#1540",
    "pushed_at": null
   },
@@ -9397,6 +9803,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#45529",
    "pushed_at": null
   },
@@ -9419,6 +9826,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#45358",
    "pushed_at": null
   },
@@ -9441,6 +9849,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#45106",
    "pushed_at": null
   },
@@ -9463,6 +9872,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#43864",
    "pushed_at": null
   },
@@ -9485,6 +9895,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#43842",
    "pushed_at": null
   },
@@ -9507,6 +9918,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#43862",
    "pushed_at": null
   },
@@ -9529,6 +9941,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://blackrock.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#12223",
    "pushed_at": null
   },
@@ -9551,6 +9964,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://starlizard.com/join-our-team/#/join-our-team/technology-graduates/",
    "pushed_at": null
   },
@@ -9573,6 +9987,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1953",
    "pushed_at": null
   },
@@ -9595,6 +10010,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1929",
    "pushed_at": null
   },
@@ -9617,6 +10033,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1967",
    "pushed_at": null
   },
@@ -9639,6 +10056,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1930",
    "pushed_at": null
   },
@@ -9661,6 +10079,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1792",
    "pushed_at": null
   },
@@ -9683,6 +10102,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1927",
    "pushed_at": null
   },
@@ -9705,6 +10125,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1928",
    "pushed_at": null
   },
@@ -9727,6 +10148,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1933",
    "pushed_at": null
   },
@@ -9749,6 +10171,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1934",
    "pushed_at": null
   },
@@ -9771,6 +10194,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1909",
    "pushed_at": null
   },
@@ -9793,6 +10217,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1949",
    "pushed_at": null
   },
@@ -9815,6 +10240,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1936",
    "pushed_at": null
   },
@@ -9837,6 +10263,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1799",
    "pushed_at": null
   },
@@ -9859,6 +10286,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1958",
    "pushed_at": null
   },
@@ -9881,6 +10309,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:wellington/wd5/External#R92580",
    "pushed_at": null
   },
@@ -9903,6 +10332,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://davincitrading.com/careers/#/job/quant-trading-intern/",
    "pushed_at": null
   },
@@ -9925,6 +10355,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://davincitrading.com/careers/#/job/graduate-trader/",
    "pushed_at": null
   },
@@ -9947,6 +10378,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://www.deshaw.com/careers#/careers/trader-analyst-intern-london-summer-2027-5862",
    "pushed_at": null
   },
@@ -9969,6 +10401,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://www.deshaw.com/careers#/careers/systems-administrator-industry-placement-year-london-5922",
    "pushed_at": null
   },
@@ -9991,6 +10424,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://www.deshaw.com/careers#/careers/systems-engineering-intern-london-summer-2027-5925",
    "pushed_at": null
   },
@@ -10013,6 +10447,7 @@
    "wanted": true,
    "tier": "D",
    "adopted": true,
+   "late": false,
    "key": "manual:https://www.morganstanley.com/careers/students-graduates#manual:spring:Summer 2027",
    "pushed_at": null
   },
@@ -10035,6 +10470,7 @@
    "wanted": true,
    "tier": "D",
    "adopted": true,
+   "late": false,
    "key": "manual:https://www.goldmansachs.com/careers/students/programs#manual:spring:Summer 2027",
    "pushed_at": null
   },
@@ -10057,6 +10493,7 @@
    "wanted": true,
    "tier": "D",
    "adopted": true,
+   "late": false,
    "key": "manual:https://group.bnpparibas/en/careers/students-graduates#manual:spring:Summer 2027",
    "pushed_at": null
   },
@@ -10079,6 +10516,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=23881",
    "pushed_at": null
   },
@@ -10101,6 +10539,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=23826",
    "pushed_at": null
   },
@@ -10123,6 +10562,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=23733",
    "pushed_at": null
   },
@@ -10145,6 +10585,7 @@
    "wanted": true,
    "tier": "B",
    "adopted": true,
+   "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=23630",
    "pushed_at": null
   },
@@ -10167,6 +10608,7 @@
    "wanted": true,
    "tier": "D",
    "adopted": true,
+   "late": false,
    "key": "htmlwatch:https://www.tower-research.com/open-positions/#c930d0a84e9ac9ed82d884c88241154b",
    "pushed_at": null
   },
@@ -10189,6 +10631,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:citi/wd5/2#26987141",
    "pushed_at": null
   },
@@ -10211,6 +10654,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:citi/wd5/2#26984811",
    "pushed_at": null
   },
@@ -10233,6 +10677,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
+   "late": false,
    "key": "workday:citi/wd5/2#26987134",
    "pushed_at": null
   }
