@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-08T22:05:02.106794+00:00",
+ "generated_at": "2026-10-09T00:00:03.224277+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
   "uk": 185,
   "uk_unstated": 75,
-  "seen_24h": 3,
+  "seen_24h": 2,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1000,
+  "total": 1002,
   "truncated_uk": 0,
   "firms": 203,
   "firms_blind": 5,
   "sources": 212,
-  "postings_tracked": 25603
+  "postings_tracked": 25655
  },
  "detection": {
-  "mean_latency_s": 57616.7,
+  "mean_latency_s": 57184.7,
   "median_latency_s": 687.9,
-  "sampled": 259,
+  "sampled": 261,
   "by_tier": {
    "A": {
     "mean_latency_s": 2808.5,
@@ -27,10 +27,10 @@
     "sampled": 80
    },
    "B": {
-    "mean_latency_s": 82112.0,
+    "mean_latency_s": 81218.4,
     "median_latency_s": 902.6,
     "under_60s": 4,
-    "sampled": 179
+    "sampled": 181
    }
   },
   "watch": {
@@ -59,8 +59,8 @@
      "spring"
     ],
     "phase": "closing",
-    "days": 115,
-    "says": "closing \u2014 about 115 days of the window left",
+    "days": 114,
+    "says": "closing \u2014 about 114 days of the window left",
     "urgent": false
    },
    {
@@ -80,8 +80,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 116,
-    "says": "closed about 116 days ago",
+    "days": 117,
+    "says": "closed about 117 days ago",
     "urgent": false
    },
    {
@@ -102,8 +102,8 @@
      "crypto_mm"
     ],
     "phase": "closing",
-    "days": 53,
-    "says": "closing \u2014 about 53 days of the window left",
+    "days": 52,
+    "says": "closing \u2014 about 52 days of the window left",
     "urgent": false
    },
    {
@@ -123,8 +123,8 @@
      "bank"
     ],
     "phase": "closing",
-    "days": 53,
-    "says": "closing \u2014 about 53 days of the window left",
+    "days": 52,
+    "says": "closing \u2014 about 52 days of the window left",
     "urgent": false
    }
   ],
@@ -157,7 +157,7 @@
     "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/4911945101",
     "location": "London, UK",
     "deadline": "2026-10-09",
-    "days_left": 1
+    "days_left": 0
    }
   ],
   "n_deadlines": 1,
@@ -199,20 +199,20 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 195,
+   "n_total": 196,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "195 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "196 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 177,
+   "n_total": 178,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "177 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "178 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -381,7 +381,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-08T22:03:34.468039+00:00",
+   "last_checked_by_bell": "2026-10-08T23:48:35.664800+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -392,7 +392,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-08T22:00:31.365476+00:00",
+   "last_checked_by_bell": "2026-10-08T23:45:39.561340+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -403,7 +403,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-08T22:01:28.662278+00:00",
+   "last_checked_by_bell": "2026-10-08T23:46:31.901257+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -414,7 +414,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-08T22:02:10.639463+00:00",
+   "last_checked_by_bell": "2026-10-08T23:47:14.411877+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -425,7 +425,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-08T22:02:21.792992+00:00",
+   "last_checked_by_bell": "2026-10-08T23:47:25.358139+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
