@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T01:00:02.679866+00:00",
+ "generated_at": "2026-10-09T04:05:01.581500+00:00",
  "counts": {
   "items": 400,
   "strong": 389,
@@ -8,29 +8,29 @@
   "seen_24h": 2,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1001,
+  "total": 1002,
   "truncated_uk": 0,
   "firms": 203,
   "firms_blind": 5,
   "sources": 212,
-  "postings_tracked": 25663
+  "postings_tracked": 25708
  },
  "detection": {
-  "mean_latency_s": 56968.9,
-  "median_latency_s": 683.7,
-  "sampled": 262,
+  "mean_latency_s": 56551.5,
+  "median_latency_s": 667.9,
+  "sampled": 265,
   "by_tier": {
    "A": {
-    "mean_latency_s": 2808.5,
-    "median_latency_s": 43.3,
-    "under_60s": 59,
-    "sampled": 80
+    "mean_latency_s": 1947.4,
+    "median_latency_s": 42.5,
+    "under_60s": 60,
+    "sampled": 78
    },
    "B": {
-    "mean_latency_s": 80775.6,
-    "median_latency_s": 901.5,
+    "mean_latency_s": 79327.5,
+    "median_latency_s": 902.6,
     "under_60s": 4,
-    "sampled": 182
+    "sampled": 187
    }
   },
   "watch": {
@@ -199,10 +199,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 196,
+   "n_total": 205,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "196 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "205 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
@@ -235,6 +235,16 @@
    "reason": "95 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
+   "firm": "Legal & General",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 72,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "72 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
    "firm": "AllianceBernstein",
    "tier": "C",
@@ -243,16 +253,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "72 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
-   "firm": "Legal & General",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 69,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "69 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "eightfold:mlp.eightfold.ai",
@@ -381,7 +381,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-09T00:48:26.490229+00:00",
+   "last_checked_by_bell": "2026-10-09T04:03:32.293409+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -392,7 +392,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T00:45:29.447535+00:00",
+   "last_checked_by_bell": "2026-10-09T04:00:29.864092+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -403,7 +403,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T00:46:23.035652+00:00",
+   "last_checked_by_bell": "2026-10-09T04:01:25.845021+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -414,7 +414,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T00:47:04.453926+00:00",
+   "last_checked_by_bell": "2026-10-09T04:02:08.735211+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -425,7 +425,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T00:47:15.709623+00:00",
+   "last_checked_by_bell": "2026-10-09T04:02:19.528366+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -8510,7 +8510,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-69b1f79725a4/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-3e7ef4b6c126/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "opened_at": null,
    "opened_exact": false,
