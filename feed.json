@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-09T10:05:02.100824+00:00",
+ "generated_at": "2026-10-09T10:20:02.396480+00:00",
  "counts": {
   "items": 400,
   "strong": 400,
   "uk": 303,
   "uk_unstated": 64,
-  "seen_24h": 13,
+  "seen_24h": 12,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1548,
-  "truncated_uk": 59,
+  "total": 1562,
+  "truncated_uk": 60,
   "firms": 207,
   "firms_blind": 8,
   "sources": 220,
-  "postings_tracked": 26217
+  "postings_tracked": 26245
  },
  "detection": {
   "mean_latency_s": 54586.4,
@@ -179,10 +179,10 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 234,
+   "n_total": 235,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "234 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "235 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:statestreet/wd1/Global",
@@ -361,7 +361,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-09T10:04:00.879229+00:00",
+   "last_checked_by_bell": "2026-10-09T10:18:50.013128+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -372,7 +372,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-09T10:00:17.536649+00:00",
+   "last_checked_by_bell": "2026-10-09T10:15:15.405349+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -383,7 +383,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T10:00:41.353043+00:00",
+   "last_checked_by_bell": "2026-10-09T10:15:38.736552+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -394,7 +394,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-09T10:01:00.749617+00:00",
+   "last_checked_by_bell": "2026-10-09T10:15:57.290046+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -405,7 +405,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T10:01:50.035868+00:00",
+   "last_checked_by_bell": "2026-10-09T10:16:42.805450+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -416,7 +416,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T10:02:36.101727+00:00",
+   "last_checked_by_bell": "2026-10-09T10:17:27.849568+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -427,7 +427,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T10:02:46.956296+00:00",
+   "last_checked_by_bell": "2026-10-09T10:17:37.906358+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -438,7 +438,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-09T10:03:29.961944+00:00",
+   "last_checked_by_bell": "2026-10-09T10:18:19.751210+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -7158,6 +7158,28 @@
   },
   {
    "firm": "Bank of America",
+   "title": "Global Capital Markets 2027 Summer Analyst (DCM, ECM, Leveraged Finance, and SSG) - London",
+   "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom",
+   "location": "London, United Kingdom",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-09T10:15:29.608589+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "reason": "summer analyst + markets",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "B",
+   "adopted": true,
+   "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14521",
+   "pushed_at": "2026-10-09T10:16:02.098019+00:00"
+  },
+  {
+   "firm": "Bank of America",
    "title": "Global Quantitative Data Analytics, Summer 2027 Analyst - London",
    "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14575/global-quantitative-data-analytics-summer-2027-analyst-london-london-united-kingdom",
    "location": "London, United Kingdom",
@@ -9222,28 +9244,6 @@
    "tier": "C",
    "adopted": true,
    "key": "workday:pjtpartners/wd1/Students#/job/London/XMLNAME-2027-Summer-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003511",
-   "pushed_at": null
-  },
-  {
-   "firm": "Fidelity International",
-   "title": "Equity Research Summer Internship Programme 2027 - London",
-   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-1bbfb5d75b4a/candidate/so/pm/1/pl/1/opp/1405-Equity-Research-Summer-Internship-Programme-2027-London/en-GB",
-   "location": "London",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-20T22:28:33.200649+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "research",
-   "reason": "intern + research",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1405",
    "pushed_at": null
   }
  ]
