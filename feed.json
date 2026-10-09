@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-09T18:20:01.927044+00:00",
+ "generated_at": "2026-10-09T18:35:02.180504+00:00",
  "counts": {
-  "items": 450,
-  "strong": 450,
+  "items": 449,
+  "strong": 449,
   "uk": 340,
-  "uk_unstated": 75,
-  "seen_24h": 19,
+  "uk_unstated": 74,
+  "seen_24h": 18,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1617,
+  "total": 1618,
   "truncated_uk": 21,
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 26592
+  "postings_tracked": 26599
  },
  "detection": {
   "mean_latency_s": 45896.2,
@@ -351,7 +351,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-09T18:15:16.016034+00:00",
+   "last_checked_by_bell": "2026-10-09T18:30:17.074959+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -362,7 +362,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T18:15:38.477720+00:00",
+   "last_checked_by_bell": "2026-10-09T18:30:31.411275+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -373,7 +373,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-09T18:15:57.774480+00:00",
+   "last_checked_by_bell": "2026-10-09T18:30:51.368393+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -384,7 +384,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T18:16:46.037466+00:00",
+   "last_checked_by_bell": "2026-10-09T18:31:41.451033+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -395,7 +395,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T18:17:32.134789+00:00",
+   "last_checked_by_bell": "2026-10-09T18:32:25.516799+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -406,7 +406,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T18:17:42.838234+00:00",
+   "last_checked_by_bell": "2026-10-09T18:32:35.795122+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -417,7 +417,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-09T18:18:24.775850+00:00",
+   "last_checked_by_bell": "2026-10-09T18:33:18.976092+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -4403,29 +4403,6 @@
    "late": true,
    "key": "greenhouse:squarepointcapital#239376",
    "pushed_at": null
-  },
-  {
-   "firm": "Citadel",
-   "title": "Grace Hopper Software Engineering 2025 Intern",
-   "url": "https://www.citadel.com/careers/details/grace-hopper-software-engineering-2025-intern/",
-   "location": "",
-   "opened_at": "2026-10-09T18:14:23+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-09T18:16:01.420825+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": false,
-   "late": false,
-   "key": "sitemap:https://www.citadel.com/career-sitemap.xml#https://www.citadel.com/careers/details/grace-hopper-software-engineering-2025-intern/",
-   "pushed_at": "2026-10-09T18:18:01.711353+00:00"
   },
   {
    "firm": "Citadel",
