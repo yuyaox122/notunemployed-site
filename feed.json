@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-09T12:35:02.259928+00:00",
+ "generated_at": "2026-10-09T12:40:02.190167+00:00",
  "counts": {
-  "items": 445,
-  "strong": 445,
+  "items": 444,
+  "strong": 444,
   "uk": 335,
-  "uk_unstated": 76,
+  "uk_unstated": 75,
   "seen_24h": 12,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1594,
+  "total": 1593,
   "truncated_uk": 21,
   "firms": 207,
-  "firms_blind": 8,
-  "sources": 220,
+  "firms_blind": 7,
+  "sources": 219,
   "postings_tracked": 26319
  },
  "detection": {
@@ -356,17 +356,6 @@
   }
  ],
  "blindspots": [
-  {
-   "firm": "Tower Research Capital",
-   "url": "https://www.tower-research.com/open-positions/",
-   "kind": "watched",
-   "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-09T12:33:47.240985+00:00",
-   "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
-   "categories": [
-    "prop"
-   ]
-  },
   {
    "firm": "Balyasny",
    "url": "https://www.bamfunds.com/careers/internships",
@@ -10587,29 +10576,6 @@
    "adopted": true,
    "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=23630",
-   "pushed_at": null
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Tower Research (own site) careers page changed \u2014 check by hand",
-   "url": "https://www.tower-research.com/open-positions/",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-06T09:34:16.368077+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": null,
-   "desk": "research",
-   "reason": "tier D: careers page changed, contents unknown",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "D",
-   "adopted": true,
-   "late": false,
-   "key": "htmlwatch:https://www.tower-research.com/open-positions/#c930d0a84e9ac9ed82d884c88241154b",
    "pushed_at": null
   },
   {
