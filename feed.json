@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-10-09T10:20:02.396480+00:00",
+ "generated_at": "2026-10-09T11:15:01.821108+00:00",
  "counts": {
   "items": 400,
   "strong": 400,
-  "uk": 303,
-  "uk_unstated": 64,
+  "uk": 304,
+  "uk_unstated": 63,
   "seen_24h": 12,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1562,
-  "truncated_uk": 60,
+  "total": 1566,
+  "truncated_uk": 59,
   "firms": 207,
   "firms_blind": 8,
   "sources": 220,
-  "postings_tracked": 26245
+  "postings_tracked": 26271
  },
  "detection": {
-  "mean_latency_s": 54586.4,
+  "mean_latency_s": 54564.5,
   "median_latency_s": 647.3,
   "sampled": 275,
   "by_tier": {
@@ -27,7 +27,7 @@
     "sampled": 79
    },
    "B": {
-    "mean_latency_s": 75869.7,
+    "mean_latency_s": 75839.0,
     "median_latency_s": 1144.6,
     "under_60s": 4,
     "sampled": 196
@@ -179,50 +179,50 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 235,
+   "n_total": 237,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "235 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "237 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:statestreet/wd1/Global",
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 229,
+   "n_total": 230,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "229 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "230 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 186,
+   "n_total": 187,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "186 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "187 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
    "firm": "M&G Investments",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 132,
+   "n_total": 133,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "132 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "133 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
    "firm": "Centrica Energy Trading",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 95,
+   "n_total": 96,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "95 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "96 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
@@ -361,7 +361,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-09T10:18:50.013128+00:00",
+   "last_checked_by_bell": "2026-10-09T11:03:55.839067+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -372,7 +372,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-09T10:15:15.405349+00:00",
+   "last_checked_by_bell": "2026-10-09T11:00:16.997102+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -383,7 +383,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T10:15:38.736552+00:00",
+   "last_checked_by_bell": "2026-10-09T11:00:30.581698+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -394,7 +394,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-09T10:15:57.290046+00:00",
+   "last_checked_by_bell": "2026-10-09T11:00:51.342562+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -405,7 +405,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T10:16:42.805450+00:00",
+   "last_checked_by_bell": "2026-10-09T11:01:42.450721+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -416,7 +416,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T10:17:27.849568+00:00",
+   "last_checked_by_bell": "2026-10-09T11:02:28.421543+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -427,7 +427,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T10:17:37.906358+00:00",
+   "last_checked_by_bell": "2026-10-09T11:02:38.988495+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -438,7 +438,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-09T10:18:19.751210+00:00",
+   "last_checked_by_bell": "2026-10-09T11:03:23.585009+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -8653,28 +8653,6 @@
    "pushed_at": null
   },
   {
-   "firm": "Perella Weinberg Partners",
-   "title": "U.S. Advisory Prep Program",
-   "url": "https://pwpcareers.tal.net/vx/mobile-0/appcentre-pwpext/brand-4/candidate/so/pm/1/pl/1/opp/1117-U-S-Advisory-Prep-Program/en-GB?instant=apply",
-   "location": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-05T20:47:31.469784+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": "advisory",
-   "reason": "programme:Advisory Prep Program + advisory",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "key": "linklist:https://pwpcareers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1117",
-   "pushed_at": null
-  },
-  {
    "firm": "MUFG",
    "title": "2027 MUFG UK Analyst Programme: Capital Markets",
    "url": "https://mufgub.wd3.myworkdayjobs.com/en-US/MUFG-EarlyCareers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme--Capital-Markets_10079264-WD",
@@ -9244,6 +9222,28 @@
    "tier": "C",
    "adopted": true,
    "key": "workday:pjtpartners/wd1/Students#/job/London/XMLNAME-2027-Summer-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003511",
+   "pushed_at": null
+  },
+  {
+   "firm": "Fidelity International",
+   "title": "Equity Research Summer Internship Programme 2027 - London",
+   "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/xf-1bbfb5d75b4a/candidate/so/pm/1/pl/1/opp/1405-Equity-Research-Summer-Internship-Programme-2027-London/en-GB",
+   "location": "London",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-09-20T22:28:33.200649+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "research",
+   "reason": "intern + research",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "B",
+   "adopted": true,
+   "key": "linklist:https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/#1405",
    "pushed_at": null
   }
  ]
