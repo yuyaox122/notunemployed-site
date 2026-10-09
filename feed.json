@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-09T11:25:01.934033+00:00",
+ "generated_at": "2026-10-09T11:40:02.381883+00:00",
  "counts": {
   "items": 446,
   "strong": 446,
   "uk": 336,
   "uk_unstated": 76,
-  "seen_24h": 12,
+  "seen_24h": 13,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
   "total": 1596,
@@ -13,24 +13,24 @@
   "firms": 207,
   "firms_blind": 8,
   "sources": 220,
-  "postings_tracked": 26272
+  "postings_tracked": 26277
  },
  "detection": {
-  "mean_latency_s": 54564.5,
+  "mean_latency_s": 54180.1,
   "median_latency_s": 647.3,
-  "sampled": 275,
+  "sampled": 277,
   "by_tier": {
    "A": {
-    "mean_latency_s": 1782.2,
+    "mean_latency_s": 1760.4,
     "median_latency_s": 41.7,
-    "under_60s": 64,
-    "sampled": 79
+    "under_60s": 65,
+    "sampled": 80
    },
    "B": {
-    "mean_latency_s": 75839.0,
-    "median_latency_s": 1144.6,
+    "mean_latency_s": 75467.3,
+    "median_latency_s": 1177.4,
     "under_60s": 4,
-    "sampled": 196
+    "sampled": 197
    }
   },
   "watch": {
@@ -189,20 +189,20 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 230,
+   "n_total": 231,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "230 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "231 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "eightfold:portal.careers.hsbc.com",
    "firm": "HSBC",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 187,
+   "n_total": 188,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "187 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "188 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -361,7 +361,7 @@
    "url": "https://www.tower-research.com/open-positions/",
    "kind": "watched",
    "why": "bell can tell when this careers page changes, not what changed: open it and look.",
-   "last_checked_by_bell": "2026-10-09T11:18:41.231995+00:00",
+   "last_checked_by_bell": "2026-10-09T11:33:46.283504+00:00",
    "last_change_detected": "2026-09-06T09:34:16.368077+00:00",
    "categories": [
     "prop"
@@ -372,7 +372,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-09T11:15:15.688729+00:00",
+   "last_checked_by_bell": "2026-10-09T11:30:16.113554+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -383,7 +383,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-09T11:15:29.270428+00:00",
+   "last_checked_by_bell": "2026-10-09T11:30:29.817488+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -394,7 +394,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-09T11:15:47.893065+00:00",
+   "last_checked_by_bell": "2026-10-09T11:30:48.115913+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -405,7 +405,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-09T11:16:32.895516+00:00",
+   "last_checked_by_bell": "2026-10-09T11:31:34.331480+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -416,7 +416,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-09T11:17:18.942569+00:00",
+   "last_checked_by_bell": "2026-10-09T11:32:24.277523+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -427,7 +427,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-09T11:17:28.803687+00:00",
+   "last_checked_by_bell": "2026-10-09T11:32:34.504950+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -438,7 +438,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-09T11:18:11.018851+00:00",
+   "last_checked_by_bell": "2026-10-09T11:33:16.528419+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -446,6 +446,28 @@
   }
  ],
  "items": [
+  {
+   "firm": "Flow Traders",
+   "title": "PhD Graduate Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8266897",
+   "location": "Amsterdam",
+   "opened_at": "2026-10-09T11:35:28+00:00",
+   "opened_exact": true,
+   "first_seen_at": "2026-10-09T11:36:09.739215+00:00",
+   "date_basis": "published",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "quant",
+   "reason": "graduate + quant",
+   "uk": false,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "A",
+   "adopted": false,
+   "key": "greenhouse:flowtraders#8266897",
+   "pushed_at": null
+  },
   {
    "firm": "GSA Capital",
    "title": "General Trading & Technology Insight Programme - 2027",
@@ -3700,28 +3722,6 @@
    "tier": "A",
    "adopted": true,
    "key": "greenhouse:squarepointcapital#6977749",
-   "pushed_at": null
-  },
-  {
-   "firm": "Flow Traders",
-   "title": "PhD Graduate Quantitative Researcher",
-   "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219",
-   "location": "Amsterdam",
-   "opened_at": "2024-12-24T10:39:36+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:32.271399+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "reason": "graduate + quant",
-   "uk": false,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "A",
-   "adopted": true,
-   "key": "greenhouse:flowtraders#6492219",
    "pushed_at": null
   },
   {
