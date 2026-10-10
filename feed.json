@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T06:20:02.418167+00:00",
+ "generated_at": "2026-10-10T07:20:02.336230+00:00",
  "counts": {
   "items": 449,
   "strong": 449,
@@ -156,16 +156,6 @@
  },
  "gaps": [
   {
-   "key": "workday:santander/wd3/SantanderCareers",
-   "firm": "Santander CIB",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 1569,
-   "n_match": 8,
-   "n_off_desk": 15,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:bpinternational/wd3/bpCareers",
    "firm": "BP",
    "tier": "C",
@@ -229,11 +219,11 @@
    "key": "workday:mgpru/wd3/mandgprudential",
    "firm": "M&G Investments",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "off-desk-only",
    "n_total": 136,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "source is blocked"
+   "reason": "136 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -486,16 +476,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:viterra/wd3/External-CAN",
-   "firm": "Viterra",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 15,
-   "n_match": 0,
-   "n_off_desk": 1,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:jupiteram/wd3/jupiter_careers",
    "firm": "Jupiter Fund Management",
    "tier": "C",
@@ -536,16 +516,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:trafigura/wd3/TrafiguraCareerSite",
-   "firm": "Trafigura",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 5,
-   "n_match": 1,
-   "n_off_desk": 1,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:virtus/wd5/VirtusCareers",
    "firm": "AlphaSimplex",
    "tier": "C",
@@ -562,7 +532,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-10T06:15:06.602807+00:00",
+   "last_checked_by_bell": "2026-10-10T07:15:06.794798+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -573,7 +543,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-10T06:15:18.194960+00:00",
+   "last_checked_by_bell": "2026-10-10T07:15:18.024416+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -584,7 +554,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-10T06:15:25.407948+00:00",
+   "last_checked_by_bell": "2026-10-10T07:15:25.225775+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -595,7 +565,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-10T06:15:54.229554+00:00",
+   "last_checked_by_bell": "2026-10-10T07:15:53.626866+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -606,7 +576,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-10T06:16:24.658888+00:00",
+   "last_checked_by_bell": "2026-10-10T07:16:27.009340+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -617,7 +587,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-10T06:16:35.746812+00:00",
+   "last_checked_by_bell": "2026-10-10T07:16:37.872022+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -628,7 +598,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-10T06:17:01.588413+00:00",
+   "last_checked_by_bell": "2026-10-10T07:17:03.100260+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
