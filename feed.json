@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T01:05:02.134058+00:00",
+ "generated_at": "2026-10-10T06:15:02.308789+00:00",
  "counts": {
   "items": 449,
   "strong": 449,
@@ -13,24 +13,24 @@
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 26729
+  "postings_tracked": 26743
  },
  "detection": {
-  "mean_latency_s": 43897.2,
-  "median_latency_s": 555.8,
-  "sampled": 282,
+  "mean_latency_s": 43872.9,
+  "median_latency_s": 568.9,
+  "sampled": 284,
   "by_tier": {
    "A": {
-    "mean_latency_s": 1534.4,
-    "median_latency_s": 39.1,
+    "mean_latency_s": 1089.8,
+    "median_latency_s": 38.3,
     "under_60s": 78,
-    "sampled": 91
+    "sampled": 90
    },
    "B": {
-    "mean_latency_s": 64080.6,
-    "median_latency_s": 885.4,
+    "mean_latency_s": 63720.8,
+    "median_latency_s": 885.5,
     "under_60s": 4,
-    "sampled": 191
+    "sampled": 194
    }
   },
   "watch": {
@@ -160,10 +160,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 271,
+   "n_total": 273,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "271 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "273 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:octoenergy",
@@ -190,10 +190,10 @@
    "firm": "M&G Investments",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 135,
+   "n_total": 136,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "135 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "136 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -206,6 +206,16 @@
    "reason": "98 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
+   "firm": "Legal & General",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 76,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "76 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
    "firm": "AllianceBernstein",
    "tier": "C",
@@ -216,24 +226,14 @@
    "reason": "74 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
-   "firm": "Legal & General",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 73,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "73 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "workday:abrdn/wd3/abrdn",
    "firm": "abrdn",
    "tier": "C",
-   "kind": "no-early-careers",
+   "kind": "blocked",
    "n_total": 45,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "45 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is blocked"
   },
   {
    "key": "lever:dexterity",
@@ -342,7 +342,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-10T01:00:17.012857+00:00",
+   "last_checked_by_bell": "2026-10-10T06:00:15.387021+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -353,7 +353,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-10T01:00:30.801293+00:00",
+   "last_checked_by_bell": "2026-10-10T06:00:30.121638+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -364,7 +364,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-10T01:00:49.241861+00:00",
+   "last_checked_by_bell": "2026-10-10T06:00:47.359203+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -375,7 +375,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-10T01:01:43.392485+00:00",
+   "last_checked_by_bell": "2026-10-10T06:01:31.471254+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -386,7 +386,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-10T01:02:28.689536+00:00",
+   "last_checked_by_bell": "2026-10-10T06:02:14.970492+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -397,7 +397,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-10T01:02:39.397934+00:00",
+   "last_checked_by_bell": "2026-10-10T06:02:25.316654+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -408,7 +408,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-10T01:03:22.770869+00:00",
+   "last_checked_by_bell": "2026-10-10T06:03:04.756898+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
