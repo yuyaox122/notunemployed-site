@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T18:30:02.842648+00:00",
+ "generated_at": "2026-10-11T21:45:02.447168+00:00",
  "counts": {
   "items": 433,
   "strong": 433,
@@ -13,7 +13,7 @@
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 26753
+  "postings_tracked": 26754
  },
  "detection": {
   "mean_latency_s": 18552.4,
@@ -160,10 +160,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 274,
+   "n_total": 275,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "274 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "275 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:octoenergy",
@@ -342,7 +342,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-11T18:15:14.516156+00:00",
+   "last_checked_by_bell": "2026-10-11T21:30:14.915153+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -353,7 +353,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-11T18:15:27.800368+00:00",
+   "last_checked_by_bell": "2026-10-11T21:30:28.603996+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -364,7 +364,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-11T18:15:45.466820+00:00",
+   "last_checked_by_bell": "2026-10-11T21:30:46.171182+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -375,7 +375,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-11T18:16:31.291382+00:00",
+   "last_checked_by_bell": "2026-10-11T21:31:32.714236+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -386,7 +386,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-11T18:17:14.496729+00:00",
+   "last_checked_by_bell": "2026-10-11T21:32:16.668085+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -397,7 +397,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-11T18:17:25.065115+00:00",
+   "last_checked_by_bell": "2026-10-11T21:32:26.651227+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -408,7 +408,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-11T18:18:07.292715+00:00",
+   "last_checked_by_bell": "2026-10-11T21:33:07.447373+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -7966,7 +7966,7 @@
    "title": "Banking, Investment Banking, Placement Analyst, Amsterdam \u2013 Netherlands 2027",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Amsterdam--Netherlands/Banking--Investment-Banking--Placement-Analyst--Amsterdam---Netherlands-2027_26993945",
    "location": "Amsterdam  Netherlands",
-   "place": "Amsterdam  Netherlands",
+   "place": "Amsterdam",
    "opened_at": null,
    "opened_exact": false,
    "first_seen_at": "2026-10-09T13:01:30.550028+00:00",
