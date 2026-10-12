@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-10-12T06:35:02.312682+00:00",
+ "generated_at": "2026-10-12T08:50:02.243402+00:00",
  "counts": {
-  "items": 425,
-  "strong": 425,
-  "uk": 317,
+  "items": 426,
+  "strong": 426,
+  "uk": 318,
   "uk_unstated": 74,
-  "seen_24h": 1,
+  "seen_24h": 2,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1564,
+  "total": 1565,
   "truncated_uk": 22,
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 26830
+  "postings_tracked": 26891
  },
  "detection": {
-  "mean_latency_s": 24795.6,
+  "mean_latency_s": 24793.7,
   "median_latency_s": 523.1,
   "sampled": 273,
   "by_tier": {
@@ -27,8 +27,8 @@
     "sampled": 90
    },
    "B": {
-    "mean_latency_s": 36454.1,
-    "median_latency_s": 864.8,
+    "mean_latency_s": 36451.4,
+    "median_latency_s": 844.6,
     "under_60s": 4,
     "sampled": 183
    }
@@ -160,10 +160,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 285,
+   "n_total": 298,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "285 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "298 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:octoenergy",
@@ -180,10 +180,10 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 243,
+   "n_total": 244,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "243 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "244 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -342,7 +342,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-12T06:30:14.494111+00:00",
+   "last_checked_by_bell": "2026-10-12T08:45:14.078831+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -353,7 +353,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-12T06:30:28.798125+00:00",
+   "last_checked_by_bell": "2026-10-12T08:45:27.726533+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -364,7 +364,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-12T06:30:46.701757+00:00",
+   "last_checked_by_bell": "2026-10-12T08:45:46.093511+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -375,7 +375,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-12T06:31:33.872271+00:00",
+   "last_checked_by_bell": "2026-10-12T08:46:32.909259+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -386,7 +386,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-12T06:32:19.173530+00:00",
+   "last_checked_by_bell": "2026-10-12T08:47:18.641580+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -397,7 +397,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-12T06:32:29.189762+00:00",
+   "last_checked_by_bell": "2026-10-12T08:47:28.688623+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -408,7 +408,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-12T06:33:10.914482+00:00",
+   "last_checked_by_bell": "2026-10-12T08:48:09.928376+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -4576,6 +4576,30 @@
    "late": true,
    "key": "greenhouse:squarepointcapital#239376",
    "pushed_at": null
+  },
+  {
+   "firm": "Capula",
+   "title": "2027 Technology Internship",
+   "url": "https://apply.workable.com/j/96EBCF5617",
+   "location": "London, United Kingdom",
+   "place": "London",
+   "opened_at": "2026-10-12T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-12T08:45:41.917924+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + technology",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "B",
+   "adopted": false,
+   "late": false,
+   "key": "jsonboard:workable/capula-investment-management-ltd#96EBCF5617",
+   "pushed_at": "2026-10-12T08:46:02.188285+00:00"
   },
   {
    "firm": "Citadel",
