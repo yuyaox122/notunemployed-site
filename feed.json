@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T04:05:01.749943+00:00",
+ "generated_at": "2026-10-12T06:05:02.562837+00:00",
  "counts": {
   "items": 425,
   "strong": 425,
@@ -8,29 +8,29 @@
   "seen_24h": 1,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1563,
+  "total": 1564,
   "truncated_uk": 22,
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 26794
+  "postings_tracked": 26819
  },
  "detection": {
-  "mean_latency_s": 26599.5,
-  "median_latency_s": 530.5,
-  "sampled": 278,
+  "mean_latency_s": 25762.6,
+  "median_latency_s": 526.3,
+  "sampled": 275,
   "by_tier": {
    "A": {
-    "mean_latency_s": 1078.4,
-    "median_latency_s": 39.1,
-    "under_60s": 79,
-    "sampled": 91
+    "mean_latency_s": 1089.8,
+    "median_latency_s": 38.3,
+    "under_60s": 78,
+    "sampled": 90
    },
    "B": {
-    "mean_latency_s": 39018.9,
-    "median_latency_s": 869.2,
+    "mean_latency_s": 37765.6,
+    "median_latency_s": 866.4,
     "under_60s": 4,
-    "sampled": 187
+    "sampled": 185
    }
   },
   "watch": {
@@ -160,10 +160,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 277,
+   "n_total": 279,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "277 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "279 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:octoenergy",
@@ -342,7 +342,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-12T04:00:24.932316+00:00",
+   "last_checked_by_bell": "2026-10-12T06:00:16.110301+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -353,7 +353,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-12T04:00:40.935531+00:00",
+   "last_checked_by_bell": "2026-10-12T06:00:30.032825+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -364,7 +364,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-12T04:00:59.034763+00:00",
+   "last_checked_by_bell": "2026-10-12T06:00:48.782647+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -375,7 +375,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-12T04:01:45.203272+00:00",
+   "last_checked_by_bell": "2026-10-12T06:01:34.222537+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -386,7 +386,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-12T04:02:30.539331+00:00",
+   "last_checked_by_bell": "2026-10-12T06:02:19.819772+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -397,7 +397,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-12T04:02:40.838815+00:00",
+   "last_checked_by_bell": "2026-10-12T06:02:30.257108+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -408,7 +408,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-12T04:03:21.408631+00:00",
+   "last_checked_by_bell": "2026-10-12T06:03:11.386953+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -9860,7 +9860,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-b1dd9afb3e6b/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-9c5b3f9316c4/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "place": "",
    "opened_at": null,
