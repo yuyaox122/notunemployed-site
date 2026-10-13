@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T20:35:02.333310+00:00",
+ "generated_at": "2026-10-13T00:00:02.389868+00:00",
  "counts": {
   "items": 428,
   "strong": 428,
@@ -13,24 +13,24 @@
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 27034
+  "postings_tracked": 27070
  },
  "detection": {
-  "mean_latency_s": 24269.1,
-  "median_latency_s": 543.6,
-  "sampled": 280,
+  "mean_latency_s": 24388.1,
+  "median_latency_s": 533.5,
+  "sampled": 278,
   "by_tier": {
    "A": {
-    "mean_latency_s": 1068.0,
+    "mean_latency_s": 1103.6,
     "median_latency_s": 39.1,
-    "under_60s": 79,
-    "sampled": 91
+    "under_60s": 77,
+    "sampled": 90
    },
    "B": {
-    "mean_latency_s": 35440.0,
-    "median_latency_s": 885.4,
+    "mean_latency_s": 35534.9,
+    "median_latency_s": 877.3,
     "under_60s": 3,
-    "sampled": 189
+    "sampled": 188
    }
   },
   "watch": {
@@ -59,8 +59,8 @@
      "spring"
     ],
     "phase": "closing",
-    "days": 111,
-    "says": "closing \u2014 about 111 days of the window left",
+    "days": 110,
+    "says": "closing \u2014 about 110 days of the window left",
     "urgent": false
    },
    {
@@ -80,8 +80,8 @@
      "quant_fund"
     ],
     "phase": "closed",
-    "days": 120,
-    "says": "closed about 120 days ago",
+    "days": 121,
+    "says": "closed about 121 days ago",
     "urgent": false
    },
    {
@@ -102,8 +102,8 @@
      "crypto_mm"
     ],
     "phase": "closing",
-    "days": 49,
-    "says": "closing \u2014 about 49 days of the window left",
+    "days": 48,
+    "says": "closing \u2014 about 48 days of the window left",
     "urgent": false
    },
    {
@@ -123,8 +123,8 @@
      "bank"
     ],
     "phase": "closing",
-    "days": 49,
-    "says": "closing \u2014 about 49 days of the window left",
+    "days": 48,
+    "says": "closing \u2014 about 48 days of the window left",
     "urgent": false
    }
   ],
@@ -342,7 +342,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-12T20:30:21.557405+00:00",
+   "last_checked_by_bell": "2026-10-12T23:45:14.560892+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -353,7 +353,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-12T20:30:38.658347+00:00",
+   "last_checked_by_bell": "2026-10-12T23:45:53.652434+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -364,7 +364,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-12T20:30:57.359825+00:00",
+   "last_checked_by_bell": "2026-10-12T23:46:11.517875+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -375,7 +375,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-12T20:31:46.993332+00:00",
+   "last_checked_by_bell": "2026-10-12T23:46:56.017422+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -386,7 +386,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-12T20:32:32.999846+00:00",
+   "last_checked_by_bell": "2026-10-12T23:47:40.918142+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -397,7 +397,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-12T20:32:43.078621+00:00",
+   "last_checked_by_bell": "2026-10-12T23:47:51.279892+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -408,7 +408,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-12T20:33:25.828014+00:00",
+   "last_checked_by_bell": "2026-10-12T23:48:32.849567+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
