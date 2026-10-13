@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-13T03:35:02.328507+00:00",
+ "generated_at": "2026-10-13T04:50:02.728868+00:00",
  "counts": {
-  "items": 428,
-  "strong": 428,
+  "items": 427,
+  "strong": 427,
   "uk": 320,
-  "uk_unstated": 74,
+  "uk_unstated": 73,
   "seen_24h": 4,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1568,
+  "total": 1566,
   "truncated_uk": 22,
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 27110
+  "postings_tracked": 27126
  },
  "detection": {
-  "mean_latency_s": 26976.4,
-  "median_latency_s": 552.4,
-  "sampled": 285,
+  "mean_latency_s": 26882.1,
+  "median_latency_s": 543.6,
+  "sampled": 286,
   "by_tier": {
    "A": {
-    "mean_latency_s": 10698.5,
-    "median_latency_s": 39.5,
-    "under_60s": 78,
-    "sampled": 93
+    "mean_latency_s": 10584.8,
+    "median_latency_s": 39.3,
+    "under_60s": 79,
+    "sampled": 94
    },
    "B": {
     "mean_latency_s": 34861.0,
@@ -160,10 +160,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 342,
+   "n_total": 346,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "342 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "346 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:octoenergy",
@@ -352,7 +352,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-13T03:30:14.155334+00:00",
+   "last_checked_by_bell": "2026-10-13T04:45:13.854483+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -363,7 +363,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-13T03:30:27.635755+00:00",
+   "last_checked_by_bell": "2026-10-13T04:45:26.723244+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -374,7 +374,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-13T03:30:45.143015+00:00",
+   "last_checked_by_bell": "2026-10-13T04:45:44.728358+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -385,7 +385,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-13T03:31:33.508535+00:00",
+   "last_checked_by_bell": "2026-10-13T04:46:31.493930+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -396,7 +396,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-13T03:32:18.087254+00:00",
+   "last_checked_by_bell": "2026-10-13T04:47:21.642667+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -407,7 +407,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-13T03:32:29.338867+00:00",
+   "last_checked_by_bell": "2026-10-13T04:47:32.146960+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -418,7 +418,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-13T03:33:10.402039+00:00",
+   "last_checked_by_bell": "2026-10-13T04:48:14.265715+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -5570,30 +5570,6 @@
    "late": false,
    "key": "sitemap:https://careers.blackrock.com/sitemap.xml#https://careers.blackrock.com/job/london/2027-quantitative-masters-internship-programme-investments-quantitative-investing-london/45831/100661849296",
    "pushed_at": "2026-09-15T13:19:11.732668+00:00"
-  },
-  {
-   "firm": "Wells Fargo",
-   "title": "2027 Technology Summer Internship Early Careers Software Engineering",
-   "url": "https://www.wellsfargojobs.com/en/jobs/r-574285/2027-technology-summer-internship-early-careers-software-engineering/",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-09-14T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-09-14T16:17:51.307619+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": false,
-   "late": false,
-   "key": "sitemap:https://www.wellsfargojobs.com/sitemap.xml#https://www.wellsfargojobs.com/en/jobs/r-574285/2027-technology-summer-internship-early-careers-software-engineering/",
-   "pushed_at": null
   },
   {
    "firm": "UBS",
