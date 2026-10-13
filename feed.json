@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T11:05:02.255497+00:00",
+ "generated_at": "2026-10-13T15:00:02.809966+00:00",
  "counts": {
   "items": 429,
   "strong": 429,
@@ -8,29 +8,29 @@
   "seen_24h": 4,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1569,
-  "truncated_uk": 20,
+  "total": 1567,
+  "truncated_uk": 19,
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 27332
+  "postings_tracked": 27498
  },
  "detection": {
-  "mean_latency_s": 34077.6,
-  "median_latency_s": 490.2,
-  "sampled": 290,
+  "mean_latency_s": 45326.1,
+  "median_latency_s": 527.7,
+  "sampled": 300,
   "by_tier": {
    "A": {
-    "mean_latency_s": 10052.0,
-    "median_latency_s": 39.1,
+    "mean_latency_s": 29690.1,
+    "median_latency_s": 39.9,
     "under_60s": 84,
-    "sampled": 99
+    "sampled": 103
    },
    "B": {
-    "mean_latency_s": 46530.6,
-    "median_latency_s": 864.8,
+    "mean_latency_s": 53501.3,
+    "median_latency_s": 863.6,
     "under_60s": 3,
-    "sampled": 191
+    "sampled": 197
    }
   },
   "watch": {
@@ -160,40 +160,40 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 441,
+   "n_total": 469,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "441 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "469 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:octoenergy",
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 259,
+   "n_total": 263,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "259 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "263 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 253,
+   "n_total": 258,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "253 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "258 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
    "firm": "M&G Investments",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 143,
+   "n_total": 146,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "143 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "146 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:centrica/wd3/Centrica",
@@ -220,10 +220,10 @@
    "firm": "AllianceBernstein",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 74,
+   "n_total": 76,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "74 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "76 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abrdn/wd3/abrdn",
@@ -240,10 +240,10 @@
    "firm": "The Carlyle Group",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 41,
+   "n_total": 43,
    "n_match": 0,
    "n_off_desk": 3,
-   "reason": "41 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "43 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:dexterity",
@@ -290,10 +290,10 @@
    "firm": "FalconX",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 31,
+   "n_total": 32,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "ashby:amber",
@@ -352,7 +352,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-13T11:00:15.139524+00:00",
+   "last_checked_by_bell": "2026-10-13T14:45:15.785100+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -363,7 +363,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-13T11:00:28.745548+00:00",
+   "last_checked_by_bell": "2026-10-13T14:45:30.556622+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -374,7 +374,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-13T11:00:48.267491+00:00",
+   "last_checked_by_bell": "2026-10-13T14:45:50.521220+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -385,7 +385,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-13T11:01:36.797973+00:00",
+   "last_checked_by_bell": "2026-10-13T14:46:40.122346+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -396,7 +396,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-13T11:02:22.152583+00:00",
+   "last_checked_by_bell": "2026-10-13T14:47:26.411278+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -407,7 +407,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-13T11:02:32.607230+00:00",
+   "last_checked_by_bell": "2026-10-13T14:47:36.778868+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -418,7 +418,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-13T11:03:15.476058+00:00",
+   "last_checked_by_bell": "2026-10-13T14:48:21.578343+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
