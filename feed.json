@@ -1,34 +1,34 @@
 {
- "generated_at": "2026-10-13T10:35:02.525020+00:00",
+ "generated_at": "2026-10-13T11:05:02.255497+00:00",
  "counts": {
-  "items": 428,
-  "strong": 428,
-  "uk": 320,
+  "items": 429,
+  "strong": 429,
+  "uk": 321,
   "uk_unstated": 74,
-  "seen_24h": 3,
+  "seen_24h": 4,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1566,
+  "total": 1569,
   "truncated_uk": 20,
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 27312
+  "postings_tracked": 27332
  },
  "detection": {
-  "mean_latency_s": 34318.7,
-  "median_latency_s": 502.7,
-  "sampled": 288,
+  "mean_latency_s": 34077.6,
+  "median_latency_s": 490.2,
+  "sampled": 290,
   "by_tier": {
    "A": {
-    "mean_latency_s": 10258.2,
+    "mean_latency_s": 10052.0,
     "median_latency_s": 39.1,
-    "under_60s": 82,
-    "sampled": 97
+    "under_60s": 84,
+    "sampled": 99
    },
    "B": {
-    "mean_latency_s": 46537.9,
-    "median_latency_s": 866.4,
+    "mean_latency_s": 46530.6,
+    "median_latency_s": 864.8,
     "under_60s": 3,
     "sampled": 191
    }
@@ -160,10 +160,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 435,
+   "n_total": 441,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "435 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "441 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:octoenergy",
@@ -180,10 +180,10 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 252,
+   "n_total": 253,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "252 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "253 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -352,7 +352,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-13T10:30:15.166078+00:00",
+   "last_checked_by_bell": "2026-10-13T11:00:15.139524+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -363,7 +363,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-13T10:30:28.204033+00:00",
+   "last_checked_by_bell": "2026-10-13T11:00:28.745548+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -374,7 +374,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-13T10:30:46.857813+00:00",
+   "last_checked_by_bell": "2026-10-13T11:00:48.267491+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -385,7 +385,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-13T10:31:35.588634+00:00",
+   "last_checked_by_bell": "2026-10-13T11:01:36.797973+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -396,7 +396,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-13T10:32:21.521417+00:00",
+   "last_checked_by_bell": "2026-10-13T11:02:22.152583+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -407,7 +407,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-13T10:32:31.291542+00:00",
+   "last_checked_by_bell": "2026-10-13T11:02:32.607230+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -418,7 +418,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-13T10:33:14.403444+00:00",
+   "last_checked_by_bell": "2026-10-13T11:03:15.476058+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -7706,6 +7706,30 @@
    "late": true,
    "key": "jsonboard:workable/capula-investment-management-ltd#A15A62A8BE",
    "pushed_at": null
+  },
+  {
+   "firm": "Blackstone",
+   "title": "2027 Blackstone Real Estate Debt Strategies Summer Analyst - Private Investments & Capital Markets (London)",
+   "url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199",
+   "location": "London",
+   "place": "London",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-13T11:00:28.664318+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "reason": "summer analyst + markets",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": false,
+   "late": false,
+   "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#43199",
+   "pushed_at": "2026-10-13T11:02:01.268884+00:00"
   },
   {
    "firm": "Fidelity International",
