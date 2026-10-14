@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-14T09:45:01.858648+00:00",
+ "generated_at": "2026-10-14T09:50:02.616435+00:00",
  "counts": {
-  "items": 451,
-  "strong": 451,
+  "items": 453,
+  "strong": 453,
   "uk": 333,
-  "uk_unstated": 83,
+  "uk_unstated": 85,
   "seen_24h": 2,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1620,
+  "total": 1622,
   "truncated_uk": 20,
   "firms": 211,
   "firms_blind": 13,
-  "sources": 227,
-  "postings_tracked": 28083
+  "sources": 229,
+  "postings_tracked": 28085
  },
  "detection": {
-  "mean_latency_s": 53567.5,
-  "median_latency_s": 579.3,
-  "sampled": 277,
+  "mean_latency_s": 54070.0,
+  "median_latency_s": 568.9,
+  "sampled": 274,
   "by_tier": {
    "A": {
     "mean_latency_s": 57780.6,
@@ -27,10 +27,10 @@
     "sampled": 103
    },
    "B": {
-    "mean_latency_s": 51073.6,
-    "median_latency_s": 867.8,
+    "mean_latency_s": 51834.9,
+    "median_latency_s": 866.4,
     "under_60s": 1,
-    "sampled": 174
+    "sampled": 171
    }
   },
   "watch": {
@@ -352,8 +352,8 @@
    "url": "https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job",
    "kind": "manual",
    "why": "Its spring internship is on a CharlieHR account with no job index: open it and look.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-14T09:45:08.476631+00:00",
+   "last_change_detected": "2026-10-14T09:45:08.476631+00:00",
    "categories": [
     "advisory"
    ]
@@ -363,8 +363,8 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day is on an agency tracker with no listing bell can read: open it and look.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-14T09:45:09.192530+00:00",
+   "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
    ]
@@ -374,7 +374,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-14T09:30:29.978727+00:00",
+   "last_checked_by_bell": "2026-10-14T09:45:13.754048+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -9332,6 +9332,54 @@
    "late": false,
    "key": "sitemap:https://careers.brevanhoward.com/gb/en/sitemap.xml#JR101584",
    "pushed_at": "2026-09-07T18:16:00.419787+00:00"
+  },
+  {
+   "firm": "Ardea Partners",
+   "title": "Ardea Partners \u2014 Spring week / insight programme window is closing \u2014 about 109 days of the window left. No automated access; check by hand.",
+   "url": "https://www.ardeapartners.com/",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-14T09:45:09.192530+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "spring",
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://www.ardeapartners.com/#manual:spring:Summer 2027",
+   "pushed_at": null
+  },
+  {
+   "firm": "Aluna Partners",
+   "title": "Aluna Partners \u2014 Spring week / insight programme window is closing \u2014 about 109 days of the window left. No automated access; check by hand.",
+   "url": "https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-14T09:45:08.476631+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "spring",
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job#manual:spring:Summer 2027",
+   "pushed_at": null
   },
   {
    "firm": "Wells Fargo",
