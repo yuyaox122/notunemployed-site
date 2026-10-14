@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T00:05:02.179548+00:00",
+ "generated_at": "2026-10-14T01:05:01.671776+00:00",
  "counts": {
   "items": 428,
   "strong": 428,
@@ -13,22 +13,22 @@
   "firms": 207,
   "firms_blind": 7,
   "sources": 219,
-  "postings_tracked": 27790
+  "postings_tracked": 27805
  },
  "detection": {
-  "mean_latency_s": 45051.0,
-  "median_latency_s": 532.3,
-  "sampled": 275,
+  "mean_latency_s": 51991.6,
+  "median_latency_s": 552.4,
+  "sampled": 281,
   "by_tier": {
    "A": {
-    "mean_latency_s": 37414.4,
-    "median_latency_s": 39.1,
+    "mean_latency_s": 56613.2,
+    "median_latency_s": 40.0,
     "under_60s": 82,
-    "sampled": 100
+    "sampled": 106
    },
    "B": {
-    "mean_latency_s": 49414.7,
-    "median_latency_s": 864.8,
+    "mean_latency_s": 49192.2,
+    "median_latency_s": 863.6,
     "under_60s": 2,
     "sampled": 175
    }
@@ -352,7 +352,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-14T00:00:22.651781+00:00",
+   "last_checked_by_bell": "2026-10-14T01:00:28.742701+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -363,7 +363,7 @@
    "url": "https://group.bnpparibas/en/careers/students-graduates",
    "kind": "manual",
    "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-14T00:00:36.295312+00:00",
+   "last_checked_by_bell": "2026-10-14T01:00:41.843064+00:00",
    "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
    "categories": [
     "bank"
@@ -374,7 +374,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-14T00:00:55.660324+00:00",
+   "last_checked_by_bell": "2026-10-14T01:01:01.219960+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -385,7 +385,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-14T00:01:42.081723+00:00",
+   "last_checked_by_bell": "2026-10-14T01:01:48.832603+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -396,7 +396,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-14T00:02:28.762258+00:00",
+   "last_checked_by_bell": "2026-10-14T01:02:34.900439+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -407,7 +407,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-14T00:02:38.851438+00:00",
+   "last_checked_by_bell": "2026-10-14T01:02:45.956973+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -418,7 +418,7 @@
    "url": "https://www.rothschildandco.com/en/careers/",
    "kind": "manual",
    "why": "Its robots.txt refuses automated reading of the careers pages: open them and look.",
-   "last_checked_by_bell": "2026-10-14T00:03:21.406820+00:00",
+   "last_checked_by_bell": "2026-10-14T01:03:28.447050+00:00",
    "last_change_detected": "2026-10-09T09:48:19.369677+00:00",
    "categories": [
     "advisory"
@@ -9942,7 +9942,7 @@
   {
    "firm": "BlackRock",
    "title": "Spring Insight Event",
-   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-54a112ea6d68/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
+   "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-ff5f8c4603cf/candidate/so/pm/1/pl/1/opp/12223-2027-Spring-Insight-Event-EMEA/en-GB",
    "location": "",
    "place": "",
    "opened_at": null,
