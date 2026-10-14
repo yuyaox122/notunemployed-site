@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-14T09:35:02.566307+00:00",
+ "generated_at": "2026-10-14T09:45:01.858648+00:00",
  "counts": {
-  "items": 452,
-  "strong": 452,
+  "items": 451,
+  "strong": 451,
   "uk": 333,
-  "uk_unstated": 84,
+  "uk_unstated": 83,
   "seen_24h": 2,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1621,
+  "total": 1620,
   "truncated_uk": 20,
-  "firms": 207,
-  "firms_blind": 8,
+  "firms": 211,
+  "firms_blind": 13,
   "sources": 227,
-  "postings_tracked": 28077
+  "postings_tracked": 28083
  },
  "detection": {
   "mean_latency_s": 53567.5,
@@ -348,6 +348,28 @@
  ],
  "blindspots": [
   {
+   "firm": "Aluna Partners",
+   "url": "https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job",
+   "kind": "manual",
+   "why": "Its spring internship is on a CharlieHR account with no job index: open it and look.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "advisory"
+   ]
+  },
+  {
+   "firm": "Ardea Partners",
+   "url": "https://www.ardeapartners.com/",
+   "kind": "manual",
+   "why": "Its insight day is on an agency tracker with no listing bell can read: open it and look.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "advisory"
+   ]
+  },
+  {
    "firm": "Balyasny",
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
@@ -356,17 +378,6 @@
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
-   ]
-  },
-  {
-   "firm": "BNP Paribas",
-   "url": "https://group.bnpparibas/en/careers/students-graduates",
-   "kind": "manual",
-   "why": "bnpparibas.avature.net exists and robots.txt disallows it; group.bnpparibas returns 403 to an honest user agent.",
-   "last_checked_by_bell": "2026-10-14T09:30:54.327980+00:00",
-   "last_change_detected": "2026-09-07T17:27:51.664080+00:00",
-   "categories": [
-    "bank"
    ]
   },
   {
@@ -403,6 +414,17 @@
    ]
   },
   {
+   "firm": "NatWest Markets",
+   "url": "https://jobs.natwestgroup.com/",
+   "kind": "manual",
+   "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "bank"
+   ]
+  },
+  {
    "firm": "Nomura",
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
@@ -422,6 +444,39 @@
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
+   ]
+  },
+  {
+   "firm": "RBC Capital Markets",
+   "url": "https://rbccmgraduates.gtisolutions.co.uk/",
+   "kind": "manual",
+   "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "bank"
+   ]
+  },
+  {
+   "firm": "Santander CIB",
+   "url": "https://santandercib.clevry.com/",
+   "kind": "manual",
+   "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "bank"
+   ]
+  },
+  {
+   "firm": "Scotiabank",
+   "url": "https://jobs.scotiabank.com/",
+   "kind": "manual",
+   "why": "Its programme is on a SuccessFactors site bell has no adapter for: open it and look.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "bank"
    ]
   },
   {
@@ -11100,30 +11155,6 @@
    "adopted": true,
    "late": false,
    "key": "manual:https://www.goldmansachs.com/careers/students/programs#manual:spring:Summer 2027",
-   "pushed_at": null
-  },
-  {
-   "firm": "BNP Paribas",
-   "title": "BNP Paribas \u2014 Spring week / insight programme window is closing \u2014 about 109 days of the window left. No automated access; check by hand.",
-   "url": "https://group.bnpparibas/en/careers/students-graduates",
-   "location": "",
-   "place": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-07T17:27:51.664080+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": null,
-   "reason": "tier D: cycle window open, firm refuses automated access",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "D",
-   "adopted": true,
-   "late": false,
-   "key": "manual:https://group.bnpparibas/en/careers/students-graduates#manual:spring:Summer 2027",
    "pushed_at": null
   },
   {
