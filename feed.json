@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-15T21:55:02.666623+00:00",
+ "generated_at": "2026-10-15T22:05:01.885372+00:00",
  "counts": {
-  "items": 525,
-  "strong": 525,
-  "uk": 379,
+  "items": 519,
+  "strong": 519,
+  "uk": 373,
   "uk_unstated": 82,
   "seen_24h": 5,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1761,
+  "total": 1755,
   "truncated_uk": 23,
   "firms": 225,
   "firms_blind": 11,
   "sources": 257,
-  "postings_tracked": 29630
+  "postings_tracked": 29656
  },
  "detection": {
   "mean_latency_s": 76287.8,
@@ -403,6 +403,16 @@
    "reason": "51 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "sitemap:https://careers.investec.co.uk/jobs/sitemap.xml",
+   "firm": "Investec",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 50,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "50 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "workday:carlyle/wd1/Carlyle",
    "firm": "The Carlyle Group",
    "tier": "C",
@@ -503,16 +513,6 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "sitemap:https://careers.investec.co.uk/jobs/sitemap.xml",
-   "firm": "Investec",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 25,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "workday:shell/wd3/ShellCareers",
    "firm": "Shell",
    "tier": "C",
@@ -529,7 +529,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-15T21:45:18.680380+00:00",
+   "last_checked_by_bell": "2026-10-15T22:00:20.661475+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -540,7 +540,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T21:45:28.892797+00:00",
+   "last_checked_by_bell": "2026-10-15T22:00:36.752875+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -551,7 +551,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-15T21:46:13.397791+00:00",
+   "last_checked_by_bell": "2026-10-15T22:01:28.851427+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -562,7 +562,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-15T21:47:00.071164+00:00",
+   "last_checked_by_bell": "2026-10-15T22:02:19.030225+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -573,7 +573,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-15T21:48:13.689380+00:00",
+   "last_checked_by_bell": "2026-10-15T22:03:34.120802+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -584,7 +584,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-15T21:48:22.896043+00:00",
+   "last_checked_by_bell": "2026-10-15T22:03:42.759244+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -595,7 +595,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-15T21:48:33.721405+00:00",
+   "last_checked_by_bell": "2026-10-15T22:03:53.677439+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -606,7 +606,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-15T21:48:33.724995+00:00",
+   "last_checked_by_bell": "2026-10-15T22:03:53.680936+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -617,7 +617,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-15T21:49:15.472774+00:00",
+   "last_checked_by_bell": "2026-10-15T22:04:35.551628+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -628,7 +628,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-15T21:49:15.847014+00:00",
+   "last_checked_by_bell": "2026-10-15T22:04:35.739899+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -639,7 +639,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T21:49:31.891024+00:00",
+   "last_checked_by_bell": "2026-10-15T22:04:52.710613+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -5842,54 +5842,6 @@
   },
   {
    "firm": "HSBC",
-   "title": "London Markets Sales and Trading Internship E14 5HQ",
-   "url": "https://apply.careers.hsbc.com/emergingtalent/job/London-Markets-Sales-and-Trading-Internship-E14-5HQ/1373586957/",
-   "location": "London",
-   "place": "London",
-   "opened_at": "2026-10-03T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-09T09:31:47.307240+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "markets",
-   "reason": "intern + sales & trading",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Markets-Sales-and-Trading-Internship-E14-5HQ/1373586957/",
-   "pushed_at": null
-  },
-  {
-   "firm": "HSBC",
-   "title": "London Investment Banking Corporate and Institutional Banking Off Cycle Internship E14 5HQ",
-   "url": "https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-Corporate-and-Institutional-Banking-Off-Cycle-Internship-E14-5HQ/1373577757/",
-   "location": "London",
-   "place": "London",
-   "opened_at": "2026-10-03T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-09T09:31:47.307240+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "advisory",
-   "reason": "intern + investment banking",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-Corporate-and-Institutional-Banking-Off-Cycle-Internship-E14-5HQ/1373577757/",
-   "pushed_at": null
-  },
-  {
-   "firm": "HSBC",
    "title": "Sheffield Engineering Graduate S1 4NB",
    "url": "https://apply.careers.hsbc.com/emergingtalent/job/Sheffield-Engineering-Graduate-S1-4NB/1373794457/",
    "location": "Sheffield",
@@ -5910,30 +5862,6 @@
    "adopted": true,
    "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/Sheffield-Engineering-Graduate-S1-4NB/1373794457/",
-   "pushed_at": null
-  },
-  {
-   "firm": "HSBC",
-   "title": "London Markets Sales and Trading Off Cycle Internship E14 5HQ",
-   "url": "https://apply.careers.hsbc.com/emergingtalent/job/London-Markets-Sales-and-Trading-Off-Cycle-Internship-E14-5HQ/1373576757/",
-   "location": "London",
-   "place": "London",
-   "opened_at": "2026-10-03T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-09T09:31:47.307240+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "markets",
-   "reason": "intern + sales & trading",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Markets-Sales-and-Trading-Off-Cycle-Internship-E14-5HQ/1373576757/",
    "pushed_at": null
   },
   {
@@ -5962,30 +5890,6 @@
   },
   {
    "firm": "HSBC",
-   "title": "London Investment Banking Internship E14 5HQ",
-   "url": "https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-Internship-E14-5HQ/1373578457/",
-   "location": "London",
-   "place": "London",
-   "opened_at": "2026-10-03T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-09T09:31:47.307240+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "advisory",
-   "reason": "intern + investment banking",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-Internship-E14-5HQ/1373578457/",
-   "pushed_at": null
-  },
-  {
-   "firm": "HSBC",
    "title": "London Global Investment Research Work Placement E14 5HQ",
    "url": "https://apply.careers.hsbc.com/emergingtalent/job/London-Global-Investment-Research-Work-Placement-E14-5HQ/1373586657/",
    "location": "London",
@@ -6006,54 +5910,6 @@
    "adopted": true,
    "late": true,
    "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Global-Investment-Research-Work-Placement-E14-5HQ/1373586657/",
-   "pushed_at": null
-  },
-  {
-   "firm": "HSBC",
-   "title": "London Investment Banking HSBC Infrastructure Finance Internship E14 5HQ",
-   "url": "https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-HSBC-Infrastructure-Finance-Internship-E14-5HQ/1373579357/",
-   "location": "London",
-   "place": "London",
-   "opened_at": "2026-10-03T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-09T09:31:47.307240+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "markets",
-   "reason": "intern + infrastructure (asset class)",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-HSBC-Infrastructure-Finance-Internship-E14-5HQ/1373579357/",
-   "pushed_at": null
-  },
-  {
-   "firm": "HSBC",
-   "title": "London Investment Banking HSBC Infrastructure Finance Off Cycle Internship E14 5HQ",
-   "url": "https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-HSBC-Infrastructure-Finance-Off-Cycle-Internship-E14-5HQ/1373577357/",
-   "location": "London",
-   "place": "London",
-   "opened_at": "2026-10-03T00:00:00+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-09T09:31:47.307240+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "markets",
-   "reason": "intern + infrastructure (asset class)",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://apply.careers.hsbc.com/sitemap.xml#https://apply.careers.hsbc.com/emergingtalent/job/London-Investment-Banking-HSBC-Infrastructure-Finance-Off-Cycle-Internship-E14-5HQ/1373577357/",
    "pushed_at": null
   },
   {
