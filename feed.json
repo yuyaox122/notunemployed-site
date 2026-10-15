@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-15T17:20:02.623990+00:00",
+ "generated_at": "2026-10-15T17:45:02.673940+00:00",
  "counts": {
-  "items": 493,
-  "strong": 493,
+  "items": 492,
+  "strong": 492,
   "uk": 350,
-  "uk_unstated": 79,
+  "uk_unstated": 78,
   "seen_24h": 5,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1650,
+  "total": 1649,
   "truncated_uk": 23,
   "firms": 211,
-  "firms_blind": 11,
-  "sources": 237,
-  "postings_tracked": 29127
+  "firms_blind": 10,
+  "sources": 236,
+  "postings_tracked": 29136
  },
  "detection": {
-  "mean_latency_s": 76685.2,
-  "median_latency_s": 472.3,
-  "sampled": 256,
+  "mean_latency_s": 76977.4,
+  "median_latency_s": 439.2,
+  "sampled": 255,
   "by_tier": {
    "A": {
     "mean_latency_s": 89211.5,
@@ -27,10 +27,10 @@
     "sampled": 109
    },
    "B": {
-    "mean_latency_s": 67397.1,
-    "median_latency_s": 810.7,
-    "under_60s": 2,
-    "sampled": 147
+    "mean_latency_s": 67843.7,
+    "median_latency_s": 806.7,
+    "under_60s": 3,
+    "sampled": 146
    }
   },
   "watch": {
@@ -255,10 +255,10 @@
    "firm": "The Carlyle Group",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 48,
+   "n_total": 49,
    "n_match": 0,
    "n_off_desk": 3,
-   "reason": "48 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "49 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:troweprice/wd5/TRowePriceInternational",
@@ -363,22 +363,11 @@
  ],
  "blindspots": [
   {
-   "firm": "Aluna Partners",
-   "url": "https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job",
-   "kind": "manual",
-   "why": "Its spring internship is on a CharlieHR account with no job index: open it and look.",
-   "last_checked_by_bell": "2026-10-15T17:15:11.013279+00:00",
-   "last_change_detected": "2026-10-14T09:45:08.476631+00:00",
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
    "firm": "Ardea Partners",
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
-   "why": "Its insight day is on an agency tracker with no listing bell can read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T17:15:11.731742+00:00",
+   "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
+   "last_checked_by_bell": "2026-10-15T17:30:12.362169+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -389,7 +378,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T17:15:18.619883+00:00",
+   "last_checked_by_bell": "2026-10-15T17:30:17.045047+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -400,7 +389,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-15T17:16:11.520580+00:00",
+   "last_checked_by_bell": "2026-10-15T17:31:04.298099+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -411,7 +400,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-15T17:17:04.218276+00:00",
+   "last_checked_by_bell": "2026-10-15T17:31:59.035842+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -421,8 +410,8 @@
    "firm": "Morgan Stanley",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
-   "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-15T17:18:02.630040+00:00",
+   "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
+   "last_checked_by_bell": "2026-10-15T17:32:57.254909+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -433,7 +422,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-15T17:18:11.291612+00:00",
+   "last_checked_by_bell": "2026-10-15T17:33:06.411823+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -444,7 +433,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board answers a proof-of-work bot check bell does not solve: open it and look.",
-   "last_checked_by_bell": "2026-10-15T17:18:12.704552+00:00",
+   "last_checked_by_bell": "2026-10-15T17:33:06.963393+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -455,7 +444,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-15T17:18:12.707925+00:00",
+   "last_checked_by_bell": "2026-10-15T17:33:06.966763+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -466,7 +455,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-15T17:18:53.379376+00:00",
+   "last_checked_by_bell": "2026-10-15T17:33:47.529447+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -477,7 +466,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T17:19:09.857744+00:00",
+   "last_checked_by_bell": "2026-10-15T17:34:03.980773+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -10236,30 +10225,6 @@
    "adopted": true,
    "late": false,
    "key": "manual:https://www.ardeapartners.com/#manual:spring:Summer 2027",
-   "pushed_at": null
-  },
-  {
-   "firm": "Aluna Partners",
-   "title": "Aluna Partners \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
-   "url": "https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job",
-   "location": "",
-   "place": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-14T09:45:08.476631+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": null,
-   "reason": "tier D: cycle window open, firm refuses automated access",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "D",
-   "adopted": true,
-   "late": false,
-   "key": "manual:https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job#manual:spring:Summer 2027",
    "pushed_at": null
   },
   {
