@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-15T02:20:02.672010+00:00",
+ "generated_at": "2026-10-15T08:20:02.657424+00:00",
  "counts": {
-  "items": 458,
-  "strong": 458,
-  "uk": 345,
+  "items": 457,
+  "strong": 457,
+  "uk": 344,
   "uk_unstated": 79,
   "seen_24h": 1,
   "places": "UK, Amsterdam, remote",
   "truncated": true,
-  "total": 1641,
+  "total": 1640,
   "truncated_uk": 23,
   "firms": 211,
   "firms_blind": 12,
   "sources": 236,
-  "postings_tracked": 28664
+  "postings_tracked": 28749
  },
  "detection": {
-  "mean_latency_s": 64516.6,
-  "median_latency_s": 491.1,
-  "sampled": 267,
+  "mean_latency_s": 65370.1,
+  "median_latency_s": 448.7,
+  "sampled": 263,
   "by_tier": {
    "A": {
     "mean_latency_s": 82936.4,
@@ -27,10 +27,10 @@
     "sampled": 110
    },
    "B": {
-    "mean_latency_s": 51611.0,
-    "median_latency_s": 861.6,
+    "mean_latency_s": 52740.8,
+    "median_latency_s": 818.1,
     "under_60s": 2,
-    "sampled": 157
+    "sampled": 153
    }
   },
   "watch": {
@@ -160,10 +160,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 595,
+   "n_total": 603,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "595 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "603 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:octoenergy",
@@ -180,20 +180,20 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 267,
+   "n_total": 268,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "267 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "268 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
    "firm": "M&G Investments",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 155,
+   "n_total": 156,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "155 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "156 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
@@ -236,6 +236,16 @@
    "reason": "48 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:troweprice/wd5/TRowePriceInternational",
+   "firm": "T. Rowe Price",
+   "tier": "C",
+   "kind": "off-desk-only",
+   "n_total": 41,
+   "n_match": 0,
+   "n_off_desk": 1,
+   "reason": "41 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
    "key": "lever:dexterity",
    "firm": "Dexterity Capital",
    "tier": "B",
@@ -244,16 +254,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "40 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "workday:troweprice/wd5/TRowePriceInternational",
-   "firm": "T. Rowe Price",
-   "tier": "C",
-   "kind": "off-desk-only",
-   "n_total": 40,
-   "n_match": 0,
-   "n_off_desk": 1,
-   "reason": "40 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "greenhouse:stxgroup",
@@ -342,7 +342,7 @@
    "url": "https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job",
    "kind": "manual",
    "why": "Its spring internship is on a CharlieHR account with no job index: open it and look.",
-   "last_checked_by_bell": "2026-10-15T02:15:09.916028+00:00",
+   "last_checked_by_bell": "2026-10-15T08:15:10.741400+00:00",
    "last_change_detected": "2026-10-14T09:45:08.476631+00:00",
    "categories": [
     "advisory"
@@ -353,7 +353,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day is on an agency tracker with no listing bell can read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T02:15:11.262519+00:00",
+   "last_checked_by_bell": "2026-10-15T08:15:11.412320+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -364,7 +364,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T02:15:15.629640+00:00",
+   "last_checked_by_bell": "2026-10-15T08:15:16.266619+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -375,7 +375,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-15T02:16:00.054713+00:00",
+   "last_checked_by_bell": "2026-10-15T08:15:58.604151+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -386,7 +386,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-15T02:16:46.579094+00:00",
+   "last_checked_by_bell": "2026-10-15T08:16:45.804745+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -397,7 +397,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-15T02:17:44.548139+00:00",
+   "last_checked_by_bell": "2026-10-15T08:17:43.167003+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -408,7 +408,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-15T02:17:48.736152+00:00",
+   "last_checked_by_bell": "2026-10-15T08:17:47.280208+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -419,7 +419,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board answers a proof-of-work bot check bell does not solve: open it and look.",
-   "last_checked_by_bell": "2026-10-15T02:17:54.095172+00:00",
+   "last_checked_by_bell": "2026-10-15T08:17:52.583102+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -430,7 +430,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-15T02:17:54.098876+00:00",
+   "last_checked_by_bell": "2026-10-15T08:17:52.586480+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -441,7 +441,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-15T02:18:36.341872+00:00",
+   "last_checked_by_bell": "2026-10-15T08:18:32.934762+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -452,7 +452,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T02:18:52.185332+00:00",
+   "last_checked_by_bell": "2026-10-15T08:18:49.128302+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -463,7 +463,7 @@
    "url": "https://talent.wellsfargojobs.com/flows/spring2027",
    "kind": "manual",
    "why": "Its spring programme is on a Cloudflare-challenged host bell may not read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T02:19:32.582622+00:00",
+   "last_checked_by_bell": "2026-10-15T08:19:31.563724+00:00",
    "last_change_detected": "2026-10-14T09:35:00.841720+00:00",
    "categories": [
     "bank"
@@ -8735,30 +8735,6 @@
    "late": false,
    "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers#/en/job-offers/trainee-business-management-analyst-market-technology-operations-fixed-term-26000LOG-en",
    "pushed_at": null
-  },
-  {
-   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
-   "title": "Trainee - Corporate Coverage",
-   "url": "https://careers.societegenerale.com/en/job-offers/trainee-corporate-coverage-26000I0R-en",
-   "location": "London, United Kingdom",
-   "place": "London",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-07T22:18:09.706873+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "advisory",
-   "reason": "trainee + coverage",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": false,
-   "late": false,
-   "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers#/en/job-offers/trainee-corporate-coverage-26000I0R-en",
-   "pushed_at": "2026-10-07T22:19:15.766388+00:00"
   },
   {
    "firm": "Houlihan Lokey",
