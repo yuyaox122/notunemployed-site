@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-15T09:50:02.300583+00:00",
+ "generated_at": "2026-10-15T12:20:02.723187+00:00",
  "counts": {
-  "items": 488,
-  "strong": 488,
-  "uk": 345,
+  "items": 490,
+  "strong": 490,
+  "uk": 347,
   "uk_unstated": 78,
-  "seen_24h": 1,
+  "seen_24h": 2,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1641,
+  "total": 1644,
   "truncated_uk": 23,
   "firms": 211,
   "firms_blind": 11,
   "sources": 237,
-  "postings_tracked": 28815
+  "postings_tracked": 28897
  },
  "detection": {
-  "mean_latency_s": 65370.5,
+  "mean_latency_s": 66879.4,
   "median_latency_s": 448.7,
-  "sampled": 263,
+  "sampled": 257,
   "by_tier": {
    "A": {
-    "mean_latency_s": 83696.7,
+    "mean_latency_s": 83696.9,
     "median_latency_s": 41.1,
     "under_60s": 73,
     "sampled": 109
    },
    "B": {
-    "mean_latency_s": 52399.3,
-    "median_latency_s": 814.4,
+    "mean_latency_s": 54493.6,
+    "median_latency_s": 824.8,
     "under_60s": 2,
-    "sampled": 154
+    "sampled": 148
    }
   },
   "watch": {
@@ -185,20 +185,20 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 620,
+   "n_total": 637,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "620 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "637 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 273,
+   "n_total": 274,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "273 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "274 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
@@ -367,7 +367,7 @@
    "url": "https://jobs.recruit.charliehr.com/alunapartners/spring-internship-40dd97e1-ce81-4456-83df-f7b5e6f2a6f3/view-job",
    "kind": "manual",
    "why": "Its spring internship is on a CharlieHR account with no job index: open it and look.",
-   "last_checked_by_bell": "2026-10-15T09:45:09.227981+00:00",
+   "last_checked_by_bell": "2026-10-15T12:15:09.840050+00:00",
    "last_change_detected": "2026-10-14T09:45:08.476631+00:00",
    "categories": [
     "advisory"
@@ -378,7 +378,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day is on an agency tracker with no listing bell can read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T09:45:10.238878+00:00",
+   "last_checked_by_bell": "2026-10-15T12:15:21.620235+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -389,7 +389,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T09:45:18.796698+00:00",
+   "last_checked_by_bell": "2026-10-15T12:15:26.230226+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -400,7 +400,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-15T09:46:01.037198+00:00",
+   "last_checked_by_bell": "2026-10-15T12:16:08.536693+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -411,7 +411,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-15T09:46:49.873075+00:00",
+   "last_checked_by_bell": "2026-10-15T12:16:57.069773+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -422,7 +422,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Three fetches from two paths all timed out \u2014 the connection is accepted and then never answered, which is a block wearing a slow hat rather than an outage.",
-   "last_checked_by_bell": "2026-10-15T09:47:47.620083+00:00",
+   "last_checked_by_bell": "2026-10-15T12:17:58.202469+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -433,7 +433,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-15T09:47:57.053303+00:00",
+   "last_checked_by_bell": "2026-10-15T12:18:08.509702+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -444,7 +444,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board answers a proof-of-work bot check bell does not solve: open it and look.",
-   "last_checked_by_bell": "2026-10-15T09:47:57.237317+00:00",
+   "last_checked_by_bell": "2026-10-15T12:18:08.708947+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -455,7 +455,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-15T09:47:57.240795+00:00",
+   "last_checked_by_bell": "2026-10-15T12:18:08.712570+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -466,7 +466,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-15T09:48:38.563641+00:00",
+   "last_checked_by_bell": "2026-10-15T12:18:49.936006+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -477,7 +477,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T09:48:55.235659+00:00",
+   "last_checked_by_bell": "2026-10-15T12:19:06.562098+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -6327,6 +6327,30 @@
    "pushed_at": "2026-09-25T10:04:04.305213+00:00"
   },
   {
+   "firm": "Bank of America",
+   "title": "Global Capital Markets 2027, Off-Cycle Analyst (Debt Capital Markets) \u2013 London",
+   "url": "https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14882-Global-Capital-Markets-2027-Off-Cycle-Analyst-Debt-Capital-Markets-London/en-GB",
+   "location": "London",
+   "place": "London",
+   "opened_at": "2026-09-23T07:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-15T12:15:37.925476+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "reason": "off-cycle + markets",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "B",
+   "adopted": true,
+   "late": true,
+   "key": "linklist:https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/jobboard/vacancy/1/adv/#14882",
+   "pushed_at": null
+  },
+  {
    "firm": "J.P. Morgan",
    "title": "2027 Quantitative Research \u2013 Asset Management - Summer Analyst Internship - London",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792010",
@@ -8941,6 +8965,30 @@
    "late": true,
    "key": "jsonboard:workable/capula-investment-management-ltd#A15A62A8BE",
    "pushed_at": null
+  },
+  {
+   "firm": "Bank of America",
+   "title": "Global Capital Markets 2027, Off-Cycle Analyst (Debt Capital Markets) \u2013 London",
+   "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14882/global-capital-markets-2027-off-cycle-analyst-debt-capital-markets-x2013-london-london-united-kingdom",
+   "location": "London, United Kingdom",
+   "place": "London",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-15T12:15:28.363211+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "markets",
+   "reason": "off-cycle + markets",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "B",
+   "adopted": false,
+   "late": false,
+   "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14882",
+   "pushed_at": "2026-10-15T12:16:01.920966+00:00"
   },
   {
    "firm": "BP",
