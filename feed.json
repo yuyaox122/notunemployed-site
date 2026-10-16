@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-16T10:05:02.166553+00:00",
+ "generated_at": "2026-10-16T11:15:02.547252+00:00",
  "counts": {
-  "items": 518,
-  "strong": 518,
+  "items": 519,
+  "strong": 519,
   "uk": 373,
-  "uk_unstated": 81,
+  "uk_unstated": 82,
   "seen_24h": 6,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1753,
+  "total": 1757,
   "truncated_uk": 23,
   "firms": 225,
   "firms_blind": 11,
   "sources": 257,
-  "postings_tracked": 29825
+  "postings_tracked": 29847
  },
  "detection": {
-  "mean_latency_s": 80137.0,
-  "median_latency_s": 405.4,
-  "sampled": 246,
+  "mean_latency_s": 79156.2,
+  "median_latency_s": 429.0,
+  "sampled": 249,
   "by_tier": {
    "A": {
     "mean_latency_s": 87613.7,
@@ -27,10 +27,10 @@
     "sampled": 114
    },
    "B": {
-    "mean_latency_s": 73679.9,
-    "median_latency_s": 740.1,
+    "mean_latency_s": 72014.3,
+    "median_latency_s": 747.8,
     "under_60s": 3,
-    "sampled": 132
+    "sampled": 135
    }
   },
   "watch": {
@@ -329,30 +329,30 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 696,
+   "n_total": 700,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "696 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "700 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 280,
+   "n_total": 284,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "280 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "284 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "lever:octoenergy",
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 274,
+   "n_total": 278,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "274 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "278 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -521,7 +521,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-16T10:00:36.808002+00:00",
+   "last_checked_by_bell": "2026-10-16T11:00:25.248928+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -532,7 +532,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-16T10:00:47.923428+00:00",
+   "last_checked_by_bell": "2026-10-16T11:00:34.497885+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -543,7 +543,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-16T10:01:32.482070+00:00",
+   "last_checked_by_bell": "2026-10-16T11:01:18.812555+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -554,7 +554,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-16T10:02:20.689841+00:00",
+   "last_checked_by_bell": "2026-10-16T11:02:07.043246+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -565,7 +565,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-16T10:03:33.766482+00:00",
+   "last_checked_by_bell": "2026-10-16T11:03:21.590985+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -576,7 +576,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-16T10:03:43.585151+00:00",
+   "last_checked_by_bell": "2026-10-16T11:03:30.931089+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -587,7 +587,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-16T10:03:54.615495+00:00",
+   "last_checked_by_bell": "2026-10-16T11:03:42.307423+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -598,7 +598,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-16T10:03:54.618995+00:00",
+   "last_checked_by_bell": "2026-10-16T11:03:42.310750+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -609,7 +609,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-16T10:04:35.884303+00:00",
+   "last_checked_by_bell": "2026-10-16T11:04:23.972255+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -620,7 +620,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-16T10:04:36.050164+00:00",
+   "last_checked_by_bell": "2026-10-16T11:04:24.136299+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -631,7 +631,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-16T10:04:53.367682+00:00",
+   "last_checked_by_bell": "2026-10-16T11:04:41.221015+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -8998,6 +8998,30 @@
    "adopted": true,
    "late": true,
    "key": "sitemap:https://www.citadel.com/page-sitemap.xml#https://www.citadel.com/careers/programs-and-events/the-trading-invitational/",
+   "pushed_at": null
+  },
+  {
+   "firm": "Citadel",
+   "title": "The Fixed Income Macro Central Bank Challenge",
+   "url": "https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/",
+   "location": "",
+   "place": "",
+   "opened_at": "2026-05-14T20:28:47+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-05T20:00:56.297271+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "spring",
+   "desk": "markets",
+   "reason": "programme:Central Bank Challenge + asset class",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "B",
+   "adopted": true,
+   "late": true,
+   "key": "sitemap:https://www.citadel.com/page-sitemap.xml#https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/",
    "pushed_at": null
   },
   {
