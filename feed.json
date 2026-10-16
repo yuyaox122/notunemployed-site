@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T22:20:02.226390+00:00",
+ "generated_at": "2026-10-16T22:25:02.277328+00:00",
  "counts": {
   "items": 620,
   "strong": 620,
@@ -13,7 +13,7 @@
   "firms": 266,
   "firms_blind": 23,
   "sources": 299,
-  "postings_tracked": 31840
+  "postings_tracked": 31843
  },
  "detection": {
   "mean_latency_s": 79718.5,
@@ -575,6 +575,16 @@
    "reason": "25 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:patrizia/wd502/PATRIZIA",
+   "firm": "Patrizia",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 18,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
    "key": "greenhouse:orchardglobal_careers",
    "firm": "Orchard Global",
    "tier": "C",
@@ -766,7 +776,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-16T22:05:22.939767+00:00",
+   "last_checked_by_bell": "2026-10-16T22:20:11.210545+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -777,7 +787,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-16T22:05:22.943196+00:00",
+   "last_checked_by_bell": "2026-10-16T22:20:11.214120+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -788,7 +798,7 @@
    "url": "https://www.pkf-l.com/careers/early-careers/university-placements/",
    "kind": "manual",
    "why": "Its Summer Work Placement (last opened 10 December 2025) is on an Eploy board behind a bot challenge: open it and look.",
-   "last_checked_by_bell": "2026-10-16T22:05:56.111338+00:00",
+   "last_checked_by_bell": "2026-10-16T22:20:42.661884+00:00",
    "last_change_detected": "2026-10-16T20:36:07.861070+00:00",
    "categories": [
     "professional_services"
@@ -799,7 +809,7 @@
    "url": "https://careers.principal.com/",
    "kind": "manual",
    "why": "Its readable board (the Jibe front) held no UK roles of 155, and its iCIMS host refuses everyone.",
-   "last_checked_by_bell": "2026-10-16T22:05:56.715273+00:00",
+   "last_checked_by_bell": "2026-10-16T22:20:43.293089+00:00",
    "last_change_detected": "2026-10-16T20:36:08.480635+00:00",
    "categories": [
     "asset_manager"
@@ -810,7 +820,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-16T22:06:07.917753+00:00",
+   "last_checked_by_bell": "2026-10-16T22:20:54.240349+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -821,7 +831,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-16T22:06:08.185388+00:00",
+   "last_checked_by_bell": "2026-10-16T22:20:54.417837+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -832,7 +842,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-16T22:06:25.258047+00:00",
+   "last_checked_by_bell": "2026-10-16T22:21:10.849613+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -843,7 +853,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-16T22:06:30.439927+00:00",
+   "last_checked_by_bell": "2026-10-16T22:21:15.430341+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
