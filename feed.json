@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-16T20:45:02.641985+00:00",
+ "generated_at": "2026-10-16T20:50:02.670037+00:00",
  "counts": {
-  "items": 589,
-  "strong": 589,
-  "uk": 422,
+  "items": 591,
+  "strong": 591,
+  "uk": 424,
   "uk_unstated": 102,
   "seen_24h": 6,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1847,
+  "total": 1849,
   "truncated_uk": 23,
   "firms": 266,
   "firms_blind": 23,
   "sources": 299,
-  "postings_tracked": 31077
+  "postings_tracked": 31177
  },
  "detection": {
   "mean_latency_s": 78479.8,
@@ -425,6 +425,26 @@
    "reason": "52 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "sitemap:https://careers.bcg.com/global/en/sitemap_index.xml",
+   "firm": "BCG",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 50,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "50 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
+   "firm": "Marsh McLennan",
+   "tier": "C",
+   "kind": "off-desk-only",
+   "n_total": 50,
+   "n_match": 0,
+   "n_off_desk": 1,
+   "reason": "50 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
    "key": "workday:carlyle/wd1/Carlyle",
    "firm": "The Carlyle Group",
    "tier": "C",
@@ -545,26 +565,6 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "sitemap:https://careers.bcg.com/global/en/sitemap_index.xml",
-   "firm": "BCG",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 25,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
-   "firm": "Marsh McLennan",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 25,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "sitemap:https://jobs.zs.com/sitemap.xml",
    "firm": "ZS",
    "tier": "C",
@@ -611,7 +611,7 @@
    "url": "https://www.actuarialcareers.co.uk/",
    "kind": "manual",
    "why": "Search actuarialcareers.co.uk for the APR Actuarial Insight Programme (last opened 4 November 2025).",
-   "last_checked_by_bell": "2026-10-16T20:30:23.190643+00:00",
+   "last_checked_by_bell": "2026-10-16T20:45:19.208232+00:00",
    "last_change_detected": "2026-10-16T20:30:23.190643+00:00",
    "categories": [
     "insurance"
@@ -622,7 +622,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-16T20:30:23.195813+00:00",
+   "last_checked_by_bell": "2026-10-16T20:45:19.217893+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -633,7 +633,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-16T20:30:31.740495+00:00",
+   "last_checked_by_bell": "2026-10-16T20:45:29.567635+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -644,7 +644,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-16T20:31:54.644600+00:00",
+   "last_checked_by_bell": "2026-10-16T20:46:46.225116+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -655,7 +655,7 @@
    "url": "https://www.caledonia.com/",
    "kind": "manual",
    "why": "Its Sea Lions internship (four weeks, any year) is applied for on an apptrkr campaign whose name is unknown until it opens; last cycle 20 Oct to 7 Nov.",
-   "last_checked_by_bell": "2026-10-16T20:31:54.650118+00:00",
+   "last_checked_by_bell": "2026-10-16T20:46:46.228577+00:00",
    "last_change_detected": "2026-10-16T20:31:54.650118+00:00",
    "categories": [
     "asset_manager"
@@ -666,7 +666,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-16T20:32:04.279987+00:00",
+   "last_checked_by_bell": "2026-10-16T20:46:56.165508+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -677,7 +677,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring Into Deloitte (last opened 30 October 2025) and Women who Audit: Step into Summer (27 April 2026) are on Deloitte's Avature portal, whose robots.txt refuses bell: open it and look.",
-   "last_checked_by_bell": "2026-10-16T20:32:41.049225+00:00",
+   "last_checked_by_bell": "2026-10-16T20:47:31.560820+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -688,7 +688,7 @@
    "url": "https://ukstudents.ey.com/?jobs=%26program%5B%5D%3D73",
    "kind": "manual",
    "why": "Discover EY (Women in Business, Social Mobility in Business, Black Heritage in Business; April 2027) opened 15 October 2026 on ukstudents.ey.com, applied for on Amberjack, which bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-16T20:32:47.757741+00:00",
+   "last_checked_by_bell": "2026-10-16T20:47:38.075900+00:00",
    "last_change_detected": "2026-10-16T20:32:47.757741+00:00",
    "categories": [
     "professional_services"
@@ -699,7 +699,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "Its careers page lists roles with no links and takes applications by email.",
-   "last_checked_by_bell": "2026-10-16T20:32:49.742456+00:00",
+   "last_checked_by_bell": "2026-10-16T20:47:39.962437+00:00",
    "last_change_detected": "2026-10-16T20:32:49.742456+00:00",
    "categories": [
     "asset_manager"
@@ -710,7 +710,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-16T20:32:53.510749+00:00",
+   "last_checked_by_bell": "2026-10-16T20:47:43.680723+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -721,7 +721,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-16T20:32:59.094580+00:00",
+   "last_checked_by_bell": "2026-10-16T20:47:49.123786+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -732,7 +732,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-16T20:32:59.099163+00:00",
+   "last_checked_by_bell": "2026-10-16T20:47:49.127073+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -743,7 +743,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-16T20:34:41.452674+00:00",
+   "last_checked_by_bell": "2026-10-16T20:49:29.942643+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -754,7 +754,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-16T20:35:10.708957+00:00",
+   "last_checked_by_bell": "2026-10-16T20:49:59.564277+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -6076,6 +6076,54 @@
    "adopted": true,
    "late": true,
    "key": "oracle:dnn.fa.em2.oraclecloud.com#5913",
+   "pushed_at": null
+  },
+  {
+   "firm": "BDO",
+   "title": "2027 Advisory Graduate Programme - North East & West",
+   "url": "https://careers.bdo.co.uk/job/leeds/2027-advisory-graduate-programme-north-east-and-west/1469/45085582336",
+   "location": "Leeds, United Kingdom",
+   "place": "Leeds",
+   "opened_at": "2026-10-12T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-16T20:46:27.927132+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "advisory",
+   "reason": "graduate + advisory",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": true,
+   "late": true,
+   "key": "sitemap:https://careers.bdo.co.uk/sitemap.xml#R21086",
+   "pushed_at": null
+  },
+  {
+   "firm": "BDO",
+   "title": "2027 Advisory Graduate Programme - Scotland",
+   "url": "https://careers.bdo.co.uk/job/edinburgh/2027-advisory-graduate-programme-scotland/1469/45085581632",
+   "location": "Edinburgh, United Kingdom",
+   "place": "Edinburgh",
+   "opened_at": "2026-10-12T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-16T20:46:27.927132+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "advisory",
+   "reason": "graduate + advisory",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": true,
+   "late": true,
+   "key": "sitemap:https://careers.bdo.co.uk/sitemap.xml#R21088",
    "pushed_at": null
   },
   {
