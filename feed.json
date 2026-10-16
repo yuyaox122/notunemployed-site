@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-16T16:25:01.896232+00:00",
+ "generated_at": "2026-10-16T17:50:02.624698+00:00",
  "counts": {
-  "items": 529,
-  "strong": 529,
-  "uk": 375,
+  "items": 530,
+  "strong": 530,
+  "uk": 376,
   "uk_unstated": 90,
-  "seen_24h": 5,
+  "seen_24h": 6,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
   "total": 1762,
@@ -13,24 +13,24 @@
   "firms": 225,
   "firms_blind": 11,
   "sources": 257,
-  "postings_tracked": 30050
+  "postings_tracked": 30122
  },
  "detection": {
-  "mean_latency_s": 76693.1,
+  "mean_latency_s": 76116.9,
   "median_latency_s": 446.3,
-  "sampled": 262,
+  "sampled": 264,
   "by_tier": {
    "A": {
-    "mean_latency_s": 86448.5,
-    "median_latency_s": 54.8,
-    "under_60s": 66,
+    "mean_latency_s": 86445.6,
+    "median_latency_s": 52.5,
+    "under_60s": 68,
     "sampled": 120
    },
    "B": {
-    "mean_latency_s": 68449.1,
-    "median_latency_s": 710.5,
+    "mean_latency_s": 67509.6,
+    "median_latency_s": 727.8,
     "under_60s": 3,
-    "sampled": 142
+    "sampled": 144
    }
   },
   "watch": {
@@ -329,10 +329,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 730,
+   "n_total": 735,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "730 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "735 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
@@ -349,10 +349,10 @@
    "firm": "Octopus Energy",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 286,
+   "n_total": 287,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "286 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "287 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
@@ -399,10 +399,10 @@
    "firm": "abrdn",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 51,
+   "n_total": 52,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "51 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "52 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:carlyle/wd1/Carlyle",
@@ -469,10 +469,10 @@
    "firm": "Vitol",
    "tier": "B",
    "kind": "off-desk-only",
-   "n_total": 31,
+   "n_total": 32,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "31 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "32 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "ashby:amber",
@@ -521,7 +521,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-16T16:15:14.719418+00:00",
+   "last_checked_by_bell": "2026-10-16T17:45:18.286788+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -532,7 +532,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-16T16:15:23.090176+00:00",
+   "last_checked_by_bell": "2026-10-16T17:45:26.729686+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -543,7 +543,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-16T16:16:08.957746+00:00",
+   "last_checked_by_bell": "2026-10-16T17:46:20.984495+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -554,7 +554,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-16T16:17:00.401342+00:00",
+   "last_checked_by_bell": "2026-10-16T17:47:10.270163+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -565,7 +565,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-16T16:18:14.251066+00:00",
+   "last_checked_by_bell": "2026-10-16T17:48:25.122231+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -576,7 +576,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-16T16:18:22.799246+00:00",
+   "last_checked_by_bell": "2026-10-16T17:48:33.915136+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -587,7 +587,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-16T16:18:33.054751+00:00",
+   "last_checked_by_bell": "2026-10-16T17:48:44.436219+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -598,7 +598,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-16T16:18:33.058310+00:00",
+   "last_checked_by_bell": "2026-10-16T17:48:44.439708+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -609,7 +609,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-16T16:19:16.262627+00:00",
+   "last_checked_by_bell": "2026-10-16T17:49:27.266397+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -620,7 +620,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-16T16:19:16.425785+00:00",
+   "last_checked_by_bell": "2026-10-16T17:49:27.600790+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -631,7 +631,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-16T16:19:32.963427+00:00",
+   "last_checked_by_bell": "2026-10-16T17:49:43.796022+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -5351,6 +5351,30 @@
    "late": false,
    "key": "sitemap:https://careers.bnpparibas.co.uk/gbjf_job_post-sitemap.xml#https://careers.bnpparibas.co.uk/jobs/london-long-term-internship-2026-distressed-special-situations-credit-global-markets-intern/",
    "pushed_at": "2026-10-16T12:46:01.816752+00:00"
+  },
+  {
+   "firm": "Barclays",
+   "title": "Client Data and Engineering Group Summer Internship Programme 2027 London",
+   "url": "https://search.jobs.barclays/job/london/client-data-and-engineering-group-summer-internship-programme-2027-london/13015/102040060528",
+   "location": "London, United Kingdom",
+   "place": "London",
+   "opened_at": "2026-10-16T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-16T17:45:52.210746+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": false,
+   "late": false,
+   "key": "sitemap:https://search.jobs.barclays/sitemap.xml#JR-0000135782",
+   "pushed_at": "2026-10-16T17:46:01.962592+00:00"
   },
   {
    "firm": "All Options",
