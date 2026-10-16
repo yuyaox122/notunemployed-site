@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:40:03.046240+00:00",
+ "generated_at": "2026-10-16T20:45:02.641985+00:00",
  "counts": {
   "items": 589,
   "strong": 589,
@@ -13,18 +13,18 @@
   "firms": 266,
   "firms_blind": 23,
   "sources": 299,
-  "postings_tracked": 31052
+  "postings_tracked": 31077
  },
  "detection": {
-  "mean_latency_s": 78174.5,
-  "median_latency_s": 453.4,
-  "sampled": 257,
+  "mean_latency_s": 78479.8,
+  "median_latency_s": 486.4,
+  "sampled": 256,
   "by_tier": {
    "A": {
-    "mean_latency_s": 87171.5,
-    "median_latency_s": 53.0,
-    "under_60s": 67,
-    "sampled": 119
+    "mean_latency_s": 87909.9,
+    "median_latency_s": 53.3,
+    "under_60s": 66,
+    "sampled": 118
    },
    "B": {
     "mean_latency_s": 70416.3,
@@ -565,6 +565,16 @@
    "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "sitemap:https://jobs.zs.com/sitemap.xml",
+   "firm": "ZS",
+   "tier": "C",
+   "kind": "off-desk-only",
+   "n_total": 25,
+   "n_match": 0,
+   "n_off_desk": 1,
+   "reason": "25 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
    "key": "workday:shell/wd3/ShellCareers",
    "firm": "Shell",
    "tier": "C",
@@ -587,16 +597,6 @@
   {
    "key": "sitemap:https://cwg.com/job-sitemap.xml",
    "firm": "Canary Wharf Group",
-   "tier": "C",
-   "kind": "never-fetched",
-   "n_total": 0,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "never fetched successfully"
-  },
-  {
-   "key": "sitemap:https://jobs.zs.com/sitemap.xml",
-   "firm": "ZS",
    "tier": "C",
    "kind": "never-fetched",
    "n_total": 0,
