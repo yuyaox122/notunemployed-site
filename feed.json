@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:20:02.810554+00:00",
+ "generated_at": "2026-10-16T20:30:02.671702+00:00",
  "counts": {
   "items": 531,
   "strong": 531,
@@ -8,12 +8,12 @@
   "seen_24h": 6,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1763,
+  "total": 1765,
   "truncated_uk": 23,
   "firms": 266,
   "firms_blind": 23,
-  "sources": 257,
-  "postings_tracked": 30190
+  "sources": 258,
+  "postings_tracked": 30226
  },
  "detection": {
   "mean_latency_s": 78174.5,
@@ -433,6 +433,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "40 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "jsonboard:pinpoint/aab",
+   "firm": "AAB Group",
+   "tier": "C",
+   "kind": "never-fetched",
+   "n_total": 36,
+   "n_match": 0,
+   "n_off_desk": 18,
+   "reason": "never fetched successfully"
   },
   {
    "key": "greenhouse:falconx",
