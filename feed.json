@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T00:00:02.466508+00:00",
+ "generated_at": "2026-10-16T00:05:02.464666+00:00",
  "counts": {
   "items": 519,
   "strong": 519,
@@ -13,12 +13,12 @@
   "firms": 225,
   "firms_blind": 11,
   "sources": 257,
-  "postings_tracked": 29687
+  "postings_tracked": 29688
  },
  "detection": {
-  "mean_latency_s": 76577.4,
-  "median_latency_s": 405.4,
-  "sampled": 256,
+  "mean_latency_s": 76875.2,
+  "median_latency_s": 389.8,
+  "sampled": 255,
   "by_tier": {
    "A": {
     "mean_latency_s": 87605.0,
@@ -27,10 +27,10 @@
     "sampled": 111
    },
    "B": {
-    "mean_latency_s": 68135.6,
-    "median_latency_s": 770.0,
+    "mean_latency_s": 68604.4,
+    "median_latency_s": 773.9,
     "under_60s": 3,
-    "sampled": 145
+    "sampled": 144
    }
   },
   "watch": {
@@ -337,10 +337,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 678,
+   "n_total": 679,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "678 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "679 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:lbg/wd3/LBG_Careers",
@@ -529,7 +529,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-15T23:45:12.553438+00:00",
+   "last_checked_by_bell": "2026-10-16T00:00:14.540928+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -540,7 +540,7 @@
    "url": "https://www.bamfunds.com/careers/internships",
    "kind": "manual",
    "why": "Its applications run on a Salesforce site that bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T23:45:20.591977+00:00",
+   "last_checked_by_bell": "2026-10-16T00:00:23.397468+00:00",
    "last_change_detected": "2026-10-09T09:45:17.022114+00:00",
    "categories": [
     "quant_fund"
@@ -551,7 +551,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-15T23:46:03.719603+00:00",
+   "last_checked_by_bell": "2026-10-16T00:01:08.024479+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -562,7 +562,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-15T23:46:49.973869+00:00",
+   "last_checked_by_bell": "2026-10-16T00:01:55.287091+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -573,7 +573,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-15T23:48:03.627348+00:00",
+   "last_checked_by_bell": "2026-10-16T00:03:11.384083+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -584,7 +584,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-15T23:48:11.746831+00:00",
+   "last_checked_by_bell": "2026-10-16T00:03:20.177702+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -595,7 +595,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-15T23:48:21.905298+00:00",
+   "last_checked_by_bell": "2026-10-16T00:03:31.236625+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -606,7 +606,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-15T23:48:21.908742+00:00",
+   "last_checked_by_bell": "2026-10-16T00:03:31.240162+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -617,7 +617,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-15T23:49:04.156754+00:00",
+   "last_checked_by_bell": "2026-10-16T00:04:18.879995+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -628,7 +628,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-15T23:49:04.426082+00:00",
+   "last_checked_by_bell": "2026-10-16T00:04:19.005829+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -639,7 +639,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-15T23:49:20.965424+00:00",
+   "last_checked_by_bell": "2026-10-16T00:04:35.903414+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -9466,7 +9466,7 @@
   },
   {
    "firm": "Balyasny",
-   "title": "Balyasny \u2014 Summer internship \u2014 prop firms window is closing \u2014 about 46 days of the window left. No automated access; check by hand.",
+   "title": "Balyasny \u2014 Summer internship \u2014 prop firms window is closing \u2014 about 45 days of the window left. No automated access; check by hand.",
    "url": "https://www.bamfunds.com/careers/internships",
    "location": "",
    "place": "",
@@ -10186,7 +10186,7 @@
   },
   {
    "firm": "Rede Partners",
-   "title": "Rede Partners \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
+   "title": "Rede Partners \u2014 Spring week / insight programme window is closing \u2014 about 107 days of the window left. No automated access; check by hand.",
    "url": "https://www.rede-partners.com/join-the-team",
    "location": "",
    "place": "",
@@ -10954,7 +10954,7 @@
   },
   {
    "firm": "Santander CIB",
-   "title": "Santander CIB \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
+   "title": "Santander CIB \u2014 Spring week / insight programme window is closing \u2014 about 107 days of the window left. No automated access; check by hand.",
    "url": "https://santandercib.clevry.com/",
    "location": "",
    "place": "",
@@ -10978,7 +10978,7 @@
   },
   {
    "firm": "RBC Capital Markets",
-   "title": "RBC Capital Markets \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
+   "title": "RBC Capital Markets \u2014 Spring week / insight programme window is closing \u2014 about 107 days of the window left. No automated access; check by hand.",
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "location": "",
    "place": "",
@@ -11002,7 +11002,7 @@
   },
   {
    "firm": "NatWest Markets",
-   "title": "NatWest Markets \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
+   "title": "NatWest Markets \u2014 Spring week / insight programme window is closing \u2014 about 107 days of the window left. No automated access; check by hand.",
    "url": "https://jobs.natwestgroup.com/",
    "location": "",
    "place": "",
@@ -11026,7 +11026,7 @@
   },
   {
    "firm": "Ardea Partners",
-   "title": "Ardea Partners \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
+   "title": "Ardea Partners \u2014 Spring week / insight programme window is closing \u2014 about 107 days of the window left. No automated access; check by hand.",
    "url": "https://www.ardeapartners.com/",
    "location": "",
    "place": "",
@@ -11050,7 +11050,7 @@
   },
   {
    "firm": "Nomura",
-   "title": "Nomura \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
+   "title": "Nomura \u2014 Spring week / insight programme window is closing \u2014 about 107 days of the window left. No automated access; check by hand.",
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "location": "",
    "place": "",
@@ -11074,7 +11074,7 @@
   },
   {
    "firm": "Centerview Partners",
-   "title": "Centerview Partners \u2014 Summer internship \u2014 banks window is closing \u2014 about 46 days of the window left. No automated access; check by hand.",
+   "title": "Centerview Partners \u2014 Summer internship \u2014 banks window is closing \u2014 about 45 days of the window left. No automated access; check by hand.",
    "url": "https://www.centerviewpartners.com/careers",
    "location": "",
    "place": "",
@@ -12898,7 +12898,7 @@
   },
   {
    "firm": "Morgan Stanley",
-   "title": "Morgan Stanley \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
+   "title": "Morgan Stanley \u2014 Spring week / insight programme window is closing \u2014 about 107 days of the window left. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "location": "",
    "place": "",
@@ -12922,7 +12922,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is closing \u2014 about 108 days of the window left. No automated access; check by hand.",
+   "title": "Goldman Sachs \u2014 Spring week / insight programme window is closing \u2014 about 107 days of the window left. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "place": "",
