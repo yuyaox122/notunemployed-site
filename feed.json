@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-17T14:35:02.854133+00:00",
+ "generated_at": "2026-10-17T14:40:02.289610+00:00",
  "counts": {
-  "items": 662,
-  "strong": 662,
+  "items": 663,
+  "strong": 663,
   "uk": 490,
-  "uk_unstated": 103,
+  "uk_unstated": 104,
   "seen_24h": 3,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1991,
+  "total": 1992,
   "truncated_uk": 22,
   "firms": 275,
   "firms_blind": 22,
-  "sources": 310,
-  "postings_tracked": 32909
+  "sources": 314,
+  "postings_tracked": 32913
  },
  "detection": {
   "mean_latency_s": 81037.4,
@@ -723,6 +723,16 @@
    "reason": "board is empty"
   },
   {
+   "key": "jsonboard:workable/tibra-capital-1",
+   "firm": "Tibra Capital",
+   "tier": "C",
+   "kind": "empty",
+   "n_total": 0,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "board is empty"
+  },
+  {
    "key": "sitemap:https://cwg.com/job-sitemap.xml",
    "firm": "Canary Wharf Group",
    "tier": "C",
@@ -926,7 +936,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-17T14:19:51.052276+00:00",
+   "last_checked_by_bell": "2026-10-17T14:35:07.885830+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -937,7 +947,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-17T14:19:51.182139+00:00",
+   "last_checked_by_bell": "2026-10-17T14:35:08.314893+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -948,8 +958,8 @@
    "url": "https://www.rokoscapital.com/careers",
    "kind": "manual",
    "why": "No vacancy list: graduates apply by email from the careers page.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-17T14:35:09.747872+00:00",
+   "last_change_detected": "2026-10-17T14:35:09.747872+00:00",
    "categories": [
     "quant_fund"
    ]
@@ -959,7 +969,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-17T14:20:07.462317+00:00",
+   "last_checked_by_bell": "2026-10-17T14:35:25.107977+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -970,7 +980,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-17T14:20:11.707810+00:00",
+   "last_checked_by_bell": "2026-10-17T14:35:29.984112+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
@@ -12506,6 +12516,30 @@
    "late": false,
    "key": "sitemap:https://careers.brevanhoward.com/gb/en/sitemap.xml#JR101584",
    "pushed_at": "2026-09-07T18:16:00.419787+00:00"
+  },
+  {
+   "firm": "Rokos Capital",
+   "title": "Rokos Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "url": "https://www.rokoscapital.com/careers",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-17T14:35:09.747872+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://www.rokoscapital.com/careers#manual:any:Summer 2027",
+   "pushed_at": null
   },
   {
    "firm": "Mizuho",
