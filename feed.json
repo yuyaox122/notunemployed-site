@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T19:50:02.525746+00:00",
+ "generated_at": "2026-10-18T19:55:02.124448+00:00",
  "counts": {
   "items": 654,
   "strong": 654,
@@ -8,12 +8,12 @@
   "seen_24h": 0,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1982,
+  "total": 1986,
   "truncated_uk": 22,
   "firms": 275,
   "firms_blind": 22,
   "sources": 314,
-  "postings_tracked": 33012
+  "postings_tracked": 33039
  },
  "detection": {
   "mean_latency_s": 80083.9,
@@ -449,10 +449,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 744,
+   "n_total": 745,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "744 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "745 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
@@ -493,16 +493,6 @@
    "n_match": 0,
    "n_off_desk": 2,
    "reason": "160 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "sitemap:https://jobs.zs.com/sitemap.xml",
-   "firm": "ZS",
-   "tier": "C",
-   "kind": "off-desk-only",
-   "n_total": 100,
-   "n_match": 0,
-   "n_off_desk": 1,
-   "reason": "100 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
@@ -962,7 +952,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-18T19:35:00.840749+00:00",
+   "last_checked_by_bell": "2026-10-18T19:50:03.547803+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
