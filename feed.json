@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T18:00:03.636436+00:00",
+ "generated_at": "2026-10-19T18:05:02.858714+00:00",
  "counts": {
   "items": 978,
   "strong": 978,
@@ -10,15 +10,15 @@
   "truncated": true,
   "total": 2502,
   "truncated_uk": 18,
-  "firms": 604,
-  "firms_blind": 316,
+  "firms": 622,
+  "firms_blind": 334,
   "sources": 672,
-  "postings_tracked": 40675
+  "postings_tracked": 40676
  },
  "detection": {
-  "mean_latency_s": 71476.2,
-  "median_latency_s": 367.4,
-  "sampled": 266,
+  "mean_latency_s": 70531.2,
+  "median_latency_s": 360.8,
+  "sampled": 265,
   "by_tier": {
    "A": {
     "mean_latency_s": 82346.3,
@@ -27,10 +27,10 @@
     "sampled": 126
    },
    "B": {
-    "mean_latency_s": 64491.9,
-    "median_latency_s": 657.4,
+    "mean_latency_s": 62556.4,
+    "median_latency_s": 646.2,
     "under_60s": 4,
-    "sampled": 134
+    "sampled": 133
    },
    "C": {
     "mean_latency_s": -813.9,
@@ -1342,6 +1342,17 @@
    ]
   },
   {
+   "firm": "Accenture",
+   "url": "",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "consulting"
+   ]
+  },
+  {
    "firm": "Accuracy",
    "url": "https://app-accuracy.bc.direct/recruitment/career/5ee62d016b800f0fc8e70d1c?page=1&limit=10",
    "kind": "manual",
@@ -1357,7 +1368,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-19T17:45:04.997304+00:00",
+   "last_checked_by_bell": "2026-10-19T18:00:06.290791+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1372,6 +1383,17 @@
    "last_change_detected": "2026-10-19T17:24:55.369347+00:00",
    "categories": [
     "private_equity"
+   ]
+  },
+  {
+   "firm": "Adyen",
+   "url": "",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "tech"
    ]
   },
   {
@@ -1416,6 +1438,17 @@
    "last_change_detected": "2026-10-19T17:29:21.058511+00:00",
    "categories": [
     "insurance"
+   ]
+  },
+  {
+   "firm": "AKO Capital",
+   "url": "https://www.akocapital.com/careers/",
+   "kind": "manual",
+   "why": "Open AKO Capital's careers page: it states 'We will post details of any future opportunities at the firm here'; no internship or graduate programme has been seen there or elsewhere.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "hedge_fund"
    ]
   },
   {
@@ -1500,10 +1533,21 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:45:21.733504+00:00",
+   "last_checked_by_bell": "2026-10-19T18:00:22.065960+00:00",
    "last_change_detected": "2026-10-19T17:15:23.625511+00:00",
    "categories": [
     "tech"
+   ]
+  },
+  {
+   "firm": "Amundi",
+   "url": "https://jobs.amundi.com/job/list-of-all-jobs.aspx",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "asset_manager"
    ]
   },
   {
@@ -1555,7 +1599,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-19T17:45:24.567599+00:00",
+   "last_checked_by_bell": "2026-10-19T18:00:25.511764+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1610,7 +1654,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:45:24.577686+00:00",
+   "last_checked_by_bell": "2026-10-19T18:00:25.521602+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -1793,6 +1837,17 @@
    ]
   },
   {
+   "firm": "BGC Group",
+   "url": "",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "market_infra"
+   ]
+  },
+  {
    "firm": "BGF",
    "url": "https://bgf.breezy.hr/",
    "kind": "manual",
@@ -1896,7 +1951,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-19T17:46:25.072882+00:00",
+   "last_checked_by_bell": "2026-10-19T18:01:25.096653+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -2024,6 +2079,17 @@
    ]
   },
   {
+   "firm": "Capital Fund Management",
+   "url": "https://jobs.cfm.com/sitemap.xml",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "quant_fund"
+   ]
+  },
+  {
    "firm": "Capital One",
    "url": "",
    "kind": "manual",
@@ -2083,7 +2149,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-19T17:46:34.723381+00:00",
+   "last_checked_by_bell": "2026-10-19T18:01:36.170639+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2153,6 +2219,17 @@
    "last_change_detected": "2026-10-19T17:25:27.825305+00:00",
    "categories": [
     "advisory"
+   ]
+  },
+  {
+   "firm": "Checkout.com",
+   "url": "",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "tech"
    ]
   },
   {
@@ -2299,6 +2376,17 @@
    ]
   },
   {
+   "firm": "Danske Bank",
+   "url": "",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "bank"
+   ]
+  },
+  {
    "firm": "DCL Insurance",
    "url": "https://dclinsurance.com/about-us/work-with-us/",
    "kind": "manual",
@@ -2329,6 +2417,17 @@
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
+   ]
+  },
+  {
+   "firm": "Deutsche B\u00f6rse",
+   "url": "https://careers.deutsche-boerse.com/sitemap.xml",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "exchange"
    ]
   },
   {
@@ -2472,6 +2571,17 @@
    "last_change_detected": "2026-10-19T17:24:55.386449+00:00",
    "categories": [
     "private_equity"
+   ]
+  },
+  {
+   "firm": "Euronext",
+   "url": "https://www.euronext.com/en/about/careers/open-positions?name=14",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "exchange"
    ]
   },
   {
@@ -3135,6 +3245,17 @@
    ]
   },
   {
+   "firm": "Intesa Sanpaolo",
+   "url": "https://jobs.intesasanpaolo.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "bank"
+   ]
+  },
+  {
    "firm": "Intriva Capital",
    "url": "",
    "kind": "manual",
@@ -3198,6 +3319,17 @@
    "last_change_detected": "2026-10-19T17:23:14.388637+00:00",
    "categories": [
     "quant_fund"
+   ]
+  },
+  {
+   "firm": "Janus Henderson",
+   "url": "https://jobs.janushenderson.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "asset_manager"
    ]
   },
   {
@@ -3297,6 +3429,17 @@
    "last_change_detected": "2026-10-19T17:27:00.201608+00:00",
    "categories": [
     "consulting"
+   ]
+  },
+  {
+   "firm": "Lansdowne Partners",
+   "url": "https://www.lansdownepartners.com/careers/",
+   "kind": "manual",
+   "why": "Open Lansdowne's careers page, Graduate Recruitment tab: the 2027 Summer Internship Programme in London (8 weeks, graduate offers for Autumn 2028) takes CVs by email until Friday 6 November 2026; the next cycle's text replaces it there.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "hedge_fund"
    ]
   },
   {
@@ -4202,6 +4345,17 @@
    ]
   },
   {
+   "firm": "SEB",
+   "url": "https://sebgroup.com/about-us/our-locations/home-markets/seb-in-the-united-kingdom/seb-uk--internship-programme",
+   "kind": "manual",
+   "why": "SEB UK's London internships (corporate banking, structured finance, investment banking; 12-week or 6-month) are posted on this page and SEB's Lever board when open: January intake applies September/October, July summer intake applies in January, October intake applies May/June.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "bank"
+   ]
+  },
+  {
    "firm": "Severn Trent",
    "url": "https://www.careers.severntrent.com/search/?q=placement&sortColumn=referencedate&sortDirection=desc",
    "kind": "manual",
@@ -4434,6 +4588,17 @@
    ]
   },
   {
+   "firm": "Stripe",
+   "url": "",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "tech"
+   ]
+  },
+  {
    "firm": "Sucden Financial",
    "url": "https://www.sucdenfinancial.com/en/about/careers/working-here",
    "kind": "manual",
@@ -4442,6 +4607,17 @@
    "last_change_detected": "2026-10-19T17:24:07.620216+00:00",
    "categories": [
     "commodities"
+   ]
+  },
+  {
+   "firm": "SumUp",
+   "url": "",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "tech"
    ]
   },
   {
@@ -4541,6 +4717,17 @@
    "last_change_detected": "2026-10-19T17:25:24.041402+00:00",
    "categories": [
     "advisory"
+   ]
+  },
+  {
+   "firm": "TotalEnergies",
+   "url": "https://jobs.totalenergies.com/en_US/careers/SearchJobs/?search=United%20Kingdom",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "commodities"
    ]
   },
   {
@@ -4772,6 +4959,17 @@
    "last_change_detected": "2026-10-19T17:24:55.380742+00:00",
    "categories": [
     "private_equity"
+   ]
+  },
+  {
+   "firm": "Zopa",
+   "url": "",
+   "kind": "manual",
+   "why": "bell cannot read this firm's board: check it by hand.",
+   "last_checked_by_bell": null,
+   "last_change_detected": null,
+   "categories": [
+    "bank"
    ]
   },
   {
