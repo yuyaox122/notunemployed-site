@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-19T08:20:02.626916+00:00",
+ "generated_at": "2026-10-19T08:25:02.222518+00:00",
  "counts": {
-  "items": 641,
-  "strong": 641,
-  "uk": 471,
+  "items": 640,
+  "strong": 640,
+  "uk": 470,
   "uk_unstated": 101,
   "seen_24h": 1,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1965,
+  "total": 1964,
   "truncated_uk": 22,
   "firms": 275,
   "firms_blind": 22,
   "sources": 314,
-  "postings_tracked": 33156
+  "postings_tracked": 33166
  },
  "detection": {
   "mean_latency_s": 69472.6,
@@ -399,10 +399,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 759,
+   "n_total": 760,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "759 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "760 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
@@ -868,7 +868,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-19T08:05:09.705354+00:00",
+   "last_checked_by_bell": "2026-10-19T08:20:10.804494+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -879,7 +879,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-19T08:05:10.015184+00:00",
+   "last_checked_by_bell": "2026-10-19T08:20:11.128648+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -890,7 +890,7 @@
    "url": "https://www.rokoscapital.com/careers",
    "kind": "manual",
    "why": "No vacancy list: graduates apply by email from the careers page.",
-   "last_checked_by_bell": "2026-10-19T08:05:11.446228+00:00",
+   "last_checked_by_bell": "2026-10-19T08:20:12.553218+00:00",
    "last_change_detected": "2026-10-17T14:35:09.747872+00:00",
    "categories": [
     "quant_fund"
@@ -901,7 +901,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-19T08:05:26.544601+00:00",
+   "last_checked_by_bell": "2026-10-19T08:20:28.014023+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -912,7 +912,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-19T08:05:31.469018+00:00",
+   "last_checked_by_bell": "2026-10-19T08:20:32.898839+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
@@ -5703,7 +5703,7 @@
    "adopted": false,
    "late": false,
    "key": "oracle:icbpjb.fa.ocs.oraclecloud.com#6743",
-   "pushed_at": null
+   "pushed_at": "2026-10-19T08:20:02.060062+00:00"
   },
   {
    "firm": "BNP Paribas",
@@ -11368,30 +11368,6 @@
    "late": false,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10080069-WD",
    "pushed_at": "2026-10-09T08:48:01.511823+00:00"
-  },
-  {
-   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
-   "title": "Trainee Business Management Analyst - Market Technology & Operations (fixed-term)",
-   "url": "https://careers.societegenerale.com/en/job-offers/trainee-business-management-analyst-market-technology-operations-fixed-term-26000LOG-en",
-   "location": "London, United Kingdom",
-   "place": "London",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-08T12:18:12.900653+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "trainee + technology",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": false,
-   "late": false,
-   "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers#/en/job-offers/trainee-business-management-analyst-market-technology-operations-fixed-term-26000LOG-en",
-   "pushed_at": null
   },
   {
    "firm": "Houlihan Lokey",
