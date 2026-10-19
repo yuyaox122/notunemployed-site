@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-19T14:25:02.402401+00:00",
+ "generated_at": "2026-10-19T16:25:02.502959+00:00",
  "counts": {
-  "items": 645,
-  "strong": 645,
-  "uk": 475,
+  "items": 646,
+  "strong": 646,
+  "uk": 476,
   "uk_unstated": 101,
   "seen_24h": 8,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1966,
+  "total": 1964,
   "truncated_uk": 22,
   "firms": 275,
   "firms_blind": 22,
   "sources": 314,
-  "postings_tracked": 33368
+  "postings_tracked": 33463
  },
  "detection": {
-  "mean_latency_s": 69397.4,
+  "mean_latency_s": 72285.8,
   "median_latency_s": 341.5,
-  "sampled": 265,
+  "sampled": 263,
   "by_tier": {
    "A": {
-    "mean_latency_s": 82346.3,
-    "median_latency_s": 53.3,
+    "mean_latency_s": 82346.0,
+    "median_latency_s": 52.5,
     "under_60s": 73,
     "sampled": 126
    },
    "B": {
-    "mean_latency_s": 59848.7,
-    "median_latency_s": 643.7,
+    "mean_latency_s": 65459.3,
+    "median_latency_s": 661.4,
     "under_60s": 4,
-    "sampled": 134
+    "sampled": 132
    },
    "C": {
     "mean_latency_s": -1010.3,
@@ -399,10 +399,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 787,
+   "n_total": 797,
    "n_match": 0,
    "n_off_desk": 3,
-   "reason": "787 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "797 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
@@ -429,20 +429,20 @@
    "firm": "Lloyds Banking Group",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 294,
+   "n_total": 295,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "294 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "295 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:mgpru/wd3/mandgprudential",
    "firm": "M&G Investments",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 165,
+   "n_total": 166,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "165 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "166 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
@@ -469,10 +469,10 @@
    "firm": "Howden",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 76,
+   "n_total": 77,
    "n_match": 0,
    "n_off_desk": 4,
-   "reason": "76 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "77 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.investec.co.uk/jobs/sitemap.xml",
@@ -489,10 +489,10 @@
    "firm": "abrdn",
    "tier": "C",
    "kind": "no-early-careers",
-   "n_total": 52,
+   "n_total": 53,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "52 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "53 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:carlyle/wd1/Carlyle",
@@ -525,6 +525,16 @@
    "reason": "41 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:forvismazarsuk/wd107/FM_1",
+   "firm": "Forvis Mazars",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 36,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "36 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "greenhouse:falconx",
    "firm": "FalconX",
    "tier": "B",
@@ -543,16 +553,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "35 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "workday:forvismazarsuk/wd107/FM_1",
-   "firm": "Forvis Mazars",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 34,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "34 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "linklist:https://www.smartrecruiters.com/Vitol",
@@ -615,6 +615,16 @@
    "reason": "27 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "greenhouse:ashfieldadvisory",
+   "firm": "Inizio Ignite",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 26,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "26 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "workday:shell/wd3/ShellCareers",
    "firm": "Shell",
    "tier": "C",
@@ -623,16 +633,6 @@
    "n_match": 0,
    "n_off_desk": 4,
    "reason": "26 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "greenhouse:ashfieldadvisory",
-   "firm": "Inizio Ignite",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 25,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:orchardglobal_careers",
@@ -681,7 +681,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-19T14:15:27.312122+00:00",
+   "last_checked_by_bell": "2026-10-19T16:15:19.519292+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -692,7 +692,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:15:27.322203+00:00",
+   "last_checked_by_bell": "2026-10-19T16:15:19.529231+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -703,7 +703,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-19T14:16:27.900061+00:00",
+   "last_checked_by_bell": "2026-10-19T16:16:29.262668+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -714,7 +714,7 @@
    "url": "https://www.caledonia.com/",
    "kind": "manual",
    "why": "Its Sea Lions internship (four weeks, any year) is applied for on an apptrkr campaign whose name is unknown until it opens; last cycle 20 Oct to 7 Nov.",
-   "last_checked_by_bell": "2026-10-19T14:16:27.903551+00:00",
+   "last_checked_by_bell": "2026-10-19T16:16:29.266184+00:00",
    "last_change_detected": "2026-10-16T20:31:54.650118+00:00",
    "categories": [
     "asset_manager"
@@ -725,7 +725,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-19T14:16:38.546867+00:00",
+   "last_checked_by_bell": "2026-10-19T16:16:39.014047+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -736,7 +736,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-19T14:17:18.734910+00:00",
+   "last_checked_by_bell": "2026-10-19T16:17:17.751989+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -747,7 +747,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "Its careers page lists roles with no links and takes applications by email.",
-   "last_checked_by_bell": "2026-10-19T14:17:31.074195+00:00",
+   "last_checked_by_bell": "2026-10-19T16:17:28.482185+00:00",
    "last_change_detected": "2026-10-16T20:32:49.742456+00:00",
    "categories": [
     "asset_manager"
@@ -758,7 +758,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-19T14:17:35.006933+00:00",
+   "last_checked_by_bell": "2026-10-19T16:17:32.227694+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -769,7 +769,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-19T14:17:41.929303+00:00",
+   "last_checked_by_bell": "2026-10-19T16:17:39.859719+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -780,7 +780,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-19T14:17:41.932739+00:00",
+   "last_checked_by_bell": "2026-10-19T16:17:39.863250+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -791,7 +791,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:19:03.055964+00:00",
+   "last_checked_by_bell": "2026-10-19T16:18:59.494037+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -802,7 +802,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:19:17.969554+00:00",
+   "last_checked_by_bell": "2026-10-19T16:19:15.111381+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -813,7 +813,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:19:31.145568+00:00",
+   "last_checked_by_bell": "2026-10-19T16:19:27.034747+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -824,7 +824,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:19:42.063868+00:00",
+   "last_checked_by_bell": "2026-10-19T16:19:37.828906+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -835,7 +835,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-19T14:19:42.067472+00:00",
+   "last_checked_by_bell": "2026-10-19T16:19:37.832086+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -846,7 +846,7 @@
    "url": "https://www.pkf-l.com/careers/early-careers/university-placements/",
    "kind": "manual",
    "why": "Its Summer Work Placement (last opened 10 December 2025) is on an Eploy board behind a bot challenge: open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:20:17.295979+00:00",
+   "last_checked_by_bell": "2026-10-19T16:20:12.866217+00:00",
    "last_change_detected": "2026-10-16T20:36:07.861070+00:00",
    "categories": [
     "professional_services"
@@ -857,7 +857,7 @@
    "url": "https://careers.principal.com/",
    "kind": "manual",
    "why": "Its readable board (the Jibe front) held no UK roles of 155, and its iCIMS host refuses everyone.",
-   "last_checked_by_bell": "2026-10-19T14:20:18.639538+00:00",
+   "last_checked_by_bell": "2026-10-19T16:20:14.161481+00:00",
    "last_change_detected": "2026-10-16T20:36:08.480635+00:00",
    "categories": [
     "asset_manager"
@@ -868,7 +868,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:20:34.862341+00:00",
+   "last_checked_by_bell": "2026-10-19T16:20:26.098326+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -879,7 +879,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:20:35.183916+00:00",
+   "last_checked_by_bell": "2026-10-19T16:20:26.550570+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -890,7 +890,7 @@
    "url": "https://www.rokoscapital.com/careers",
    "kind": "manual",
    "why": "No vacancy list: graduates apply by email from the careers page.",
-   "last_checked_by_bell": "2026-10-19T14:20:36.602566+00:00",
+   "last_checked_by_bell": "2026-10-19T16:20:28.064876+00:00",
    "last_change_detected": "2026-10-17T14:35:09.747872+00:00",
    "categories": [
     "quant_fund"
@@ -901,7 +901,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-19T14:20:52.469908+00:00",
+   "last_checked_by_bell": "2026-10-19T16:20:43.577390+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -912,7 +912,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-19T14:20:57.200516+00:00",
+   "last_checked_by_bell": "2026-10-19T16:20:48.118799+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
@@ -11464,6 +11464,30 @@
    "late": false,
    "key": "workday:mufgub/wd3/MUFG-EarlyCareers#10080069-WD",
    "pushed_at": "2026-10-09T08:48:01.511823+00:00"
+  },
+  {
+   "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+   "title": "Trainee Business Management Analyst - Market Technology & Operations (fixed-term)",
+   "url": "https://careers.societegenerale.com/en/job-offers/trainee-business-management-analyst-market-technology-operations-fixed-term-26000LOG-en",
+   "location": "London, United Kingdom",
+   "place": "London",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-08T12:18:12.900653+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "engineering",
+   "reason": "trainee + technology",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "B",
+   "adopted": false,
+   "late": false,
+   "key": "linklist:https://careers.societegenerale.com/en/Technical/all-job-offers#/en/job-offers/trainee-business-management-analyst-market-technology-operations-fixed-term-26000LOG-en",
+   "pushed_at": null
   },
   {
    "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
