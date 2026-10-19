@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T07:05:02.512542+00:00",
+ "generated_at": "2026-10-19T07:10:02.435903+00:00",
  "counts": {
   "items": 640,
   "strong": 640,
@@ -8,12 +8,12 @@
   "seen_24h": 0,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 1962,
+  "total": 1963,
   "truncated_uk": 22,
   "firms": 275,
   "firms_blind": 22,
   "sources": 314,
-  "postings_tracked": 33102
+  "postings_tracked": 33131
  },
  "detection": {
   "mean_latency_s": 70868.5,
@@ -393,10 +393,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 755,
+   "n_total": 756,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "755 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "756 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
@@ -885,7 +885,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-19T06:50:10.138647+00:00",
+   "last_checked_by_bell": "2026-10-19T07:05:14.863503+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -896,7 +896,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-19T06:50:14.458695+00:00",
+   "last_checked_by_bell": "2026-10-19T07:05:19.917324+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
@@ -12501,7 +12501,7 @@
    "wanted": true,
    "tier": "C",
    "adopted": true,
-   "late": false,
+   "late": true,
    "key": "workday:visa/wd5/Visa#REF089498W",
    "pushed_at": null
   },
