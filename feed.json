@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:45:04.635577+00:00",
+ "generated_at": "2026-10-19T17:55:02.568054+00:00",
  "counts": {
   "items": 978,
   "strong": 978,
@@ -13,24 +13,24 @@
   "firms": 604,
   "firms_blind": 316,
   "sources": 672,
-  "postings_tracked": 40420
+  "postings_tracked": 40488
  },
  "detection": {
-  "mean_latency_s": 71742.5,
-  "median_latency_s": 341.5,
+  "mean_latency_s": 71745.7,
+  "median_latency_s": 374.0,
   "sampled": 265,
   "by_tier": {
    "A": {
-    "mean_latency_s": 82346.4,
-    "median_latency_s": 53.4,
-    "under_60s": 73,
-    "sampled": 126
+    "mean_latency_s": 83004.7,
+    "median_latency_s": 53.8,
+    "under_60s": 72,
+    "sampled": 125
    },
    "B": {
-    "mean_latency_s": 64969.9,
-    "median_latency_s": 646.2,
+    "mean_latency_s": 64491.9,
+    "median_latency_s": 657.4,
     "under_60s": 4,
-    "sampled": 133
+    "sampled": 134
    },
    "C": {
     "mean_latency_s": -813.9,
@@ -707,6 +707,16 @@
    "reason": "45 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:fmr/wd1/FidelityCareers",
+   "firm": "Fidelity Investments",
+   "tier": "D",
+   "kind": "off-desk-only",
+   "n_total": 44,
+   "n_match": 0,
+   "n_off_desk": 8,
+   "reason": "44 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
    "key": "greenhouse:blockchain",
    "firm": "Blockchain.com",
    "tier": "C",
@@ -715,16 +725,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "43 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "workday:fmr/wd1/FidelityCareers",
-   "firm": "Fidelity Investments",
-   "tier": "D",
-   "kind": "off-desk-only",
-   "n_total": 43,
-   "n_match": 0,
-   "n_off_desk": 8,
-   "reason": "43 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:dexterity",
@@ -917,18 +917,18 @@
    "reason": "33 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
-   "key": "oracle:fa-enor-saasfaprod1.fa.ocs.oraclecloud.com",
-   "firm": "Phoenix Group",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 31,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
    "key": "workday:greystar/wd1/International_Career_Site",
    "firm": "Greystar",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 32,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "oracle:fa-enor-saasfaprod1.fa.ocs.oraclecloud.com",
+   "firm": "Phoenix Group",
    "tier": "C",
    "kind": "no-early-careers",
    "n_total": 31,
@@ -1313,7 +1313,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:02.953253+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:29.913160+00:00",
    "last_change_detected": "2026-10-19T17:24:53.262395+00:00",
    "categories": [
     "private_equity"
@@ -1324,7 +1324,7 @@
    "url": "https://careers.7im.co.uk/vacancies/vacancy-search-results.aspx",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.638134+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.627432+00:00",
    "last_change_detected": "2026-10-19T17:25:24.638431+00:00",
    "categories": [
     "asset_manager"
@@ -1335,7 +1335,7 @@
    "url": "https://www.werkenbijabnamro.nl/sitemap.vacancy.xml",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:20.264994+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:41.393551+00:00",
    "last_change_detected": "2026-10-19T17:25:14.948598+00:00",
    "categories": [
     "bank"
@@ -1346,7 +1346,7 @@
    "url": "https://app-accuracy.bc.direct/recruitment/career/5ee62d016b800f0fc8e70d1c?page=1&limit=10",
    "kind": "manual",
    "why": "Accuracy's London Finance Intern opens late August to mid-September: open its BestConsultant careers page.",
-   "last_checked_by_bell": "2026-10-19T17:41:20.605225+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:58.119038+00:00",
    "last_change_detected": "2026-10-19T17:26:42.645914+00:00",
    "categories": [
     "consulting"
@@ -1357,7 +1357,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-19T17:30:05.567221+00:00",
+   "last_checked_by_bell": "2026-10-19T17:45:04.997304+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1368,7 +1368,7 @@
    "url": "https://www.adventinternational.com/advent-at-work/",
    "kind": "manual",
    "why": "Advent's London summer internship has been run through SEO London (Trackr's note; last opened 16 September 2024), with no board of Advent's own; check SEO London and Advent's site from September.",
-   "last_checked_by_bell": "2026-10-19T17:40:04.921626+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:31.789554+00:00",
    "last_change_detected": "2026-10-19T17:24:55.369347+00:00",
    "categories": [
     "private_equity"
@@ -1390,7 +1390,7 @@
    "url": "https://careers-affiniuscapital.icims.com/jobs/search?ss=1&in_iframe=1",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:02.687371+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:29.683754+00:00",
    "last_change_detected": "2026-10-19T17:24:52.727163+00:00",
    "categories": [
     "private_equity"
@@ -1423,7 +1423,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:20.716746+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:58.221284+00:00",
    "last_change_detected": "2026-10-19T17:26:42.762155+00:00",
    "categories": [
     "consulting"
@@ -1434,7 +1434,7 @@
    "url": "https://alliacc.com/",
    "kind": "manual",
    "why": "Check alliacc.com (and LinkedIn) for the Advisory and Funding Team Internship; last opened 31 October 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:20.304938+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:41.396058+00:00",
    "last_change_detected": "2026-10-19T17:25:14.984435+00:00",
    "categories": [
     "advisory"
@@ -1467,7 +1467,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:21.257088+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:58.735012+00:00",
    "last_change_detected": "2026-10-19T17:26:43.263290+00:00",
    "categories": [
     "consulting"
@@ -1489,7 +1489,7 @@
    "url": "https://careers.alvarezandmarsal.com/search/jobs/in/london?q=summer+intern",
    "kind": "manual",
    "why": "Alvarez & Marsal's London summer internships (Corporate Finance last opened 4 September 2025) are on its careers site: search it for summer intern.",
-   "last_checked_by_bell": "2026-10-19T17:41:21.805602+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:59.276987+00:00",
    "last_change_detected": "2026-10-19T17:26:44.030260+00:00",
    "categories": [
     "consulting"
@@ -1500,7 +1500,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:30:19.436816+00:00",
+   "last_checked_by_bell": "2026-10-19T17:45:21.733504+00:00",
    "last_change_detected": "2026-10-19T17:15:23.625511+00:00",
    "categories": [
     "tech"
@@ -1511,7 +1511,7 @@
    "url": "https://careers.smartrecruiters.com/AnalysysMason1/api/more?type=location&value=London%2C%20GB&page=0",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:21.956211+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:59.395789+00:00",
    "last_change_detected": "2026-10-19T17:26:44.363098+00:00",
    "categories": [
     "consulting"
@@ -1522,7 +1522,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:24.372215+00:00",
+   "last_checked_by_bell": "2026-10-19T17:55:01.778637+00:00",
    "last_change_detected": "2026-10-19T17:26:47.409800+00:00",
    "categories": [
     "consulting"
@@ -1555,7 +1555,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-19T17:30:25.697636+00:00",
+   "last_checked_by_bell": "2026-10-19T17:45:24.567599+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1566,7 +1566,7 @@
    "url": "https://www.aramcotrading.com/en/careers/how-to-apply/",
    "kind": "manual",
    "why": "Open aramcotrading.com's how-to-apply page for the London Summer Intern (last opened 21 May 2026).",
-   "last_checked_by_bell": "2026-10-19T17:38:23.008238+00:00",
+   "last_checked_by_bell": "2026-10-19T17:51:47.819231+00:00",
    "last_change_detected": "2026-10-19T17:22:10.302310+00:00",
    "categories": [
     "commodities"
@@ -1577,7 +1577,7 @@
    "url": "https://careers.arbuthnotlatham.co.uk/vacancies/vacancy-search-results.aspx",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:29.308822+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:48.080180+00:00",
    "last_change_detected": "2026-10-19T17:25:25.480760+00:00",
    "categories": [
     "asset_manager"
@@ -1610,7 +1610,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:30:25.701694+00:00",
+   "last_checked_by_bell": "2026-10-19T17:45:24.577686+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -1621,7 +1621,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:47.048324+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:13.779779+00:00",
    "last_change_detected": "2026-10-19T17:24:29.175960+00:00",
    "categories": [
     "asset_manager"
@@ -1654,7 +1654,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:50.161228+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:16.992927+00:00",
    "last_change_detected": null,
    "categories": [
     "private_equity"
@@ -1676,7 +1676,7 @@
    "url": "https://augustaco.com/careers/",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:23.716350+00:00",
+   "last_checked_by_bell": "2026-10-19T17:51:48.559110+00:00",
    "last_change_detected": null,
    "categories": [
     "advisory"
@@ -1687,7 +1687,7 @@
    "url": "https://www.australiansuper.com/careers/graduate-and-internship-programs",
    "kind": "manual",
    "why": "AustralianSuper's London Intern Program (Investments and Enterprise streams) is applied for on a per-year pushapply.com campaign linked from this page; the 2026 one opened 4 February 2026.",
-   "last_checked_by_bell": "2026-10-19T17:40:29.315794+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:48.082892+00:00",
    "last_change_detected": "2026-10-19T17:25:25.520370+00:00",
    "categories": [
     "asset_manager"
@@ -1786,7 +1786,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:10.814919+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:37.012128+00:00",
    "last_change_detected": "2026-10-19T17:25:02.829279+00:00",
    "categories": [
     "bank"
@@ -1797,7 +1797,7 @@
    "url": "https://bgf.breezy.hr/",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:52.437670+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:19.341696+00:00",
    "last_change_detected": "2026-10-19T17:24:35.404814+00:00",
    "categories": [
     "private_equity"
@@ -1808,7 +1808,7 @@
    "url": "https://blackfinch.com/Internships/",
    "kind": "manual",
    "why": "Blackfinch's 10-week Summer Internship Programme (Gloucester/Cheltenham; property, energy, ventures, investments) is advertised on its CIPHR iRecruit site linked from this page; the 2026 one opened 9 February 2026 (2025: 3 February).",
-   "last_checked_by_bell": "2026-10-19T17:40:29.323956+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:48.086331+00:00",
    "last_change_detected": "2026-10-19T17:25:25.526134+00:00",
    "categories": [
     "asset_manager"
@@ -1819,7 +1819,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:03.560179+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:30.553825+00:00",
    "last_change_detected": "2026-10-19T17:24:53.924311+00:00",
    "categories": [
     "private_equity"
@@ -1830,7 +1830,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:35.985942+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:00.403364+00:00",
    "last_change_detected": "2026-10-19T17:22:26.549951+00:00",
    "categories": [
     "crypto_mm"
@@ -1841,7 +1841,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:36.134343+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:00.528521+00:00",
    "last_change_detected": "2026-10-19T17:22:26.737860+00:00",
    "categories": [
     "market_infra"
@@ -1863,7 +1863,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:29.583362+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:48.306209+00:00",
    "last_change_detected": "2026-10-19T17:25:25.959182+00:00",
    "categories": [
     "real_estate"
@@ -1896,7 +1896,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-19T17:33:12.638145+00:00",
+   "last_checked_by_bell": "2026-10-19T17:46:25.072882+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -1918,7 +1918,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:20.809693+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:41.922183+00:00",
    "last_change_detected": "2026-10-19T17:25:16.208770+00:00",
    "categories": [
     "asset_manager"
@@ -1929,7 +1929,7 @@
    "url": "https://careers.quintet.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:29.807117+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:49.043591+00:00",
    "last_change_detected": "2026-10-19T17:25:26.392586+00:00",
    "categories": [
     "asset_manager"
@@ -1940,7 +1940,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:12.180412+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:38.239115+00:00",
    "last_change_detected": "2026-10-19T17:25:05.642474+00:00",
    "categories": [
     "bank"
@@ -1951,7 +1951,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:11.584289+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:37.710925+00:00",
    "last_change_detected": "2026-10-19T17:25:05.177981+00:00",
    "categories": [
     "bank"
@@ -1962,7 +1962,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:41.372217+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:04.994394+00:00",
    "last_change_detected": "2026-10-19T17:22:32.276469+00:00",
    "categories": [
     "real_estate"
@@ -1984,7 +1984,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:14.488385+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:40.294464+00:00",
    "last_change_detected": "2026-10-19T17:25:09.104893+00:00",
    "categories": [
     "advisory"
@@ -2017,7 +2017,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:04.098981+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:31.068107+00:00",
    "last_change_detected": "2026-10-19T17:24:54.492614+00:00",
    "categories": [
     "private_equity"
@@ -2039,7 +2039,7 @@
    "url": "https://jobs.carterjonas.co.uk/",
    "kind": "manual",
    "why": "Open jobs.carterjonas.co.uk for the 2027 Summer Internship; last opened 6 January 2026.",
-   "last_checked_by_bell": "2026-10-19T17:40:20.818220+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:41.928107+00:00",
    "last_change_detected": "2026-10-19T17:25:16.243416+00:00",
    "categories": [
     "real_estate"
@@ -2050,7 +2050,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:44.485777+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:07.688668+00:00",
    "last_change_detected": "2026-10-19T17:22:46.047750+00:00",
    "categories": [
     "market_infra"
@@ -2061,7 +2061,7 @@
    "url": "https://careers.cbre.com/en_US/careers/SearchJobs/internship",
    "kind": "manual",
    "why": "Open CBRE's careers search for the UK 2027 Summer Internship (Commercial Real Estate); last opened 27 March 2026.",
-   "last_checked_by_bell": "2026-10-19T17:40:20.812433+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:41.924620+00:00",
    "last_change_detected": "2026-10-19T17:25:16.237731+00:00",
    "categories": [
     "real_estate"
@@ -2072,7 +2072,7 @@
    "url": "https://www.cdr-inc.com/",
    "kind": "manual",
    "why": "Its Private Equity Spring Insight (London) is applied for on a recruiter's apptrkr campaign; last cycle 9 Dec to 22 Jan.",
-   "last_checked_by_bell": "2026-10-19T17:38:44.613656+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:07.814454+00:00",
    "last_change_detected": "2026-10-19T17:22:46.348746+00:00",
    "categories": [
     "private_equity"
@@ -2083,7 +2083,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-19T17:33:22.231960+00:00",
+   "last_checked_by_bell": "2026-10-19T17:46:34.723381+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2105,7 +2105,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:57.702189+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:24.354794+00:00",
    "last_change_detected": "2026-10-19T17:24:41.573456+00:00",
    "categories": [
     "private_equity"
@@ -2138,7 +2138,7 @@
    "url": "https://applybe.com/charlestayloriframe/search/results/all/1",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:45.325624+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:08.664173+00:00",
    "last_change_detected": "2026-10-19T17:22:47.916994+00:00",
    "categories": [
     "insurance"
@@ -2149,7 +2149,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:30.686638+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:50.070266+00:00",
    "last_change_detected": "2026-10-19T17:25:27.825305+00:00",
    "categories": [
     "advisory"
@@ -2160,7 +2160,7 @@
    "url": "https://en.cicc.com/",
    "kind": "manual",
    "why": "Check en.cicc.com careers (and LinkedIn) for CICC UK's London Sales Trainee/Assistant; no known opening date.",
-   "last_checked_by_bell": "2026-10-19T17:40:23.902034+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:44.605465+00:00",
    "last_change_detected": "2026-10-19T17:25:19.390423+00:00",
    "categories": [
     "bank"
@@ -2171,7 +2171,7 @@
    "url": "https://www.clsa.com/careers/",
    "kind": "manual",
    "why": "CITIC CLSA's London summer internship is posted on the Workday site its careers page links; open it about September.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.169028+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.178614+00:00",
    "last_change_detected": "2026-10-19T17:25:24.046935+00:00",
    "categories": [
     "bank"
@@ -2193,7 +2193,7 @@
    "url": "https://www.climateinvestment.com/about-us/careers",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:46.209703+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:09.292211+00:00",
    "last_change_detected": "2026-10-19T17:22:50.105852+00:00",
    "categories": [
     "private_equity"
@@ -2215,7 +2215,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:33.451481+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:54.343615+00:00",
    "last_change_detected": "2026-10-19T17:40:33.451481+00:00",
    "categories": [
     "asset_manager"
@@ -2226,7 +2226,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:36.353420+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:57.028701+00:00",
    "last_change_detected": "2026-10-19T17:25:34.958550+00:00",
    "categories": [
     "asset_manager"
@@ -2237,7 +2237,7 @@
    "url": "https://jobs.dayforcehcm.com/en-US/stonefleming/CANDIDATEPORTAL",
    "kind": "manual",
    "why": "Corient UK (formerly Stonehage Fleming) posts its London 2027 Wealth Management Summer Intern Programme on this Dayforce candidate portal (job 911, opened 8 October 2026).",
-   "last_checked_by_bell": "2026-10-19T17:40:36.360212+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:57.031259+00:00",
    "last_change_detected": "2026-10-19T17:25:35.035330+00:00",
    "categories": [
     "asset_manager"
@@ -2270,7 +2270,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:23.887089+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:44.599236+00:00",
    "last_change_detected": "2026-10-19T17:25:19.293384+00:00",
    "categories": [
     "real_estate"
@@ -2281,7 +2281,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:03.777663+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:30.751235+00:00",
    "last_change_detected": null,
    "categories": [
     "private_equity"
@@ -2292,7 +2292,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:14.229093+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:40.042754+00:00",
    "last_change_detected": null,
    "categories": [
     "advisory"
@@ -2303,7 +2303,7 @@
    "url": "https://dclinsurance.com/about-us/work-with-us/",
    "kind": "manual",
    "why": "DCL's summer internships (last opened 12 Feb 2025) are by email or form: open its work-with-us page.",
-   "last_checked_by_bell": "2026-10-19T17:38:47.293709+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:10.421453+00:00",
    "last_change_detected": "2026-10-19T17:23:00.073854+00:00",
    "categories": [
     "insurance"
@@ -2314,7 +2314,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:24.040194+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:44.724167+00:00",
    "last_change_detected": null,
    "categories": [
     "advisory"
@@ -2325,7 +2325,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-19T17:33:57.876886+00:00",
+   "last_checked_by_bell": "2026-10-19T17:47:10.585682+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2336,7 +2336,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:03.090852+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:30.018252+00:00",
    "last_change_detected": "2026-10-19T17:24:53.396181+00:00",
    "categories": [
     "private_equity"
@@ -2380,7 +2380,7 @@
    "url": "https://dws.groupgti.com/VacancyPosting/Search/",
    "kind": "manual",
    "why": "DWS's London summer internships are posted only on its GTI site; the 2027 intake opened 16 October 2026 (2026: 8 September 2025).",
-   "last_checked_by_bell": "2026-10-19T17:40:36.367402+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:57.034638+00:00",
    "last_change_detected": "2026-10-19T17:25:35.040781+00:00",
    "categories": [
     "asset_manager"
@@ -2391,7 +2391,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:13.483153+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:39.343585+00:00",
    "last_change_detected": "2026-10-19T17:25:07.552177+00:00",
    "categories": [
     "real_estate"
@@ -2413,7 +2413,7 @@
    "url": "https://jobs.engie.com/sitemap.xml",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:47.725353+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:10.907218+00:00",
    "last_change_detected": "2026-10-19T17:23:00.721878+00:00",
    "categories": [
     "commodities"
@@ -2424,7 +2424,7 @@
    "url": "https://enstarearlycareers.ambertrack.co.uk/",
    "kind": "manual",
    "why": "Open enstarearlycareers.ambertrack.co.uk and careers.enstargroup.com for the London Summer Internship Programme (last opened 9 Apr 2026).",
-   "last_checked_by_bell": "2026-10-19T17:38:47.727956+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:10.909482+00:00",
    "last_change_detected": "2026-10-19T17:23:01.238900+00:00",
    "categories": [
     "insurance"
@@ -2446,7 +2446,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:13.976574+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:39.800035+00:00",
    "last_change_detected": "2026-10-19T17:25:08.243197+00:00",
    "categories": [
     "advisory"
@@ -2457,7 +2457,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:48.761993+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:15.551547+00:00",
    "last_change_detected": "2026-10-19T17:24:31.075370+00:00",
    "categories": [
     "private_equity"
@@ -2468,7 +2468,7 @@
    "url": "https://www.ethicalcapitalpartners.com/careers",
    "kind": "manual",
    "why": "ECP's Investment Intern is applied for by emailing a CV to info@ethicalcapitalpartners.com, as its careers page says when it opens (13 November 2025 last cycle).",
-   "last_checked_by_bell": "2026-10-19T17:40:04.942098+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:31.799927+00:00",
    "last_change_detected": "2026-10-19T17:24:55.386449+00:00",
    "categories": [
     "private_equity"
@@ -2479,7 +2479,7 @@
    "url": "https://www.smartrecruiters.com/EvelynPartners?keyword=intern",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:37.643437+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:58.306345+00:00",
    "last_change_detected": "2026-10-19T17:25:36.234270+00:00",
    "categories": [
     "asset_manager"
@@ -2512,7 +2512,7 @@
    "url": "https://jobs.exxonmobil.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:26.034190+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:46.170583+00:00",
    "last_change_detected": "2026-10-19T17:25:21.443613+00:00",
    "categories": [
     "commodities"
@@ -2545,7 +2545,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:37.856656+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:58.530393+00:00",
    "last_change_detected": "2026-10-19T17:25:36.508283+00:00",
    "categories": [
     "hedge_fund"
@@ -2556,7 +2556,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:15.055108+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:40.838633+00:00",
    "last_change_detected": null,
    "categories": [
     "advisory"
@@ -2578,8 +2578,8 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:00.878547+00:00",
-   "last_change_detected": "2026-10-19T17:41:00.878547+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:38.938490+00:00",
+   "last_change_detected": "2026-10-19T17:54:38.938490+00:00",
    "categories": [
     "asset_manager"
    ]
@@ -2600,7 +2600,7 @@
    "url": "https://www.fbnbank.co.uk/vacancy-sitemap.xml",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:26.413468+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:46.502183+00:00",
    "last_change_detected": "2026-10-19T17:25:22.293245+00:00",
    "categories": [
     "bank"
@@ -2611,7 +2611,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-19T17:34:08.446226+00:00",
+   "last_checked_by_bell": "2026-10-19T17:47:21.356252+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2633,7 +2633,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:52.030349+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:15.368149+00:00",
    "last_change_detected": "2026-10-19T17:23:06.329754+00:00",
    "categories": [
     "crypto_mm"
@@ -2644,8 +2644,8 @@
    "url": "https://careers.franklintempleton.com/us/en/sitemap.xml",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:57.375445+00:00",
-   "last_change_detected": "2026-10-19T17:40:57.375445+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:35.430687+00:00",
+   "last_change_detected": "2026-10-19T17:54:35.430687+00:00",
    "categories": [
     "asset_manager"
    ]
@@ -2655,7 +2655,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:04.635412+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:31.591120+00:00",
    "last_change_detected": "2026-10-19T17:24:54.995714+00:00",
    "categories": [
     "advisory"
@@ -2677,7 +2677,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-19T17:34:12.339335+00:00",
+   "last_checked_by_bell": "2026-10-19T17:47:25.397607+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2688,7 +2688,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:52.530966+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:15.904960+00:00",
    "last_change_detected": "2026-10-19T17:23:06.891830+00:00",
    "categories": [
     "crypto_mm"
@@ -2699,7 +2699,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:13.587067+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:51.516781+00:00",
    "last_change_detected": "2026-10-19T17:26:34.574283+00:00",
    "categories": [
     "professional_services"
@@ -2754,7 +2754,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-19T17:34:19.995588+00:00",
+   "last_checked_by_bell": "2026-10-19T17:47:31.303078+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2776,7 +2776,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:49.671237+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:16.407011+00:00",
    "last_change_detected": "2026-10-19T17:24:32.125788+00:00",
    "categories": [
     "private_equity"
@@ -2787,7 +2787,7 @@
    "url": "https://gi-advisors.com/",
    "kind": "manual",
    "why": "Check gi-advisors.com and GIA's LinkedIn for the Analyst / Analyst Internship; last opened 19 November 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:26.448988+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:46.521711+00:00",
    "last_change_detected": "2026-10-19T17:25:22.348119+00:00",
    "categories": [
     "advisory"
@@ -2798,7 +2798,7 @@
    "url": "https://gneiss.energy/careers/",
    "kind": "manual",
    "why": "Open gneiss.energy/careers for the summer internship (last opened 22 Dec 2025).",
-   "last_checked_by_bell": "2026-10-19T17:38:52.533605+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:15.907607+00:00",
    "last_change_detected": "2026-10-19T17:23:07.044644+00:00",
    "categories": [
     "advisory"
@@ -2809,7 +2809,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-19T17:34:19.999216+00:00",
+   "last_checked_by_bell": "2026-10-19T17:47:31.306595+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -2842,7 +2842,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:14.304945+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:40.107591+00:00",
    "last_change_detected": null,
    "categories": [
     "advisory"
@@ -2875,7 +2875,7 @@
    "url": "https://www.mizuhogroup.com/americas/banking/mizuho-greenhill-international-presence",
    "kind": "manual",
    "why": "Greenhill's London summer internship (Mizuho Greenhill) opened 31 August 2026 and 25 August 2025 on a recruiter's Loxo job page, not on Mizuho's GRB list; look for it from late August.",
-   "last_checked_by_bell": "2026-10-19T17:40:02.694580+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:29.686195+00:00",
    "last_change_detected": "2026-10-19T17:24:52.761155+00:00",
    "categories": [
     "advisory"
@@ -2886,7 +2886,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:12.923273+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:38.763113+00:00",
    "last_change_detected": "2026-10-19T17:25:06.469954+00:00",
    "categories": [
     "real_estate"
@@ -2919,7 +2919,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:59.170934+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:26.354814+00:00",
    "last_change_detected": "2026-10-19T17:24:43.236017+00:00",
    "categories": [
     "private_equity"
@@ -2930,7 +2930,7 @@
    "url": "https://jobs.handelsbanken.co.uk/jobs/search",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:27.859865+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:46.908408+00:00",
    "last_change_detected": "2026-10-19T17:25:23.590780+00:00",
    "categories": [
     "bank"
@@ -2952,7 +2952,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:46.817085+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:13.580650+00:00",
    "last_change_detected": "2026-10-19T17:24:28.899520+00:00",
    "categories": [
     "real_estate"
@@ -2963,7 +2963,7 @@
    "url": "https://www.hartreepartners.com/careers/",
    "kind": "manual",
    "why": "Open hartreepartners.com/careers for London internships.",
-   "last_checked_by_bell": "2026-10-19T17:38:55.042462+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:17.902828+00:00",
    "last_change_detected": "2026-10-19T17:23:10.984447+00:00",
    "categories": [
     "commodities"
@@ -2974,7 +2974,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:47.449615+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:14.254308+00:00",
    "last_change_detected": "2026-10-19T17:24:29.645597+00:00",
    "categories": [
     "asset_manager"
@@ -2996,7 +2996,7 @@
    "url": "https://careers-hines.icims.com/jobs/search?ss=1&in_iframe=1&searchLocation=13702--London",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:58.169298+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:36.246530+00:00",
    "last_change_detected": "2026-10-19T17:26:16.481841+00:00",
    "categories": [
     "real_estate"
@@ -3018,7 +3018,7 @@
    "url": "https://www.howdengroupholdings.com/early-careers/insight-programmes",
    "kind": "manual",
    "why": "Open Howden's insight-programmes page for Adventure: Exploring Reinsurance (last opened 16 Mar 2026).",
-   "last_checked_by_bell": "2026-10-19T17:38:55.046045+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:17.906390+00:00",
    "last_change_detected": "2026-10-19T17:23:10.989949+00:00",
    "categories": [
     "insurance"
@@ -3040,7 +3040,7 @@
    "url": "https://iamcapital.com/contact/",
    "kind": "manual",
    "why": "iAM Capital's summer internship is by email; there is no page to read.",
-   "last_checked_by_bell": "2026-10-19T17:38:55.049367+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:17.909949+00:00",
    "last_change_detected": "2026-10-19T17:23:10.995724+00:00",
    "categories": [
     "asset_manager"
@@ -3051,7 +3051,7 @@
    "url": "https://icbcs.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.101938+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.148606+00:00",
    "last_change_detected": null,
    "categories": [
     "bank"
@@ -3062,7 +3062,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:55.466224+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:18.370065+00:00",
    "last_change_detected": "2026-10-19T17:23:11.813434+00:00",
    "categories": [
     "market_infra"
@@ -3073,7 +3073,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:01.357032+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:39.488315+00:00",
    "last_change_detected": null,
    "categories": [
     "asset_manager"
@@ -3084,7 +3084,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:17.119602+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:54.787326+00:00",
    "last_change_detected": "2026-10-19T17:26:38.866048+00:00",
    "categories": [
     "real_estate"
@@ -3095,7 +3095,7 @@
    "url": "https://infinitumcapital.co.uk/global-presence-contact-us/",
    "kind": "manual",
    "why": "Infinitum's internship is by email; there is no page to read.",
-   "last_checked_by_bell": "2026-10-19T17:38:55.468796+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:18.372790+00:00",
    "last_change_detected": "2026-10-19T17:23:11.821778+00:00",
    "categories": [
     "advisory"
@@ -3106,7 +3106,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:49.898518+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:16.684414+00:00",
    "last_change_detected": "2026-10-19T17:24:32.476129+00:00",
    "categories": [
     "private_equity"
@@ -3117,7 +3117,7 @@
    "url": "https://www.insuranceap.com/",
    "kind": "manual",
    "why": "Check insuranceap.com and IAP's LinkedIn for the London Investment Banking Intern; last opened 21 November 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:26.427872+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:46.508187+00:00",
    "last_change_detected": "2026-10-19T17:25:22.325494+00:00",
    "categories": [
     "advisory"
@@ -3139,7 +3139,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:48.523328+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:15.317193+00:00",
    "last_change_detected": null,
    "categories": [
     "private_equity"
@@ -3172,7 +3172,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:47.972491+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:14.800465+00:00",
    "last_change_detected": "2026-10-19T17:24:30.189632+00:00",
    "categories": [
     "private_equity"
@@ -3183,7 +3183,7 @@
    "url": "https://www.ithacaenergy.com/careers/apply",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:55.824677+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:18.705213+00:00",
    "last_change_detected": "2026-10-19T17:23:12.364852+00:00",
    "categories": [
     "corporate"
@@ -3194,7 +3194,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:56.841841+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:19.961341+00:00",
    "last_change_detected": "2026-10-19T17:23:14.388637+00:00",
    "categories": [
     "quant_fund"
@@ -3205,7 +3205,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:38:56.983201+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:20.086721+00:00",
    "last_change_detected": "2026-10-19T17:23:14.607645+00:00",
    "categories": [
     "commodities"
@@ -3216,7 +3216,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:04.523611+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:42.706206+00:00",
    "last_change_detected": "2026-10-19T17:26:23.997785+00:00",
    "categories": [
     "real_estate"
@@ -3238,7 +3238,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:07.323377+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:45.450031+00:00",
    "last_change_detected": "2026-10-19T17:26:27.475832+00:00",
    "categories": [
     "asset_manager"
@@ -3282,7 +3282,7 @@
    "url": "https://www.kpmgcareers.co.uk/undergraduate/",
    "kind": "manual",
    "why": "KPMG's insight programmes are on its own vacancy search, which bell may not filter: open the undergraduate page and look.",
-   "last_checked_by_bell": "2026-10-19T17:39:05.200943+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:28.032389+00:00",
    "last_change_detected": "2026-10-19T17:23:22.588743+00:00",
    "categories": [
     "professional_services"
@@ -3304,7 +3304,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:56.872171+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:23.545909+00:00",
    "last_change_detected": "2026-10-19T17:24:40.229134+00:00",
    "categories": [
     "real_estate"
@@ -3326,7 +3326,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:11.477796+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:37.601486+00:00",
    "last_change_detected": "2026-10-19T17:25:04.953726+00:00",
    "categories": [
     "bank"
@@ -3359,7 +3359,7 @@
    "url": "https://www.lgtwm.com/uk-en/careers/jobs",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:07.537772+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:45.725870+00:00",
    "last_change_detected": "2026-10-19T17:26:27.966794+00:00",
    "categories": [
     "asset_manager"
@@ -3370,7 +3370,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:44.980602+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:12.413224+00:00",
    "last_change_detected": "2026-10-19T17:24:22.313647+00:00",
    "categories": [
     "advisory"
@@ -3392,7 +3392,7 @@
    "url": "https://loizouco.com/students-graduates",
    "kind": "manual",
    "why": "Check loizouco.com/students-graduates for the Financial Advisory Internship (apply by email); last opened 27 November 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.116535+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.154642+00:00",
    "last_change_detected": "2026-10-19T17:25:24.007149+00:00",
    "categories": [
     "advisory"
@@ -3403,7 +3403,7 @@
    "url": "https://longspur.com/graduate-careers-at-longspur-capital/",
    "kind": "manual",
    "why": "Check longspur.com/graduate-careers-at-longspur-capital for the Summer Intern, Corporate Finance (apply by email); this cycle's opened 29 September 2026.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.123600+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.158153+00:00",
    "last_change_detected": "2026-10-19T17:25:24.012903+00:00",
    "categories": [
     "advisory"
@@ -3414,7 +3414,7 @@
    "url": "https://www.lpf.org.uk/about-us/working-for-us/careers/",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:07.694219+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:45.892433+00:00",
    "last_change_detected": null,
    "categories": [
     "asset_manager"
@@ -3425,7 +3425,7 @@
    "url": "https://macrohive.com/",
    "kind": "manual",
    "why": "Macro Hive's Summer Internship \u2013 Sales & Trading (2026's opened 15 April 2026) was posted only on LinkedIn; the firm has no careers page or board.",
-   "last_checked_by_bell": "2026-10-19T17:39:19.664264+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:44.679043+00:00",
    "last_change_detected": "2026-10-19T17:23:37.465959+00:00",
    "categories": [
     "quant_fund"
@@ -3447,7 +3447,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:20.222691+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:45.238030+00:00",
    "last_change_detected": "2026-10-19T17:23:38.601480+00:00",
    "categories": [
     "market_infra"
@@ -3469,7 +3469,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:35:40.462308+00:00",
+   "last_checked_by_bell": "2026-10-19T17:48:52.669507+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -3491,7 +3491,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:20.755366+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:45.746783+00:00",
    "last_change_detected": "2026-10-19T17:23:39.150371+00:00",
    "categories": [
     "corporate"
@@ -3513,7 +3513,7 @@
    "url": "https://mkigp.com/for-talent/",
    "kind": "manual",
    "why": "Check mkigp.com/for-talent (and LinkedIn) for the London Summer Analyst (Event-Driven/Special Situations); last opened 5 November 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:26.434116+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:46.511502+00:00",
    "last_change_detected": "2026-10-19T17:25:22.331207+00:00",
    "categories": [
     "advisory"
@@ -3535,7 +3535,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:35:55.282576+00:00",
+   "last_checked_by_bell": "2026-10-19T17:49:08.438558+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -3579,7 +3579,7 @@
    "url": "https://emplois.bnc.ca/en_CA/careers/SearchJobs/internship",
    "kind": "manual",
    "why": "Check National Bank / NBF's London investment banking summer internship (LinkedIn, emplois.bnc.ca); opened 13 October 2026, 26 November 2025 the cycle before.",
-   "last_checked_by_bell": "2026-10-19T17:40:26.443011+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:46.518401+00:00",
    "last_change_detected": "2026-10-19T17:25:22.342500+00:00",
    "categories": [
     "bank"
@@ -3601,7 +3601,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:36:07.153435+00:00",
+   "last_checked_by_bell": "2026-10-19T17:49:20.649541+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -3634,7 +3634,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:00.815542+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:28.023854+00:00",
    "last_change_detected": "2026-10-19T17:24:46.148491+00:00",
    "categories": [
     "asset_manager"
@@ -3667,7 +3667,7 @@
    "url": "https://externalcareers.ninetyone.com/",
    "kind": "manual",
    "why": "Ninety One's London Summer Internship Programme is posted on its careers portal (a Lumesse TalentLink widget); Trackr records no opening date for 2026.",
-   "last_checked_by_bell": "2026-10-19T17:41:07.696797+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:45.894953+00:00",
    "last_change_detected": "2026-10-19T17:26:28.240807+00:00",
    "categories": [
     "asset_manager"
@@ -3678,7 +3678,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:36:18.219130+00:00",
+   "last_checked_by_bell": "2026-10-19T17:49:31.629136+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -3689,7 +3689,7 @@
    "url": "https://www.nbim.no/en/about-us/career/summer-internship/",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:07.977466+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:46.200132+00:00",
    "last_change_detected": "2026-10-19T17:26:28.427141+00:00",
    "categories": [
     "asset_manager"
@@ -3700,7 +3700,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:10.292009+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:48.408382+00:00",
    "last_change_detected": "2026-10-19T17:26:30.782799+00:00",
    "categories": [
     "asset_manager"
@@ -3711,7 +3711,7 @@
    "url": "https://northwoodinvestors.com/careers/",
    "kind": "manual",
    "why": "Northwood's internships (it has a UK office) are posted on its ADP recruiting site, linked from its careers page; last cycle's Real Estate Private Equity Internship opened 29 October 2024.",
-   "last_checked_by_bell": "2026-10-19T17:40:09.069307+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:35.299734+00:00",
    "last_change_detected": "2026-10-19T17:25:00.903368+00:00",
    "categories": [
     "real_estate"
@@ -3722,7 +3722,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:13.045832+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:50.940982+00:00",
    "last_change_detected": "2026-10-19T17:26:33.665862+00:00",
    "categories": [
     "asset_manager"
@@ -3733,7 +3733,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:52.540010+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:19.447292+00:00",
    "last_change_detected": "2026-10-19T17:24:35.520397+00:00",
    "categories": [
     "asset_manager"
@@ -3744,7 +3744,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:06.648933+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:33.552790+00:00",
    "last_change_detected": "2026-10-19T17:24:57.457647+00:00",
    "categories": [
     "asset_manager"
@@ -3766,7 +3766,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-19T17:36:18.222656+00:00",
+   "last_checked_by_bell": "2026-10-19T17:49:31.632479+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -3799,7 +3799,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:02.231397+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:29.278895+00:00",
    "last_change_detected": "2026-10-19T17:24:47.559795+00:00",
    "categories": [
     "real_estate"
@@ -3810,7 +3810,7 @@
    "url": "https://www.pacificam.co.uk/internships/",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:25.297148+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:50.358581+00:00",
    "last_change_detected": "2026-10-19T17:23:46.354875+00:00",
    "categories": [
     "asset_manager"
@@ -3821,7 +3821,7 @@
    "url": "https://jobs.partnersgroup.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:04.916798+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:31.786980+00:00",
    "last_change_detected": "2026-10-19T17:24:55.342956+00:00",
    "categories": [
     "private_equity"
@@ -3854,7 +3854,7 @@
    "url": "https://pharus.com/careers/",
    "kind": "manual",
    "why": "Check pharus.com/careers (and LinkedIn) for the London Investment Banking Summer Analyst; last opened 13 October 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.137363+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.164841+00:00",
    "last_change_detected": "2026-10-19T17:25:24.024539+00:00",
    "categories": [
     "advisory"
@@ -3865,7 +3865,7 @@
    "url": "https://apptrkr.io/pictet-asset-management/summer-internship-programme-2026",
    "kind": "manual",
    "why": "Pictet AM's London summer internships (Equities Business Management, Equities Total Return, Legal and Distribution Compliance) went through Dartmouth Partners' apptrkr, 9 February to 13 March 2026; the next campaign's name is unknown until it opens.",
-   "last_checked_by_bell": "2026-10-19T17:39:56.882983+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:23.555873+00:00",
    "last_change_detected": "2026-10-19T17:24:40.243482+00:00",
    "categories": [
     "asset_manager"
@@ -3887,7 +3887,7 @@
    "url": "https://www.pkf-l.com/careers/early-careers/university-placements/",
    "kind": "manual",
    "why": "Its Summer Work Placement (last opened 10 December 2025) is on an Eploy board behind a bot challenge: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:36:51.609008+00:00",
+   "last_checked_by_bell": "2026-10-19T17:50:15.342139+00:00",
    "last_change_detected": "2026-10-16T20:36:07.861070+00:00",
    "categories": [
     "professional_services"
@@ -3920,7 +3920,7 @@
    "url": "https://www.polencapital.com/careers",
    "kind": "manual",
    "why": "Polen Capital posts on a UKG (UltiPro) job board linked from this page; its Summer Internship Program last opened 11 October 2024 (Trackr has no later date).",
-   "last_checked_by_bell": "2026-10-19T17:41:13.048445+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:50.943530+00:00",
    "last_change_detected": "2026-10-19T17:26:33.760158+00:00",
    "categories": [
     "asset_manager"
@@ -3942,7 +3942,7 @@
    "url": "https://careers.principal.com/",
    "kind": "manual",
    "why": "Its readable board (the Jibe front) held no UK roles of 155, and its iCIMS host refuses everyone.",
-   "last_checked_by_bell": "2026-10-19T17:36:52.942648+00:00",
+   "last_checked_by_bell": "2026-10-19T17:50:16.481732+00:00",
    "last_change_detected": "2026-10-16T20:36:08.480635+00:00",
    "categories": [
     "asset_manager"
@@ -3975,7 +3975,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:50.711871+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:17.482814+00:00",
    "last_change_detected": null,
    "categories": [
     "advisory"
@@ -3986,7 +3986,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:45.206297+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:12.549908+00:00",
    "last_change_detected": "2026-10-19T17:24:22.594732+00:00",
    "categories": [
     "advisory"
@@ -4008,7 +4008,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:37:04.909962+00:00",
+   "last_checked_by_bell": "2026-10-19T17:50:29.657273+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -4019,7 +4019,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:37:05.296727+00:00",
+   "last_checked_by_bell": "2026-10-19T17:50:29.987022+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -4030,7 +4030,7 @@
    "url": "https://relatedargent.co.uk/careers",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:13.707575+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:51.615355+00:00",
    "last_change_detected": "2026-10-19T17:26:35.021462+00:00",
    "categories": [
     "real_estate"
@@ -4052,7 +4052,7 @@
    "url": "https://careers-rcm.icims.com/jobs/search?ss=1&searchLocation=13702-13822-London",
    "kind": "manual",
    "why": "Rockefeller's London Summer Analyst - European Institutional Sales is posted on its iCIMS site (filtered here to London); it last opened 20 November 2024.",
-   "last_checked_by_bell": "2026-10-19T17:41:17.012595+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:54.664178+00:00",
    "last_change_detected": "2026-10-19T17:26:38.723442+00:00",
    "categories": [
     "asset_manager"
@@ -4063,7 +4063,7 @@
    "url": "https://www.rokoscapital.com/careers",
    "kind": "manual",
    "why": "Its RCM Internship Programme (last opened 1 Nov) is applied for on a recruiter's apptrkr campaign whose name is known only once it opens: open the careers page and look.",
-   "last_checked_by_bell": "2026-10-19T17:37:07.000386+00:00",
+   "last_checked_by_bell": "2026-10-19T17:50:31.388003+00:00",
    "last_change_detected": "2026-10-17T14:35:09.747872+00:00",
    "categories": [
     "quant_fund"
@@ -4118,7 +4118,7 @@
    "url": "https://jobs.rwe.com/search/?q=trading&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:26.769954+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:52.000308+00:00",
    "last_change_detected": "2026-10-19T17:23:48.692953+00:00",
    "categories": [
     "commodities"
@@ -4129,7 +4129,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:29.420630+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:56.464939+00:00",
    "last_change_detected": "2026-10-19T17:24:00.172115+00:00",
    "categories": [
     "consulting"
@@ -4173,7 +4173,7 @@
    "url": "https://saltgate.com/wp-content/loader.php",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:29.926047+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:56.972317+00:00",
    "last_change_detected": "2026-10-19T17:24:02.136267+00:00",
    "categories": [
     "professional_services"
@@ -4184,7 +4184,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:37:22.639087+00:00",
+   "last_checked_by_bell": "2026-10-19T17:50:47.360863+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -4195,7 +4195,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:08.317369+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:34.841223+00:00",
    "last_change_detected": null,
    "categories": [
     "hedge_fund"
@@ -4217,7 +4217,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:30.262009+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:57.323406+00:00",
    "last_change_detected": "2026-10-19T17:24:02.644176+00:00",
    "categories": [
     "bank"
@@ -4239,7 +4239,7 @@
    "url": "https://www.singercm.com/careers/",
    "kind": "manual",
    "why": "Open singercm.com/careers for Internships / Work Experience (CVs by email).",
-   "last_checked_by_bell": "2026-10-19T17:39:30.264530+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:57.325724+00:00",
    "last_change_detected": "2026-10-19T17:24:02.659969+00:00",
    "categories": [
     "advisory"
@@ -4250,7 +4250,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:17.009506+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:54.661518+00:00",
    "last_change_detected": "2026-10-19T17:26:38.668248+00:00",
    "categories": [
     "private_equity"
@@ -4261,7 +4261,7 @@
    "url": "https://www.skagencapital.com/contact.html",
    "kind": "manual",
    "why": "Check LinkedIn / skagencapital.com for Skagen Capital's London Investment banking intern; last opened 30 October 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:26.439374+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:46.514839+00:00",
    "last_change_detected": "2026-10-19T17:25:22.336772+00:00",
    "categories": [
     "advisory"
@@ -4272,7 +4272,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-19T17:37:27.838157+00:00",
+   "last_checked_by_bell": "2026-10-19T17:50:52.911212+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
@@ -4294,7 +4294,7 @@
    "url": "https://www.sompo-intl.com/careers/early-careers",
    "kind": "manual",
    "why": "Sompo's UK summer internship (opens about Oct-Nov): open its early-careers page and look.",
-   "last_checked_by_bell": "2026-10-19T17:39:30.712209+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:57.659099+00:00",
    "last_change_detected": "2026-10-19T17:24:04.261026+00:00",
    "categories": [
     "insurance"
@@ -4305,7 +4305,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:31.904566+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:58.814995+00:00",
    "last_change_detected": null,
    "categories": [
     "quant_fund"
@@ -4316,7 +4316,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:32.010037+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:58.925535+00:00",
    "last_change_detected": "2026-10-19T17:24:05.795751+00:00",
    "categories": [
     "quant_fund"
@@ -4338,7 +4338,7 @@
    "url": "https://www.standardbank.com/sbg/standard-bank-group/careers/apply/jobs/view-all-jobs",
    "kind": "manual",
    "why": "Open Standard Bank's careers search (United Kingdom) for the CIB International internship; the 2027 one opened 2 October 2026 and closes 30 October.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.107444+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.151173+00:00",
    "last_change_detected": "2026-10-19T17:25:24.000763+00:00",
    "categories": [
     "bank"
@@ -4371,7 +4371,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:50.004154+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:16.785978+00:00",
    "last_change_detected": "2026-10-19T17:24:32.598260+00:00",
    "categories": [
     "private_equity"
@@ -4382,7 +4382,7 @@
    "url": "https://career2.successfactors.eu/career?company=stifeleuro",
    "kind": "manual",
    "why": "Open Stifel Europe's SuccessFactors careers (company stifeleuro) for the London Investment Banking Summer Intern; last opened 27 November 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.152997+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.171831+00:00",
    "last_change_detected": "2026-10-19T17:25:24.035909+00:00",
    "categories": [
     "bank"
@@ -4393,7 +4393,7 @@
    "url": "https://www.stjadvisors.com/careers",
    "kind": "manual",
    "why": "STJ Advisors' Summer Internship Program 2027 is open on stjadvisors.com/careers (apply by email; closes 15 January 2027).",
-   "last_checked_by_bell": "2026-10-19T17:40:28.130423+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.161543+00:00",
    "last_change_detected": "2026-10-19T17:25:24.018720+00:00",
    "categories": [
     "advisory"
@@ -4404,7 +4404,7 @@
    "url": "https://www.stolt-nielsen.com/careers/",
    "kind": "manual",
    "why": "Open stolt-nielsen.com/careers for the London Corporate Development & CVC internship.",
-   "last_checked_by_bell": "2026-10-19T17:39:32.012613+00:00",
+   "last_checked_by_bell": "2026-10-19T17:52:58.928889+00:00",
    "last_change_detected": "2026-10-19T17:24:05.836500+00:00",
    "categories": [
     "corporate"
@@ -4415,7 +4415,7 @@
    "url": "https://uk-stonex.icims.com/jobs/search?ss=1&in_iframe=1",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:33.120352+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:01.698510+00:00",
    "last_change_detected": "2026-10-19T17:24:07.554688+00:00",
    "categories": [
     "commodities",
@@ -4427,7 +4427,7 @@
    "url": "https://www.careers-page.com/stout-park-ltd",
    "kind": "manual",
    "why": "Check careers-page.com/stout-park-ltd for Stout's London 2027 Summer Intern - Corporate Finance; last opened 24 December 2025.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.145841+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.168282+00:00",
    "last_change_detected": "2026-10-19T17:25:24.030178+00:00",
    "categories": [
     "advisory"
@@ -4438,7 +4438,7 @@
    "url": "https://www.sucdenfinancial.com/en/about/careers/working-here",
    "kind": "manual",
    "why": "Open sucdenfinancial.com careers for London internships.",
-   "last_checked_by_bell": "2026-10-19T17:39:33.123639+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:01.701115+00:00",
    "last_change_detected": "2026-10-19T17:24:07.620216+00:00",
    "categories": [
     "commodities"
@@ -4471,7 +4471,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:33.376636+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:01.936285+00:00",
    "last_change_detected": "2026-10-19T17:24:07.989015+00:00",
    "categories": [
     "quant_fund"
@@ -4482,7 +4482,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:51.664966+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:18.514086+00:00",
    "last_change_detected": null,
    "categories": [
     "asset_manager"
@@ -4537,7 +4537,7 @@
    "url": "https://www.torchpartners.com/careers",
    "kind": "manual",
    "why": "Check torchpartners.com/careers for the London Summer Internship Scheme (apply by email); last dated 13 September 2024.",
-   "last_checked_by_bell": "2026-10-19T17:40:28.160130+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:47.175079+00:00",
    "last_change_detected": "2026-10-19T17:25:24.041402+00:00",
    "categories": [
     "advisory"
@@ -4548,7 +4548,7 @@
    "url": "https://tower-peak.com/careers",
    "kind": "manual",
    "why": "Tower Peak's postgraduate summer internship (10 weeks, London/New York) is applied for by email from its careers page, which lists Tower Peak Summer Postgraduate Internship 2027 as a mailto link; last cycle it was also on Greenhouse (17 February 2025).",
-   "last_checked_by_bell": "2026-10-19T17:40:04.928484+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:31.793158+00:00",
    "last_change_detected": "2026-10-19T17:24:55.374977+00:00",
    "categories": [
     "private_equity"
@@ -4559,7 +4559,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:37.902714+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:06.109447+00:00",
    "last_change_detected": "2026-10-19T17:24:14.011301+00:00",
    "categories": [
     "market_infra"
@@ -4570,7 +4570,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:39.274476+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:07.358938+00:00",
    "last_change_detected": "2026-10-19T17:24:15.867002+00:00",
    "categories": [
     "market_infra"
@@ -4592,7 +4592,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:05.148029+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:32.122366+00:00",
    "last_change_detected": "2026-10-19T17:24:55.532251+00:00",
    "categories": [
     "hedge_fund"
@@ -4625,7 +4625,7 @@
    "url": "https://jobs.uniper.energy/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:39.656931+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:07.598862+00:00",
    "last_change_detected": "2026-10-19T17:24:16.525250+00:00",
    "categories": [
     "commodities"
@@ -4647,7 +4647,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:20.471528+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:57.990402+00:00",
    "last_change_detected": "2026-10-19T17:26:42.421478+00:00",
    "categories": [
     "asset_manager"
@@ -4658,7 +4658,7 @@
    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeqdW2v1snBc0__YW-HDte-1YnerkHK8bQizw4PpZFmd_zHoA/viewform",
    "kind": "manual",
    "why": "Open last cycle's Google Form (and vericorcapital.co.uk) for the Search Fund Intern Program (last opened 30 Apr 2026).",
-   "last_checked_by_bell": "2026-10-19T17:39:39.659582+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:07.617788+00:00",
    "last_change_detected": "2026-10-19T17:24:16.556067+00:00",
    "categories": [
     "private_equity"
@@ -4669,7 +4669,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:52.004042+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:18.804181+00:00",
    "last_change_detected": "2026-10-19T17:24:34.884312+00:00",
    "categories": [
     "real_estate"
@@ -4680,7 +4680,7 @@
    "url": "https://www.walterscott.com/careers/#internships",
    "kind": "manual",
    "why": "Walter Scott's Edinburgh internship opens about mid-August by email: open its careers page.",
-   "last_checked_by_bell": "2026-10-19T17:39:39.663242+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:07.621213+00:00",
    "last_change_detected": "2026-10-19T17:24:16.561766+00:00",
    "categories": [
     "asset_manager"
@@ -4691,7 +4691,7 @@
    "url": "https://www.waterlandpe.com/careers/",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:40:09.062624+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:35.297275+00:00",
    "last_change_detected": "2026-10-19T17:25:00.859613+00:00",
    "categories": [
     "private_equity"
@@ -4713,7 +4713,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:41:20.602832+00:00",
+   "last_checked_by_bell": "2026-10-19T17:54:58.116438+00:00",
    "last_change_detected": "2026-10-19T17:26:42.627652+00:00",
    "categories": [
     "bank"
@@ -4724,7 +4724,7 @@
    "url": "https://recruiting.ultipro.com/WEL1008WLLT/JobBoard/30969ce4-3b7e-40a6-b86c-34d3616fe0ed/",
    "kind": "manual",
    "why": "Welltower's London Summer Analyst - Real Estate Investments is posted on its UKG job board, opened 11 November 2025 (22 August 2024 before); US '27 Summer Analyst roles were up by 8 October 2026.",
-   "last_checked_by_bell": "2026-10-19T17:40:09.076746+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:35.303170+00:00",
    "last_change_detected": "2026-10-19T17:25:00.908958+00:00",
    "categories": [
     "real_estate"
@@ -4735,7 +4735,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:40.867732+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:08.488244+00:00",
    "last_change_detected": "2026-10-19T17:24:17.524240+00:00",
    "categories": [
     "consulting"
@@ -4757,7 +4757,7 @@
    "url": "https://www.xycapitalgroup.com/careers/",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:39:41.531197+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:09.176257+00:00",
    "last_change_detected": "2026-10-19T17:24:18.833735+00:00",
    "categories": [
     "prop"
@@ -4768,7 +4768,7 @@
    "url": "https://yfmep.com/careers",
    "kind": "manual",
    "why": "YFM's private equity summer internship was advertised through Sanctuary Graduates (a graduate recruiter), opened 20 May 2026 (3 February 2025 before); its own careers page links no board.",
-   "last_checked_by_bell": "2026-10-19T17:40:04.935289+00:00",
+   "last_checked_by_bell": "2026-10-19T17:53:31.796565+00:00",
    "last_change_detected": "2026-10-19T17:24:55.380742+00:00",
    "categories": [
     "private_equity"
