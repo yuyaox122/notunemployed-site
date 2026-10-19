@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T05:35:02.497620+00:00",
+ "generated_at": "2026-10-19T05:40:02.895790+00:00",
  "counts": {
   "items": 640,
   "strong": 640,
@@ -13,7 +13,7 @@
   "firms": 275,
   "firms_blind": 22,
   "sources": 314,
-  "postings_tracked": 33085
+  "postings_tracked": 33089
  },
  "detection": {
   "mean_latency_s": 70868.5,
@@ -392,11 +392,11 @@
    "key": "workday:statestreet/wd1/Global",
    "firm": "State Street",
    "tier": "C",
-   "kind": "blocked",
-   "n_total": 751,
+   "kind": "off-desk-only",
+   "n_total": 755,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "source is blocked"
+   "reason": "755 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
@@ -432,11 +432,11 @@
    "key": "workday:mgpru/wd3/mandgprudential",
    "firm": "M&G Investments",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "off-desk-only",
    "n_total": 161,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "source is blocked"
+   "reason": "161 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
@@ -492,21 +492,21 @@
    "key": "workday:carlyle/wd1/Carlyle",
    "firm": "The Carlyle Group",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "off-desk-only",
    "n_total": 50,
    "n_match": 0,
    "n_off_desk": 3,
-   "reason": "source is blocked"
+   "reason": "50 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:troweprice/wd5/TRowePriceInternational",
    "firm": "T. Rowe Price",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "off-desk-only",
    "n_total": 44,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "source is blocked"
+   "reason": "44 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "lever:dexterity",
@@ -552,11 +552,11 @@
    "key": "workday:baincapital/wd1/External_Public",
    "firm": "Bain Capital",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "no-early-careers",
    "n_total": 33,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is blocked"
+   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:forvismazarsuk/wd107/FM_1",
@@ -612,41 +612,11 @@
    "key": "workday:shell/wd3/ShellCareers",
    "firm": "Shell",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "off-desk-only",
    "n_total": 25,
    "n_match": 0,
    "n_off_desk": 4,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:viterra/wd3/External-CAN",
-   "firm": "Viterra",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 15,
-   "n_match": 0,
-   "n_off_desk": 1,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:jupiteram/wd3/jupiter_careers",
-   "firm": "Jupiter Fund Management",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 13,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:trafigura/wd3/TrafiguraCareerSite",
-   "firm": "Trafigura",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 7,
-   "n_match": 1,
-   "n_off_desk": 1,
-   "reason": "source is blocked"
+   "reason": "25 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "greenhouse:orchardglobal_careers",
@@ -915,7 +885,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-19T05:20:04.328674+00:00",
+   "last_checked_by_bell": "2026-10-19T05:35:11.889647+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -926,7 +896,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-19T05:20:05.792924+00:00",
+   "last_checked_by_bell": "2026-10-19T05:35:16.566952+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
