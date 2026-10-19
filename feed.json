@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-19T17:30:03.826792+00:00",
+ "generated_at": "2026-10-19T17:35:02.694231+00:00",
  "counts": {
-  "items": 970,
-  "strong": 970,
-  "uk": 608,
-  "uk_unstated": 287,
+  "items": 977,
+  "strong": 977,
+  "uk": 609,
+  "uk_unstated": 293,
   "seen_24h": 18,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 2495,
+  "total": 2500,
   "truncated_uk": 18,
   "firms": 604,
   "firms_blind": 316,
-  "sources": 662,
-  "postings_tracked": 39924
+  "sources": 672,
+  "postings_tracked": 40266
  },
  "detection": {
   "mean_latency_s": 71742.5,
@@ -497,6 +497,26 @@
    "reason": "source is error"
   },
   {
+   "key": "linklist:https://careers.sumer.co.uk/jobs",
+   "firm": "EQ",
+   "tier": "D",
+   "kind": "off-desk-only",
+   "n_total": 130,
+   "n_match": 0,
+   "n_off_desk": 29,
+   "reason": "130 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
+   "key": "greenhouse:tide",
+   "firm": "Tide Insurance",
+   "tier": "D",
+   "kind": "no-early-careers",
+   "n_total": 108,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "108 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "greenhouse:ripple",
    "firm": "Ripple",
    "tier": "C",
@@ -645,6 +665,16 @@
    "n_match": 0,
    "n_off_desk": 1,
    "reason": "49 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
+   "key": "linklist:https://careers.smartrecruiters.com/SWGroup/early-careers",
+   "firm": "S&W",
+   "tier": "D",
+   "kind": "off-desk-only",
+   "n_total": 48,
+   "n_match": 0,
+   "n_off_desk": 2,
+   "reason": "48 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "jsonboard:workable/starling-bank",
@@ -1017,6 +1047,16 @@
    "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "sitemap:https://careers.munichre.com/en/sitemap.xml",
+   "firm": "Munich Re",
+   "tier": "D",
+   "kind": "no-early-careers",
+   "n_total": 25,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "25 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "sitemap:https://inverto.dvinci-hr.com/sitemap.xml",
    "firm": "Inverto",
    "tier": "D",
@@ -1227,16 +1267,6 @@
    "reason": "board is empty"
   },
   {
-   "key": "sitemap:https://careers.munichre.com/en/sitemap.xml",
-   "firm": "Munich Re",
-   "tier": "D",
-   "kind": "never-fetched",
-   "n_total": 0,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "never fetched successfully"
-  },
-  {
    "key": "sitemap:https://cwg.com/job-sitemap.xml",
    "firm": "Canary Wharf Group",
    "tier": "C",
@@ -1327,7 +1357,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-19T17:15:04.292970+00:00",
+   "last_checked_by_bell": "2026-10-19T17:30:05.567221+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1470,7 +1500,7 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:15:23.625511+00:00",
+   "last_checked_by_bell": "2026-10-19T17:30:19.436816+00:00",
    "last_change_detected": "2026-10-19T17:15:23.625511+00:00",
    "categories": [
     "tech"
@@ -1525,7 +1555,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-19T17:15:26.816058+00:00",
+   "last_checked_by_bell": "2026-10-19T17:30:25.697636+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1580,7 +1610,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-19T17:15:26.819576+00:00",
+   "last_checked_by_bell": "2026-10-19T17:30:25.701694+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -1635,8 +1665,8 @@
    "url": "https://ce0741li.webitrent.com/ce0741li_webrecruitment/wrd/run/ETREC179GF.open?WVID=5090012VPm",
    "kind": "manual",
    "why": "Open Audit Scotland's MHR iTrent vacancy search for the Summer Internship in Audit (last cycle's opened 9 Mar 2026).",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:25.123167+00:00",
+   "last_change_detected": "2026-10-19T17:30:25.123167+00:00",
    "categories": [
     "professional_services"
    ]
@@ -1668,8 +1698,8 @@
    "url": "https://aventumgroup.com/join-us/early-careers",
    "kind": "manual",
    "why": "Open Aventum's early-careers page for the July 2027 internship (last cycle's Underwriting Assistant Intern opened 29 Mar 2026).",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:25.116486+00:00",
+   "last_change_detected": "2026-10-19T17:30:25.116486+00:00",
    "categories": [
     "insurance"
    ]
@@ -1690,8 +1720,8 @@
    "url": "https://www.azets.com/en-uk/careers/current-opportunities/",
    "kind": "manual",
    "why": "Open Azets UK's current opportunities for the Corporate Finance Summer Intern (last cycle's opened 1 Oct 2025).",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:25.129358+00:00",
+   "last_change_detected": "2026-10-19T17:30:25.129358+00:00",
    "categories": [
     "professional_services"
    ]
@@ -1866,7 +1896,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-19T17:16:30.949485+00:00",
+   "last_checked_by_bell": "2026-10-19T17:33:12.638145+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -2053,7 +2083,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-19T17:16:39.864637+00:00",
+   "last_checked_by_bell": "2026-10-19T17:33:22.231960+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2295,7 +2325,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-19T17:17:17.937311+00:00",
+   "last_checked_by_bell": "2026-10-19T17:33:57.876886+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2405,8 +2435,8 @@
    "url": "https://careers.sumer.co.uk/jobs",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:24.646107+00:00",
+   "last_change_detected": "2026-10-19T17:30:24.646107+00:00",
    "categories": [
     "professional_services"
    ]
@@ -2581,7 +2611,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-19T17:17:51.567511+00:00",
+   "last_checked_by_bell": "2026-10-19T17:34:08.446226+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2647,7 +2677,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-19T17:17:55.489685+00:00",
+   "last_checked_by_bell": "2026-10-19T17:34:12.339335+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2724,7 +2754,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-19T17:18:00.952099+00:00",
+   "last_checked_by_bell": "2026-10-19T17:34:19.995588+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2779,7 +2809,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-19T17:18:00.955546+00:00",
+   "last_checked_by_bell": "2026-10-19T17:34:19.999216+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -2878,8 +2908,8 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:20.650899+00:00",
+   "last_change_detected": "2026-10-19T17:30:20.650899+00:00",
    "categories": [
     "insurance"
    ]
@@ -3351,8 +3381,8 @@
    "url": "https://careers.lockton.com/gb/en/browsejobs?jobtype=Internship/%20Placement%20Role",
    "kind": "manual",
    "why": "Open Lockton's UK browse-jobs page (Internship / Placement) for the Insurance Summer Intern (last cycle's opened 24 Oct 2025).",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:25.135219+00:00",
+   "last_change_detected": "2026-10-19T17:30:25.135219+00:00",
    "categories": [
     "insurance"
    ]
@@ -3472,8 +3502,8 @@
    "url": "https://jobs.midlandheartgroup.org.uk/jobs/",
    "kind": "manual",
    "why": "Open Midland Heart's jobs site for the Management Accountant - Internship (Summer) (last cycle's opened 20 Jan 2026).",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:25.141020+00:00",
+   "last_change_detected": "2026-10-19T17:30:25.141020+00:00",
    "categories": [
     "corporate"
    ]
@@ -3527,8 +3557,8 @@
    "url": "https://careers.munichre.com/en/sitemap.xml",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:17.955081+00:00",
+   "last_change_detected": "2026-10-19T17:30:17.955081+00:00",
    "categories": [
     "insurance"
    ]
@@ -4077,8 +4107,8 @@
    "url": "https://www.rsmuk.com/careers/jobs?keywords=Internship",
    "kind": "manual",
    "why": "Open RSM UK's job search for Internship 2027 (last cycle's opened 29 Jan 2026).",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:20.404653+00:00",
+   "last_change_detected": "2026-10-19T17:30:20.404653+00:00",
    "categories": [
     "professional_services"
    ]
@@ -4121,8 +4151,8 @@
    "url": "https://careers.smartrecruiters.com/SWGroup/early-careers",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:20.003421+00:00",
+   "last_change_detected": "2026-10-19T17:30:20.003421+00:00",
    "categories": [
     "professional_services"
    ]
@@ -4474,8 +4504,8 @@
    "url": "",
    "kind": "manual",
    "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
+   "last_checked_by_bell": "2026-10-19T17:30:20.835234+00:00",
+   "last_change_detected": "2026-10-19T17:30:20.835234+00:00",
    "categories": [
     "insurance"
    ]
@@ -11292,6 +11322,30 @@
    "adopted": true,
    "late": true,
    "key": "linklist:https://careers.k3advisorygroup.com/jobs#8539270",
+   "pushed_at": null
+  },
+  {
+   "firm": "Hamilton Insurance Group",
+   "title": "Summer Internship 2027 - London",
+   "url": "https://apply.workable.com/j/B4C2F9E69A",
+   "location": "London, United Kingdom",
+   "place": "London",
+   "opened_at": "2026-10-13T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-19T17:30:20.650899+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": null,
+   "reason": "intern + the firm's one intake (declared)",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": true,
+   "key": "jsonboard:workable/hamilton#B4C2F9E69A",
    "pushed_at": null
   },
   {
@@ -20317,6 +20371,150 @@
    "late": false,
    "key": "sitemap:https://careers.brevanhoward.com/gb/en/sitemap.xml#JR101584",
    "pushed_at": "2026-09-07T18:16:00.419787+00:00"
+  },
+  {
+   "firm": "Midland Heart",
+   "title": "Midland Heart \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "url": "https://jobs.midlandheartgroup.org.uk/jobs/",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-19T17:30:25.141020+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://jobs.midlandheartgroup.org.uk/jobs/#manual:any:Summer 2027",
+   "pushed_at": null
+  },
+  {
+   "firm": "Lockton",
+   "title": "Lockton \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "url": "https://careers.lockton.com/gb/en/browsejobs?jobtype=Internship/%20Placement%20Role",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-19T17:30:25.135219+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://careers.lockton.com/gb/en/browsejobs?jobtype=Internship/%20Placement%20Role#manual:any:Summer 2027",
+   "pushed_at": null
+  },
+  {
+   "firm": "Azets",
+   "title": "Azets \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "url": "https://www.azets.com/en-uk/careers/current-opportunities/",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-19T17:30:25.129358+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://www.azets.com/en-uk/careers/current-opportunities/#manual:any:Summer 2027",
+   "pushed_at": null
+  },
+  {
+   "firm": "Audit Scotland",
+   "title": "Audit Scotland \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "url": "https://ce0741li.webitrent.com/ce0741li_webrecruitment/wrd/run/ETREC179GF.open?WVID=5090012VPm",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-19T17:30:25.123167+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://ce0741li.webitrent.com/ce0741li_webrecruitment/wrd/run/ETREC179GF.open?WVID=5090012VPm#manual:any:Summer 2027",
+   "pushed_at": null
+  },
+  {
+   "firm": "Aventum Group",
+   "title": "Aventum Group \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "url": "https://aventumgroup.com/join-us/early-careers",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-19T17:30:25.116486+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://aventumgroup.com/join-us/early-careers#manual:any:Summer 2027",
+   "pushed_at": null
+  },
+  {
+   "firm": "RSM",
+   "title": "RSM \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "url": "https://www.rsmuk.com/careers/jobs?keywords=Internship",
+   "location": "",
+   "place": "",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-19T17:30:20.404653+00:00",
+   "date_basis": "unknown",
+   "deadline": null,
+   "strength": "strong",
+   "stage": null,
+   "desk": null,
+   "reason": "tier D: cycle window open, firm refuses automated access",
+   "uk": true,
+   "uk_stated": false,
+   "wanted": true,
+   "tier": "D",
+   "adopted": true,
+   "late": false,
+   "key": "manual:https://www.rsmuk.com/careers/jobs?keywords=Internship#manual:any:Summer 2027",
+   "pushed_at": null
   },
   {
    "firm": "First Actuarial",
