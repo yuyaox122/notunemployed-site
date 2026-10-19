@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T22:15:03.565287+00:00",
+ "generated_at": "2026-10-19T22:25:02.326959+00:00",
  "counts": {
   "items": 1010,
   "strong": 1010,
@@ -11,14 +11,14 @@
   "total": 2561,
   "truncated_uk": 18,
   "firms": 622,
-  "firms_blind": 334,
+  "firms_blind": 115,
   "sources": 691,
-  "postings_tracked": 43171
+  "postings_tracked": 43180
  },
  "detection": {
-  "mean_latency_s": 69591.6,
-  "median_latency_s": 374.0,
-  "sampled": 275,
+  "mean_latency_s": 69340.0,
+  "median_latency_s": 367.4,
+  "sampled": 276,
   "by_tier": {
    "A": {
     "mean_latency_s": 84336.0,
@@ -27,22 +27,16 @@
     "sampled": 123
    },
    "B": {
-    "mean_latency_s": 64918.4,
-    "median_latency_s": 630.3,
-    "under_60s": 6,
-    "sampled": 135
+    "mean_latency_s": 59655.8,
+    "median_latency_s": 600.5,
+    "under_60s": 7,
+    "sampled": 147
    },
    "C": {
     "mean_latency_s": -813.9,
     "median_latency_s": 283.9,
     "under_60s": 1,
     "sampled": 6
-   },
-   "D": {
-    "mean_latency_s": 479.4,
-    "median_latency_s": 357.8,
-    "under_60s": 1,
-    "sampled": 11
    }
   },
   "watch": {
@@ -485,25 +479,25 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 811,
+   "n_total": 812,
    "n_match": 0,
    "n_off_desk": 3,
-   "reason": "811 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "812 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
    "firm": "Marsh McLennan",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 449,
+   "n_total": 450,
    "n_match": 0,
    "n_off_desk": 25,
-   "reason": "449 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "450 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "greenhouse:sumup",
    "firm": "SumUp",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 340,
    "n_match": 0,
@@ -513,7 +507,7 @@
   {
    "key": "sitemap:https://www.dunelmcareers.com/live-jobs.xml",
    "firm": "Dunelm",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 318,
    "n_match": 0,
@@ -543,7 +537,7 @@
   {
    "key": "greenhouse:adyen",
    "firm": "Adyen",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 249,
    "n_match": 0,
@@ -553,7 +547,7 @@
   {
    "key": "sitemap:https://careers.deutsche-boerse.com/sitemap.xml",
    "firm": "Deutsche B\u00f6rse",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 189,
    "n_match": 0,
@@ -563,7 +557,7 @@
   {
    "key": "ashby:checkout.com",
    "firm": "Checkout.com",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 174,
    "n_match": 0,
@@ -583,7 +577,7 @@
   {
    "key": "linklist:https://careers.sumer.co.uk/jobs",
    "firm": "EQ",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 130,
    "n_match": 0,
@@ -593,7 +587,7 @@
   {
    "key": "greenhouse:tide",
    "firm": "Tide Insurance",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 108,
    "n_match": 0,
@@ -613,7 +607,7 @@
   {
    "key": "greenhouse:baringa",
    "firm": "Baringa",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 101,
    "n_match": 0,
@@ -623,7 +617,7 @@
   {
    "key": "greenhouse:gersonlehrmangroup",
    "firm": "GLG",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 98,
    "n_match": 0,
@@ -633,7 +627,7 @@
   {
    "key": "greenhouse:84674th44metrea9999",
    "firm": "Metrea",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 96,
    "n_match": 0,
@@ -653,7 +647,7 @@
   {
    "key": "sitemap:https://hiscox.wd3.myworkdayjobs.com/Hiscox_External_Site/siteMap.xml",
    "firm": "Hiscox",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 88,
    "n_match": 0,
@@ -693,7 +687,7 @@
   {
    "key": "sitemap:https://inverto.dvinci-hr.com/sitemap.xml",
    "firm": "Inverto",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 59,
    "n_match": 0,
@@ -703,7 +697,7 @@
   {
    "key": "greenhouse:krollbondratingagency",
    "firm": "KBRA UK",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 58,
    "n_match": 0,
@@ -733,7 +727,7 @@
   {
    "key": "eightfold:astrazeneca.eightfold.ai",
    "firm": "AstraZeneca",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 52,
    "n_match": 0,
@@ -763,7 +757,7 @@
   {
    "key": "sitemap:https://careers.munichre.com/en/sitemap.xml",
    "firm": "Munich Re",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 49,
    "n_match": 0,
@@ -773,7 +767,7 @@
   {
    "key": "linklist:https://careers.smartrecruiters.com/SWGroup/early-careers",
    "firm": "S&W",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 48,
    "n_match": 0,
@@ -783,7 +777,7 @@
   {
    "key": "workday:fmr/wd1/FidelityCareers",
    "firm": "Fidelity Investments",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 47,
    "n_match": 0,
@@ -793,7 +787,7 @@
   {
    "key": "jsonboard:workable/starling-bank",
    "firm": "Starling Bank",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 46,
    "n_match": 0,
@@ -813,7 +807,7 @@
   {
    "key": "workday:bbva/wd3/BBVA",
    "firm": "BBVA",
-   "tier": "D",
+   "tier": "C",
    "kind": "no-early-careers",
    "n_total": 44,
    "n_match": 0,
@@ -853,7 +847,7 @@
   {
    "key": "jsonboard:teamtailor/proxima",
    "firm": "Proxima",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 39,
    "n_match": 0,
@@ -863,7 +857,7 @@
   {
    "key": "linklist:https://stax.hire.trakstar.com/",
    "firm": "Stax",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 39,
    "n_match": 0,
@@ -873,7 +867,7 @@
   {
    "key": "workday:paypal/wd1/jobs",
    "firm": "PayPal",
-   "tier": "D",
+   "tier": "C",
    "kind": "no-early-careers",
    "n_total": 39,
    "n_match": 0,
@@ -883,7 +877,7 @@
   {
    "key": "workday:ukgrantt/wd3/TraineeCareersGrantThornton",
    "firm": "Grant Thornton",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 38,
    "n_match": 0,
@@ -893,7 +887,7 @@
   {
    "key": "oracle:eeho.fa.us2.oraclecloud.com",
    "firm": "Oracle",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 37,
    "n_match": 0,
@@ -903,7 +897,7 @@
   {
    "key": "workday:gartner/wd5/EXT",
    "firm": "Gartner",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 37,
    "n_match": 0,
@@ -943,7 +937,7 @@
   {
    "key": "linklist:https://internationalcareers-waters.icims.com/jobs/search?ss=1&in_iframe=1&searchLocation=13702--",
    "firm": "Waters Corporation",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 35,
    "n_match": 0,
@@ -953,7 +947,7 @@
   {
    "key": "workday:guidehouse/wd1/External",
    "firm": "Guidehouse",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 35,
    "n_match": 0,
@@ -963,7 +957,7 @@
   {
    "key": "workday:hamiltonlane/wd108/Search",
    "firm": "Hamilton Lane",
-   "tier": "D",
+   "tier": "C",
    "kind": "no-early-careers",
    "n_total": 35,
    "n_match": 0,
@@ -973,7 +967,7 @@
   {
    "key": "lever:zopa",
    "firm": "Zopa",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 34,
    "n_match": 0,
@@ -983,7 +977,7 @@
   {
    "key": "linklist:https://gpfs.breezy.hr/",
    "firm": "GPFS",
-   "tier": "D",
+   "tier": "B",
    "kind": "off-desk-only",
    "n_total": 34,
    "n_match": 0,
@@ -993,7 +987,7 @@
   {
    "key": "workday:omers/wd3/OMERS_External",
    "firm": "Oxford Properties Group",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 34,
    "n_match": 0,
@@ -1033,7 +1027,7 @@
   {
    "key": "workday:tiaa/wd1/Search",
    "firm": "Nuveen",
-   "tier": "D",
+   "tier": "C",
    "kind": "no-early-careers",
    "n_total": 32,
    "n_match": 0,
@@ -1053,7 +1047,7 @@
   {
    "key": "workday:archgroup/wd1/Careers",
    "firm": "Arch Insurance International",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 30,
    "n_match": 0,
@@ -1083,7 +1077,7 @@
   {
    "key": "oracle:fa-evup-saasfaprod1.fa.ocs.oraclecloud.com",
    "firm": "Barnett Waddingham",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 29,
    "n_match": 0,
@@ -1103,7 +1097,7 @@
   {
    "key": "workday:ameriprise/wd5/Ameriprise",
    "firm": "Columbia Threadneedle Investments",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 29,
    "n_match": 0,
@@ -1123,7 +1117,7 @@
   {
    "key": "workday:thinkbrg/wd5/BRG_External_Career_Site",
    "firm": "BRG",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 27,
    "n_match": 0,
@@ -1143,7 +1137,7 @@
   {
    "key": "workday:awac/wd108/AlliedWorld_Careers",
    "firm": "Allied World",
-   "tier": "D",
+   "tier": "C",
    "kind": "off-desk-only",
    "n_total": 26,
    "n_match": 0,
@@ -1153,7 +1147,7 @@
   {
    "key": "workday:chathamfinancial/wd501/ChathamFinancial",
    "firm": "Chatham Financial",
-   "tier": "D",
+   "tier": "C",
    "kind": "no-early-careers",
    "n_total": 26,
    "n_match": 0,
@@ -1163,7 +1157,7 @@
   {
    "key": "linklist:https://jobs.ebrd.com/search/?q=&sortColumn=referencedate&sortDirection=desc",
    "firm": "EBRD",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 25,
    "n_match": 0,
@@ -1173,7 +1167,7 @@
   {
    "key": "sitemap:https://careers.johnstoncarmichael.com/sitemap/jobs",
    "firm": "Johnston Carmichael",
-   "tier": "D",
+   "tier": "B",
    "kind": "no-early-careers",
    "n_total": 25,
    "n_match": 0,
@@ -1183,7 +1177,7 @@
   {
    "key": "linklist:https://ukcareers.hdi.global/Careers_Portal/",
    "firm": "HDI Global",
-   "tier": "D",
+   "tier": "B",
    "kind": "error",
    "n_total": 11,
    "n_match": 0,
@@ -1213,7 +1207,7 @@
   {
    "key": "jsonboard:apptrkr/atlas-holdings/atlas-holdings-summer-internship-campaign-2027",
    "firm": "Atlas Holdings",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1223,7 +1217,7 @@
   {
    "key": "jsonboard:apptrkr/cvc-credit/cvc-credit-off-cycle-intern-programme-london-frankfurt",
    "firm": "CVC",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1233,7 +1227,7 @@
   {
    "key": "jsonboard:apptrkr/fenchurch-advisory/fenchurch-advisory-2026-2027",
    "firm": "Fenchurch Advisory",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1243,7 +1237,7 @@
   {
    "key": "jsonboard:apptrkr/qatalyst-partners/intern-campaign-2027",
    "firm": "Qatalyst Partners",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1253,7 +1247,7 @@
   {
    "key": "jsonboard:apptrkr/raymond-james/raymond-james-2027-summer-intern-programme",
    "firm": "Raymond James",
-   "tier": "D",
+   "tier": "B",
    "kind": "never-fetched",
    "n_total": 0,
    "n_match": 0,
@@ -1263,7 +1257,7 @@
   {
    "key": "jsonboard:apptrkr/temasek/temasek-campus-recruitment",
    "firm": "Temasek",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1273,7 +1267,7 @@
   {
    "key": "jsonboard:bamboohr/cygcap",
    "firm": "Cygnum Capital",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1293,7 +1287,7 @@
   {
    "key": "jsonboard:hibob/impaxassetmanagement",
    "firm": "Impax Asset Management",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1303,7 +1297,7 @@
   {
    "key": "jsonboard:recruitee/gpbullhound",
    "firm": "GP Bullhound",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1313,7 +1307,7 @@
   {
    "key": "jsonboard:workable/arkle-finance",
    "firm": "Arkle Finance",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1323,7 +1317,7 @@
   {
    "key": "jsonboard:workable/dealglobe",
    "firm": "DealGlobe",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1333,7 +1327,7 @@
   {
    "key": "jsonboard:workable/intriva-capital",
    "firm": "Intriva Capital",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1353,7 +1347,7 @@
   {
    "key": "linklist:https://icbcs.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/",
    "firm": "ICBC Standard Bank",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1363,7 +1357,7 @@
   {
    "key": "linklist:https://www.careers.zurich.com/search/?q=&optionsFacetsDD_shifttype=Intern%2FTrainee&optionsFacetsDD_customfield3=United+Kingdom&sortColumn=referencedate&sortDirection=desc",
    "firm": "Zurich Insurance",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1373,7 +1367,7 @@
   {
    "key": "linklist:https://www.earlycareers.networkrail.co.uk/wp-admin/admin-ajax.php?action=search_filter&activeRolesOnly=1",
    "firm": "Network Rail",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1383,7 +1377,7 @@
   {
    "key": "linklist:https://www.lpf.org.uk/about-us/working-for-us/careers/",
    "firm": "Lothian Pension Fund",
-   "tier": "D",
+   "tier": "B",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1403,7 +1397,7 @@
   {
    "key": "sitemap:https://life-careers.com/sitemap.xml",
    "firm": "Canada Life",
-   "tier": "D",
+   "tier": "B",
    "kind": "never-fetched",
    "n_total": 0,
    "n_match": 0,
@@ -1413,7 +1407,7 @@
   {
    "key": "sitemap:https://www.slateam.com/jobs-sitemap.xml",
    "firm": "Slate Asset Management",
-   "tier": "D",
+   "tier": "B",
    "kind": "never-fetched",
    "n_total": 0,
    "n_match": 0,
@@ -1423,7 +1417,7 @@
   {
    "key": "workday:sculptor/wd12/Sculptor_External_Career_Site",
    "firm": "Sculptor Capital Management",
-   "tier": "D",
+   "tier": "C",
    "kind": "empty",
    "n_total": 0,
    "n_match": 0,
@@ -1432,50 +1426,6 @@
   }
  ],
  "blindspots": [
-  {
-   "firm": "17Capital",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:53.825386+00:00",
-   "last_change_detected": "2026-10-19T17:24:53.262395+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "7IM",
-   "url": "https://careers.7im.co.uk/vacancies/vacancy-search-results.aspx",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:24.619954+00:00",
-   "last_change_detected": "2026-10-19T17:25:24.638431+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "ABN AMRO",
-   "url": "https://www.werkenbijabnamro.nl/sitemap.vacancy.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:12.211620+00:00",
-   "last_change_detected": "2026-10-19T17:25:14.948598+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Accenture",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:23.764733+00:00",
-   "last_change_detected": "2026-10-19T18:27:38.104219+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
   {
    "firm": "Accuracy",
    "url": "https://app-accuracy.bc.direct/recruitment/career/5ee62d016b800f0fc8e70d1c?page=1&limit=10",
@@ -1492,7 +1442,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-19T22:00:09.774547+00:00",
+   "last_checked_by_bell": "2026-10-19T22:15:04.886380+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1510,61 +1460,6 @@
    ]
   },
   {
-   "firm": "Adyen",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:24.919627+00:00",
-   "last_change_detected": "2026-10-19T20:56:20.770203+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
-   "firm": "Aegon",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:47.675940+00:00",
-   "last_change_detected": "2026-10-19T17:29:23.552434+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Affinius Capital",
-   "url": "https://careers-affiniuscapital.icims.com/jobs/search?ss=1&in_iframe=1",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:53.594555+00:00",
-   "last_change_detected": "2026-10-19T17:24:52.727163+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Ageas",
-   "url": "https://careers.ageas.co.uk/uk/en/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:06.048229+00:00",
-   "last_change_detected": "2026-10-19T17:28:36.747056+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "AIG",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:46.044139+00:00",
-   "last_change_detected": "2026-10-19T17:29:21.058511+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
    "firm": "AKO Capital",
    "url": "https://www.akocapital.com/careers/",
    "kind": "manual",
@@ -1573,17 +1468,6 @@
    "last_change_detected": "2026-10-19T18:27:08.966979+00:00",
    "categories": [
     "hedge_fund"
-   ]
-  },
-  {
-   "firm": "AlixPartners",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:08.916546+00:00",
-   "last_change_detected": "2026-10-19T17:26:42.762155+00:00",
-   "categories": [
-    "consulting"
    ]
   },
   {
@@ -1609,39 +1493,6 @@
    ]
   },
   {
-   "firm": "Allied World",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:01.643900+00:00",
-   "last_change_detected": "2026-10-19T17:29:43.827932+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Alpha FMC",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:09.433794+00:00",
-   "last_change_detected": "2026-10-19T17:26:43.263290+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "AlphaSights",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:48.245584+00:00",
-   "last_change_detected": "2026-10-19T17:27:40.401096+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
    "firm": "Alvarez & Marsal",
    "url": "https://careers.alvarezandmarsal.com/search/jobs/in/london?q=summer+intern",
    "kind": "manual",
@@ -1654,66 +1505,11 @@
   },
   {
    "firm": "Amazon",
-   "url": "",
+   "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:00:22.504756+00:00",
-   "last_change_detected": "2026-10-19T17:15:23.625511+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
-   "firm": "Amundi",
-   "url": "https://jobs.amundi.com/job/list-of-all-jobs.aspx",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:16.426018+00:00",
-   "last_change_detected": "2026-10-19T18:27:09.272272+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Analysys Mason",
-   "url": "https://careers.smartrecruiters.com/AnalysysMason1/api/more?type=location&value=London%2C%20GB&page=0",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:10.093078+00:00",
-   "last_change_detected": "2026-10-19T17:26:44.363098+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Ankura",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:12.329337+00:00",
-   "last_change_detected": "2026-10-19T17:26:47.409800+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Aon",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:00.765222+00:00",
-   "last_change_detected": "2026-10-19T17:29:41.425811+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Apple",
-   "url": "https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR&team=internships-STDNT-INTRN",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:58.067443+00:00",
-   "last_change_detected": "2026-10-19T17:27:58.281759+00:00",
+   "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
+   "last_checked_by_bell": "2026-10-19T22:15:16.655549+00:00",
+   "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
    ]
@@ -1723,7 +1519,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-19T22:00:24.817772+00:00",
+   "last_checked_by_bell": "2026-10-19T22:15:18.840001+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1741,91 +1537,14 @@
    ]
   },
   {
-   "firm": "Arbuthnot Latham",
-   "url": "https://careers.arbuthnotlatham.co.uk/vacancies/vacancy-search-results.aspx",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:25.340348+00:00",
-   "last_change_detected": "2026-10-19T17:25:25.480760+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Arcadis",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:15.399172+00:00",
-   "last_change_detected": "2026-10-19T19:10:23.763088+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Arch Insurance International",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:49.108880+00:00",
-   "last_change_detected": "2026-10-19T20:11:13.693201+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
    "firm": "Ardea Partners",
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:00:24.822473+00:00",
+   "last_checked_by_bell": "2026-10-19T22:15:18.849825+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
-   ]
-  },
-  {
-   "firm": "Arena Investors",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:36.978598+00:00",
-   "last_change_detected": "2026-10-19T17:24:29.175960+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Arkle Finance",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:48.370874+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "AstraZeneca",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:57.164946+00:00",
-   "last_change_detected": "2026-10-19T20:10:31.101521+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Atlas Holdings",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:40.086290+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "private_equity"
    ]
   },
   {
@@ -1843,9 +1562,9 @@
    "firm": "Augusta & Co",
    "url": "https://augustaco.com/careers/",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:30.509082+00:00",
-   "last_change_detected": null,
+   "why": "Open augustaco.com/careers for the Investment Banking Analyst internship (last opened 25 Nov 2025, by email).",
+   "last_checked_by_bell": "2026-10-19T22:06:30.511725+00:00",
+   "last_change_detected": "2026-10-19T17:22:11.489696+00:00",
    "categories": [
     "advisory"
    ]
@@ -1895,17 +1614,6 @@
    ]
   },
   {
-   "firm": "BAE Systems",
-   "url": "https://jobsearch.baesystems.com/jobs-sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:58.736186+00:00",
-   "last_change_detected": "2026-10-19T19:43:14.027835+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
    "firm": "Bain & Company",
    "url": "https://www.bain.com/careers/work-with-us/internships-programs/",
    "kind": "manual",
@@ -1928,61 +1636,6 @@
    ]
   },
   {
-   "firm": "Baringa",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:14.138311+00:00",
-   "last_change_detected": "2026-10-19T21:09:17.455887+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Barnett Waddingham",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:57.572257+00:00",
-   "last_change_detected": "2026-10-19T17:29:36.377580+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "BBVA",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:02.119572+00:00",
-   "last_change_detected": "2026-10-19T22:08:02.119572+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "BGC Group",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:23.298434+00:00",
-   "last_change_detected": "2026-10-19T18:27:24.149885+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
-   "firm": "BGF",
-   "url": "https://bgf.breezy.hr/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:42.383990+00:00",
-   "last_change_detected": "2026-10-19T17:24:35.404814+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
    "firm": "Blackfinch Group",
    "url": "https://blackfinch.com/Internships/",
    "kind": "manual",
@@ -1994,88 +1647,11 @@
    ]
   },
   {
-   "firm": "Blenheim Chalcot",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:54.466712+00:00",
-   "last_change_detected": "2026-10-19T17:24:53.924311+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "BlockTech",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:42.110030+00:00",
-   "last_change_detected": "2026-10-19T17:22:26.549951+00:00",
-   "categories": [
-    "crypto_mm"
-   ]
-  },
-  {
-   "firm": "BMLL Technologies",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:42.230285+00:00",
-   "last_change_detected": "2026-10-19T17:22:26.737860+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
-   "firm": "BRG",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:13.937368+00:00",
-   "last_change_detected": "2026-10-19T17:26:49.764018+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Brio Real Estate",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:25.634161+00:00",
-   "last_change_detected": "2026-10-19T17:25:25.959182+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
-   "firm": "British Airways",
-   "url": "https://careers.ba.com/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:58.798578+00:00",
-   "last_change_detected": "2026-10-19T17:55:57.845250+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "British Business Bank",
-   "url": "https://careers.british-business-bank.co.uk/sitemap",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:59.031027+00:00",
-   "last_change_detected": "2026-10-19T17:28:19.235816+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
    "firm": "British Land",
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-19T22:01:23.373942+00:00",
+   "last_checked_by_bell": "2026-10-19T22:16:15.292647+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -2093,135 +1669,14 @@
    ]
   },
   {
-   "firm": "Brown Advisory",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:12.795382+00:00",
-   "last_change_detected": "2026-10-19T17:25:16.208770+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Brown Shipley",
-   "url": "https://careers.quintet.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:25.882730+00:00",
-   "last_change_detected": "2026-10-19T17:25:26.392586+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "BTG Pactual",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:03.486849+00:00",
-   "last_change_detected": "2026-10-19T17:25:05.642474+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "BTIG",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:02.955988+00:00",
-   "last_change_detected": "2026-10-19T17:25:05.177981+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
    "firm": "Cabot Properties",
-   "url": "",
+   "url": "https://www.cabotprop.com/open-positions/",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:47.021402+00:00",
-   "last_change_detected": "2026-10-19T17:22:32.276469+00:00",
+   "why": "Cabot's London Investments/Asset Management Intern (last opened 14 Nov 2025): open its careers page's Open Positions (Paylocity) and look.",
+   "last_checked_by_bell": "2026-10-19T22:06:47.023999+00:00",
+   "last_change_detected": "2026-10-19T17:22:32.329140+00:00",
    "categories": [
     "real_estate"
-   ]
-  },
-  {
-   "firm": "Cairneagle",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:17.140758+00:00",
-   "last_change_detected": "2026-10-19T17:26:53.460009+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Campbell Lutyens",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:05.579799+00:00",
-   "last_change_detected": "2026-10-19T17:25:09.104893+00:00",
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Canada Life",
-   "url": "https://life-careers.com/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Capgemini",
-   "url": "https://careers.capgemini.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:18.258207+00:00",
-   "last_change_detected": "2026-10-19T17:26:55.497441+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Capital Dynamics",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:54.969837+00:00",
-   "last_change_detected": "2026-10-19T17:24:54.492614+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Capital Fund Management",
-   "url": "https://jobs.cfm.com/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:16.201558+00:00",
-   "last_change_detected": "2026-10-19T18:27:08.686131+00:00",
-   "categories": [
-    "quant_fund"
-   ]
-  },
-  {
-   "firm": "Capital One",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:49.801390+00:00",
-   "last_change_detected": "2026-10-19T21:24:42.959510+00:00",
-   "categories": [
-    "bank"
    ]
   },
   {
@@ -2233,17 +1688,6 @@
    "last_change_detected": "2026-10-19T17:25:16.243416+00:00",
    "categories": [
     "real_estate"
-   ]
-  },
-  {
-   "firm": "Cboe Global Markets",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:49.922759+00:00",
-   "last_change_detected": "2026-10-19T19:07:41.256528+00:00",
-   "categories": [
-    "market_infra"
    ]
   },
   {
@@ -2273,7 +1717,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-19T22:01:32.935170+00:00",
+   "last_checked_by_bell": "2026-10-19T22:16:27.162328+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2291,69 +1735,14 @@
    ]
   },
   {
-   "firm": "Cerberus Capital Management",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:49.038070+00:00",
-   "last_change_detected": "2026-10-19T17:24:41.573456+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Charities Aid Foundation",
-   "url": "https://www.cafcareers.co.uk/jobs",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:05.025925+00:00",
-   "last_change_detected": "2026-10-19T17:30:02.503244+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Charles River Associates",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:15.510877+00:00",
-   "last_change_detected": "2026-10-19T17:26:51.866422+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
    "firm": "Charles Taylor",
-   "url": "https://applybe.com/charlestayloriframe/search/results/all/1",
+   "url": "https://www.charlestaylor.com/en/careers/vacancies/",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:50.763638+00:00",
-   "last_change_detected": "2026-10-19T17:22:47.916994+00:00",
+   "why": "Charles Taylor's summer internships (last opened 23 Feb 2025): open its vacancies page, filter by Internship.",
+   "last_checked_by_bell": "2026-10-19T22:06:50.766218+00:00",
+   "last_change_detected": "2026-10-19T17:22:47.957114+00:00",
    "categories": [
     "insurance"
-   ]
-  },
-  {
-   "firm": "Chatham Financial",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:26.827888+00:00",
-   "last_change_detected": "2026-10-19T17:25:27.825305+00:00",
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Checkout.com",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:25.223135+00:00",
-   "last_change_detected": "2026-10-19T19:12:33.884266+00:00",
-   "categories": [
-    "tech"
    ]
   },
   {
@@ -2379,58 +1768,14 @@
    ]
   },
   {
-   "firm": "ClearView Healthcare Partners",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:17.661443+00:00",
-   "last_change_detected": "2026-10-19T17:26:53.963131+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
    "firm": "Climate Investment",
    "url": "https://www.climateinvestment.com/about-us/careers",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:53.533923+00:00",
-   "last_change_detected": "2026-10-19T17:22:50.105852+00:00",
+   "why": "Open the careers page's Current vacancies (and Greenhouse EU climateinvestment, in case it returns).",
+   "last_checked_by_bell": "2026-10-19T22:06:53.536466+00:00",
+   "last_change_detected": "2026-10-19T17:22:50.114109+00:00",
    "categories": [
     "private_equity"
-   ]
-  },
-  {
-   "firm": "CME Group",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:04.696515+00:00",
-   "last_change_detected": "2026-10-19T17:56:03.985107+00:00",
-   "categories": [
-    "exchange"
-   ]
-  },
-  {
-   "firm": "Columbia Threadneedle Investments",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:29.648282+00:00",
-   "last_change_detected": "2026-10-19T20:38:58.897762+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Corebridge",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:32.157356+00:00",
-   "last_change_detected": "2026-10-19T20:53:42.435916+00:00",
-   "categories": [
-    "asset_manager"
    ]
   },
   {
@@ -2456,58 +1801,14 @@
    ]
   },
   {
-   "firm": "CT: Accountants Advisers",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:59.058285+00:00",
-   "last_change_detected": "2026-10-19T17:29:38.944462+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
    "firm": "Cushman & Wakefield",
-   "url": "",
+   "url": "https://cushmanandwakefield.gtisolutions.co.uk/VacancyPosting/Search",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:16.051254+00:00",
-   "last_change_detected": "2026-10-19T17:25:19.293384+00:00",
+   "why": "Open C&W's GTI vacancy search (and its Workday EIC roles) for the UK Summer Internship 2027; last opened 2 February 2026 (14 February 2025 the cycle before).",
+   "last_checked_by_bell": "2026-10-19T22:08:16.056865+00:00",
+   "last_change_detected": "2026-10-19T17:25:19.384734+00:00",
    "categories": [
     "real_estate"
-   ]
-  },
-  {
-   "firm": "CVC",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:54.678161+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Cygnum Capital",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:05.296463+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Danske Bank",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:22.265467+00:00",
-   "last_change_detected": "2026-10-19T18:27:16.143258+00:00",
-   "categories": [
-    "bank"
    ]
   },
   {
@@ -2522,80 +1823,14 @@
    ]
   },
   {
-   "firm": "DealGlobe",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:16.184756+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
    "firm": "Deloitte",
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-19T22:02:09.191426+00:00",
+   "last_checked_by_bell": "2026-10-19T22:17:04.652504+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
-   ]
-  },
-  {
-   "firm": "Deutsche B\u00f6rse",
-   "url": "https://careers.deutsche-boerse.com/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:23.457751+00:00",
-   "last_change_detected": "2026-10-19T20:26:13.579473+00:00",
-   "categories": [
-    "exchange"
-   ]
-  },
-  {
-   "firm": "DigitalBridge",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:53.927751+00:00",
-   "last_change_detected": "2026-10-19T17:24:53.396181+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Dore Partnership",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:06.328199+00:00",
-   "last_change_detected": "2026-10-19T17:28:37.245396+00:00",
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Dow Jones",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:50.956194+00:00",
-   "last_change_detected": "2026-10-19T17:27:46.333103+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Dunelm",
-   "url": "https://www.dunelmcareers.com/live-jobs.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:06.435495+00:00",
-   "last_change_detected": "2026-10-19T17:56:05.587439+00:00",
-   "categories": [
-    "corporate"
    ]
   },
   {
@@ -2610,39 +1845,6 @@
    ]
   },
   {
-   "firm": "Eastdil Secured",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:04.612041+00:00",
-   "last_change_detected": "2026-10-19T17:25:07.552177+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
-   "firm": "EBRD",
-   "url": "https://jobs.ebrd.com/search/?q=&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:59.409408+00:00",
-   "last_change_detected": "2026-10-19T17:28:19.628049+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Engie Global Energy Management",
-   "url": "https://jobs.engie.com/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:54.619794+00:00",
-   "last_change_detected": "2026-10-19T20:52:15.885382+00:00",
-   "categories": [
-    "commodities"
-   ]
-  },
-  {
    "firm": "Enstar Group",
    "url": "https://enstarearlycareers.ambertrack.co.uk/",
    "kind": "manual",
@@ -2654,39 +1856,6 @@
    ]
   },
   {
-   "firm": "EQ",
-   "url": "https://careers.sumer.co.uk/jobs",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:15.973505+00:00",
-   "last_change_detected": "2026-10-19T17:30:24.646107+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "Equiteq",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:05.041624+00:00",
-   "last_change_detected": "2026-10-19T17:25:08.243197+00:00",
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Equitix",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:38.737341+00:00",
-   "last_change_detected": "2026-10-19T17:24:31.075370+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
    "firm": "Ethical Capital Partners",
    "url": "https://www.ethicalcapitalpartners.com/careers",
    "kind": "manual",
@@ -2695,127 +1864,6 @@
    "last_change_detected": "2026-10-19T17:24:55.386449+00:00",
    "categories": [
     "private_equity"
-   ]
-  },
-  {
-   "firm": "Euronext",
-   "url": "https://www.euronext.com/en/about/careers/open-positions?name=14",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:23.573243+00:00",
-   "last_change_detected": "2026-10-19T18:27:37.759444+00:00",
-   "categories": [
-    "exchange"
-   ]
-  },
-  {
-   "firm": "Evelyn Partners",
-   "url": "https://www.smartrecruiters.com/EvelynPartners?keyword=intern",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:33.418427+00:00",
-   "last_change_detected": "2026-10-19T17:25:36.234270+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Everest",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:51.103944+00:00",
-   "last_change_detected": "2026-10-19T17:29:28.465716+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Expedia",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:05.841144+00:00",
-   "last_change_detected": "2026-10-19T17:28:29.841877+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
-   "firm": "ExxonMobil",
-   "url": "https://jobs.exxonmobil.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:20.836694+00:00",
-   "last_change_detected": "2026-10-19T17:25:21.443613+00:00",
-   "categories": [
-    "commodities"
-   ]
-  },
-  {
-   "firm": "EY-Parthenon",
-   "url": "https://ukstudents.ey.com/wp-admin/admin-ajax.php?action=search_filter&jobs=%26program%5B%5D%3D41%26business-area%5B%5D%3D312",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:20.272157+00:00",
-   "last_change_detected": "2026-10-19T17:26:57.588977+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "FactSet",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:53.232898+00:00",
-   "last_change_detected": "2026-10-19T17:27:50.071408+00:00",
-   "categories": [
-    "exchange"
-   ]
-  },
-  {
-   "firm": "Fasanara Capital",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:33.600150+00:00",
-   "last_change_detected": "2026-10-19T17:25:36.508283+00:00",
-   "categories": [
-    "hedge_fund"
-   ]
-  },
-  {
-   "firm": "Fenchurch Advisory",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:06.092511+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Fide Partners",
-   "url": "https://fidepartners.factorial.com/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:20.559340+00:00",
-   "last_change_detected": "2026-10-19T17:26:57.883604+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Fidelity Investments",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:49.981350+00:00",
-   "last_change_detected": "2026-10-19T20:09:21.112896+00:00",
-   "categories": [
-    "asset_manager"
    ]
   },
   {
@@ -2831,11 +1879,11 @@
   },
   {
    "firm": "First Bank of Nigeria",
-   "url": "https://www.fbnbank.co.uk/vacancy-sitemap.xml",
+   "url": "https://www.fbnbank.co.uk/careers/",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:21.251790+00:00",
-   "last_change_detected": "2026-10-19T17:25:22.293245+00:00",
+   "why": "Check fbnbank.co.uk/careers (and the recruiter's Loxo link) for FirstBank UK's Summer Internship Programme; last opened 20 January 2026.",
+   "last_checked_by_bell": "2026-10-19T22:08:21.258211+00:00",
+   "last_change_detected": "2026-10-19T17:25:22.319604+00:00",
    "categories": [
     "bank"
    ]
@@ -2845,65 +1893,10 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-19T22:02:20.640339+00:00",
+   "last_checked_by_bell": "2026-10-19T22:17:16.202708+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
-   ]
-  },
-  {
-   "firm": "Fitch Ratings",
-   "url": "https://careers.fitch.group/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:04.970486+00:00",
-   "last_change_detected": "2026-10-19T20:10:39.630238+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Flowdesk",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:58.435901+00:00",
-   "last_change_detected": "2026-10-19T17:23:06.329754+00:00",
-   "categories": [
-    "crypto_mm"
-   ]
-  },
-  {
-   "firm": "Franklin Templeton",
-   "url": "https://careers.franklintempleton.com/us/en/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:46.544089+00:00",
-   "last_change_detected": "2026-10-19T20:09:17.120751+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "FT Partners",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:55.498260+00:00",
-   "last_change_detected": "2026-10-19T17:24:54.995714+00:00",
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "FTI Consulting",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:22.136242+00:00",
-   "last_change_detected": "2026-10-19T21:39:15.139162+00:00",
-   "categories": [
-    "consulting"
    ]
   },
   {
@@ -2911,65 +1904,10 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-19T22:02:24.379689+00:00",
+   "last_checked_by_bell": "2026-10-19T22:17:20.104223+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
-   ]
-  },
-  {
-   "firm": "Galaxy Digital",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:06:58.957034+00:00",
-   "last_change_detected": "2026-10-19T17:23:06.891830+00:00",
-   "categories": [
-    "crypto_mm"
-   ]
-  },
-  {
-   "firm": "Gallagher",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:02.616435+00:00",
-   "last_change_detected": "2026-10-19T17:26:34.574283+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "Gartner",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:53.500105+00:00",
-   "last_change_detected": "2026-10-19T20:55:56.253107+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "GE Vernova",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:54.827706+00:00",
-   "last_change_detected": "2026-10-19T18:40:18.030422+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Genuit Group",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:08.324210+00:00",
-   "last_change_detected": "2026-10-19T17:28:39.713685+00:00",
-   "categories": [
-    "corporate"
    ]
   },
   {
@@ -2988,32 +1926,10 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-19T22:02:32.056116+00:00",
+   "last_checked_by_bell": "2026-10-19T22:17:27.045550+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
-   ]
-  },
-  {
-   "firm": "GLG",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:57.271641+00:00",
-   "last_change_detected": "2026-10-19T20:24:50.434116+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Global Gate",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:39.557594+00:00",
-   "last_change_detected": "2026-10-19T17:24:32.125788+00:00",
-   "categories": [
-    "private_equity"
    ]
   },
   {
@@ -3043,65 +1959,10 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-19T22:02:32.059793+00:00",
+   "last_checked_by_bell": "2026-10-19T22:17:27.048929+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
-   ]
-  },
-  {
-   "firm": "Google",
-   "url": "https://www.google.com/about/careers/applications/jobs/results?location=United%20Kingdom&employment_type=INTERN&sort_by=date",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:00.001325+00:00",
-   "last_change_detected": "2026-10-19T17:28:21.493163+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
-   "firm": "Government Economic Service",
-   "url": "https://ges-careers.hiringplatform.co.uk/list/Summer_Scheme",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:00.446317+00:00",
-   "last_change_detected": "2026-10-19T17:28:22.034490+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "GP Bullhound",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:05.350996+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "GPFS",
-   "url": "https://gpfs.breezy.hr/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:04.720986+00:00",
-   "last_change_detected": "2026-10-19T17:29:48.346220+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "Grant Thornton",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:55.164188+00:00",
-   "last_change_detected": "2026-10-19T17:29:33.336679+00:00",
-   "categories": [
-    "professional_services"
    ]
   },
   {
@@ -3116,83 +1977,6 @@
    ]
   },
   {
-   "firm": "Grosvenor",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:04.001442+00:00",
-   "last_change_detected": "2026-10-19T17:25:06.469954+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
-   "firm": "Guidehouse",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:24.902046+00:00",
-   "last_change_detected": "2026-10-19T18:25:26.427497+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Hamilton Insurance Group",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:14.356487+00:00",
-   "last_change_detected": "2026-10-19T17:30:20.650899+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Hamilton Lane",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:50.228638+00:00",
-   "last_change_detected": "2026-10-19T17:24:43.236017+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Handelsbanken",
-   "url": "https://jobs.handelsbanken.co.uk/jobs/search",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:23.510892+00:00",
-   "last_change_detected": "2026-10-19T17:25:23.590780+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Hargreaves Lansdown",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:01.614059+00:00",
-   "last_change_detected": "2026-10-19T17:28:23.444347+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Harrison Street",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:36.763263+00:00",
-   "last_change_detected": "2026-10-19T17:24:28.899520+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
    "firm": "Hartree Partners",
    "url": "https://www.hartreepartners.com/careers/",
    "kind": "manual",
@@ -3201,50 +1985,6 @@
    "last_change_detected": "2026-10-19T17:23:10.984447+00:00",
    "categories": [
     "commodities"
-   ]
-  },
-  {
-   "firm": "Hayfin Capital Management",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:37.497037+00:00",
-   "last_change_detected": "2026-10-19T17:24:29.645597+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "HDI Global",
-   "url": "https://ukcareers.hdi.global/Careers_Portal/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T17:57:03.138078+00:00",
-   "last_change_detected": "2026-10-19T17:29:47.359833+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Hines",
-   "url": "https://careers-hines.icims.com/jobs/search?ss=1&in_iframe=1&searchLocation=13702--London",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:47.079581+00:00",
-   "last_change_detected": "2026-10-19T17:26:16.481841+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
-   "firm": "Hiscox",
-   "url": "https://hiscox.wd3.myworkdayjobs.com/Hiscox_External_Site/siteMap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:51.728677+00:00",
-   "last_change_detected": "2026-10-19T21:09:54.504258+00:00",
-   "categories": [
-    "insurance"
    ]
   },
   {
@@ -3281,50 +2021,6 @@
    ]
   },
   {
-   "firm": "ICBC Standard Bank",
-   "url": "https://icbcs.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:23.752644+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "ICE",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:01.890604+00:00",
-   "last_change_detected": "2026-10-19T17:23:11.813434+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
-   "firm": "Impax Asset Management",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:50.223169+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Indurent (St. Modwen Logistics)",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:05.467979+00:00",
-   "last_change_detected": "2026-10-19T17:26:38.866048+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
    "firm": "Infinitum Capital",
    "url": "https://infinitumcapital.co.uk/global-presence-contact-us/",
    "kind": "manual",
@@ -3336,17 +2032,6 @@
    ]
   },
   {
-   "firm": "InfraRed Capital Partners",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:39.819276+00:00",
-   "last_change_detected": "2026-10-19T17:24:32.476129+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
    "firm": "Insurance Advisory Partners",
    "url": "https://www.insuranceap.com/",
    "kind": "manual",
@@ -3355,160 +2040,6 @@
    "last_change_detected": "2026-10-19T17:25:22.325494+00:00",
    "categories": [
     "advisory"
-   ]
-  },
-  {
-   "firm": "Interpath Advisory",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:18.071436+00:00",
-   "last_change_detected": "2026-10-19T17:26:54.881753+00:00",
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Intesa Sanpaolo",
-   "url": "https://jobs.intesasanpaolo.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:22.623628+00:00",
-   "last_change_detected": "2026-10-19T18:27:18.150722+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Intriva Capital",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:38.476742+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Inverto",
-   "url": "https://inverto.dvinci-hr.com/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:44.573000+00:00",
-   "last_change_detected": "2026-10-19T17:55:38.460139+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Isio",
-   "url": "https://careers.isio.com/jobs",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:00.807607+00:00",
-   "last_change_detected": "2026-10-19T17:29:42.071945+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "ITE Management",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:37.933885+00:00",
-   "last_change_detected": "2026-10-19T17:24:30.189632+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Ithaca Energy",
-   "url": "https://www.ithacaenergy.com/careers/apply",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:02.186157+00:00",
-   "last_change_detected": "2026-10-19T17:23:12.364852+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Jain Global",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:03.186118+00:00",
-   "last_change_detected": "2026-10-19T17:23:14.388637+00:00",
-   "categories": [
-    "quant_fund"
-   ]
-  },
-  {
-   "firm": "Janus Henderson",
-   "url": "https://jobs.janushenderson.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:18.300108+00:00",
-   "last_change_detected": "2026-10-19T18:27:11.660802+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Javelin Global Commodities",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:03.311946+00:00",
-   "last_change_detected": "2026-10-19T17:23:14.607645+00:00",
-   "categories": [
-    "commodities"
-   ]
-  },
-  {
-   "firm": "JLL",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:53.867812+00:00",
-   "last_change_detected": "2026-10-19T20:23:46.383751+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
-   "firm": "Johnston Carmichael",
-   "url": "https://careers.johnstoncarmichael.com/sitemap/jobs",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:04.962632+00:00",
-   "last_change_detected": "2026-10-19T17:43:46.546677+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "Julius Baer",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:56.759568+00:00",
-   "last_change_detected": "2026-10-19T17:26:27.475832+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "KBRA UK",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:01.723691+00:00",
-   "last_change_detected": "2026-10-19T17:28:23.626745+00:00",
-   "categories": [
-    "corporate"
    ]
   },
   {
@@ -3545,17 +2076,6 @@
    ]
   },
   {
-   "firm": "L.E.K. Consulting",
-   "url": "https://lek.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-2/candidate/jobboard/vacancy/1/adv/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:22.305234+00:00",
-   "last_change_detected": "2026-10-19T17:27:00.201608+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
    "firm": "Lansdowne Partners",
    "url": "https://www.lansdownepartners.com/careers/",
    "kind": "manual",
@@ -3568,11 +2088,11 @@
   },
   {
    "firm": "LaSalle Investment Management",
-   "url": "",
+   "url": "https://apptrkr.io/lasalle-investment-management/2026-summer-internship-programme",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:48.226060+00:00",
-   "last_change_detected": "2026-10-19T17:24:40.229134+00:00",
+   "why": "LaSalle's London summer internships went through Dartmouth Partners' apptrkr, opened 24 October 2025 (23 September 2024 before); the next campaign's name is unknown until it opens.",
+   "last_checked_by_bell": "2026-10-19T22:07:48.229684+00:00",
+   "last_change_detected": "2026-10-19T17:24:40.237564+00:00",
    "categories": [
     "real_estate"
    ]
@@ -3586,61 +2106,6 @@
    "last_change_detected": "2026-10-19T17:29:47.815452+00:00",
    "categories": [
     "professional_services"
-   ]
-  },
-  {
-   "firm": "Leerink Partners",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:02.847467+00:00",
-   "last_change_detected": "2026-10-19T17:25:04.953726+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Lendable",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:08.362999+00:00",
-   "last_change_detected": "2026-10-19T17:28:39.859832+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Lenovo",
-   "url": "https://jobs.lenovo.com/en_US/careers/SearchJobs/?search=intern",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:12.153694+00:00",
-   "last_change_detected": "2026-10-19T22:10:12.153694+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
-   "firm": "LGT Wealth Management",
-   "url": "https://www.lgtwm.com/uk-en/careers/jobs",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:57.017889+00:00",
-   "last_change_detected": "2026-10-19T17:26:27.966794+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "LionTree",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:35.609038+00:00",
-   "last_change_detected": "2026-10-19T17:24:22.313647+00:00",
-   "categories": [
-    "advisory"
    ]
   },
   {
@@ -3677,17 +2142,6 @@
    ]
   },
   {
-   "firm": "Lothian Pension Fund",
-   "url": "https://www.lpf.org.uk/about-us/working-for-us/careers/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:57.176474+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
    "firm": "Macro Hive",
    "url": "https://macrohive.com/",
    "kind": "manual",
@@ -3699,69 +2153,14 @@
    ]
   },
   {
-   "firm": "Markel",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:03.707589+00:00",
-   "last_change_detected": "2026-10-19T20:25:51.608785+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "MarketAxess",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:11.925663+00:00",
-   "last_change_detected": "2026-10-19T17:23:38.601480+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
-   "firm": "Mastercard",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:18.685732+00:00",
-   "last_change_detected": "2026-10-19T17:28:48.036643+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
    "firm": "McKinsey & Company",
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:03:52.161630+00:00",
+   "last_checked_by_bell": "2026-10-19T22:18:47.639978+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
-   ]
-  },
-  {
-   "firm": "Menzies",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:58.867131+00:00",
-   "last_change_detected": "2026-10-19T17:29:38.069621+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "Metrea",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:12.437342+00:00",
-   "last_change_detected": "2026-10-19T17:23:39.150371+00:00",
-   "categories": [
-    "corporate"
    ]
   },
   {
@@ -3802,43 +2201,10 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:04:08.023811+00:00",
+   "last_checked_by_bell": "2026-10-19T22:19:03.081606+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
-   ]
-  },
-  {
-   "firm": "MSCI",
-   "url": "https://ukcareers-msci.icims.com/jobs/search?ss=1&in_iframe=1",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:16.569731+00:00",
-   "last_change_detected": "2026-10-19T17:28:45.728507+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
-   "firm": "Munich Re",
-   "url": "https://careers.munichre.com/en/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:12.418321+00:00",
-   "last_change_detected": "2026-10-19T17:44:03.288691+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "National Audit Office",
-   "url": "https://naoaccountancyscheme.co.uk/apply-here/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:20.529193+00:00",
-   "last_change_detected": "2026-10-19T17:28:51.382095+00:00",
-   "categories": [
-    "professional_services"
    ]
   },
   {
@@ -3868,65 +2234,10 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:04:20.083779+00:00",
+   "last_checked_by_bell": "2026-10-19T22:19:17.090374+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
-   ]
-  },
-  {
-   "firm": "NCR Atleos",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:20.308911+00:00",
-   "last_change_detected": "2026-10-19T17:28:50.889148+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Network Rail",
-   "url": "https://www.earlycareers.networkrail.co.uk/wp-admin/admin-ajax.php?action=search_filter&activeRolesOnly=1",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:25.671989+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Neuberger Berman",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:51.937248+00:00",
-   "last_change_detected": "2026-10-19T21:08:00.661202+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Newton",
-   "url": "https://newton.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-7/candidate/jobboard/vacancy/2/adv/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:33.443720+00:00",
-   "last_change_detected": "2026-10-19T17:27:11.036533+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "NFU Mutual",
-   "url": "https://careers.nfumutual.co.uk/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:03.762506+00:00",
-   "last_change_detected": "2026-10-19T17:29:46.422247+00:00",
-   "categories": [
-    "insurance"
    ]
   },
   {
@@ -3945,32 +2256,10 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:04:30.581129+00:00",
+   "last_checked_by_bell": "2026-10-19T22:19:27.978769+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
-   ]
-  },
-  {
-   "firm": "Norges Bank Investment Management",
-   "url": "https://www.nbim.no/en/about-us/career/summer-internship/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:57.482946+00:00",
-   "last_change_detected": "2026-10-19T17:26:28.427141+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Northern Trust",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:59.677658+00:00",
-   "last_change_detected": "2026-10-19T17:26:30.782799+00:00",
-   "categories": [
-    "asset_manager"
    ]
   },
   {
@@ -3985,47 +2274,14 @@
    ]
   },
   {
-   "firm": "Nuveen",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:02.039472+00:00",
-   "last_change_detected": "2026-10-19T21:38:51.795190+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
    "firm": "Oak Hill Advisors",
-   "url": "",
+   "url": "https://apptrkr.io/oak-hill-advisors/oha-summer-intern-programme-2026",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:42.493072+00:00",
-   "last_change_detected": "2026-10-19T17:24:35.520397+00:00",
+   "why": "OHA's London summer analyst programme went through Dartmouth Partners' apptrkr (opened 18 August 2025 and 24 September 2024); the next campaign's name is unknown until it opens.",
+   "last_checked_by_bell": "2026-10-19T22:07:42.497104+00:00",
+   "last_change_detected": "2026-10-19T17:24:35.558266+00:00",
    "categories": [
     "asset_manager"
-   ]
-  },
-  {
-   "firm": "Oaktree Capital Management",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:57.532059+00:00",
-   "last_change_detected": "2026-10-19T17:24:57.457647+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "OC&C Strategy Consultants",
-   "url": "https://careers.occstrategy.com/vacancies/vacancy-search-results.aspx",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:45.453053+00:00",
-   "last_change_detected": "2026-10-19T17:27:35.606930+00:00",
-   "categories": [
-    "consulting"
    ]
   },
   {
@@ -4033,87 +2289,21 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-19T22:04:30.584651+00:00",
+   "last_checked_by_bell": "2026-10-19T22:19:27.982244+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
    ]
   },
   {
-   "firm": "Oracle",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:27.222614+00:00",
-   "last_change_detected": "2026-10-19T17:28:58.295990+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
-   "firm": "Oxera",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:17.731242+00:00",
-   "last_change_detected": "2026-10-19T17:26:54.347428+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Oxford Properties Group",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:53.230087+00:00",
-   "last_change_detected": "2026-10-19T20:22:57.117568+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
    "firm": "Pacific Asset Management",
    "url": "https://www.pacificam.co.uk/internships/",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:16.702043+00:00",
-   "last_change_detected": "2026-10-19T17:23:46.354875+00:00",
+   "why": "Pacific AM's internships (first and second years): last opened about 17 December 2025, by a form on its internships page.",
+   "last_checked_by_bell": "2026-10-19T22:07:16.704568+00:00",
+   "last_change_detected": "2026-10-19T17:23:46.377310+00:00",
    "categories": [
     "asset_manager"
-   ]
-  },
-  {
-   "firm": "Partners Group",
-   "url": "https://jobs.partnersgroup.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:55.901502+00:00",
-   "last_change_detected": "2026-10-19T17:24:55.342956+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "PayPal",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:29.160245+00:00",
-   "last_change_detected": "2026-10-19T17:29:00.944645+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Pension Insurance Corporation",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:58.473341+00:00",
-   "last_change_detected": "2026-10-19T17:29:37.558258+00:00",
-   "categories": [
-    "insurance"
    ]
   },
   {
@@ -4139,47 +2329,14 @@
    ]
   },
   {
-   "firm": "PitchBook",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:29.262007+00:00",
-   "last_change_detected": "2026-10-19T17:29:01.199977+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
    "firm": "PKF Littlejohn",
    "url": "https://www.pkf-l.com/careers/early-careers/university-placements/",
    "kind": "manual",
    "why": "Its Summer Work Placement (last opened 10 December 2025) is on an Eploy board behind a bot challenge: open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:05:03.874767+00:00",
+   "last_checked_by_bell": "2026-10-19T22:20:00.310303+00:00",
    "last_change_detected": "2026-10-16T20:36:07.861070+00:00",
    "categories": [
     "professional_services"
-   ]
-  },
-  {
-   "firm": "PKF Smith Cooper",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:58.936619+00:00",
-   "last_change_detected": "2026-10-19T17:29:38.714641+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "Plural Strategy",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:16.580165+00:00",
-   "last_change_detected": "2026-10-19T17:26:52.912872+00:00",
-   "categories": [
-    "consulting"
    ]
   },
   {
@@ -4194,80 +2351,14 @@
    ]
   },
   {
-   "firm": "PredictX",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:29.418281+00:00",
-   "last_change_detected": "2026-10-19T17:29:01.422432+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
    "firm": "Principal Asset Management",
    "url": "https://careers.principal.com/",
    "kind": "manual",
    "why": "Its readable board (the Jibe front) held no UK roles of 155, and its iCIMS host refuses everyone.",
-   "last_checked_by_bell": "2026-10-19T22:05:04.997818+00:00",
+   "last_checked_by_bell": "2026-10-19T22:20:01.386861+00:00",
    "last_change_detected": "2026-10-16T20:36:08.480635+00:00",
    "categories": [
     "asset_manager"
-   ]
-  },
-  {
-   "firm": "Proxima",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:45.528371+00:00",
-   "last_change_detected": "2026-10-19T17:27:36.475794+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Putnam",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:16.058845+00:00",
-   "last_change_detected": "2026-10-19T17:26:52.401397+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Qatalyst Partners",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:40.623917+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Raine Group",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:36.039246+00:00",
-   "last_change_detected": "2026-10-19T17:24:22.594732+00:00",
-   "categories": [
-    "advisory"
-   ]
-  },
-  {
-   "firm": "Raymond James",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
-   "categories": [
-    "bank"
    ]
   },
   {
@@ -4275,7 +2366,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:05:15.992112+00:00",
+   "last_checked_by_bell": "2026-10-19T22:20:12.264484+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -4286,21 +2377,10 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:05:16.344024+00:00",
+   "last_checked_by_bell": "2026-10-19T22:20:12.745903+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
-   ]
-  },
-  {
-   "firm": "Related Argent",
-   "url": "https://relatedargent.co.uk/careers",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:02.725619+00:00",
-   "last_change_detected": "2026-10-19T17:26:35.021462+00:00",
-   "categories": [
-    "real_estate"
    ]
   },
   {
@@ -4330,43 +2410,10 @@
    "url": "https://www.rokoscapital.com/careers",
    "kind": "manual",
    "why": "Its RCM Internship Programme (last opened 1 Nov) is applied for on a recruiter's apptrkr campaign whose name is known only once it opens: open the careers page and look.",
-   "last_checked_by_bell": "2026-10-19T22:05:17.740481+00:00",
+   "last_checked_by_bell": "2026-10-19T22:20:14.475120+00:00",
    "last_change_detected": "2026-10-17T14:35:09.747872+00:00",
    "categories": [
     "quant_fund"
-   ]
-  },
-  {
-   "firm": "Roland Berger",
-   "url": "https://careers.smartrecruiters.com/RolandBerger/api/more?type=location&value=London%2C%20GB&page=0",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:45.641120+00:00",
-   "last_change_detected": "2026-10-19T17:27:36.722143+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Rothesay",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:58.260290+00:00",
-   "last_change_detected": "2026-10-19T17:29:37.304618+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Royal London",
-   "url": "https://jobs.royallondon.com/sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:59.186293+00:00",
-   "last_change_detected": "2026-10-19T17:29:39.202834+00:00",
-   "categories": [
-    "insurance"
    ]
   },
   {
@@ -4381,67 +2428,12 @@
    ]
   },
   {
-   "firm": "RWE Supply & Trading",
-   "url": "https://jobs.rwe.com/search/?q=trading&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:18.246216+00:00",
-   "last_change_detected": "2026-10-19T17:23:48.692953+00:00",
-   "categories": [
-    "commodities"
-   ]
-  },
-  {
-   "firm": "Rystad Energy",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:21.185327+00:00",
-   "last_change_detected": "2026-10-19T17:24:00.172115+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "S&P Global",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:32.712374+00:00",
-   "last_change_detected": "2026-10-19T17:29:05.807329+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
-   "firm": "S&W",
-   "url": "https://careers.smartrecruiters.com/SWGroup/early-careers",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:14.140932+00:00",
-   "last_change_detected": "2026-10-19T17:30:20.003421+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
-   "firm": "Saffery",
-   "url": "https://saffery.kallidusrecruit.com/Search.aspx",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:04.115009+00:00",
-   "last_change_detected": "2026-10-19T17:29:47.537542+00:00",
-   "categories": [
-    "professional_services"
-   ]
-  },
-  {
    "firm": "Saltgate",
-   "url": "https://saltgate.com/wp-content/loader.php",
+   "url": "https://saltgate.com/student-opportunities-desktop/",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:21.586712+00:00",
-   "last_change_detected": "2026-10-19T17:24:02.136267+00:00",
+   "why": "Open saltgate.com's student page and its PeopleHR board for the Summer Programme (last opened 16 Feb 2026).",
+   "last_checked_by_bell": "2026-10-19T22:07:21.589425+00:00",
+   "last_change_detected": "2026-10-19T17:24:02.149416+00:00",
    "categories": [
     "professional_services"
    ]
@@ -4451,21 +2443,10 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-19T22:05:32.875443+00:00",
+   "last_checked_by_bell": "2026-10-19T22:20:29.763885+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
-   ]
-  },
-  {
-   "firm": "Sculptor Capital Management",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:59.658723+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "hedge_fund"
    ]
   },
   {
@@ -4475,28 +2456,6 @@
    "why": "SEB UK's London internships (corporate banking, structured finance, investment banking; 12-week or 6-month) are posted on this page and SEB's Lever board when open: January intake applies September/October, July summer intake applies in January, October intake applies May/June.",
    "last_checked_by_bell": "2026-10-19T22:11:22.269386+00:00",
    "last_change_detected": "2026-10-19T18:27:16.164828+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Severn Trent",
-   "url": "https://www.careers.severntrent.com/search/?q=placement&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:32.902626+00:00",
-   "last_change_detected": "2026-10-19T17:29:06.164128+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "SilverTide",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:21.930207+00:00",
-   "last_change_detected": "2026-10-19T17:24:02.644176+00:00",
    "categories": [
     "bank"
    ]
@@ -4524,17 +2483,6 @@
    ]
   },
   {
-   "firm": "Sixth Street",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:05.349939+00:00",
-   "last_change_detected": "2026-10-19T21:38:55.658379+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
    "firm": "Skagen Capital",
    "url": "https://www.skagencapital.com/contact.html",
    "kind": "manual",
@@ -4550,21 +2498,10 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-19T22:05:38.575572+00:00",
+   "last_checked_by_bell": "2026-10-19T22:20:35.106595+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
-   ]
-  },
-  {
-   "firm": "Slate Asset Management",
-   "url": "https://www.slateam.com/jobs-sitemap.xml",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": null,
-   "last_change_detected": null,
-   "categories": [
-    "real_estate"
    ]
   },
   {
@@ -4580,35 +2517,13 @@
   },
   {
    "firm": "Sona Asset Management",
-   "url": "",
+   "url": "https://apptrkr.io/sona-asset-management/intern-graduate-programme",
    "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:23.646313+00:00",
-   "last_change_detected": null,
+   "why": "Open Sona's apptrkr campaign (and sona-am.com) for the London Summer Intern Programme.",
+   "last_checked_by_bell": "2026-10-19T22:07:23.649125+00:00",
+   "last_change_detected": "2026-10-19T17:24:05.681052+00:00",
    "categories": [
     "quant_fund"
-   ]
-  },
-  {
-   "firm": "Soros Fund Management",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:23.757774+00:00",
-   "last_change_detected": "2026-10-19T17:24:05.795751+00:00",
-   "categories": [
-    "quant_fund"
-   ]
-  },
-  {
-   "firm": "Splunk",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:33.802345+00:00",
-   "last_change_detected": "2026-10-19T17:29:10.318688+00:00",
-   "categories": [
-    "tech"
    ]
   },
   {
@@ -4620,39 +2535,6 @@
    "last_change_detected": "2026-10-19T17:25:24.000763+00:00",
    "categories": [
     "bank"
-   ]
-  },
-  {
-   "firm": "Starling Bank",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:34.152603+00:00",
-   "last_change_detected": "2026-10-19T17:29:10.755647+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Stax",
-   "url": "https://stax.hire.trakstar.com/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:47.313984+00:00",
-   "last_change_detected": "2026-10-19T17:27:38.792552+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "StepStone Group",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:39.922852+00:00",
-   "last_change_detected": "2026-10-19T17:24:32.598260+00:00",
-   "categories": [
-    "private_equity"
    ]
   },
   {
@@ -4689,18 +2571,6 @@
    ]
   },
   {
-   "firm": "StoneX",
-   "url": "https://uk-stonex.icims.com/jobs/search?ss=1&in_iframe=1",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:24.782544+00:00",
-   "last_change_detected": "2026-10-19T17:24:07.554688+00:00",
-   "categories": [
-    "commodities",
-    "bank"
-   ]
-  },
-  {
    "firm": "Stout",
    "url": "https://www.careers-page.com/stout-park-ltd",
    "kind": "manual",
@@ -4709,17 +2579,6 @@
    "last_change_detected": "2026-10-19T17:25:24.030178+00:00",
    "categories": [
     "advisory"
-   ]
-  },
-  {
-   "firm": "Stripe",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:23.955571+00:00",
-   "last_change_detected": "2026-10-19T22:11:23.955571+00:00",
-   "categories": [
-    "tech"
    ]
   },
   {
@@ -4734,61 +2593,6 @@
    ]
   },
   {
-   "firm": "SumUp",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:25.457978+00:00",
-   "last_change_detected": "2026-10-19T18:27:42.806810+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
-   "firm": "Swiss Re",
-   "url": "https://careers.swissre.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:59.965091+00:00",
-   "last_change_detected": "2026-10-19T17:29:40.222240+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "Symphony",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:34.258283+00:00",
-   "last_change_detected": "2026-10-19T17:29:11.028715+00:00",
-   "categories": [
-    "tech"
-   ]
-  },
-  {
-   "firm": "Synthesis",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:25.010852+00:00",
-   "last_change_detected": "2026-10-19T17:24:07.989015+00:00",
-   "categories": [
-    "quant_fund"
-   ]
-  },
-  {
-   "firm": "Temasek",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:41.603973+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
    "firm": "Tesco",
    "url": "https://tescoearlycareers.groupgti.com/",
    "kind": "manual",
@@ -4797,17 +2601,6 @@
    "last_change_detected": "2026-10-19T17:29:11.098928+00:00",
    "categories": [
     "corporate"
-   ]
-  },
-  {
-   "firm": "Tide Insurance",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:14.463295+00:00",
-   "last_change_detected": "2026-10-19T17:30:20.835234+00:00",
-   "categories": [
-    "insurance"
    ]
   },
   {
@@ -4822,17 +2615,6 @@
    ]
   },
   {
-   "firm": "Tokio Marine Kiln",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:56.651492+00:00",
-   "last_change_detected": "2026-10-19T17:29:35.275935+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
    "firm": "Torch Partners",
    "url": "https://www.torchpartners.com/careers",
    "kind": "manual",
@@ -4841,17 +2623,6 @@
    "last_change_detected": "2026-10-19T17:25:24.041402+00:00",
    "categories": [
     "advisory"
-   ]
-  },
-  {
-   "firm": "TotalEnergies",
-   "url": "https://jobs.totalenergies.com/en_US/careers/SearchJobs/?search=United%20Kingdom",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:21.540977+00:00",
-   "last_change_detected": "2026-10-19T18:27:15.623915+00:00",
-   "categories": [
-    "commodities"
    ]
   },
   {
@@ -4866,61 +2637,6 @@
    ]
   },
   {
-   "firm": "TP ICAP",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:28.794590+00:00",
-   "last_change_detected": "2026-10-19T19:08:30.300713+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
-   "firm": "Tradeweb",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:30.472369+00:00",
-   "last_change_detected": "2026-10-19T17:24:15.867002+00:00",
-   "categories": [
-    "market_infra"
-   ]
-  },
-  {
-   "firm": "Trinity Life Sciences",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:48.143269+00:00",
-   "last_change_detected": "2026-10-19T19:25:34.915975+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "Tudor Investment Corporation",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:56.027240+00:00",
-   "last_change_detected": "2026-10-19T17:24:55.532251+00:00",
-   "categories": [
-    "hedge_fund"
-   ]
-  },
-  {
-   "firm": "Turner & Townsend",
-   "url": "https://careers.smartrecruiters.com/TurnerTownsend/api/more?type=location&value=London%2C%20GB&page=0",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:46.172106+00:00",
-   "last_change_detected": "2026-10-19T17:27:37.244239+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
    "firm": "Uber",
    "url": "https://www.uber.com/us/en/careers/list/?query=intern&location=GBR-England-London",
    "kind": "manual",
@@ -4929,39 +2645,6 @@
    "last_change_detected": "2026-10-19T17:29:15.087880+00:00",
    "categories": [
     "tech"
-   ]
-  },
-  {
-   "firm": "Uniper Global Commodities",
-   "url": "https://jobs.uniper.energy/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:30.957477+00:00",
-   "last_change_detected": "2026-10-19T17:24:16.525250+00:00",
-   "categories": [
-    "commodities"
-   ]
-  },
-  {
-   "firm": "USS",
-   "url": "https://www.usscareers.co.uk/london/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:39.602395+00:00",
-   "last_change_detected": "2026-10-19T17:29:15.062224+00:00",
-   "categories": [
-    "asset_manager"
-   ]
-  },
-  {
-   "firm": "Vanguard",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:08.680037+00:00",
-   "last_change_detected": "2026-10-19T17:26:42.421478+00:00",
-   "categories": [
-    "asset_manager"
    ]
   },
   {
@@ -4976,17 +2659,6 @@
    ]
   },
   {
-   "firm": "W. P. Carey",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:41.945584+00:00",
-   "last_change_detected": "2026-10-19T17:24:34.884312+00:00",
-   "categories": [
-    "real_estate"
-   ]
-  },
-  {
    "firm": "Walter Scott",
    "url": "https://www.walterscott.com/careers/#internships",
    "kind": "manual",
@@ -4995,39 +2667,6 @@
    "last_change_detected": "2026-10-19T17:24:16.561766+00:00",
    "categories": [
     "asset_manager"
-   ]
-  },
-  {
-   "firm": "Waterland Private Equity",
-   "url": "https://www.waterlandpe.com/careers/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:08:00.154407+00:00",
-   "last_change_detected": "2026-10-19T17:25:00.859613+00:00",
-   "categories": [
-    "private_equity"
-   ]
-  },
-  {
-   "firm": "Waters Corporation",
-   "url": "https://internationalcareers-waters.icims.com/jobs/search?ss=1&in_iframe=1&searchLocation=13702--",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:41.053385+00:00",
-   "last_change_detected": "2026-10-19T17:29:16.802619+00:00",
-   "categories": [
-    "corporate"
-   ]
-  },
-  {
-   "firm": "Weatherbys Private Bank",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:09:08.802787+00:00",
-   "last_change_detected": "2026-10-19T17:26:42.627652+00:00",
-   "categories": [
-    "bank"
    ]
   },
   {
@@ -5042,39 +2681,6 @@
    ]
   },
   {
-   "firm": "Wood Mackenzie",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:31.803614+00:00",
-   "last_change_detected": "2026-10-19T17:24:17.524240+00:00",
-   "categories": [
-    "consulting"
-   ]
-  },
-  {
-   "firm": "WTW",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:58.152187+00:00",
-   "last_change_detected": "2026-10-19T17:29:37.162451+00:00",
-   "categories": [
-    "insurance"
-   ]
-  },
-  {
-   "firm": "XY Capital",
-   "url": "https://www.xycapitalgroup.com/careers/",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:07:32.474234+00:00",
-   "last_change_detected": "2026-10-19T17:24:18.833735+00:00",
-   "categories": [
-    "prop"
-   ]
-  },
-  {
    "firm": "YFM Equity Partners",
    "url": "https://yfmep.com/careers",
    "kind": "manual",
@@ -5083,28 +2689,6 @@
    "last_change_detected": "2026-10-19T17:24:55.380742+00:00",
    "categories": [
     "private_equity"
-   ]
-  },
-  {
-   "firm": "Zopa",
-   "url": "",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:11:26.917895+00:00",
-   "last_change_detected": "2026-10-19T18:27:45.788573+00:00",
-   "categories": [
-    "bank"
-   ]
-  },
-  {
-   "firm": "Zurich Insurance",
-   "url": "https://www.careers.zurich.com/search/?q=&optionsFacetsDD_shifttype=Intern%2FTrainee&optionsFacetsDD_customfield3=United+Kingdom&sortColumn=referencedate&sortDirection=desc",
-   "kind": "manual",
-   "why": "bell cannot read this firm's board: check it by hand.",
-   "last_checked_by_bell": "2026-10-19T22:10:59.341654+00:00",
-   "last_change_detected": null,
-   "categories": [
-    "insurance"
    ]
   }
  ],
@@ -5136,7 +2720,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "eightfold:arcadis.eightfold.ai#563671533295123",
@@ -5160,7 +2744,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "greenhouse:rothesaygraduates#8811551002",
@@ -5232,7 +2816,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "sitemap:https://www.werkenbijabnamro.nl/sitemap.vacancy.xml#93913",
@@ -5328,7 +2912,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:stepstone#8282599",
@@ -5352,7 +2936,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:btig27#8881055002",
@@ -5400,7 +2984,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:stepstone#8274328",
@@ -5496,7 +3080,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "ashby:lendable#eabb1e2a-86c3-48e6-836c-af967e0e71d2",
@@ -5568,7 +3152,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:stripe#8257892",
@@ -5616,7 +3200,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:rothesaygraduates#8870454002",
@@ -5640,7 +3224,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:goldman/CAMPUS#175424_GS_CAMPUS",
@@ -5688,7 +3272,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:alphafmcrolesearlycareers#8855289002",
@@ -5712,7 +3296,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:symphony#8121113",
@@ -5856,7 +3440,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:clearviewhealthcarepartners#5430533008",
@@ -6144,7 +3728,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:rothesaygraduates#8811533002",
@@ -6240,7 +3824,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:blenheimchalcot#8207802",
@@ -6264,7 +3848,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://www.werkenbijabnamro.nl/sitemap.vacancy.xml#93563",
@@ -6744,7 +4328,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:rothesaygraduates#8784142002",
@@ -6792,7 +4376,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:symphony#8113703",
@@ -6960,7 +4544,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:stripe#8130881",
@@ -6984,7 +4568,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:stripe#8130930",
@@ -7008,7 +4592,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:stripe#8130867",
@@ -7056,7 +4640,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "ashby:blocktech#b170f716-113b-4e6e-a883-473f3cabf062",
@@ -7080,7 +4664,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "ashby:blocktech#a12b3714-d243-41ee-a6b6-e39776630888",
@@ -7104,7 +4688,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "ashby:lendable#e001dc0b-6e0f-46a7-95ba-38a3733db2f4",
@@ -7128,7 +4712,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "ashby:lendable#a2214edc-39e3-4c70-8a09-875bb991062f",
@@ -7680,7 +5264,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:stripe#8097801",
@@ -7728,7 +5312,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "greenhouse:cairneagle#4952319101",
@@ -10152,7 +7736,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://www.werkenbijabnamro.nl/sitemap.vacancy.xml#84726",
@@ -10728,7 +8312,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "sitemap:https://careers.nfumutual.co.uk/sitemap.xml#https://careers.nfumutual.co.uk/jobs/Financial-Services-Advisory-Graduate-Scheme-346447",
@@ -10800,7 +8384,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "sitemap:https://careers.ba.com/sitemap.xml#12356",
@@ -10824,7 +8408,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "sitemap:https://careers.ba.com/sitemap.xml#12361",
@@ -10848,7 +8432,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "sitemap:https://careers.ba.com/sitemap.xml#12363",
@@ -10872,7 +8456,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "sitemap:https://careers.ba.com/sitemap.xml#12365",
@@ -10896,7 +8480,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "sitemap:https://careers.ba.com/sitemap.xml#12386",
@@ -10968,7 +8552,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.royallondon.com/sitemap.xml#https://jobs.royallondon.com/job/Alderley-Edge-Summer-Internship/1444725733/",
@@ -10992,7 +8576,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.royallondon.com/sitemap.xml#https://jobs.royallondon.com/job/Alderley-Edge-Summer-Internship/1445335933/",
@@ -11016,7 +8600,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.royallondon.com/sitemap.xml#https://jobs.royallondon.com/job/Edinburgh-Summer-Internship/1444727333/",
@@ -11040,7 +8624,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.engie.com/sitemap.xml#https://jobs.engie.com/job/COLUMBUS-Engineering-Intern_PTIN5C-OH-43240/1367815055/",
@@ -11064,7 +8648,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.engie.com/sitemap.xml#https://jobs.engie.com/job/La-Garenne-Colombes-Intern-Weather-&amp;-Energy-Trader-92250/1360293455/",
@@ -11088,7 +8672,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.engie.com/sitemap.xml#https://jobs.engie.com/job/La-Garenne-Colombes-Intern-ESG-AI-Due-diligence-92250/1369256855/",
@@ -11112,7 +8696,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.engie.com/sitemap.xml#https://jobs.engie.com/job/La-Garenne-Colombes-Intern-Quantitative-Research-92250/1368887655/",
@@ -11136,7 +8720,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.engie.com/sitemap.xml#https://jobs.engie.com/job/La-Garenne-Colombes-Intern-Quantitative-Energy-Portfolio-Analyst-92250/1369951055/",
@@ -11160,7 +8744,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.engie.com/sitemap.xml#https://jobs.engie.com/job/Cyberjaya-Intern-Engineer%2C-Operation-&amp;-Maintenance-%28Kedah%29-63000/1369431755/",
@@ -11184,7 +8768,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobs.engie.com/sitemap.xml#https://jobs.engie.com/job/Roma-Junior-Energy-Operations-&amp;-Settlement-Intern-40966/1369774955/",
@@ -11232,7 +8816,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://careers.franklintempleton.com/us/en/sitemap.xml#869913",
@@ -11616,7 +9200,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "linklist:https://newton.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-7/candidate/jobboard/vacancy/1/adv/#48",
@@ -11640,7 +9224,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "linklist:https://newton.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-7/candidate/jobboard/vacancy/1/adv/#47",
@@ -11808,7 +9392,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/hamilton#B4C2F9E69A",
@@ -11832,7 +9416,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "oracle:eedu.fa.em3.oraclecloud.com#202605771",
@@ -11856,7 +9440,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/interpath-advisory#A008E8818C",
@@ -11880,7 +9464,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/interpath-advisory#06629AC251",
@@ -11904,7 +9488,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:apptrkr/w-p-carey/w-p-carey-summer-intern-programme-2027#286",
@@ -11928,7 +9512,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06518-11629",
@@ -11952,7 +9536,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06519-11631",
@@ -11976,7 +9560,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-site-reliability-engineer-v06520-11625",
@@ -12000,7 +9584,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06527-11597",
@@ -12024,7 +9608,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electronic-engineer-wireless-v06542-11633",
@@ -12048,7 +9632,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electronic-engineer-v06546-11619",
@@ -12072,7 +9656,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-nuclear-test-and-commissioning-engineer-v06597-11726",
@@ -12456,7 +10040,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06248-11357",
@@ -12480,7 +10064,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06247-11246",
@@ -12504,7 +10088,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06357-11455",
@@ -12528,7 +10112,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06358-11362",
@@ -12552,7 +10136,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06356-11454",
@@ -12576,7 +10160,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06393-11682",
@@ -12600,7 +10184,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06392-11681",
@@ -12624,7 +10208,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06390-11680",
@@ -12648,7 +10232,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-product-safety-engineer-v06372-11678",
@@ -12672,7 +10256,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-test-and-commissioning-engineer-v06299-11253",
@@ -12696,7 +10280,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-structural-engineer-v06425-11691",
@@ -12720,7 +10304,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-mechanical-engineer-v06424-11745",
@@ -12744,7 +10328,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-systems-engineer-v06417-11739",
@@ -12768,7 +10352,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06416-11690",
@@ -12792,7 +10376,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06415-11689",
@@ -12816,7 +10400,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06414-11688",
@@ -12840,7 +10424,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-systems-engineer-v06406-11738",
@@ -12864,7 +10448,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06404-11686",
@@ -12888,7 +10472,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-human-factors-engineer-v06400-11684",
@@ -12912,7 +10496,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06398-11683",
@@ -12936,7 +10520,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-supply-chain-v06487-11706",
@@ -12960,7 +10544,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-supply-chain-v06486-11705",
@@ -12984,7 +10568,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06473-11704",
@@ -13008,7 +10592,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06472-11703",
@@ -13032,7 +10616,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06471-11702",
@@ -13056,7 +10640,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-electrical-engineer-v06470-11594",
@@ -13080,7 +10664,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-integrated-logistics-support-engineer-v06456-11700",
@@ -13104,7 +10688,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-radio-frequency-engineer-v06453-11699",
@@ -13128,7 +10712,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-supply-chain-v06447-11698",
@@ -13152,7 +10736,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-mechanical-engineer-v06431-11694",
@@ -13176,7 +10760,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06572-11797",
@@ -13200,7 +10784,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06571-11796",
@@ -13224,7 +10808,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-product-safety-engineer-v06570-11795",
@@ -13248,7 +10832,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-network-engineer-v06569-11794",
@@ -13272,7 +10856,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-hardware-engineer-v06568-11793",
@@ -13296,7 +10880,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06566-11792",
@@ -13320,7 +10904,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-cs-platform-intergration-v06564-11791",
@@ -13344,7 +10928,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06563-11790",
@@ -13368,7 +10952,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06562-11789",
@@ -13392,7 +10976,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06561-11788",
@@ -13416,7 +11000,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-weights-engineer-v06560-11718",
@@ -13440,7 +11024,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-manufacturing-engineer-v06555-11717",
@@ -13464,7 +11048,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-manufacturing-engineer-v06554-11764",
@@ -13488,7 +11072,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-network-engineer-v06552-11607",
@@ -13512,7 +11096,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electronic-engineer-v06545-11615",
@@ -13536,7 +11120,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06539-11639",
@@ -13560,7 +11144,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06538-11609",
@@ -13584,7 +11168,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-product-safety-engineer-v06524-11763",
@@ -13608,7 +11192,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electronics-firmware-engineer-v06512-11715",
@@ -13632,7 +11216,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-systems-engineer-v06502-11757",
@@ -13656,7 +11240,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06501-11714",
@@ -13680,7 +11264,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06500-11713",
@@ -13704,7 +11288,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06499-11712",
@@ -13728,7 +11312,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06498-11711",
@@ -13752,7 +11336,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06497-11710",
@@ -13776,7 +11360,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06496-11709",
@@ -13800,7 +11384,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-power-engineer-v06492-11708",
@@ -13824,7 +11408,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-mechanical-engineer-v06603-11799",
@@ -13848,7 +11432,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-mission-systems-integration-engineer-v06602-11730",
@@ -13872,7 +11456,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-mission-systems-integration-engineer-v06601-11729",
@@ -13896,7 +11480,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-mission-systems-integration-engineer-v06600-11728",
@@ -13920,7 +11504,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06599-11727",
@@ -13944,7 +11528,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-nuclear-primary-build-organisation-engineer-v06594-11724",
@@ -13968,7 +11552,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-design-engineer-v06588-11722",
@@ -13992,7 +11576,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-stealth-engineer-v06584-11721",
@@ -14016,7 +11600,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-systems-engineer-v06583-11774",
@@ -14040,7 +11624,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-technology-management-v06579-11770",
@@ -14064,7 +11648,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-technology-management-v06577-11720",
@@ -14088,7 +11672,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-manufacturing-engineer-v06619-11786",
@@ -14112,7 +11696,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-manufacturing-engineer-v06618-11808",
@@ -14136,7 +11720,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-warship-engineer-v06607-11803",
@@ -14160,7 +11744,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06606-11802",
@@ -14184,7 +11768,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-devops-engineer-v06553-11830",
@@ -14232,7 +11816,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "oracle:eedu.fa.em3.oraclecloud.com#202605435",
@@ -14256,7 +11840,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/interpath-advisory#011975BC1B",
@@ -14280,7 +11864,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/arena-investors-lp#642FD77502",
@@ -15624,7 +13208,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:amazon/studentprograms#10554586",
@@ -15768,7 +13352,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "linklist:https://lek.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-2/candidate/jobboard/vacancy/1/adv/#4121",
@@ -15792,7 +13376,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "linklist:https://careers.isio.com/jobs#8404010",
@@ -15816,7 +13400,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "linklist:https://careers.isio.com/jobs#8403855",
@@ -15840,7 +13424,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "oracle:eedu.fa.em3.oraclecloud.com#202605389",
@@ -15864,7 +13448,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "oracle:eedu.fa.em3.oraclecloud.com#202605997",
@@ -15984,7 +13568,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/javelin-global-commodities#5284144991",
@@ -16008,7 +13592,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/javelin-global-commodities#22AE8F15CE",
@@ -16032,7 +13616,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/javelin-global-commodities#C2B7BC10AD",
@@ -16368,7 +13952,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/synthesisim#C2932F1DE5",
@@ -17040,7 +14624,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": true,
    "key": "jsonboard:workable/fasanara#FC82BCC5C5",
@@ -20880,7 +18464,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#572735",
@@ -20904,7 +18488,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#572747",
@@ -20928,7 +18512,7 @@
    "uk": false,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#572749",
@@ -20952,7 +18536,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#579581",
@@ -20976,7 +18560,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583346",
@@ -21000,7 +18584,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583795",
@@ -21024,7 +18608,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583847",
@@ -21048,7 +18632,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583859",
@@ -21072,7 +18656,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583865",
@@ -21096,7 +18680,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583871",
@@ -21120,7 +18704,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583873",
@@ -21144,7 +18728,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583875",
@@ -21168,7 +18752,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#583906",
@@ -21192,7 +18776,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#586549",
@@ -21216,7 +18800,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#586556",
@@ -21240,7 +18824,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#586558",
@@ -21264,7 +18848,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#586561",
@@ -21288,7 +18872,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#586660",
@@ -21312,7 +18896,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#586897",
@@ -21336,7 +18920,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#592505",
@@ -21360,7 +18944,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#595916",
@@ -21384,7 +18968,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/accenture#596523",
@@ -21432,7 +19016,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.janushenderson.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc#1432364300",
@@ -21744,7 +19328,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/menzies#570962",
@@ -21768,7 +19352,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/menzies#570966",
@@ -21792,7 +19376,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/menzies#571942",
@@ -21816,7 +19400,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/menzies#572062",
@@ -21840,7 +19424,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/menzies#572633",
@@ -21864,7 +19448,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/menzies#572666",
@@ -21888,7 +19472,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/menzies#573964",
@@ -21912,7 +19496,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "jsonboard:pinpoint/menzies#576110",
@@ -21936,7 +19520,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:aig/wd1/early_careers#JR2604190",
@@ -22080,7 +19664,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:ncratleos/wd1/ext_non_usalteos#R1154942",
@@ -22176,7 +19760,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": false,
    "key": "workday:cmegroup/wd1/cme_careers#34885",
@@ -22200,7 +19784,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:cmegroup/wd1/cme_careers#34865",
@@ -22224,7 +19808,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://ges-careers.hiringplatform.co.uk/list/Summer_Scheme#103483",
@@ -22248,7 +19832,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.google.com/about/careers/applications/jobs/results?location=United%20Kingdom&employment_type=INTERN&sort_by=date#73321728058499782",
@@ -22272,7 +19856,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.google.com/about/careers/applications/jobs/results?location=United%20Kingdom&employment_type=INTERN&sort_by=date#80037545080955590",
@@ -22296,7 +19880,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.google.com/about/careers/applications/jobs/results?location=United%20Kingdom&employment_type=INTERN&sort_by=date#112940936274551494",
@@ -22320,7 +19904,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.google.com/about/careers/applications/jobs/results?location=United%20Kingdom&employment_type=INTERN&sort_by=date#135156989620560582",
@@ -22344,7 +19928,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.google.com/about/careers/applications/jobs/results?location=United%20Kingdom&employment_type=INTERN&sort_by=date#100028133205254854",
@@ -22392,7 +19976,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR&team=internships-STDNT-INTRN#200682357-1251",
@@ -22416,7 +20000,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR&team=internships-STDNT-INTRN#200682357-2114",
@@ -22440,7 +20024,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR&team=internships-STDNT-INTRN#200679650-1251",
@@ -22464,7 +20048,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR&team=internships-STDNT-INTRN#200679650-2114",
@@ -22512,7 +20096,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://careers.smartrecruiters.com/RolandBerger/api/more?type=location&value=London%2C%20GB&page=0#744000154944720",
@@ -22536,7 +20120,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://careers.occstrategy.com/vacancies/vacancy-search-results.aspx#392",
@@ -22632,7 +20216,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://ukstudents.ey.com/wp-admin/admin-ajax.php?action=search_filter&jobs=%26program%5B%5D%3D41%26business-area%5B%5D%3D312#LAYER1=Summer+Internship&LAYER2=EY-Parthenon&LAYER3=Analytics+%26amp%3B+AI+-+Deal+Analytics",
@@ -22656,7 +20240,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://ukstudents.ey.com/wp-admin/admin-ajax.php?action=search_filter&jobs=%26program%5B%5D%3D41%26business-area%5B%5D%3D312#LAYER1=Summer+Internship&LAYER2=EY-Parthenon&LAYER3=Capital+%26amp%3B+Debt+Advisory",
@@ -22680,7 +20264,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://ukstudents.ey.com/wp-admin/admin-ajax.php?action=search_filter&jobs=%26program%5B%5D%3D41%26business-area%5B%5D%3D312#LAYER1=Summer+Internship&LAYER2=EY-Parthenon&LAYER3=Economic+Advisory",
@@ -22704,7 +20288,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://ukstudents.ey.com/wp-admin/admin-ajax.php?action=search_filter&jobs=%26program%5B%5D%3D41%26business-area%5B%5D%3D312#LAYER1=Summer+Internship&LAYER2=EY-Parthenon&LAYER3=Financial+Restructuring",
@@ -22728,7 +20312,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://ukstudents.ey.com/wp-admin/admin-ajax.php?action=search_filter&jobs=%26program%5B%5D%3D41%26business-area%5B%5D%3D312#LAYER1=Summer+Internship&LAYER2=EY-Parthenon&LAYER3=Infrastructure+Advisory",
@@ -22752,7 +20336,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://ukstudents.ey.com/wp-admin/admin-ajax.php?action=search_filter&jobs=%26program%5B%5D%3D41%26business-area%5B%5D%3D312#LAYER1=Summer+Internship&LAYER2=EY-Parthenon&LAYER3=Technology",
@@ -22848,7 +20432,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:ankura/wd5/Ankura#R105050",
@@ -22872,7 +20456,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:ankura/wd5/Ankura#R105051",
@@ -22992,7 +20576,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.nbim.no/en/about-us/career/summer-internship/#5187004303",
@@ -23496,7 +21080,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.exxonmobil.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc#1439091600",
@@ -23520,7 +21104,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.exxonmobil.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc#1425373700",
@@ -23544,7 +21128,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.exxonmobil.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc#1422560100",
@@ -23568,7 +21152,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.exxonmobil.com/search/?q=&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc#1422326500",
@@ -23640,7 +21224,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:cw/wd1/External#R337452",
@@ -23664,7 +21248,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:cw/wd1/External#R337463",
@@ -23736,7 +21320,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:brownadvisory/wd1/Brown-Interns#JR1822",
@@ -23760,7 +21344,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:brownadvisory/wd1/Brown-Interns#JR1820",
@@ -23784,7 +21368,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:brownadvisory/wd1/Brown-Interns#JR1825",
@@ -23808,7 +21392,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:brownadvisory/wd1/Brown-Interns#JR1818",
@@ -23856,7 +21440,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:grosvenor/wd3/External_careers_site_Grosvenor#JR05257",
@@ -24048,7 +21632,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:nb/wd1/NBCareers#R0012713",
@@ -24144,7 +21728,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://bgf.breezy.hr/#f73778c7640701",
@@ -24168,7 +21752,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.xycapitalgroup.com/careers/#2027-summer-internship-quant-research-and-trading-london",
@@ -24192,7 +21776,7 @@
    "uk": true,
    "uk_stated": false,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.xycapitalgroup.com/careers/#2026-summer-internship-quant-research-trading",
@@ -24480,7 +22064,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.rwe.com/search/?q=trading&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc#1448889733",
@@ -24504,7 +22088,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://jobs.rwe.com/search/?q=trading&optionsFacetsDD_country=GB&sortColumn=referencedate&sortDirection=desc#1440610033",
@@ -24552,7 +22136,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "B",
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.pacificam.co.uk/internships/#/wp-content/uploads/Technology-internship-Jan.pdf",
@@ -24624,7 +22208,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:jainglobal/wd5/LinkedInCareerSite#JR100620",
@@ -24648,7 +22232,7 @@
    "uk": true,
    "uk_stated": true,
    "wanted": true,
-   "tier": "D",
+   "tier": "C",
    "adopted": true,
    "late": true,
    "key": "workday:jainglobal/wd5/LinkedInCareerSite#JR100609",
