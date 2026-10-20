@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-20T13:30:03.838322+00:00",
+ "generated_at": "2026-10-20T13:40:04.191640+00:00",
  "counts": {
-  "items": 1011,
-  "strong": 1011,
-  "uk": 636,
-  "uk_unstated": 292,
+  "items": 984,
+  "strong": 984,
+  "uk": 634,
+  "uk_unstated": 267,
   "seen_24h": 15,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 2557,
+  "total": 2526,
   "truncated_uk": 19,
   "firms": 622,
   "firms_blind": 115,
   "sources": 691,
-  "postings_tracked": 43863
+  "postings_tracked": 43880
  },
  "detection": {
-  "mean_latency_s": 44759.3,
-  "median_latency_s": 380.9,
-  "sampled": 288,
+  "mean_latency_s": 44607.5,
+  "median_latency_s": 381.0,
+  "sampled": 289,
   "by_tier": {
    "A": {
     "mean_latency_s": 68583.4,
@@ -27,10 +27,10 @@
     "sampled": 108
    },
    "B": {
-    "mean_latency_s": 32907.8,
-    "median_latency_s": 561.9,
+    "mean_latency_s": 32717.4,
+    "median_latency_s": 575.5,
     "under_60s": 8,
-    "sampled": 167
+    "sampled": 168
    },
    "C": {
     "mean_latency_s": -919.3,
@@ -463,10 +463,10 @@
    "firm": "State Street",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 864,
+   "n_total": 867,
    "n_match": 0,
    "n_off_desk": 3,
-   "reason": "864 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "867 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "sitemap:https://careers.marsh.com/eu/en/sitemap_index.xml",
@@ -849,6 +849,16 @@
    "reason": "38 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:forvismazarsuk/wd107/FM_1",
+   "firm": "Forvis Mazars",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 38,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "38 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "workday:ukgrantt/wd3/TraineeCareersGrantThornton",
    "firm": "Grant Thornton",
    "tier": "C",
@@ -857,16 +867,6 @@
    "n_match": 0,
    "n_off_desk": 1,
    "reason": "38 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "workday:forvismazarsuk/wd107/FM_1",
-   "firm": "Forvis Mazars",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 37,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "37 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "linklist:https://internationalcareers-waters.icims.com/jobs/search?ss=1&in_iframe=1&searchLocation=13702--",
@@ -959,6 +959,16 @@
    "reason": "34 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:tiaa/wd1/Search",
+   "firm": "Nuveen",
+   "tier": "C",
+   "kind": "no-early-careers",
+   "n_total": 34,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "34 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "linklist:https://www.smartrecruiters.com/Vitol",
    "firm": "Vitol",
    "tier": "B",
@@ -987,16 +997,6 @@
    "n_match": 0,
    "n_off_desk": 1,
    "reason": "33 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "workday:tiaa/wd1/Search",
-   "firm": "Nuveen",
-   "tier": "C",
-   "kind": "no-early-careers",
-   "n_total": 33,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "ashby:amber",
@@ -1405,7 +1405,7 @@
    "url": "https://app-accuracy.bc.direct/recruitment/career/5ee62d016b800f0fc8e70d1c?page=1&limit=10",
    "kind": "manual",
    "why": "Accuracy's London Finance Intern opens late August to mid-September: open its BestConsultant careers page.",
-   "last_checked_by_bell": "2026-10-20T13:24:19.048970+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:28.488017+00:00",
    "last_change_detected": "2026-10-19T17:26:42.645914+00:00",
    "categories": [
     "consulting"
@@ -1416,7 +1416,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-20T13:15:04.707280+00:00",
+   "last_checked_by_bell": "2026-10-20T13:30:06.197135+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1427,7 +1427,7 @@
    "url": "https://www.adventinternational.com/advent-at-work/",
    "kind": "manual",
    "why": "Advent's London summer internship has been run through SEO London (Trackr's note; last opened 16 September 2024), with no board of Advent's own; check SEO London and Advent's site from September.",
-   "last_checked_by_bell": "2026-10-20T13:23:20.333639+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:19.584238+00:00",
    "last_change_detected": "2026-10-19T17:24:55.369347+00:00",
    "categories": [
     "private_equity"
@@ -1449,7 +1449,7 @@
    "url": "https://alliacc.com/",
    "kind": "manual",
    "why": "Check alliacc.com (and LinkedIn) for the Advisory and Funding Team Internship; last opened 31 October 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:32.733797+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:34.177463+00:00",
    "last_change_detected": "2026-10-19T17:25:14.984435+00:00",
    "categories": [
     "advisory"
@@ -1471,7 +1471,7 @@
    "url": "https://careers.alvarezandmarsal.com/search/jobs/in/london?q=summer+intern",
    "kind": "manual",
    "why": "Alvarez & Marsal's London summer internships (Corporate Finance last opened 4 September 2025) are on its careers site: search it for summer intern.",
-   "last_checked_by_bell": "2026-10-20T13:24:20.228799+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:29.634243+00:00",
    "last_change_detected": "2026-10-19T17:26:44.030260+00:00",
    "categories": [
     "consulting"
@@ -1482,7 +1482,7 @@
    "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "kind": "manual",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-10-20T13:15:17.810110+00:00",
+   "last_checked_by_bell": "2026-10-20T13:30:20.070496+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -1493,7 +1493,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-20T13:15:22.972538+00:00",
+   "last_checked_by_bell": "2026-10-20T13:30:35.456020+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1504,7 +1504,7 @@
    "url": "https://www.aramcotrading.com/en/careers/how-to-apply/",
    "kind": "manual",
    "why": "Open aramcotrading.com's how-to-apply page for the London Summer Intern (last opened 21 May 2026).",
-   "last_checked_by_bell": "2026-10-20T13:21:45.953617+00:00",
+   "last_checked_by_bell": "2026-10-20T13:36:52.277871+00:00",
    "last_change_detected": "2026-10-19T17:22:10.302310+00:00",
    "categories": [
     "commodities"
@@ -1515,7 +1515,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:15:22.982422+00:00",
+   "last_checked_by_bell": "2026-10-20T13:30:35.465630+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -1537,7 +1537,7 @@
    "url": "https://augustaco.com/careers/",
    "kind": "manual",
    "why": "Open augustaco.com/careers for the Investment Banking Analyst internship (last opened 25 Nov 2025, by email).",
-   "last_checked_by_bell": "2026-10-20T13:21:46.658856+00:00",
+   "last_checked_by_bell": "2026-10-20T13:36:52.996262+00:00",
    "last_change_detected": "2026-10-19T17:22:11.489696+00:00",
    "categories": [
     "advisory"
@@ -1548,7 +1548,7 @@
    "url": "https://www.australiansuper.com/careers/graduate-and-internship-programs",
    "kind": "manual",
    "why": "AustralianSuper's London Intern Program (Investments and Enterprise streams) is applied for on a per-year pushapply.com campaign linked from this page; the 2026 one opened 4 February 2026.",
-   "last_checked_by_bell": "2026-10-20T13:23:40.070523+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:42.666080+00:00",
    "last_change_detected": "2026-10-19T17:25:25.520370+00:00",
    "categories": [
     "asset_manager"
@@ -1592,7 +1592,7 @@
    "url": "https://www.bain.com/careers/work-with-us/internships-programs/",
    "kind": "manual",
    "why": "Bain's London True North scholarships open about early March and its Associate Consultant Intern about August: open its internships and programmes page.",
-   "last_checked_by_bell": "2026-10-20T13:24:24.161752+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:33.755274+00:00",
    "last_change_detected": "2026-10-19T17:26:49.870563+00:00",
    "categories": [
     "consulting"
@@ -1614,7 +1614,7 @@
    "url": "https://blackfinch.com/Internships/",
    "kind": "manual",
    "why": "Blackfinch's 10-week Summer Internship Programme (Gloucester/Cheltenham; property, energy, ventures, investments) is advertised on its CIPHR iRecruit site linked from this page; the 2026 one opened 9 February 2026 (2025: 3 February).",
-   "last_checked_by_bell": "2026-10-20T13:23:40.075181+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:42.673380+00:00",
    "last_change_detected": "2026-10-19T17:25:25.526134+00:00",
    "categories": [
     "asset_manager"
@@ -1625,7 +1625,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-20T13:16:26.062909+00:00",
+   "last_checked_by_bell": "2026-10-20T13:31:38.748290+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -1636,7 +1636,7 @@
    "url": "https://broadstonepeople.my.salesforce-sites.com/recruit/fRecruit__ApplyJobList?portal=Candidate+Hub",
    "kind": "manual",
    "why": "Broadstone's Summer Internship Programme (last opened 10 October 2024) is posted on its Salesforce vacancy list: open it.",
-   "last_checked_by_bell": "2026-10-20T13:24:25.795583+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:35.230261+00:00",
    "last_change_detected": "2026-10-19T17:26:51.755716+00:00",
    "categories": [
     "professional_services"
@@ -1647,7 +1647,7 @@
    "url": "https://www.cabotprop.com/open-positions/",
    "kind": "manual",
    "why": "Cabot's London Investments/Asset Management Intern (last opened 14 Nov 2025): open its careers page's Open Positions (Paylocity) and look.",
-   "last_checked_by_bell": "2026-10-20T13:22:08.285573+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:11.619785+00:00",
    "last_change_detected": "2026-10-19T17:22:32.329140+00:00",
    "categories": [
     "real_estate"
@@ -1658,7 +1658,7 @@
    "url": "https://jobs.carterjonas.co.uk/",
    "kind": "manual",
    "why": "Open jobs.carterjonas.co.uk for the 2027 Summer Internship; last opened 6 January 2026.",
-   "last_checked_by_bell": "2026-10-20T13:23:33.245000+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:34.691006+00:00",
    "last_change_detected": "2026-10-19T17:25:16.243416+00:00",
    "categories": [
     "real_estate"
@@ -1669,7 +1669,7 @@
    "url": "https://careers.cbre.com/en_US/careers/SearchJobs/internship",
    "kind": "manual",
    "why": "Open CBRE's careers search for the UK 2027 Summer Internship (Commercial Real Estate); last opened 27 March 2026.",
-   "last_checked_by_bell": "2026-10-20T13:23:33.237699+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:34.684160+00:00",
    "last_change_detected": "2026-10-19T17:25:16.237731+00:00",
    "categories": [
     "real_estate"
@@ -1680,7 +1680,7 @@
    "url": "https://www.cdr-inc.com/",
    "kind": "manual",
    "why": "Its Private Equity Spring Insight (London) is applied for on a recruiter's apptrkr campaign; last cycle 9 Dec to 22 Jan.",
-   "last_checked_by_bell": "2026-10-20T13:22:11.673858+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:14.734024+00:00",
    "last_change_detected": "2026-10-19T17:22:46.348746+00:00",
    "categories": [
     "private_equity"
@@ -1691,7 +1691,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-20T13:16:35.305380+00:00",
+   "last_checked_by_bell": "2026-10-20T13:31:47.739509+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -1713,7 +1713,7 @@
    "url": "https://www.charlestaylor.com/en/careers/vacancies/",
    "kind": "manual",
    "why": "Charles Taylor's summer internships (last opened 23 Feb 2025): open its vacancies page, filter by Internship.",
-   "last_checked_by_bell": "2026-10-20T13:22:12.388906+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:15.473553+00:00",
    "last_change_detected": "2026-10-19T17:22:47.957114+00:00",
    "categories": [
     "insurance"
@@ -1724,7 +1724,7 @@
    "url": "https://en.cicc.com/",
    "kind": "manual",
    "why": "Check en.cicc.com careers (and LinkedIn) for CICC UK's London Sales Trainee/Assistant; no known opening date.",
-   "last_checked_by_bell": "2026-10-20T13:23:36.412375+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:37.984075+00:00",
    "last_change_detected": "2026-10-19T17:25:19.390423+00:00",
    "categories": [
     "bank"
@@ -1735,7 +1735,7 @@
    "url": "https://www.clsa.com/careers/",
    "kind": "manual",
    "why": "CITIC CLSA's London summer internship is posted on the Workday site its careers page links; open it about September.",
-   "last_checked_by_bell": "2026-10-20T13:23:39.013150+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.635765+00:00",
    "last_change_detected": "2026-10-19T17:25:24.046935+00:00",
    "categories": [
     "bank"
@@ -1746,7 +1746,7 @@
    "url": "https://www.climateinvestment.com/about-us/careers",
    "kind": "manual",
    "why": "Open the careers page's Current vacancies (and Greenhouse EU climateinvestment, in case it returns).",
-   "last_checked_by_bell": "2026-10-20T13:22:12.993798+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:16.954900+00:00",
    "last_change_detected": "2026-10-19T17:22:50.114109+00:00",
    "categories": [
     "private_equity"
@@ -1757,7 +1757,7 @@
    "url": "https://jobs.dayforcehcm.com/en-US/stonefleming/CANDIDATEPORTAL",
    "kind": "manual",
    "why": "Corient UK (formerly Stonehage Fleming) posts its London 2027 Wealth Management Summer Intern Programme on this Dayforce candidate portal (job 911, opened 8 October 2026).",
-   "last_checked_by_bell": "2026-10-20T13:23:47.224778+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:49.927323+00:00",
    "last_change_detected": "2026-10-19T17:25:35.035330+00:00",
    "categories": [
     "asset_manager"
@@ -1768,7 +1768,7 @@
    "url": "https://uguk-chire.icims.com/jobs/search?ss=1",
    "kind": "manual",
    "why": "Cornerstone Research's London Summer Analyst and Spring Week are on its UK undergraduate iCIMS board: open it.",
-   "last_checked_by_bell": "2026-10-20T13:24:28.719534+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:38.173579+00:00",
    "last_change_detected": "2026-10-19T17:26:55.545260+00:00",
    "categories": [
     "consulting"
@@ -1779,7 +1779,7 @@
    "url": "https://cushmanandwakefield.gtisolutions.co.uk/VacancyPosting/Search",
    "kind": "manual",
    "why": "Open C&W's GTI vacancy search (and its Workday EIC roles) for the UK Summer Internship 2027; last opened 2 February 2026 (14 February 2025 the cycle before).",
-   "last_checked_by_bell": "2026-10-20T13:23:36.405226+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:37.977009+00:00",
    "last_change_detected": "2026-10-19T17:25:19.384734+00:00",
    "categories": [
     "real_estate"
@@ -1790,7 +1790,7 @@
    "url": "https://dclinsurance.com/about-us/work-with-us/",
    "kind": "manual",
    "why": "DCL's summer internships (last opened 12 Feb 2025) are by email or form: open its work-with-us page.",
-   "last_checked_by_bell": "2026-10-20T13:22:13.579097+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:17.438504+00:00",
    "last_change_detected": "2026-10-19T17:23:00.073854+00:00",
    "categories": [
     "insurance"
@@ -1801,7 +1801,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-20T13:17:11.602978+00:00",
+   "last_checked_by_bell": "2026-10-20T13:32:25.996456+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -1812,7 +1812,7 @@
    "url": "https://dws.groupgti.com/VacancyPosting/Search/",
    "kind": "manual",
    "why": "DWS's London summer internships are posted only on its GTI site; the 2027 intake opened 16 October 2026 (2026: 8 September 2025).",
-   "last_checked_by_bell": "2026-10-20T13:23:47.228313+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:49.936122+00:00",
    "last_change_detected": "2026-10-19T17:25:35.040781+00:00",
    "categories": [
     "asset_manager"
@@ -1823,7 +1823,7 @@
    "url": "https://enstarearlycareers.ambertrack.co.uk/",
    "kind": "manual",
    "why": "Open enstarearlycareers.ambertrack.co.uk and careers.enstargroup.com for the London Summer Internship Programme (last opened 9 Apr 2026).",
-   "last_checked_by_bell": "2026-10-20T13:22:13.949664+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:17.971388+00:00",
    "last_change_detected": "2026-10-19T17:23:01.238900+00:00",
    "categories": [
     "insurance"
@@ -1834,7 +1834,7 @@
    "url": "https://www.ethicalcapitalpartners.com/careers",
    "kind": "manual",
    "why": "ECP's Investment Intern is applied for by emailing a CV to info@ethicalcapitalpartners.com, as its careers page says when it opens (13 November 2025 last cycle).",
-   "last_checked_by_bell": "2026-10-20T13:23:20.353506+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:19.607048+00:00",
    "last_change_detected": "2026-10-19T17:24:55.386449+00:00",
    "categories": [
     "private_equity"
@@ -1856,7 +1856,7 @@
    "url": "https://www.fbnbank.co.uk/careers/",
    "kind": "manual",
    "why": "Check fbnbank.co.uk/careers (and the recruiter's Loxo link) for FirstBank UK's Summer Internship Programme; last opened 20 January 2026.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.283272+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.021334+00:00",
    "last_change_detected": "2026-10-19T17:25:22.319604+00:00",
    "categories": [
     "bank"
@@ -1867,7 +1867,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-20T13:17:21.913977+00:00",
+   "last_checked_by_bell": "2026-10-20T13:32:36.754800+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -1878,7 +1878,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-20T13:17:25.607114+00:00",
+   "last_checked_by_bell": "2026-10-20T13:32:40.576795+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -1889,7 +1889,7 @@
    "url": "https://geppeoplecentral.darwinbox.com/ms/candidatev2/main/careers/home",
    "kind": "manual",
    "why": "GEP's London Consulting Intern opens about February: open its Darwinbox careers portal.",
-   "last_checked_by_bell": "2026-10-20T13:24:32.766667+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:42.308602+00:00",
    "last_change_detected": "2026-10-19T17:26:59.807598+00:00",
    "categories": [
     "consulting"
@@ -1900,7 +1900,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-20T13:17:31.232626+00:00",
+   "last_checked_by_bell": "2026-10-20T13:32:46.969993+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -1911,7 +1911,7 @@
    "url": "https://gi-advisors.com/",
    "kind": "manual",
    "why": "Check gi-advisors.com and GIA's LinkedIn for the Analyst / Analyst Internship; last opened 19 November 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.317587+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.058603+00:00",
    "last_change_detected": "2026-10-19T17:25:22.348119+00:00",
    "categories": [
     "advisory"
@@ -1922,7 +1922,7 @@
    "url": "https://gneiss.energy/careers/",
    "kind": "manual",
    "why": "Open gneiss.energy/careers for the summer internship (last opened 22 Dec 2025).",
-   "last_checked_by_bell": "2026-10-20T13:22:18.611583+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:22.523339+00:00",
    "last_change_detected": "2026-10-19T17:23:07.044644+00:00",
    "categories": [
     "advisory"
@@ -1933,7 +1933,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-20T13:17:31.236234+00:00",
+   "last_checked_by_bell": "2026-10-20T13:32:46.973361+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -1944,7 +1944,7 @@
    "url": "https://www.mizuhogroup.com/americas/banking/mizuho-greenhill-international-presence",
    "kind": "manual",
    "why": "Greenhill's London summer internship (Mizuho Greenhill) opened 31 August 2026 and 25 August 2025 on a recruiter's Loxo job page, not on Mizuho's GRB list; look for it from late August.",
-   "last_checked_by_bell": "2026-10-20T13:23:18.233572+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:17.400305+00:00",
    "last_change_detected": "2026-10-19T17:24:52.761155+00:00",
    "categories": [
     "advisory"
@@ -1955,7 +1955,7 @@
    "url": "https://www.hartreepartners.com/careers/",
    "kind": "manual",
    "why": "Open hartreepartners.com/careers for London internships.",
-   "last_checked_by_bell": "2026-10-20T13:22:20.376345+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:24.375788+00:00",
    "last_change_detected": "2026-10-19T17:23:10.984447+00:00",
    "categories": [
     "commodities"
@@ -1966,7 +1966,7 @@
    "url": "https://www.howdengroupholdings.com/early-careers/insight-programmes",
    "kind": "manual",
    "why": "Open Howden's insight-programmes page for Adventure: Exploring Reinsurance (last opened 16 Mar 2026).",
-   "last_checked_by_bell": "2026-10-20T13:22:20.379966+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:24.379352+00:00",
    "last_change_detected": "2026-10-19T17:23:10.989949+00:00",
    "categories": [
     "insurance"
@@ -1988,7 +1988,7 @@
    "url": "https://iamcapital.com/contact/",
    "kind": "manual",
    "why": "iAM Capital's summer internship is by email; there is no page to read.",
-   "last_checked_by_bell": "2026-10-20T13:22:20.383964+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:24.382759+00:00",
    "last_change_detected": "2026-10-19T17:23:10.995724+00:00",
    "categories": [
     "asset_manager"
@@ -1999,7 +1999,7 @@
    "url": "https://infinitumcapital.co.uk/global-presence-contact-us/",
    "kind": "manual",
    "why": "Infinitum's internship is by email; there is no page to read.",
-   "last_checked_by_bell": "2026-10-20T13:22:20.804920+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:25.287833+00:00",
    "last_change_detected": "2026-10-19T17:23:11.821778+00:00",
    "categories": [
     "advisory"
@@ -2010,7 +2010,7 @@
    "url": "https://www.insuranceap.com/",
    "kind": "manual",
    "why": "Check insuranceap.com and IAP's LinkedIn for the London Investment Banking Intern; last opened 21 November 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.290208+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.028467+00:00",
    "last_change_detected": "2026-10-19T17:25:22.325494+00:00",
    "categories": [
     "advisory"
@@ -2043,7 +2043,7 @@
    "url": "https://www.kpmgcareers.co.uk/undergraduate/",
    "kind": "manual",
    "why": "KPMG's insight programmes are on its own vacancy search, which bell may not filter: open the undergraduate page and look.",
-   "last_checked_by_bell": "2026-10-20T13:22:30.945981+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:34.912065+00:00",
    "last_change_detected": "2026-10-19T17:23:22.588743+00:00",
    "categories": [
     "professional_services"
@@ -2065,7 +2065,7 @@
    "url": "https://apptrkr.io/lasalle-investment-management/2026-summer-internship-programme",
    "kind": "manual",
    "why": "LaSalle's London summer internships went through Dartmouth Partners' apptrkr, opened 24 October 2025 (23 September 2024 before); the next campaign's name is unknown until it opens.",
-   "last_checked_by_bell": "2026-10-20T13:23:12.312916+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:11.721623+00:00",
    "last_change_detected": "2026-10-19T17:24:40.237564+00:00",
    "categories": [
     "real_estate"
@@ -2098,7 +2098,7 @@
    "url": "https://loizouco.com/students-graduates",
    "kind": "manual",
    "why": "Check loizouco.com/students-graduates for the Financial Advisory Internship (apply by email); last opened 27 November 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.963407+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.587695+00:00",
    "last_change_detected": "2026-10-19T17:25:24.007149+00:00",
    "categories": [
     "advisory"
@@ -2109,7 +2109,7 @@
    "url": "https://longspur.com/graduate-careers-at-longspur-capital/",
    "kind": "manual",
    "why": "Check longspur.com/graduate-careers-at-longspur-capital for the Summer Intern, Corporate Finance (apply by email); this cycle's opened 29 September 2026.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.970084+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.594384+00:00",
    "last_change_detected": "2026-10-19T17:25:24.012903+00:00",
    "categories": [
     "advisory"
@@ -2120,7 +2120,7 @@
    "url": "https://macrohive.com/",
    "kind": "manual",
    "why": "Macro Hive's Summer Internship \u2013 Sales & Trading (2026's opened 15 April 2026) was posted only on LinkedIn; the firm has no careers page or board.",
-   "last_checked_by_bell": "2026-10-20T13:22:31.458951+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:35.714967+00:00",
    "last_change_detected": "2026-10-19T17:23:37.465959+00:00",
    "categories": [
     "quant_fund"
@@ -2131,7 +2131,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:18:50.927434+00:00",
+   "last_checked_by_bell": "2026-10-20T13:34:07.258740+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -2153,7 +2153,7 @@
    "url": "https://mkigp.com/for-talent/",
    "kind": "manual",
    "why": "Check mkigp.com/for-talent (and LinkedIn) for the London Summer Analyst (Event-Driven/Special Situations); last opened 5 November 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.296766+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.036170+00:00",
    "last_change_detected": "2026-10-19T17:25:22.331207+00:00",
    "categories": [
     "advisory"
@@ -2175,7 +2175,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:19:06.875207+00:00",
+   "last_checked_by_bell": "2026-10-20T13:34:23.016802+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -2186,7 +2186,7 @@
    "url": "https://emplois.bnc.ca/en_CA/careers/SearchJobs/internship",
    "kind": "manual",
    "why": "Check National Bank / NBF's London investment banking summer internship (LinkedIn, emplois.bnc.ca); opened 13 October 2026, 26 November 2025 the cycle before.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.308639+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.051477+00:00",
    "last_change_detected": "2026-10-19T17:25:22.342500+00:00",
    "categories": [
     "bank"
@@ -2208,7 +2208,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:19:18.908218+00:00",
+   "last_checked_by_bell": "2026-10-20T13:34:35.216780+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -2219,7 +2219,7 @@
    "url": "https://externalcareers.ninetyone.com/",
    "kind": "manual",
    "why": "Ninety One's London Summer Internship Programme is posted on its careers portal (a Lumesse TalentLink widget); Trackr records no opening date for 2026.",
-   "last_checked_by_bell": "2026-10-20T13:24:04.873982+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:15.932907+00:00",
    "last_change_detected": "2026-10-19T17:26:28.240807+00:00",
    "categories": [
     "asset_manager"
@@ -2230,7 +2230,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:19:29.939985+00:00",
+   "last_checked_by_bell": "2026-10-20T13:34:46.482544+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -2241,7 +2241,7 @@
    "url": "https://northwoodinvestors.com/careers/",
    "kind": "manual",
    "why": "Northwood's internships (it has a UK office) are posted on its ADP recruiting site, linked from its careers page; last cycle's Real Estate Private Equity Internship opened 29 October 2024.",
-   "last_checked_by_bell": "2026-10-20T13:23:26.661059+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:23.178721+00:00",
    "last_change_detected": "2026-10-19T17:25:00.903368+00:00",
    "categories": [
     "real_estate"
@@ -2252,7 +2252,7 @@
    "url": "https://apptrkr.io/oak-hill-advisors/oha-summer-intern-programme-2026",
    "kind": "manual",
    "why": "OHA's London summer analyst programme went through Dartmouth Partners' apptrkr (opened 18 August 2025 and 24 September 2024); the next campaign's name is unknown until it opens.",
-   "last_checked_by_bell": "2026-10-20T13:23:08.070762+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:07.596816+00:00",
    "last_change_detected": "2026-10-19T17:24:35.558266+00:00",
    "categories": [
     "asset_manager"
@@ -2263,7 +2263,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-20T13:19:29.943568+00:00",
+   "last_checked_by_bell": "2026-10-20T13:34:46.486115+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -2274,7 +2274,7 @@
    "url": "https://www.pacificam.co.uk/internships/",
    "kind": "manual",
    "why": "Pacific AM's internships (first and second years): last opened about 17 December 2025, by a form on its internships page.",
-   "last_checked_by_bell": "2026-10-20T13:22:37.166963+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:41.589247+00:00",
    "last_change_detected": "2026-10-19T17:23:46.377310+00:00",
    "categories": [
     "asset_manager"
@@ -2285,7 +2285,7 @@
    "url": "https://pharus.com/careers/",
    "kind": "manual",
    "why": "Check pharus.com/careers (and LinkedIn) for the London Investment Banking Summer Analyst; last opened 13 October 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.985553+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.607277+00:00",
    "last_change_detected": "2026-10-19T17:25:24.024539+00:00",
    "categories": [
     "advisory"
@@ -2296,7 +2296,7 @@
    "url": "https://apptrkr.io/pictet-asset-management/summer-internship-programme-2026",
    "kind": "manual",
    "why": "Pictet AM's London summer internships (Equities Business Management, Equities Total Return, Legal and Distribution Compliance) went through Dartmouth Partners' apptrkr, 9 February to 13 March 2026; the next campaign's name is unknown until it opens.",
-   "last_checked_by_bell": "2026-10-20T13:23:12.320042+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:11.728486+00:00",
    "last_change_detected": "2026-10-19T17:24:40.243482+00:00",
    "categories": [
     "asset_manager"
@@ -2307,7 +2307,7 @@
    "url": "https://www.pkf-l.com/careers/early-careers/university-placements/",
    "kind": "manual",
    "why": "Its Summer Work Placement (last opened 10 December 2025) is on an Eploy board behind a bot challenge: open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:20:02.958670+00:00",
+   "last_checked_by_bell": "2026-10-20T13:35:18.224274+00:00",
    "last_change_detected": "2026-10-16T20:36:07.861070+00:00",
    "categories": [
     "professional_services"
@@ -2318,7 +2318,7 @@
    "url": "https://www.polencapital.com/careers",
    "kind": "manual",
    "why": "Polen Capital posts on a UKG (UltiPro) job board linked from this page; its Summer Internship Program last opened 11 October 2024 (Trackr has no later date).",
-   "last_checked_by_bell": "2026-10-20T13:24:09.566331+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:21.063829+00:00",
    "last_change_detected": "2026-10-19T17:26:33.760158+00:00",
    "categories": [
     "asset_manager"
@@ -2329,7 +2329,7 @@
    "url": "https://careers.principal.com/",
    "kind": "manual",
    "why": "Its readable board (the Jibe front) held no UK roles of 155, and its iCIMS host refuses everyone.",
-   "last_checked_by_bell": "2026-10-20T13:20:04.005295+00:00",
+   "last_checked_by_bell": "2026-10-20T13:35:19.188124+00:00",
    "last_change_detected": "2026-10-16T20:36:08.480635+00:00",
    "categories": [
     "asset_manager"
@@ -2340,7 +2340,7 @@
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "kind": "manual",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:20:15.423880+00:00",
+   "last_checked_by_bell": "2026-10-20T13:35:32.231574+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -2351,7 +2351,7 @@
    "url": "https://www.rede-partners.com/join-the-team",
    "kind": "manual",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:20:16.310050+00:00",
+   "last_checked_by_bell": "2026-10-20T13:35:32.696954+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -2373,7 +2373,7 @@
    "url": "https://careers-rcm.icims.com/jobs/search?ss=1&searchLocation=13702-13822-London",
    "kind": "manual",
    "why": "Rockefeller's London Summer Analyst - European Institutional Sales is posted on its iCIMS site (filtered here to London); it last opened 20 November 2024.",
-   "last_checked_by_bell": "2026-10-20T13:24:15.820366+00:00",
+   "last_checked_by_bell": "2026-10-20T13:39:24.896450+00:00",
    "last_change_detected": "2026-10-19T17:26:38.723442+00:00",
    "categories": [
     "asset_manager"
@@ -2384,7 +2384,7 @@
    "url": "https://www.rokoscapital.com/careers",
    "kind": "manual",
    "why": "Its RCM Internship Programme (last opened 1 Nov) is applied for on a recruiter's apptrkr campaign whose name is known only once it opens: open the careers page and look.",
-   "last_checked_by_bell": "2026-10-20T13:20:17.907707+00:00",
+   "last_checked_by_bell": "2026-10-20T13:35:34.242887+00:00",
    "last_change_detected": "2026-10-17T14:35:09.747872+00:00",
    "categories": [
     "quant_fund"
@@ -2406,7 +2406,7 @@
    "url": "https://saltgate.com/student-opportunities-desktop/",
    "kind": "manual",
    "why": "Open saltgate.com's student page and its PeopleHR board for the Summer Programme (last opened 16 Feb 2026).",
-   "last_checked_by_bell": "2026-10-20T13:22:42.394953+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:46.634667+00:00",
    "last_change_detected": "2026-10-19T17:24:02.149416+00:00",
    "categories": [
     "professional_services"
@@ -2417,7 +2417,7 @@
    "url": "https://santandercib.clevry.com/",
    "kind": "manual",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-10-20T13:20:33.679549+00:00",
+   "last_checked_by_bell": "2026-10-20T13:35:51.140808+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -2450,7 +2450,7 @@
    "url": "https://www.singercm.com/careers/",
    "kind": "manual",
    "why": "Open singercm.com/careers for Internships / Work Experience (CVs by email).",
-   "last_checked_by_bell": "2026-10-20T13:22:42.711018+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:46.944036+00:00",
    "last_change_detected": "2026-10-19T17:24:02.659969+00:00",
    "categories": [
     "advisory"
@@ -2461,7 +2461,7 @@
    "url": "https://www.skagencapital.com/contact.html",
    "kind": "manual",
    "why": "Check LinkedIn / skagencapital.com for Skagen Capital's London Investment banking intern; last opened 30 October 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.302853+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.043248+00:00",
    "last_change_detected": "2026-10-19T17:25:22.336772+00:00",
    "categories": [
     "advisory"
@@ -2472,7 +2472,7 @@
    "url": "https://careers.sky.com/earlycareers/internships",
    "kind": "manual",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-10-20T13:20:39.545748+00:00",
+   "last_checked_by_bell": "2026-10-20T13:35:56.797628+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
@@ -2483,7 +2483,7 @@
    "url": "https://www.sompo-intl.com/careers/early-careers",
    "kind": "manual",
    "why": "Sompo's UK summer internship (opens about Oct-Nov): open its early-careers page and look.",
-   "last_checked_by_bell": "2026-10-20T13:22:43.055923+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:47.295375+00:00",
    "last_change_detected": "2026-10-19T17:24:04.261026+00:00",
    "categories": [
     "insurance"
@@ -2494,7 +2494,7 @@
    "url": "https://apptrkr.io/sona-asset-management/intern-graduate-programme",
    "kind": "manual",
    "why": "Open Sona's apptrkr campaign (and sona-am.com) for the London Summer Intern Programme.",
-   "last_checked_by_bell": "2026-10-20T13:22:44.382501+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:48.936607+00:00",
    "last_change_detected": "2026-10-19T17:24:05.681052+00:00",
    "categories": [
     "quant_fund"
@@ -2505,7 +2505,7 @@
    "url": "https://www.standardbank.com/sbg/standard-bank-group/careers/apply/jobs/view-all-jobs",
    "kind": "manual",
    "why": "Open Standard Bank's careers search (United Kingdom) for the CIB International internship; the 2027 one opened 2 October 2026 and closes 30 October.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.956172+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.579118+00:00",
    "last_change_detected": "2026-10-19T17:25:24.000763+00:00",
    "categories": [
     "bank"
@@ -2516,7 +2516,7 @@
    "url": "https://career2.successfactors.eu/career?company=stifeleuro",
    "kind": "manual",
    "why": "Open Stifel Europe's SuccessFactors careers (company stifeleuro) for the London Investment Banking Summer Intern; last opened 27 November 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:39.000068+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.622669+00:00",
    "last_change_detected": "2026-10-19T17:25:24.035909+00:00",
    "categories": [
     "bank"
@@ -2527,7 +2527,7 @@
    "url": "https://www.stjadvisors.com/careers",
    "kind": "manual",
    "why": "STJ Advisors' Summer Internship Program 2027 is open on stjadvisors.com/careers (apply by email; closes 15 January 2027).",
-   "last_checked_by_bell": "2026-10-20T13:23:38.976625+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.600208+00:00",
    "last_change_detected": "2026-10-19T17:25:24.018720+00:00",
    "categories": [
     "advisory"
@@ -2538,7 +2538,7 @@
    "url": "https://www.stolt-nielsen.com/careers/",
    "kind": "manual",
    "why": "Open stolt-nielsen.com/careers for the London Corporate Development & CVC internship.",
-   "last_checked_by_bell": "2026-10-20T13:22:44.490831+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:49.057831+00:00",
    "last_change_detected": "2026-10-19T17:24:05.836500+00:00",
    "categories": [
     "corporate"
@@ -2549,7 +2549,7 @@
    "url": "https://www.careers-page.com/stout-park-ltd",
    "kind": "manual",
    "why": "Check careers-page.com/stout-park-ltd for Stout's London 2027 Summer Intern - Corporate Finance; last opened 24 December 2025.",
-   "last_checked_by_bell": "2026-10-20T13:23:38.992768+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.614713+00:00",
    "last_change_detected": "2026-10-19T17:25:24.030178+00:00",
    "categories": [
     "advisory"
@@ -2560,7 +2560,7 @@
    "url": "https://www.sucdenfinancial.com/en/about/careers/working-here",
    "kind": "manual",
    "why": "Open sucdenfinancial.com careers for London internships.",
-   "last_checked_by_bell": "2026-10-20T13:22:45.544553+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:50.149128+00:00",
    "last_change_detected": "2026-10-19T17:24:07.620216+00:00",
    "categories": [
     "commodities"
@@ -2593,7 +2593,7 @@
    "url": "https://www.torchpartners.com/careers",
    "kind": "manual",
    "why": "Check torchpartners.com/careers for the London Summer Internship Scheme (apply by email); last dated 13 September 2024.",
-   "last_checked_by_bell": "2026-10-20T13:23:39.006266+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:41.628578+00:00",
    "last_change_detected": "2026-10-19T17:25:24.041402+00:00",
    "categories": [
     "advisory"
@@ -2604,7 +2604,7 @@
    "url": "https://tower-peak.com/careers",
    "kind": "manual",
    "why": "Tower Peak's postgraduate summer internship (10 weeks, London/New York) is applied for by email from its careers page, which lists Tower Peak Summer Postgraduate Internship 2027 as a mailto link; last cycle it was also on Greenhouse (17 February 2025).",
-   "last_checked_by_bell": "2026-10-20T13:23:20.340837+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:19.592702+00:00",
    "last_change_detected": "2026-10-19T17:24:55.374977+00:00",
    "categories": [
     "private_equity"
@@ -2626,7 +2626,7 @@
    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeqdW2v1snBc0__YW-HDte-1YnerkHK8bQizw4PpZFmd_zHoA/viewform",
    "kind": "manual",
    "why": "Open last cycle's Google Form (and vericorcapital.co.uk) for the Search Fund Intern Program (last opened 30 Apr 2026).",
-   "last_checked_by_bell": "2026-10-20T13:22:51.308837+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:56.011882+00:00",
    "last_change_detected": "2026-10-19T17:24:16.556067+00:00",
    "categories": [
     "private_equity"
@@ -2637,7 +2637,7 @@
    "url": "https://www.walterscott.com/careers/#internships",
    "kind": "manual",
    "why": "Walter Scott's Edinburgh internship opens about mid-August by email: open its careers page.",
-   "last_checked_by_bell": "2026-10-20T13:22:51.312116+00:00",
+   "last_checked_by_bell": "2026-10-20T13:37:56.015213+00:00",
    "last_change_detected": "2026-10-19T17:24:16.561766+00:00",
    "categories": [
     "asset_manager"
@@ -2648,7 +2648,7 @@
    "url": "https://recruiting.ultipro.com/WEL1008WLLT/JobBoard/30969ce4-3b7e-40a6-b86c-34d3616fe0ed/",
    "kind": "manual",
    "why": "Welltower's London Summer Analyst - Real Estate Investments is posted on its UKG job board, opened 11 November 2025 (22 August 2024 before); US '27 Summer Analyst roles were up by 8 October 2026.",
-   "last_checked_by_bell": "2026-10-20T13:23:26.666822+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:23.186302+00:00",
    "last_change_detected": "2026-10-19T17:25:00.908958+00:00",
    "categories": [
     "real_estate"
@@ -2659,7 +2659,7 @@
    "url": "https://yfmep.com/careers",
    "kind": "manual",
    "why": "YFM's private equity summer internship was advertised through Sanctuary Graduates (a graduate recruiter), opened 20 May 2026 (3 February 2025 before); its own careers page links no board.",
-   "last_checked_by_bell": "2026-10-20T13:23:20.347682+00:00",
+   "last_checked_by_bell": "2026-10-20T13:38:19.599557+00:00",
    "last_change_detected": "2026-10-19T17:24:55.380742+00:00",
    "categories": [
     "private_equity"
@@ -3278,7 +3278,7 @@
   },
   {
    "firm": "Alpha FMC",
-   "title": "Alpha FMC | Data, AI, & Digital Engineering Analyst Graduate 2027",
+   "title": "Data, AI, & Digital Engineering Analyst Graduate 2027",
    "url": "https://job-boards.greenhouse.io/alphafmcrolesearlycareers/jobs/8855289002",
    "location": "London",
    "place": "London",
@@ -8318,7 +8318,7 @@
   },
   {
    "firm": "NFU Mutual",
-   "title": "Financial Services Advisory Graduate Scheme 346447",
+   "title": "Financial Services Advisory Graduate Scheme",
    "url": "https://careers.nfumutual.co.uk/jobs/Financial-Services-Advisory-Graduate-Scheme-346447",
    "location": "",
    "place": "",
@@ -8534,7 +8534,7 @@
   },
   {
    "firm": "Caledonia Investments",
-   "title": "Caledonia Investments - Summer Internship 2027",
+   "title": "Summer Internship 2027",
    "url": "https://apptrkr.io/caledonia-investments/caledonia-investments-2027-summer-internship/caledonia-investments-summer-internship-2027",
    "location": "",
    "place": "",
@@ -8654,7 +8654,7 @@
   },
   {
    "firm": "Engie Global Energy Management",
-   "title": "COLUMBUS Engineering Intern PTIN5C OH 43240",
+   "title": "COLUMBUS Engineering Intern PTIN5C OH",
    "url": "https://jobs.engie.com/job/COLUMBUS-Engineering-Intern_PTIN5C-OH-43240/1367815055/",
    "location": "",
    "place": "",
@@ -8678,7 +8678,7 @@
   },
   {
    "firm": "Engie Global Energy Management",
-   "title": "La Garenne Colombes Intern Weather & Energy Trader 92250",
+   "title": "La Garenne Colombes Intern Weather & Energy Trader",
    "url": "https://jobs.engie.com/job/La-Garenne-Colombes-Intern-Weather-&amp;-Energy-Trader-92250/1360293455/",
    "location": "",
    "place": "",
@@ -8702,7 +8702,7 @@
   },
   {
    "firm": "Engie Global Energy Management",
-   "title": "La Garenne Colombes Intern ESG AI Due diligence 92250",
+   "title": "La Garenne Colombes Intern ESG AI Due diligence",
    "url": "https://jobs.engie.com/job/La-Garenne-Colombes-Intern-ESG-AI-Due-diligence-92250/1369256855/",
    "location": "",
    "place": "",
@@ -8726,7 +8726,7 @@
   },
   {
    "firm": "Engie Global Energy Management",
-   "title": "La Garenne Colombes Intern Quantitative Research 92250",
+   "title": "La Garenne Colombes Intern Quantitative Research",
    "url": "https://jobs.engie.com/job/La-Garenne-Colombes-Intern-Quantitative-Research-92250/1368887655/",
    "location": "",
    "place": "",
@@ -8750,7 +8750,7 @@
   },
   {
    "firm": "Engie Global Energy Management",
-   "title": "La Garenne Colombes Intern Quantitative Energy Portfolio Analyst 92250",
+   "title": "La Garenne Colombes Intern Quantitative Energy Portfolio Analyst",
    "url": "https://jobs.engie.com/job/La-Garenne-Colombes-Intern-Quantitative-Energy-Portfolio-Analyst-92250/1369951055/",
    "location": "",
    "place": "",
@@ -8774,7 +8774,7 @@
   },
   {
    "firm": "Engie Global Energy Management",
-   "title": "Cyberjaya Intern Engineer, Operation & Maintenance (Kedah) 63000",
+   "title": "Cyberjaya Intern Engineer, Operation & Maintenance (Kedah)",
    "url": "https://jobs.engie.com/job/Cyberjaya-Intern-Engineer%2C-Operation-&amp;-Maintenance-%28Kedah%29-63000/1369431755/",
    "location": "",
    "place": "",
@@ -8798,7 +8798,7 @@
   },
   {
    "firm": "Engie Global Energy Management",
-   "title": "Roma Junior Energy Operations & Settlement Intern 40966",
+   "title": "Roma Junior Energy Operations & Settlement Intern",
    "url": "https://jobs.engie.com/job/Roma-Junior-Energy-Operations-&amp;-Settlement-Intern-40966/1369774955/",
    "location": "",
    "place": "",
@@ -9542,7 +9542,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06518 11629",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06518-11629",
    "location": "",
    "place": "",
@@ -9566,7 +9566,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06519 11631",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06519-11631",
    "location": "",
    "place": "",
@@ -9590,7 +9590,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Site Reliability Engineer V06520 11625",
+   "title": "Graduate Site Reliability Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-site-reliability-engineer-v06520-11625",
    "location": "",
    "place": "",
@@ -9614,7 +9614,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06527 11597",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06527-11597",
    "location": "",
    "place": "",
@@ -9634,54 +9634,6 @@
    "adopted": true,
    "late": true,
    "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-software-engineer-v06527-11597",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Electronic Engineer Wireless V06542 11633",
-   "url": "https://jobsearch.baesystems.com/job/graduate-electronic-engineer-wireless-v06542-11633",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-12T16:54:13+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electronic-engineer-wireless-v06542-11633",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Electronic Engineer V06546 11619",
-   "url": "https://jobsearch.baesystems.com/job/graduate-electronic-engineer-v06546-11619",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-12T16:54:13+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electronic-engineer-v06546-11619",
    "pushed_at": null
   },
   {
@@ -9949,6 +9901,30 @@
    "pushed_at": null
   },
   {
+   "firm": "KR8 Advisory",
+   "title": "Business & Capital Advisory Intern",
+   "url": "https://careers.k3advisorygroup.com/jobs/8527782-business-capital-advisory-intern",
+   "location": "Manchester\u00b7 Programme: KR8 Intern Programme \u2013 6 weeks",
+   "place": "Manchester\u00b7 Programme: KR8 Intern Programme \u2013 6 weeks",
+   "opened_at": "2026-10-10T07:34:29+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-20T13:37:35.282639+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "advisory",
+   "reason": "intern + advisory",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": true,
+   "late": true,
+   "key": "linklist:https://careers.k3advisorygroup.com/jobs#8527782",
+   "pushed_at": null
+  },
+  {
    "firm": "BCG",
    "title": "Forward Deployed AI Scientist, Internship, Netherlands - BCG X",
    "url": "https://careers.bcg.com/global/en/job/57292/Forward-Deployed-AI-Scientist-Internship-Netherlands-BCG-X",
@@ -10045,8 +10021,32 @@
    "pushed_at": null
   },
   {
+   "firm": "KR8 Advisory",
+   "title": "Restructuring Advisory Graduate",
+   "url": "https://careers.k3advisorygroup.com/jobs/8527606-restructuring-advisory-graduate",
+   "location": "London",
+   "place": "London",
+   "opened_at": "2026-10-09T18:44:38+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-20T13:37:35.282639+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "graduate",
+   "desk": "advisory",
+   "reason": "graduate + corporate finance",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": true,
+   "late": true,
+   "key": "linklist:https://careers.k3advisorygroup.com/jobs#8527606",
+   "pushed_at": null
+  },
+  {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06248 11357",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06248-11357",
    "location": "",
    "place": "",
@@ -10070,7 +10070,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06247 11246",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06247-11246",
    "location": "",
    "place": "",
@@ -10094,79 +10094,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Through Life Support Engineer V06357 11455",
-   "url": "https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06357-11455",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:44:25+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06357-11455",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Through Life Support Engineer V06358 11362",
-   "url": "https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06358-11362",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:44:25+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06358-11362",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Through Life Support Engineer V06356 11454",
-   "url": "https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06356-11454",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:44:24+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-through-life-support-engineer-v06356-11454",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06393 11682",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06393-11682",
    "location": "",
    "place": "",
@@ -10190,7 +10118,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06392 11681",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06392-11681",
    "location": "",
    "place": "",
@@ -10214,7 +10142,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06390 11680",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06390-11680",
    "location": "",
    "place": "",
@@ -10238,103 +10166,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Product Safety Engineer V06372 11678",
-   "url": "https://jobsearch.baesystems.com/job/graduate-product-safety-engineer-v06372-11678",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:39:04+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-product-safety-engineer-v06372-11678",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Test And Commissioning Engineer V06299 11253",
-   "url": "https://jobsearch.baesystems.com/job/graduate-test-and-commissioning-engineer-v06299-11253",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:39:01+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-test-and-commissioning-engineer-v06299-11253",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Structural Engineer V06425 11691",
-   "url": "https://jobsearch.baesystems.com/job/graduate-structural-engineer-v06425-11691",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:38:59+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-structural-engineer-v06425-11691",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Summer Intern Mechanical Engineer V06424 11745",
-   "url": "https://jobsearch.baesystems.com/job/summer-intern-mechanical-engineer-v06424-11745",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:38:58+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-mechanical-engineer-v06424-11745",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06416 11690",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06416-11690",
    "location": "",
    "place": "",
@@ -10358,7 +10190,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06414 11688",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06414-11688",
    "location": "",
    "place": "",
@@ -10382,7 +10214,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Summer Intern Systems Engineer V06406 11738",
+   "title": "Summer Intern Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/summer-intern-systems-engineer-v06406-11738",
    "location": "",
    "place": "",
@@ -10406,7 +10238,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06404 11686",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06404-11686",
    "location": "",
    "place": "",
@@ -10430,55 +10262,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Human Factors Engineer V06400 11684",
-   "url": "https://jobsearch.baesystems.com/job/graduate-human-factors-engineer-v06400-11684",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:38:42+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-human-factors-engineer-v06400-11684",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Electrical Engineer V06398 11683",
-   "url": "https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06398-11683",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:38:39+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06398-11683",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Supply Chain V06486 11705",
+   "title": "Graduate Supply Chain",
    "url": "https://jobsearch.baesystems.com/job/graduate-supply-chain-v06486-11705",
    "location": "",
    "place": "",
@@ -10502,103 +10286,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Electrical Engineer V06473 11704",
-   "url": "https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06473-11704",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:38:35+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06473-11704",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Electrical Engineer V06472 11703",
-   "url": "https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06472-11703",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:38:33+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06472-11703",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Electrical Engineer V06471 11702",
-   "url": "https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06471-11702",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:38:32+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06471-11702",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Summer Intern Electrical Engineer V06470 11594",
-   "url": "https://jobsearch.baesystems.com/job/summer-intern-electrical-engineer-v06470-11594",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:38:31+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-electrical-engineer-v06470-11594",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Integrated Logistics Support Engineer V06456 11700",
+   "title": "Graduate Integrated Logistics Support Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-integrated-logistics-support-engineer-v06456-11700",
    "location": "",
    "place": "",
@@ -10622,7 +10310,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Radio Frequency Engineer V06453 11699",
+   "title": "Graduate Radio Frequency Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-radio-frequency-engineer-v06453-11699",
    "location": "",
    "place": "",
@@ -10646,31 +10334,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Mechanical Engineer V06431 11694",
-   "url": "https://jobsearch.baesystems.com/job/graduate-mechanical-engineer-v06431-11694",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:37:24+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-mechanical-engineer-v06431-11694",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06572 11797",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06572-11797",
    "location": "",
    "place": "",
@@ -10694,7 +10358,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06571 11796",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06571-11796",
    "location": "",
    "place": "",
@@ -10718,31 +10382,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Product Safety Engineer V06570 11795",
-   "url": "https://jobsearch.baesystems.com/job/graduate-product-safety-engineer-v06570-11795",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:37:18+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-product-safety-engineer-v06570-11795",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Network Engineer V06569 11794",
+   "title": "Graduate Network Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-network-engineer-v06569-11794",
    "location": "",
    "place": "",
@@ -10766,7 +10406,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Hardware Engineer V06568 11793",
+   "title": "Graduate Hardware Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-hardware-engineer-v06568-11793",
    "location": "",
    "place": "",
@@ -10790,31 +10430,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Electrical Engineer V06566 11792",
-   "url": "https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06566-11792",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:37:15+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electrical-engineer-v06566-11792",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Cs Platform Intergration V06564 11791",
+   "title": "Graduate Cs Platform Intergration",
    "url": "https://jobsearch.baesystems.com/job/graduate-cs-platform-intergration-v06564-11791",
    "location": "",
    "place": "",
@@ -10838,7 +10454,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06563 11790",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06563-11790",
    "location": "",
    "place": "",
@@ -10862,7 +10478,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06562 11789",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06562-11789",
    "location": "",
    "place": "",
@@ -10886,7 +10502,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06561 11788",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06561-11788",
    "location": "",
    "place": "",
@@ -10910,7 +10526,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Weights Engineer V06560 11718",
+   "title": "Graduate Weights Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-weights-engineer-v06560-11718",
    "location": "",
    "place": "",
@@ -10934,55 +10550,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Manufacturing Engineer V06555 11717",
-   "url": "https://jobsearch.baesystems.com/job/graduate-manufacturing-engineer-v06555-11717",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:37:06+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-manufacturing-engineer-v06555-11717",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Summer Intern Manufacturing Engineer V06554 11764",
-   "url": "https://jobsearch.baesystems.com/job/summer-intern-manufacturing-engineer-v06554-11764",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:37:05+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-manufacturing-engineer-v06554-11764",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Network Engineer V06552 11607",
+   "title": "Graduate Network Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-network-engineer-v06552-11607",
    "location": "",
    "place": "",
@@ -11006,31 +10574,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Electronic Engineer V06545 11615",
-   "url": "https://jobsearch.baesystems.com/job/graduate-electronic-engineer-v06545-11615",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:37:01+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-electronic-engineer-v06545-11615",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06539 11639",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06539-11639",
    "location": "",
    "place": "",
@@ -11054,7 +10598,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06538 11609",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06538-11609",
    "location": "",
    "place": "",
@@ -11078,31 +10622,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Summer Intern Product Safety Engineer V06524 11763",
-   "url": "https://jobsearch.baesystems.com/job/summer-intern-product-safety-engineer-v06524-11763",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:36:53+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-product-safety-engineer-v06524-11763",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Electronics Firmware Engineer V06512 11715",
+   "title": "Graduate Electronics Firmware Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-electronics-firmware-engineer-v06512-11715",
    "location": "",
    "place": "",
@@ -11126,7 +10646,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Summer Intern Systems Engineer V06502 11757",
+   "title": "Summer Intern Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/summer-intern-systems-engineer-v06502-11757",
    "location": "",
    "place": "",
@@ -11150,7 +10670,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06501 11714",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06501-11714",
    "location": "",
    "place": "",
@@ -11174,7 +10694,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06500 11713",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06500-11713",
    "location": "",
    "place": "",
@@ -11198,7 +10718,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06499 11712",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06499-11712",
    "location": "",
    "place": "",
@@ -11222,7 +10742,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06498 11711",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06498-11711",
    "location": "",
    "place": "",
@@ -11246,7 +10766,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06497 11710",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06497-11710",
    "location": "",
    "place": "",
@@ -11270,7 +10790,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06496 11709",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06496-11709",
    "location": "",
    "place": "",
@@ -11294,7 +10814,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Electrical Power Engineer V06492 11708",
+   "title": "Graduate Electrical Power Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-electrical-power-engineer-v06492-11708",
    "location": "",
    "place": "",
@@ -11318,31 +10838,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Mechanical Engineer V06603 11799",
-   "url": "https://jobsearch.baesystems.com/job/graduate-mechanical-engineer-v06603-11799",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:36:31+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-mechanical-engineer-v06603-11799",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Mission Systems Integration Engineer V06602 11730",
+   "title": "Graduate Mission Systems Integration Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-mission-systems-integration-engineer-v06602-11730",
    "location": "",
    "place": "",
@@ -11366,7 +10862,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Mission Systems Integration Engineer V06601 11729",
+   "title": "Graduate Mission Systems Integration Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-mission-systems-integration-engineer-v06601-11729",
    "location": "",
    "place": "",
@@ -11390,7 +10886,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Mission Systems Integration Engineer V06600 11728",
+   "title": "Graduate Mission Systems Integration Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-mission-systems-integration-engineer-v06600-11728",
    "location": "",
    "place": "",
@@ -11414,7 +10910,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Software Engineer V06599 11727",
+   "title": "Graduate Software Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-software-engineer-v06599-11727",
    "location": "",
    "place": "",
@@ -11438,7 +10934,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Nuclear Primary Build Organisation Engineer V06594 11724",
+   "title": "Graduate Nuclear Primary Build Organisation Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-nuclear-primary-build-organisation-engineer-v06594-11724",
    "location": "",
    "place": "",
@@ -11462,7 +10958,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Design Engineer V06588 11722",
+   "title": "Graduate Design Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-design-engineer-v06588-11722",
    "location": "",
    "place": "",
@@ -11486,7 +10982,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Stealth Engineer V06584 11721",
+   "title": "Graduate Stealth Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-stealth-engineer-v06584-11721",
    "location": "",
    "place": "",
@@ -11510,7 +11006,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Summer Intern Systems Engineer V06583 11774",
+   "title": "Summer Intern Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/summer-intern-systems-engineer-v06583-11774",
    "location": "",
    "place": "",
@@ -11534,7 +11030,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Summer Intern Technology Management V06579 11770",
+   "title": "Summer Intern Technology Management",
    "url": "https://jobsearch.baesystems.com/job/summer-intern-technology-management-v06579-11770",
    "location": "",
    "place": "",
@@ -11558,7 +11054,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Technology Management V06577 11720",
+   "title": "Graduate Technology Management",
    "url": "https://jobsearch.baesystems.com/job/graduate-technology-management-v06577-11720",
    "location": "",
    "place": "",
@@ -11582,55 +11078,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Summer Intern Manufacturing Engineer V06619 11786",
-   "url": "https://jobsearch.baesystems.com/job/summer-intern-manufacturing-engineer-v06619-11786",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:35:15+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/summer-intern-manufacturing-engineer-v06619-11786",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Manufacturing Engineer V06618 11808",
-   "url": "https://jobsearch.baesystems.com/job/graduate-manufacturing-engineer-v06618-11808",
-   "location": "",
-   "place": "",
-   "opened_at": "2026-10-09T13:35:14+00:00",
-   "opened_exact": false,
-   "first_seen_at": "2026-10-19T17:27:59.162425+00:00",
-   "date_basis": "published_date",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": true,
-   "late": true,
-   "key": "sitemap:https://jobsearch.baesystems.com/jobs-sitemap.xml#https://jobsearch.baesystems.com/job/graduate-manufacturing-engineer-v06618-11808",
-   "pushed_at": null
-  },
-  {
-   "firm": "BAE Systems",
-   "title": "Graduate Warship Engineer V06607 11803",
+   "title": "Graduate Warship Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-warship-engineer-v06607-11803",
    "location": "",
    "place": "",
@@ -11654,7 +11102,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Systems Engineer V06606 11802",
+   "title": "Graduate Systems Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-systems-engineer-v06606-11802",
    "location": "",
    "place": "",
@@ -11678,7 +11126,7 @@
   },
   {
    "firm": "BAE Systems",
-   "title": "Graduate Devops Engineer V06553 11830",
+   "title": "Graduate Devops Engineer",
    "url": "https://jobsearch.baesystems.com/job/graduate-devops-engineer-v06553-11830",
    "location": "",
    "place": "",
@@ -16862,7 +16310,7 @@
   },
   {
    "firm": "NatWest Markets",
-   "title": "NatWest Markets - Amsterdam Internship Programme",
+   "title": "Amsterdam Internship Programme",
    "url": "https://rbs.wd3.myworkdayjobs.com/en-US/RBS/job/Amsterdam/NatWest-Markets---Amsterdam-Internship-Programme_R-00286723",
    "location": "Amsterdam",
    "place": "Amsterdam",
@@ -17054,7 +16502,7 @@
   },
   {
    "firm": "First Wealth",
-   "title": "First Wealth \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "location": "",
    "place": "",
@@ -18998,7 +18446,7 @@
   },
   {
    "firm": "SEB",
-   "title": "SEB \u2014 Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
+   "title": "Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
    "url": "https://sebgroup.com/about-us/our-locations/home-markets/seb-in-the-united-kingdom/seb-uk--internship-programme",
    "location": "",
    "place": "",
@@ -19046,7 +18494,7 @@
   },
   {
    "firm": "AKO Capital",
-   "title": "AKO Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.akocapital.com/careers/",
    "location": "",
    "place": "",
@@ -19070,7 +18518,7 @@
   },
   {
    "firm": "Lansdowne Partners",
-   "title": "Lansdowne Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.lansdownepartners.com/careers/",
    "location": "",
    "place": "",
@@ -19094,7 +18542,7 @@
   },
   {
    "firm": "Midland Heart",
-   "title": "Midland Heart \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://jobs.midlandheartgroup.org.uk/jobs/",
    "location": "",
    "place": "",
@@ -19118,7 +18566,7 @@
   },
   {
    "firm": "Lockton",
-   "title": "Lockton \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://careers.lockton.com/gb/en/browsejobs?jobtype=Internship/%20Placement%20Role",
    "location": "",
    "place": "",
@@ -19142,7 +18590,7 @@
   },
   {
    "firm": "Azets",
-   "title": "Azets \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.azets.com/en-uk/careers/current-opportunities/",
    "location": "",
    "place": "",
@@ -19166,7 +18614,7 @@
   },
   {
    "firm": "Audit Scotland",
-   "title": "Audit Scotland \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://ce0741li.webitrent.com/ce0741li_webrecruitment/wrd/run/ETREC179GF.open?WVID=5090012VPm",
    "location": "",
    "place": "",
@@ -19190,7 +18638,7 @@
   },
   {
    "firm": "Aventum Group",
-   "title": "Aventum Group \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://aventumgroup.com/join-us/early-careers",
    "location": "",
    "place": "",
@@ -19214,7 +18662,7 @@
   },
   {
    "firm": "RSM",
-   "title": "RSM \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.rsmuk.com/careers/jobs?keywords=Internship",
    "location": "",
    "place": "",
@@ -19238,7 +18686,7 @@
   },
   {
    "firm": "First Actuarial",
-   "title": "First Actuarial \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://careers.firstactuarial.co.uk/",
    "location": "",
    "place": "",
@@ -19262,7 +18710,7 @@
   },
   {
    "firm": "Hymans Robertson",
-   "title": "Hymans Robertson \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://hymans.current-vacancies.com/Careers/Hymans%20external%20VSP-2054",
    "location": "",
    "place": "",
@@ -19286,7 +18734,7 @@
   },
   {
    "firm": "LCP",
-   "title": "LCP \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://careers.lcp.com/find-a-role",
    "location": "",
    "place": "",
@@ -19310,7 +18758,7 @@
   },
   {
    "firm": "AXA",
-   "title": "AXA \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://careers.axa.com/careers-home/jobs?tags2=Internship+%2F+Placement+%2F+Working+student&page=1&country=United+Kingdom",
    "location": "",
    "place": "",
@@ -19574,7 +19022,7 @@
   },
   {
    "firm": "Uber",
-   "title": "Uber \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.uber.com/us/en/careers/list/?query=intern&location=GBR-England-London",
    "location": "",
    "place": "",
@@ -19598,7 +19046,7 @@
   },
   {
    "firm": "TikTok",
-   "title": "TikTok \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://lifeattiktok.com/search?recruitment_id_list=202%2C301&location_code_list=CT_93",
    "location": "",
    "place": "",
@@ -19622,7 +19070,7 @@
   },
   {
    "firm": "Tesco",
-   "title": "Tesco \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://tescoearlycareers.groupgti.com/",
    "location": "",
    "place": "",
@@ -19646,7 +19094,7 @@
   },
   {
    "firm": "Revolut",
-   "title": "Revolut \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.revolut.com/careers/",
    "location": "",
    "place": "",
@@ -19670,7 +19118,7 @@
   },
   {
    "firm": "Natrium Capital",
-   "title": "Natrium Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.natriumcapital.com/careers/",
    "location": "",
    "place": "",
@@ -19718,7 +19166,7 @@
   },
   {
    "firm": "Money Maze Podcast",
-   "title": "Money Maze Podcast \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.moneymazepodcast.com/internships",
    "location": "",
    "place": "",
@@ -19742,7 +19190,7 @@
   },
   {
    "firm": "Centre for Cities",
-   "title": "Centre for Cities \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.centreforcities.org/about/careers/",
    "location": "",
    "place": "",
@@ -19766,7 +19214,7 @@
   },
   {
    "firm": "Bank of China",
-   "title": "Bank of China \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://bankofchina.current-vacancies.com/Careers/BOC_vacancies-3261",
    "location": "",
    "place": "",
@@ -19982,7 +19430,7 @@
   },
   {
    "firm": "Allianz Insurance",
-   "title": "Allianz Insurance \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://careers.allianz.com/global/en/search-results?keywords=United%20Kingdom",
    "location": "",
    "place": "",
@@ -20102,7 +19550,7 @@
   },
   {
    "firm": "Simon-Kucher",
-   "title": "Simon-Kucher \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://simon-kucher.csod.com/ux/ats/careersite/6/home?c=simon-kucher",
    "location": "",
    "place": "",
@@ -20174,7 +19622,7 @@
   },
   {
    "firm": "Kearney",
-   "title": "Kearney \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.kearney.com/careers",
    "location": "",
    "place": "",
@@ -20198,7 +19646,7 @@
   },
   {
    "firm": "Korn Ferry",
-   "title": "Korn Ferry \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://kornferry.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-14/candidate/jobboard/vacancy/2/adv/",
    "location": "",
    "place": "",
@@ -20222,7 +19670,7 @@
   },
   {
    "firm": "GEP",
-   "title": "GEP \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://geppeoplecentral.darwinbox.com/ms/candidatev2/main/careers/home",
    "location": "",
    "place": "",
@@ -20390,7 +19838,7 @@
   },
   {
    "firm": "Cornerstone Research",
-   "title": "Cornerstone Research \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://uguk-chire.icims.com/jobs/search?ss=1",
    "location": "",
    "place": "",
@@ -20414,7 +19862,7 @@
   },
   {
    "firm": "Broadstone",
-   "title": "Broadstone \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://broadstonepeople.my.salesforce-sites.com/recruit/fRecruit__ApplyJobList?portal=Candidate+Hub",
    "location": "",
    "place": "",
@@ -20438,7 +19886,7 @@
   },
   {
    "firm": "Bain & Company",
-   "title": "Bain & Company \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.bain.com/careers/work-with-us/internships-programs/",
    "location": "",
    "place": "",
@@ -20510,7 +19958,7 @@
   },
   {
    "firm": "Alvarez & Marsal",
-   "title": "Alvarez & Marsal \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://careers.alvarezandmarsal.com/search/jobs/in/london?q=summer+intern",
    "location": "",
    "place": "",
@@ -20534,7 +19982,7 @@
   },
   {
    "firm": "Accuracy",
-   "title": "Accuracy \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://app-accuracy.bc.direct/recruitment/career/5ee62d016b800f0fc8e70d1c?page=1&limit=10",
    "location": "",
    "place": "",
@@ -20558,7 +20006,7 @@
   },
   {
    "firm": "Rockefeller Capital Management",
-   "title": "Rockefeller Capital Management \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://careers-rcm.icims.com/jobs/search?ss=1&searchLocation=13702-13822-London",
    "location": "",
    "place": "",
@@ -20582,7 +20030,7 @@
   },
   {
    "firm": "Polen Capital",
-   "title": "Polen Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.polencapital.com/careers",
    "location": "",
    "place": "",
@@ -20630,7 +20078,7 @@
   },
   {
    "firm": "Ninety One",
-   "title": "Ninety One \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://externalcareers.ninetyone.com/",
    "location": "",
    "place": "",
@@ -20654,7 +20102,7 @@
   },
   {
    "firm": "DWS",
-   "title": "DWS \u2014 Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
+   "title": "Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
    "url": "https://dws.groupgti.com/VacancyPosting/Search/",
    "location": "",
    "place": "",
@@ -20678,7 +20126,7 @@
   },
   {
    "firm": "Corient",
-   "title": "Corient \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://jobs.dayforcehcm.com/en-US/stonefleming/CANDIDATEPORTAL",
    "location": "",
    "place": "",
@@ -20702,7 +20150,7 @@
   },
   {
    "firm": "Blackfinch Group",
-   "title": "Blackfinch Group \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://blackfinch.com/Internships/",
    "location": "",
    "place": "",
@@ -20726,7 +20174,7 @@
   },
   {
    "firm": "AustralianSuper",
-   "title": "AustralianSuper \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.australiansuper.com/careers/graduate-and-internship-programs",
    "location": "",
    "place": "",
@@ -20750,7 +20198,7 @@
   },
   {
    "firm": "CITIC CLSA",
-   "title": "CITIC CLSA \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.clsa.com/careers/",
    "location": "",
    "place": "",
@@ -20774,7 +20222,7 @@
   },
   {
    "firm": "Torch Partners",
-   "title": "Torch Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.torchpartners.com/careers",
    "location": "",
    "place": "",
@@ -20798,7 +20246,7 @@
   },
   {
    "firm": "Stifel",
-   "title": "Stifel \u2014 Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
+   "title": "Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
    "url": "https://career2.successfactors.eu/career?company=stifeleuro",
    "location": "",
    "place": "",
@@ -20822,7 +20270,7 @@
   },
   {
    "firm": "Stout",
-   "title": "Stout \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.careers-page.com/stout-park-ltd",
    "location": "",
    "place": "",
@@ -20846,7 +20294,7 @@
   },
   {
    "firm": "Pharus",
-   "title": "Pharus \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://pharus.com/careers/",
    "location": "",
    "place": "",
@@ -20870,7 +20318,7 @@
   },
   {
    "firm": "STJ Advisors",
-   "title": "STJ Advisors \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.stjadvisors.com/careers",
    "location": "",
    "place": "",
@@ -20894,7 +20342,7 @@
   },
   {
    "firm": "Longspur Capital",
-   "title": "Longspur Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://longspur.com/graduate-careers-at-longspur-capital/",
    "location": "",
    "place": "",
@@ -20918,7 +20366,7 @@
   },
   {
    "firm": "Loizou & Co",
-   "title": "Loizou & Co \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://loizouco.com/students-graduates",
    "location": "",
    "place": "",
@@ -20942,7 +20390,7 @@
   },
   {
    "firm": "Standard Bank",
-   "title": "Standard Bank \u2014 Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
+   "title": "Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
    "url": "https://www.standardbank.com/sbg/standard-bank-group/careers/apply/jobs/view-all-jobs",
    "location": "",
    "place": "",
@@ -20966,7 +20414,7 @@
   },
   {
    "firm": "Global Infrastructure Advisors",
-   "title": "Global Infrastructure Advisors \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://gi-advisors.com/",
    "location": "",
    "place": "",
@@ -20990,7 +20438,7 @@
   },
   {
    "firm": "National Bank of Canada",
-   "title": "National Bank of Canada \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://emplois.bnc.ca/en_CA/careers/SearchJobs/internship",
    "location": "",
    "place": "",
@@ -21014,7 +20462,7 @@
   },
   {
    "firm": "Skagen Capital",
-   "title": "Skagen Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.skagencapital.com/contact.html",
    "location": "",
    "place": "",
@@ -21038,7 +20486,7 @@
   },
   {
    "firm": "MKI Global Partners",
-   "title": "MKI Global Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://mkigp.com/for-talent/",
    "location": "",
    "place": "",
@@ -21062,7 +20510,7 @@
   },
   {
    "firm": "Insurance Advisory Partners",
-   "title": "Insurance Advisory Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.insuranceap.com/",
    "location": "",
    "place": "",
@@ -21086,7 +20534,7 @@
   },
   {
    "firm": "First Bank of Nigeria",
-   "title": "First Bank of Nigeria \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.fbnbank.co.uk/careers/",
    "location": "",
    "place": "",
@@ -21206,7 +20654,7 @@
   },
   {
    "firm": "CICC",
-   "title": "CICC \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://en.cicc.com/",
    "location": "",
    "place": "",
@@ -21230,7 +20678,7 @@
   },
   {
    "firm": "Cushman & Wakefield",
-   "title": "Cushman & Wakefield \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://cushmanandwakefield.gtisolutions.co.uk/VacancyPosting/Search",
    "location": "",
    "place": "",
@@ -21302,7 +20750,7 @@
   },
   {
    "firm": "Carter Jonas",
-   "title": "Carter Jonas \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://jobs.carterjonas.co.uk/",
    "location": "",
    "place": "",
@@ -21326,7 +20774,7 @@
   },
   {
    "firm": "CBRE",
-   "title": "CBRE \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://careers.cbre.com/en_US/careers/SearchJobs/internship",
    "location": "",
    "place": "",
@@ -21446,7 +20894,7 @@
   },
   {
    "firm": "Allia C&C",
-   "title": "Allia C&C \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://alliacc.com/",
    "location": "",
    "place": "",
@@ -21494,7 +20942,7 @@
   },
   {
    "firm": "Welltower",
-   "title": "Welltower \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://recruiting.ultipro.com/WEL1008WLLT/JobBoard/30969ce4-3b7e-40a6-b86c-34d3616fe0ed/",
    "location": "",
    "place": "",
@@ -21518,7 +20966,7 @@
   },
   {
    "firm": "Northwood Investors",
-   "title": "Northwood Investors \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://northwoodinvestors.com/careers/",
    "location": "",
    "place": "",
@@ -21542,7 +20990,7 @@
   },
   {
    "firm": "Ethical Capital Partners",
-   "title": "Ethical Capital Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.ethicalcapitalpartners.com/careers",
    "location": "",
    "place": "",
@@ -21566,7 +21014,7 @@
   },
   {
    "firm": "YFM Equity Partners",
-   "title": "YFM Equity Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://yfmep.com/careers",
    "location": "",
    "place": "",
@@ -21590,7 +21038,7 @@
   },
   {
    "firm": "Tower Peak Partners",
-   "title": "Tower Peak Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://tower-peak.com/careers",
    "location": "",
    "place": "",
@@ -21614,7 +21062,7 @@
   },
   {
    "firm": "Advent International",
-   "title": "Advent International \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.adventinternational.com/advent-at-work/",
    "location": "",
    "place": "",
@@ -21638,7 +21086,7 @@
   },
   {
    "firm": "Greenhill",
-   "title": "Greenhill \u2014 Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
+   "title": "Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
    "url": "https://www.mizuhogroup.com/americas/banking/mizuho-greenhill-international-presence",
    "location": "",
    "place": "",
@@ -21686,7 +21134,7 @@
   },
   {
    "firm": "Pictet Asset Management",
-   "title": "Pictet Asset Management \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://apptrkr.io/pictet-asset-management/summer-internship-programme-2026",
    "location": "",
    "place": "",
@@ -21710,7 +21158,7 @@
   },
   {
    "firm": "LaSalle Investment Management",
-   "title": "LaSalle Investment Management \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://apptrkr.io/lasalle-investment-management/2026-summer-internship-programme",
    "location": "",
    "place": "",
@@ -21734,7 +21182,7 @@
   },
   {
    "firm": "Oak Hill Advisors",
-   "title": "Oak Hill Advisors \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://apptrkr.io/oak-hill-advisors/oha-summer-intern-programme-2026",
    "location": "",
    "place": "",
@@ -21830,7 +21278,7 @@
   },
   {
    "firm": "Walter Scott",
-   "title": "Walter Scott \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.walterscott.com/careers/#internships",
    "location": "",
    "place": "",
@@ -21854,7 +21302,7 @@
   },
   {
    "firm": "Vericor Capital",
-   "title": "Vericor Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeqdW2v1snBc0__YW-HDte-1YnerkHK8bQizw4PpZFmd_zHoA/viewform",
    "location": "",
    "place": "",
@@ -21950,7 +21398,7 @@
   },
   {
    "firm": "Sucden Financial",
-   "title": "Sucden Financial \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.sucdenfinancial.com/en/about/careers/working-here",
    "location": "",
    "place": "",
@@ -21974,7 +21422,7 @@
   },
   {
    "firm": "Stolt-Nielsen",
-   "title": "Stolt-Nielsen \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.stolt-nielsen.com/careers/",
    "location": "",
    "place": "",
@@ -21998,7 +21446,7 @@
   },
   {
    "firm": "Sona Asset Management",
-   "title": "Sona Asset Management \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://apptrkr.io/sona-asset-management/intern-graduate-programme",
    "location": "",
    "place": "",
@@ -22022,7 +21470,7 @@
   },
   {
    "firm": "Sompo International",
-   "title": "Sompo International \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.sompo-intl.com/careers/early-careers",
    "location": "",
    "place": "",
@@ -22046,7 +21494,7 @@
   },
   {
    "firm": "Singer Capital Markets",
-   "title": "Singer Capital Markets \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.singercm.com/careers/",
    "location": "",
    "place": "",
@@ -22070,7 +21518,7 @@
   },
   {
    "firm": "Saltgate",
-   "title": "Saltgate \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://saltgate.com/student-opportunities-desktop/",
    "location": "",
    "place": "",
@@ -22142,7 +21590,7 @@
   },
   {
    "firm": "Pacific Asset Management",
-   "title": "Pacific Asset Management \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.pacificam.co.uk/internships/",
    "location": "",
    "place": "",
@@ -22190,7 +21638,7 @@
   },
   {
    "firm": "Macro Hive",
-   "title": "Macro Hive \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://macrohive.com/",
    "location": "",
    "place": "",
@@ -22214,7 +21662,7 @@
   },
   {
    "firm": "KPMG",
-   "title": "KPMG \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.kpmgcareers.co.uk/undergraduate/",
    "location": "",
    "place": "",
@@ -22286,7 +21734,7 @@
   },
   {
    "firm": "Infinitum Capital",
-   "title": "Infinitum Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://infinitumcapital.co.uk/global-presence-contact-us/",
    "location": "",
    "place": "",
@@ -22310,7 +21758,7 @@
   },
   {
    "firm": "iAM Capital",
-   "title": "iAM Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://iamcapital.com/contact/",
    "location": "",
    "place": "",
@@ -22334,7 +21782,7 @@
   },
   {
    "firm": "Howden",
-   "title": "Howden \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.howdengroupholdings.com/early-careers/insight-programmes",
    "location": "",
    "place": "",
@@ -22358,7 +21806,7 @@
   },
   {
    "firm": "Hartree Partners",
-   "title": "Hartree Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.hartreepartners.com/careers/",
    "location": "",
    "place": "",
@@ -22382,7 +21830,7 @@
   },
   {
    "firm": "Gneiss Energy",
-   "title": "Gneiss Energy \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://gneiss.energy/careers/",
    "location": "",
    "place": "",
@@ -22406,7 +21854,7 @@
   },
   {
    "firm": "Enstar Group",
-   "title": "Enstar Group \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://enstarearlycareers.ambertrack.co.uk/",
    "location": "",
    "place": "",
@@ -22430,7 +21878,7 @@
   },
   {
    "firm": "DCL Insurance",
-   "title": "DCL Insurance \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://dclinsurance.com/about-us/work-with-us/",
    "location": "",
    "place": "",
@@ -22454,7 +21902,7 @@
   },
   {
    "firm": "Climate Investment",
-   "title": "Climate Investment \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.climateinvestment.com/about-us/careers",
    "location": "",
    "place": "",
@@ -22478,7 +21926,7 @@
   },
   {
    "firm": "Charles Taylor",
-   "title": "Charles Taylor \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.charlestaylor.com/en/careers/vacancies/",
    "location": "",
    "place": "",
@@ -22502,7 +21950,7 @@
   },
   {
    "firm": "CD&R",
-   "title": "CD&R \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.cdr-inc.com/",
    "location": "",
    "place": "",
@@ -22526,7 +21974,7 @@
   },
   {
    "firm": "Cabot Properties",
-   "title": "Cabot Properties \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.cabotprop.com/open-positions/",
    "location": "",
    "place": "",
@@ -22574,7 +22022,7 @@
   },
   {
    "firm": "Augusta & Co",
-   "title": "Augusta & Co \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://augustaco.com/careers/",
    "location": "",
    "place": "",
@@ -22598,7 +22046,7 @@
   },
   {
    "firm": "Aramco Trading Company",
-   "title": "Aramco Trading Company \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.aramcotrading.com/en/careers/how-to-apply/",
    "location": "",
    "place": "",
@@ -22622,7 +22070,7 @@
   },
   {
    "firm": "Amazon",
-   "title": "Amazon \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "location": "",
    "place": "",
@@ -22646,7 +22094,7 @@
   },
   {
    "firm": "Adam Smith Institute",
-   "title": "Adam Smith Institute \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.adamsmith.org/internships",
    "location": "",
    "place": "",
@@ -22670,7 +22118,7 @@
   },
   {
    "firm": "Rokos Capital",
-   "title": "Rokos Capital \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://www.rokoscapital.com/careers",
    "location": "",
    "place": "",
@@ -22694,7 +22142,7 @@
   },
   {
    "firm": "Mizuho",
-   "title": "Mizuho Banking IT Developer Summer Internship London 36588",
+   "title": "Mizuho Banking IT Developer Summer Internship London",
    "url": "https://www.grb.uk.com/internships/mizuho-banking-it-developer-summer-internship-london-36588/",
    "location": "London",
    "place": "London",
@@ -22718,7 +22166,7 @@
   },
   {
    "firm": "Mizuho",
-   "title": "Mizuho Banking Global Markets Summer Internship London 36590",
+   "title": "Mizuho Banking Global Markets Summer Internship London",
    "url": "https://www.grb.uk.com/internships/mizuho-banking-global-markets-summer-internship-london-36590/",
    "location": "London",
    "place": "London",
@@ -22742,7 +22190,7 @@
   },
   {
    "firm": "Mizuho",
-   "title": "Mizuho Banking Risk And European Credit Summer Internship London 36589",
+   "title": "Mizuho Banking Risk And European Credit Summer Internship London",
    "url": "https://www.grb.uk.com/internships/mizuho-banking-risk-and-european-credit-summer-internship-london-36589/",
    "location": "London",
    "place": "London",
@@ -23126,7 +22574,7 @@
   },
   {
    "firm": "APR Actuarial Solutions",
-   "title": "APR Actuarial Solutions \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "location": "",
    "place": "",
@@ -23174,7 +22622,7 @@
   },
   {
    "firm": "Sky",
-   "title": "Sky \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://careers.sky.com/earlycareers/internships",
    "location": "",
    "place": "",
@@ -23198,7 +22646,7 @@
   },
   {
    "firm": "Principal Asset Management",
-   "title": "Principal Asset Management \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://careers.principal.com/",
    "location": "",
    "place": "",
@@ -23222,7 +22670,7 @@
   },
   {
    "firm": "PKF Littlejohn",
-   "title": "PKF Littlejohn \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.pkf-l.com/careers/early-careers/university-placements/",
    "location": "",
    "place": "",
@@ -23242,78 +22690,6 @@
    "adopted": true,
    "late": false,
    "key": "manual:https://www.pkf-l.com/careers/early-careers/university-placements/#manual:spring:Summer 2027",
-   "pushed_at": null
-  },
-  {
-   "firm": "PA Consulting",
-   "title": "2027 Summer Internship - Mechanical Engineer - Cambridge",
-   "url": "https://jobs.smartrecruiters.com/PAConsulting/744000155777369-2027-summer-internship-mechanical-engineer-cambridge",
-   "location": "Melbourn, United Kingdom",
-   "place": "Melbourn",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-16T20:35:42.909930+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "C",
-   "adopted": true,
-   "late": false,
-   "key": "linklist:https://www.smartrecruiters.com/PAConsulting#744000155777369",
-   "pushed_at": null
-  },
-  {
-   "firm": "PA Consulting",
-   "title": "2027 Graduate - Mechanical Engineer - Cambridge",
-   "url": "https://jobs.smartrecruiters.com/PAConsulting/744000155720479-2027-graduate-mechanical-engineer-cambridge",
-   "location": "Melbourn, United Kingdom",
-   "place": "Melbourn",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-16T20:35:42.909930+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "C",
-   "adopted": true,
-   "late": false,
-   "key": "linklist:https://www.smartrecruiters.com/PAConsulting#744000155720479",
-   "pushed_at": null
-  },
-  {
-   "firm": "PA Consulting",
-   "title": "2027 Summer Internship - Electronic Engineer - Cambridge",
-   "url": "https://jobs.smartrecruiters.com/PAConsulting/744000155687129-2027-summer-internship-electronic-engineer-cambridge",
-   "location": "Melbourn, United Kingdom",
-   "place": "Melbourn",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-16T20:35:42.909930+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "engineering",
-   "reason": "intern + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "C",
-   "adopted": true,
-   "late": false,
-   "key": "linklist:https://www.smartrecruiters.com/PAConsulting#744000155687129",
    "pushed_at": null
   },
   {
@@ -23362,30 +22738,6 @@
    "adopted": true,
    "late": false,
    "key": "linklist:https://www.smartrecruiters.com/PAConsulting#744000155684440",
-   "pushed_at": null
-  },
-  {
-   "firm": "PA Consulting",
-   "title": "2027 Graduate - Electronic Engineer - Cambridge",
-   "url": "https://jobs.smartrecruiters.com/PAConsulting/744000155681297-2027-graduate-electronic-engineer-cambridge",
-   "location": "Melbourn, United Kingdom",
-   "place": "Melbourn",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-16T20:35:42.909930+00:00",
-   "date_basis": "unknown",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "engineering",
-   "reason": "graduate + engineer",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "C",
-   "adopted": true,
-   "late": false,
-   "key": "linklist:https://www.smartrecruiters.com/PAConsulting#744000155681297",
    "pushed_at": null
   },
   {
@@ -23534,7 +22886,7 @@
   },
   {
    "firm": "McKinsey & Company",
-   "title": "McKinsey & Company \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "location": "",
    "place": "",
@@ -23630,7 +22982,7 @@
   },
   {
    "firm": "GIC",
-   "title": "GIC \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://gic.careers/programmes/",
    "location": "",
    "place": "",
@@ -23654,7 +23006,7 @@
   },
   {
    "firm": "Future Planet Capital",
-   "title": "Future Planet Capital \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://futureplanetcapital.com/",
    "location": "",
    "place": "",
@@ -23678,7 +23030,7 @@
   },
   {
    "firm": "Deloitte",
-   "title": "Deloitte \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "location": "",
    "place": "",
@@ -23726,7 +23078,7 @@
   },
   {
    "firm": "British Land",
-   "title": "British Land \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.britishland.com/careers/early-careers/",
    "location": "",
    "place": "",
@@ -24038,7 +23390,7 @@
   },
   {
    "firm": "Rede Partners",
-   "title": "Rede Partners \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.rede-partners.com/join-the-team",
    "location": "",
    "place": "",
@@ -24638,7 +23990,7 @@
   },
   {
    "firm": "Santander CIB",
-   "title": "Santander CIB \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://santandercib.clevry.com/",
    "location": "",
    "place": "",
@@ -24662,7 +24014,7 @@
   },
   {
    "firm": "RBC Capital Markets",
-   "title": "RBC Capital Markets \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://rbccmgraduates.gtisolutions.co.uk/",
    "location": "",
    "place": "",
@@ -24686,7 +24038,7 @@
   },
   {
    "firm": "NatWest Markets",
-   "title": "NatWest Markets \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://jobs.natwestgroup.com/",
    "location": "",
    "place": "",
@@ -24710,7 +24062,7 @@
   },
   {
    "firm": "Ardea Partners",
-   "title": "Ardea Partners \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.ardeapartners.com/",
    "location": "",
    "place": "",
@@ -24734,7 +24086,7 @@
   },
   {
    "firm": "Nomura",
-   "title": "Nomura \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "location": "",
    "place": "",
@@ -24758,7 +24110,7 @@
   },
   {
    "firm": "Centerview Partners",
-   "title": "Centerview Partners \u2014 Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
+   "title": "Summer internship \u2014 banks window is closing \u2014 about 41 days of the window left. No automated access; check by hand.",
    "url": "https://www.centerviewpartners.com/careers",
    "location": "",
    "place": "",
@@ -25502,7 +24854,7 @@
   },
   {
    "firm": "Ocean Partners",
-   "title": "Ocean Partners \u2014 no readable board and no known cycle. Nothing will alert you here; check by hand.",
+   "title": "no readable board and no known cycle. Nothing will alert you here; check by hand.",
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "location": "",
    "place": "",
@@ -26726,7 +26078,7 @@
   },
   {
    "firm": "Morgan Stanley",
-   "title": "Morgan Stanley \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "location": "",
    "place": "",
@@ -26750,7 +26102,7 @@
   },
   {
    "firm": "Goldman Sachs",
-   "title": "Goldman Sachs \u2014 Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
+   "title": "Spring week / insight programme window is closing \u2014 about 103 days of the window left. No automated access; check by hand.",
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "location": "",
    "place": "",
