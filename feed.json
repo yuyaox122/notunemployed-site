@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-22T00:15:03.979729+00:00",
+ "generated_at": "2026-10-22T00:20:02.725000+00:00",
  "counts": {
-  "items": 983,
-  "strong": 983,
-  "uk": 634,
+  "items": 982,
+  "strong": 982,
+  "uk": 633,
   "uk_unstated": 262,
   "seen_24h": 11,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 2535,
+  "total": 2534,
   "truncated_uk": 18,
   "firms": 622,
   "firms_blind": 115,
   "sources": 691,
-  "postings_tracked": 46043
+  "postings_tracked": 46045
  },
  "detection": {
   "mean_latency_s": 27526.7,
@@ -801,10 +801,10 @@
    "firm": "Marsh McLennan",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 473,
+   "n_total": 475,
    "n_match": 0,
-   "n_off_desk": 30,
-   "reason": "473 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "n_off_desk": 32,
+   "reason": "475 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "greenhouse:sumup",
@@ -1530,11 +1530,11 @@
    "key": "linklist:https://careers.berenberg.com/search-our-jobs?location=London",
    "firm": "Berenberg",
    "tier": "B",
-   "kind": "error",
+   "kind": "blocked",
    "n_total": 7,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is error"
+   "reason": "source is blocked"
   },
   {
    "key": "sitemap:https://life-careers.com/sitemap.xml",
@@ -1794,7 +1794,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-22T00:00:06.469621+00:00",
+   "last_checked_by_bell": "2026-10-22T00:15:04.811823+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1860,7 +1860,7 @@
    "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "kind": "manual",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-10-22T00:00:18.498098+00:00",
+   "last_checked_by_bell": "2026-10-22T00:15:15.761888+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -1871,7 +1871,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-22T00:00:23.649905+00:00",
+   "last_checked_by_bell": "2026-10-22T00:15:18.020871+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1893,7 +1893,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-22T00:00:23.659691+00:00",
+   "last_checked_by_bell": "2026-10-22T00:15:18.030849+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -2003,7 +2003,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-22T00:01:20.994620+00:00",
+   "last_checked_by_bell": "2026-10-22T00:16:11.860060+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -2069,7 +2069,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-22T00:01:29.775321+00:00",
+   "last_checked_by_bell": "2026-10-22T00:16:21.203493+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2179,7 +2179,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-22T00:02:04.108068+00:00",
+   "last_checked_by_bell": "2026-10-22T00:17:18.805405+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2245,7 +2245,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-22T00:02:14.765976+00:00",
+   "last_checked_by_bell": "2026-10-22T00:17:29.408772+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2256,7 +2256,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-22T00:02:18.631907+00:00",
+   "last_checked_by_bell": "2026-10-22T00:17:33.254757+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2278,7 +2278,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-22T00:02:24.845516+00:00",
+   "last_checked_by_bell": "2026-10-22T00:17:40.026008+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2311,7 +2311,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-22T00:02:24.849110+00:00",
+   "last_checked_by_bell": "2026-10-22T00:17:40.029617+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -2509,7 +2509,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-22T00:03:48.864104+00:00",
+   "last_checked_by_bell": "2026-10-22T00:19:03.840214+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -2553,7 +2553,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-22T00:04:05.113320+00:00",
+   "last_checked_by_bell": "2026-10-22T00:19:19.227078+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -2586,7 +2586,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-22T00:04:16.863533+00:00",
+   "last_checked_by_bell": "2026-10-22T00:19:30.647741+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -2608,7 +2608,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-22T00:04:27.239970+00:00",
+   "last_checked_by_bell": "2026-10-22T00:19:41.252479+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -2641,7 +2641,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-22T00:04:27.243258+00:00",
+   "last_checked_by_bell": "2026-10-22T00:19:41.255890+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -17261,30 +17261,6 @@
    "late": false,
    "key": "workday:blackstone/wd1/Blackstone_Campus_Careers#43155",
    "pushed_at": "2026-10-15T15:02:02.205421+00:00"
-  },
-  {
-   "firm": "Bank of America",
-   "title": "Global Capital Markets 2027, Off-Cycle Analyst (Debt Capital Markets) \u2013 London",
-   "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14882/global-capital-markets-2027-off-cycle-analyst-debt-capital-markets-x2013-london-london-united-kingdom",
-   "location": "London, United Kingdom",
-   "place": "London",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-10-15T12:15:28.363211+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "markets",
-   "reason": "off-cycle + markets",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "B",
-   "adopted": false,
-   "late": false,
-   "key": "sitemap:https://careers.bankofamerica.com/sitemap_main.xml#14882",
-   "pushed_at": "2026-10-15T12:16:01.920966+00:00"
   },
   {
    "firm": "Centrica Energy Trading",
