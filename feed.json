@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-23T16:30:03.704410+00:00",
+ "generated_at": "2026-10-23T16:35:02.593423+00:00",
  "counts": {
-  "items": 982,
-  "strong": 982,
-  "uk": 630,
+  "items": 983,
+  "strong": 983,
+  "uk": 631,
   "uk_unstated": 262,
-  "seen_24h": 9,
+  "seen_24h": 10,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 2577,
+  "total": 2578,
   "truncated_uk": 18,
   "firms": 622,
   "firms_blind": 115,
   "sources": 691,
-  "postings_tracked": 48158
+  "postings_tracked": 48162
  },
  "detection": {
-  "mean_latency_s": 16511.6,
-  "median_latency_s": 484.8,
-  "sampled": 606,
+  "mean_latency_s": 16484.9,
+  "median_latency_s": 481.6,
+  "sampled": 607,
   "by_tier": {
    "A": {
     "mean_latency_s": 2453.1,
@@ -27,10 +27,10 @@
     "sampled": 99
    },
    "B": {
-    "mean_latency_s": 15429.7,
+    "mean_latency_s": 15394.5,
     "median_latency_s": 542.9,
     "under_60s": 25,
-    "sampled": 428
+    "sampled": 429
    },
    "C": {
     "mean_latency_s": 39990.9,
@@ -1095,10 +1095,10 @@
    "firm": "Forvis Mazars",
    "tier": "C",
    "kind": "off-desk-only",
-   "n_total": 51,
+   "n_total": 52,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "51 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "52 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:troweprice/wd5/TRowePriceInternational",
@@ -1361,6 +1361,16 @@
    "reason": "32 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "greenhouse:adaptivefinancialconsulting",
+   "firm": "Adaptive Financial Consulting",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 31,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "31 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "oracle:hcxs.fa.us2.oraclecloud.com",
    "firm": "Kroll",
    "tier": "C",
@@ -1379,16 +1389,6 @@
    "n_match": 0,
    "n_off_desk": 1,
    "reason": "31 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
-  },
-  {
-   "key": "greenhouse:adaptivefinancialconsulting",
-   "firm": "Adaptive Financial Consulting",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 30,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "30 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "oracle:fa-evup-saasfaprod1.fa.ocs.oraclecloud.com",
@@ -1768,7 +1768,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-23T16:15:05.652452+00:00",
+   "last_checked_by_bell": "2026-10-23T16:30:05.785392+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1834,7 +1834,7 @@
    "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "kind": "manual",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-10-23T16:15:19.605233+00:00",
+   "last_checked_by_bell": "2026-10-23T16:30:43.336227+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -1845,7 +1845,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-23T16:15:41.530744+00:00",
+   "last_checked_by_bell": "2026-10-23T16:30:44.771248+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1867,7 +1867,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-23T16:15:41.540342+00:00",
+   "last_checked_by_bell": "2026-10-23T16:30:44.780882+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -1977,7 +1977,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-23T16:16:40.649616+00:00",
+   "last_checked_by_bell": "2026-10-23T16:31:52.397090+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -2043,7 +2043,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-23T16:16:54.696878+00:00",
+   "last_checked_by_bell": "2026-10-23T16:32:02.279395+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2153,7 +2153,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-23T16:17:37.235156+00:00",
+   "last_checked_by_bell": "2026-10-23T16:32:39.783129+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2219,7 +2219,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-23T16:17:48.648280+00:00",
+   "last_checked_by_bell": "2026-10-23T16:32:53.219241+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2230,7 +2230,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-23T16:17:52.673108+00:00",
+   "last_checked_by_bell": "2026-10-23T16:32:57.131070+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2252,7 +2252,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-23T16:17:58.910722+00:00",
+   "last_checked_by_bell": "2026-10-23T16:33:03.737056+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2285,7 +2285,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-23T16:17:58.914086+00:00",
+   "last_checked_by_bell": "2026-10-23T16:33:03.740734+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -2483,7 +2483,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-23T16:19:21.241612+00:00",
+   "last_checked_by_bell": "2026-10-23T16:34:25.145599+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -2527,7 +2527,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-23T16:19:37.119569+00:00",
+   "last_checked_by_bell": "2026-10-23T16:34:41.118310+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -2560,7 +2560,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-23T16:19:50.093922+00:00",
+   "last_checked_by_bell": "2026-10-23T16:34:53.352598+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -8811,6 +8811,30 @@
    "late": false,
    "key": "sitemap:https://www.alloptions-international.com/vacancies-sitemap.xml#https://www.alloptions-international.com/vacancies/graduate-trader/",
    "pushed_at": null
+  },
+  {
+   "firm": "Amazon",
+   "title": "Business Developer Intern, Early Careers 2027",
+   "url": "https://www.amazon.jobs/en-gb/jobs/10587701/business-developer-intern-early-careers-2027",
+   "location": "London, England, GBR",
+   "place": "London",
+   "opened_at": "2026-10-23T00:00:00+00:00",
+   "opened_exact": false,
+   "first_seen_at": "2026-10-23T16:30:43.210088+00:00",
+   "date_basis": "published_date",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "engineering",
+   "reason": "intern + engineer",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "B",
+   "adopted": false,
+   "late": false,
+   "key": "jsonboard:amazon/studentprograms#10587701",
+   "pushed_at": "2026-10-23T16:32:01.726096+00:00"
   },
   {
    "firm": "Interpath Advisory",
