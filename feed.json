@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-23T14:00:03.992884+00:00",
+ "generated_at": "2026-10-23T14:05:02.723220+00:00",
  "counts": {
-  "items": 980,
-  "strong": 980,
+  "items": 979,
+  "strong": 979,
   "uk": 630,
-  "uk_unstated": 260,
+  "uk_unstated": 259,
   "seen_24h": 12,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 2566,
+  "total": 2565,
   "truncated_uk": 18,
   "firms": 622,
   "firms_blind": 115,
   "sources": 691,
-  "postings_tracked": 47917
+  "postings_tracked": 47923
  },
  "detection": {
-  "mean_latency_s": 15849.2,
-  "median_latency_s": 462.6,
-  "sampled": 588,
+  "mean_latency_s": 16286.0,
+  "median_latency_s": 476.6,
+  "sampled": 594,
   "by_tier": {
    "A": {
     "mean_latency_s": 2380.9,
@@ -27,10 +27,10 @@
     "sampled": 102
    },
    "B": {
-    "mean_latency_s": 14336.9,
-    "median_latency_s": 539.1,
+    "mean_latency_s": 14977.8,
+    "median_latency_s": 542.9,
     "under_60s": 24,
-    "sampled": 413
+    "sampled": 419
    },
    "C": {
     "mean_latency_s": 43223.8,
@@ -911,6 +911,16 @@
    "reason": "113 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
+   "firm": "Legal & General",
+   "tier": "B",
+   "kind": "off-desk-only",
+   "n_total": 102,
+   "n_match": 0,
+   "n_off_desk": 2,
+   "reason": "102 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
    "key": "greenhouse:84674th44metrea9999",
    "firm": "Metrea",
    "tier": "B",
@@ -929,16 +939,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "100 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "sitemap:https://careers.legalandgeneral.com/vacanciessitemap.xml",
-   "firm": "Legal & General",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 96,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "96 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
@@ -1768,7 +1768,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-23T13:45:04.980826+00:00",
+   "last_checked_by_bell": "2026-10-23T14:00:07.219642+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1834,7 +1834,7 @@
    "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "kind": "manual",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-10-23T13:45:17.205210+00:00",
+   "last_checked_by_bell": "2026-10-23T14:01:23.060030+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -1845,7 +1845,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-23T13:45:18.508693+00:00",
+   "last_checked_by_bell": "2026-10-23T14:01:24.774831+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1867,7 +1867,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-23T13:45:18.518770+00:00",
+   "last_checked_by_bell": "2026-10-23T14:01:24.784210+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -1977,7 +1977,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-23T13:46:20.214071+00:00",
+   "last_checked_by_bell": "2026-10-23T14:02:23.847036+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -2043,7 +2043,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-23T13:46:29.563168+00:00",
+   "last_checked_by_bell": "2026-10-23T14:02:33.625200+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2153,7 +2153,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-23T13:47:06.233567+00:00",
+   "last_checked_by_bell": "2026-10-23T14:03:10.048254+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2219,7 +2219,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-23T13:47:17.230061+00:00",
+   "last_checked_by_bell": "2026-10-23T14:03:21.754241+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2230,7 +2230,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-23T13:47:21.019140+00:00",
+   "last_checked_by_bell": "2026-10-23T14:03:25.617630+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2252,7 +2252,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-23T13:47:28.140469+00:00",
+   "last_checked_by_bell": "2026-10-23T14:03:32.426395+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2285,7 +2285,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-23T13:47:28.143982+00:00",
+   "last_checked_by_bell": "2026-10-23T14:03:32.429636+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -2483,7 +2483,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-23T13:48:48.505384+00:00",
+   "last_checked_by_bell": "2026-10-23T14:04:56.027365+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -18171,30 +18171,6 @@
    "late": false,
    "key": "linklist:https://recruitment.macquarie.com/en_US/careers/SearchJobs#/en_US/careers/JobDetail?jobId=24234",
    "pushed_at": "2026-09-19T06:30:03.992612+00:00"
-  },
-  {
-   "firm": "Jefferies",
-   "title": "Class of 2029: Investment Banking Insight Day",
-   "url": "https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1988-Class-of-2029-Investment-Banking-Insight-Day/en-GB?instant=apply",
-   "location": "",
-   "place": "",
-   "opened_at": null,
-   "opened_exact": false,
-   "first_seen_at": "2026-09-18T22:29:27.069054+00:00",
-   "date_basis": "first seen",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "spring",
-   "desk": "advisory",
-   "reason": "class of (first year) + investment banking",
-   "uk": true,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "B",
-   "adopted": false,
-   "late": false,
-   "key": "linklist:https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/#1988",
-   "pushed_at": "2026-09-20T22:00:04.182339+00:00"
   },
   {
    "firm": "LSEG",
