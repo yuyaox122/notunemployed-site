@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-26T13:00:03.647124+00:00",
+ "generated_at": "2026-10-26T13:05:02.542931+00:00",
  "counts": {
-  "items": 968,
-  "strong": 968,
-  "uk": 619,
+  "items": 969,
+  "strong": 969,
+  "uk": 620,
   "uk_unstated": 260,
-  "seen_24h": 7,
+  "seen_24h": 8,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 2606,
+  "total": 2607,
   "truncated_uk": 18,
   "firms": 622,
   "firms_blind": 115,
   "sources": 693,
-  "postings_tracked": 49144
+  "postings_tracked": 49149
  },
  "detection": {
-  "mean_latency_s": 17347.1,
-  "median_latency_s": 556.9,
-  "sampled": 710,
+  "mean_latency_s": 17323.1,
+  "median_latency_s": 556.5,
+  "sampled": 711,
   "by_tier": {
    "A": {
     "mean_latency_s": 3599.2,
@@ -27,10 +27,10 @@
     "sampled": 98
    },
    "B": {
-    "mean_latency_s": 16653.4,
-    "median_latency_s": 613.8,
+    "mean_latency_s": 16622.1,
+    "median_latency_s": 610.9,
     "under_60s": 24,
-    "sampled": 521
+    "sampled": 522
    },
    "C": {
     "mean_latency_s": 36123.7,
@@ -861,6 +861,16 @@
    "reason": "63 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "sitemap:https://careers.investec.co.uk/jobs/sitemap.xml",
+   "firm": "Investec",
+   "tier": "B",
+   "kind": "no-early-careers",
+   "n_total": 62,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "62 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
    "key": "greenhouse:krollbondratingagency",
    "firm": "KBRA UK",
    "tier": "B",
@@ -869,16 +879,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "60 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "sitemap:https://careers.investec.co.uk/jobs/sitemap.xml",
-   "firm": "Investec",
-   "tier": "B",
-   "kind": "no-early-careers",
-   "n_total": 59,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "59 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "sitemap:https://inverto.dvinci-hr.com/sitemap.xml",
@@ -1648,7 +1648,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-26T12:45:05.661122+00:00",
+   "last_checked_by_bell": "2026-10-26T13:00:06.206269+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1714,7 +1714,7 @@
    "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "kind": "manual",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-10-26T12:45:18.090423+00:00",
+   "last_checked_by_bell": "2026-10-26T13:01:12.736065+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -1725,7 +1725,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-26T12:45:40.565929+00:00",
+   "last_checked_by_bell": "2026-10-26T13:01:26.520109+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1747,7 +1747,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-26T12:45:40.574756+00:00",
+   "last_checked_by_bell": "2026-10-26T13:01:26.529753+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -1857,7 +1857,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-26T12:46:37.013892+00:00",
+   "last_checked_by_bell": "2026-10-26T13:02:50.054808+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -1923,7 +1923,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-26T12:46:48.509671+00:00",
+   "last_checked_by_bell": "2026-10-26T13:03:00.369348+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2033,7 +2033,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-26T12:47:26.469760+00:00",
+   "last_checked_by_bell": "2026-10-26T13:03:37.348357+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2099,7 +2099,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-26T12:47:38.286212+00:00",
+   "last_checked_by_bell": "2026-10-26T13:03:52.817065+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2110,7 +2110,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-26T12:47:42.181500+00:00",
+   "last_checked_by_bell": "2026-10-26T13:03:56.535103+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2132,7 +2132,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-26T12:47:47.116481+00:00",
+   "last_checked_by_bell": "2026-10-26T13:04:01.652927+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2165,7 +2165,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-26T12:47:47.119970+00:00",
+   "last_checked_by_bell": "2026-10-26T13:04:01.656832+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -15795,6 +15795,30 @@
    "late": true,
    "key": "sitemap:https://zeuscapital.co.uk/sitemap.xml#https://zeuscapital.co.uk/news/internship-2026/",
    "pushed_at": null
+  },
+  {
+   "firm": "Citi",
+   "title": "Banking, Investment Banking, Full Time Analyst, London \u2013 United Kingdom 2027 - (Applicable for 2026 Citi Summer interns only)",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/London--United-Kingdom/Banking--Investment-Banking--Full-Time-Analyst--London---United-Kingdom-2027----Applicable-for-2026-Citi-Summer-interns-only-_26992159",
+   "location": "London  United Kingdom",
+   "place": "London",
+   "opened_at": null,
+   "opened_exact": false,
+   "first_seen_at": "2026-10-26T13:03:31.982596+00:00",
+   "date_basis": "first seen",
+   "deadline": null,
+   "strength": "strong",
+   "stage": "intern",
+   "desk": "advisory",
+   "reason": "intern + investment banking",
+   "uk": true,
+   "uk_stated": true,
+   "wanted": true,
+   "tier": "C",
+   "adopted": false,
+   "late": false,
+   "key": "workday:citi/wd5/2#26992159",
+   "pushed_at": "2026-10-26T13:04:01.781028+00:00"
   },
   {
    "firm": "PIMCO",
