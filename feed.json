@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:55:02.388085+00:00",
+ "generated_at": "2026-10-30T20:05:02.340246+00:00",
  "counts": {
   "items": 961,
   "strong": 961,
@@ -13,24 +13,24 @@
   "firms": 622,
   "firms_blind": 115,
   "sources": 693,
-  "postings_tracked": 54115
+  "postings_tracked": 54122
  },
  "detection": {
-  "mean_latency_s": 27192.1,
-  "median_latency_s": 610.8,
-  "sampled": 688,
+  "mean_latency_s": 27081.9,
+  "median_latency_s": 611.4,
+  "sampled": 691,
   "by_tier": {
    "A": {
-    "mean_latency_s": 3617.1,
+    "mean_latency_s": 3590.3,
     "median_latency_s": 43.0,
-    "under_60s": 73,
-    "sampled": 93
+    "under_60s": 74,
+    "sampled": 95
    },
    "B": {
-    "mean_latency_s": 34185.3,
-    "median_latency_s": 703.1,
+    "mean_latency_s": 34120.3,
+    "median_latency_s": 704.0,
     "under_60s": 13,
-    "sampled": 514
+    "sampled": 515
    },
    "C": {
     "mean_latency_s": 9883.1,
@@ -620,11 +620,11 @@
    "key": "workday:lbg/wd3/LBG_Careers",
    "firm": "Lloyds Banking Group",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "no-early-careers",
    "n_total": 364,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is blocked"
+   "reason": "364 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "greenhouse:adyen",
@@ -657,16 +657,6 @@
    "reason": "217 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
-   "key": "workday:invesco/wd1/IVZ",
-   "firm": "Invesco",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 213,
-   "n_match": 8,
-   "n_off_desk": 18,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:bbva/wd3/BBVA",
    "firm": "BBVA",
    "tier": "C",
@@ -674,16 +664,6 @@
    "n_total": 209,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:pru/wd5/Careers",
-   "firm": "PGIM",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 153,
-   "n_match": 4,
-   "n_off_desk": 1,
    "reason": "source is blocked"
   },
   {
@@ -837,16 +817,6 @@
    "reason": "77 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
-   "key": "workday:cibc/wd3/campus",
-   "firm": "CIBC Capital Markets",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 76,
-   "n_match": 13,
-   "n_off_desk": 25,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:ameriprise/wd5/Ameriprise",
    "firm": "Columbia Threadneedle Investments",
    "tier": "C",
@@ -900,11 +870,11 @@
    "key": "workday:forvismazarsuk/wd107/FM_1",
    "firm": "Forvis Mazars",
    "tier": "C",
-   "kind": "blocked",
+   "kind": "off-desk-only",
    "n_total": 64,
    "n_match": 0,
    "n_off_desk": 3,
-   "reason": "source is blocked"
+   "reason": "64 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
    "key": "workday:thinkbrg/wd5/BRG_External_Career_Site",
@@ -925,16 +895,6 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "63 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
-  },
-  {
-   "key": "workday:pipersandler/wd501/Piper_Sandler_Careers",
-   "firm": "Piper Sandler",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 63,
-   "n_match": 5,
-   "n_off_desk": 4,
-   "reason": "source is blocked"
   },
   {
    "key": "greenhouse:teneo",
@@ -964,16 +924,6 @@
    "n_total": 60,
    "n_match": 0,
    "n_off_desk": 5,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:lombardodier/wd3/Lombard_Odier_Careers",
-   "firm": "Lombard Odier",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 59,
-   "n_match": 23,
-   "n_off_desk": 4,
    "reason": "source is blocked"
   },
   {
@@ -1147,16 +1097,6 @@
    "reason": "43 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "workday:bmo/wd3/Campus",
-   "firm": "BMO Capital Markets",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 43,
-   "n_match": 13,
-   "n_off_desk": 12,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:polypipe/wd103/Careers",
    "firm": "Genuit Group",
    "tier": "C",
@@ -1264,16 +1204,6 @@
    "n_total": 40,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:cambridgeassociates/wd5/Cambridge_Associates",
-   "firm": "Cambridge Associates",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 40,
-   "n_match": 5,
-   "n_off_desk": 3,
    "reason": "source is blocked"
   },
   {
@@ -1517,16 +1447,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:peak6group/wd1/peak6",
-   "firm": "PEAK6",
-   "tier": "B",
-   "kind": "blocked",
-   "n_total": 27,
-   "n_match": 3,
-   "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
    "key": "jsonboard:workable/caxton",
    "firm": "Caxton Associates",
    "tier": "B",
@@ -1587,16 +1507,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:patrizia/wd502/PATRIZIA",
-   "firm": "Patrizia",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 22,
-   "n_match": 0,
-   "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:factset/wd108/FactSetCareers",
    "firm": "FactSet",
    "tier": "C",
@@ -1614,16 +1524,6 @@
    "n_total": 20,
    "n_match": 12,
    "n_off_desk": 3,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:pnc/wd5/HarrisWilliams",
-   "firm": "Harris Williams",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 20,
-   "n_match": 4,
-   "n_off_desk": 0,
    "reason": "source is blocked"
   },
   {
@@ -1667,16 +1567,6 @@
    "reason": "source is blocked"
   },
   {
-   "key": "workday:gunvor/wd3/Gunvor_Careers",
-   "firm": "Gunvor",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 13,
-   "n_match": 7,
-   "n_off_desk": 1,
-   "reason": "source is blocked"
-  },
-  {
    "key": "workday:just/wd3/JUST_External",
    "firm": "Just Group",
    "tier": "C",
@@ -1684,16 +1574,6 @@
    "n_total": 13,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:frontiereconomics/wd3/Frontier_Economics_Careers",
-   "firm": "Frontier Economics",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 12,
-   "n_match": 0,
-   "n_off_desk": 4,
    "reason": "source is blocked"
   },
   {
@@ -1734,16 +1614,6 @@
    "n_total": 8,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:edftrading/wd1/EDFTrading",
-   "firm": "EDF Trading",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 7,
-   "n_match": 0,
-   "n_off_desk": 2,
    "reason": "source is blocked"
   },
   {
@@ -1804,16 +1674,6 @@
    "n_total": 5,
    "n_match": 0,
    "n_off_desk": 2,
-   "reason": "source is blocked"
-  },
-  {
-   "key": "workday:freepoint/wd12/Freepoint_Commodities",
-   "firm": "Freepoint Commodities",
-   "tier": "C",
-   "kind": "blocked",
-   "n_total": 3,
-   "n_match": 0,
-   "n_off_desk": 1,
    "reason": "source is blocked"
   },
   {
@@ -2084,7 +1944,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-10-30T19:45:02.439462+00:00",
+   "last_checked_by_bell": "2026-10-30T20:00:02.739761+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -2150,7 +2010,7 @@
    "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "kind": "manual",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-10-30T19:45:05.222546+00:00",
+   "last_checked_by_bell": "2026-10-30T20:00:05.084925+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -2161,7 +2021,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-10-30T19:45:22.079272+00:00",
+   "last_checked_by_bell": "2026-10-30T20:00:08.584957+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -2183,7 +2043,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-10-30T19:45:22.089027+00:00",
+   "last_checked_by_bell": "2026-10-30T20:00:08.594789+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -2293,7 +2153,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-10-30T19:45:57.177528+00:00",
+   "last_checked_by_bell": "2026-10-30T20:00:56.118590+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -2359,7 +2219,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-10-30T19:45:58.155874+00:00",
+   "last_checked_by_bell": "2026-10-30T20:01:06.387887+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2469,7 +2329,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-10-30T19:46:14.023955+00:00",
+   "last_checked_by_bell": "2026-10-30T20:01:44.146810+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2535,7 +2395,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-10-30T19:46:20.586108+00:00",
+   "last_checked_by_bell": "2026-10-30T20:02:00.773701+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2546,7 +2406,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-10-30T19:46:20.596368+00:00",
+   "last_checked_by_bell": "2026-10-30T20:02:04.650689+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2568,7 +2428,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-10-30T19:46:28.618241+00:00",
+   "last_checked_by_bell": "2026-10-30T20:02:13.412738+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2601,7 +2461,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-10-30T19:46:28.621630+00:00",
+   "last_checked_by_bell": "2026-10-30T20:02:13.416128+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -2799,7 +2659,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-10-30T19:47:26.206306+00:00",
+   "last_checked_by_bell": "2026-10-30T20:03:36.057634+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -2843,7 +2703,7 @@
    "url": "https://www.morganstanley.com/careers/students-graduates",
    "kind": "manual",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-10-30T19:47:43.332933+00:00",
+   "last_checked_by_bell": "2026-10-30T20:03:51.930536+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -2876,7 +2736,7 @@
    "url": "https://jobs.natwestgroup.com/",
    "kind": "manual",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-10-30T19:47:46.490659+00:00",
+   "last_checked_by_bell": "2026-10-30T20:04:04.607569+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -2898,7 +2758,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/1/adv/",
    "kind": "manual",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-10-30T19:48:02.231520+00:00",
+   "last_checked_by_bell": "2026-10-30T20:04:15.557740+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -2931,7 +2791,7 @@
    "url": "https://oceanpartners.com/about/careers-and-culture/",
    "kind": "manual",
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-10-30T19:48:02.235224+00:00",
+   "last_checked_by_bell": "2026-10-30T20:04:15.561128+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -2975,7 +2835,7 @@
    "url": "https://www.pkf-l.com/careers/early-careers/university-placements/",
    "kind": "manual",
    "why": "Its Summer Work Placement (last opened 10 December 2025) is on an Eploy board behind a bot challenge: open it and look.",
-   "last_checked_by_bell": "2026-10-30T19:48:24.218751+00:00",
+   "last_checked_by_bell": "2026-10-30T20:04:49.055602+00:00",
    "last_change_detected": "2026-10-16T20:36:07.861070+00:00",
    "categories": [
     "professional_services"
@@ -2997,7 +2857,7 @@
    "url": "https://careers.principal.com/",
    "kind": "manual",
    "why": "Its readable board (the Jibe front) held no UK roles of 155, and its iCIMS host refuses everyone.",
-   "last_checked_by_bell": "2026-10-30T19:48:25.199023+00:00",
+   "last_checked_by_bell": "2026-10-30T20:04:50.087159+00:00",
    "last_change_detected": "2026-10-16T20:36:08.480635+00:00",
    "categories": [
     "asset_manager"
