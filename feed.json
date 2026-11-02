@@ -1,42 +1,42 @@
 {
- "generated_at": "2026-11-02T11:00:05.810197+00:00",
+ "generated_at": "2026-11-02T11:05:05.176037+00:00",
  "counts": {
-  "items": 894,
-  "strong": 894,
-  "uk": 567,
+  "items": 890,
+  "strong": 890,
+  "uk": 566,
   "uk_unstated": 245,
   "seen_24h": 2,
   "places": "UK, Amsterdam, Dublin, remote",
   "truncated": true,
-  "total": 2525,
+  "total": 2521,
   "truncated_uk": 18,
   "firms": 623,
   "firms_blind": 117,
   "sources": 698,
-  "postings_tracked": 54814
+  "postings_tracked": 54822
  },
  "detection": {
-  "mean_latency_s": 33518.7,
+  "mean_latency_s": 33519.4,
   "median_latency_s": 565.3,
   "sampled": 650,
   "by_tier": {
    "A": {
-    "mean_latency_s": 2927.7,
-    "median_latency_s": 44.1,
-    "under_60s": 69,
-    "sampled": 87
+    "mean_latency_s": 2961.2,
+    "median_latency_s": 43.8,
+    "under_60s": 68,
+    "sampled": 86
    },
    "B": {
-    "mean_latency_s": 42730.6,
-    "median_latency_s": 618.6,
+    "mean_latency_s": 42472.5,
+    "median_latency_s": 618.8,
     "under_60s": 13,
-    "sampled": 486
+    "sampled": 489
    },
    "C": {
-    "mean_latency_s": 9939.8,
-    "median_latency_s": 512.2,
+    "mean_latency_s": 10185.2,
+    "median_latency_s": 487.1,
     "under_60s": 20,
-    "sampled": 77
+    "sampled": 75
    }
   },
   "watch": {
@@ -1297,8 +1297,8 @@
    "reason": "34 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "oracle:fa-evup-saasfaprod1.fa.ocs.oraclecloud.com",
-   "firm": "Barnett Waddingham",
+   "key": "greenhouse:adaptivefinancialconsulting",
+   "firm": "Adaptive Financial Consulting",
    "tier": "B",
    "kind": "no-early-careers",
    "n_total": 33,
@@ -1307,14 +1307,14 @@
    "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
-   "key": "greenhouse:adaptivefinancialconsulting",
-   "firm": "Adaptive Financial Consulting",
+   "key": "oracle:fa-evup-saasfaprod1.fa.ocs.oraclecloud.com",
+   "firm": "Barnett Waddingham",
    "tier": "B",
    "kind": "no-early-careers",
-   "n_total": 32,
+   "n_total": 33,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "32 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "33 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
    "key": "workday:markelcorp/wd5/GlobalCareers",
@@ -1684,7 +1684,7 @@
    "url": "https://www.adamsmith.org/internships",
    "kind": "manual",
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-11-02T10:45:05.177731+00:00",
+   "last_checked_by_bell": "2026-11-02T11:00:05.913283+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -1750,7 +1750,7 @@
    "url": "https://www.amazon.jobs/content/en-gb/career-programs/university",
    "kind": "manual",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-11-02T10:45:16.328603+00:00",
+   "last_checked_by_bell": "2026-11-02T11:00:19.386932+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -1761,7 +1761,7 @@
    "url": "https://aprllp.com/actuarial-insight-programme/",
    "kind": "manual",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-11-02T10:45:18.440976+00:00",
+   "last_checked_by_bell": "2026-11-02T11:00:21.357880+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -1783,7 +1783,7 @@
    "url": "https://www.ardeapartners.com/",
    "kind": "manual",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-11-02T10:45:18.450928+00:00",
+   "last_checked_by_bell": "2026-11-02T11:00:21.367907+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -1893,7 +1893,7 @@
    "url": "https://www.britishland.com/careers/early-careers/",
    "kind": "manual",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-11-02T10:46:36.390129+00:00",
+   "last_checked_by_bell": "2026-11-02T11:01:50.940053+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -1959,7 +1959,7 @@
    "url": "https://www.centerviewpartners.com/careers",
    "kind": "manual",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-11-02T10:46:45.076019+00:00",
+   "last_checked_by_bell": "2026-11-02T11:02:05.736975+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2069,7 +2069,7 @@
    "url": "https://apply.deloitte.co.uk/UKEarlyCareers",
    "kind": "manual",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-11-02T10:47:20.333469+00:00",
+   "last_checked_by_bell": "2026-11-02T11:02:41.421917+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2135,7 +2135,7 @@
    "url": "https://www.firstwealth.co.uk/about-us/careers",
    "kind": "manual",
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-11-02T10:47:31.639967+00:00",
+   "last_checked_by_bell": "2026-11-02T11:03:14.308406+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2146,7 +2146,7 @@
    "url": "https://futureplanetcapital.com/",
    "kind": "manual",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-11-02T10:47:35.525276+00:00",
+   "last_checked_by_bell": "2026-11-02T11:03:18.040866+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2157,7 +2157,7 @@
    "url": "https://www.gresearch.com/spring-into-quant-finance/",
    "kind": "manual",
    "why": "G-Research's Spring into Quant Finance: open its page and look; applications are a form, not a vacancy.",
-   "last_checked_by_bell": "2026-11-02T10:47:40.945916+00:00",
+   "last_checked_by_bell": "2026-11-02T11:03:23.992519+00:00",
    "last_change_detected": "2026-11-01T22:47:17.218762+00:00",
    "categories": [
     "quant_fund"
@@ -2179,7 +2179,7 @@
    "url": "https://gic.careers/programmes/",
    "kind": "manual",
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look.",
-   "last_checked_by_bell": "2026-11-02T10:47:42.840225+00:00",
+   "last_checked_by_bell": "2026-11-02T11:03:25.888276+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2212,7 +2212,7 @@
    "url": "https://www.goldmansachs.com/careers/students/programs",
    "kind": "manual",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-11-02T10:47:42.843716+00:00",
+   "last_checked_by_bell": "2026-11-02T11:03:25.891841+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -2289,7 +2289,7 @@
    "url": "https://ifs.org.uk/jobs",
    "kind": "manual",
    "why": "The IFS's Economic Research Summer Intern: open its jobs page and look; applications are on Applied, closing 17 January 2027.",
-   "last_checked_by_bell": "2026-11-02T10:33:00.766840+00:00",
+   "last_checked_by_bell": "2026-11-02T11:03:39.446648+00:00",
    "last_change_detected": "2026-11-01T22:47:30.717857+00:00",
    "categories": [
     "corporate"
@@ -2421,7 +2421,7 @@
    "url": "https://www.mckinsey.com/uk/careers/future-talent-programme",
    "kind": "manual",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-11-02T10:34:15.724608+00:00",
+   "last_checked_by_bell": "2026-11-02T11:04:50.961830+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -6624,34 +6624,6 @@
    "pushed_at": "2026-09-08T14:00:32.284085+00:00"
   },
   {
-   "firm": "Maven Securities",
-   "title": "London Trader Summer Internship 2027",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7806970",
-   "location": "London",
-   "place": "London",
-   "city": "London",
-   "opened_at": "2026-09-07T15:12:49+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-07T15:13:55.677153+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "family": [
-    "quant"
-   ],
-   "reason": "intern + trading",
-   "uk": true,
-   "uk_stated": true,
-   "wanted": true,
-   "tier": "A",
-   "adopted": false,
-   "late": false,
-   "key": "greenhouse:mavensecuritiesholdingltd#7806970",
-   "pushed_at": "2026-09-07T15:15:41.064038+00:00"
-  },
-  {
    "firm": "Susquehanna (SIG)",
    "title": "Site Reliability Engineer Graduate: 2027",
    "url": "https://careers.sig.com/jobs/11429?lang=en-us",
@@ -6959,62 +6931,6 @@
    "adopted": true,
    "late": true,
    "key": "greenhouse:towerresearchcapital#8037824",
-   "pushed_at": null
-  },
-  {
-   "firm": "Maven Securities",
-   "title": "Graduate Trader Programme Amsterdam 2027",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8098645",
-   "location": "Amsterdam",
-   "place": "Amsterdam",
-   "city": "Amsterdam",
-   "opened_at": "2026-09-01T15:00:22+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:31.744500+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "family": [
-    "quant"
-   ],
-   "reason": "graduate + trading",
-   "uk": false,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "A",
-   "adopted": true,
-   "late": true,
-   "key": "greenhouse:mavensecuritiesholdingltd#8098645",
-   "pushed_at": null
-  },
-  {
-   "firm": "Maven Securities",
-   "title": "Amsterdam Trader Summer Internship 2027",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8048591",
-   "location": "Amsterdam",
-   "place": "Amsterdam",
-   "city": "Amsterdam",
-   "opened_at": "2026-09-01T14:49:24+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:31.744500+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "intern",
-   "desk": "quant",
-   "family": [
-    "quant"
-   ],
-   "reason": "intern + trading",
-   "uk": false,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "A",
-   "adopted": true,
-   "late": true,
-   "key": "greenhouse:mavensecuritiesholdingltd#8048591",
    "pushed_at": null
   },
   {
@@ -8561,34 +8477,6 @@
    "adopted": true,
    "late": true,
    "key": "greenhouse:imc#4936262101",
-   "pushed_at": null
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "Graduate Trader",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4667815101",
-   "location": "Amsterdam, Netherlands",
-   "place": "Amsterdam",
-   "city": "Amsterdam",
-   "opened_at": "2026-07-31T15:11:37+00:00",
-   "opened_exact": true,
-   "first_seen_at": "2026-09-06T06:59:30.174595+00:00",
-   "date_basis": "published",
-   "deadline": null,
-   "strength": "strong",
-   "stage": "graduate",
-   "desk": "quant",
-   "family": [
-    "quant"
-   ],
-   "reason": "graduate + trading",
-   "uk": false,
-   "uk_stated": false,
-   "wanted": true,
-   "tier": "A",
-   "adopted": true,
-   "late": true,
-   "key": "greenhouse:imc#4667815101",
    "pushed_at": null
   },
   {
