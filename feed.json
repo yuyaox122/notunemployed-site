@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T07:10:06.178356+00:00",
+ "generated_at": "2026-11-07T07:15:06.083028+00:00",
  "counts": {
   "items": 868,
   "strong": 868,
@@ -904,14 +904,24 @@
    "reason": "119 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:allstate/wd5/allstate_careers",
+   "firm": "Allstate Northern Ireland",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 112,
+   "n_match": 2,
+   "n_off_desk": 8,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:abglobal/wd1/alliancebernsteincareers",
    "firm": "AllianceBernstein",
    "tier": "C",
-   "kind": "no-early-careers",
+   "kind": "blocked",
    "n_total": 111,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "111 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is blocked"
   },
   {
    "key": "workday:jll/wd1/jllcareers",
@@ -1147,11 +1157,11 @@
    "key": "workday:abrdn/wd3/abrdn",
    "firm": "abrdn",
    "tier": "C",
-   "kind": "no-early-careers",
+   "kind": "blocked",
    "n_total": 59,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "59 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is blocked"
   },
   {
    "key": "workday:mfs/wd1/MFS-Careers",
@@ -1352,6 +1362,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "42 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "workday:alantra/wd3/Alantra",
+   "firm": "Alantra",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 42,
+   "n_match": 8,
+   "n_off_desk": 2,
+   "reason": "source is blocked"
   },
   {
    "key": "greenhouse:stxgroup",
@@ -1834,6 +1854,16 @@
    "reason": "source is blocked"
   },
   {
+   "key": "workday:aresmgmt/wd1/External",
+   "firm": "Ares Management",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 9,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:aviva/wd1/Aviva_Investors_External",
    "firm": "Aviva Investors",
    "tier": "C",
@@ -1939,6 +1969,16 @@
    "tier": "C",
    "kind": "blocked",
    "n_total": 2,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:virtus/wd5/VirtusCareers",
+   "firm": "AlphaSimplex",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 1,
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "source is blocked"
@@ -2193,7 +2233,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Adam Smith Institute's summer internships: the page gains an Apply here form link when they open, about January (closed 1 March 2026).",
-   "last_checked_by_bell": "2026-11-07T07:00:04.830688+00:00",
+   "last_checked_by_bell": "2026-11-07T07:15:02.359881+00:00",
    "last_change_detected": "2026-10-19T17:15:04.292970+00:00",
    "categories": [
     "corporate"
@@ -2265,7 +2305,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-11-07T07:00:15.619322+00:00",
+   "last_checked_by_bell": "2026-11-07T07:15:04.105422+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -2277,7 +2317,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-11-07T07:00:16.987238+00:00",
+   "last_checked_by_bell": "2026-11-07T07:15:05.509003+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -2301,7 +2341,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-11-07T07:00:16.997483+00:00",
+   "last_checked_by_bell": "2026-11-07T07:15:05.519065+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -6853,7 +6893,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-07T07:00"
+   "read": "2026-11-07T07:15"
   },
   {
    "firm": "Amazon",
@@ -10034,7 +10074,7 @@
    "stage": "intern",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-07T07:09"
+   "read": "2026-11-07T07:14"
   },
   {
    "firm": "Jump Crypto",
@@ -10050,7 +10090,7 @@
    "stage": "graduate",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-07T07:09"
+   "read": "2026-11-07T07:14"
   },
   {
    "firm": "Jump Trading",
@@ -10169,7 +10209,7 @@
    "stage": "graduate",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-07T07:09"
+   "read": "2026-11-07T07:14"
   },
   {
    "firm": "L'Or\u00e9al",
