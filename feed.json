@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T05:45:06.005147+00:00",
+ "generated_at": "2026-11-22T05:50:05.846470+00:00",
  "counts": {
   "items": 740,
   "strong": 740,
@@ -596,6 +596,26 @@
  },
  "gaps": [
   {
+   "key": "workday:statestreet/wd1/Global",
+   "firm": "State Street",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 2104,
+   "n_match": 45,
+   "n_off_desk": 23,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:bakerhughes/wd5/BakerHughes",
+   "firm": "Baker Hughes",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 1125,
+   "n_match": 25,
+   "n_off_desk": 39,
+   "reason": "source is blocked"
+  },
+  {
    "key": "sitemap:https://www.dunelmcareers.com/live-jobs.xml",
    "firm": "Dunelm",
    "tier": "B",
@@ -604,6 +624,16 @@
    "n_match": 0,
    "n_off_desk": 2,
    "reason": "876 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
+   "key": "workday:bpinternational/wd3/bpCareers",
+   "firm": "BP",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 774,
+   "n_match": 16,
+   "n_off_desk": 11,
+   "reason": "source is blocked"
   },
   {
    "key": "greenhouse:sumup",
@@ -636,6 +666,26 @@
    "reason": "390 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:invesco/wd1/IVZ",
+   "firm": "Invesco",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 295,
+   "n_match": 9,
+   "n_off_desk": 24,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:capgroup/wd1/capitalgroupcareers",
+   "firm": "Capital Group",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 294,
+   "n_match": 5,
+   "n_off_desk": 31,
+   "reason": "source is blocked"
+  },
+  {
    "key": "linklist:https://careers.smartrecruiters.com/TurnerTownsend/api/more?type=location&value=London%2C%20GB&page=0",
    "firm": "Turner & Townsend",
    "tier": "B",
@@ -666,6 +716,16 @@
    "reason": "source is blocked"
   },
   {
+   "key": "workday:pru/wd5/Careers",
+   "firm": "PGIM",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 198,
+   "n_match": 5,
+   "n_off_desk": 1,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:capitalone/wd12/Capital_One",
    "firm": "Capital One",
    "tier": "C",
@@ -673,6 +733,36 @@
    "n_total": 197,
    "n_match": 4,
    "n_off_desk": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:lseg/wd3/Careers",
+   "firm": "LSEG",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 194,
+   "n_match": 19,
+   "n_off_desk": 14,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:wellington/wd5/External",
+   "firm": "Wellington",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 191,
+   "n_match": 32,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:centrica/wd3/Centrica",
+   "firm": "Centrica Energy Trading",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 172,
+   "n_match": 4,
+   "n_off_desk": 7,
    "reason": "source is blocked"
   },
   {
@@ -809,11 +899,11 @@
    "key": "workday:greystar/wd1/International_Career_Site",
    "firm": "Greystar",
    "tier": "C",
-   "kind": "off-desk-only",
+   "kind": "blocked",
    "n_total": 105,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "105 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "source is blocked"
   },
   {
    "key": "oracle:fa-enor-saasfaprod1.fa.ocs.oraclecloud.com",
@@ -856,14 +946,24 @@
    "reason": "94 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:cibc/wd3/campus",
+   "firm": "CIBC Capital Markets",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 94,
+   "n_match": 15,
+   "n_off_desk": 37,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:forvismazarsuk/wd107/FM_1",
    "firm": "Forvis Mazars",
    "tier": "C",
-   "kind": "off-desk-only",
+   "kind": "blocked",
    "n_total": 94,
    "n_match": 0,
    "n_off_desk": 3,
-   "reason": "94 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "source is blocked"
   },
   {
    "key": "workday:thinkbrg/wd5/BRG_External_Career_Site",
@@ -894,6 +994,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "87 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "workday:cboe/wd1/External_Career_CBOE",
+   "firm": "Cboe Global Markets",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 81,
+   "n_match": 6,
+   "n_off_desk": 5,
+   "reason": "source is blocked"
   },
   {
    "key": "workday:gevernova/wd5/Vernova_ExternalSite",
@@ -946,14 +1056,34 @@
    "reason": "source is blocked"
   },
   {
+   "key": "workday:mfs/wd1/MFS-Careers",
+   "firm": "MFS",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 79,
+   "n_match": 1,
+   "n_off_desk": 5,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:bmo/wd3/Campus",
+   "firm": "BMO Capital Markets",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 77,
+   "n_match": 36,
+   "n_off_desk": 21,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:carlyle/wd1/Carlyle",
    "firm": "The Carlyle Group",
    "tier": "C",
-   "kind": "off-desk-only",
+   "kind": "blocked",
    "n_total": 76,
    "n_match": 0,
    "n_off_desk": 6,
-   "reason": "76 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "source is blocked"
   },
   {
    "key": "workday:cmegroup/wd1/cme_careers",
@@ -976,6 +1106,16 @@
    "reason": "75 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
   },
   {
+   "key": "workday:athene/wd5/apollononpubliccareersite",
+   "firm": "Apollo Global Management",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 75,
+   "n_match": 9,
+   "n_off_desk": 7,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:paypal/wd1/jobs",
    "firm": "PayPal",
    "tier": "C",
@@ -983,6 +1123,26 @@
    "n_total": 75,
    "n_match": 9,
    "n_off_desk": 3,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:lombardodier/wd3/Lombard_Odier_Careers",
+   "firm": "Lombard Odier",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 74,
+   "n_match": 26,
+   "n_off_desk": 5,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:pipersandler/wd501/Piper_Sandler_Careers",
+   "firm": "Piper Sandler",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 74,
+   "n_match": 7,
+   "n_off_desk": 4,
    "reason": "source is blocked"
   },
   {
@@ -1096,14 +1256,34 @@
    "reason": "58 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:barings/wd1/Barings",
+   "firm": "Barings",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 58,
+   "n_match": 2,
+   "n_off_desk": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:jd/wd103/Campus_Career_Site",
+   "firm": "JINGDONG",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 58,
+   "n_match": 3,
+   "n_off_desk": 15,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:troweprice/wd5/TRowePriceInternational",
    "firm": "T. Rowe Price",
    "tier": "C",
-   "kind": "off-desk-only",
+   "kind": "blocked",
    "n_total": 58,
    "n_match": 0,
    "n_off_desk": 1,
-   "reason": "58 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+   "reason": "source is blocked"
   },
   {
    "key": "workday:ukgrantt/wd3/TraineeCareersGrantThornton",
@@ -1113,6 +1293,16 @@
    "n_total": 55,
    "n_match": 1,
    "n_off_desk": 2,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:dimensional/wd5/DFA_Careers",
+   "firm": "Dimensional",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 54,
+   "n_match": 3,
+   "n_off_desk": 6,
    "reason": "source is blocked"
   },
   {
@@ -1134,6 +1324,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "53 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "workday:cambridgeassociates/wd5/Cambridge_Associates",
+   "firm": "Cambridge Associates",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 53,
+   "n_match": 5,
+   "n_off_desk": 2,
+   "reason": "source is blocked"
   },
   {
    "key": "workday:dowjones/wd1/Dow_Jones_Career",
@@ -1204,6 +1404,16 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "48 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+  },
+  {
+   "key": "workday:baincapital/wd1/External_Public",
+   "firm": "Bain Capital",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 48,
+   "n_match": 2,
+   "n_off_desk": 2,
+   "reason": "source is blocked"
   },
   {
    "key": "workday:markelcorp/wd5/GlobalCareers",
@@ -1486,6 +1696,16 @@
    "reason": "31 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
   },
   {
+   "key": "workday:robeco/wd3/robecoexternalcareers",
+   "firm": "Robeco",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 30,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
    "key": "linklist:https://uk-stonex.icims.com/jobs/search?ss=1&in_iframe=1",
    "firm": "StoneX",
    "tier": "B",
@@ -1504,6 +1724,16 @@
    "n_match": 0,
    "n_off_desk": 1,
    "reason": "29 postings, early-careers rows present but none on a desk we watch \u2014 check the desk vocabulary before looking for another board"
+  },
+  {
+   "key": "workday:peak6group/wd1/peak6",
+   "firm": "PEAK6",
+   "tier": "B",
+   "kind": "blocked",
+   "n_total": 29,
+   "n_match": 3,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
   },
   {
    "key": "workday:rsmuk/wd103/RSM",
@@ -1539,11 +1769,11 @@
    "key": "workday:patrizia/wd502/PATRIZIA",
    "firm": "Patrizia",
    "tier": "C",
-   "kind": "no-early-careers",
+   "kind": "blocked",
    "n_total": 28,
    "n_match": 0,
    "n_off_desk": 0,
-   "reason": "28 postings, none early-careers \u2014 campus pipeline is probably elsewhere"
+   "reason": "source is blocked"
   },
   {
    "key": "linklist:https://careers.7im.co.uk/vacancies/vacancy-search-results.aspx",
@@ -1586,6 +1816,16 @@
    "reason": "source is blocked"
   },
   {
+   "key": "workday:pnc/wd5/HarrisWilliams",
+   "firm": "Harris Williams",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 25,
+   "n_match": 4,
+   "n_off_desk": 1,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:transamerica/wd5/AUK_JobSite",
    "firm": "Aegon",
    "tier": "C",
@@ -1603,6 +1843,16 @@
    "n_total": 20,
    "n_match": 12,
    "n_off_desk": 3,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:jupiteram/wd3/jupiter_careers",
+   "firm": "Jupiter Fund Management",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 20,
+   "n_match": 0,
+   "n_off_desk": 0,
    "reason": "source is blocked"
   },
   {
@@ -1626,6 +1876,56 @@
    "reason": "source is blocked"
   },
   {
+   "key": "workday:vhr_orbis/wd3/Orbis_Careers",
+   "firm": "Orbis",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 20,
+   "n_match": 3,
+   "n_off_desk": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:just/wd3/JUST_External",
+   "firm": "Just Group",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 17,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:frontiereconomics/wd3/Frontier_Economics_Careers",
+   "firm": "Frontier Economics",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 15,
+   "n_match": 0,
+   "n_off_desk": 4,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:viterra/wd3/External-CAN",
+   "firm": "Viterra",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 15,
+   "n_match": 0,
+   "n_off_desk": 1,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:gunvor/wd3/Gunvor_Careers",
+   "firm": "Gunvor",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 14,
+   "n_match": 7,
+   "n_off_desk": 1,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:tokiomarinekiln/wd3/TMK_Careers",
    "firm": "Tokio Marine Kiln",
    "tier": "C",
@@ -1646,6 +1946,16 @@
    "reason": "source is error"
   },
   {
+   "key": "workday:edftrading/wd1/EDFTrading",
+   "firm": "EDF Trading",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 11,
+   "n_match": 1,
+   "n_off_desk": 4,
+   "reason": "source is blocked"
+  },
+  {
    "key": "workday:grosvenor/wd3/External_careers_site_Grosvenor",
    "firm": "Grosvenor",
    "tier": "C",
@@ -1653,6 +1963,46 @@
    "n_total": 11,
    "n_match": 1,
    "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:aviva/wd1/Aviva_Investors_External",
+   "firm": "Aviva Investors",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 9,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:guggenheim/wd1/Guggenheim_Careers_Campus",
+   "firm": "Guggenheim Partners",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 9,
+   "n_match": 8,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:baird/wd1/Careers",
+   "firm": "Baird",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 8,
+   "n_match": 0,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:trafigura/wd3/TrafiguraCareerSite",
+   "firm": "Trafigura",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 8,
+   "n_match": 1,
+   "n_off_desk": 1,
    "reason": "source is blocked"
   },
   {
@@ -1694,6 +2044,26 @@
    "n_match": 0,
    "n_off_desk": 0,
    "reason": "source is error"
+  },
+  {
+   "key": "workday:bailliegifford/wd3/BaillieGiffordEarlyCareers",
+   "firm": "Baillie Gifford",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 3,
+   "n_match": 2,
+   "n_off_desk": 0,
+   "reason": "source is blocked"
+  },
+  {
+   "key": "workday:freepoint/wd12/Freepoint_Commodities",
+   "firm": "Freepoint Commodities",
+   "tier": "C",
+   "kind": "blocked",
+   "n_total": 3,
+   "n_match": 0,
+   "n_off_desk": 1,
+   "reason": "source is blocked"
   },
   {
    "key": "workday:oaktree/wd1/Oaktree",
@@ -2047,7 +2417,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Amazon's UK Spring Technology Insights: open its university programmes page and look.",
-   "last_checked_by_bell": "2026-11-22T05:30:17.469711+00:00",
+   "last_checked_by_bell": "2026-11-22T05:45:05.619653+00:00",
    "last_change_detected": "2026-10-19T17:15:23.953610+00:00",
    "categories": [
     "tech"
@@ -2059,7 +2429,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "APR's Actuarial Insight Programme opens 19 Oct 2026 and closes 16 Nov 2026, on a form on aprllp.com.",
-   "last_checked_by_bell": "2026-11-22T05:30:19.026165+00:00",
+   "last_checked_by_bell": "2026-11-22T05:45:07.039796+00:00",
    "last_change_detected": "2026-10-17T14:30:24.172386+00:00",
    "categories": [
     "insurance"
@@ -2071,7 +2441,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open aramcotrading.com's how-to-apply page for the London Summer Intern (last opened 21 May 2026).",
-   "last_checked_by_bell": "2026-11-22T05:38:18.438645+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:21.184759+00:00",
    "last_change_detected": "2026-10-19T17:22:10.302310+00:00",
    "categories": [
     "commodities"
@@ -2083,7 +2453,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its insight day (last cycle 8 March) is expected on its apptrkr campaign, which bell reads since 2026-10-15 but has not yet seen it on: open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:30:19.035070+00:00",
+   "last_checked_by_bell": "2026-11-22T05:45:07.049266+00:00",
    "last_change_detected": "2026-10-14T09:45:09.192530+00:00",
    "categories": [
     "advisory"
@@ -2095,7 +2465,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Exploring Ares: Diversity in Alternative Investing, Ares's London first-year programme, opened 22 January 2026 (closed 8 February) in its apptrkr campaign: open Ares's campus recruiting page from late January and follow its apptrkr link.",
-   "last_checked_by_bell": "2026-11-22T05:38:19.019770+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:21.782579+00:00",
    "last_change_detected": "2026-11-19T15:52:13.582287+00:00",
    "categories": [
     "quant_fund"
@@ -2119,7 +2489,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open augustaco.com/careers for the Investment Banking Analyst internship (last opened 25 Nov 2025, by email).",
-   "last_checked_by_bell": "2026-11-22T05:38:19.073375+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:21.834075+00:00",
    "last_change_detected": "2026-10-19T17:22:11.489696+00:00",
    "categories": [
     "advisory"
@@ -2179,7 +2549,7 @@
    "kind": "manual",
    "stage": "intern",
    "why": "Applications through the firm's own form; no vacancy list.",
-   "last_checked_by_bell": "2026-11-22T05:30:41.674999+00:00",
+   "last_checked_by_bell": "2026-11-22T05:45:20.557532+00:00",
    "last_change_detected": "2026-11-08T00:00:45.369478+00:00",
    "categories": [
     "crypto_mm",
@@ -2216,7 +2586,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Open britishland.com/careers/early-careers and /search-apply for the Insight Programme (last opened 27 January 2026).",
-   "last_checked_by_bell": "2026-11-22T05:31:20.515690+00:00",
+   "last_checked_by_bell": "2026-11-22T05:45:50.456093+00:00",
    "last_change_detected": "2026-10-16T20:31:54.644600+00:00",
    "categories": [
     "real_estate"
@@ -2240,7 +2610,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Cabot's London Investments/Asset Management Intern (last opened 14 Nov 2025): open its careers page's Open Positions (Paylocity) and look.",
-   "last_checked_by_bell": "2026-11-22T05:38:33.655317+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:27.028844+00:00",
    "last_change_detected": "2026-10-19T17:22:32.329140+00:00",
    "categories": [
     "real_estate"
@@ -2264,7 +2634,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its Private Equity Spring Insight (London) is applied for on the firm's apptrkr campaign; last cycle 9 Dec to 22 Jan.",
-   "last_checked_by_bell": "2026-11-22T05:38:36.052334+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:27.675777+00:00",
    "last_change_detected": "2026-10-19T17:22:46.348746+00:00",
    "categories": [
     "private_equity"
@@ -2276,7 +2646,7 @@
    "kind": "manual",
    "stage": "intern",
    "why": "No board bell can read: applications go through an upload form and an agency's tracker.",
-   "last_checked_by_bell": "2026-11-22T05:31:28.653748+00:00",
+   "last_checked_by_bell": "2026-11-22T05:45:51.334740+00:00",
    "last_change_detected": "2026-10-09T09:45:58.732955+00:00",
    "categories": [
     "advisory"
@@ -2300,7 +2670,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Charles Taylor's summer internships (last opened 23 Feb 2025): open its vacancies page, filter by Internship.",
-   "last_checked_by_bell": "2026-11-22T05:38:36.526838+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:28.287692+00:00",
    "last_change_detected": "2026-10-19T17:22:47.957114+00:00",
    "categories": [
     "insurance"
@@ -2324,7 +2694,7 @@
    "kind": "manual",
    "stage": "intern",
    "why": "Citadel's London internships and Discover Citadel (its first-year programme) are on www.citadel.com/careers/ (programmes under /careers/programs-and-events/): open it and look for this cycle's roles.",
-   "last_checked_by_bell": "2026-11-22T05:31:32.459928+00:00",
+   "last_checked_by_bell": "2026-11-22T05:45:52.473233+00:00",
    "last_change_detected": "2026-09-07T17:27:52.536866+00:00",
    "categories": [
     "quant_fund"
@@ -2336,7 +2706,7 @@
    "kind": "manual",
    "stage": "intern",
    "why": "Citadel Securities' London internships and Discover Citadel Securities are on www.citadelsecurities.com/careers/: open it and look for this cycle's roles.",
-   "last_checked_by_bell": "2026-11-22T05:31:42.723784+00:00",
+   "last_checked_by_bell": "2026-11-22T05:46:02.563181+00:00",
    "last_change_detected": "2026-09-07T17:27:52.537398+00:00",
    "categories": [
     "prop"
@@ -2360,7 +2730,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open the careers page's Current vacancies (and Greenhouse EU climateinvestment, in case it returns).",
-   "last_checked_by_bell": "2026-11-22T05:38:37.289961+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:28.942489+00:00",
    "last_change_detected": "2026-10-19T17:22:50.114109+00:00",
    "categories": [
     "private_equity"
@@ -2408,7 +2778,7 @@
    "kind": "manual",
    "stage": null,
    "why": "DCL's summer internships (last opened 12 Feb 2025) are by email or form: open its work-with-us page.",
-   "last_checked_by_bell": "2026-11-22T05:38:37.679290+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:29.462214+00:00",
    "last_change_detected": "2026-10-19T17:23:00.073854+00:00",
    "categories": [
     "insurance"
@@ -2420,7 +2790,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Spring into Deloitte (Finance: Inspiring Women, Manchester; Advisory, London) opens 9 Nov 2026 on its Avature portal.",
-   "last_checked_by_bell": "2026-11-22T05:31:59.239940+00:00",
+   "last_checked_by_bell": "2026-11-22T05:46:06.984687+00:00",
    "last_change_detected": "2026-10-16T20:32:41.049225+00:00",
    "categories": [
     "professional_services"
@@ -2444,7 +2814,7 @@
    "kind": "manual",
    "stage": null,
    "why": "E.ON's UK trading internships in Coventry (last cycle Structured Trading Intern and Short-Term Trading Intern) are posted on its SuccessFactors careers site under careers.eon.com/uk/job/: search it for 'trading intern'.",
-   "last_checked_by_bell": "2026-11-22T05:38:37.682764+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:29.465686+00:00",
    "last_change_detected": "2026-11-11T23:07:20.258612+00:00",
    "categories": [
     "commodities"
@@ -2456,7 +2826,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open enstarearlycareers.ambertrack.co.uk and careers.enstargroup.com for the London Summer Internship Programme (last opened 9 Apr 2026).",
-   "last_checked_by_bell": "2026-11-22T05:38:52.312793+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:44.000079+00:00",
    "last_change_detected": "2026-10-19T17:23:01.238900+00:00",
    "categories": [
     "insurance"
@@ -2504,7 +2874,7 @@
    "kind": "manual",
    "stage": null,
    "why": "First Wealth's Summer Internship: last posted late October 2024 on its careers page (#jobs), applied for by email; check the page by hand.",
-   "last_checked_by_bell": "2026-11-22T05:32:11.169262+00:00",
+   "last_checked_by_bell": "2026-11-22T05:46:13.199785+00:00",
    "last_change_detected": "2026-10-19T17:17:51.567511+00:00",
    "categories": [
     "asset_manager"
@@ -2516,7 +2886,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its venture capital micro-internships are taken through a Microsoft Form; there is no board.",
-   "last_checked_by_bell": "2026-11-22T05:33:34.083947+00:00",
+   "last_checked_by_bell": "2026-11-22T05:46:13.210012+00:00",
    "last_change_detected": "2026-10-16T20:32:53.510749+00:00",
    "categories": [
     "private_equity"
@@ -2528,7 +2898,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "G-Research's Spring into Quant Finance: open its page and look; applications are a form, not a vacancy.",
-   "last_checked_by_bell": "2026-11-22T05:33:44.191878+00:00",
+   "last_checked_by_bell": "2026-11-22T05:46:23.952836+00:00",
    "last_change_detected": "2026-11-01T22:47:17.218762+00:00",
    "categories": [
     "quant_fund"
@@ -2552,7 +2922,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Its internship applications go through a chat widget (impress.ai), and its SuccessFactors board holds experienced roles only: open the programmes page and look for the GIC Internship Programme (opened June last cycle) and GIC INSPIRES, a women's mentorship for penultimate years (opened 1 Dec last cycle).",
-   "last_checked_by_bell": "2026-11-22T05:33:59.884077+00:00",
+   "last_checked_by_bell": "2026-11-22T05:46:27.207400+00:00",
    "last_change_detected": "2026-10-16T20:32:59.094580+00:00",
    "categories": [
     "asset_manager"
@@ -2576,7 +2946,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open gneiss.energy/careers for the summer internship (last opened 22 Dec 2025).",
-   "last_checked_by_bell": "2026-11-22T05:38:56.933488+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:46.586054+00:00",
    "last_change_detected": "2026-10-19T17:23:07.044644+00:00",
    "categories": [
     "advisory"
@@ -2588,7 +2958,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Their board is higher.gs.com/roles and robots.txt disallows it.",
-   "last_checked_by_bell": "2026-11-22T05:33:59.887506+00:00",
+   "last_checked_by_bell": "2026-11-22T05:46:27.211153+00:00",
    "last_change_detected": "2026-09-07T17:28:27.683999+00:00",
    "categories": [
     "bank"
@@ -2612,7 +2982,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open hartreepartners.com/careers for London internships.",
-   "last_checked_by_bell": "2026-11-22T05:38:58.571354+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:46.769256+00:00",
    "last_change_detected": "2026-10-19T17:23:10.984447+00:00",
    "categories": [
     "commodities"
@@ -2624,7 +2994,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Open Howden's insight-programmes page for Adventure: Exploring Reinsurance (last opened 16 Mar 2026).",
-   "last_checked_by_bell": "2026-11-22T05:38:58.574681+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:46.772833+00:00",
    "last_change_detected": "2026-10-19T17:23:10.989949+00:00",
    "categories": [
     "insurance"
@@ -2648,7 +3018,7 @@
    "kind": "manual",
    "stage": null,
    "why": "iAM Capital's summer internship is by email; there is no page to read.",
-   "last_checked_by_bell": "2026-11-22T05:38:58.578023+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:46.776436+00:00",
    "last_change_detected": "2026-10-19T17:23:10.995724+00:00",
    "categories": [
     "asset_manager"
@@ -2660,7 +3030,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Infinitum's internship is by email; there is no page to read.",
-   "last_checked_by_bell": "2026-11-22T05:38:59.136070+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:47.357261+00:00",
    "last_change_detected": "2026-10-19T17:23:11.821778+00:00",
    "categories": [
     "advisory"
@@ -2672,7 +3042,7 @@
    "kind": "manual",
    "stage": null,
    "why": "The IFS's Economic Research Summer Intern: open its jobs page and look; applications are on Applied, closing 17 January 2027.",
-   "last_checked_by_bell": "2026-11-22T05:34:12.934074+00:00",
+   "last_checked_by_bell": "2026-11-22T05:46:29.244231+00:00",
    "last_change_detected": "2026-11-01T22:47:30.717857+00:00",
    "categories": [
     "corporate"
@@ -2708,7 +3078,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "KPMG's insight programmes are on its own vacancy search, which bell may not filter: open the undergraduate page and look.",
-   "last_checked_by_bell": "2026-11-22T05:39:08.049009+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:47.942970+00:00",
    "last_change_detected": "2026-10-19T17:23:22.588743+00:00",
    "categories": [
     "professional_services"
@@ -2792,7 +3162,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Macro Hive's Summer Internship \u2013 Sales & Trading (2026's opened 15 April 2026) has no page on the firm's own site; check macrohive.com from April.",
-   "last_checked_by_bell": "2026-11-22T05:39:08.475851+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:48.383292+00:00",
    "last_change_detected": "2026-10-19T17:23:37.465959+00:00",
    "categories": [
     "quant_fund"
@@ -2804,7 +3174,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Future Black Leaders (last opened 27 January 2026), the Future Talent Programme (4 February) and McKinsey Discover (1 March) are on mckinsey.com, which does not answer bell: open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:35:23.022154+00:00",
+   "last_checked_by_bell": "2026-11-22T05:47:23.792960+00:00",
    "last_change_detected": "2026-10-16T20:34:41.452674+00:00",
    "categories": [
     "consulting"
@@ -2852,7 +3222,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its campus programmes are read from www.morganstanley.com's own list since 2026-10-15; the London spring insights have not yet been seen there (they opened in January last cycle): open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:35:38.280731+00:00",
+   "last_checked_by_bell": "2026-11-22T05:47:38.665045+00:00",
    "last_change_detected": "2026-09-07T17:28:47.087213+00:00",
    "categories": [
     "bank"
@@ -2888,7 +3258,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its careers host answers 403 to an honest user agent and its Workday site disallows crawlers: open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:35:49.950867+00:00",
+   "last_checked_by_bell": "2026-11-22T05:47:41.795778+00:00",
    "last_change_detected": "2026-10-14T10:02:52.715332+00:00",
    "categories": [
     "bank"
@@ -2912,7 +3282,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its campus board is read since 2026-10-15, but it has answered a proof-of-work bot check bell does not solve on and off: open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:36:00.996661+00:00",
+   "last_checked_by_bell": "2026-11-22T05:47:57.357473+00:00",
    "last_change_detected": "2026-10-14T09:33:26.338395+00:00",
    "categories": [
     "bank"
@@ -2948,7 +3318,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Applications by email only; no vacancy list on the careers page.",
-   "last_checked_by_bell": "2026-11-22T05:36:01.068360+00:00",
+   "last_checked_by_bell": "2026-11-22T05:47:57.437155+00:00",
    "last_change_detected": "2026-10-05T20:32:14.041435+00:00",
    "categories": [
     "commodities"
@@ -2960,7 +3330,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Pacific AM's internships (first and second years): last opened about 17 December 2025, by a form on its internships page.",
-   "last_checked_by_bell": "2026-11-22T05:39:13.833761+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:51.955390+00:00",
    "last_change_detected": "2026-10-19T17:23:46.377310+00:00",
    "categories": [
     "asset_manager"
@@ -2996,7 +3366,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its Summer Work Placement (last opened 10 December 2025) is on an Eploy board behind a bot challenge: open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:36:51.036771+00:00",
+   "last_checked_by_bell": "2026-11-22T05:48:18.973621+00:00",
    "last_change_detected": "2026-10-16T20:36:07.861070+00:00",
    "categories": [
     "professional_services"
@@ -3020,7 +3390,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its readable board (the Jibe front) held no UK roles of 155, and its iCIMS host refuses everyone.",
-   "last_checked_by_bell": "2026-11-22T05:36:51.524074+00:00",
+   "last_checked_by_bell": "2026-11-22T05:48:19.499441+00:00",
    "last_change_detected": "2026-10-16T20:36:08.480635+00:00",
    "categories": [
     "asset_manager"
@@ -3032,7 +3402,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its UK spring programmes are on GTI, whose robots.txt refuses every crawler: open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:36:55.216281+00:00",
+   "last_checked_by_bell": "2026-11-22T05:48:20.819345+00:00",
    "last_change_detected": "2026-10-14T10:03:42.526159+00:00",
    "categories": [
     "bank"
@@ -3044,7 +3414,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its Spring into Rede programme is applied for on a recruiter's campaign page bell cannot list: open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:36:55.527885+00:00",
+   "last_checked_by_bell": "2026-11-22T05:48:21.125793+00:00",
    "last_change_detected": "2026-10-15T21:49:15.847014+00:00",
    "categories": [
     "advisory"
@@ -3092,7 +3462,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Its RCM Internship Programme (last opened 1 Nov) is applied for on a recruiter's apptrkr campaign whose name is known only once it opens: open the careers page and look.",
-   "last_checked_by_bell": "2026-11-22T05:36:56.902623+00:00",
+   "last_checked_by_bell": "2026-11-22T05:48:21.323652+00:00",
    "last_change_detected": "2026-10-17T14:35:09.747872+00:00",
    "categories": [
     "quant_fund"
@@ -3104,7 +3474,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open saltgate.com's student page and its PeopleHR board for the Summer Programme (last opened 16 Feb 2026).",
-   "last_checked_by_bell": "2026-11-22T05:39:17.884307+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:53.794501+00:00",
    "last_change_detected": "2026-10-19T17:24:02.149416+00:00",
    "categories": [
     "professional_services"
@@ -3116,7 +3486,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Its spring insight programme is on a script-built Clevry site bell cannot read: open it and look.",
-   "last_checked_by_bell": "2026-11-22T05:37:12.531998+00:00",
+   "last_checked_by_bell": "2026-11-22T05:48:39.485657+00:00",
    "last_change_detected": "2026-10-14T10:03:59.514165+00:00",
    "categories": [
     "bank"
@@ -3152,7 +3522,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open singercm.com/careers for Internships / Work Experience (CVs by email).",
-   "last_checked_by_bell": "2026-11-22T05:39:18.158235+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:54.059781+00:00",
    "last_change_detected": "2026-10-19T17:24:02.659969+00:00",
    "categories": [
     "advisory"
@@ -3176,7 +3546,7 @@
    "kind": "manual",
    "stage": "spring",
    "why": "Open careers.sky.com/earlycareers/internships and look for the Females into Finance and Black Heritage insight weeks and their apply links.",
-   "last_checked_by_bell": "2026-11-22T05:37:17.952805+00:00",
+   "last_checked_by_bell": "2026-11-22T05:48:41.569324+00:00",
    "last_change_detected": "2026-10-16T20:37:01.027631+00:00",
    "categories": [
     "corporate"
@@ -3188,7 +3558,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Sompo's UK summer internship (opens about Oct-Nov): open its early-careers page and look.",
-   "last_checked_by_bell": "2026-11-22T05:39:18.433103+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:54.337142+00:00",
    "last_change_detected": "2026-10-19T17:24:04.261026+00:00",
    "categories": [
     "insurance"
@@ -3200,7 +3570,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open Sona's apptrkr campaign (and sona-am.com) for the London Summer Intern Programme.",
-   "last_checked_by_bell": "2026-11-22T05:39:19.603977+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:54.531184+00:00",
    "last_change_detected": "2026-10-19T17:24:05.681052+00:00",
    "categories": [
     "quant_fund"
@@ -3248,7 +3618,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open stolt-nielsen.com/careers for the London Corporate Development & CVC internship.",
-   "last_checked_by_bell": "2026-11-22T05:39:19.703366+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:54.638295+00:00",
    "last_change_detected": "2026-10-19T17:24:05.836500+00:00",
    "categories": [
     "corporate"
@@ -3260,7 +3630,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open sucdenfinancial.com careers for London internships.",
-   "last_checked_by_bell": "2026-11-22T05:39:20.757857+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:55.722910+00:00",
    "last_change_detected": "2026-10-19T17:24:07.620216+00:00",
    "categories": [
     "commodities"
@@ -3320,7 +3690,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Open last cycle's Google Form (and vericorcapital.co.uk) for the Search Fund Intern Program (last opened 30 Apr 2026).",
-   "last_checked_by_bell": "2026-11-22T05:39:28.069310+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:58.636216+00:00",
    "last_change_detected": "2026-10-19T17:24:16.556067+00:00",
    "categories": [
     "private_equity"
@@ -3332,7 +3702,7 @@
    "kind": "manual",
    "stage": null,
    "why": "Walter Scott's Edinburgh internship opens about mid-August by email: open its careers page.",
-   "last_checked_by_bell": "2026-11-22T05:39:28.072877+00:00",
+   "last_checked_by_bell": "2026-11-22T05:49:58.639906+00:00",
    "last_change_detected": "2026-10-19T17:24:16.561766+00:00",
    "categories": [
     "asset_manager"
@@ -6914,7 +7284,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:30"
+   "read": "2026-11-22T05:45"
   },
   {
    "firm": "American Express",
@@ -7448,7 +7818,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:30"
+   "read": "2026-11-22T05:45"
   },
   {
    "firm": "Barclays",
@@ -7530,7 +7900,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:30"
+   "read": "2026-11-22T05:45"
   },
   {
    "firm": "BCG",
@@ -7566,7 +7936,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:30"
+   "read": "2026-11-22T05:45"
   },
   {
    "firm": "BDO",
@@ -7717,7 +8087,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:31"
+   "read": "2026-11-22T05:45"
   },
   {
    "firm": "Bloomberg",
@@ -7925,7 +8295,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:45"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Bridgewater",
@@ -8126,7 +8496,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:31"
+   "read": "2026-11-22T05:45"
   },
   {
    "firm": "Capula",
@@ -8318,7 +8688,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:31"
+   "read": "2026-11-22T05:45"
   },
   {
    "firm": "CIBC Capital Markets",
@@ -8620,7 +8990,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:31"
+   "read": "2026-11-22T05:46"
   },
   {
    "firm": "Dare",
@@ -8764,7 +9134,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:44"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "DRW",
@@ -9487,7 +9857,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:33"
+   "read": "2026-11-22T05:46"
   },
   {
    "firm": "GIC",
@@ -9503,7 +9873,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:44"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Glencore UK",
@@ -10346,7 +10716,7 @@
    "stage": "intern",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:44"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Jump Crypto",
@@ -10362,14 +10732,14 @@
    "stage": "graduate",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:44"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Jump Trading",
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:44"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Jump Trading",
@@ -10501,14 +10871,14 @@
    "stage": "graduate",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:44"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "L'Or\u00e9al",
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:39"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "L'Or\u00e9al",
@@ -10636,7 +11006,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:34"
+   "read": "2026-11-22T05:46"
   },
   {
    "firm": "Lendable",
@@ -10675,7 +11045,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:39"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Liberty Global",
@@ -10755,7 +11125,7 @@
    "stage": "intern",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:39"
+   "read": "2026-11-22T05:50"
   },
   {
    "firm": "LionTree",
@@ -10947,7 +11317,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:39"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Marex",
@@ -11002,7 +11372,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:35"
+   "read": "2026-11-22T05:47"
   },
   {
    "firm": "Marsh McLennan",
@@ -11035,7 +11405,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:44"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Marshall Wace",
@@ -11181,7 +11551,7 @@
    "stage": "placement",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:35"
+   "read": "2026-11-22T05:47"
   },
   {
    "firm": "Metrea",
@@ -11211,7 +11581,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:35"
+   "read": "2026-11-22T05:47"
   },
   {
    "firm": "Millennium",
@@ -11289,7 +11659,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:35"
+   "read": "2026-11-22T05:47"
   },
   {
    "firm": "MongoDB",
@@ -11310,7 +11680,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:39"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Moody's",
@@ -11683,7 +12053,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:39"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Oliver Wyman",
@@ -11775,7 +12145,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:36"
+   "read": "2026-11-22T05:47"
   },
   {
    "firm": "Oxford Properties Group",
@@ -11868,7 +12238,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:38"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Palantir",
@@ -12642,7 +13012,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:37"
+   "read": "2026-11-22T05:48"
   },
   {
    "firm": "Schroders",
@@ -12748,7 +13118,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:37"
+   "read": "2026-11-22T05:48"
   },
   {
    "firm": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
@@ -13370,7 +13740,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:37"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Two Sigma",
@@ -13563,7 +13933,7 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:37"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "Wellington",
@@ -13697,14 +14067,14 @@
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:38"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "WorldQuant",
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:44"
+   "read": "2026-11-22T05:49"
   },
   {
    "firm": "WorldQuant",
@@ -13802,14 +14172,14 @@
    "stage": "intern",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:39"
+   "read": "2026-11-22T05:50"
   },
   {
    "firm": "ZS",
    "stage": "spring",
    "cycle": 2027,
    "state": "unseen",
-   "read": "2026-11-22T05:39"
+   "read": "2026-11-22T05:50"
   },
   {
    "firm": "ZS",
